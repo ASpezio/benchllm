@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var t="light";try{t=localStorage.getItem("fop-theme")||"light"}catch(e){}document.documentElement.setAttribute("data-theme",t)})();</script>
+<title>SyllaBench · граф понятий</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:wght@700&display=swap">
+<link rel="stylesheet" href="../../navigator/katex/katex.min.css">
+<style>
+:root {
+  --bg: #e9edf1; --panel: #f7f9fb; --ink: #18222d; --muted: #5a6676; --line: #d3dae2;
+  --accent: #1e4c7e; --accent-soft: #dce6f1; --warn: #9b3424; --warn-bg: #f5e0db; --ok: #24603f; --ok-bg: #d9ede2;
+  --canvas: #fdfdfe; --edge: #8593a3; --node: #34465a;
+  --f-display: "PT Serif", Georgia, serif; --f-body: "PT Sans", "Segoe UI", Roboto, Arial, sans-serif; --f-mono: "PT Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --bg: #11161c; --panel: #182029; --ink: #e2e8ee; --muted: #94a2b1; --line: #29343f;
+  --accent: #86b4e8; --accent-soft: #1d2f44; --warn: #f19a87; --warn-bg: #3d1f19; --ok: #86cfa8; --ok-bg: #163224;
+  --canvas: #141b23; --edge: #6d7d8f; --node: #b9c6d3;
+  color-scheme: dark;
+}
+[hidden] { display: none !important; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.45 var(--f-body); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.app { height: 100%; display: grid; grid-template-columns: minmax(280px, 360px) minmax(0, 1fr) minmax(300px, 400px); grid-template-rows: auto minmax(0, 1fr); gap: 12px; padding: 12px 16px; }
+header { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+header h1 { font: 700 19px/1.2 var(--f-display); margin: 0 8px 0 0; }
+header .sub { color: var(--muted); font-size: 13px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; background: var(--panel); }
+.seg button { border: 0; background: none; padding: 4px 11px; cursor: pointer; font-size: 13.5px; }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
+.btn { border: 1px solid var(--line); background: var(--panel); border-radius: 7px; padding: 4px 11px; cursor: pointer; font-size: 13.5px; }
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.spacer { flex: 1; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
+.side-head { padding: 10px 12px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+.side-head input { width: 100%; padding: 7px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); }
+.list { overflow: auto; padding: 6px 4px 14px; }
+.grp { padding: 8px 8px 4px; }
+.grp-h { display: flex; gap: 6px; align-items: baseline; cursor: pointer; border: 0; background: none; text-align: left; padding: 0; width: 100%; }
+.grp-h .code { font-family: var(--f-mono); color: var(--accent); font-size: 12.5px; flex: none; }
+.grp-h .t { font-size: 13px; color: var(--muted); }
+.grp-h:hover .t { color: var(--ink); }
+.sec { padding: 12px 8px 2px; font: 700 13.5px/1.3 var(--f-display); }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+.cc { border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 0 8px 0 6px; font-size: 12.5px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; max-width: 100%; }
+.ico { width: 12px; height: 12px; flex: none; fill: currentColor; color: var(--node); overflow: visible; }
+.ico.hollow { fill: none; stroke: currentColor; stroke-width: .36; }
+.cc[aria-current="true"] .ico { color: var(--accent); }
+#legend .cc { gap: 6px; } #legend .ico { width: 14px; height: 14px; }
+.cc span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cc[aria-current="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.cc.dim { opacity: .35; }
+.mid { position: relative; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.toolbar label { font-size: 13px; display: inline-flex; gap: 4px; align-items: center; cursor: pointer; }
+.toolbar .lg { width: 18px; height: 0; border-top: 2px solid; display: inline-block; }
+#cy { flex: 1; min-height: 0; background: var(--canvas); }
+.hint { position: absolute; left: 12px; bottom: 10px; font-size: 12.5px; color: var(--muted); pointer-events: none; }
+.card { overflow: auto; padding: 14px 16px; display: grid; gap: 10px; align-content: start; }
+.card h2 { font: 700 18px/1.25 var(--f-display); margin: 0; }
+.chip { display: inline-block; font-size: 11.5px; line-height: 1.5; padding: 0 7px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.chip.warn { background: var(--warn-bg); color: var(--warn); }
+.chip.ok { background: var(--ok-bg); color: var(--ok); }
+.meta { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.blk { display: grid; gap: 5px; }
+.blk > b { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.ev { font-size: 13.5px; border-left: 3px solid var(--line); padding: 2px 0 2px 9px; }
+.ev a { color: var(--accent); font-family: var(--f-mono); font-size: 12px; text-decoration: none; }
+.ev a:hover { text-decoration: underline; }
+.ev q { color: var(--muted); }
+.ev q::before, .ev q::after { content: "«"; } .ev q::after { content: "»"; }
+.rel { font-size: 13.5px; display: grid; gap: 6px; }
+.rel > div { display: grid; gap: 1px; }
+.rel button { border: 0; background: none; padding: 0; text-align: left; color: var(--accent); cursor: pointer; }
+.rel button:hover { text-decoration: underline; }
+.rel small { color: var(--muted); }
+.rel .ord { color: var(--warn); font-weight: 700; }
+.fx { font-size: 15px; overflow-x: auto; }
+.empty { color: var(--muted); font-size: 14px; }
+@media (max-width: 1100px) { .app { grid-template-columns: 1fr; grid-template-rows: auto 40vh 60vh auto; height: auto; } #cy { min-height: 55vh; } }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>SyllaBench · граф понятий</h1>
+    <span class="sub">пилот: понятия из элементов кодификатора и связи между ними</span>
+    <div class="seg" id="sets" role="group" aria-label="Набор"></div>
+    <span class="spacer"></span>
+    <a class="btn" href="../../navigator/" style="text-decoration:none">Навигатор приказа →</a>
+    <button class="btn" id="theme" type="button"></button>
+  </header>
+
+  <section class="panel" aria-label="Понятия по элементам">
+    <div class="side-head">
+      <input id="q" type="search" placeholder="Найти понятие: «плотность», «Хаммурапи»…" autocomplete="off">
+      <div class="meta" id="legend"></div>
+    </div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section class="panel mid" aria-label="Граф">
+    <div class="toolbar">
+      <div class="seg" id="modes" role="group" aria-label="Что показать"></div>
+      <span class="spacer"></span>
+      <span id="reltoggles" class="meta"></span>
+    </div>
+    <div id="cy"></div>
+    <div class="hint" id="hint"></div>
+  </section>
+
+  <section class="panel card" id="card" aria-live="polite"></section>
+</div>
+
+<script src="../../navigator/katex/katex.min.js"></script>
+<script src="lib/cytoscape.min.js"></script>
+<script src="lib/dagre.min.js"></script>
+<script src="lib/cytoscape-dagre.js"></script>
+<script type="application/json" id="data">/*__DATA__*/</script>
+<script>
+(function () {
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  // Тип понятия кодируется формой узла — одна и та же фигура в графе, списке, легенде и карточке.
+  // Точки многоугольников в квадрате [-1, 1], ось y вниз (так их понимают и Cytoscape, и SVG).
+  const STAR = (() => { const p = []; for (let k = 0; k < 10; k++) { const a = -Math.PI / 2 + k * Math.PI / 5, r = k % 2 ? 0.42 : 1; p.push(+(r * Math.cos(a)).toFixed(3), +(r * Math.sin(a) + 0.1).toFixed(3)); } return p; })();
+  const SHAPES = {
+    circle:  {},
+    ring:    { hollow: true },
+    square:  { pts: [-0.82, -0.82, 0.82, -0.82, 0.82, 0.82, -0.82, 0.82] },
+    diamond: { pts: [0, -1, 1, 0, 0, 1, -1, 0] },
+    tri:     { pts: [0, -0.95, 1, 0.85, -1, 0.85] },
+    tridown: { pts: [-1, -0.85, 1, -0.85, 0, 0.95] },
+    star:    { pts: STAR },
+    plus:    { pts: [-0.32, -1, 0.32, -1, 0.32, -0.32, 1, -0.32, 1, 0.32, 0.32, 0.32, 0.32, 1, -0.32, 1, -0.32, 0.32, -1, 0.32, -1, -0.32, -0.32, -0.32] },
+    arrow:   { pts: [-1, -0.7, 0.2, -0.7, 1, 0, 0.2, 0.7, -1, 0.7] },
+    shield:  { pts: [-0.85, -0.95, 0.85, -0.95, 0.85, 0.2, 0, 1, -0.85, 0.2] },
+    bar:     { pts: [-1, -0.45, 1, -0.45, 1, 0.45, -1, 0.45] }
+  };
+  const TYPE_SHAPE = {
+    // история
+    "событие": "circle", "процесс": "arrow", "личность": "diamond", "государство_народ": "shield", "место": "plus",
+    "документ": "square", "термин": "ring", "памятник_культуры": "tri", "религия_верование": "star", "период": "bar",
+    // физика
+    "явление": "circle", "природное_явление": "tridown", "величина": "square", "закон": "star", "модель": "diamond",
+    "опыт": "tri", "прибор": "plus", "понятие": "ring"
+  };
+  const shapeOf = t => SHAPES[TYPE_SHAPE[t]] ? TYPE_SHAPE[t] : "circle";
+  function icon(t) {
+    const s = SHAPES[shapeOf(t)];
+    const body = s.pts ? `<polygon points="${s.pts.join(" ")}"/>` : `<circle r="${s.hollow ? 0.8 : 0.95}"/>`;
+    return `<svg class="ico${s.hollow ? " hollow" : ""}" viewBox="-1.15 -1.15 2.3 2.3" aria-hidden="true">${body}</svg>`;
+  }
+  const TYPE_RU = { "государство_народ": "государство / народ", "памятник_культуры": "памятник культуры", "религия_верование": "религия", "природное_явление": "явление в природе" };
+  const REL = {
+    prerequisites_for: { ru: "нужно знать до", out: "нужно для", inn: "опирается на", color: "#1e6fc4", style: "solid" },
+    is_a: { ru: "является видом", out: "вид понятия", inn: "виды", color: "#7a7f87", style: "dashed" },
+    part_of: { ru: "часть", out: "входит в", inn: "состоит из", color: "#5d8f3a", style: "dotted" },
+    participant_of: { ru: "участник", out: "участвовал в", inn: "участники", color: "#2f7d8c", style: "solid" },
+    verifies: { ru: "опыт подтверждает", out: "подтверждает", inn: "подтверждается опытами", color: "#8c5aa8", style: "solid" }
+  };
+  const MODES = [["near", "окрестность"], ["pre", "что нужно знать до"], ["post", "что на это опирается"], ["el", "весь элемент"]];
+  let set = null, focus = null, mode = "near", relOn = new Set(Object.keys(REL)), cy = null;
+
+  // ---------- тема
+  const themeBtn = document.getElementById("theme");
+  function applyTheme(t, save) {
+    document.documentElement.setAttribute("data-theme", t);
+    themeBtn.textContent = t === "dark" ? "☀ Светлая тема" : "☾ Тёмная тема";
+    if (save) { try { localStorage.setItem("fop-theme", t); } catch (_) {} }
+    if (cy) cy.style(cyStyle());
+  }
+  themeBtn.onclick = () => applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark", true);
+
+  const cssv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  function mathHTML(s) {
+    return String(s).split("$").map((p, i) => i % 2 ? (window.katex ? katex.renderToString(p, { throwOnError: false, strict: "ignore" }) : esc(p)) : esc(p)).join("");
+  }
+  const tex = f => window.katex ? katex.renderToString(f, { throwOnError: false, strict: "ignore", displayMode: false }) : esc(f);
+
+  // ---------- наборы
+  const setsEl = document.getElementById("sets");
+  setsEl.innerHTML = DATA.sets.map(s => `<button type="button" data-set="${s.key}">${esc(s.name)}</button>`).join("");
+  setsEl.onclick = e => { const b = e.target.closest("[data-set]"); if (b) selectSet(b.dataset.set); };
+  const modesEl = document.getElementById("modes");
+  modesEl.innerHTML = MODES.map(([k, l]) => `<button type="button" data-mode="${k}">${l}</button>`).join("");
+  modesEl.onclick = e => { const b = e.target.closest("[data-mode]"); if (b) { mode = b.dataset.mode; drawGraph(); } };
+
+  function selectSet(key) {
+    set = DATA.sets.find(s => s.key === key);
+    set.byId = set.concepts;
+    set.out = {}; set.inn = {};
+    set.rels.forEach(r => { (set.out[r[0]] = set.out[r[0]] || []).push(r); (set.inn[r[1]] = set.inn[r[1]] || []).push(r); });
+    set.elById = Object.fromEntries(set.elements.map(e => [e.id, e]));
+    [...setsEl.children].forEach(b => b.setAttribute("aria-pressed", String(b.dataset.set === key)));
+    const relTypes = Object.keys(REL).filter(t => set.rels.some(r => r[2] === t));
+    document.getElementById("reltoggles").innerHTML = relTypes.map(t => `<label><input type="checkbox" data-rel="${t}" ${relOn.has(t) ? "checked" : ""}><span class="lg" style="border-top-style:${REL[t].style};border-color:${REL[t].color}"></span>${REL[t].ru}</label>`).join("");
+    const types = [...new Set(Object.values(set.concepts).map(c => c.t))];
+    document.getElementById("legend").innerHTML = types.map(t => `<span class="cc" style="cursor:default">${icon(t)}<span>${esc(TYPE_RU[t] || t)}</span></span>`).join("");
+    mode = "near";
+    renderList();
+    const first = set.start && set.concepts[set.start] ? set.start : Object.keys(set.concepts)[0];
+    setFocus({ kind: "c", id: first });
+    try { history.replaceState(null, "", "#" + key + "/" + first); } catch (_) {}
+  }
+  document.getElementById("reltoggles").addEventListener("change", e => {
+    const t = e.target.dataset.rel; if (!t) return;
+    if (e.target.checked) relOn.add(t); else relOn.delete(t);
+    drawGraph();
+  });
+
+  // ---------- список
+  const listEl = document.getElementById("list"), qEl = document.getElementById("q");
+  function renderList() {
+    const q = qEl.value.trim().toLowerCase().replace(/ё/g, "е");
+    const hit = c => !q || (c.n + " " + (c.a || []).join(" ")).toLowerCase().replace(/ё/g, "е").includes(q);
+    let h = "", lastSec = null;
+    set.elements.forEach(e => {
+      const cs = e.c.filter(id => set.concepts[id]);
+      if (q && !cs.some(id => hit(set.concepts[id]))) return;
+      if (e.sec && e.sec !== lastSec) { h += `<div class="sec">${esc(e.sec)}</div>`; lastSec = e.sec; }
+      h += `<div class="grp"><button type="button" class="grp-h" data-el="${esc(e.id)}"><span class="code">${e.g} кл. ${esc(e.code)}</span><span class="t">${esc(e.x.length > 110 ? e.x.slice(0, 110) + "…" : e.x)}</span></button><div class="chips">` +
+        cs.map(id => { const c = set.concepts[id]; return `<button type="button" class="cc ${hit(c) ? "" : "dim"}" data-c="${esc(id)}" ${focus && focus.id === id ? 'aria-current="true"' : ""} title="${esc(TYPE_RU[c.t] || c.t)}">${icon(c.t)}<span>${esc(c.n)}</span></button>`; }).join("") + `</div></div>`;
+    });
+    listEl.innerHTML = h || '<p class="empty" style="padding:12px">Ничего не найдено.</p>';
+  }
+  qEl.addEventListener("input", renderList);
+  listEl.addEventListener("click", e => {
+    const c = e.target.closest("[data-c]"); if (c) { setFocus({ kind: "c", id: c.dataset.c }); return; }
+    const g = e.target.closest("[data-el]"); if (g) { mode = "el"; setFocus({ kind: "e", id: g.dataset.el }); }
+  });
+
+  // ---------- граф
+  function cyStyle() {
+    const ink = cssv("--ink"), bg = cssv("--canvas"), edge = cssv("--edge"), acc = cssv("--accent"), warn = cssv("--warn"), node = cssv("--node");
+    return [
+      { selector: "node", style: { "background-color": node, shape: "ellipse", label: "data(label)", color: ink, "font-size": 11, "font-family": "PT Sans, Arial, sans-serif",
+        "text-wrap": "wrap", "text-max-width": 120, "text-valign": "bottom", "text-margin-y": 4, width: 22, height: 22,
+        "text-background-color": bg, "text-background-opacity": 0.85, "text-background-padding": 1 } },
+      ...Object.entries(SHAPES).map(([k, sh]) => ({ selector: "node.sh-" + k, style: sh.pts ? { shape: "polygon", "shape-polygon-points": sh.pts.join(" ") }
+        : sh.hollow ? { "background-opacity": 0, "border-width": 3, "border-color": node, width: 19, height: 19 } : {} })),
+      { selector: "node.focus", style: { width: 32, height: 32, "background-color": acc, "font-weight": 700, "font-size": 12.5,
+        "underlay-color": acc, "underlay-opacity": 0.16, "underlay-padding": 7, "underlay-shape": "ellipse" } },
+      { selector: "node.focus.sh-ring", style: { width: 28, height: 28, "border-color": acc, "border-width": 4 } },
+      { selector: "node.dimmed", style: { opacity: 0.45 } },
+      { selector: "edge", style: { width: 1.6, "line-color": "data(color)", "target-arrow-color": "data(color)", "target-arrow-shape": "triangle", "curve-style": "bezier", "line-style": "data(ls)", "arrow-scale": 0.9 } },
+      { selector: "edge.order", style: { "line-color": warn, "target-arrow-color": warn, width: 2.4 } },
+      { selector: "edge:selected", style: { label: "data(why)", "font-size": 10.5, color: ink, "text-background-color": bg, "text-background-opacity": 0.95, "text-wrap": "wrap", "text-max-width": 180 } }
+    ];
+  }
+  function relsOf(id) { return [...(set.out[id] || []), ...(set.inn[id] || [])].filter(r => relOn.has(r[2])); }
+  function closure(id, dir) {
+    const seen = new Set([id]), stack = [id], es = [];
+    while (stack.length) {
+      const u = stack.pop();
+      const rs = (dir === "pre" ? set.inn[u] : set.out[u]) || [];
+      rs.filter(r => r[2] === "prerequisites_for").forEach(r => {
+        es.push(r); const v = dir === "pre" ? r[0] : r[1];
+        if (!seen.has(v)) { seen.add(v); stack.push(v); }
+      });
+    }
+    return { nodes: seen, edges: es };
+  }
+  function drawGraph() {
+    [...modesEl.children].forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === mode)));
+    if (!focus) return;
+    let ns = new Set(), es = [];
+    const cid = focus.kind === "c" ? focus.id : null;
+    if (mode === "el" || focus.kind === "e") {
+      const el = set.elById[focus.kind === "e" ? focus.id : set.concepts[cid].els[0][0]];
+      el.c.forEach(id => ns.add(id));
+      set.rels.filter(r => relOn.has(r[2]) && (ns.has(r[0]) || ns.has(r[1]))).forEach(r => es.push(r));
+      es.forEach(r => { ns.add(r[0]); ns.add(r[1]); });
+    } else if (mode === "pre" || mode === "post") {
+      const c = closure(cid, mode); ns = c.nodes; es = c.edges;
+    } else {
+      ns.add(cid);
+      relsOf(cid).forEach(r => { es.push(r); ns.add(r[0]); ns.add(r[1]); });
+    }
+    const core = focus.kind === "e" || mode === "el" ? new Set(set.elById[focus.kind === "e" ? focus.id : set.concepts[cid].els[0][0]].c) : null;
+    const els = [...ns].map(id => ({ data: { id, label: set.concepts[id].n },
+      classes: "sh-" + shapeOf(set.concepts[id].t) + (id === cid ? " focus" : "") + (core && !core.has(id) ? " dimmed" : "") }))
+      .concat(es.map((r, i) => ({ data: { id: "e" + i, source: r[0], target: r[1], color: REL[r[2]].color, ls: REL[r[2]].style, why: `${REL[r[2]].ru}: ${r[3] || ""}` }, classes: r[4] ? "order" : "" })));
+    if (!cy) {
+      cy = cytoscape({ container: document.getElementById("cy"), elements: [], style: cyStyle(), wheelSensitivity: 0.25, minZoom: 0.2, maxZoom: 3 });
+      cy.on("tap", "node", ev => setFocus({ kind: "c", id: ev.target.id() }, true));
+    }
+    cy.elements().remove(); cy.add(els);
+    cy.layout({ name: "dagre", rankDir: "LR", nodeSep: 46, rankSep: 120, edgeSep: 10, animate: false, fit: true, padding: 30 }).run();
+    if (cy.zoom() > 1.4) { cy.zoom(1.4); cy.center(); }
+    const n = ns.size;
+    const empty = (mode === "pre" || mode === "post") && es.length === 0 ? (mode === "pre" ? "У этого понятия нет предпосылок в пилотном наборе. " : "На это понятие ничего не опирается. ") : "";
+    document.getElementById("hint").textContent = empty + (mode === "pre" ? "Цепочка предпосылок: всё, что нужно знать до выбранного понятия. " : mode === "post" ? "Всё, что опирается на выбранное понятие. " : "") +
+      `Понятий на схеме: ${n}, связей: ${es.length}. Щелчок по узлу — перейти, по связи — объяснение. Красные связи — предпосылка в программе идёт позже.`;
+  }
+
+  // ---------- карточка
+  const card = document.getElementById("card");
+  function idLabel(id) {
+    const m = /^(?:OOO|SOO)\.(?:history|physics)\.(?:cls\.g(\d+)\.el|(oge|ege)\.el)\.(.+)$/.exec(id);
+    if (!m) return id;
+    return m[1] ? `${m[1]} кл. ${m[3]}` : `${m[2] === "oge" ? "ОГЭ" : "ЕГЭ"} ${m[3]}`;
+  }
+  const navLink = id => `<a href="../../navigator/#${encodeURIComponent(id)}" target="_blank" rel="noopener">${esc(idLabel(id))}</a>`;
+  function renderCard() {
+    if (focus.kind === "e") {
+      const e = set.elById[focus.id];
+      card.innerHTML = `<div class="meta"><span class="chip">элемент содержания</span><span class="chip">${e.g} класс</span></div><h2>${esc(e.code)} ${esc(e.x)}</h2>
+        <div class="blk"><b>Понятия (${e.c.length})</b><div class="chips">${e.c.map(id => { const c = set.concepts[id]; return `<button type="button" class="cc" data-c="${esc(id)}">${icon(c.t)}<span>${esc(c.n)}</span></button>`; }).join("")}</div></div>
+        <div class="blk"><b>В приказе</b><div class="ev">${navLink(e.id)} — открыть в навигаторе</div></div>`;
+      return;
+    }
+    const c = set.concepts[focus.id];
+    let h = `<div class="meta"><span class="cc" style="cursor:default">${icon(c.t)}<span>${esc(TYPE_RU[c.t] || c.t)}</span></span>${c.g.map(g => `<span class="chip">${g} кл.</span>`).join("")}${c.ex && c.ex.length ? `<span class="chip ok">на экзамене</span>` : ""}</div>
+      <h2>${esc(c.n)}</h2>`;
+    if (c.a && c.a.length) h += `<div class="meta"><span class="empty">также:</span>${c.a.map(a => `<span class="chip">${esc(a)}</span>`).join("")}</div>`;
+    if (c.f && c.f.length) h += `<div class="blk"><b>Формулы (из кодификатора ОГЭ/ЕГЭ)</b>${c.f.map(f => `<div class="fx">${tex(f)}</div>`).join("")}</div>`;
+    if (c.d && c.d.length) h += `<div class="blk"><b>Даты</b><div>${c.d.map(esc).join("; ")}</div></div>`;
+    h += `<div class="blk"><b>Где в программе — основание</b>${c.els.map(([eid, role, ev]) => `<div class="ev">${navLink(eid)} ${role === "main" ? '<span class="chip">главное</span>' : ""}<br><q>${esc(ev)}</q></div>`).join("")}</div>`;
+    if (c.ex && c.ex.length) h += `<div class="blk"><b>В кодификаторе экзамена</b>${c.ex.map(([xid, ev]) => `<div class="ev">${navLink(xid)}<br><q>${esc(ev)}</q></div>`).join("")}</div>`;
+    const groups = {};
+    (set.out[focus.id] || []).forEach(r => (groups[r[2] + ":out"] = groups[r[2] + ":out"] || []).push([r[1], r]));
+    (set.inn[focus.id] || []).forEach(r => (groups[r[2] + ":inn"] = groups[r[2] + ":inn"] || []).push([r[0], r]));
+    const order = ["prerequisites_for:inn", "prerequisites_for:out", "is_a:out", "is_a:inn", "part_of:out", "part_of:inn", "participant_of:out", "participant_of:inn", "verifies:inn", "verifies:out"];
+    const rows = order.filter(k => groups[k]).map(k => {
+      const [t, dir] = k.split(":");
+      return `<div class="blk"><b>${REL[t][dir]}</b><div class="rel">${groups[k].map(([id, r]) => `<div><button type="button" data-c="${esc(id)}">${esc(set.concepts[id].n)}</button><small>${r[4] ? '<span class="ord">в программе идёт позже · </span>' : ""}${esc(r[3] || "")}</small></div>`).join("")}</div></div>`;
+    }).join("");
+    h += rows || '<p class="empty">Связей с другими понятиями нет.</p>';
+    card.innerHTML = h;
+  }
+  card.addEventListener("click", e => { const b = e.target.closest("[data-c]"); if (b) setFocus({ kind: "c", id: b.dataset.c }); });
+
+  function setFocus(f, keepMode) {
+    focus = f;
+    if (f.kind === "c" && mode === "el" && !keepMode) mode = "near";
+    renderCard(); drawGraph();
+    listEl.querySelectorAll("[aria-current]").forEach(x => x.removeAttribute("aria-current"));
+    if (f.kind === "c") {
+      const b = listEl.querySelector(`[data-c="${CSS.escape(f.id)}"]`);
+      if (b) { b.setAttribute("aria-current", "true"); b.scrollIntoView({ block: "nearest" }); }
+      try { history.replaceState(null, "", "#" + set.key + "/" + f.id); } catch (_) {}
+    }
+  }
+
+  applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light");
+  const h0 = decodeURIComponent((location.hash || "").slice(1)).split("/");
+  const s0 = DATA.sets.find(s => s.key === h0[0]) || DATA.sets[0];
+  if (h0[1]) s0.start = h0[1];
+  selectSet(s0.key);
+})();
+</script>
+</body>
+</html>

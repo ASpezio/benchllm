@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{margin:0;font:14px/1.45 system-ui,-apple-system,sans-serif}img{max-width:100%}.chip.cons { background: var(--reg-bg); color: var(--reg); border-color: transparent; }
+.chip.docname { font-size: 12px; white-space: nowrap; max-width: 320px; overflow: hidden; text-overflow: ellipsis; }
+.chip.lab { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.note-src { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+</style>
+<script>(function(){var t="light";try{t=localStorage.getItem("fop-theme")||"light"}catch(e){}document.documentElement.setAttribute("data-theme",t)})();</script>
+<title>Навигатор приказа ФОП</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:wght@700&display=swap">
+<style>
+/* Layout: рабочий инструмент в два поля — слева реестр пунктов приказа, справа карточка пункта над листом PDF с отметкой маркером. */
+:root {
+  --bg: #e9edf1;
+  --panel: #f7f9fb;
+  --ink: #18222d;
+  --muted: #5a6676;
+  --line: #d3dae2;
+  --accent: #1e4c7e;
+  --accent-soft: #dce6f1;
+  --sheet: #c3cbd4;
+  --mark: rgba(255, 207, 0, 0.42);
+  --mark-edge: #d9a400;
+  --rev: #7d5200;
+  --rev-bg: #f4e7cc;
+  --reg: #24603f;
+  --reg-bg: #d9ede2;
+  --warn: #9b3424;
+  --warn-bg: #f5e0db;
+  --f-display: "PT Serif", Georgia, "Times New Roman", serif;
+  --f-body: "PT Sans", "Segoe UI", Roboto, Arial, sans-serif;
+  --f-mono: "PT Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161c; --panel: #182029; --ink: #e2e8ee; --muted: #94a2b1; --line: #29343f;
+    --accent: #86b4e8; --accent-soft: #1d2f44; --sheet: #0b0f13;
+    --mark: rgba(255, 207, 0, 0.36); --mark-edge: #f0c000;
+    --rev: #e6b866; --rev-bg: #3a2c12; --reg: #86cfa8; --reg-bg: #163224; --warn: #f19a87; --warn-bg: #3d1f19;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161c; --panel: #182029; --ink: #e2e8ee; --muted: #94a2b1; --line: #29343f;
+  --accent: #86b4e8; --accent-soft: #1d2f44; --sheet: #0b0f13;
+  --mark: rgba(255, 207, 0, 0.36); --mark-edge: #f0c000;
+  --rev: #e6b866; --rev-bg: #3a2c12; --reg: #86cfa8; --reg-bg: #163224; --warn: #f19a87; --warn-bg: #3d1f19;
+  color-scheme: dark;
+}
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.45; }
+* { box-sizing: border-box; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.app { height: 100%; display: grid; grid-template-columns: minmax(300px, 390px) minmax(0, 1fr); gap: 16px; padding-inline: 16px; padding-block: 12px; }
+.side, .main { min-width: 0; min-height: 0; display: flex; flex-direction: column; }
+.side { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.side-head { padding: 14px 16px 10px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+.side-head h1 { font-family: var(--f-display); font-size: 19px; line-height: 1.2; margin: 0; text-wrap: balance; }
+.side-head p { margin: 0; color: var(--muted); font-size: 13px; }
+.search { position: relative; }
+.search input { width: 100%; padding: 8px 34px 8px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); color: var(--ink); font: inherit; }
+.search kbd { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); font-family: var(--f-mono); font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px; color: var(--muted); }
+
+.tree, .results { overflow: auto; flex: 1; padding: 6px 6px 16px; }
+.row { display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; gap: 6px; align-items: baseline; width: 100%; text-align: left; background: none; border: 0; border-radius: 6px; padding: 5px 8px; cursor: pointer; }
+.row:hover { background: var(--accent-soft); }
+.row.sel { background: var(--accent); color: var(--panel); }
+.row.sel .pg, .row.sel .sub, .row.sel .code { color: inherit; opacity: .85; }
+.caret { color: var(--muted); font-size: 10px; transition: transform .12s; }
+.row[aria-expanded="true"] .caret { transform: rotate(90deg); }
+.row.sel .caret { color: inherit; }
+.lab { min-width: 0; overflow: hidden; }
+.lab .main-l { display: block; }
+.lab .sub { color: var(--muted); font-size: 12.5px; }
+.t-part > .row .main-l { font-family: var(--f-display); font-size: 16px; }
+.t-subj > .row .main-l { font-weight: 700; }
+.t-rec > .row .main-l { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: 13.5px; }
+.code { font-family: var(--f-mono); font-size: 12.5px; color: var(--accent); margin-right: 6px; }
+.pg { font-family: var(--f-mono); font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.kids { padding-left: 12px; border-left: 1px solid var(--line); margin-left: 14px; }
+
+.chip { display: inline-block; font-size: 11.5px; line-height: 1.5; padding: 0 7px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.chip.rev { background: var(--rev-bg); color: var(--rev); }
+.chip.reg { background: var(--reg-bg); color: var(--reg); }
+.chip.warn { background: var(--warn-bg); color: var(--warn); }
+.chip.ok { background: var(--reg-bg); color: var(--reg); }
+.row.sel .chip { background: var(--panel); }
+
+.results .hit { display: grid; gap: 2px; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 8px; cursor: pointer; }
+.results .hit:hover { background: var(--accent-soft); }
+.results .crumb { font-size: 12px; color: var(--muted); }
+.results .txt { font-size: 13.5px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.results mark { background: var(--mark); color: inherit; border-radius: 2px; }
+.results .count { padding: 4px 8px 8px; font-size: 12.5px; color: var(--muted); }
+
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; display: grid; gap: 8px; max-height: 42%; overflow: auto; }
+.crumbs { display: flex; flex-wrap: wrap; gap: 4px; font-size: 12.5px; color: var(--muted); align-items: baseline; }
+.crumbs button { background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; text-decoration-color: var(--line); }
+.crumbs span.sep { color: var(--line); }
+.card h2 { margin: 0; font-family: var(--f-display); font-size: 20px; line-height: 1.25; text-wrap: balance; }
+.card h2 .code { font-size: 17px; }
+.card .body { margin: 0; max-width: 75ch; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.idline { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 12.5px; color: var(--muted); }
+.idline code { font-family: var(--f-mono); color: var(--ink); background: var(--bg); padding: 1px 6px; border-radius: 4px; overflow-wrap: anywhere; }
+.btn { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 3px 10px; cursor: pointer; font-size: 13px; }
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.rel { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; font-size: 13px; }
+.rel b { font-weight: 400; color: var(--muted); }
+.rel button { border: 1px solid var(--line); background: var(--bg); border-radius: 5px; padding: 1px 7px; cursor: pointer; font-size: 12.5px; max-width: 100%; text-align: left; }
+.rel button:hover { border-color: var(--accent); }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 2px 8px; }
+.toolbar .pgin { width: 64px; padding: 3px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--ink); font-family: var(--f-mono); text-align: center; }
+.toolbar .status { margin-left: auto; font-size: 12.5px; color: var(--muted); }
+.viewer { position: relative; flex: 1; min-height: 0; overflow: auto; background: var(--sheet); border-radius: 10px; padding: 16px; }
+.sheet { position: relative; margin: 0 auto; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+.sheet canvas { display: block; }
+.hl { position: absolute; background: var(--mark); border-bottom: 2px solid var(--mark-edge); mix-blend-mode: multiply; border-radius: 2px; pointer-events: none; }
+:root[data-theme="dark"] .hl { mix-blend-mode: normal; }
+.loading { color: var(--ink); background: var(--panel); border-radius: 8px; padding: 18px; max-width: 520px; margin: 40px auto; display: grid; gap: 10px; }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+.toast { font-size: 12.5px; color: var(--rev); background: var(--rev-bg); padding: 2px 8px; border-radius: 5px; }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; padding-bottom: 10px; }
+.tab { border: 1px solid var(--line); background: var(--panel); border-radius: 7px; padding: 5px 12px; cursor: pointer; font-size: 14px; }
+.mathbox { margin: 8px 0 2px; padding: 10px 12px; border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 8px; background: var(--bg); font-size: 15px; line-height: 1.6; overflow-x: auto; }
+.mathbox .mlab { font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 4px; }
+.lnk img.thumb { max-height: 90px; width: auto; display: inline-block; margin: 2px 6px 2px 0; }
+.mathbox img, .lnk img { max-width: min(100%, 320px); height: auto; vertical-align: middle; background: #fff; border-radius: 3px; }
+.lnk .katex { font-size: 1.02em; }
+.chip.deep { color: #5b3596; background: #ebe2f7; }
+:root[data-theme="dark"] .chip.deep { color: #cdb4f5; background: #2e2342; }
+.tab.theme { margin-left: auto; color: var(--muted); }
+.tab.theme:hover { color: var(--ink); }
+.tab[aria-pressed="true"] { background: var(--accent); color: var(--panel); border-color: var(--accent); }
+.links { flex: 1; min-height: 0; overflow: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; display: grid; align-content: start; gap: 12px; }
+.lk-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+.seg button { border: 0; background: none; padding: 4px 10px; cursor: pointer; font-size: 13px; }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
+.lk-sum { font-size: 13.5px; color: var(--muted); }
+.lk-sum b { color: var(--ink); font-weight: 700; }
+.skills { border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; background: var(--bg); }
+.skills summary { cursor: pointer; font-size: 14px; }
+.skills summary small { color: var(--muted); }
+.skills .grp { margin-top: 10px; font-size: 13px; font-weight: 700; }
+.skills ul { margin: 4px 0 0; padding: 0; list-style: none; display: grid; gap: 2px; }
+.skills li button { background: none; border: 0; padding: 2px 0; text-align: left; cursor: pointer; font-size: 13.5px; color: var(--ink); }
+.skills li button:hover { color: var(--accent); }
+.skills .vb { font-family: var(--f-mono); font-size: 12px; color: var(--accent); }
+.lrow { display: grid; grid-template-columns: 44px minmax(0, 1fr) minmax(0, 1.5fr) 110px; gap: 12px; padding: 7px 4px; border-bottom: 1px solid var(--line); align-items: start; }
+.lrow.e { grid-template-columns: 52px minmax(0, 1.7fr) 92px minmax(0, 1fr); }
+.lrow.l5 { grid-template-columns: 40px minmax(0, 1fr) minmax(0, 1.4fr) 130px 104px; }
+.lrow.e5 { grid-template-columns: 52px minmax(0, 1.6fr) 130px 96px minmax(0, 0.9fr); }
+.lrow.x { grid-template-columns: 56px minmax(0, 1.3fr) minmax(0, 1.3fr) 76px; }
+.lrow.head { font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); border-bottom: 2px solid var(--line); }
+.lsec { padding: 14px 4px 4px; font-family: var(--f-display); font-size: 15px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.lrow .num { font-family: var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.lnk { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; color: var(--ink); font-size: 14px; }
+.lnk:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.lrow .el + .el { margin-top: 5px; }
+.lrow.rev { color: var(--muted); }
+.lrow.rev .lnk { color: var(--muted); }
+.lrow.zero { background: var(--warn-bg); }
+.lchips { display: flex; flex-wrap: wrap; gap: 4px; }
+.lchips button { border: 1px solid var(--line); background: var(--bg); border-radius: 5px; padding: 0 6px; font-family: var(--f-mono); font-size: 12px; cursor: pointer; }
+.lchips button:hover { border-color: var(--accent); }
+.lk-empty { color: var(--muted); padding: 12px 4px; }
+.skills li { display: flex; gap: 10px; align-items: baseline; justify-content: space-between; }
+.skills li > button { flex: 1 1 auto; }
+.skills li .lchips { flex: none; justify-content: flex-end; }
+.skills li .lchips button { border: 1px solid var(--line); background: var(--bg); border-radius: 5px; padding: 0 6px; font-family: var(--f-mono); font-size: 12px; }
+.skills li .lchips button:hover { border-color: var(--accent); color: var(--ink); }
+.nox { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+.lrow.xr { grid-template-columns: 40px minmax(0, 1.1fr) minmax(0, 1.5fr) 52px; }
+.byg { display: flex; flex-wrap: wrap; gap: 4px; align-items: baseline; }
+.byg + .byg { margin-top: 4px; }
+.byg .gl { font-size: 11.5px; color: var(--muted); min-width: 40px; }
+@media (max-width: 820px) {
+  .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: 44% minmax(0, 1fr); height: auto; min-height: 100%; }
+  .main { min-height: 80vh; }
+  .card { max-height: none; }
+  .lrow, .lrow.e, .lrow.l5, .lrow.e5, .lrow.x, .lrow.xr { grid-template-columns: 40px minmax(0, 1fr); }
+  .lrow > :nth-child(n+3) { grid-column: 2; }
+  .lrow.head { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <aside class="side">
+    <div class="side-head">
+      <h1>Проект приказа об изменениях ФОП</h1>
+      <p id="docmeta"></p>
+      <div class="search">
+        <input id="q" type="search" placeholder="Код, текст или ID: «2.4», «Хаммурапи», «полураспад»" autocomplete="off" aria-label="Поиск по пунктам">
+        <kbd>/</kbd>
+      </div>
+      <div class="legend"><span><span class="chip ok">размечено</span> история и физика — построчно, остальные предметы — до таблиц</span><span><span class="chip">7 ч</span> вес элемента по урокам; уроки физики — из <span class="chip cons">Конструктора</span>, в приказе их нет</span></div>
+    </div>
+    <div class="tree" id="tree" role="tree"></div>
+    <div class="results" id="results" hidden></div>
+  </aside>
+
+  <main class="main">
+    <div class="tabs">
+      <button class="tab" id="tab-doc" type="button" aria-pressed="true">Документ</button>
+      <button class="tab" id="tab-links" type="button" aria-pressed="false">Связи: урок → элемент → ОГЭ/ЕГЭ</button>
+      <button class="tab theme" id="theme" type="button"></button>
+    </div>
+    <section class="card" id="card" aria-live="polite"></section>
+    <div class="toolbar" id="toolbar">
+      <button class="btn" id="prev" title="Предыдущая страница (←)">← стр.</button>
+      <input class="pgin" id="pgin" inputmode="numeric" aria-label="Номер страницы">
+      <span class="pg" id="pgof"></span>
+      <button class="btn" id="next" title="Следующая страница (→)">стр. →</button>
+      <button class="btn" id="zout" title="Мельче">−</button>
+      <button class="btn" id="zfit" title="По ширине">по ширине</button>
+      <button class="btn" id="zin" title="Крупнее">+</button>
+      <span class="chip docname" id="docname"></span>
+      <span class="status" id="status"></span>
+    </div>
+    <div class="viewer" id="viewer">
+      <div class="loading" id="loading">
+        <strong id="loadtitle">Открываю приказ…</strong>
+        <div class="bar"><i id="barfill"></i></div>
+        <span id="loadtxt" class="pg"></span>
+      </div>
+      <div class="sheet" id="sheet" hidden><canvas id="cv"></canvas><div id="ov"></div></div>
+    </div>
+    <section class="links" id="links" hidden></section>
+  </main>
+</div>
+
+<script type="application/json" id="data">/*__DATA__*/</script>
+<link rel="stylesheet" href="katex/katex.min.css">
+<script src="katex/katex.min.js"></script>
+<script src="pdf.min.js"></script>
+<script>
+(function () {
+  "use strict";
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  const encPath = p => p.split("/").map(encodeURIComponent).join("/");
+  const DOCS = {
+    order: { url: "../" + encPath("источники/Проект приказа 2.pdf"), name: "Проект приказа", file: "Проект приказа 2.pdf" },
+    c79: { url: "../" + encPath("1_разметка/физика_поурочное/источники/Конструктор_Физика_7-9_база_ID12372761.pdf"), name: "Конструктор: Физика 7–9 (ID 12372761)", file: "Конструктор_Физика_7-9_база_ID12372761.pdf" },
+    c1011: { url: "../" + encPath("1_разметка/физика_поурочное/источники/Конструктор_Физика_10-11_база_ID12372794.pdf"), name: "Конструктор: Физика 10–11 (ID 12372794)", file: "Конструктор_Физика_10-11_база_ID12372794.pdf" },
+  };
+  const DEFAULT_ID = "OOO.history.cls.g5.el.2.4";
+
+  // ---------- модель
+  const nodes = new Map(), parent = new Map(), recKids = new Map();
+  function walk(n, p) {
+    nodes.set(n.i, n);
+    if (p) parent.set(n.i, p.i);
+    (n.c || []).forEach(ch => walk(ch, n));
+    (n.r || []).forEach(r => { r.t = "rec"; nodes.set(r.i, r); parent.set(r.i, n.i); });
+  }
+  DATA.tree.forEach(n => walk(n, null));
+  nodes.forEach(n => { if (n.t === "rec" && n.p) { if (!recKids.has(n.p)) recKids.set(n.p, []); recKids.get(n.p).push(n.i); } });
+  const ancestors = id => { const out = []; let p = parent.get(id); while (p) { out.unshift(p); p = parent.get(p); } return out; };
+  const srcOf = n => { if (!n) return "order"; if (n.src) return n.src; for (const a of ancestors(n.i).reverse()) { const A = nodes.get(a); if (A && A.src) return A.src; } return "order"; };
+  const isCons = n => srcOf(n) !== "order";
+
+  const TYPE_RU = { lesson: "Урок", requirement: "Требование к результатам", element: "Элемент содержания",
+    exam_requirement: "Требование экзамена", exam_element: "Элемент содержания экзамена", theme: "Тема (тематическое планирование ФРП)", unknown: "Строка таблицы" };
+  const LT = { lab: ["лабораторная / исследование", "lab"], mixed: ["теория + лабораторная", "lab"], problems: ["решение задач", ""], conference: ["урок-конференция", ""], control: ["контрольная", "rev"], review: ["повторение", "rev"], reserve: ["резервный", "rev"] };
+  const FLAG_RU = { formula_suspect: "формулы извлечены с искажениями — сверяй с листом", page_has_images: "на странице есть рисунки/формулы картинками",
+    spans_pages: "текст переходит на следующую страницу", duplicate_id: "код повторяется в таблице", vpr: "урок отдан под ВПР — стоит не на месте своей темы" };
+  const LK = { review: ["повторение / контроль", "rev"], region: ["«Наш край»", "reg"], new: ["новый материал", ""] };
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const fmtH = h => (Math.round(h * 100) / 100).toString().replace(".", ",");
+  const pages = (a, b) => (b && b !== a ? `с. ${a}–${b}` : `с. ${a}`);
+  const label = n => n.t === "rec" ? (n.ty === "lesson" ? `Урок ${n.c}. ${n.x}` : `${n.c} ${n.x}`) : n.l;
+  const shortLabel = n => n.t === "rec" ? (n.ty === "lesson" ? `Урок ${n.c}` : n.c) : n.l + (n.s && n.t === "block" ? " · " + n.s : "");
+
+  document.getElementById("docmeta").textContent =
+    `${DATA.meta.pages} стр. · вступает в силу ${DATA.meta.in_force || "—"} · ${DATA.meta.status}`;
+
+  // ---------- дерево
+  const treeEl = document.getElementById("tree");
+  const rowEl = new Map();
+  function rowHTML(n) {
+    let chips = "", main = esc(n.l), sub = n.s ? esc(n.s) : "";
+    if (n.t === "subj" && n.parsed) chips = '<span class="chip ok">размечено</span>';
+    if (n.t === "block" && n.src) chips = '<span class="chip cons">Конструктор</span>';
+    if (n.t === "table" && n.n != null) sub = (sub ? sub + " · " : "") + `${n.n} зап.` + (n.rev ? ` · повторение ${n.rev}` : "");
+    if (n.t === "rec") {
+      main = (n.ty === "lesson" ? `<span class="code">Урок ${esc(n.c)}</span>` : `<span class="code">${esc(n.c)}</span>`) + (n.xl ? mathHTML(n.xl, "none") : esc(n.x));
+      if (n.lk && n.lk !== "new") chips = `<span class="chip ${LK[n.lk][1]}">${n.lt && LT[n.lt] ? LT[n.lt][0] : LK[n.lk][0]}</span>`;
+      else if (n.lt === "lab" || n.lt === "mixed") chips = '<span class="chip lab">лаб.</span>';
+      if (n.f && n.f.includes("vpr")) chips += '<span class="chip warn">ВПР</span>';
+      if (n.ty === "theme") chips += `<span class="chip">${fmtH(n.h)} ч</span>`;
+      if (n.xl) chips += '<span class="chip ok">формулы</span>';
+      else if (n.f && n.f.includes("formula_suspect")) chips += '<span class="chip warn">формулы</span>';
+      if (n.wh != null && !n.ig) chips += wChip(n, false);
+      if (n.xc && !n.ig) chips += `<span class="chip">${n.xc.length} эл.</span>`;
+      if (n.re && n.re.length) chips += `<span class="chip">${EXL(n.re[0])} ${n.re.map(x => x.split(".").pop()).join(", ")}</span>`;
+      else if (n.re) chips += `<span class="chip warn">нет в ${n.i.startsWith("OOO") ? "ОГЭ" : "ЕГЭ"}</span>`;
+      if (n.rc) chips += `<span class="chip ${n.rc.length ? "" : "warn"}">${n.rc.length} ум.</span>`;
+    }
+    const has = n.t !== "rec" && ((n.c && n.c.length) || (n.r && n.r.length));
+    const pg = (n.t === "rec" ? `с. ${n.pg}` : pages(n.pg, n.pe));
+    return `<span class="caret">${has ? "▶" : ""}</span><span class="lab"><span class="main-l">${main}</span>${sub ? `<span class="sub">${sub}</span>` : ""}</span><span class="pg">${chips} ${pg}</span>`;
+  }
+  function makeNode(n) {
+    const wrap = document.createElement("div");
+    wrap.className = "t-" + n.t;
+    const b = document.createElement("button");
+    b.className = "row"; b.type = "button"; b.dataset.id = n.i; b.setAttribute("role", "treeitem");
+    b.innerHTML = rowHTML(n);
+    const has = n.t !== "rec" && ((n.c && n.c.length) || (n.r && n.r.length));
+    if (has) b.setAttribute("aria-expanded", "false");
+    wrap.appendChild(b);
+    rowEl.set(n.i, b);
+    return wrap;
+  }
+  function expand(id, open) {
+    const b = rowEl.get(id); if (!b || !b.hasAttribute("aria-expanded")) return;
+    const n = nodes.get(id);
+    let kids = b.nextElementSibling;
+    if (!kids) {
+      kids = document.createElement("div"); kids.className = "kids"; kids.setAttribute("role", "group");
+      (n.c || []).forEach(ch => kids.appendChild(makeNode(ch)));
+      (n.r || []).forEach(r => kids.appendChild(makeNode(r)));
+      b.parentNode.appendChild(kids);
+    }
+    const want = open == null ? b.getAttribute("aria-expanded") !== "true" : open;
+    b.setAttribute("aria-expanded", String(want));
+    kids.hidden = !want;
+  }
+  DATA.tree.forEach(n => treeEl.appendChild(makeNode(n)));
+  treeEl.addEventListener("click", e => {
+    const b = e.target.closest(".row"); if (!b) return;
+    const id = b.dataset.id;
+    const wasSel = b.classList.contains("sel");
+    if (b.hasAttribute("aria-expanded")) expand(id, wasSel ? null : true);
+    select(id, { fromTree: true });
+  });
+
+  // ---------- карточка
+  const card = document.getElementById("card");
+  function linkBtn(id, text) { return `<button type="button" data-go="${esc(id)}">${esc(text)}</button>`; }
+  function renderCard(n) {
+    const chain = ancestors(n.i).map(a => nodes.get(a));
+    const crumbs = chain.map(a => `<button type="button" data-go="${esc(a.i)}">${esc(shortLabel(a))}</button>`).join('<span class="sep">/</span>');
+    let h = `<div class="crumbs">${crumbs || "Документ"}</div>`;
+    const meta = [];
+    if (n.t === "rec") {
+      const title = n.ty === "lesson" ? `<span class="code">Урок ${esc(n.c)}</span>${esc(n.x)}` : `<span class="code">${esc(n.c)}</span>${n.xl ? mathHTML(n.xl, "none") : esc(n.x)}`;
+      h += `<h2>${title}</h2>`;
+      meta.push(`<span class="chip">${TYPE_RU[n.ty] || n.ty}</span>`);
+      const tbl = nodes.get(parent.get(n.i));
+      if (n.g) meta.push(`<span class="chip">${esc(n.g)}</span>`);
+      if (n.v) meta.push(`<span class="chip">глагол: ${esc(n.v)}</span>`);
+      if (n.lk) meta.push(`<span class="chip ${LK[n.lk][1]}">${LK[n.lk][0]}</span>`);
+      if (n.h != null && n.ty === "lesson") meta.push(`<span class="chip">${n.h} ч</span>`);
+      if (n.lt && LT[n.lt]) meta.push(`<span class="chip ${LT[n.lt][1]}">${LT[n.lt][0]}</span>`);
+      if (n.kr) meta.push(`<span class="chip">контрольных: ${fmtH(n.kr)}</span>`);
+      if (n.pr) meta.push(`<span class="chip">практических: ${fmtH(n.pr)}</span>`);
+      if (n.ty === "theme") meta.push(`<span class="chip">${fmtH(n.h)} ч</span>`);
+      if (n.ig) meta.push(`<span class="chip">группа</span>`);
+      (n.f || []).forEach(f => { if (n.xl && (f === "formula_suspect" || f === "page_has_images")) return; meta.push(`<span class="chip warn">${esc(FLAG_RU[f] || f)}</span>`); });
+      if (n.xl) meta.push('<span class="chip ok">формулы — по MinerU</span>');
+      if (isCons(n)) meta.push('<span class="chip cons">Конструктор edsoo</span>');
+      meta.push(`<span class="pg">${isCons(n) ? "Конструктор, " : ""}стр. ${n.pg}${tbl ? " · " + esc(tbl.l) : ""}</span>`);
+      h += `<div class="meta">${meta.join("")}</div>`;
+      if (n.xl && /!\[\]\(/.test(n.xl)) h += `<div class="mathbox"><div class="mlab">Рисунки из документа · MinerU</div>${(n.xl.match(/!\[\]\(images\/[^)\s]+\)/g) || []).map(m => mathHTML(m)).join(" ")}</div>`;
+      if (n.wh != null) {
+        h = h.replace('<div class="meta">', `<div class="meta"><span class="chip ${n.wh > 0 ? "" : "warn"}">вес${n.i.includes(".physics.") ? " по Конструктору" : ""}: ${fmtH(n.wh)} ч · ${fmtH(n.ws)}% учебного времени класса</span>${n.wd ? `<span class="chip deep" title="${DEEP_T}">из углублённого плана: ${fmtH(n.wd)} ч</span>` + (n.wh - n.wd > 0.001 ? `<span class="chip">из базового: ${fmtH(+(n.wh - n.wd).toFixed(2))} ч</span>` : "") : (n.wh > 0 && n.i.includes(".physics.") && !n.ig ? '<span class="chip">из базового плана</span>' : "")}`);
+      }
+      const rel = [];
+      if (n.le && n.le.length) {
+        const lab = n.lk === "review" ? "Повторяет" : (n.le.length > 1 ? "Элементы содержания" : "Элемент содержания");
+        rel.push(`<b>${lab}</b>` + n.le.map(e => nodes.has(e) ? linkBtn(e, (e.includes(".oge.") ? "ОГЭ " : "") + nodes.get(e).c + " " + nodes.get(e).x.slice(0, 60)) : "").join(""));
+      }
+      if (n.ty === "lesson" && n.m) rel.push(`<b>Сопоставление</b><span class="chip ${n.m === "manual" ? "ok" : ""}">${n.m === "manual" ? "исправлено вручную" : n.m === "review" ? "урок повторения — без веса" : "автоматически"}</span>` + (n.le && n.le.some(e => e.includes(".oge.")) ? '<span class="chip warn">в кодификаторе класса элемента нет — связь через ОГЭ</span>' : "") + (n.le && n.le.length > 1 && n.lk !== "review" ? `<span class="chip">${n.sh ? "доли часа: " + n.sh.map(fmtH).join(" / ") : "час делится на " + n.le.length}</span>` : ""));
+      if (n.wl && n.wl.length) rel.push(`<b>Уроки (${n.wl.length})</b>` + n.wl.map(l => linkBtn(l, "Урок " + nodes.get(l).c)).join(""));
+      if (n.wdl && n.wdl.length) rel.push(`<b>Из углублённого плана</b>` + n.wdl.map(t => `<span class="chip" style="white-space:normal;text-align:left">${esc(t)}</span>`).join("") + `<span class="pg">в базовом плане уроков нет; час углублённого урока ≈ 0,41 ч базового</span>`);
+      if (n.wdn && !n.ig) rel.push(`<b>Почему вес 0</b><span class="pg">${esc(n.wdn)}</span>`);
+      if (n.wr && n.wr.length) rel.push(`<b>Повторение</b>` + n.wr.map(l => linkBtn(l, "Урок " + nodes.get(l).c)).join(""));
+      if ((n.ty === "lesson" && n.lk !== "review") || n.xe !== undefined) {
+        const exs = examOf(n);
+        rel.push(`<b>На экзамене</b>` + (exs.length
+          ? exs.map(o => linkBtn(o.id, `${EXL(o.id)} ${nodes.get(o.id).c}${o.via ? " (через другой уровень)" : ""} — ${short(nodes.get(o.id).x, 60)}`)).join("")
+          : `<span class="chip ${n.xm === "region" ? "" : "warn"}">${n.xm === "region" ? "региональный компонент — на экзамене не проверяется" : "отдельного пункта в кодификаторе экзамена нет"}</span>`)
+          + (n.xm === "manual" ? '<span class="chip ok">сопоставлено вручную</span>' : n.xm === "auto" ? '<span class="chip">сопоставлено автоматически</span>' : ""));
+      }
+      if (n.re !== undefined) {
+        rel.push(`<b>На экзамене (умение)</b>` + (n.re.length
+          ? n.re.map(id => nodes.has(id) ? linkBtn(id, `${EXL(id)} ${nodes.get(id).c} — ${short(nodes.get(id).x, 70)}`) : "").join("")
+          : `<span class="chip warn">${esc(n.rn || "аналога нет")}</span>`)
+          + (n.rm === "manual" ? '<span class="chip ok">сопоставлено вручную</span>' : n.re.length ? '<span class="chip">по правилу</span>' : ""));
+      }
+      if (n.rc !== undefined) {
+        rel.push(`<b>Опирается на умения классов (${n.rc.length})</b>` + (n.rc.length
+          ? n.rc.map(c => nodes.has(c) ? linkBtn(c, `${gradeOf(c)} кл. ${nodes.get(c).c}`) : "").join("")
+          : '<span class="chip warn">в требованиях классов такого умения нет</span>'));
+        h = h.replace('<div class="meta">', `<div class="meta"><span class="chip ${n.rc.length ? "" : "warn"}">${n.rc.length} умений классов</span>`);
+      }
+      if (n.xc && n.xc.length) rel.push(`<b>Опирается на элементы классов (${n.xc.length})</b>` + n.xc.slice(0, 40).map(c => nodes.has(c) ? linkBtn(c, `${gradeOf(c)} кл. ${nodes.get(c).c}${(nodes.get(c).xe || []).includes(n.i) ? "" : "*"}`) : "").join("") + (n.xc.length > 40 ? `<span class="pg">ещё ${n.xc.length - 40}</span>` : ""));
+      if (n.xc) h = h.replace('<div class="meta">', `<div class="meta"><span class="chip">${n.xc.length} элементов классов${n.xh != null ? ` · ${fmtH(n.xh)} ч уроков` : ""}</span>`);
+      if (n.p && nodes.has(n.p)) rel.push(`<b>Входит в</b>${linkBtn(n.p, label(nodes.get(n.p)).slice(0, 90))}`);
+      const kids = recKids.get(n.i) || [];
+      if (kids.length) rel.push(`<b>Включает (${kids.length})</b>` + kids.slice(0, 40).map(k => linkBtn(k, nodes.get(k).c)).join(""));
+      if (rel.length) h += `<div class="rel">${rel.join("")}</div>`;
+      if (n.ty === "lesson" && isCons(n)) h += `<p class="note-src">Поурочный план по физике приказом не утверждён — это рекомендованный план Конструктора рабочих программ edsoo (${esc(DOCS[srcOf(n)].name)}). Слева — его страница.</p>`;
+      if (n.ty === "theme") h += `<p class="note-src">Тематическое планирование — часть федеральной рабочей программы (ФРП 2025); страница — по выгрузке Конструктора.</p>`;
+    } else {
+      h += `<h2>${esc(n.l)}${n.s ? ` <span class="pg">${esc(n.s)}</span>` : ""}</h2>`;
+      if (n.note) h += `<p class="body">Изменения в ${esc(n.note)}.</p>`;
+      if (n.t === "block" && n.src) h += `<p class="note-src">${n.i.includes(".les@") ? "Поурочного плана по физике в приказе нет. Здесь — рекомендованный план из Конструктора рабочих программ edsoo; уроки привязаны к элементам кодификатора приказа." : "Тематическое планирование федеральной рабочей программы: разделы и темы с часами (по выгрузке Конструктора, совпадает с ФРП 2025)."} Источник: ${esc(DOCS[n.src].name)}.</p>`;
+      const m = [`<span class="pg">${isCons(n) ? "Конструктор, " : ""}${pages(n.pg, n.pe)}</span>`];
+      if (n.t === "subj") m.unshift(`<span class="chip ${n.parsed ? "ok" : ""}">${n.parsed ? "размечено построчно" : "размечено до таблиц"}</span>`);
+      if (n.t === "table" && n.n != null) m.unshift(`<span class="chip">${n.n} записей</span>` + (n.rev != null ? `<span class="chip rev">повторение/контроль: ${n.rev}</span>` : ""));
+      h += `<div class="meta">${m.join("")}</div>`;
+      const ch = n.c || [];
+      if (ch.length) h += `<div class="rel"><b>Внутри</b>${ch.map(c => linkBtn(c.i, shortLabel(c) + (c.t === "table" && c.n != null ? ` (${c.n})` : ""))).join("")}</div>`;
+      if (n.t === "table" && !n.r) h += `<p class="body pg">Этот предмет пока размечен только до уровня таблиц — строки откроются после построчной разметки.</p>`;
+    }
+    h += `<div class="idline">ID <code id="idc">${esc(n.i)}</code><button class="btn" type="button" id="copy">Копировать ID</button><span id="copied"></span></div>`;
+    card.innerHTML = h;
+  }
+  card.addEventListener("click", e => {
+    const go = e.target.closest("[data-go]");
+    if (go) { select(go.dataset.go, {}); return; }
+    if (e.target.id === "copy") {
+      const id = document.getElementById("idc").textContent, out = document.getElementById("copied");
+      const done = () => { out.textContent = "скопировано"; setTimeout(() => (out.textContent = ""), 1500); };
+      try {
+        navigator.clipboard.writeText(id).then(done, () => { selectText(); out.textContent = "выделено — нажми ⌘C"; });
+      } catch (_) { selectText(); out.textContent = "выделено — нажми ⌘C"; }
+    }
+  });
+  function selectText() { const r = document.createRange(); r.selectNodeContents(document.getElementById("idc")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+
+  // ---------- выбор
+  let selected = null;
+  function snippetsFor(n) {
+    if (n.t === "rec") return n.ty === "lesson" ? [n.x, "Урок " + n.c] : [n.x];
+    if (n.t === "subj") { const b = (n.c || []).find(x => !x.src); return b ? b.sn : []; }
+    return n.sn || [];
+  }
+  function select(id, opts) {
+    const n = nodes.get(id); if (!n) return;
+    if (selected) { const old = rowEl.get(selected); if (old) old.classList.remove("sel"); }
+    selected = id;
+    ancestors(id).forEach(a => expand(a, true));
+    const b = rowEl.get(id);
+    if (b) { b.classList.add("sel"); if (!opts.fromTree) b.scrollIntoView({ block: "center" }); }
+    renderCard(n);
+    try { history.replaceState(null, "", "#" + id); } catch (_) {}
+    const pg = n.t === "subj" ? ((n.c || []).find(x => !x.src) || n).pg : n.pg;
+    goTo(pg, snippetsFor(n), n);
+  }
+
+  // ---------- поиск
+  const q = document.getElementById("q"), resEl = document.getElementById("results");
+  const norm = s => (s || "").toLowerCase().replace(/ё/g, "е");
+  const hay = [];
+  nodes.forEach(n => { if (n.t === "rec" || n.t === "table" || n.t === "block") hay.push([n, norm((n.c || "") + " " + (n.x || n.l || "") + " " + (n.s || "") + " " + n.i)]); });
+  function crumbText(n) { return ancestors(n.i).map(a => shortLabel(nodes.get(a))).slice(0, 4).join(" · "); }
+  function markIt(text, toks) {
+    let out = esc(text);
+    toks.forEach(t => { if (t.length < 2) return; const re = new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"); out = out.replace(re, "<mark>$1</mark>"); });
+    return out;
+  }
+  let qt;
+  q.addEventListener("input", () => { clearTimeout(qt); qt = setTimeout(runSearch, 120); });
+  q.addEventListener("keydown", e => {
+    if (e.key === "Enter") { const f = resEl.querySelector(".hit"); if (f) f.click(); }
+    if (e.key === "Escape") { q.value = ""; runSearch(); }
+  });
+  function runSearch() {
+    const v = norm(q.value.trim());
+    if (!v) { resEl.hidden = true; treeEl.hidden = false; return; }
+    const toks = v.split(/\s+/);
+    const hits = [];
+    for (const [n, h] of hay) { if (toks.every(t => h.includes(t))) { hits.push(n); } }
+    hits.sort((a, b) => (b.c === v) - (a.c === v));
+    resEl.innerHTML = `<div class="count">Найдено: ${hits.length}${hits.length > 200 ? " (показаны первые 200)" : ""}</div>` +
+      hits.slice(0, 200).map(n => `<button type="button" class="hit" data-go="${esc(n.i)}"><span class="crumb">${esc(crumbText(n))}</span><span class="txt">${n.t === "rec" ? `<span class="code">${n.ty === "lesson" ? "Урок " : ""}${esc(n.c)}</span>` : ""}${markIt(n.t === "rec" ? n.x : n.l + (n.s ? " · " + n.s : ""), toks)}</span></button>`).join("");
+    treeEl.hidden = true; resEl.hidden = false;
+  }
+  resEl.addEventListener("click", e => { const b = e.target.closest("[data-go]"); if (b) select(b.dataset.go, {}); });
+
+  // ---------- PDF
+  const viewer = document.getElementById("viewer"), sheet = document.getElementById("sheet"), cv = document.getElementById("cv"), ov = document.getElementById("ov");
+  const statusEl = document.getElementById("status"), pgin = document.getElementById("pgin"), pgof = document.getElementById("pgof");
+  let pdfDoc = null, curPage = 1, zoom = 1, renderTask = null, token = 0, pendingGo = null, lastSnips = null;
+  let curDoc = null, wantDoc = "order", loadTok = 0, loadingKey = null;
+  const docCache = new Map();
+
+  function setStatus(html) { statusEl.innerHTML = html || ""; }
+  async function openPdf(key, srcOverride) {
+    const lib = window.pdfjsLib;
+    if (!lib) throw new Error("не загрузилась библиотека pdf.js");
+    lib.GlobalWorkerOptions.workerSrc = "pdf.worker.min.js";
+    wantDoc = key; loadingKey = key;
+    const my = ++loadTok;
+    let doc = docCache.get(key);
+    if (!doc) {
+      const first = !pdfDoc;
+      const ltEl = document.getElementById("loadtitle");
+      if (first) { if (ltEl) ltEl.textContent = `Открываю ${DOCS[key].name}…`; }
+      else setStatus(`<span class="toast">Открываю ${esc(DOCS[key].name)}…</span>`);
+      const task = lib.getDocument(srcOverride || { url: DOCS[key].url, disableAutoFetch: true, rangeChunkSize: 262144 });
+      task.onProgress = p => {
+        const bf = document.getElementById("barfill"), lt = document.getElementById("loadtxt");
+        if (!p.total || !first || !bf || !lt) return;
+        bf.style.width = Math.round((p.loaded / p.total) * 100) + "%";
+        lt.textContent = `${(p.loaded / 1048576).toFixed(1)} из ${(p.total / 1048576).toFixed(1)} МБ`;
+      };
+      try { doc = await task.promise; } finally { if (loadingKey === key) loadingKey = null; }
+      docCache.set(key, doc);
+    }
+    if (loadingKey === key) loadingKey = null;
+    if (my !== loadTok) return;
+    pdfDoc = doc; curDoc = key;
+    document.getElementById("loading").hidden = true;
+    sheet.hidden = false;
+    pgof.textContent = `из ${pdfDoc.numPages}`;
+    document.getElementById("docname").textContent = DOCS[key].name;
+    document.getElementById("docname").className = "chip docname" + (key === "order" ? "" : " cons");
+    const g = pendingGo || [1, null]; pendingGo = null;
+    renderPage(g[0], g[1]);
+  }
+  function showLoadError(err, key) {
+    key = key || wantDoc;
+    const box = document.getElementById("loading");
+    box.hidden = false; sheet.hidden = true;
+    box.innerHTML = `<strong>Не получилось открыть PDF</strong><span>${esc(err && err.message || err)}</span>
+      <span>Можно открыть свой экземпляр «${esc(DOCS[key].file)}» с диска — навигация будет работать так же.</span>
+      <input type="file" id="pick" accept="application/pdf">`;
+    document.getElementById("pick").addEventListener("change", ev => {
+      const f = ev.target.files[0]; if (!f) return;
+      const rd = new FileReader();
+      rd.onload = () => openPdf(key, { data: new Uint8Array(rd.result) }).catch(e => showLoadError(e, key));
+      rd.readAsArrayBuffer(f);
+    });
+  }
+
+  function goTo(page, snips, n) {
+    lastSnips = snips && snips.length ? snips : null;
+    const key = srcOf(n);
+    if (pdfDoc && key === curDoc) { document.getElementById("loading").hidden = true; sheet.hidden = false; renderPage(page, lastSnips, n); return; }
+    pendingGo = [page, lastSnips];
+    if (loadingKey !== key) openPdf(key).catch(e => showLoadError(e, key));
+  }
+
+  // нормализованный текст страницы: только буквы и цифры, с картой обратно в элементы
+  const KEEP = /[\p{L}\p{N}]/u;
+  function buildIndex(tc) {
+    let s = ""; const map = [];
+    tc.items.forEach((it, ii) => { const str = it.str || ""; for (let k = 0; k < str.length; k++) { let ch = str[k]; if (KEEP.test(ch)) { ch = ch.toLowerCase(); if (ch === "ё") ch = "е"; s += ch; map.push([ii, k]); } } });
+    return { s, map };
+  }
+  const normKeep = t => (t || "").toLowerCase().replace(/ё/g, "е").replace(/[^\p{L}\p{N}]/gu, "");
+  function findRange(idx, snippet) {
+    const full = normKeep(snippet); if (full.length < 2) return null;
+    const pref = full.slice(0, Math.min(full.length, 48));
+    const endsDigit = /\d$/.test(pref);
+    let from = 0;
+    for (;;) {
+      const p = idx.s.indexOf(pref, from); if (p < 0) return null;
+      if (endsDigit && pref.length === full.length && /\d/.test(idx.s[p + pref.length] || "")) { from = p + 1; continue; }
+      let e = p + pref.length, j = pref.length;
+      while (j < full.length && e < idx.s.length && idx.s[e] === full[j]) { e++; j++; }
+      return [p, e];
+    }
+  }
+
+  // запасной поиск для ячеек таблиц: слова фрагмента по порядку, между ними допускается «шум»
+  // (номер урока, часы, ссылка ЦОК из соседних колонок, перенос строки)
+  function fuzzyRanges(idx, snippet) {
+    const words = (snippet || "").toLowerCase().replace(/ё/g, "е").split(/[^\p{L}\p{N}]+/u).filter(w => w.length >= 2);
+    if (words.length < 2) return null;
+    let best = null, from = 0;
+    for (let tries = 0; tries < 30; tries++) {
+      const p0 = idx.s.indexOf(words[0], from); if (p0 < 0) break;
+      const out = [[p0, p0 + words[0].length]]; let pos = p0 + words[0].length, miss = 0;
+      for (let k = 1; k < words.length && miss <= 1; k++) {
+        const p = idx.s.indexOf(words[k], pos);
+        if (p < 0 || p - pos > 70) { miss++; continue; }
+        out.push([p, p + words[k].length]); pos = p + words[k].length;
+      }
+      if (!best || out.length > best.length) best = out;
+      if (out.length === words.length) break;
+      from = p0 + 1;
+    }
+    return best && best.length >= 2 ? best : null;
+  }
+
+  async function renderPage(num, snips) {
+    if (!pdfDoc) return;
+    num = Math.max(1, Math.min(pdfDoc.numPages, num | 0));
+    curPage = num; pgin.value = num;
+    const my = ++token;
+    const page = await pdfDoc.getPage(num);
+    if (my !== token) return;
+    const base = page.getViewport({ scale: 1 });
+    const avail = Math.max(280, viewer.clientWidth - 32);
+    const scale = Math.min(avail / base.width, 1.7) * zoom;
+    const vp = page.getViewport({ scale });
+    const dpr = window.devicePixelRatio || 1;
+    const off = document.createElement("canvas");
+    off.width = Math.floor(vp.width * dpr); off.height = Math.floor(vp.height * dpr);
+    if (renderTask) { try { renderTask.cancel(); } catch (_) {} }
+    renderTask = page.render({ canvasContext: off.getContext("2d"), viewport: vp, transform: dpr !== 1 ? [dpr, 0, 0, dpr, 0, 0] : null });
+    try { await renderTask.promise; } catch (e) { if (e && e.name === "RenderingCancelledException") return; throw e; }
+    if (my !== token) return;
+    cv.width = off.width; cv.height = off.height; cv.style.width = vp.width + "px"; cv.style.height = vp.height + "px";
+    cv.getContext("2d").drawImage(off, 0, 0);
+    sheet.style.width = vp.width + "px"; sheet.style.height = vp.height + "px";
+    ov.innerHTML = "";
+    setStatus("");
+    if (!snips) { viewer.scrollTop = 0; return; }
+    const tc = await page.getTextContent();
+    if (my !== token) return;
+    const idx = buildIndex(tc);
+    let first = null, foundAny = false;
+    snips.forEach(sn => {
+      const r0 = findRange(idx, sn);
+      const rs = r0 ? [r0] : (fuzzyRanges(idx, sn) || []);
+      if (!rs.length) return;
+      foundAny = true;
+      const per = new Map();
+      rs.forEach(r => { for (let q = r[0]; q < r[1]; q++) { const [ii, k] = idx.map[q]; const cur = per.get(ii); if (!cur) per.set(ii, [k, k]); else { cur[0] = Math.min(cur[0], k); cur[1] = Math.max(cur[1], k); } } });
+      per.forEach(([k0, k1], ii) => {
+        const it = tc.items[ii], len = Math.max(1, it.str.length);
+        const tx = window.pdfjsLib.Util.transform(vp.transform, it.transform);
+        const fh = Math.hypot(tx[2], tx[3]);
+        const w = it.width * scale;
+        const d = document.createElement("div"); d.className = "hl";
+        const left = tx[4] + w * (k0 / len), width = Math.max(4, w * ((k1 - k0 + 1) / len));
+        const top = tx[5] - fh * 1.02;
+        d.style.left = left + "px"; d.style.top = top + "px"; d.style.width = width + "px"; d.style.height = (fh * 1.22) + "px";
+        ov.appendChild(d);
+        if (!first || top < first) first = top;
+      });
+    });
+    if (foundAny) { viewer.scrollTop = Math.max(0, sheet.offsetTop + first - 90); setStatus(""); }
+    else { viewer.scrollTop = 0; setStatus(`<span class="toast">Точное место не найдено — показана стр. ${num}</span>`); }
+  }
+
+  document.getElementById("prev").onclick = () => renderPage(curPage - 1, null);
+  document.getElementById("next").onclick = () => renderPage(curPage + 1, null);
+  document.getElementById("zin").onclick = () => { zoom = Math.min(2.6, zoom * 1.2); renderPage(curPage, lastSnips); };
+  document.getElementById("zout").onclick = () => { zoom = Math.max(0.5, zoom / 1.2); renderPage(curPage, lastSnips); };
+  document.getElementById("zfit").onclick = () => { zoom = 1; renderPage(curPage, lastSnips); };
+  pgin.addEventListener("change", () => { lastSnips = null; renderPage(parseInt(pgin.value, 10) || 1, null); });
+  document.addEventListener("keydown", e => {
+    const typing = /INPUT|TEXTAREA/.test(document.activeElement && document.activeElement.tagName);
+    if (e.key === "/" && !typing) { e.preventDefault(); q.focus(); q.select(); }
+    if (!typing && e.key === "ArrowLeft") renderPage(curPage - 1, null);
+    if (!typing && e.key === "ArrowRight") renderPage(curPage + 1, null);
+  });
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => pdfDoc && renderPage(curPage, lastSnips), 200); });
+
+  // ---------- экран «Связи»
+  const CLASSES = [["OOO", 5], ["OOO", 6], ["OOO", 7], ["OOO", 8], ["OOO", 9], ["SOO", 10], ["SOO", 11]];
+  const linksEl = document.getElementById("links"), toolbarEl = document.getElementById("toolbar");
+  let mode = "doc", lk = { subj: "history", part: "OOO", g: 5, view: "lessons", filter: "all" };
+  const SUBJ = {
+    history: { name: "История", classes: [["OOO", 5], ["OOO", 6], ["OOO", 7], ["OOO", 8], ["OOO", 9], ["SOO", 10], ["SOO", 11]], views: [["lessons", "по урокам"], ["elements", "по элементам"], ["exam", "по экзамену"]] },
+    physics: { name: "Физика", classes: [["OOO", 7], ["OOO", 8], ["OOO", 9], ["SOO", 10], ["SOO", 11]], views: [["lessons", "по урокам"], ["elements", "по элементам"], ["exam", "по экзамену"]] },
+  };
+  const EXL = id => (id.includes(".oge.") ? "ОГЭ" : "ЕГЭ");
+  const gradeOf = id => { const m = /\.g(\d+)\./.exec(id); return m ? +m[1] : ""; };
+  function examOf(n) {
+    const out = [];
+    const add = (id, via) => { if (id && nodes.has(id) && !out.some(o => o.id === id)) out.push({ id, via: !!via }); };
+    if (n.ty === "lesson") (n.le || []).forEach(e => { if (/\.(oge|ege)\./.test(e)) add(e); else { const E = nodes.get(e); if (E) { (E.xe || []).forEach(x => add(x)); (E.xd || []).forEach(x => add(x, true)); } } });
+    else { (n.xe || []).forEach(x => add(x)); (n.xd || []).forEach(x => add(x, true)); }
+    return out;
+  }
+  function exChips(list) {
+    return list.length ? `<div class="lchips">${list.map(o => `<button type="button" data-go="${esc(o.id)}" title="${esc(nodes.get(o.id).x)}">${EXL(o.id)} ${esc(nodes.get(o.id).c)}${o.via ? "*" : ""}</button>`).join("")}</div>` : '<span class="pg">—</span>';
+  }
+  function setMode(m, quiet) {
+    mode = m;
+    const links = m === "links";
+    document.getElementById("tab-doc").setAttribute("aria-pressed", String(!links));
+    document.getElementById("tab-links").setAttribute("aria-pressed", String(links));
+    card.hidden = links; toolbarEl.hidden = links; viewer.hidden = links; linksEl.hidden = !links;
+    if (links) { renderLinks(); try { history.replaceState(null, "", `#links.${lk.subj}.${lk.part}.g${lk.g}`); } catch (_) {} }
+    else if (!quiet && pdfDoc) { renderPage(curPage, lastSnips); try { history.replaceState(null, "", "#" + selected); } catch (_) {} }
+  }
+  const themeBtn = document.getElementById("theme");
+  function applyTheme(t, save) {
+    document.documentElement.setAttribute("data-theme", t);
+    themeBtn.textContent = t === "dark" ? "☀ Светлая тема" : "☾ Тёмная тема";
+    if (save) { try { localStorage.setItem("fop-theme", t); } catch (_) {} }
+  }
+  themeBtn.onclick = () => applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark", true);
+  applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light");
+  document.getElementById("tab-doc").onclick = () => setMode("doc");
+  document.getElementById("tab-links").onclick = () => {
+    const m = /^(OOO|SOO)\.(history|physics)\.[a-z]+\.g(\d+)/.exec(selected || "");
+    if (m) { lk.part = m[1]; lk.subj = m[2]; lk.g = +m[3]; }
+    setMode("links");
+  };
+  const short = (s, n) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
+  // текст MinerU: $…$ — формулы LaTeX (KaTeX), ![](images/…) — картинки из mineru/result/images
+  const DEEP_T = "часы взяты из углублённого плана Конструктора: в базовом плане уроков на этот элемент нет (1 ч углублённого ≈ 0,41–0,67 ч базового)";
+  function wChip(e, withShare, compact) {
+    if (e.wh == null) return "";
+    if (e.wh === 0) return `<span class="chip warn">0 ч${withShare ? " · 0%" : ""}</span>`;
+    const tail = withShare ? ` · ${fmtH(e.ws)}%` : "";
+    if (e.wd) return `<span class="chip deep" title="${DEEP_T}">${fmtH(e.wh)} ч${tail}${compact ? "" : " · углубл."}</span>`;
+    return `<span class="chip">${fmtH(e.wh)} ч${tail}</span>`;
+  }
+  function mathHTML(s, img) {
+    const parts = String(s).split("$");
+    return parts.map((p, i) => {
+      if (i % 2) {
+        if (window.katex) { try { return katex.renderToString(p, { throwOnError: false, strict: "ignore" }); } catch (_) {} }
+        return `<code>${esc(p)}</code>`;
+      }
+      return esc(p).replace(/!\[\]\((images\/[^)\s]+)\)/g, (_, f) => img === "none" ? "" : `<img class="${img === "thumb" ? "thumb" : ""}" src="../1_разметка/mineru/result/${f}" alt="рисунок" title="рисунок из документа (MinerU)">`);
+    }).join("");
+  }
+  function elBtn(id, n) {
+    const e = nodes.get(id); if (!e) return "";
+    return `<div class="el"><button type="button" class="lnk" data-go="${esc(id)}"><span class="code">${id.includes(".oge.") ? "ОГЭ " : ""}${esc(e.c)}</span>${esc(short(e.x, n || 150))}</button>${e.wh != null && !e.ig ? ` <span class="chip" title="Вес элемента = сумма часов всех уроков, отнесённых к нему">всего у элемента: ${fmtH(e.wh)} ч${e.wl && e.wl.length ? ` (уроки ${e.wl.map(x => nodes.get(x).c).join(", ")})` : ""}</span>` : ""}</div>`;
+  }
+  function seg(name, items, cur) {
+    return `<div class="seg" role="group">` + items.map(([v, l]) => `<button type="button" data-${name}="${v}" aria-pressed="${v === cur}">${l}</button>`).join("") + `</div>`;
+  }
+  function renderLinks() {
+    const S = SUBJ[lk.subj];
+    if (!S.classes.some(([p, k]) => p === lk.part && k === lk.g)) { lk.part = S.classes[0][0]; lk.g = S.classes[0][1]; }
+    if (!S.views.some(([v]) => v === lk.view)) { lk.view = S.views[0][0]; lk.filter = "all"; }
+    const { part, g, subj } = lk;
+    const exk = part === "OOO" ? "oge" : "ege", exName = part === "OOO" ? "ОГЭ" : "ЕГЭ";
+    const les = (nodes.get(`${part}.${subj}.les.g${g}`) || {}).r || [];
+    const els = (nodes.get(`${part}.${subj}.cls.g${g}.el`) || {}).r || [];
+    const req = (nodes.get(`${part}.${subj}.cls.g${g}.req`) || {}).r || [];
+    const exEls = (nodes.get(`${part}.${subj}.${exk}.el`) || {}).r || [];
+    const hist = les.length > 0;  // есть поурочный план (история — приказ, физика — Конструктор)
+    const cons = subj === "physics";
+    const filters = {
+      lessons: [["all", "все"], ["manual", "исправлены вручную"], ["multi", "на несколько элементов"], ["review", "повторение"]].concat(cons ? [["lab", "лабораторные"], ["vpr", "ВПР"]] : []),
+      elements: [["all", "все"], ["noexam", `нет в ${exName}`]].concat(hist ? [["zero", "без уроков"]] : []).concat(subj === "physics" ? [["deep", "из углублённого"]] : []),
+      exam: [["all", "элементы содержания"], ["req", "требования (умения)"]],
+    };
+    if (!filters[lk.view].some(([f]) => f === lk.filter)) lk.filter = "all";
+    let h = `<div class="lk-head">` + seg("subj", [["history", "История"], ["physics", "Физика"]], subj) +
+      seg("cls", S.classes.map(([p, k]) => [`${p}.${k}`, `${p === "OOO" ? "ООО" : "СОО"} ${k}`]), `${part}.${g}`) +
+      seg("view", S.views, lk.view) + (filters[lk.view].length > 1 ? seg("filter", filters[lk.view], lk.filter) : "") + `</div>`;
+    const leaves = els.filter(e => !e.ig);
+    const hasEx = e => (e.xe && e.xe.length) || (e.xd && e.xd.length);
+    if (lk.view === "exam" && lk.filter === "req") {
+      const exReq = (nodes.get(`${part}.${subj}.${exk}.req`) || {}).r || [];
+      const lvl = S.classes.filter(([p]) => p === part).map(([, k]) => k);
+      const clsReq = lvl.flatMap(k => ((nodes.get(`${part}.${subj}.cls.g${k}.req`) || {}).r || []).filter(r => !r.ig));
+      const noEx = clsReq.filter(r => r.re && !r.re.length);
+      h += `<div class="lk-sum">${S.name}, требования ${exName} (умения) — весь уровень (${lvl[0]}–${lvl[lvl.length - 1]} классы): <b>${exReq.filter(x => !x.ig).length}</b>. Для каждого — умения классов, из которых оно складывается. Без опоры на умения классов: <b>${exReq.filter(x => !x.ig && !(x.rc || []).length).length}</b>; умений классов без аналога в ${exName}: <b>${noEx.length}</b> из ${clsReq.length}.</div>`;
+    } else if (lk.view === "exam") {
+      h += `<div class="lk-sum">${S.name}, кодификатор ${exName} — весь уровень (${part === "OOO" ? (subj === "history" ? "5–9" : "7–9") : "10–11"} классы), пунктов: <b>${exEls.filter(e => !e.ig).length}</b>. Для каждого пункта — элементы классов, на которые он опирается${subj === "history" ? ", и часы уроков за ними" : ", и часы уроков за ними по Конструктору"}. «*» — связь через другой уровень (ЕГЭ опирается на материал ${hist ? "5–9" : "7–9"} классов).</div>`;
+    } else {
+      h += `<div class="lk-sum">${S.name}, ${g} класс: ` + (hist
+        ? `<b>${les.length}</b> уроков${cons ? ' <span class="chip cons">по Конструктору edsoo — в приказе поурочного плана нет</span>' : ""} (с новым материалом <b>${les.filter(l => l.lk !== "review").length}</b>, исправлено вручную <b>${les.filter(l => l.lk !== "review" && l.m === "manual").length}</b>); `
+        : `поурочного плана в приказе нет; `) +
+        `элементов содержания <b>${leaves.length}</b>, без пункта в ${exName}: <b>${leaves.filter(e => !hasEx(e)).length}</b>` + (hist ? `, без уроков: <b>${leaves.filter(e => e.wh === 0).length}</b>` : "") + `.` + (subj === "physics" ? ` Часы — по базовому плану Конструктора; <span class="chip deep">углубл.</span> — у элемента нет уроков в базовом плане, часы взяты из углублённого: <b>${leaves.filter(e => e.wd).length}</b>.` : "") + `</div>`;
+      const groups = []; let cur = null;
+      req.forEach(r => { if (r.ig || !r.c.includes(".")) { cur = { g: r, items: [] }; groups.push(cur); } else if (cur) cur.items.push(r); else { cur = { g: null, items: [r] }; groups.push(cur); } });
+      h += `<details class="skills"><summary><b>Проверяемые умения ${g} класса</b> (${req.filter(r => !r.ig).length}${req.some(r => r.re && !r.re.length) ? `, без аналога в ${exName}: ${req.filter(r => r.re && !r.re.length).length}` : ""}) <small>— в документе они не привязаны к урокам и элементам: проверяются на материале любого элемента класса</small></summary>` +
+        groups.map(gr => (gr.g ? `<div class="grp">${esc(gr.g.c)}. ${esc(short(gr.g.x, 140))}</div>` : "") +
+          `<ul>${gr.items.map(r => `<li><button type="button" data-go="${esc(r.i)}"><span class="code">${esc(r.c)}</span><span class="vb">${esc(r.v || "")}</span> — ${esc(short(r.x, 170))}</button>${r.re ? (r.re.length ? exChips(r.re.map(id => ({ id }))) : `<span class="nox" title="${esc(r.rn || "")}">нет в ${exName}</span>`) : ""}</li>`).join("")}</ul>`).join("") + `</details>`;
+    }
+    if (lk.view === "lessons") {
+      const pass = l => lk.filter === "all" || (lk.filter === "manual" && l.m === "manual") || (lk.filter === "multi" && l.lk !== "review" && l.le && l.le.length > 1) || (lk.filter === "review" && l.lk === "review") || (lk.filter === "lab" && (l.lt === "lab" || l.lt === "mixed")) || (lk.filter === "vpr" && l.f && l.f.includes("vpr"));
+      const rows = les.filter(pass);
+      h += `<div class="lgrid"><div class="lrow l5 head"><span>№</span><span>Урок</span><span>Проверяемый элемент содержания</span><span>${exName}</span><span>Сопоставление</span></div>`;
+      let lastSec = null;
+      rows.forEach(l => {
+        const fe = (l.le || [])[0] && nodes.get(l.le[0]);
+        const sec = l.lk === "review" ? null : (fe ? (fe.p || fe.i) : null);
+        if (sec && sec !== lastSec) { const s = nodes.get(sec); if (s) h += `<div class="lsec"><span class="code">${sec.includes(".oge.") ? "ОГЭ " : ""}${esc(s.c)}</span>${esc(short(s.x, 120))}${s.wh != null ? ` <span class="chip">${fmtH(s.wh)} ч · ${fmtH(s.ws)}%</span>` : ""}</div>`; lastSec = sec; }
+        const mchip = (l.lk === "review" ? `<span class="chip rev">${l.lt && LT[l.lt] ? LT[l.lt][0] : "повторение"}, без веса</span>` : l.m === "manual" ? '<span class="chip ok">вручную</span>' : '<span class="chip">авто</span>')
+          + (l.lk !== "review" && (l.lt === "lab" || l.lt === "mixed") ? `<span class="chip lab">${l.lt === "lab" ? "лаб." : "теория + лаб."}</span>` : "") + (l.f && l.f.includes("vpr") ? '<span class="chip warn">ВПР</span>' : "");
+        const extra = (l.le || []).some(e => e.includes(".oge.")) ? ' <span class="chip warn">нет в кодификаторе класса</span>' : (l.le && l.le.length > 1 && l.lk !== "review" ? ` <span class="chip">${l.sh ? "час: " + l.sh.map(fmtH).join(" / ") : "час ÷ " + l.le.length}</span>` : "");
+        const target = (l.le && l.le.length) ? (l.lk === "review" ? `<span class="pg">повторяет:</span>` : "") + l.le.map(e => elBtn(e, 150)).join("") : `<span class="pg">${l.lk === "review" ? "обобщение по всему курсу" : "—"}</span>`;
+        h += `<div class="lrow l5 ${l.lk === "review" ? "rev" : ""}"><span class="num">${esc(l.c)}</span><button type="button" class="lnk" data-go="${esc(l.i)}">${esc(l.x)}</button><div>${target}</div><div>${l.lk === "review" ? "" : exChips(examOf(l))}</div><div>${mchip}${extra}</div></div>`;
+      });
+      if (!rows.length) h += `<div class="lk-empty">Таких уроков в этом классе нет.</div>`;
+      h += `</div>`;
+    } else if (lk.view === "elements") {
+      const leafPass = e => lk.filter === "all" || (lk.filter === "zero" && e.wh === 0) || (lk.filter === "noexam" && !hasEx(e)) || (lk.filter === "deep" && e.wd);
+      h += `<div class="lgrid"><div class="lrow e5 head"><span>Код</span><span>Элемент содержания</span><span>${exName}</span><span>${hist ? "Вес" : ""}</span><span>${hist ? "Уроки" : ""}</span></div>`;
+      let shown = 0;
+      els.forEach(e => {
+        if (e.ig) {
+          if (lk.filter !== "all" && !els.some(x => x.p === e.i && leafPass(x))) return;
+          h += `<div class="lsec"><span class="code">${esc(e.c)}</span>${esc(short(e.x, 120))}${e.wh != null ? ` <span class="chip">${fmtH(e.wh)} ч · ${fmtH(e.ws)}%</span>` : ""}${e.wr && e.wr.length ? ` <span class="chip rev">повторение: ${e.wr.map(x => (gradeOf(x) !== g ? gradeOf(x) + " кл. " : "") + nodes.get(x).c).join(", ")}</span>` : ""}</div>`;
+          return;
+        }
+        if (!leafPass(e)) return;
+        shown++;
+        const ex = examOf(e);
+        const exCell = ex.length ? exChips(ex) + (e.xm === "manual" ? '<span class="chip ok">вручную</span>' : "") : `<span class="pg">${e.xm === "region" ? "региональный" : "нет пункта"}</span>`;
+        h += `<div class="lrow e5 ${hist && e.wh === 0 ? "zero" : ""}"><span class="code">${esc(e.c)}</span><button type="button" class="lnk" data-go="${esc(e.i)}">${e.xl ? mathHTML(e.xl, "thumb") : esc(short(e.x, 220))}</button><div>${exCell}</div><span>${e.wh != null ? `${wChip(e, true, true)}` : ""}</span><div class="lchips">${hist ? ((e.wl || []).map(x => { const L = nodes.get(x); return `<button type="button" data-go="${esc(x)}" title="${esc(L.x)}">${esc(L.c)}</button>`; }).join("") || (e.wdl ? e.wdl.map(t => `<span class="chip deep" title="${esc(t)}">углубл. ${esc((/урок (\d+)/.exec(t) || [])[1] || "")}</span>`).join("") : '<span class="pg">нет уроков</span>')) : ""}</div></div>`;
+      });
+      if (!shown) h += `<div class="lk-empty">Таких элементов в этом классе нет.</div>`;
+      h += `</div>`;
+    } else if (lk.filter === "req") {
+      const exReq = (nodes.get(`${part}.${subj}.${exk}.req`) || {}).r || [];
+      h += `<div class="lgrid"><div class="lrow xr head"><span>Код</span><span>Требование ${exName}</span><span>Умения классов</span><span>Всего</span></div>`;
+      exReq.forEach(x => {
+        if (x.ig) { h += `<div class="lsec"><span class="code">${exName} ${esc(x.c)}</span>${esc(short(x.x, 120))}</div>`; return; }
+        const cs = x.rc || [], byG = new Map();
+        cs.forEach(c => { const k = gradeOf(c); if (!byG.has(k)) byG.set(k, []); byG.get(k).push(c); });
+        const cell = [...byG].sort((a, b) => a[0] - b[0]).map(([k, list]) => `<div class="byg"><span class="gl">${k} кл.</span>${list.map(c => { const C = nodes.get(c); return C ? `<span class="lchips"><button type="button" data-go="${esc(c)}" title="${esc(C.x)}">${esc(C.c)}</button></span>` : ""; }).join("")}</div>`).join("");
+        h += `<div class="lrow xr ${cs.length ? "" : "zero"}"><span class="code">${esc(x.c)}</span><button type="button" class="lnk" data-go="${esc(x.i)}">${esc(short(x.x, 260))}</button><div>${cell || '<span class="pg">в требованиях классов такого умения нет</span>'}</div><span><span class="chip ${cs.length ? "" : "warn"}">${cs.length}</span></span></div>`;
+      });
+      const lvl = S.classes.filter(([p]) => p === part).map(([, k]) => k);
+      const noEx = lvl.flatMap(k => ((nodes.get(`${part}.${subj}.cls.g${k}.req`) || {}).r || []).filter(r => !r.ig && r.re && !r.re.length));
+      if (noEx.length) {
+        h += `<div class="lsec">Умения классов без аналога в ${exName} (${noEx.length})</div>`;
+        noEx.forEach(r => { h += `<div class="lrow xr"><span class="code">${gradeOf(r.i)} кл.</span><button type="button" class="lnk" data-go="${esc(r.i)}"><span class="code">${esc(r.c)}</span>${esc(short(r.x, 220))}</button><div><span class="pg">${esc(r.rn || "")}</span></div><span></span></div>`; });
+      }
+      h += `</div>`;
+    } else {
+      const withH = exEls.some(x => x.xh != null);
+      h += `<div class="lgrid"><div class="lrow x head"><span>Код</span><span>Пункт ${exName}</span><span>Элементы классов</span><span>${withH ? "Часы" : "Эл."}</span></div>`;
+      exEls.forEach(x => {
+        if (x.ig) { h += `<div class="lsec"><span class="code">${exName} ${esc(x.c)}</span>${esc(short(x.x, 120))}${x.xh != null ? ` <span class="chip">${fmtH(x.xh)} ч</span>` : ""}</div>`; return; }
+        const cs = x.xc || [];
+        let cell = cs.slice(0, 40).map(c => { const C = nodes.get(c); if (!C) return ""; const via = !(C.xe || []).includes(x.i); return `<button type="button" data-go="${esc(c)}" title="${esc(C.x)}">${gradeOf(c)} кл. ${esc(C.c)}${via ? "*" : ""}</button>`; }).join("") + (cs.length > 40 ? `<span class="pg">ещё ${cs.length - 40}</span>` : "");
+        if (!cell && x.wl && x.wl.length) cell = x.wl.map(l => `<button type="button" data-go="${esc(l)}" title="${esc(nodes.get(l).x)}">урок ${esc(nodes.get(l).c)}</button>`).join("");
+        h += `<div class="lrow x"><span class="code">${esc(x.c)}</span><button type="button" class="lnk" data-go="${esc(x.i)}">${x.xl ? mathHTML(x.xl, "thumb") : esc(short(x.x, 200))}</button><div class="lchips">${cell || '<span class="pg">нет</span>'}</div><span>${x.xh != null ? `<span class="chip">${fmtH(x.xh)} ч</span>` : `<span class="chip">${cs.length}</span>`}</span></div>`;
+      });
+      h += `</div>`;
+    }
+    linksEl.innerHTML = h;
+  }
+  linksEl.addEventListener("click", e => {
+    const t = e.target.closest("[data-go],[data-cls],[data-view],[data-filter],[data-subj]"); if (!t) return;
+    if (t.dataset.subj) { lk.subj = t.dataset.subj; }
+    if (t.dataset.go) { setMode("doc", true); select(t.dataset.go, {}); return; }
+    if (t.dataset.cls) { const [p, k] = t.dataset.cls.split("."); lk.part = p; lk.g = +k; }
+    if (t.dataset.view) { lk.view = t.dataset.view; lk.filter = "all"; }
+    if (t.dataset.filter) lk.filter = t.dataset.filter;
+    linksEl.scrollTop = 0;
+    setMode("links");
+  });
+  function openFromHash(given) {
+    const id = typeof given === "string" ? given : decodeURIComponent((location.hash || "").slice(1));
+    const m = /^links\.(?:(history|physics)\.)?(OOO|SOO)\.g(\d+)$/.exec(id);
+    if (m) { if (m[1]) lk.subj = m[1]; lk.part = m[2]; lk.g = +m[3]; if (mode !== "links") setMode("links"); else renderLinks(); return true; }
+    if (id && id !== selected && nodes.has(id)) { if (mode !== "doc") setMode("doc", true); select(id, {}); return true; }
+    return false;
+  }
+  window.addEventListener("hashchange", () => openFromHash());
+
+  // ---------- старт
+  const start = decodeURIComponent((location.hash || "").slice(1));
+  select(nodes.has(start) ? start : DEFAULT_ID, {});
+  if (/^links\./.test(start)) openFromHash(start);
+  // PDF открывается из select() → goTo(): нужный документ (приказ или выгрузка Конструктора) выбирается по пункту
+})();
+</script>
+
+
+</body>
+</html>
