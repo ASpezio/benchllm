@@ -1,0 +1,3205 @@
+[
+ {
+  "source": "C.history.srednie-veka",
+  "target": "C.history.novoe-vremya",
+  "type": "prerequisites_for",
+  "why": "Новое время наступает после Средних веков и отсчитывается от них"
+ },
+ {
+  "source": "C.history.novoe-vremya",
+  "target": "C.history.periodizatsiya-istorii-novogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "периодизуются рамки самого Нового времени"
+ },
+ {
+  "source": "C.history.istoricheskaya-hronologiya",
+  "target": "C.history.periodizatsiya-istorii-novogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "периодизация строится на хронологии"
+ },
+ {
+  "source": "C.history.poiski-evropeytsami-morskih-putey-v-strany-vostoka",
+  "target": "C.history.velikie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "поиски путей на Восток — начало открытий"
+ },
+ {
+  "source": "C.history.srednevekovyy-vostok",
+  "target": "C.history.poiski-evropeytsami-morskih-putey-v-strany-vostoka",
+  "type": "prerequisites_for",
+  "why": "искали путь к богатствам стран Востока"
+ },
+ {
+  "source": "C.history.padenie-konstantinopolya",
+  "target": "C.history.poiski-evropeytsami-morskih-putey-v-strany-vostoka",
+  "type": "prerequisites_for",
+  "why": "османы перекрыли старые торговые пути на Восток"
+ },
+ {
+  "source": "C.history.ekspeditsii-kolumba",
+  "target": "C.history.velikie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "открытие Америки — эпизод Великих открытий"
+ },
+ {
+  "source": "C.history.hristofor-kolumb",
+  "target": "C.history.ekspeditsii-kolumba",
+  "type": "participant_of",
+  "why": "руководил экспедициями"
+ },
+ {
+  "source": "C.history.ekspeditsii-kolumba",
+  "target": "C.history.tordesilyasskiy-dogovor",
+  "type": "prerequisites_for",
+  "why": "договор делил земли, открытые после плаваний Колумба"
+ },
+ {
+  "source": "C.history.otkrytie-morskogo-puti-v-indiyu",
+  "target": "C.history.velikie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "эпизод Великих открытий"
+ },
+ {
+  "source": "C.history.srednevekovaya-indiya",
+  "target": "C.history.otkrytie-morskogo-puti-v-indiyu",
+  "type": "prerequisites_for",
+  "why": "цель плавания — богатая Индия"
+ },
+ {
+  "source": "C.history.vasko-da-gama",
+  "target": "C.history.otkrytie-morskogo-puti-v-indiyu",
+  "type": "participant_of",
+  "why": "открыл морской путь в Индию"
+ },
+ {
+  "source": "C.history.krugosvetnoe-plavanie-magellana",
+  "target": "C.history.velikie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "эпизод Великих открытий"
+ },
+ {
+  "source": "C.history.fernan-magellan",
+  "target": "C.history.krugosvetnoe-plavanie-magellana",
+  "type": "participant_of",
+  "why": "возглавил экспедицию"
+ },
+ {
+  "source": "C.history.otkrytie-avstralii",
+  "target": "C.history.velikie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "эпизод Великих открытий"
+ },
+ {
+  "source": "C.history.abel-tasman",
+  "target": "C.history.otkrytie-avstralii",
+  "type": "participant_of",
+  "why": "его плавания открыли Австралию"
+ },
+ {
+  "source": "C.history.poiski-severo-vostochnogo-morskogo-puti-v-kitay-i-indiyu",
+  "target": "C.history.velikie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "эпизод Великих открытий"
+ },
+ {
+  "source": "C.history.ekspeditsii-kolumba",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "prerequisites_for",
+  "why": "завоевания начались после открытия Америки"
+ },
+ {
+  "source": "C.history.dokolumbova-amerika",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "prerequisites_for",
+  "why": "завоёваны были государства доколумбовой Америки"
+ },
+ {
+  "source": "C.history.atsteki",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "prerequisites_for",
+  "why": "Кортес покорил державу ацтеков"
+ },
+ {
+  "source": "C.history.inki",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "prerequisites_for",
+  "why": "Писарро покорил государство инков"
+ },
+ {
+  "source": "C.history.poyavlenie-evropeyskih-zavoevateley-v-amerike",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "part_of",
+  "why": "появление завоевателей — начало конкисты"
+ },
+ {
+  "source": "C.history.konkistadory",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "prerequisites_for",
+  "why": "завоевания совершали конкистадоры"
+ },
+ {
+  "source": "C.history.f-kortes",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "participant_of",
+  "why": "завоеватель Мексики"
+ },
+ {
+  "source": "C.history.f-pisarro",
+  "target": "C.history.zavoevaniya-konkistadorov-v-amerike",
+  "type": "participant_of",
+  "why": "завоеватель Перу"
+ },
+ {
+  "source": "C.history.velikie-geograficheskie-otkrytiya",
+  "target": "C.history.evropeytsy-v-severnoy-amerike",
+  "type": "prerequisites_for",
+  "why": "освоение Северной Америки — следствие открытий"
+ },
+ {
+  "source": "C.history.srednevekovoe-evropeyskoe-obschestvo",
+  "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah",
+  "type": "prerequisites_for",
+  "why": "изменения понимаются в сравнении со средневековым обществом"
+ },
+ {
+  "source": "C.history.razvitie-tehniki",
+  "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "одно из изменений эпохи"
+ },
+ {
+  "source": "C.history.gornoe-delo",
+  "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "развитие горного дела — одно из изменений"
+ },
+ {
+  "source": "C.history.proizvodstvo-metallov",
+  "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "рост металлургии — одно из изменений"
+ },
+ {
+  "source": "C.history.razvitie-tehniki",
+  "target": "C.history.proizvodstvo-metallov",
+  "type": "prerequisites_for",
+  "why": "новая техника подняла производство металлов"
+ },
+ {
+  "source": "C.history.remeslo",
+  "target": "C.history.manufaktura",
+  "type": "prerequisites_for",
+  "why": "мануфактура выросла из ремесла с разделением труда"
+ },
+ {
+  "source": "C.history.manufaktura",
+  "target": "C.history.kapitalisticheskie-otnosheniya",
+  "type": "prerequisites_for",
+  "why": "мануфактура — основа ранних капиталистических отношений"
+ },
+ {
+  "source": "C.history.naemnyy-trud",
+  "target": "C.history.kapitalisticheskie-otnosheniya",
+  "type": "prerequisites_for",
+  "why": "капитализм основан на наёмном труде"
+ },
+ {
+  "source": "C.history.kapitalisticheskie-otnosheniya",
+  "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah",
+  "type": "prerequisites_for",
+  "why": "капитализм — главная причина изменений"
+ },
+ {
+  "source": "C.history.torgovlya",
+  "target": "C.history.vnutrenniy-rynok",
+  "type": "prerequisites_for",
+  "why": "рынок складывается из торговли"
+ },
+ {
+  "source": "C.history.vnutrenniy-rynok",
+  "target": "C.history.mirovoy-rynok",
+  "type": "prerequisites_for",
+  "why": "мировой рынок связывает внутренние рынки стран"
+ },
+ {
+  "source": "C.history.velikie-geograficheskie-otkrytiya",
+  "target": "C.history.mirovoy-rynok",
+  "type": "prerequisites_for",
+  "why": "открытия связали континенты торговлей"
+ },
+ {
+  "source": "C.history.soslovie",
+  "target": "C.history.novye-sotsialnye-gruppy",
+  "type": "prerequisites_for",
+  "why": "новые группы не укладывались в сословное деление"
+ },
+ {
+  "source": "C.history.kapitalisticheskie-otnosheniya",
+  "target": "C.history.novye-sotsialnye-gruppy",
+  "type": "prerequisites_for",
+  "why": "предприниматели и наёмные работники — порождение капитализма"
+ },
+ {
+  "source": "C.history.novye-sotsialnye-gruppy",
+  "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "появление новых групп — одно из изменений"
+ },
+ {
+  "source": "C.history.povsednevnaya-zhizn-evropeytsev-v-xvi-xvii-vekah",
+  "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "быт показывает изменения общества"
+ },
+ {
+  "source": "C.history.byt-srednevekovyh-gorozhan",
+  "target": "C.history.povsednevnaya-zhizn-evropeytsev-v-xvi-xvii-vekah",
+  "type": "prerequisites_for",
+  "why": "новый быт сравнивается со средневековым"
+ },
+ {
+  "source": "C.history.katolitsizm",
+  "target": "C.history.katolicheskaya-tserkov",
+  "type": "prerequisites_for",
+  "why": "церковь объединяет верующих-католиков"
+ },
+ {
+  "source": "C.history.katolicheskaya-tserkov",
+  "target": "C.history.tserkov",
+  "type": "is_a",
+  "why": "одна из христианских церквей"
+ },
+ {
+  "source": "C.history.katolicheskaya-tserkov",
+  "target": "C.history.reformatsiya",
+  "type": "prerequisites_for",
+  "why": "Реформация — движение против порядков католической церкви"
+ },
+ {
+  "source": "C.history.gusitskoe-dvizhenie",
+  "target": "C.history.reformatsiya",
+  "type": "prerequisites_for",
+  "why": "гуситы — предшественники Реформации"
+ },
+ {
+  "source": "C.history.nachalo-reformatsii-v-germanii",
+  "target": "C.history.reformatsiya",
+  "type": "part_of",
+  "why": "первый этап Реформации"
+ },
+ {
+  "source": "C.history.germaniya",
+  "target": "C.history.nachalo-reformatsii-v-germanii",
+  "type": "prerequisites_for",
+  "why": "место начала Реформации"
+ },
+ {
+  "source": "C.history.m-lyuter",
+  "target": "C.history.nachalo-reformatsii-v-germanii",
+  "type": "participant_of",
+  "why": "начал Реформацию своими тезисами"
+ },
+ {
+  "source": "C.history.reformatsiya",
+  "target": "C.history.krestyanskaya-voyna-v-germanii",
+  "type": "prerequisites_for",
+  "why": "война развернулась на волне Реформации"
+ },
+ {
+  "source": "C.history.krestyanstvo",
+  "target": "C.history.krestyanskaya-voyna-v-germanii",
+  "type": "prerequisites_for",
+  "why": "главная сила войны — крестьяне"
+ },
+ {
+  "source": "C.history.reformatsiya",
+  "target": "C.history.protestantizm",
+  "type": "prerequisites_for",
+  "why": "протестантизм возник в ходе Реформации"
+ },
+ {
+  "source": "C.history.protestantizm",
+  "target": "C.history.hristianstvo",
+  "type": "is_a",
+  "why": "направление христианства"
+ },
+ {
+  "source": "C.history.kalvinizm",
+  "target": "C.history.protestantizm",
+  "type": "is_a",
+  "why": "одно из протестантских учений"
+ },
+ {
+  "source": "C.history.protestantizm",
+  "target": "C.history.religioznye-voyny-v-evrope",
+  "type": "prerequisites_for",
+  "why": "войны шли между католиками и протестантами"
+ },
+ {
+  "source": "C.history.reformatsiya",
+  "target": "C.history.kontrreformatsiya",
+  "type": "prerequisites_for",
+  "why": "контрреформация — ответ католической церкви на Реформацию"
+ },
+ {
+  "source": "C.history.inkvizitsiya",
+  "target": "C.history.kontrreformatsiya",
+  "type": "part_of",
+  "why": "инквизиция — орудие контрреформации"
+ },
+ {
+  "source": "C.history.presledovanie-eretikov",
+  "target": "C.history.inkvizitsiya",
+  "type": "prerequisites_for",
+  "why": "инквизиция — церковный суд над еретиками"
+ },
+ {
+  "source": "C.history.formirovanie-politicheskoy-i-etnicheskoy-karty-evropy",
+  "target": "C.history.gosudarstva-evropy-v-xvi-xvii-vekah",
+  "type": "prerequisites_for",
+  "why": "государства Нового времени сложились в Средние века"
+ },
+ {
+  "source": "C.history.tsentralizovannoe-gosudarstvo",
+  "target": "C.history.absolyutizm",
+  "type": "prerequisites_for",
+  "why": "абсолютизм — высшая ступень централизации"
+ },
+ {
+  "source": "C.history.soslovno-predstavitelnaya-monarhiya",
+  "target": "C.history.absolyutizm",
+  "type": "prerequisites_for",
+  "why": "абсолютизм сменяет сословно-представительную монархию"
+ },
+ {
+  "source": "C.history.usilenie-korolevskoy-vlasti",
+  "target": "C.history.preodolenie-razdroblennosti",
+  "type": "prerequisites_for",
+  "why": "сильная королевская власть преодолевала раздробленность"
+ },
+ {
+  "source": "C.history.preodolenie-razdroblennosti",
+  "target": "C.history.absolyutizm",
+  "type": "prerequisites_for",
+  "why": "абсолютизм возможен в объединённой стране"
+ },
+ {
+  "source": "C.history.velikie-geograficheskie-otkrytiya",
+  "target": "C.history.borba-za-kolonialnye-vladeniya",
+  "type": "prerequisites_for",
+  "why": "колонии появились благодаря открытиям"
+ },
+ {
+  "source": "C.history.koloniya",
+  "target": "C.history.kolonialnaya-imperiya",
+  "type": "prerequisites_for",
+  "why": "колониальная империя состоит из колоний"
+ },
+ {
+  "source": "C.history.borba-za-kolonialnye-vladeniya",
+  "target": "C.history.kolonialnaya-imperiya",
+  "type": "prerequisites_for",
+  "why": "империи складывались в борьбе за колонии"
+ },
+ {
+  "source": "C.history.rekonkista",
+  "target": "C.history.ispaniya",
+  "type": "prerequisites_for",
+  "why": "единая Испания сложилась в ходе Реконкисты"
+ },
+ {
+  "source": "C.history.ispaniya",
+  "target": "C.history.gosudarstva-evropy-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "одно из государств Европы"
+ },
+ {
+  "source": "C.history.katolicheskie-koroli",
+  "target": "C.history.ispaniya",
+  "type": "participant_of",
+  "why": "правители, объединившие Испанию"
+ },
+ {
+  "source": "C.history.ispaniya",
+  "target": "C.history.ispanskie-gabsburgi",
+  "type": "prerequisites_for",
+  "why": "Габсбурги правили Испанией"
+ },
+ {
+  "source": "C.history.katolicheskie-koroli",
+  "target": "C.history.ispanskie-gabsburgi",
+  "type": "prerequisites_for",
+  "why": "Габсбурги — потомки католических королей"
+ },
+ {
+  "source": "C.history.niderlandy",
+  "target": "C.history.gosudarstva-evropy-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "одно из государств Европы"
+ },
+ {
+  "source": "C.history.niderlandy",
+  "target": "C.history.niderlandskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "революция в Нидерландах"
+ },
+ {
+  "source": "C.history.ispanskie-gabsburgi",
+  "target": "C.history.niderlandskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "восстание против власти испанских Габсбургов"
+ },
+ {
+  "source": "C.history.kalvinizm",
+  "target": "C.history.niderlandskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "кальвинисты — ведущая сила восстания"
+ },
+ {
+  "source": "C.history.frantsiya",
+  "target": "C.history.tsentralizatsiya-upravleniya-vo-frantsii",
+  "type": "prerequisites_for",
+  "why": "централизация шла во французском королевстве"
+ },
+ {
+  "source": "C.history.tsentralizatsiya-upravleniya-vo-frantsii",
+  "target": "C.history.frantsuzskiy-absolyutizm",
+  "type": "prerequisites_for",
+  "why": "абсолютизм вырос из централизации управления"
+ },
+ {
+  "source": "C.history.frantsuzskiy-absolyutizm",
+  "target": "C.history.absolyutizm",
+  "type": "is_a",
+  "why": "французский образец абсолютизма"
+ },
+ {
+  "source": "C.history.kalvinizm",
+  "target": "C.history.gugenoty",
+  "type": "prerequisites_for",
+  "why": "гугеноты — французские кальвинисты"
+ },
+ {
+  "source": "C.history.gugenoty",
+  "target": "C.history.religioznye-voyny-vo-frantsii",
+  "type": "prerequisites_for",
+  "why": "войны католиков с гугенотами"
+ },
+ {
+  "source": "C.history.religioznye-voyny-vo-frantsii",
+  "target": "C.history.religioznye-voyny-v-evrope",
+  "type": "part_of",
+  "why": "французский эпизод религиозных войн"
+ },
+ {
+  "source": "C.history.genrih-iv",
+  "target": "C.history.religioznye-voyny-vo-frantsii",
+  "type": "participant_of",
+  "why": "вождь гугенотов, затем король, закончил войны"
+ },
+ {
+  "source": "C.history.religioznye-voyny-vo-frantsii",
+  "target": "C.history.nantskiy-edikt",
+  "type": "prerequisites_for",
+  "why": "эдикт завершил религиозные войны"
+ },
+ {
+  "source": "C.history.lyudovik-xiii",
+  "target": "C.history.tsentralizatsiya-upravleniya-vo-frantsii",
+  "type": "participant_of",
+  "why": "при нём укреплялась власть короля"
+ },
+ {
+  "source": "C.history.kardinal-rishele",
+  "target": "C.history.tsentralizatsiya-upravleniya-vo-frantsii",
+  "type": "participant_of",
+  "why": "первый министр, проводник централизации"
+ },
+ {
+  "source": "C.history.tsentralizatsiya-upravleniya-vo-frantsii",
+  "target": "C.history.fronda",
+  "type": "prerequisites_for",
+  "why": "Фронда — выступление против усиления королевской власти"
+ },
+ {
+  "source": "C.history.lyudovik-xiv",
+  "target": "C.history.frantsiya",
+  "type": "participant_of",
+  "why": "король эпохи расцвета абсолютизма"
+ },
+ {
+  "source": "C.history.kapitalisticheskie-otnosheniya",
+  "target": "C.history.kapitalisticheskoe-predprinimatelstvo",
+  "type": "prerequisites_for",
+  "why": "предпринимательство — проявление капиталистических отношений"
+ },
+ {
+  "source": "C.history.kapitalisticheskoe-predprinimatelstvo",
+  "target": "C.history.ogorazhivaniya",
+  "type": "prerequisites_for",
+  "why": "землю огораживали ради доходного овцеводства"
+ },
+ {
+  "source": "C.history.angliya",
+  "target": "C.history.tyudory",
+  "type": "prerequisites_for",
+  "why": "династия правила Англией"
+ },
+ {
+  "source": "C.history.genrih-viii",
+  "target": "C.history.korolevskaya-reformatsiya-v-anglii",
+  "type": "participant_of",
+  "why": "провёл реформацию сверху"
+ },
+ {
+  "source": "C.history.korolevskaya-reformatsiya-v-anglii",
+  "target": "C.history.reformatsiya",
+  "type": "part_of",
+  "why": "английский вариант Реформации"
+ },
+ {
+  "source": "C.history.elizaveta-i",
+  "target": "C.history.tyudory",
+  "type": "participant_of",
+  "why": "королева из династии Тюдоров"
+ },
+ {
+  "source": "C.history.elizaveta-i",
+  "target": "C.history.zolotoy-vek-elizavety-i",
+  "type": "prerequisites_for",
+  "why": "эпоха названа по её правлению"
+ },
+ {
+  "source": "C.history.angliya",
+  "target": "C.history.styuarty",
+  "type": "prerequisites_for",
+  "why": "династия правила Англией"
+ },
+ {
+  "source": "C.history.styuarty",
+  "target": "C.history.angliyskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "революция против политики Стюартов"
+ },
+ {
+  "source": "C.history.kapitalisticheskoe-predprinimatelstvo",
+  "target": "C.history.angliyskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "новые слои добивались власти парламента"
+ },
+ {
+  "source": "C.history.razmezhevanie-v-revolyutsionnom-lagere",
+  "target": "C.history.angliyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "этап революции"
+ },
+ {
+  "source": "C.history.o-kromvel",
+  "target": "C.history.angliyskaya-revolyutsiya",
+  "type": "participant_of",
+  "why": "вождь революции, лорд-протектор"
+ },
+ {
+  "source": "C.history.angliyskaya-revolyutsiya",
+  "target": "C.history.restavratsiya-styuartov",
+  "type": "prerequisites_for",
+  "why": "реставрация вернула власть свергнутой династии"
+ },
+ {
+  "source": "C.history.restavratsiya-styuartov",
+  "target": "C.history.slavnaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "Славная революция свергла реставрированных Стюартов"
+ },
+ {
+  "source": "C.history.soslovno-predstavitelnaya-monarhiya",
+  "target": "C.history.parlamentskaya-monarhiya",
+  "type": "prerequisites_for",
+  "why": "парламент вырос из сословного представительства"
+ },
+ {
+  "source": "C.history.slavnaya-revolyutsiya",
+  "target": "C.history.parlamentskaya-monarhiya",
+  "type": "prerequisites_for",
+  "why": "после неё сложилась парламентская монархия"
+ },
+ {
+  "source": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "target": "C.history.gosudarstva-evropy-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "часть европейских государств"
+ },
+ {
+  "source": "C.history.germanskie-gosudarstva",
+  "target": "C.history.svyaschennaya-rimskaya-imperiya",
+  "type": "part_of",
+  "why": "германские княжества входили в империю"
+ },
+ {
+  "source": "C.history.germanskie-gosudarstva",
+  "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "государства Центральной Европы"
+ },
+ {
+  "source": "C.history.italyanskie-gosudarstva",
+  "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "государства Южной Европы"
+ },
+ {
+  "source": "C.history.polsko-litovskoe-gosudarstvo",
+  "target": "C.history.obrazovanie-rechi-pospolitoy",
+  "type": "prerequisites_for",
+  "why": "Речь Посполитая — объединение Польши и Литвы"
+ },
+ {
+  "source": "C.history.obrazovanie-rechi-pospolitoy",
+  "target": "C.history.rech-pospolitaya",
+  "type": "prerequisites_for",
+  "why": "так возникло государство"
+ },
+ {
+  "source": "C.history.rech-pospolitaya",
+  "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "государство Центральной Европы"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-otnosheniya-v-srednie-veka",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xvi-xvii-vekah",
+  "type": "prerequisites_for",
+  "why": "продолжение средневековых международных отношений"
+ },
+ {
+  "source": "C.history.gosudarstva-evropy-v-xvi-xvii-vekah",
+  "target": "C.history.voennye-konflikty-mezhdu-evropeyskimi-derzhavami",
+  "type": "prerequisites_for",
+  "why": "воевали европейские державы"
+ },
+ {
+  "source": "C.history.voennye-konflikty-mezhdu-evropeyskimi-derzhavami",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "часть международных отношений"
+ },
+ {
+  "source": "C.history.borba-za-kolonialnye-vladeniya",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "соперничество за колонии и торговые пути"
+ },
+ {
+  "source": "C.history.osmanskie-zavoevaniya",
+  "target": "C.history.protivostoyanie-osmanskoy-ekspansii-v-evrope",
+  "type": "prerequisites_for",
+  "why": "Европа противостояла продолжению османских завоеваний"
+ },
+ {
+  "source": "C.history.protivostoyanie-osmanskoy-ekspansii-v-evrope",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "часть международных отношений"
+ },
+ {
+  "source": "C.history.svyaschennaya-rimskaya-imperiya",
+  "target": "C.history.derzhava-avstriyskih-gabsburgov",
+  "type": "prerequisites_for",
+  "why": "Габсбурги — императоры Священной Римской империи"
+ },
+ {
+  "source": "C.history.derzhava-avstriyskih-gabsburgov",
+  "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "государство Центральной Европы"
+ },
+ {
+  "source": "C.history.tridtsatiletnyaya-voyna",
+  "target": "C.history.religioznye-voyny-v-evrope",
+  "type": "part_of",
+  "why": "последняя большая религиозная война"
+ },
+ {
+  "source": "C.history.derzhava-avstriyskih-gabsburgov",
+  "target": "C.history.tridtsatiletnyaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война против гегемонии Габсбургов"
+ },
+ {
+  "source": "C.history.tridtsatiletnyaya-voyna",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "главный конфликт XVII в."
+ },
+ {
+  "source": "C.history.tridtsatiletnyaya-voyna",
+  "target": "C.history.vestfalskiy-mir",
+  "type": "prerequisites_for",
+  "why": "мир завершил Тридцатилетнюю войну"
+ },
+ {
+  "source": "C.history.kultura-srednevekovoy-evropy",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "культура раннего Нового времени выросла из средневековой"
+ },
+ {
+  "source": "C.history.rannee-novoe-vremya",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "рамки эпохи"
+ },
+ {
+  "source": "C.history.rannee-novoe-vremya",
+  "target": "C.history.novoe-vremya",
+  "type": "part_of",
+  "why": "первый период Нового времени"
+ },
+ {
+  "source": "C.history.rannee-vozrozhdenie",
+  "target": "C.history.vysokoe-vozrozhdenie",
+  "type": "prerequisites_for",
+  "why": "Высокое Возрождение продолжает Раннее"
+ },
+ {
+  "source": "C.history.vysokoe-vozrozhdenie",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "часть культуры эпохи"
+ },
+ {
+  "source": "C.history.gumanizm",
+  "target": "C.history.severnoe-vozrozhdenie",
+  "type": "prerequisites_for",
+  "why": "Северное Возрождение основано на гуманизме"
+ },
+ {
+  "source": "C.history.severnoe-vozrozhdenie",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "часть культуры эпохи"
+ },
+ {
+  "source": "C.history.literatura-rannego-novogo-vremeni",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "часть культуры эпохи"
+ },
+ {
+  "source": "C.history.m-servantes",
+  "target": "C.history.literatura-rannego-novogo-vremeni",
+  "type": "participant_of",
+  "why": "автор «Дон Кихота»"
+ },
+ {
+  "source": "C.history.u-shekspir",
+  "target": "C.history.literatura-rannego-novogo-vremeni",
+  "type": "participant_of",
+  "why": "драматург и поэт эпохи"
+ },
+ {
+  "source": "C.history.barokko",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "художественный стиль эпохи"
+ },
+ {
+  "source": "C.history.klassitsizm",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "художественный стиль эпохи"
+ },
+ {
+  "source": "C.history.klassitsizm",
+  "target": "C.history.frantsuzskiy-teatr-epohi-klassitsizma",
+  "type": "prerequisites_for",
+  "why": "театр следовал правилам классицизма"
+ },
+ {
+  "source": "C.history.frantsuzskiy-teatr-epohi-klassitsizma",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "часть культуры эпохи"
+ },
+ {
+  "source": "C.history.srednevekovaya-nauka",
+  "target": "C.history.nauka-rannego-novogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "новая наука сменяет средневековую"
+ },
+ {
+  "source": "C.history.nauka-rannego-novogo-vremeni",
+  "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "часть культуры эпохи"
+ },
+ {
+  "source": "C.history.perevorot-v-estestvoznanii",
+  "target": "C.history.nauka-rannego-novogo-vremeni",
+  "type": "part_of",
+  "why": "главный итог развития науки"
+ },
+ {
+  "source": "C.history.n-kopernik",
+  "target": "C.history.perevorot-v-estestvoznanii",
+  "type": "participant_of",
+  "why": "создатель гелиоцентрической системы"
+ },
+ {
+  "source": "C.history.i-nyuton",
+  "target": "C.history.perevorot-v-estestvoznanii",
+  "type": "participant_of",
+  "why": "открыл законы механики и тяготения"
+ },
+ {
+  "source": "C.history.kartina-mira-srednevekovogo-cheloveka",
+  "target": "C.history.novaya-kartina-mira",
+  "type": "prerequisites_for",
+  "why": "новая картина мира сменяет средневековую"
+ },
+ {
+  "source": "C.history.perevorot-v-estestvoznanii",
+  "target": "C.history.novaya-kartina-mira",
+  "type": "prerequisites_for",
+  "why": "новая картина мира родилась из научных открытий"
+ },
+ {
+  "source": "C.history.nauka-rannego-novogo-vremeni",
+  "target": "C.history.ratsionalizm",
+  "type": "prerequisites_for",
+  "why": "рационализм опирается на успехи науки"
+ },
+ {
+  "source": "C.history.srednevekovyy-vostok",
+  "target": "C.history.strany-vostoka-v-xvi-xvii-vekah",
+  "type": "prerequisites_for",
+  "why": "продолжение истории стран Востока"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.strany-vostoka-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "крупнейшая держава Востока"
+ },
+ {
+  "source": "C.history.suleyman-i-velikolepnyy",
+  "target": "C.history.osmanskaya-imperiya",
+  "type": "participant_of",
+  "why": "султан эпохи расцвета империи"
+ },
+ {
+  "source": "C.history.osmanskaya-armiya",
+  "target": "C.history.osmanskaya-imperiya",
+  "type": "part_of",
+  "why": "войско империи"
+ },
+ {
+  "source": "C.history.srednevekovaya-indiya",
+  "target": "C.history.imperiya-velikih-mogolov",
+  "type": "prerequisites_for",
+  "why": "Моголы объединили Индию после средневековых княжеств"
+ },
+ {
+  "source": "C.history.imperiya-velikih-mogolov",
+  "target": "C.history.strany-vostoka-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "государство Востока"
+ },
+ {
+  "source": "C.history.otkrytie-morskogo-puti-v-indiyu",
+  "target": "C.history.proniknovenie-evropeytsev-v-strany-vostoka",
+  "type": "prerequisites_for",
+  "why": "морской путь открыл европейцам Восток"
+ },
+ {
+  "source": "C.history.ost-indskie-kompanii",
+  "target": "C.history.proniknovenie-evropeytsev-v-strany-vostoka",
+  "type": "part_of",
+  "why": "компании — орудие проникновения"
+ },
+ {
+  "source": "C.history.borba-kitaya-protiv-zavoevateley",
+  "target": "C.history.dinastiya-min",
+  "type": "prerequisites_for",
+  "why": "Мин пришла к власти после изгнания монголов"
+ },
+ {
+  "source": "C.history.dinastiya-min",
+  "target": "C.history.strany-vostoka-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "Китай эпохи Мин"
+ },
+ {
+  "source": "C.history.dinastiya-min",
+  "target": "C.history.dinastiya-tsin",
+  "type": "prerequisites_for",
+  "why": "маньчжурская Цин сменила Мин"
+ },
+ {
+  "source": "C.history.dinastiya-tsin",
+  "target": "C.history.strany-vostoka-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "Китай эпохи Цин"
+ },
+ {
+  "source": "C.history.srednevekovaya-yaponiya",
+  "target": "C.history.borba-znatnyh-klanov-za-vlast-v-yaponii",
+  "type": "prerequisites_for",
+  "why": "продолжение междоусобиц средневековой Японии"
+ },
+ {
+  "source": "C.history.segun",
+  "target": "C.history.segunat-tokugava",
+  "type": "prerequisites_for",
+  "why": "власть сёгуна"
+ },
+ {
+  "source": "C.history.borba-znatnyh-klanov-za-vlast-v-yaponii",
+  "target": "C.history.segunat-tokugava",
+  "type": "prerequisites_for",
+  "why": "сёгунат установлен по итогам борьбы кланов"
+ },
+ {
+  "source": "C.history.tsentralizovannoe-gosudarstvo",
+  "target": "C.history.segunat-tokugava",
+  "type": "prerequisites_for",
+  "why": "сёгунат укрепил централизованное государство"
+ },
+ {
+  "source": "C.history.segunat-tokugava",
+  "target": "C.history.strany-vostoka-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "Япония эпохи Токугава"
+ },
+ {
+  "source": "C.history.segunat-tokugava",
+  "target": "C.history.zakrytie-yaponii-dlya-inozemtsev",
+  "type": "prerequisites_for",
+  "why": "закрытие — политика сёгунов Токугава"
+ },
+ {
+  "source": "C.history.proniknovenie-evropeytsev-v-strany-vostoka",
+  "target": "C.history.zakrytie-yaponii-dlya-inozemtsev",
+  "type": "prerequisites_for",
+  "why": "закрытие — ответ на проникновение европейцев"
+ },
+ {
+  "source": "C.history.rannee-novoe-vremya",
+  "target": "C.history.nasledie-rannego-novogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "наследие эпохи"
+ },
+ {
+  "source": "C.history.zavershenie-obedineniya-russkih-zemel",
+  "target": "C.history.obedinenie-russkih-zemel-vokrug-moskvy",
+  "type": "part_of",
+  "why": "заключительный этап объединения"
+ },
+ {
+  "source": "C.history.vasiliy-iii",
+  "target": "C.history.zavershenie-obedineniya-russkih-zemel",
+  "type": "participant_of",
+  "why": "при нём объединение завершилось"
+ },
+ {
+  "source": "C.history.prisoedinenie-pskova-k-moskve",
+  "target": "C.history.zavershenie-obedineniya-russkih-zemel",
+  "type": "part_of",
+  "why": "шаг завершения объединения"
+ },
+ {
+  "source": "C.history.pskovskaya-zemlya",
+  "target": "C.history.prisoedinenie-pskova-k-moskve",
+  "type": "prerequisites_for",
+  "why": "присоединена Псковская земля"
+ },
+ {
+  "source": "C.history.prisoedinenie-smolenska-k-moskve",
+  "target": "C.history.zavershenie-obedineniya-russkih-zemel",
+  "type": "part_of",
+  "why": "шаг завершения объединения"
+ },
+ {
+  "source": "C.history.smolenskaya-zemlya",
+  "target": "C.history.prisoedinenie-smolenska-k-moskve",
+  "type": "prerequisites_for",
+  "why": "присоединена Смоленская земля"
+ },
+ {
+  "source": "C.history.velikoe-knyazhestvo-litovskoe",
+  "target": "C.history.prisoedinenie-smolenska-k-moskve",
+  "type": "prerequisites_for",
+  "why": "Смоленск отвоёван у Литвы"
+ },
+ {
+  "source": "C.history.prisoedinenie-ryazani-k-moskve",
+  "target": "C.history.zavershenie-obedineniya-russkih-zemel",
+  "type": "part_of",
+  "why": "шаг завершения объединения"
+ },
+ {
+  "source": "C.history.formirovanie-sistemy-russkih-zemel",
+  "target": "C.history.udelnaya-sistema",
+  "type": "prerequisites_for",
+  "why": "уделы — наследие раздробленности на земли и княжества"
+ },
+ {
+  "source": "C.history.velikiy-knyaz",
+  "target": "C.history.ukreplenie-velikoknyazheskoy-vlasti",
+  "type": "prerequisites_for",
+  "why": "укреплялась власть великого князя"
+ },
+ {
+  "source": "C.history.udelnaya-sistema",
+  "target": "C.history.ukreplenie-velikoknyazheskoy-vlasti",
+  "type": "prerequisites_for",
+  "why": "власть усиливалась по мере отмирания уделов"
+ },
+ {
+  "source": "C.history.apparat-upravleniya-edinogo-gosudarstva",
+  "target": "C.history.organy-gosudarstvennoy-vlasti",
+  "type": "prerequisites_for",
+  "why": "органы власти XVI в. выросли из управления единого государства"
+ },
+ {
+  "source": "C.history.boyarstvo",
+  "target": "C.history.boyarskaya-duma",
+  "type": "prerequisites_for",
+  "why": "дума — совет бояр"
+ },
+ {
+  "source": "C.history.boyarskaya-duma",
+  "target": "C.history.organy-gosudarstvennoy-vlasti",
+  "type": "part_of",
+  "why": "высший совет при государе"
+ },
+ {
+  "source": "C.history.malaya-duma",
+  "target": "C.history.boyarskaya-duma",
+  "type": "part_of",
+  "why": "узкий круг советников из думы"
+ },
+ {
+  "source": "C.history.prikaznaya-sistema",
+  "target": "C.history.organy-gosudarstvennoy-vlasti",
+  "type": "part_of",
+  "why": "приказы — центральные учреждения"
+ },
+ {
+  "source": "C.history.boyarstvo",
+  "target": "C.history.mestnichestvo",
+  "type": "prerequisites_for",
+  "why": "местничество — счёт знатности боярских родов"
+ },
+ {
+  "source": "C.history.namestnik",
+  "target": "C.history.mestnoe-upravlenie",
+  "type": "part_of",
+  "why": "наместники управляли уездами"
+ },
+ {
+  "source": "C.history.volost",
+  "target": "C.history.volostel",
+  "type": "prerequisites_for",
+  "why": "волостель управлял волостью"
+ },
+ {
+  "source": "C.history.volostel",
+  "target": "C.history.mestnoe-upravlenie",
+  "type": "part_of",
+  "why": "волостели управляли волостями"
+ },
+ {
+  "source": "C.history.namestnik",
+  "target": "C.history.kormlenie",
+  "type": "prerequisites_for",
+  "why": "кормление — содержание наместника за счёт населения"
+ },
+ {
+  "source": "C.history.kormlenie",
+  "target": "C.history.mestnoe-upravlenie",
+  "type": "part_of",
+  "why": "основа местного управления"
+ },
+ {
+  "source": "C.history.russkaya-tserkov",
+  "target": "C.history.gosudarstvo-i-tserkov",
+  "type": "prerequisites_for",
+  "why": "отношения власти с Русской церковью"
+ },
+ {
+  "source": "C.history.edinoe-russkoe-gosudarstvo",
+  "target": "C.history.rossiya-v-xvi-veke",
+  "type": "prerequisites_for",
+  "why": "Россия XVI в. — продолжение единого государства"
+ },
+ {
+  "source": "C.history.vneshnyaya-politika-rusi",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "prerequisites_for",
+  "why": "продолжение внешней политики Руси"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-svyazi-moskovskogo-gosudarstva",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "дипломатия — часть внешней политики"
+ },
+ {
+  "source": "C.history.russko-litovskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "направление внешней политики"
+ },
+ {
+  "source": "C.history.velikoe-knyazhestvo-litovskoe",
+  "target": "C.history.russko-litovskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "противник в войне"
+ },
+ {
+  "source": "C.history.elena-glinskaya",
+  "target": "C.history.regentstvo-eleny-glinskoy",
+  "type": "participant_of",
+  "why": "правительница при малолетнем сыне"
+ },
+ {
+  "source": "C.history.unifikatsiya-denezhnoy-sistemy",
+  "target": "C.history.regentstvo-eleny-glinskoy",
+  "type": "part_of",
+  "why": "денежная реформа регентства"
+ },
+ {
+  "source": "C.history.ukreplenie-velikoknyazheskoy-vlasti",
+  "target": "C.history.soprotivlenie-udelnyh-knyazey-velikoknyazheskoy-vlasti",
+  "type": "prerequisites_for",
+  "why": "князья противились усилению власти"
+ },
+ {
+  "source": "C.history.regentstvo-eleny-glinskoy",
+  "target": "C.history.boyarskoe-pravlenie",
+  "type": "prerequisites_for",
+  "why": "после смерти Глинской власть перешла к боярам"
+ },
+ {
+  "source": "C.history.boyarstvo",
+  "target": "C.history.boyarskoe-pravlenie",
+  "type": "prerequisites_for",
+  "why": "правили боярские группировки"
+ },
+ {
+  "source": "C.history.borba-za-vlast-mezhdu-boyarskimi-klanami",
+  "target": "C.history.boyarskoe-pravlenie",
+  "type": "part_of",
+  "why": "суть периода боярского правления"
+ },
+ {
+  "source": "C.history.mestnoe-upravlenie",
+  "target": "C.history.gubnaya-reforma",
+  "type": "prerequisites_for",
+  "why": "реформа изменила местное управление"
+ },
+ {
+  "source": "C.history.boyarskoe-pravlenie",
+  "target": "C.history.moskovskoe-vosstanie-1547-goda",
+  "type": "prerequisites_for",
+  "why": "восстание против злоупотреблений бояр"
+ },
+ {
+  "source": "C.history.moskovskoe-vosstanie-1547-goda",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "prerequisites_for",
+  "why": "восстание подтолкнуло к реформам"
+ },
+ {
+  "source": "C.history.tsarskiy-titul",
+  "target": "C.history.prinyatie-ivanom-iv-tsarskogo-titula",
+  "type": "prerequisites_for",
+  "why": "смысл царского титула"
+ },
+ {
+  "source": "C.history.ivan-iv",
+  "target": "C.history.prinyatie-ivanom-iv-tsarskogo-titula",
+  "type": "participant_of",
+  "why": "венчался на царство"
+ },
+ {
+  "source": "C.history.ivan-iv",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "participant_of",
+  "why": "реформы проводились от имени царя"
+ },
+ {
+  "source": "C.history.izbrannaya-rada",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "prerequisites_for",
+  "why": "реформы готовила Избранная рада"
+ },
+ {
+  "source": "C.history.soslovie",
+  "target": "C.history.zemskiy-sobor",
+  "type": "prerequisites_for",
+  "why": "собор — собрание представителей сословий"
+ },
+ {
+  "source": "C.history.zemskaya-reforma",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "part_of",
+  "why": "одна из реформ"
+ },
+ {
+  "source": "C.history.zemskaya-reforma",
+  "target": "C.history.mestnoe-samoupravlenie",
+  "type": "prerequisites_for",
+  "why": "реформа создала органы самоуправления"
+ },
+ {
+  "source": "C.history.kormlenie",
+  "target": "C.history.otmena-kormleniy",
+  "type": "prerequisites_for",
+  "why": "отменена система кормлений"
+ },
+ {
+  "source": "C.history.otmena-kormleniy",
+  "target": "C.history.zemskaya-reforma",
+  "type": "part_of",
+  "why": "кормления отменены земской реформой"
+ },
+ {
+  "source": "C.history.sistema-nalogooblozheniya",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "part_of",
+  "why": "налоговые преобразования — часть реформ"
+ },
+ {
+  "source": "C.history.obscherusskiy-sudebnik",
+  "target": "C.history.sudebnik-1550-goda",
+  "type": "prerequisites_for",
+  "why": "новый Судебник переработал Судебник 1497 г."
+ },
+ {
+  "source": "C.history.sudebnik-1550-goda",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "part_of",
+  "why": "одна из реформ"
+ },
+ {
+  "source": "C.history.stoglavyy-sobor",
+  "target": "C.history.tserkovnyy-sobor",
+  "type": "is_a",
+  "why": "церковный собор 1551 г."
+ },
+ {
+  "source": "C.history.stoglavyy-sobor",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "part_of",
+  "why": "церковная часть реформ"
+ },
+ {
+  "source": "C.history.ulozhenie-o-sluzhbe",
+  "target": "C.history.reformy-serediny-xvi-veka",
+  "type": "part_of",
+  "why": "военная часть реформ"
+ },
+ {
+  "source": "C.history.reformy-serediny-xvi-veka",
+  "target": "C.history.rossiya-v-xvi-veke",
+  "type": "part_of",
+  "why": "главные события XVI в."
+ },
+ {
+  "source": "C.history.voennoe-delo-na-rusi",
+  "target": "C.history.streletskoe-voysko",
+  "type": "prerequisites_for",
+  "why": "стрельцы — новое войско в развитии военного дела"
+ },
+ {
+  "source": "C.history.sluzhilye-lyudi",
+  "target": "C.history.ulozhenie-o-sluzhbe",
+  "type": "prerequisites_for",
+  "why": "уложение определило службу служилых людей",
+  "order_issue": true
+ },
+ {
+  "source": "C.history.kazanskoe-hanstvo",
+  "target": "C.history.prisoedinenie-kazanskogo-hanstva",
+  "type": "prerequisites_for",
+  "why": "присоединено ханство"
+ },
+ {
+  "source": "C.history.povolzhe",
+  "target": "C.history.prisoedinenie-kazanskogo-hanstva",
+  "type": "prerequisites_for",
+  "why": "ханство в Среднем Поволжье"
+ },
+ {
+  "source": "C.history.ivan-iv",
+  "target": "C.history.prisoedinenie-kazanskogo-hanstva",
+  "type": "participant_of",
+  "why": "руководил взятием Казани"
+ },
+ {
+  "source": "C.history.prisoedinenie-kazanskogo-hanstva",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "восточное направление политики"
+ },
+ {
+  "source": "C.history.astrahanskoe-hanstvo",
+  "target": "C.history.prisoedinenie-astrahanskogo-hanstva",
+  "type": "prerequisites_for",
+  "why": "присоединено ханство"
+ },
+ {
+  "source": "C.history.povolzhe",
+  "target": "C.history.prisoedinenie-astrahanskogo-hanstva",
+  "type": "prerequisites_for",
+  "why": "ханство в Нижнем Поволжье"
+ },
+ {
+  "source": "C.history.prisoedinenie-astrahanskogo-hanstva",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "восточное направление политики"
+ },
+ {
+  "source": "C.history.krymskoe-hanstvo",
+  "target": "C.history.voyny-s-krymskim-hanstvom",
+  "type": "prerequisites_for",
+  "why": "противник в войнах"
+ },
+ {
+  "source": "C.history.voyny-s-krymskim-hanstvom",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "южное направление политики"
+ },
+ {
+  "source": "C.history.bitva-pri-molodyah",
+  "target": "C.history.voyny-s-krymskim-hanstvom",
+  "type": "part_of",
+  "why": "решающая битва с крымцами"
+ },
+ {
+  "source": "C.history.voyny-s-krymskim-hanstvom",
+  "target": "C.history.ukreplenie-yuzhnyh-granits",
+  "type": "prerequisites_for",
+  "why": "границы укрепляли от набегов крымцев"
+ },
+ {
+  "source": "C.history.zasechnaya-cherta",
+  "target": "C.history.ukreplenie-yuzhnyh-granits",
+  "type": "part_of",
+  "why": "засечные черты — основа обороны юга"
+ },
+ {
+  "source": "C.history.livonskiy-orden",
+  "target": "C.history.livonskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война началась против Ливонского ордена"
+ },
+ {
+  "source": "C.history.rech-pospolitaya",
+  "target": "C.history.livonskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "главный противник России во второй половине войны"
+ },
+ {
+  "source": "C.history.shvetsiya",
+  "target": "C.history.livonskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "Швеция — участник войны, получила часть Прибалтики",
+  "order_issue": true
+ },
+ {
+  "source": "C.history.ivan-iv",
+  "target": "C.history.livonskaya-voyna",
+  "type": "participant_of",
+  "why": "начал войну за выход к Балтике"
+ },
+ {
+  "source": "C.history.likvidatsiya-livonskogo-ordena",
+  "target": "C.history.livonskaya-voyna",
+  "type": "part_of",
+  "why": "итог первого этапа войны"
+ },
+ {
+  "source": "C.history.livonskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "западное направление политики"
+ },
+ {
+  "source": "C.history.sibirskoe-hanstvo",
+  "target": "C.history.pohod-ermaka",
+  "type": "prerequisites_for",
+  "why": "поход против Сибирского ханства"
+ },
+ {
+  "source": "C.history.kazachestvo",
+  "target": "C.history.pohod-ermaka",
+  "type": "prerequisites_for",
+  "why": "поход совершили казаки",
+  "order_issue": true
+ },
+ {
+  "source": "C.history.ermak-timofeevich",
+  "target": "C.history.pohod-ermaka",
+  "type": "participant_of",
+  "why": "казачий атаман, возглавил поход"
+ },
+ {
+  "source": "C.history.pohod-ermaka",
+  "target": "C.history.prisoedinenie-zapadnoy-sibiri",
+  "type": "part_of",
+  "why": "начало присоединения Сибири"
+ },
+ {
+  "source": "C.history.sibir",
+  "target": "C.history.prisoedinenie-zapadnoy-sibiri",
+  "type": "prerequisites_for",
+  "why": "присоединена часть Сибири"
+ },
+ {
+  "source": "C.history.prisoedinenie-zapadnoy-sibiri",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "восточное направление политики"
+ },
+ {
+  "source": "C.history.obschestvennyy-stroy-rusi",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "prerequisites_for",
+  "why": "структура общества XVI в. выросла из строя Руси"
+ },
+ {
+  "source": "C.history.dvor-velikogo-knyazya",
+  "target": "C.history.gosudarev-dvor",
+  "type": "prerequisites_for",
+  "why": "государев двор вырос из двора великого князя"
+ },
+ {
+  "source": "C.history.gosudarev-dvor",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "верхушка служилых людей"
+ },
+ {
+  "source": "C.history.dvor-velikogo-knyazya",
+  "target": "C.history.dvoryanstvo",
+  "type": "prerequisites_for",
+  "why": "дворяне — изначально люди княжеского двора"
+ },
+ {
+  "source": "C.history.dvoryanstvo",
+  "target": "C.history.sluzhilye-lyudi",
+  "type": "is_a",
+  "why": "дворяне — служилые люди по отечеству"
+ },
+ {
+  "source": "C.history.sluzhilye-lyudi",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "основная опора государства"
+ },
+ {
+  "source": "C.history.sluzhilye-lyudi",
+  "target": "C.history.sluzhilyy-gorod",
+  "type": "prerequisites_for",
+  "why": "служилый город объединял служилых людей уезда"
+ },
+ {
+  "source": "C.history.boyarstvo",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "высший слой общества"
+ },
+ {
+  "source": "C.history.duhovenstvo",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "особый слой общества"
+ },
+ {
+  "source": "C.history.remeslo",
+  "target": "C.history.posadskoe-naselenie",
+  "type": "prerequisites_for",
+  "why": "посадские люди — ремесленники и торговцы"
+ },
+ {
+  "source": "C.history.posadskoe-naselenie",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "городской слой общества"
+ },
+ {
+  "source": "C.history.krestyanstvo",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "основная часть населения"
+ },
+ {
+  "source": "C.history.kazachestvo",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "особый слой общества"
+ },
+ {
+  "source": "C.history.zakreposchenie-krestyan",
+  "target": "C.history.kazachestvo",
+  "type": "prerequisites_for",
+  "why": "казачество пополняли беглые от закрепощения"
+ },
+ {
+  "source": "C.history.obscherusskiy-sudebnik",
+  "target": "C.history.ukaz-o-zapovednyh-letah",
+  "type": "prerequisites_for",
+  "why": "указ запретил переход в Юрьев день, введённый Судебником"
+ },
+ {
+  "source": "C.history.ukaz-o-zapovednyh-letah",
+  "target": "C.history.zakreposchenie-krestyan",
+  "type": "part_of",
+  "why": "шаг закрепощения"
+ },
+ {
+  "source": "C.history.prisoedinenie-kazanskogo-hanstva",
+  "target": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii",
+  "type": "prerequisites_for",
+  "why": "в состав страны вошли народы Поволжья"
+ },
+ {
+  "source": "C.history.povolzhe",
+  "target": "C.history.narody-povolzhya",
+  "type": "prerequisites_for",
+  "why": "народы, жившие в Поволжье"
+ },
+ {
+  "source": "C.history.narody-povolzhya",
+  "target": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii",
+  "type": "part_of",
+  "why": "часть населения страны"
+ },
+ {
+  "source": "C.history.finno-ugry",
+  "target": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii",
+  "type": "part_of",
+  "why": "часть населения страны"
+ },
+ {
+  "source": "C.history.tatarskie-hanstva",
+  "target": "C.history.sluzhilye-tatary",
+  "type": "prerequisites_for",
+  "why": "служилые татары — выходцы из татарских ханств"
+ },
+ {
+  "source": "C.history.sluzhilye-tatary",
+  "target": "C.history.sluzhilye-lyudi",
+  "type": "is_a",
+  "why": "татары на русской службе"
+ },
+ {
+  "source": "C.history.islam",
+  "target": "C.history.musulmanskoe-duhovenstvo",
+  "type": "prerequisites_for",
+  "why": "духовенство мусульман"
+ },
+ {
+  "source": "C.history.musulmanskoe-duhovenstvo",
+  "target": "C.history.duhovenstvo",
+  "type": "is_a",
+  "why": "вид духовенства"
+ },
+ {
+  "source": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii",
+  "target": "C.history.sosuschestvovanie-religiy-v-rossii",
+  "type": "prerequisites_for",
+  "why": "разные народы исповедовали разные религии"
+ },
+ {
+  "source": "C.history.pravoslavie",
+  "target": "C.history.sosuschestvovanie-religiy-v-rossii",
+  "type": "prerequisites_for",
+  "why": "господствующая религия"
+ },
+ {
+  "source": "C.history.islam",
+  "target": "C.history.sosuschestvovanie-religiy-v-rossii",
+  "type": "prerequisites_for",
+  "why": "вторая по числу верующих религия"
+ },
+ {
+  "source": "C.history.ivan-iv",
+  "target": "C.history.oprichnina",
+  "type": "participant_of",
+  "why": "учредил опричнину"
+ },
+ {
+  "source": "C.history.boyarstvo",
+  "target": "C.history.oprichnina",
+  "type": "prerequisites_for",
+  "why": "опричнина била по боярской знати"
+ },
+ {
+  "source": "C.history.livonskaya-voyna",
+  "target": "C.history.oprichnina",
+  "type": "prerequisites_for",
+  "why": "неудачи войны — одна из причин опричнины"
+ },
+ {
+  "source": "C.history.oprichnyy-terror",
+  "target": "C.history.oprichnina",
+  "type": "part_of",
+  "why": "репрессии опричнины"
+ },
+ {
+  "source": "C.history.novgorod",
+  "target": "C.history.razgrom-novgoroda-i-pskova",
+  "type": "prerequisites_for",
+  "why": "разгромлен Новгород"
+ },
+ {
+  "source": "C.history.razgrom-novgoroda-i-pskova",
+  "target": "C.history.oprichnyy-terror",
+  "type": "part_of",
+  "why": "эпизод террора"
+ },
+ {
+  "source": "C.history.moskovskie-kazni-1570-goda",
+  "target": "C.history.oprichnyy-terror",
+  "type": "part_of",
+  "why": "эпизод террора"
+ },
+ {
+  "source": "C.history.oprichnina",
+  "target": "C.history.rossiya-v-xvi-veke",
+  "type": "part_of",
+  "why": "событие XVI в."
+ },
+ {
+  "source": "C.history.rossiya-v-kontse-xvi-veka",
+  "target": "C.history.rossiya-v-xvi-veke",
+  "type": "part_of",
+  "why": "конец столетия"
+ },
+ {
+  "source": "C.history.fedor-ivanovich",
+  "target": "C.history.presechenie-dinastii-ryurikovichey",
+  "type": "participant_of",
+  "why": "последний царь из Рюриковичей, умер бездетным"
+ },
+ {
+  "source": "C.history.boyarstvo",
+  "target": "C.history.borba-za-vlast-v-boyarskom-okruzhenii",
+  "type": "prerequisites_for",
+  "why": "борьба шла между боярскими родами"
+ },
+ {
+  "source": "C.history.boris-godunov",
+  "target": "C.history.borba-za-vlast-v-boyarskom-okruzhenii",
+  "type": "participant_of",
+  "why": "победил в борьбе и стал правителем"
+ },
+ {
+  "source": "C.history.borba-za-vlast-v-boyarskom-okruzhenii",
+  "target": "C.history.rossiya-v-kontse-xvi-veka",
+  "type": "part_of",
+  "why": "событие эпохи"
+ },
+ {
+  "source": "C.history.avtokefaliya-russkoy-tserkvi",
+  "target": "C.history.uchrezhdenie-patriarshestva",
+  "type": "prerequisites_for",
+  "why": "патриаршество закрепило независимость Русской церкви"
+ },
+ {
+  "source": "C.history.boris-godunov",
+  "target": "C.history.uchrezhdenie-patriarshestva",
+  "type": "participant_of",
+  "why": "добился учреждения патриаршества"
+ },
+ {
+  "source": "C.history.uchrezhdenie-patriarshestva",
+  "target": "C.history.patriarshestvo",
+  "type": "prerequisites_for",
+  "why": "так возникло патриаршество"
+ },
+ {
+  "source": "C.history.uchrezhdenie-patriarshestva",
+  "target": "C.history.rossiya-v-kontse-xvi-veka",
+  "type": "part_of",
+  "why": "событие эпохи"
+ },
+ {
+  "source": "C.history.livonskaya-voyna",
+  "target": "C.history.tyavzinskiy-mirnyy-dogovor",
+  "type": "prerequisites_for",
+  "why": "договор вернул земли, потерянные в Ливонской войне"
+ },
+ {
+  "source": "C.history.pribaltika",
+  "target": "C.history.tyavzinskiy-mirnyy-dogovor",
+  "type": "prerequisites_for",
+  "why": "восстановлены позиции в Прибалтике"
+ },
+ {
+  "source": "C.history.tyavzinskiy-mirnyy-dogovor",
+  "target": "C.history.rossiya-v-kontse-xvi-veka",
+  "type": "part_of",
+  "why": "событие эпохи"
+ },
+ {
+  "source": "C.history.ukaz-o-zapovednyh-letah",
+  "target": "C.history.ukaz-ob-urochnyh-letah",
+  "type": "prerequisites_for",
+  "why": "урочные лета — срок сыска беглых при запрете перехода"
+ },
+ {
+  "source": "C.history.ukaz-ob-urochnyh-letah",
+  "target": "C.history.zakreposchenie-krestyan",
+  "type": "part_of",
+  "why": "шаг закрепощения"
+ },
+ {
+  "source": "C.history.dinastiya-ryurikovichey",
+  "target": "C.history.presechenie-dinastii-ryurikovichey",
+  "type": "prerequisites_for",
+  "why": "пресеклась династия Рюриковичей"
+ },
+ {
+  "source": "C.history.presechenie-dinastii-ryurikovichey",
+  "target": "C.history.rossiya-v-kontse-xvi-veka",
+  "type": "part_of",
+  "why": "событие эпохи"
+ },
+ {
+  "source": "C.history.presechenie-dinastii-ryurikovichey",
+  "target": "C.history.dinasticheskiy-krizis",
+  "type": "prerequisites_for",
+  "why": "не стало законных наследников престола"
+ },
+ {
+  "source": "C.history.dinasticheskiy-krizis",
+  "target": "C.history.smuta",
+  "type": "prerequisites_for",
+  "why": "кризис власти — причина Смуты"
+ },
+ {
+  "source": "C.history.znat",
+  "target": "C.history.boyarstvo",
+  "type": "prerequisites_for",
+  "why": "бояре — родовая знать"
+ },
+ {
+  "source": "C.history.druzhina",
+  "target": "C.history.boyarstvo",
+  "type": "prerequisites_for",
+  "why": "бояре вышли из старшей дружины"
+ },
+ {
+  "source": "C.history.zemskiy-sobor-1598-goda",
+  "target": "C.history.zemskiy-sobor",
+  "type": "is_a",
+  "why": "один из земских соборов"
+ },
+ {
+  "source": "C.history.dinasticheskiy-krizis",
+  "target": "C.history.zemskiy-sobor-1598-goda",
+  "type": "prerequisites_for",
+  "why": "собор выбирал царя после пресечения династии"
+ },
+ {
+  "source": "C.history.boris-godunov",
+  "target": "C.history.zemskiy-sobor-1598-goda",
+  "type": "participant_of",
+  "why": "избран собором на царство"
+ },
+ {
+  "source": "C.history.golod-1601-1603-godov",
+  "target": "C.history.sotsialno-ekonomicheskiy-krizis-nachala-xvii-veka",
+  "type": "prerequisites_for",
+  "why": "голод обострил кризис"
+ },
+ {
+  "source": "C.history.sotsialno-ekonomicheskiy-krizis-nachala-xvii-veka",
+  "target": "C.history.smuta",
+  "type": "prerequisites_for",
+  "why": "кризис — причина Смуты"
+ },
+ {
+  "source": "C.history.samozvanstvo",
+  "target": "C.history.smuta",
+  "type": "part_of",
+  "why": "явление Смуты"
+ },
+ {
+  "source": "C.history.lzhedmitriy-i",
+  "target": "C.history.smuta",
+  "type": "participant_of",
+  "why": "первый самозванец на престоле"
+ },
+ {
+  "source": "C.history.lzhedmitriy-i",
+  "target": "C.history.vosstanie-1606-goda",
+  "type": "prerequisites_for",
+  "why": "восстание свергло самозванца"
+ },
+ {
+  "source": "C.history.vosstanie-1606-goda",
+  "target": "C.history.smuta",
+  "type": "part_of",
+  "why": "эпизод Смуты"
+ },
+ {
+  "source": "C.history.vasiliy-shuyskiy",
+  "target": "C.history.vosstanie-1606-goda",
+  "type": "participant_of",
+  "why": "возглавил заговор и стал царём"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-gody-smuty",
+  "target": "C.history.smuta",
+  "type": "part_of",
+  "why": "этап Смуты"
+ },
+ {
+  "source": "C.history.vosstanie-ivana-bolotnikova",
+  "target": "C.history.grazhdanskaya-voyna-v-gody-smuty",
+  "type": "part_of",
+  "why": "начало гражданской войны"
+ },
+ {
+  "source": "C.history.ivan-bolotnikov",
+  "target": "C.history.vosstanie-ivana-bolotnikova",
+  "type": "participant_of",
+  "why": "предводитель восстания"
+ },
+ {
+  "source": "C.history.vasiliy-shuyskiy",
+  "target": "C.history.vosstanie-ivana-bolotnikova",
+  "type": "participant_of",
+  "why": "царь, подавивший восстание"
+ },
+ {
+  "source": "C.history.lzhedmitriy-ii",
+  "target": "C.history.grazhdanskaya-voyna-v-gody-smuty",
+  "type": "participant_of",
+  "why": "второй самозванец, глава Тушинского лагеря"
+ },
+ {
+  "source": "C.history.samozvanstvo",
+  "target": "C.history.tushinskiy-lager",
+  "type": "prerequisites_for",
+  "why": "лагерь самозванца"
+ },
+ {
+  "source": "C.history.lzhedmitriy-ii",
+  "target": "C.history.tushinskiy-lager",
+  "type": "participant_of",
+  "why": "Тушинский лагерь — ставка Лжедмитрия II"
+ },
+ {
+  "source": "C.history.tushinskiy-lager",
+  "target": "C.history.grazhdanskaya-voyna-v-gody-smuty",
+  "type": "part_of",
+  "why": "центр противостояния царю"
+ },
+ {
+  "source": "C.history.rech-pospolitaya",
+  "target": "C.history.polsko-litovskaya-interventsiya",
+  "type": "prerequisites_for",
+  "why": "отряды пришли из Речи Посполитой"
+ },
+ {
+  "source": "C.history.polsko-litovskaya-interventsiya",
+  "target": "C.history.smuta",
+  "type": "part_of",
+  "why": "этап Смуты"
+ },
+ {
+  "source": "C.history.oborona-troitse-sergieva-monastyrya",
+  "target": "C.history.polsko-litovskaya-interventsiya",
+  "type": "part_of",
+  "why": "монастырь осаждали польско-литовские отряды"
+ },
+ {
+  "source": "C.history.shvetsiya",
+  "target": "C.history.vyborgskiy-dogovor",
+  "type": "prerequisites_for",
+  "why": "договор со Швецией"
+ },
+ {
+  "source": "C.history.vyborgskiy-dogovor",
+  "target": "C.history.pohod-skopina-shuyskogo-i-delagardi",
+  "type": "prerequisites_for",
+  "why": "шведское войско пришло по договору"
+ },
+ {
+  "source": "C.history.tushinskiy-lager",
+  "target": "C.history.pohod-skopina-shuyskogo-i-delagardi",
+  "type": "prerequisites_for",
+  "why": "поход был против тушинцев"
+ },
+ {
+  "source": "C.history.m-v-skopin-shuyskiy",
+  "target": "C.history.pohod-skopina-shuyskogo-i-delagardi",
+  "type": "participant_of",
+  "why": "русский полководец"
+ },
+ {
+  "source": "C.history.ya-p-delagardi",
+  "target": "C.history.pohod-skopina-shuyskogo-i-delagardi",
+  "type": "participant_of",
+  "why": "шведский полководец"
+ },
+ {
+  "source": "C.history.pohod-skopina-shuyskogo-i-delagardi",
+  "target": "C.history.grazhdanskaya-voyna-v-gody-smuty",
+  "type": "part_of",
+  "why": "эпизод войны"
+ },
+ {
+  "source": "C.history.rech-pospolitaya",
+  "target": "C.history.voyna-rechi-pospolitoy-protiv-rossii",
+  "type": "prerequisites_for",
+  "why": "воюющая сторона"
+ },
+ {
+  "source": "C.history.vyborgskiy-dogovor",
+  "target": "C.history.voyna-rechi-pospolitoy-protiv-rossii",
+  "type": "prerequisites_for",
+  "why": "союз со Швецией стал поводом для войны"
+ },
+ {
+  "source": "C.history.voyna-rechi-pospolitoy-protiv-rossii",
+  "target": "C.history.smuta",
+  "type": "part_of",
+  "why": "этап Смуты"
+ },
+ {
+  "source": "C.history.oborona-smolenska",
+  "target": "C.history.voyna-rechi-pospolitoy-protiv-rossii",
+  "type": "part_of",
+  "why": "эпизод войны"
+ },
+ {
+  "source": "C.history.voyna-rechi-pospolitoy-protiv-rossii",
+  "target": "C.history.sverzhenie-vasiliya-shuyskogo",
+  "type": "prerequisites_for",
+  "why": "поражение от поляков подорвало власть царя"
+ },
+ {
+  "source": "C.history.vasiliy-shuyskiy",
+  "target": "C.history.sverzhenie-vasiliya-shuyskogo",
+  "type": "participant_of",
+  "why": "свергнутый царь"
+ },
+ {
+  "source": "C.history.sverzhenie-vasiliya-shuyskogo",
+  "target": "C.history.semiboyarschina",
+  "type": "prerequisites_for",
+  "why": "после свержения власть перешла к боярам"
+ },
+ {
+  "source": "C.history.boyarstvo",
+  "target": "C.history.semiboyarschina",
+  "type": "prerequisites_for",
+  "why": "правительство из семи бояр"
+ },
+ {
+  "source": "C.history.semiboyarschina",
+  "target": "C.history.dogovor-ob-izbranii-na-prestol-printsa-vladislava",
+  "type": "prerequisites_for",
+  "why": "договор заключила семибоярщина"
+ },
+ {
+  "source": "C.history.prints-vladislav",
+  "target": "C.history.dogovor-ob-izbranii-na-prestol-printsa-vladislava",
+  "type": "prerequisites_for",
+  "why": "договор об избрании Владислава"
+ },
+ {
+  "source": "C.history.polsko-litovskaya-interventsiya",
+  "target": "C.history.natsionalno-osvoboditelnoe-dvizhenie-v-smutnoe-vremya",
+  "type": "prerequisites_for",
+  "why": "движение против интервентов"
+ },
+ {
+  "source": "C.history.patriarh-germogen",
+  "target": "C.history.natsionalno-osvoboditelnoe-dvizhenie-v-smutnoe-vremya",
+  "type": "participant_of",
+  "why": "призывал к борьбе с интервентами"
+ },
+ {
+  "source": "C.history.moskovskoe-vosstanie-1611-goda",
+  "target": "C.history.natsionalno-osvoboditelnoe-dvizhenie-v-smutnoe-vremya",
+  "type": "part_of",
+  "why": "эпизод борьбы"
+ },
+ {
+  "source": "C.history.pervoe-zemskoe-opolchenie",
+  "target": "C.history.natsionalno-osvoboditelnoe-dvizhenie-v-smutnoe-vremya",
+  "type": "part_of",
+  "why": "первая попытка освободить Москву"
+ },
+ {
+  "source": "C.history.vtoroe-zemskoe-opolchenie",
+  "target": "C.history.natsionalno-osvoboditelnoe-dvizhenie-v-smutnoe-vremya",
+  "type": "part_of",
+  "why": "ополчение, освободившее Москву"
+ },
+ {
+  "source": "C.history.pervoe-zemskoe-opolchenie",
+  "target": "C.history.vtoroe-zemskoe-opolchenie",
+  "type": "prerequisites_for",
+  "why": "второе собрано после распада первого"
+ },
+ {
+  "source": "C.history.shvetsiya",
+  "target": "C.history.zahvat-novgoroda-shvedskimi-voyskami",
+  "type": "prerequisites_for",
+  "why": "Новгород захватили шведы"
+ },
+ {
+  "source": "C.history.zahvat-novgoroda-shvedskimi-voyskami",
+  "target": "C.history.smuta",
+  "type": "part_of",
+  "why": "эпизод Смуты"
+ },
+ {
+  "source": "C.history.sovet-vseya-zemli",
+  "target": "C.history.vtoroe-zemskoe-opolchenie",
+  "type": "part_of",
+  "why": "правительство ополчения"
+ },
+ {
+  "source": "C.history.zemskiy-sobor",
+  "target": "C.history.sovet-vseya-zemli",
+  "type": "prerequisites_for",
+  "why": "совет действовал как земский собор"
+ },
+ {
+  "source": "C.history.vtoroe-zemskoe-opolchenie",
+  "target": "C.history.osvobozhdenie-moskvy-v-1612-godu",
+  "type": "prerequisites_for",
+  "why": "Москву освободило второе ополчение"
+ },
+ {
+  "source": "C.history.osvobozhdenie-moskvy-v-1612-godu",
+  "target": "C.history.okonchanie-smuty",
+  "type": "prerequisites_for",
+  "why": "после освобождения столицы Смута пошла к концу"
+ },
+ {
+  "source": "C.history.okonchanie-smuty",
+  "target": "C.history.smuta",
+  "type": "part_of",
+  "why": "завершающий этап"
+ },
+ {
+  "source": "C.history.zemskiy-sobor-1613-goda",
+  "target": "C.history.zemskiy-sobor",
+  "type": "is_a",
+  "why": "один из земских соборов"
+ },
+ {
+  "source": "C.history.zemskiy-sobor-1613-goda",
+  "target": "C.history.okonchanie-smuty",
+  "type": "part_of",
+  "why": "избрание царя завершило Смуту"
+ },
+ {
+  "source": "C.history.zemskiy-sobor-1613-goda",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "prerequisites_for",
+  "why": "собор избрал первого Романова"
+ },
+ {
+  "source": "C.history.mihail-fedorovich",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "первый царь из Романовых"
+ },
+ {
+  "source": "C.history.kazachestvo",
+  "target": "C.history.borba-s-kazachimi-vystupleniyami",
+  "type": "prerequisites_for",
+  "why": "выступали казаки"
+ },
+ {
+  "source": "C.history.borba-s-kazachimi-vystupleniyami",
+  "target": "C.history.okonchanie-smuty",
+  "type": "part_of",
+  "why": "восстановление порядка"
+ },
+ {
+  "source": "C.history.zahvat-novgoroda-shvedskimi-voyskami",
+  "target": "C.history.stolbovskiy-mir",
+  "type": "prerequisites_for",
+  "why": "по миру Новгород вернули России"
+ },
+ {
+  "source": "C.history.baltiyskoe-more",
+  "target": "C.history.stolbovskiy-mir",
+  "type": "prerequisites_for",
+  "why": "Россия потеряла выход к Балтике"
+ },
+ {
+  "source": "C.history.stolbovskiy-mir",
+  "target": "C.history.okonchanie-smuty",
+  "type": "part_of",
+  "why": "мир с одним из интервентов"
+ },
+ {
+  "source": "C.history.pohod-vladislava-na-moskvu",
+  "target": "C.history.voyna-rechi-pospolitoy-protiv-rossii",
+  "type": "part_of",
+  "why": "эпизод войны"
+ },
+ {
+  "source": "C.history.prints-vladislav",
+  "target": "C.history.pohod-vladislava-na-moskvu",
+  "type": "participant_of",
+  "why": "возглавил поход"
+ },
+ {
+  "source": "C.history.voyna-rechi-pospolitoy-protiv-rossii",
+  "target": "C.history.deulinskoe-peremirie",
+  "type": "prerequisites_for",
+  "why": "перемирие прервало войну"
+ },
+ {
+  "source": "C.history.deulinskoe-peremirie",
+  "target": "C.history.okonchanie-smuty",
+  "type": "part_of",
+  "why": "мир с другим интервентом"
+ },
+ {
+  "source": "C.history.smuta",
+  "target": "C.history.vosstanovlenie-ekonomiki-posle-smuty",
+  "type": "prerequisites_for",
+  "why": "восстанавливали разорённое Смутой хозяйство"
+ },
+ {
+  "source": "C.history.vosstanovlenie-ekonomiki-posle-smuty",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke",
+  "type": "part_of",
+  "why": "первый этап развития хозяйства века"
+ },
+ {
+  "source": "C.history.patriarh-filaret",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "отец царя Михаила, соправитель"
+ },
+ {
+  "source": "C.history.dinastiya-romanovyh",
+  "target": "C.history.rossiya-v-xvii-veke",
+  "type": "prerequisites_for",
+  "why": "век первых Романовых"
+ },
+ {
+  "source": "C.history.tserkovnyy-raskol",
+  "target": "C.history.rossiya-v-xvii-veke",
+  "type": "part_of",
+  "why": "событие века"
+ },
+ {
+  "source": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke",
+  "target": "C.history.rossiya-v-xvii-veke",
+  "type": "part_of",
+  "why": "хозяйство века"
+ },
+ {
+  "source": "C.history.sotsialnye-dvizheniya-v-rossii-xvii-veka",
+  "target": "C.history.rossiya-v-xvii-veke",
+  "type": "part_of",
+  "why": "«бунташный век»"
+ },
+ {
+  "source": "C.history.gorodskie-vosstaniya-serediny-xvii-veka",
+  "target": "C.history.sotsialnye-dvizheniya-v-rossii-xvii-veka",
+  "type": "part_of",
+  "why": "волна городских восстаний"
+ },
+ {
+  "source": "C.history.vosstanie-stepana-razina",
+  "target": "C.history.sotsialnye-dvizheniya-v-rossii-xvii-veka",
+  "type": "part_of",
+  "why": "крупнейшее народное выступление века"
+ },
+ {
+  "source": "C.history.pobegi-krestyan-na-don-i-v-sibir",
+  "target": "C.history.sotsialnye-dvizheniya-v-rossii-xvii-veka",
+  "type": "part_of",
+  "why": "бегство — форма протеста крестьян"
+ },
+ {
+  "source": "C.history.aleksey-mihaylovich",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "второй царь из Романовых"
+ },
+ {
+  "source": "C.history.ukreplenie-velikoknyazheskoy-vlasti",
+  "target": "C.history.samoderzhavie",
+  "type": "prerequisites_for",
+  "why": "самодержавие — итог усиления власти государя"
+ },
+ {
+  "source": "C.history.prikaz-taynyh-del",
+  "target": "C.history.prikaznaya-sistema",
+  "type": "part_of",
+  "why": "один из приказов"
+ },
+ {
+  "source": "C.history.voevoda",
+  "target": "C.history.mestnoe-upravlenie",
+  "type": "part_of",
+  "why": "воеводы сменили наместников в уездах"
+ },
+ {
+  "source": "C.history.zemskiy-sobor",
+  "target": "C.history.sobornoe-ulozhenie",
+  "type": "prerequisites_for",
+  "why": "уложение принято Земским собором"
+ },
+ {
+  "source": "C.history.sudebnik-1550-goda",
+  "target": "C.history.sobornoe-ulozhenie",
+  "type": "prerequisites_for",
+  "why": "уложение сменило Судебник"
+ },
+ {
+  "source": "C.history.solyanoy-bunt",
+  "target": "C.history.sobornoe-ulozhenie",
+  "type": "prerequisites_for",
+  "why": "после бунта созван собор для нового свода законов",
+  "order_issue": true
+ },
+ {
+  "source": "C.history.zakreposchenie-krestyan",
+  "target": "C.history.krepostnoe-pravo",
+  "type": "prerequisites_for",
+  "why": "крепостное право — итог закрепощения"
+ },
+ {
+  "source": "C.history.sobornoe-ulozhenie",
+  "target": "C.history.krepostnoe-pravo",
+  "type": "prerequisites_for",
+  "why": "уложение окончательно оформило крепостное право"
+ },
+ {
+  "source": "C.history.denezhnaya-reforma-1654-goda",
+  "target": "C.history.mednyy-bunt",
+  "type": "prerequisites_for",
+  "why": "бунт вызвала замена серебра медью"
+ },
+ {
+  "source": "C.history.b-i-morozov",
+  "target": "C.history.solyanoy-bunt",
+  "type": "participant_of",
+  "why": "глава правительства, против него поднялся бунт"
+ },
+ {
+  "source": "C.history.i-d-miloslavskiy",
+  "target": "C.history.mednyy-bunt",
+  "type": "participant_of",
+  "why": "глава правительства во время бунта"
+ },
+ {
+  "source": "C.history.patriarshestvo",
+  "target": "C.history.konflikt-patriarha-nikona-s-tsarskoy-vlastyu",
+  "type": "prerequisites_for",
+  "why": "спор о власти патриарха и царя"
+ },
+ {
+  "source": "C.history.gosudarstvo-i-tserkov",
+  "target": "C.history.konflikt-patriarha-nikona-s-tsarskoy-vlastyu",
+  "type": "prerequisites_for",
+  "why": "конфликт — эпизод отношений государства и церкви"
+ },
+ {
+  "source": "C.history.patriarh-nikon",
+  "target": "C.history.konflikt-patriarha-nikona-s-tsarskoy-vlastyu",
+  "type": "participant_of",
+  "why": "сторона конфликта"
+ },
+ {
+  "source": "C.history.russkaya-tserkov",
+  "target": "C.history.tserkovnyy-raskol",
+  "type": "prerequisites_for",
+  "why": "раскол Русской церкви"
+ },
+ {
+  "source": "C.history.patriarh-nikon",
+  "target": "C.history.tserkovnyy-raskol",
+  "type": "participant_of",
+  "why": "его реформа вызвала раскол"
+ },
+ {
+  "source": "C.history.aleksey-mihaylovich",
+  "target": "C.history.tserkovnyy-raskol",
+  "type": "participant_of",
+  "why": "царь поддержал церковную реформу"
+ },
+ {
+  "source": "C.history.protopop-avvakum",
+  "target": "C.history.tserkovnyy-raskol",
+  "type": "participant_of",
+  "why": "вождь противников реформы"
+ },
+ {
+  "source": "C.history.tserkovnyy-raskol",
+  "target": "C.history.staroobryadchestvo",
+  "type": "prerequisites_for",
+  "why": "старообрядцы — противники реформы Никона"
+ },
+ {
+  "source": "C.history.mestnichestvo",
+  "target": "C.history.otmena-mestnichestva",
+  "type": "prerequisites_for",
+  "why": "отменено местничество"
+ },
+ {
+  "source": "C.history.fedor-alekseevich",
+  "target": "C.history.otmena-mestnichestva",
+  "type": "participant_of",
+  "why": "отменил местничество"
+ },
+ {
+  "source": "C.history.sistema-nalogooblozheniya",
+  "target": "C.history.podatnaya-reforma",
+  "type": "prerequisites_for",
+  "why": "реформа изменила систему налогов"
+ },
+ {
+  "source": "C.history.fedor-alekseevich",
+  "target": "C.history.podatnaya-reforma",
+  "type": "participant_of",
+  "why": "реформа его правления"
+ },
+ {
+  "source": "C.history.fedor-alekseevich",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "третий царь из Романовых"
+ },
+ {
+  "source": "C.history.manufaktura",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke",
+  "type": "prerequisites_for",
+  "why": "появились первые мануфактуры"
+ },
+ {
+  "source": "C.history.vnutrenniy-rynok",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke",
+  "type": "prerequisites_for",
+  "why": "складывался всероссийский рынок"
+ },
+ {
+  "source": "C.history.hozyaystvennaya-spetsializatsiya-regionov",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke",
+  "type": "part_of",
+  "why": "черта хозяйства века"
+ },
+ {
+  "source": "C.history.torgovyy-ustav",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke",
+  "type": "part_of",
+  "why": "меры по развитию торговли"
+ },
+ {
+  "source": "C.history.torgovyy-ustav",
+  "target": "C.history.novotorgovyy-ustav",
+  "type": "prerequisites_for",
+  "why": "новый устав продолжил прежний"
+ },
+ {
+  "source": "C.history.vneshnyaya-torgovlya-rossii",
+  "target": "C.history.novotorgovyy-ustav",
+  "type": "prerequisites_for",
+  "why": "устав регулировал торговлю иноземцев"
+ },
+ {
+  "source": "C.history.mezhdunarodnaya-torgovlya-rusi",
+  "target": "C.history.vneshnyaya-torgovlya-rossii",
+  "type": "prerequisites_for",
+  "why": "продолжение торговых связей Руси"
+ },
+ {
+  "source": "C.history.vneshnyaya-torgovlya-rossii",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke",
+  "type": "part_of",
+  "why": "часть хозяйства века"
+ },
+ {
+  "source": "C.history.krestyanskaya-obschina",
+  "target": "C.history.russkaya-derevnya-v-xvii-veke",
+  "type": "prerequisites_for",
+  "why": "деревня жила общиной"
+ },
+ {
+  "source": "C.history.krepostnoe-pravo",
+  "target": "C.history.russkaya-derevnya-v-xvii-veke",
+  "type": "prerequisites_for",
+  "why": "деревня — мир крепостных крестьян"
+ },
+ {
+  "source": "C.history.kupets",
+  "target": "C.history.torgovye-lyudi",
+  "type": "prerequisites_for",
+  "why": "торговые люди — купечество"
+ },
+ {
+  "source": "C.history.torgovye-lyudi",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "городская верхушка"
+ },
+ {
+  "source": "C.history.sluzhilye-inozemtsy",
+  "target": "C.history.sluzhilye-lyudi",
+  "type": "is_a",
+  "why": "иностранцы на русской службе"
+ },
+ {
+  "source": "C.history.ryadovoe-i-zavisimoe-naselenie-rusi",
+  "target": "C.history.holop",
+  "type": "prerequisites_for",
+  "why": "холопы — зависимые люди со времён Руси"
+ },
+ {
+  "source": "C.history.holop",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "низший слой общества"
+ },
+ {
+  "source": "C.history.streletskoe-voysko",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "стрельцы — особый слой служилых людей по прибору"
+ },
+ {
+  "source": "C.history.solyanoy-bunt",
+  "target": "C.history.gorodskie-vosstaniya-serediny-xvii-veka",
+  "type": "part_of",
+  "why": "одно из восстаний"
+ },
+ {
+  "source": "C.history.sistema-nalogooblozheniya",
+  "target": "C.history.solyanoy-bunt",
+  "type": "prerequisites_for",
+  "why": "бунт вызвал налог на соль"
+ },
+ {
+  "source": "C.history.pskovsko-novgorodskoe-vosstanie",
+  "target": "C.history.gorodskie-vosstaniya-serediny-xvii-veka",
+  "type": "part_of",
+  "why": "одно из восстаний"
+ },
+ {
+  "source": "C.history.novgorod",
+  "target": "C.history.pskovsko-novgorodskoe-vosstanie",
+  "type": "prerequisites_for",
+  "why": "восстание в Новгороде и Пскове"
+ },
+ {
+  "source": "C.history.mednyy-bunt",
+  "target": "C.history.gorodskie-vosstaniya-serediny-xvii-veka",
+  "type": "part_of",
+  "why": "одно из восстаний"
+ },
+ {
+  "source": "C.history.krepostnoe-pravo",
+  "target": "C.history.pobegi-krestyan-na-don-i-v-sibir",
+  "type": "prerequisites_for",
+  "why": "бежали от крепостной неволи"
+ },
+ {
+  "source": "C.history.kazachestvo",
+  "target": "C.history.vosstanie-stepana-razina",
+  "type": "prerequisites_for",
+  "why": "восстание началось среди донских казаков"
+ },
+ {
+  "source": "C.history.pobegi-krestyan-na-don-i-v-sibir",
+  "target": "C.history.vosstanie-stepana-razina",
+  "type": "prerequisites_for",
+  "why": "беглые пополнили войско Разина"
+ },
+ {
+  "source": "C.history.stepan-razin",
+  "target": "C.history.vosstanie-stepana-razina",
+  "type": "participant_of",
+  "why": "предводитель восстания"
+ },
+ {
+  "source": "C.history.deulinskoe-peremirie",
+  "target": "C.history.smolenskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война за Смоленск, отданный по перемирию"
+ },
+ {
+  "source": "C.history.smolenskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "западное направление политики"
+ },
+ {
+  "source": "C.history.smolenskaya-voyna",
+  "target": "C.history.polyanovskiy-mir",
+  "type": "prerequisites_for",
+  "why": "мир завершил Смоленскую войну"
+ },
+ {
+  "source": "C.history.rech-pospolitaya",
+  "target": "C.history.pravoslavnoe-naselenie-rechi-pospolitoy",
+  "type": "prerequisites_for",
+  "why": "православные подданные Речи Посполитой"
+ },
+ {
+  "source": "C.history.pravoslavie",
+  "target": "C.history.pravoslavnoe-naselenie-rechi-pospolitoy",
+  "type": "prerequisites_for",
+  "why": "единоверцы России"
+ },
+ {
+  "source": "C.history.rech-pospolitaya",
+  "target": "C.history.polonizatsiya",
+  "type": "prerequisites_for",
+  "why": "ополячивание проводила Речь Посполитая"
+ },
+ {
+  "source": "C.history.kazachestvo",
+  "target": "C.history.zaporozhskaya-sech",
+  "type": "prerequisites_for",
+  "why": "Сечь — центр запорожского казачества"
+ },
+ {
+  "source": "C.history.pravoslavnoe-naselenie-rechi-pospolitoy",
+  "target": "C.history.vosstanie-bogdana-hmelnitskogo",
+  "type": "prerequisites_for",
+  "why": "восстали православные против гнёта"
+ },
+ {
+  "source": "C.history.polonizatsiya",
+  "target": "C.history.vosstanie-bogdana-hmelnitskogo",
+  "type": "prerequisites_for",
+  "why": "восстание против ополячивания"
+ },
+ {
+  "source": "C.history.zaporozhskaya-sech",
+  "target": "C.history.vosstanie-bogdana-hmelnitskogo",
+  "type": "prerequisites_for",
+  "why": "восстание начали запорожские казаки"
+ },
+ {
+  "source": "C.history.bogdan-hmelnitskiy",
+  "target": "C.history.vosstanie-bogdana-hmelnitskogo",
+  "type": "participant_of",
+  "why": "гетман, предводитель восстания"
+ },
+ {
+  "source": "C.history.vosstanie-bogdana-hmelnitskogo",
+  "target": "C.history.pereyaslavskaya-rada",
+  "type": "prerequisites_for",
+  "why": "рада решала судьбу восставших земель"
+ },
+ {
+  "source": "C.history.bogdan-hmelnitskiy",
+  "target": "C.history.pereyaslavskaya-rada",
+  "type": "participant_of",
+  "why": "созвал раду"
+ },
+ {
+  "source": "C.history.pereyaslavskaya-rada",
+  "target": "C.history.vhozhdenie-zemel-voyska-zaporozhskogo-v-sostav-rossii",
+  "type": "prerequisites_for",
+  "why": "рада приняла решение о вхождении"
+ },
+ {
+  "source": "C.history.vhozhdenie-zemel-voyska-zaporozhskogo-v-sostav-rossii",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "западное направление политики"
+ },
+ {
+  "source": "C.history.vhozhdenie-zemel-voyska-zaporozhskogo-v-sostav-rossii",
+  "target": "C.history.russko-polskaya-voyna-1654-1667-godov",
+  "type": "prerequisites_for",
+  "why": "война за присоединённые земли"
+ },
+ {
+  "source": "C.history.aleksey-mihaylovich",
+  "target": "C.history.russko-polskaya-voyna-1654-1667-godov",
+  "type": "participant_of",
+  "why": "царь, начавший войну"
+ },
+ {
+  "source": "C.history.russko-polskaya-voyna-1654-1667-godov",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "западное направление политики"
+ },
+ {
+  "source": "C.history.russko-polskaya-voyna-1654-1667-godov",
+  "target": "C.history.andrusovskoe-peremirie",
+  "type": "prerequisites_for",
+  "why": "перемирие завершило войну"
+ },
+ {
+  "source": "C.history.shvetsiya",
+  "target": "C.history.russko-shvedskaya-voyna-1656-1658-godov",
+  "type": "prerequisites_for",
+  "why": "противник в войне"
+ },
+ {
+  "source": "C.history.russko-shvedskaya-voyna-1656-1658-godov",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "северо-западное направление"
+ },
+ {
+  "source": "C.history.belgorodskaya-zasechnaya-cherta",
+  "target": "C.history.zasechnaya-cherta",
+  "type": "is_a",
+  "why": "одна из засечных черт"
+ },
+ {
+  "source": "C.history.kazachestvo",
+  "target": "C.history.azovskoe-osadnoe-sidenie",
+  "type": "prerequisites_for",
+  "why": "Азов держали донские казаки"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.azovskoe-osadnoe-sidenie",
+  "type": "prerequisites_for",
+  "why": "казаки отбивались от турецкого войска"
+ },
+ {
+  "source": "C.history.azovskoe-osadnoe-sidenie",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "южное направление политики"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.chigirinskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война с турками"
+ },
+ {
+  "source": "C.history.vhozhdenie-zemel-voyska-zaporozhskogo-v-sostav-rossii",
+  "target": "C.history.chigirinskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война шла за украинские земли"
+ },
+ {
+  "source": "C.history.chigirinskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "южное направление политики"
+ },
+ {
+  "source": "C.history.chigirinskaya-voyna",
+  "target": "C.history.bahchisarayskiy-mirnyy-dogovor",
+  "type": "prerequisites_for",
+  "why": "договор завершил войну"
+ },
+ {
+  "source": "C.history.krymskoe-hanstvo",
+  "target": "C.history.bahchisarayskiy-mirnyy-dogovor",
+  "type": "prerequisites_for",
+  "why": "договор с Крымом и Турцией"
+ },
+ {
+  "source": "C.history.dinastiya-tsin",
+  "target": "C.history.voennye-stolknoveniya-s-imperiey-tsin",
+  "type": "prerequisites_for",
+  "why": "противник в столкновениях"
+ },
+ {
+  "source": "C.history.pohody-habarova-i-poyarkova",
+  "target": "C.history.voennye-stolknoveniya-s-imperiey-tsin",
+  "type": "prerequisites_for",
+  "why": "столкновения шли за освоенное русскими Приамурье",
+  "order_issue": true
+ },
+ {
+  "source": "C.history.voennye-stolknoveniya-s-imperiey-tsin",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "восточное направление политики"
+ },
+ {
+  "source": "C.history.russkie-geograficheskie-otkrytiya",
+  "target": "C.history.velikie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "русские открытия — часть эпохи открытий"
+ },
+ {
+  "source": "C.history.russkie-geograficheskie-otkrytiya",
+  "target": "C.history.osvoenie-novyh-territoriy",
+  "type": "part_of",
+  "why": "открытия вели к освоению земель"
+ },
+ {
+  "source": "C.history.plavanie-semena-dezhneva",
+  "target": "C.history.russkie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "открыт пролив между Азией и Америкой"
+ },
+ {
+  "source": "C.history.semen-dezhnev",
+  "target": "C.history.plavanie-semena-dezhneva",
+  "type": "participant_of",
+  "why": "руководил плаванием"
+ },
+ {
+  "source": "C.history.vyhod-k-tihomu-okeanu",
+  "target": "C.history.russkie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "итог продвижения на восток"
+ },
+ {
+  "source": "C.history.amur",
+  "target": "C.history.pohody-habarova-i-poyarkova",
+  "type": "prerequisites_for",
+  "why": "исследовали бассейн Амура"
+ },
+ {
+  "source": "C.history.pohody-habarova-i-poyarkova",
+  "target": "C.history.russkie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "эпизод открытий"
+ },
+ {
+  "source": "C.history.erofey-habarov",
+  "target": "C.history.pohody-habarova-i-poyarkova",
+  "type": "participant_of",
+  "why": "руководил походом на Амур"
+ },
+ {
+  "source": "C.history.vasiliy-poyarkov",
+  "target": "C.history.pohody-habarova-i-poyarkova",
+  "type": "participant_of",
+  "why": "руководил походом на Амур"
+ },
+ {
+  "source": "C.history.prisoedinenie-zapadnoy-sibiri",
+  "target": "C.history.osvoenie-sibiri",
+  "type": "prerequisites_for",
+  "why": "освоение продолжило присоединение"
+ },
+ {
+  "source": "C.history.osvoenie-sibiri",
+  "target": "C.history.osvoenie-novyh-territoriy",
+  "type": "part_of",
+  "why": "главное направление освоения"
+ },
+ {
+  "source": "C.history.mongoly",
+  "target": "C.history.kalmytskoe-hanstvo",
+  "type": "prerequisites_for",
+  "why": "калмыки — западные монголы"
+ },
+ {
+  "source": "C.history.dan",
+  "target": "C.history.yasak",
+  "type": "prerequisites_for",
+  "why": "ясак — дань пушниной с народов Сибири"
+ },
+ {
+  "source": "C.history.yasak",
+  "target": "C.history.osvoenie-sibiri",
+  "type": "part_of",
+  "why": "основа управления Сибирью"
+ },
+ {
+  "source": "C.history.pereselenie-russkih-na-novye-zemli",
+  "target": "C.history.osvoenie-novyh-territoriy",
+  "type": "part_of",
+  "why": "заселение новых земель"
+ },
+ {
+  "source": "C.history.pravoslavie",
+  "target": "C.history.missionerstvo",
+  "type": "prerequisites_for",
+  "why": "распространяли православие"
+ },
+ {
+  "source": "C.history.missionerstvo",
+  "target": "C.history.osvoenie-novyh-territoriy",
+  "type": "part_of",
+  "why": "христианизация народов новых земель"
+ },
+ {
+  "source": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii",
+  "target": "C.history.mezhetnicheskie-otnosheniya",
+  "type": "prerequisites_for",
+  "why": "отношения между народами страны"
+ },
+ {
+  "source": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii",
+  "target": "C.history.mnogonatsionalnaya-elita",
+  "type": "prerequisites_for",
+  "why": "элита складывалась из разных народов"
+ },
+ {
+  "source": "C.history.sluzhilye-tatary",
+  "target": "C.history.mnogonatsionalnaya-elita",
+  "type": "prerequisites_for",
+  "why": "татарская знать вошла в элиту"
+ },
+ {
+  "source": "C.history.kultura-edinogo-russkogo-gosudarstva",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "prerequisites_for",
+  "why": "продолжение культуры единого государства"
+ },
+ {
+  "source": "C.history.kartina-mira-srednevekovogo-cheloveka",
+  "target": "C.history.kartina-mira-cheloveka-v-xvi-xvii-vekah",
+  "type": "prerequisites_for",
+  "why": "картина мира менялась от средневековой"
+ },
+ {
+  "source": "C.history.kartina-mira-cheloveka-v-xvi-xvii-vekah",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "part_of",
+  "why": "часть культурного пространства"
+ },
+ {
+  "source": "C.history.zhilische-i-predmety-byta",
+  "target": "C.history.povsednevnaya-zhizn-na-rusi",
+  "type": "part_of",
+  "why": "быт"
+ },
+ {
+  "source": "C.history.semya-i-semeynye-otnosheniya",
+  "target": "C.history.povsednevnaya-zhizn-na-rusi",
+  "type": "part_of",
+  "why": "семейный уклад"
+ },
+ {
+  "source": "C.history.domostroy",
+  "target": "C.history.semya-i-semeynye-otnosheniya",
+  "type": "prerequisites_for",
+  "why": "Домострой описывает порядок в семье"
+ },
+ {
+  "source": "C.history.traditsionnye-verovaniya-vostochnyh-slavyan",
+  "target": "C.history.sueveriya",
+  "type": "prerequisites_for",
+  "why": "суеверия — пережитки языческих верований"
+ },
+ {
+  "source": "C.history.sueveriya",
+  "target": "C.history.kartina-mira-cheloveka-v-xvi-xvii-vekah",
+  "type": "part_of",
+  "why": "часть картины мира"
+ },
+ {
+  "source": "C.history.nemetskaya-sloboda",
+  "target": "C.history.proniknovenie-evropeyskoy-kultury-v-rossiyu",
+  "type": "prerequisites_for",
+  "why": "слобода — проводник европейского влияния"
+ },
+ {
+  "source": "C.history.sluzhilye-inozemtsy",
+  "target": "C.history.nemetskaya-sloboda",
+  "type": "prerequisites_for",
+  "why": "в слободе жили иноземцы на русской службе"
+ },
+ {
+  "source": "C.history.proniknovenie-evropeyskoy-kultury-v-rossiyu",
+  "target": "C.history.usilenie-svetskogo-nachala-v-kulture",
+  "type": "prerequisites_for",
+  "why": "европейское влияние усилило светскую культуру"
+ },
+ {
+  "source": "C.history.usilenie-svetskogo-nachala-v-kulture",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "part_of",
+  "why": "черта культуры XVII в."
+ },
+ {
+  "source": "C.history.simeon-polotskiy",
+  "target": "C.history.usilenie-svetskogo-nachala-v-kulture",
+  "type": "participant_of",
+  "why": "поэт и просветитель"
+ },
+ {
+  "source": "C.history.drevnerusskaya-arhitektura",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "part_of",
+  "why": "архитектура эпохи"
+ },
+ {
+  "source": "C.history.ansambl-sobornoy-ploschadi-v-moskve",
+  "target": "C.history.moskovskiy-kreml",
+  "type": "part_of",
+  "why": "центр Кремля"
+ },
+ {
+  "source": "C.history.kamennye-sobory-moskovskogo-kremlya",
+  "target": "C.history.ansambl-sobornoy-ploschadi-v-moskve",
+  "type": "part_of",
+  "why": "соборы образуют ансамбль"
+ },
+ {
+  "source": "C.history.antonio-solari",
+  "target": "C.history.ansambl-sobornoy-ploschadi-v-moskve",
+  "type": "participant_of",
+  "why": "строил Грановитую палату"
+ },
+ {
+  "source": "C.history.aleviz-fryazin",
+  "target": "C.history.ansambl-sobornoy-ploschadi-v-moskve",
+  "type": "participant_of",
+  "why": "строил Архангельский собор"
+ },
+ {
+  "source": "C.history.shatrovyy-stil",
+  "target": "C.history.drevnerusskaya-arhitektura",
+  "type": "part_of",
+  "why": "стиль русской архитектуры XVI в."
+ },
+ {
+  "source": "C.history.shatrovyy-stil",
+  "target": "C.history.sobor-pokrova-na-rvu",
+  "type": "prerequisites_for",
+  "why": "собор построен в шатровом стиле"
+ },
+ {
+  "source": "C.history.prisoedinenie-kazanskogo-hanstva",
+  "target": "C.history.sobor-pokrova-na-rvu",
+  "type": "prerequisites_for",
+  "why": "собор возведён в честь взятия Казани"
+ },
+ {
+  "source": "C.history.monastyrskie-ansambli",
+  "target": "C.history.drevnerusskaya-arhitektura",
+  "type": "part_of",
+  "why": "часть архитектуры эпохи"
+ },
+ {
+  "source": "C.history.kirillo-belozerskiy-monastyr",
+  "target": "C.history.monastyrskie-ansambli",
+  "type": "part_of",
+  "why": "один из ансамблей"
+ },
+ {
+  "source": "C.history.solovetskiy-monastyr",
+  "target": "C.history.monastyrskie-ansambli",
+  "type": "part_of",
+  "why": "один из ансамблей"
+ },
+ {
+  "source": "C.history.novo-ierusalimskiy-monastyr",
+  "target": "C.history.monastyrskie-ansambli",
+  "type": "part_of",
+  "why": "один из ансамблей"
+ },
+ {
+  "source": "C.history.krepostnoe-zodchestvo",
+  "target": "C.history.drevnerusskaya-arhitektura",
+  "type": "part_of",
+  "why": "часть архитектуры эпохи"
+ },
+ {
+  "source": "C.history.kitay-gorod",
+  "target": "C.history.krepostnoe-zodchestvo",
+  "type": "part_of",
+  "why": "одна из крепостей"
+ },
+ {
+  "source": "C.history.petrok-maloy",
+  "target": "C.history.kitay-gorod",
+  "type": "participant_of",
+  "why": "строил стены Китай-города"
+ },
+ {
+  "source": "C.history.smolenskiy-kreml",
+  "target": "C.history.krepostnoe-zodchestvo",
+  "type": "part_of",
+  "why": "одна из крепостей"
+ },
+ {
+  "source": "C.history.fedor-kon",
+  "target": "C.history.smolenskiy-kreml",
+  "type": "participant_of",
+  "why": "зодчий Смоленской крепости"
+ },
+ {
+  "source": "C.history.astrahanskiy-kreml",
+  "target": "C.history.krepostnoe-zodchestvo",
+  "type": "part_of",
+  "why": "одна из крепостей"
+ },
+ {
+  "source": "C.history.rostovskiy-kreml",
+  "target": "C.history.krepostnoe-zodchestvo",
+  "type": "part_of",
+  "why": "одна из крепостей"
+ },
+ {
+  "source": "C.history.prikaz-kamennyh-del",
+  "target": "C.history.prikaznaya-sistema",
+  "type": "part_of",
+  "why": "один из приказов"
+ },
+ {
+  "source": "C.history.derevyannoe-zodchestvo",
+  "target": "C.history.drevnerusskaya-arhitektura",
+  "type": "part_of",
+  "why": "часть архитектуры эпохи"
+ },
+ {
+  "source": "C.history.izobrazitelnoe-iskusstvo-rusi",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "part_of",
+  "why": "искусство эпохи"
+ },
+ {
+  "source": "C.history.simon-ushakov",
+  "target": "C.history.izobrazitelnoe-iskusstvo-rusi",
+  "type": "participant_of",
+  "why": "иконописец XVII в."
+ },
+ {
+  "source": "C.history.ikonopis",
+  "target": "C.history.yaroslavskaya-shkola-ikonopisi",
+  "type": "prerequisites_for",
+  "why": "школа иконописи"
+ },
+ {
+  "source": "C.history.yaroslavskaya-shkola-ikonopisi",
+  "target": "C.history.izobrazitelnoe-iskusstvo-rusi",
+  "type": "part_of",
+  "why": "одна из школ"
+ },
+ {
+  "source": "C.history.ikonopis",
+  "target": "C.history.parsunnaya-zhivopis",
+  "type": "prerequisites_for",
+  "why": "парсуна — портрет в иконописной манере"
+ },
+ {
+  "source": "C.history.parsunnaya-zhivopis",
+  "target": "C.history.izobrazitelnoe-iskusstvo-rusi",
+  "type": "part_of",
+  "why": "новый жанр"
+ },
+ {
+  "source": "C.history.litsevoy-svod",
+  "target": "C.history.letopis",
+  "type": "is_a",
+  "why": "иллюстрированный летописный свод"
+ },
+ {
+  "source": "C.history.izobretenie-knigopechataniya",
+  "target": "C.history.nachalo-knigopechataniya-v-rossii",
+  "type": "prerequisites_for",
+  "why": "книгопечатание пришло из Европы"
+ },
+ {
+  "source": "C.history.nachalo-knigopechataniya-v-rossii",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "part_of",
+  "why": "событие культуры"
+ },
+ {
+  "source": "C.history.domostroy",
+  "target": "C.history.drevnerusskaya-literatura",
+  "type": "part_of",
+  "why": "памятник литературы XVI в."
+ },
+ {
+  "source": "C.history.ivan-iv",
+  "target": "C.history.perepiska-ivana-groznogo-s-andreem-kurbskim",
+  "type": "participant_of",
+  "why": "автор посланий"
+ },
+ {
+  "source": "C.history.andrey-kurbskiy",
+  "target": "C.history.perepiska-ivana-groznogo-s-andreem-kurbskim",
+  "type": "participant_of",
+  "why": "автор посланий"
+ },
+ {
+  "source": "C.history.perepiska-ivana-groznogo-s-andreem-kurbskim",
+  "target": "C.history.drevnerusskaya-literatura",
+  "type": "part_of",
+  "why": "памятник публицистики"
+ },
+ {
+  "source": "C.history.smuta",
+  "target": "C.history.publitsistika-smutnogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "сочинения о событиях Смуты"
+ },
+ {
+  "source": "C.history.publitsistika-smutnogo-vremeni",
+  "target": "C.history.drevnerusskaya-literatura",
+  "type": "part_of",
+  "why": "памятник литературы"
+ },
+ {
+  "source": "C.history.posadskoe-naselenie",
+  "target": "C.history.posadskaya-satira",
+  "type": "prerequisites_for",
+  "why": "сатира посадской среды"
+ },
+ {
+  "source": "C.history.posadskaya-satira",
+  "target": "C.history.drevnerusskaya-literatura",
+  "type": "part_of",
+  "why": "памятник литературы XVII в."
+ },
+ {
+  "source": "C.history.drevnerusskaya-literatura",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "part_of",
+  "why": "литература эпохи"
+ },
+ {
+  "source": "C.history.rasprostranenie-gramotnosti",
+  "target": "C.history.obrazovanie-i-nauchnye-znaniya-v-rossii",
+  "type": "prerequisites_for",
+  "why": "продолжение распространения грамотности"
+ },
+ {
+  "source": "C.history.obrazovanie-i-nauchnye-znaniya-v-rossii",
+  "target": "C.history.kultura-rossii-xvi-xvii-vekov",
+  "type": "part_of",
+  "why": "часть культуры"
+ },
+ {
+  "source": "C.history.prikaznaya-sistema",
+  "target": "C.history.shkoly-pri-prikazah",
+  "type": "prerequisites_for",
+  "why": "школы готовили служащих для приказов"
+ },
+ {
+  "source": "C.history.shkoly-pri-prikazah",
+  "target": "C.history.obrazovanie-i-nauchnye-znaniya-v-rossii",
+  "type": "part_of",
+  "why": "первые школы"
+ },
+ {
+  "source": "C.history.innokentiy-gizel",
+  "target": "C.history.sinopsis",
+  "type": "prerequisites_for",
+  "why": "автор «Синопсиса»"
+ },
+ {
+  "source": "C.history.sinopsis",
+  "target": "C.history.obrazovanie-i-nauchnye-znaniya-v-rossii",
+  "type": "part_of",
+  "why": "первое учебное пособие по истории"
+ }
+]

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SyllaBench · Граф · сборка всех слоёв в один граф.
+"""ИС ОЗЯМ-ФОП · Граф · сборка всех слоёв в один граф.
 
 каркас/ (build_skeleton.py) + понятия/ (build_concepts.py) + связи/*/out_*.json → граф/
   nodes.jsonl, edges.jsonl, stats.json,

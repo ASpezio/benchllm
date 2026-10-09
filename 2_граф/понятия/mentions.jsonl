@@ -1,3 +1,1028 @@
+{"source": "OOO.history.cls.g6.el.1.1", "target": "C.history.srednie-veka", "type": "mentions", "role": "main", "evidence": "Средние века: понятие, хронологические рамки"}
+{"source": "OOO.history.cls.g6.el.1.1", "target": "C.history.periodizatsiya-srednevekovya", "type": "mentions", "role": "part", "evidence": "периодизация Средневековья"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.rannee-srednevekove", "type": "mentions", "role": "main", "evidence": "Народы Европы в раннее Средневековье"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.padenie-zapadnoy-rimskoy-imperii", "type": "mentions", "role": "part", "evidence": "Падение Западной Римской империи"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.varvarskie-korolevstva", "type": "mentions", "role": "part", "evidence": "образование варварских королевств"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.franki", "type": "mentions", "role": "part", "evidence": "Завоевание франками Галлии"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.zavoevanie-frankami-gallii", "type": "mentions", "role": "part", "evidence": "Завоевание франками Галлии"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.galliya", "type": "mentions", "role": "part", "evidence": "Галлии"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.hlodvig", "type": "mentions", "role": "part", "evidence": "Хлодвиг"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.usilenie-korolevskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Усиление королевской власти"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.salicheskaya-pravda", "type": "mentions", "role": "part", "evidence": "Салическая правда"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.prinyatie-frankami-hristianstva", "type": "mentions", "role": "part", "evidence": "Принятие франками христианства"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.frankskoe-gosudarstvo", "type": "mentions", "role": "part", "evidence": "Франкское государство"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.mayordom", "type": "mentions", "role": "part", "evidence": "Усиление власти майордомов"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.karl-martell", "type": "mentions", "role": "part", "evidence": "Карл Мартелл"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.voennaya-reforma-karla-martella", "type": "mentions", "role": "part", "evidence": "Карл Мартелл и его военная реформа"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.karl-velikiy", "type": "mentions", "role": "part", "evidence": "Карла Великого"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.zavoevaniya-karla-velikogo", "type": "mentions", "role": "part", "evidence": "Завоевания Карла Великого"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.upravlenie-imperiey-karla-velikogo", "type": "mentions", "role": "part", "evidence": "Управление империей"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.karolingskoe-vozrozhdenie", "type": "mentions", "role": "part", "evidence": "«Каролингское возрождение»"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.verdenskiy-razdel", "type": "mentions", "role": "part", "evidence": "Верденский раздел, его причины и значение"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.frantsiya", "type": "mentions", "role": "part", "evidence": "Образование государств во Франции"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.germaniya", "type": "mentions", "role": "part", "evidence": "Германии"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.italiya", "type": "mentions", "role": "part", "evidence": "Италии"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.svyaschennaya-rimskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Священная Римская империя"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.britaniya", "type": "mentions", "role": "part", "evidence": "Британия и Ирландия в раннее Средневековье"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.irlandiya", "type": "mentions", "role": "part", "evidence": "Ирландия"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.normanny", "type": "mentions", "role": "part", "evidence": "Норманны"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.obschestvennyy-stroy-normannov", "type": "mentions", "role": "part", "evidence": "Норманны: общественный строй"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.zavoevaniya-normannov", "type": "mentions", "role": "part", "evidence": "завоевания"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.rannie-slavyanskie-gosudarstva", "type": "mentions", "role": "part", "evidence": "Ранние славянские государства"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.vengerskoe-korolevstvo", "type": "mentions", "role": "part", "evidence": "Возникновение Венгерского королевства"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.hristianizatsiya-evropy", "type": "mentions", "role": "part", "evidence": "Христианизация Европы"}
+{"source": "OOO.history.cls.g6.el.1.2", "target": "C.history.papa-rimskiy", "type": "mentions", "role": "part", "evidence": "Светские правители и папы"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.vostochnaya-rimskaya-imperiya", "type": "mentions", "role": "main", "evidence": "Византийская империя"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.vizantiyskiy-imperator", "type": "mentions", "role": "part", "evidence": "Византийские императоры"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.yustinian", "type": "mentions", "role": "part", "evidence": "Юстиниан"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.kodifikatsiya-zakonov-yustiniana", "type": "mentions", "role": "part", "evidence": "Кодификация законов"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.vneshnyaya-politika-vizantii", "type": "mentions", "role": "part", "evidence": "Внешняя политика Византии"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.otnosheniya-vizantii-so-slavyanami", "type": "mentions", "role": "part", "evidence": "Византия и славяне"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.imperatorskaya-vlast-i-tserkov-v-vizantii", "type": "mentions", "role": "part", "evidence": "Власть императора и церковь"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.tserkovnyy-sobor", "type": "mentions", "role": "part", "evidence": "Церковные соборы"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.kultura-vizantii", "type": "mentions", "role": "part", "evidence": "Культура Византии"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.obrazovanie-v-vizantii", "type": "mentions", "role": "part", "evidence": "Образование и книжное дело"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.knizhnoe-delo-v-vizantii", "type": "mentions", "role": "part", "evidence": "книжное дело"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.hudozhestvennaya-kultura-vizantii", "type": "mentions", "role": "part", "evidence": "Художественная культура"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.arhitektura-vizantii", "type": "mentions", "role": "part", "evidence": "архитектура"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.mozaika", "type": "mentions", "role": "part", "evidence": "мозаика"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.freska", "type": "mentions", "role": "part", "evidence": "фреска"}
+{"source": "OOO.history.cls.g6.el.1.3", "target": "C.history.ikonopis", "type": "mentions", "role": "part", "evidence": "иконопись"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.araby", "type": "mentions", "role": "main", "evidence": "Арабы в VI"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.prirodnye-usloviya-araviyskogo-poluostrova", "type": "mentions", "role": "part", "evidence": "Природные условия Аравийского полуострова"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.zanyatiya-arabov", "type": "mentions", "role": "part", "evidence": "Основные занятия арабов"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.traditsionnye-verovaniya-arabov", "type": "mentions", "role": "part", "evidence": "Традиционные верования"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.muhammad", "type": "mentions", "role": "part", "evidence": "Пророк Мухаммад"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.islam", "type": "mentions", "role": "part", "evidence": "возникновение ислама"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.hidzhra", "type": "mentions", "role": "part", "evidence": "Хиджра"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.pobeda-islama-v-aravii", "type": "mentions", "role": "part", "evidence": "Победа новой веры"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.koran", "type": "mentions", "role": "part", "evidence": "Коран"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.zavoevaniya-arabov", "type": "mentions", "role": "part", "evidence": "Завоевания арабов"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.arabskiy-halifat", "type": "mentions", "role": "part", "evidence": "Арабский халифат"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.raspad-arabskogo-halifata", "type": "mentions", "role": "part", "evidence": "Арабский халифат, его расцвет и распад"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.kultura-islamskogo-mira", "type": "mentions", "role": "part", "evidence": "Культура исламского мира"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.obrazovanie-v-islamskom-mire", "type": "mentions", "role": "part", "evidence": "Образование и наука"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.nauka-islamskogo-mira", "type": "mentions", "role": "part", "evidence": "наука"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.arabskiy-yazyk", "type": "mentions", "role": "part", "evidence": "Роль арабского языка"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.literatura-islamskogo-mira", "type": "mentions", "role": "part", "evidence": "Расцвет литературы"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.iskusstvo-islamskogo-mira", "type": "mentions", "role": "part", "evidence": "литературы и искусства"}
+{"source": "OOO.history.cls.g6.el.1.4", "target": "C.history.arhitektura-islamskogo-mira", "type": "mentions", "role": "part", "evidence": "Архитектура"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.srednevekovoe-evropeyskoe-obschestvo", "type": "mentions", "role": "main", "evidence": "Средневековое европейское общество"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.agrarnoe-proizvodstvo", "type": "mentions", "role": "part", "evidence": "Аграрное производство"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.naturalnoe-hozyaystvo", "type": "mentions", "role": "part", "evidence": "Натуральное хозяйство"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.feodalnoe-zemlevladenie", "type": "mentions", "role": "part", "evidence": "Феодальное землевладение"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.znat", "type": "mentions", "role": "part", "evidence": "Знать и рыцарство"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.rytsarstvo", "type": "mentions", "role": "part", "evidence": "рыцарство: социальный статус, образ жизни"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.senor", "type": "mentions", "role": "part", "evidence": "Замок сеньора"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.zamok-senora", "type": "mentions", "role": "part", "evidence": "Замок сеньора"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.kurtuaznaya-kultura", "type": "mentions", "role": "part", "evidence": "Куртуазная культура"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.krestyanstvo", "type": "mentions", "role": "part", "evidence": "Крестьянство"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.feodalnaya-zavisimost-krestyan", "type": "mentions", "role": "part", "evidence": "зависимость от сеньора"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.povinnosti-krestyan", "type": "mentions", "role": "part", "evidence": "повинности"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.krestyanskaya-obschina", "type": "mentions", "role": "part", "evidence": "Крестьянская община"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.srednevekovyy-gorod", "type": "mentions", "role": "part", "evidence": "Города - центры ремесла, торговли, культуры"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.remeslo", "type": "mentions", "role": "part", "evidence": "центры ремесла"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.gorozhane", "type": "mentions", "role": "part", "evidence": "Население городов"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.tseh", "type": "mentions", "role": "part", "evidence": "Цехи"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.gildiya", "type": "mentions", "role": "part", "evidence": "гильдии"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.gorodskoe-upravlenie", "type": "mentions", "role": "part", "evidence": "Городское управление"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.borba-gorodov-za-samoupravlenie", "type": "mentions", "role": "part", "evidence": "Борьба городов за самоуправление"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.gorod-respublika", "type": "mentions", "role": "part", "evidence": "Средневековые города-республики"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.torgovlya", "type": "mentions", "role": "part", "evidence": "Развитие торговли"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.yarmarka", "type": "mentions", "role": "part", "evidence": "Ярмарки"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.torgovye-puti-v-sredizemnomore-i-na-baltike", "type": "mentions", "role": "part", "evidence": "Торговые пути в Средиземноморье и на Балтике"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.ganza", "type": "mentions", "role": "part", "evidence": "Ганза"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.byt-srednevekovyh-gorozhan", "type": "mentions", "role": "part", "evidence": "Образ жизни и быт горожан"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.tserkov", "type": "mentions", "role": "part", "evidence": "Церковь и духовенство"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.duhovenstvo", "type": "mentions", "role": "part", "evidence": "духовенство"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.razdelenie-hristianstva-na-katolitsizm-i-pravoslavie", "type": "mentions", "role": "part", "evidence": "Разделение христианства на католицизм и православие"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.katolitsizm", "type": "mentions", "role": "part", "evidence": "католицизм"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.pravoslavie", "type": "mentions", "role": "part", "evidence": "православие"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.borba-pap-za-nezavisimost-tserkvi-ot-svetskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Борьба пап за независимость церкви от светской власти"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.krestovye-pohody", "type": "mentions", "role": "part", "evidence": "Крестовые походы: цели, участники, итоги"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.duhovno-rytsarskiy-orden", "type": "mentions", "role": "part", "evidence": "Духовно-рыцарские ордены"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.eres", "type": "mentions", "role": "part", "evidence": "Ереси: причины возникновения и распространения"}
+{"source": "OOO.history.cls.g6.el.1.5", "target": "C.history.presledovanie-eretikov", "type": "mentions", "role": "part", "evidence": "Преследование еретиков"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.tsentralizovannoe-gosudarstvo", "type": "mentions", "role": "main", "evidence": "Образование централизованных государств в Англии, Франции"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.usilenie-korolevskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Усиление королевской власти в странах Западной Европы"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.soslovno-predstavitelnaya-monarhiya", "type": "mentions", "role": "part", "evidence": "Сословно- представительная монархия"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.angliya", "type": "mentions", "role": "part", "evidence": "в Англии"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.frantsiya", "type": "mentions", "role": "part", "evidence": "Франции"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.stoletnyaya-voyna", "type": "mentions", "role": "part", "evidence": "Столетняя война"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.zhanna-d-ark", "type": "mentions", "role": "part", "evidence": "Ж. Д’Арк"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.svyaschennaya-rimskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Священная Римская империя"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.polsko-litovskoe-gosudarstvo", "type": "mentions", "role": "part", "evidence": "Польско-литовское государство"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.rekonkista", "type": "mentions", "role": "part", "evidence": "Реконкиста"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.pireneyskiy-poluostrov", "type": "mentions", "role": "part", "evidence": "образование централизованных государств на Пиренейском полуострове"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.italyanskie-gosudarstva", "type": "mentions", "role": "part", "evidence": "Итальянские государства"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.zreloe-srednevekove", "type": "mentions", "role": "part", "evidence": "Развитие экономики в европейских странах в период зрелого Средневековья"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.obostrenie-sotsialnyh-protivorechiy-v-xiv-veke", "type": "mentions", "role": "part", "evidence": "Обострение социальных противоречий"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.zhakeriya", "type": "mentions", "role": "part", "evidence": "Жакерия"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.vosstanie-uota-taylera", "type": "mentions", "role": "part", "evidence": "восстание Уота Тайлера"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.uot-tayler", "type": "mentions", "role": "part", "evidence": "Уота Тайлера"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.gusitskoe-dvizhenie", "type": "mentions", "role": "part", "evidence": "Гуситское движение в Чехии"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.vostochnaya-rimskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Византийская империя и славянские государства"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.slavyanskie-gosudarstva", "type": "mentions", "role": "part", "evidence": "славянские государства"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.turki-osmany", "type": "mentions", "role": "part", "evidence": "Экспансия турок-османов"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.osmanskie-zavoevaniya", "type": "mentions", "role": "part", "evidence": "Османские завоевания на Балканах"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.balkany", "type": "mentions", "role": "part", "evidence": "на Балканах"}
+{"source": "OOO.history.cls.g6.el.1.6", "target": "C.history.padenie-konstantinopolya", "type": "mentions", "role": "part", "evidence": "Падение Константинополя"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.kultura-srednevekovoy-evropy", "type": "mentions", "role": "main", "evidence": "Культура средневековой Европы"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.kartina-mira-srednevekovogo-cheloveka", "type": "mentions", "role": "part", "evidence": "Представления средневекового человека о мире"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.obrazovanie-v-srednevekovoy-evrope", "type": "mentions", "role": "part", "evidence": "Образование: школы и университеты"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.universitet", "type": "mentions", "role": "part", "evidence": "университеты"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.soslovie", "type": "mentions", "role": "part", "evidence": "Сословный характер культуры"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.srednevekovyy-epos", "type": "mentions", "role": "part", "evidence": "Средневековый эпос"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.rytsarskaya-literatura", "type": "mentions", "role": "part", "evidence": "Рыцарская литература"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.srednevekovyy-folklor", "type": "mentions", "role": "part", "evidence": "Городской и крестьянский фольклор"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.romanskiy-stil", "type": "mentions", "role": "part", "evidence": "Романский и готический стили"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.goticheskiy-stil", "type": "mentions", "role": "part", "evidence": "готический стили в художественной культуре"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.srednevekovaya-nauka", "type": "mentions", "role": "part", "evidence": "Развитие знаний о природе и человеке"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.gumanizm", "type": "mentions", "role": "part", "evidence": "Гуманизм"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.rannee-vozrozhdenie", "type": "mentions", "role": "part", "evidence": "Раннее Возрождение: художники и их творения"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.izobretenie-knigopechataniya", "type": "mentions", "role": "part", "evidence": "Изобретение европейского книгопечатания"}
+{"source": "OOO.history.cls.g6.el.1.7", "target": "C.history.i-gutenberg", "type": "mentions", "role": "part", "evidence": "И. Гутенберг"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.srednevekovyy-vostok", "type": "mentions", "role": "main", "evidence": "Страны Востока в Средние века"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.osmanskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Османская империя"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.osmanskie-zavoevaniya", "type": "mentions", "role": "part", "evidence": "завоевания турок-османов"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.turki-osmany", "type": "mentions", "role": "part", "evidence": "турок-османов"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.balkany", "type": "mentions", "role": "part", "evidence": "Балканы"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.padenie-konstantinopolya", "type": "mentions", "role": "part", "evidence": "падение Византии"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.upravlenie-osmanskoy-imperiey", "type": "mentions", "role": "part", "evidence": "управление империей"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.polozhenie-pokorennyh-narodov-v-osmanskoy-imperii", "type": "mentions", "role": "part", "evidence": "положение покорённых народов"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.mongolskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Монгольская держава"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.mongoly", "type": "mentions", "role": "part", "evidence": "монгольских племен"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.obschestvennyy-stroy-mongolskih-plemen", "type": "mentions", "role": "part", "evidence": "общественный строй монгольских племен"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.mongolskie-zavoevaniya", "type": "mentions", "role": "part", "evidence": "завоевания Чингисхана и его потомков"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.chingishan", "type": "mentions", "role": "part", "evidence": "Чингисхана"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.upravlenie-mongolskoy-imperiey", "type": "mentions", "role": "part", "evidence": "управление подчинёнными территориями"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.srednevekovyy-kitay", "type": "mentions", "role": "part", "evidence": "Китай: империи, правители и подданные"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.borba-kitaya-protiv-zavoevateley", "type": "mentions", "role": "part", "evidence": "борьба против завоевателей"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.srednevekovaya-yaponiya", "type": "mentions", "role": "part", "evidence": "Япония в Средние века: образование государства"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.segun", "type": "mentions", "role": "part", "evidence": "власть императоров и управление сёгунов"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.srednevekovaya-indiya", "type": "mentions", "role": "part", "evidence": "Индия: раздробленность индийских княжеств"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.razdroblennost-indiyskih-knyazhestv", "type": "mentions", "role": "part", "evidence": "раздробленность индийских княжеств"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.vtorzhenie-musulman-v-indiyu", "type": "mentions", "role": "part", "evidence": "вторжение мусульман"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.deliyskiy-sultanat", "type": "mentions", "role": "part", "evidence": "Делийский султанат"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.kultura-narodov-vostoka", "type": "mentions", "role": "part", "evidence": "Культура народов Востока"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.literatura-narodov-vostoka", "type": "mentions", "role": "part", "evidence": "Литература"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.arhitektura-narodov-vostoka", "type": "mentions", "role": "part", "evidence": "Архитектура"}
+{"source": "OOO.history.cls.g6.el.1.8", "target": "C.history.traditsionnye-iskusstva-i-remesla-narodov-vostoka", "type": "mentions", "role": "part", "evidence": "Традиционные искусства и ремесла"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.dokolumbova-amerika", "type": "mentions", "role": "main", "evidence": "Государства доколумбовой Америки в Средние века"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.mayya", "type": "mentions", "role": "part", "evidence": "Цивилизации майя"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.atsteki", "type": "mentions", "role": "part", "evidence": "ацтеков"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.inki", "type": "mentions", "role": "part", "evidence": "инков"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.obschestvennyy-stroy-narodov-dokolumbovoy-ameriki", "type": "mentions", "role": "part", "evidence": "общественный строй"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.religioznye-verovaniya-narodov-dokolumbovoy-ameriki", "type": "mentions", "role": "part", "evidence": "религиозные верования"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.kultura-narodov-dokolumbovoy-ameriki", "type": "mentions", "role": "part", "evidence": "религиозные верования, культура"}
+{"source": "OOO.history.cls.g6.el.1.9", "target": "C.history.poyavlenie-evropeyskih-zavoevateley-v-amerike", "type": "mentions", "role": "part", "evidence": "Появление европейских завоевателей"}
+{"source": "OOO.history.cls.g6.el.1.10", "target": "C.history.nasledie-srednih-vekov", "type": "mentions", "role": "main", "evidence": "Историческое и культурное наследие Средних веков"}
+{"source": "OOO.history.cls.g6.el.2.1", "target": "C.history.rossiya", "type": "mentions", "role": "main", "evidence": "Роль и место России в мировой истории"}
+{"source": "OOO.history.cls.g6.el.2.1", "target": "C.history.periodizatsiya-rossiyskoy-istorii", "type": "mentions", "role": "part", "evidence": "Проблемы периодизации российской истории"}
+{"source": "OOO.history.cls.g6.el.2.1", "target": "C.history.istochniki-po-istorii-rossii", "type": "mentions", "role": "part", "evidence": "Источники по истории России"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.narody-i-gosudarstva-na-territorii-rossii-v-drevnosti", "type": "mentions", "role": "main", "evidence": "Народы и государства на территории нашей страны в древности"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.vostochnaya-evropa", "type": "mentions", "role": "part", "evidence": "Восточная Европа в середине I тыс. н.э."}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.zaselenie-territorii-rossii-chelovekom", "type": "mentions", "role": "part", "evidence": "Заселение территории нашей страны человеком"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.paleoliticheskoe-iskusstvo", "type": "mentions", "role": "part", "evidence": "Палеолитическое искусство"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.petroglify-belomorya-i-onezhskogo-ozera", "type": "mentions", "role": "part", "evidence": "Петроглифы Беломорья и Онежского озера"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.perehod-ot-prisvaivayuschego-hozyaystva-k-proizvodyaschemu", "type": "mentions", "role": "part", "evidence": "Особенности перехода от присваивающего хозяйства к производящему"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.arealy-drevneyshego-zemledeliya-i-skotovodstva", "type": "mentions", "role": "part", "evidence": "Ареалы древнейшего земледелия и скотоводства"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.metallicheskie-orudiya", "type": "mentions", "role": "part", "evidence": "Появление металлических орудий"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.pervobytnoe-obschestvo", "type": "mentions", "role": "part", "evidence": "влияние на первобытное общество"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.tsentry-drevneyshey-metallurgii", "type": "mentions", "role": "part", "evidence": "Центры древнейшей металлургии"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.kochevye-obschestva-evraziyskih-stepey", "type": "mentions", "role": "part", "evidence": "Кочевые общества евразийских степей"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.evraziyskaya-step", "type": "mentions", "role": "part", "evidence": "Степь и её роль в распространении культурных взаимовлияний"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.poyavlenie-kolesnogo-transporta", "type": "mentions", "role": "part", "evidence": "Появление первого в мире колёсного транспорта"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.skify", "type": "mentions", "role": "part", "evidence": "Скифы и скифская культура"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.skifskaya-kultura", "type": "mentions", "role": "part", "evidence": "скифская культура"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.antichnye-goroda-gosudarstva-severnogo-prichernomorya", "type": "mentions", "role": "part", "evidence": "Античные города-государства Северного Причерноморья"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.severnoe-prichernomore", "type": "mentions", "role": "part", "evidence": "Северного Причерноморья"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.bosporskoe-tsarstvo", "type": "mentions", "role": "part", "evidence": "Боспорское царство"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.pantikapey", "type": "mentions", "role": "part", "evidence": "Пантикапей"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.hersones", "type": "mentions", "role": "part", "evidence": "Античный Херсонес"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.skifskoe-tsarstvo-v-krymu", "type": "mentions", "role": "part", "evidence": "Скифское царство в Крыму"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.krym", "type": "mentions", "role": "part", "evidence": "в Крыму"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.derbent", "type": "mentions", "role": "part", "evidence": "Дербент"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.velikoe-pereselenie-narodov", "type": "mentions", "role": "part", "evidence": "Великое переселение народов"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.migratsiya-gotov", "type": "mentions", "role": "part", "evidence": "Миграция готов"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.goty", "type": "mentions", "role": "part", "evidence": "готов"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.nashestvie-gunnov", "type": "mentions", "role": "part", "evidence": "Нашествие гуннов"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.gunny", "type": "mentions", "role": "part", "evidence": "гуннов"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.slavyanskaya-prarodina", "type": "mentions", "role": "part", "evidence": "Вопрос о славянской прародине"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.proishozhdenie-slavyan", "type": "mentions", "role": "part", "evidence": "происхождении славян"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.slavyane", "type": "mentions", "role": "part", "evidence": "славян"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.rasselenie-slavyan", "type": "mentions", "role": "part", "evidence": "Расселение славян"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.vostochnye-slavyane", "type": "mentions", "role": "part", "evidence": "Хозяйство восточных славян"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.zapadnye-slavyane", "type": "mentions", "role": "part", "evidence": "восточных, западных и южных"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.yuzhnye-slavyane", "type": "mentions", "role": "part", "evidence": "западных и южных"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.slavyanskie-obschnosti-vostochnoy-evropy", "type": "mentions", "role": "part", "evidence": "Славянские общности Восточной Европы"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.balty", "type": "mentions", "role": "part", "evidence": "балты"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.finno-ugry", "type": "mentions", "role": "part", "evidence": "финно-угры"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.hozyaystvo-vostochnyh-slavyan", "type": "mentions", "role": "part", "evidence": "Хозяйство восточных славян"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.obschestvennyy-stroy-vostochnyh-slavyan", "type": "mentions", "role": "part", "evidence": "их общественный строй"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.politicheskaya-organizatsiya-vostochnyh-slavyan", "type": "mentions", "role": "part", "evidence": "политическая организация"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.knyaz", "type": "mentions", "role": "part", "evidence": "Возникновение княжеской власти"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.traditsionnye-verovaniya-vostochnyh-slavyan", "type": "mentions", "role": "part", "evidence": "Традиционные верования"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.sibir", "type": "mentions", "role": "part", "evidence": "Сибири"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.dalniy-vostok", "type": "mentions", "role": "part", "evidence": "Дальнего Востока"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.tyurkskiy-kaganat", "type": "mentions", "role": "part", "evidence": "Тюркский каганат"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.hazarskiy-kaganat", "type": "mentions", "role": "part", "evidence": "Хазарский каганат"}
+{"source": "OOO.history.cls.g6.el.2.2", "target": "C.history.volzhskaya-bulgariya", "type": "mentions", "role": "part", "evidence": "Волжская Булгария"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.obrazovanie-gosudarstva-rus", "type": "mentions", "role": "main", "evidence": "Образование государства Русь"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.rus", "type": "mentions", "role": "part", "evidence": "государства Русь"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.usloviya-skladyvaniya-russkoy-gosudarstvennosti", "type": "mentions", "role": "part", "evidence": "Исторические условия складывания русской государственности"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.formirovanie-politicheskoy-i-etnicheskoy-karty-evropy", "type": "mentions", "role": "part", "evidence": "Формирование новой политической и этнической карты континента"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.pervye-izvestiya-o-rusi", "type": "mentions", "role": "part", "evidence": "Первые известия о Руси"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.normanny", "type": "mentions", "role": "part", "evidence": "Скандинавы на Руси"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.dinastiya-ryurikovichey", "type": "mentions", "role": "part", "evidence": "Начало династии Рюриковичей"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.formirovanie-territorii-gosudarstva-rus", "type": "mentions", "role": "part", "evidence": "Формирование территории государства Русь"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.dan", "type": "mentions", "role": "part", "evidence": "Дань и полюдье"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.polyude", "type": "mentions", "role": "part", "evidence": "полюдье"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.pervye-russkie-knyazya", "type": "mentions", "role": "part", "evidence": "Первые русские князья"}
+{"source": "OOO.history.cls.g6.el.3.1", "target": "C.history.yazycheskiy-panteon", "type": "mentions", "role": "part", "evidence": "Языческий пантеон"}
+{"source": "OOO.history.cls.g6.el.3.2", "target": "C.history.vneshnyaya-politika-rusi", "type": "mentions", "role": "main", "evidence": "Отношения Руси с Византийской империей, странами Центральной, Западной и Северной Европы"}
+{"source": "OOO.history.cls.g6.el.3.2", "target": "C.history.vostochnaya-rimskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Византийской империей"}
+{"source": "OOO.history.cls.g6.el.3.2", "target": "C.history.kochevniki-evropeyskih-stepey", "type": "mentions", "role": "part", "evidence": "кочевниками европейских степей"}
+{"source": "OOO.history.cls.g6.el.3.2", "target": "C.history.mezhdunarodnaya-torgovlya-rusi", "type": "mentions", "role": "part", "evidence": "Русь в международной торговле"}
+{"source": "OOO.history.cls.g6.el.3.2", "target": "C.history.put-iz-varyag-v-greki", "type": "mentions", "role": "part", "evidence": "Путь «из варяг в греки»"}
+{"source": "OOO.history.cls.g6.el.3.2", "target": "C.history.volzhskiy-torgovyy-put", "type": "mentions", "role": "part", "evidence": "Волжский торговый путь"}
+{"source": "OOO.history.cls.g6.el.3.3", "target": "C.history.prinyatie-hristianstva-na-rusi", "type": "mentions", "role": "main", "evidence": "Принятие христианства и его значение"}
+{"source": "OOO.history.cls.g6.el.3.3", "target": "C.history.vizantiyskoe-nasledie-na-rusi", "type": "mentions", "role": "part", "evidence": "Византийское наследие на Руси"}
+{"source": "OOO.history.cls.g6.el.3.4", "target": "C.history.borba-za-vlast-mezhdu-synovyami-vladimira-svyatogo", "type": "mentions", "role": "main", "evidence": "Борьба за власть между сыновьями Владимира Святого"}
+{"source": "OOO.history.cls.g6.el.3.4", "target": "C.history.vladimir-svyatoy", "type": "mentions", "role": "part", "evidence": "Владимира Святого"}
+{"source": "OOO.history.cls.g6.el.3.4", "target": "C.history.yaroslav-mudryy", "type": "mentions", "role": "part", "evidence": "Ярослав Мудрый"}
+{"source": "OOO.history.cls.g6.el.3.5", "target": "C.history.yaroslavichi", "type": "mentions", "role": "main", "evidence": "Русь при Ярославичах"}
+{"source": "OOO.history.cls.g6.el.3.5", "target": "C.history.vladimir-monomah", "type": "mentions", "role": "part", "evidence": "Владимир Мономах"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.rus", "type": "mentions", "role": "main", "evidence": "Территория и население государства Русь (Русская земля)"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.krupneyshie-goroda-rusi", "type": "mentions", "role": "part", "evidence": "Крупнейшие города Руси"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.novgorod", "type": "mentions", "role": "part", "evidence": "Новгород как центр освоения Севера Восточной Европы"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.kolonizatsiya-russkoy-ravniny", "type": "mentions", "role": "part", "evidence": "колонизация Русской равнины"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.territorialno-politicheskaya-struktura-rusi", "type": "mentions", "role": "part", "evidence": "Территориально-политическая структура Руси"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.volost", "type": "mentions", "role": "part", "evidence": "волости"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.knyaz", "type": "mentions", "role": "part", "evidence": "Органы власти: князь"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.posadnik", "type": "mentions", "role": "part", "evidence": "посадник"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.tysyatskiy", "type": "mentions", "role": "part", "evidence": "тысяцкий"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.veche", "type": "mentions", "role": "part", "evidence": "вече"}
+{"source": "OOO.history.cls.g6.el.3.6", "target": "C.history.vnutrennyaya-politika-rusi", "type": "mentions", "role": "part", "evidence": "Внутриполитическое развитие"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.russkaya-tserkov", "type": "mentions", "role": "main", "evidence": "Русская церковь"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.obschestvennyy-stroy-rusi", "type": "mentions", "role": "part", "evidence": "Общественный строй Руси: дискуссии в исторической науке"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.knyaz", "type": "mentions", "role": "part", "evidence": "Князья"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.druzhina", "type": "mentions", "role": "part", "evidence": "дружина"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.duhovenstvo", "type": "mentions", "role": "part", "evidence": "Духовенство"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.gorozhane", "type": "mentions", "role": "part", "evidence": "Городское население"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.kupets", "type": "mentions", "role": "part", "evidence": "Купцы"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.ryadovoe-i-zavisimoe-naselenie-rusi", "type": "mentions", "role": "part", "evidence": "Категории рядового и зависимого населения"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.drevnerusskoe-pravo", "type": "mentions", "role": "part", "evidence": "Древнерусское право"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.russkaya-pravda", "type": "mentions", "role": "part", "evidence": "Русская Правда"}
+{"source": "OOO.history.cls.g6.el.3.7", "target": "C.history.tserkovnye-ustavy", "type": "mentions", "role": "part", "evidence": "церковные уставы"}
+{"source": "OOO.history.cls.g6.el.3.8", "target": "C.history.vneshnyaya-politika-rusi", "type": "mentions", "role": "main", "evidence": "Внешняя политика и международные связи Руси"}
+{"source": "OOO.history.cls.g6.el.3.8", "target": "C.history.vostochnaya-rimskaya-imperiya", "type": "mentions", "role": "part", "evidence": "отношения с Византией"}
+{"source": "OOO.history.cls.g6.el.3.8", "target": "C.history.pechenegi", "type": "mentions", "role": "part", "evidence": "печенегами"}
+{"source": "OOO.history.cls.g6.el.3.8", "target": "C.history.polovtsy", "type": "mentions", "role": "part", "evidence": "половцами"}
+{"source": "OOO.history.cls.g6.el.3.8", "target": "C.history.desht-i-kipchak", "type": "mentions", "role": "part", "evidence": "Дешт-и-Кипчак"}
+{"source": "OOO.history.cls.g6.el.3.8", "target": "C.history.hersones", "type": "mentions", "role": "part", "evidence": "Херсонес в культурных контактах Руси и Византии"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.kultura-rusi", "type": "mentions", "role": "main", "evidence": "Культура Руси"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.kartina-mira-srednevekovogo-cheloveka", "type": "mentions", "role": "part", "evidence": "Картина мира средневекового человека"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.povsednevnaya-zhizn-na-rusi", "type": "mentions", "role": "part", "evidence": "Повседневная жизнь, сельский и городской быт"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.polozhenie-zhenschiny-na-rusi", "type": "mentions", "role": "part", "evidence": "Положение женщины"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.vospitanie-detey-na-rusi", "type": "mentions", "role": "part", "evidence": "Дети и их воспитание"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.drevnerusskiy-kalendar", "type": "mentions", "role": "part", "evidence": "Календарь и хронология"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.formirovanie-edinogo-kulturnogo-prostranstva-rusi", "type": "mentions", "role": "part", "evidence": "Формирование единого культурного пространства"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.kirillo-mefodievskaya-traditsiya", "type": "mentions", "role": "part", "evidence": "Кирилло- мефодиевская традиция на Руси"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.pismennost", "type": "mentions", "role": "part", "evidence": "Письменность"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.rasprostranenie-gramotnosti", "type": "mentions", "role": "part", "evidence": "Распространение грамотности"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.berestyanye-gramoty", "type": "mentions", "role": "part", "evidence": "берестяные грамоты"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.novgorodskaya-psaltir", "type": "mentions", "role": "part", "evidence": "«Новгородская псалтирь»"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.ostromirovo-evangelie", "type": "mentions", "role": "part", "evidence": "«Остромирово Евангелие»"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.drevnerusskaya-literatura", "type": "mentions", "role": "part", "evidence": "Появление древнерусской литературы"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.slovo-o-zakone-i-blagodati", "type": "mentions", "role": "part", "evidence": "«Слово о Законе и Благодати»"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.letopis", "type": "mentions", "role": "part", "evidence": "Произведения летописного жанра"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.povest-vremennyh-let", "type": "mentions", "role": "part", "evidence": "«Повесть временных лет»"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.zhitiynaya-literatura", "type": "mentions", "role": "part", "evidence": "Первые русские жития"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.proizvedeniya-vladimira-monomaha", "type": "mentions", "role": "part", "evidence": "Произведения Владимира Мономаха"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.ikonopis", "type": "mentions", "role": "part", "evidence": "Иконопись"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.iskusstvo-knigi-na-rusi", "type": "mentions", "role": "part", "evidence": "Искусство книги"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.drevnerusskaya-arhitektura", "type": "mentions", "role": "part", "evidence": "Архитектура"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.hramovoe-stroitelstvo-na-rusi", "type": "mentions", "role": "part", "evidence": "Начало храмового строительства"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.desyatinnaya-tserkov", "type": "mentions", "role": "part", "evidence": "Десятинная церковь"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.sofiya-kievskaya", "type": "mentions", "role": "part", "evidence": "София Киевская"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.sofiya-novgorodskaya", "type": "mentions", "role": "part", "evidence": "София Новгородская"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.materialnaya-kultura-rusi", "type": "mentions", "role": "part", "evidence": "Материальная культура"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.remeslo", "type": "mentions", "role": "part", "evidence": "Ремесло"}
+{"source": "OOO.history.cls.g6.el.3.9", "target": "C.history.voennoe-delo-na-rusi", "type": "mentions", "role": "part", "evidence": "Военное дело и оружие"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.formirovanie-sistemy-russkih-zemel", "type": "mentions", "role": "main", "evidence": "Формирование системы земель - самостоятельных государств"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.russkie-zemli", "type": "mentions", "role": "part", "evidence": "внешняя политика русских земель"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.dinastiya-ryurikovichey", "type": "mentions", "role": "part", "evidence": "ветвями княжеского рода Рюриковичей"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.chernigovskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Черниговская"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.smolenskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Смоленская"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.galitskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Галицкая"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.volynskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Волынская"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.suzdalskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Суздальская"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.kievskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Земли, имевшие особый статус: Киевская"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.novgorodskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Киевская и Новгородская"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.obschestvennyy-stroy-rusi", "type": "mentions", "role": "part", "evidence": "Эволюция общественного строя"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.drevnerusskoe-pravo", "type": "mentions", "role": "part", "evidence": "общественного строя и права"}
+{"source": "OOO.history.cls.g6.el.4.1", "target": "C.history.vneshnyaya-politika-rusi", "type": "mentions", "role": "part", "evidence": "внешняя политика русских земель"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.regionalnye-tsentry-kultury", "type": "mentions", "role": "main", "evidence": "Формирование региональных центров культуры"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.letopis", "type": "mentions", "role": "part", "evidence": "Летописание"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.drevnerusskaya-literatura", "type": "mentions", "role": "part", "evidence": "памятники литературы"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.kievo-pecherskiy-paterik", "type": "mentions", "role": "part", "evidence": "Киево-Печерский патерик"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.molenie-daniila-zatochnika", "type": "mentions", "role": "part", "evidence": "моление Даниила Заточника"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.slovo-o-polku-igoreve", "type": "mentions", "role": "part", "evidence": "«Слово о полку Игореве»"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.belokamennye-hramy-severo-vostochnoy-rusi", "type": "mentions", "role": "part", "evidence": "Белокаменные храмы Северо- Восточной Руси"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.severo-vostochnaya-rus", "type": "mentions", "role": "part", "evidence": "Северо- Восточной Руси"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.uspenskiy-sobor-vo-vladimire", "type": "mentions", "role": "part", "evidence": "Успенский собор во Владимире"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.tserkov-pokrova-na-nerli", "type": "mentions", "role": "part", "evidence": "церковь Покрова на Нерли"}
+{"source": "OOO.history.cls.g6.el.4.2", "target": "C.history.georgievskiy-sobor-yureva-polskogo", "type": "mentions", "role": "part", "evidence": "Георгиевский собор Юрьева-Польского"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.mongolskaya-imperiya", "type": "mentions", "role": "main", "evidence": "Возникновение Монгольской империи"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.mongolskie-zavoevaniya", "type": "mentions", "role": "part", "evidence": "Завоевания Чингисхана и его потомков"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.chingishan", "type": "mentions", "role": "part", "evidence": "Чингисхана"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.pohody-batyya", "type": "mentions", "role": "part", "evidence": "Походы Батыя на Восточную Европу"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.batyy", "type": "mentions", "role": "part", "evidence": "Батыя"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.zolotaya-orda", "type": "mentions", "role": "part", "evidence": "Возникновение Золотой Орды"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.mongolskoe-nashestvie-na-rus", "type": "mentions", "role": "part", "evidence": "Судьбы русских земель после монгольского нашествия"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.russkie-zemli", "type": "mentions", "role": "part", "evidence": "Судьбы русских земель"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.ordynskoe-igo", "type": "mentions", "role": "part", "evidence": "Система зависимости русских земель от ордынских ханов (так называемое ордынское иго)"}
+{"source": "OOO.history.cls.g6.el.5.1", "target": "C.history.ordynskiy-han", "type": "mentions", "role": "part", "evidence": "ордынских ханов"}
+{"source": "OOO.history.cls.g6.el.5.2", "target": "C.history.yuzhnye-i-zapadnye-russkie-zemli", "type": "mentions", "role": "main", "evidence": "Южные и западные русские земли"}
+{"source": "OOO.history.cls.g6.el.5.2", "target": "C.history.velikoe-knyazhestvo-litovskoe", "type": "mentions", "role": "part", "evidence": "Возникновение Литовского государства"}
+{"source": "OOO.history.cls.g6.el.5.2", "target": "C.history.vklyuchenie-russkih-zemel-v-sostav-velikogo-knyazhestva-litovskogo", "type": "mentions", "role": "part", "evidence": "включение в его состав части русских земель"}
+{"source": "OOO.history.cls.g6.el.5.3", "target": "C.history.novgorodskaya-zemlya", "type": "mentions", "role": "main", "evidence": "Северо-западные земли: Новгородская"}
+{"source": "OOO.history.cls.g6.el.5.3", "target": "C.history.pskovskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Псковская"}
+{"source": "OOO.history.cls.g6.el.5.3", "target": "C.history.politicheskiy-stroy-novgoroda-i-pskova", "type": "mentions", "role": "part", "evidence": "Политический строй Новгорода и Пскова"}
+{"source": "OOO.history.cls.g6.el.5.3", "target": "C.history.veche", "type": "mentions", "role": "part", "evidence": "Роль вече"}
+{"source": "OOO.history.cls.g6.el.5.3", "target": "C.history.knyaz", "type": "mentions", "role": "part", "evidence": "вече и князя"}
+{"source": "OOO.history.cls.g6.el.5.3", "target": "C.history.novgorod", "type": "mentions", "role": "part", "evidence": "Новгород и немецкая Ганза"}
+{"source": "OOO.history.cls.g6.el.5.3", "target": "C.history.ganza", "type": "mentions", "role": "part", "evidence": "немецкая Ганза"}
+{"source": "OOO.history.cls.g6.el.5.4", "target": "C.history.borba-rusi-s-ekspansiey-krestonostsev", "type": "mentions", "role": "main", "evidence": "борьба с их экспансией на западных границах Руси"}
+{"source": "OOO.history.cls.g6.el.5.4", "target": "C.history.duhovno-rytsarskiy-orden", "type": "mentions", "role": "part", "evidence": "Ордена крестоносцев"}
+{"source": "OOO.history.cls.g6.el.5.4", "target": "C.history.aleksandr-nevskiy", "type": "mentions", "role": "part", "evidence": "Александр Невский"}
+{"source": "OOO.history.cls.g6.el.5.5", "target": "C.history.otnosheniya-rusi-s-ordoy", "type": "mentions", "role": "main", "evidence": "Взаимоотношения Руси с Ордой"}
+{"source": "OOO.history.cls.g6.el.5.5", "target": "C.history.zolotaya-orda", "type": "mentions", "role": "part", "evidence": "с Ордой"}
+{"source": "OOO.history.cls.g6.el.5.5", "target": "C.history.severo-vostochnaya-rus", "type": "mentions", "role": "part", "evidence": "Княжества Северо-Восточной Руси"}
+{"source": "OOO.history.cls.g6.el.5.5", "target": "C.history.velikoe-knyazhenie-vladimirskoe", "type": "mentions", "role": "part", "evidence": "Борьба за великое княжение Владимирское"}
+{"source": "OOO.history.cls.g6.el.5.5", "target": "C.history.protivostoyanie-tveri-i-moskvy", "type": "mentions", "role": "part", "evidence": "Противостояние Твери и Москвы"}
+{"source": "OOO.history.cls.g6.el.5.5", "target": "C.history.tverskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "Твери"}
+{"source": "OOO.history.cls.g6.el.5.5", "target": "C.history.moskovskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "Твери и Москвы"}
+{"source": "OOO.history.cls.g6.el.5.6", "target": "C.history.usilenie-moskovskogo-knyazhestva", "type": "mentions", "role": "main", "evidence": "Усиление Московского княжества"}
+{"source": "OOO.history.cls.g6.el.5.6", "target": "C.history.moskovskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "Московского княжества"}
+{"source": "OOO.history.cls.g6.el.5.6", "target": "C.history.dmitriy-donskoy", "type": "mentions", "role": "part", "evidence": "Дмитрий Донской"}
+{"source": "OOO.history.cls.g6.el.5.6", "target": "C.history.kulikovskaya-bitva", "type": "mentions", "role": "part", "evidence": "Куликовская битва"}
+{"source": "OOO.history.cls.g6.el.5.6", "target": "C.history.zakreplenie-pervenstva-moskovskih-knyazey", "type": "mentions", "role": "part", "evidence": "Закрепление первенствующего положения московских князей"}
+{"source": "OOO.history.cls.g6.el.5.7", "target": "C.history.perenos-mitropolichey-kafedry-v-moskvu", "type": "mentions", "role": "main", "evidence": "Перенос митрополичьей кафедры в Москву"}
+{"source": "OOO.history.cls.g6.el.5.7", "target": "C.history.moskva", "type": "mentions", "role": "part", "evidence": "в Москву"}
+{"source": "OOO.history.cls.g6.el.5.7", "target": "C.history.russkaya-tserkov", "type": "mentions", "role": "part", "evidence": "Роль Православной церкви в ордынский период"}
+{"source": "OOO.history.cls.g6.el.5.7", "target": "C.history.aleksiy-moskovskiy", "type": "mentions", "role": "part", "evidence": "Святитель Алексий Московский"}
+{"source": "OOO.history.cls.g6.el.5.7", "target": "C.history.sergiy-radonezhskiy", "type": "mentions", "role": "part", "evidence": "преподобный Сергий Радонежский"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.zolotaya-orda", "type": "mentions", "role": "main", "evidence": "Золотая орда: государственный строй, население, экономика, культура"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.narody-i-gosudarstva-stepnoy-zony-vostochnoy-evropy-i-sibiri", "type": "mentions", "role": "part", "evidence": "Народы и государства степной зоны Восточной Европы и Сибири"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.gosudarstvennyy-stroy-zolotoy-ordy", "type": "mentions", "role": "part", "evidence": "государственный строй"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.naselenie-zolotoy-ordy", "type": "mentions", "role": "part", "evidence": "население"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.ekonomika-zolotoy-ordy", "type": "mentions", "role": "part", "evidence": "экономика"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.kultura-zolotoy-ordy", "type": "mentions", "role": "part", "evidence": "экономика, культура"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.goroda-zolotoy-ordy", "type": "mentions", "role": "part", "evidence": "Города и кочевые степи"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.prinyatie-islama-v-zolotoy-orde", "type": "mentions", "role": "part", "evidence": "Принятие ислама"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.oslablenie-zolotoy-ordy", "type": "mentions", "role": "part", "evidence": "Ослабление государства во второй половине XIV в."}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.nashestvie-timura", "type": "mentions", "role": "part", "evidence": "нашествие Тимура"}
+{"source": "OOO.history.cls.g6.el.5.8", "target": "C.history.timur", "type": "mentions", "role": "part", "evidence": "Тимура"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.raspad-zolotoy-ordy", "type": "mentions", "role": "main", "evidence": "Распад Золотой Орды"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.tatarskie-hanstva", "type": "mentions", "role": "part", "evidence": "образование татарских ханств"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.kazanskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Казанское ханство"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.sibirskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Сибирское ханство"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.astrahanskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Астраханское ханство"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.nogayskaya-orda", "type": "mentions", "role": "part", "evidence": "Ногайская Орда"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.krymskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Крымское ханство"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.kasimovskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Касимовское ханство"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.narody-severnogo-kavkaza", "type": "mentions", "role": "part", "evidence": "Народы Северного Кавказа"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.italyanskie-faktorii-prichernomorya", "type": "mentions", "role": "part", "evidence": "Итальянские фактории Причерноморья"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.kaffa", "type": "mentions", "role": "part", "evidence": "Каффа"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.tana", "type": "mentions", "role": "part", "evidence": "Тана"}
+{"source": "OOO.history.cls.g6.el.5.9", "target": "C.history.soldayya", "type": "mentions", "role": "part", "evidence": "Солдайя"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.kultura-russkih-zemel-v-xiii-xiv-vekah", "type": "mentions", "role": "main", "evidence": "Культурное пространство"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.kartina-mira-srednevekovogo-cheloveka", "type": "mentions", "role": "part", "evidence": "Изменения в представлениях о картине мира в Евразии"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.mongolskie-zavoevaniya", "type": "mentions", "role": "part", "evidence": "завершением монгольских завоеваний"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.mezhkulturnye-svyazi-i-kommunikatsii", "type": "mentions", "role": "part", "evidence": "Межкультурные связи и коммуникации"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.letopis", "type": "mentions", "role": "part", "evidence": "Летописание"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.pamyatniki-kulikovskogo-tsikla", "type": "mentions", "role": "part", "evidence": "Литературные памятники Куликовского цикла"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.zhitiynaya-literatura", "type": "mentions", "role": "part", "evidence": "Жития"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.epifaniy-premudryy", "type": "mentions", "role": "part", "evidence": "Епифаний Премудрый"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.drevnerusskaya-arhitektura", "type": "mentions", "role": "part", "evidence": "Архитектура"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.kamennye-sobory-moskovskogo-kremlya", "type": "mentions", "role": "part", "evidence": "Каменные соборы Кремля"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.izobrazitelnoe-iskusstvo-rusi", "type": "mentions", "role": "part", "evidence": "Изобразительное искусство"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.feofan-grek", "type": "mentions", "role": "part", "evidence": "Феофан Грек"}
+{"source": "OOO.history.cls.g6.el.5.10", "target": "C.history.andrey-rublev", "type": "mentions", "role": "part", "evidence": "Андрей Рублёв"}
+{"source": "OOO.history.cls.g6.el.6.1", "target": "C.history.borba-litvy-i-moskvy-za-russkie-zemli", "type": "mentions", "role": "main", "evidence": "Борьба за русские земли между Литовским и Московским государствами"}
+{"source": "OOO.history.cls.g6.el.6.1", "target": "C.history.russkie-zemli", "type": "mentions", "role": "part", "evidence": "Борьба за русские земли"}
+{"source": "OOO.history.cls.g6.el.6.1", "target": "C.history.velikoe-knyazhestvo-litovskoe", "type": "mentions", "role": "part", "evidence": "Литовским"}
+{"source": "OOO.history.cls.g6.el.6.1", "target": "C.history.moskovskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "Московским государствами"}
+{"source": "OOO.history.cls.g6.el.6.2", "target": "C.history.mezhdousobnaya-voyna-v-moskovskom-knyazhestve", "type": "mentions", "role": "main", "evidence": "Междоусобная война в Московском княжестве второй четверти"}
+{"source": "OOO.history.cls.g6.el.6.2", "target": "C.history.moskovskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "в Московском княжестве"}
+{"source": "OOO.history.cls.g6.el.6.2", "target": "C.history.vasiliy-temnyy", "type": "mentions", "role": "part", "evidence": "Василий Тёмный"}
+{"source": "OOO.history.cls.g6.el.6.3", "target": "C.history.novgorodskaya-zemlya", "type": "mentions", "role": "main", "evidence": "Новгород и Псков"}
+{"source": "OOO.history.cls.g6.el.6.3", "target": "C.history.pskovskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Псков"}
+{"source": "OOO.history.cls.g6.el.6.3", "target": "C.history.politicheskiy-stroy-novgoroda-i-pskova", "type": "mentions", "role": "part", "evidence": "политический строй"}
+{"source": "OOO.history.cls.g6.el.6.3", "target": "C.history.moskovskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "отношения с Москвой"}
+{"source": "OOO.history.cls.g6.el.6.3", "target": "C.history.livonskiy-orden", "type": "mentions", "role": "part", "evidence": "Ливонским орденом"}
+{"source": "OOO.history.cls.g6.el.6.3", "target": "C.history.ganza", "type": "mentions", "role": "part", "evidence": "Ганзой"}
+{"source": "OOO.history.cls.g6.el.6.3", "target": "C.history.velikoe-knyazhestvo-litovskoe", "type": "mentions", "role": "part", "evidence": "Великим княжеством Литовским"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.florentiyskaya-uniya", "type": "mentions", "role": "main", "evidence": "Флорентийская уния"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.padenie-konstantinopolya", "type": "mentions", "role": "part", "evidence": "Падение Византии"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.moskva", "type": "mentions", "role": "part", "evidence": "церковно- политической роли Москвы"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.pravoslavie", "type": "mentions", "role": "part", "evidence": "в православном мире"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.moskva-tretiy-rim", "type": "mentions", "role": "part", "evidence": "Теория «Москва - третий Рим»"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.avtokefaliya-russkoy-tserkvi", "type": "mentions", "role": "part", "evidence": "Установление автокефалии Русской церкви"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.russkaya-tserkov", "type": "mentions", "role": "part", "evidence": "Русской церкви"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.sakralizatsiya-velikoknyazheskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Сакрализация великокняжеской власти"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.vnutritserkovnaya-borba", "type": "mentions", "role": "part", "evidence": "Внутрицерковная борьба (иосифляне и нестяжатели)"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.iosiflyane", "type": "mentions", "role": "part", "evidence": "иосифляне"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.nestyazhateli", "type": "mentions", "role": "part", "evidence": "нестяжатели"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.eres", "type": "mentions", "role": "part", "evidence": "Ереси"}
+{"source": "OOO.history.cls.g6.el.6.4", "target": "C.history.gennadievskaya-bibliya", "type": "mentions", "role": "part", "evidence": "Геннадиевская Библия"}
+{"source": "OOO.history.cls.g6.el.6.5", "target": "C.history.obedinenie-russkih-zemel-vokrug-moskvy", "type": "mentions", "role": "main", "evidence": "Объединение русских земель вокруг Москвы"}
+{"source": "OOO.history.cls.g6.el.6.5", "target": "C.history.ivan-iii", "type": "mentions", "role": "part", "evidence": "Иван III"}
+{"source": "OOO.history.cls.g6.el.6.5", "target": "C.history.prisoedinenie-novgoroda-k-moskve", "type": "mentions", "role": "part", "evidence": "Присоединение Новгорода"}
+{"source": "OOO.history.cls.g6.el.6.5", "target": "C.history.prisoedinenie-tveri-k-moskve", "type": "mentions", "role": "part", "evidence": "Новгорода и Твери"}
+{"source": "OOO.history.cls.g6.el.6.5", "target": "C.history.likvidatsiya-zavisimosti-ot-ordy", "type": "mentions", "role": "part", "evidence": "Ликвидация зависимости от Орды"}
+{"source": "OOO.history.cls.g6.el.6.6", "target": "C.history.mezhdunarodnye-svyazi-moskovskogo-gosudarstva", "type": "mentions", "role": "main", "evidence": "Расширение международных связей Московского государства"}
+{"source": "OOO.history.cls.g6.el.6.6", "target": "C.history.edinoe-russkoe-gosudarstvo", "type": "mentions", "role": "part", "evidence": "Московского государства"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.obscherusskiy-sudebnik", "type": "mentions", "role": "main", "evidence": "Принятие общерусского Судебника"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.apparat-upravleniya-edinogo-gosudarstva", "type": "mentions", "role": "part", "evidence": "Формирование аппарата управления единого государства"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.edinoe-russkoe-gosudarstvo", "type": "mentions", "role": "part", "evidence": "единого государства"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.dvor-velikogo-knyazya", "type": "mentions", "role": "part", "evidence": "Перемены в устройстве двора великого князя"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.velikiy-knyaz", "type": "mentions", "role": "part", "evidence": "великого князя"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.gosudarstvennaya-simvolika", "type": "mentions", "role": "part", "evidence": "новая государственная символика"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.tsarskiy-titul", "type": "mentions", "role": "part", "evidence": "царский титул"}
+{"source": "OOO.history.cls.g6.el.6.7", "target": "C.history.tsarskie-regalii", "type": "mentions", "role": "part", "evidence": "царский титул и регалии"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.kultura-edinogo-russkogo-gosudarstva", "type": "mentions", "role": "main", "evidence": "Развитие культуры единого Русского государства"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.kartina-mira-srednevekovogo-cheloveka", "type": "mentions", "role": "part", "evidence": "Изменение восприятия мира"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.letopis", "type": "mentions", "role": "part", "evidence": "Летописание: общерусское и региональное"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.zhitiynaya-literatura", "type": "mentions", "role": "part", "evidence": "Житийная литература"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.hozhenie-za-tri-morya", "type": "mentions", "role": "part", "evidence": "«Хожение за три моря»"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.afanasiy-nikitin", "type": "mentions", "role": "part", "evidence": "Афанасия Никитина"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.drevnerusskaya-arhitektura", "type": "mentions", "role": "part", "evidence": "Архитектура"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.dvortsovoe-i-tserkovnoe-stroitelstvo", "type": "mentions", "role": "part", "evidence": "Дворцовое и церковное строительство"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.moskovskiy-kreml", "type": "mentions", "role": "part", "evidence": "Московский Кремль"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.russkaya-ikona", "type": "mentions", "role": "part", "evidence": "Русская икона как феномен мирового искусства"}
+{"source": "OOO.history.cls.g6.el.6.8", "target": "C.history.povsednevnaya-zhizn-na-rusi", "type": "mentions", "role": "part", "evidence": "Повседневная жизнь горожан и сельских жителей"}
+{"source": "OOO.history.cls.g6.el.7", "target": "C.history.nash-kray", "type": "mentions", "role": "main", "evidence": "Наш край с древнейших времён до конца XV в."}
+{"source": "OOO.history.oge.el.1.1", "target": "C.history.narody-i-gosudarstva-na-territorii-rossii-v-drevnosti", "type": "mentions", "role": "main", "evidence": "Народы и государства на территории нашей страны в древности"}
+{"source": "OOO.history.oge.el.1.2", "target": "C.history.rossiya", "type": "mentions", "role": "main", "evidence": "Роль и место России в мировой истории"}
+{"source": "OOO.history.oge.el.1.2", "target": "C.history.periodizatsiya-rossiyskoy-istorii", "type": "mentions", "role": "part", "evidence": "Периодизация и источники российской истории"}
+{"source": "OOO.history.oge.el.1.2", "target": "C.history.istochniki-po-istorii-rossii", "type": "mentions", "role": "part", "evidence": "источники российской истории"}
+{"source": "OOO.history.oge.el.1.3", "target": "C.history.obrazovanie-gosudarstva-rus", "type": "mentions", "role": "main", "evidence": "Образование Руси"}
+{"source": "OOO.history.oge.el.1.3", "target": "C.history.usloviya-skladyvaniya-russkoy-gosudarstvennosti", "type": "mentions", "role": "part", "evidence": "исторические условия образования государства Русь"}
+{"source": "OOO.history.oge.el.1.3", "target": "C.history.formirovanie-territorii-gosudarstva-rus", "type": "mentions", "role": "part", "evidence": "Формирование территории"}
+{"source": "OOO.history.oge.el.1.3", "target": "C.history.vnutrennyaya-politika-rusi", "type": "mentions", "role": "part", "evidence": "Внутренняя политика первых князей"}
+{"source": "OOO.history.oge.el.1.3", "target": "C.history.pervye-russkie-knyazya", "type": "mentions", "role": "part", "evidence": "первых князей"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.prinyatie-hristianstva-na-rusi", "type": "mentions", "role": "main", "evidence": "Принятие христианства и его значение"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.rus", "type": "mentions", "role": "part", "evidence": "Русь в конце X"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.obschestvennyy-stroy-rusi", "type": "mentions", "role": "part", "evidence": "социальная структура"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.hozyaystvennyy-uklad-rusi", "type": "mentions", "role": "part", "evidence": "хозяйственный уклад"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.krupneyshie-goroda-rusi", "type": "mentions", "role": "part", "evidence": "крупнейшие города"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.novgorod", "type": "mentions", "role": "part", "evidence": "Новгород как центр освоения Севера Восточной Европы"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.kolonizatsiya-russkoy-ravniny", "type": "mentions", "role": "part", "evidence": "колонизация Русской равнины"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.territorialno-politicheskaya-struktura-rusi", "type": "mentions", "role": "part", "evidence": "Территориально- политическая структура Руси"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.vnutrennyaya-politika-rusi", "type": "mentions", "role": "part", "evidence": "Внутриполитическое развитие"}
+{"source": "OOO.history.oge.el.1.4", "target": "C.history.drevnerusskoe-pravo", "type": "mentions", "role": "part", "evidence": "Древнерусское право"}
+{"source": "OOO.history.oge.el.1.5", "target": "C.history.vneshnyaya-politika-rusi", "type": "mentions", "role": "main", "evidence": "Внешняя политика и международные связи Руси"}
+{"source": "OOO.history.oge.el.1.5", "target": "C.history.pervye-russkie-knyazya", "type": "mentions", "role": "part", "evidence": "Внешняя политика первых русских князей"}
+{"source": "OOO.history.oge.el.1.6", "target": "C.history.kultura-rusi", "type": "mentions", "role": "main", "evidence": "Древнерусская культура"}
+{"source": "OOO.history.oge.el.1.6", "target": "C.history.vizantiyskoe-nasledie-na-rusi", "type": "mentions", "role": "part", "evidence": "Византийское наследие на Руси"}
+{"source": "OOO.history.oge.el.1.7", "target": "C.history.formirovanie-sistemy-russkih-zemel", "type": "mentions", "role": "main", "evidence": "формирование системы земель – самостоятельных государств"}
+{"source": "OOO.history.oge.el.1.7", "target": "C.history.obschestvennyy-stroy-rusi", "type": "mentions", "role": "part", "evidence": "Эволюция общественного строя"}
+{"source": "OOO.history.oge.el.1.7", "target": "C.history.drevnerusskoe-pravo", "type": "mentions", "role": "part", "evidence": "общественного строя и права"}
+{"source": "OOO.history.oge.el.1.7", "target": "C.history.politicheskiy-stroy-novgoroda-i-pskova", "type": "mentions", "role": "part", "evidence": "Политический строй Новгорода и Пскова"}
+{"source": "OOO.history.oge.el.1.7", "target": "C.history.russkie-zemli", "type": "mentions", "role": "part", "evidence": "Внешняя политика русских земель"}
+{"source": "OOO.history.oge.el.1.7", "target": "C.history.vneshnyaya-politika-rusi", "type": "mentions", "role": "part", "evidence": "Внешняя политика русских земель в евразийском контексте"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.russkie-zemli", "type": "mentions", "role": "main", "evidence": "Русские земли в середине XIII"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.mongolskoe-nashestvie-na-rus", "type": "mentions", "role": "part", "evidence": "борьба Руси против монгольского нашествия"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.ordynskoe-igo", "type": "mentions", "role": "part", "evidence": "Система зависимости русских земель от ордынских ханов"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.ordynskiy-han", "type": "mentions", "role": "part", "evidence": "ордынских ханов"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.borba-rusi-s-ekspansiey-krestonostsev", "type": "mentions", "role": "part", "evidence": "Борьба с экспансией крестоносцев на западных границах Руси"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.usilenie-moskovskogo-knyazhestva", "type": "mentions", "role": "part", "evidence": "Возвышение Московского княжества"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.moskovskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "Московское княжество во главе"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.borba-protiv-ordynskogo-gospodstva", "type": "mentions", "role": "part", "evidence": "героической борьбы русского народа против ордынского господства"}
+{"source": "OOO.history.oge.el.1.8", "target": "C.history.russkaya-tserkov", "type": "mentions", "role": "part", "evidence": "Православная церковь в ордынский период"}
+{"source": "OOO.history.oge.el.1.9", "target": "C.history.narody-i-gosudarstva-stepnoy-zony-vostochnoy-evropy-i-sibiri", "type": "mentions", "role": "main", "evidence": "Народы и государства степной зоны Восточной Европы и Сибири"}
+{"source": "OOO.history.oge.el.1.9", "target": "C.history.zolotaya-orda", "type": "mentions", "role": "part", "evidence": "Золотая Орда"}
+{"source": "OOO.history.oge.el.1.9", "target": "C.history.mezhkulturnye-svyazi-i-kommunikatsii", "type": "mentions", "role": "part", "evidence": "Межкультурные связи и коммуникации"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.edinoe-russkoe-gosudarstvo", "type": "mentions", "role": "main", "evidence": "Формирование единого Русского государства"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.obedinenie-russkih-zemel-vokrug-moskvy", "type": "mentions", "role": "part", "evidence": "объединение русских земель вокруг Москвы"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.mezhdousobnaya-voyna-v-moskovskom-knyazhestve", "type": "mentions", "role": "part", "evidence": "Междоусобная война в Московском княжестве"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.novgorodskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Новгород и Псков в XV в."}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.pskovskaya-zemlya", "type": "mentions", "role": "part", "evidence": "Псков в XV в."}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.padenie-konstantinopolya", "type": "mentions", "role": "part", "evidence": "Падение Византии"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.moskva", "type": "mentions", "role": "part", "evidence": "церковно-политической роли Москвы"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.pravoslavie", "type": "mentions", "role": "part", "evidence": "в православном мире"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.likvidatsiya-zavisimosti-ot-ordy", "type": "mentions", "role": "part", "evidence": "Ликвидация зависимости от Орды"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.mezhdunarodnye-svyazi-moskovskogo-gosudarstva", "type": "mentions", "role": "part", "evidence": "Расширение международных связей Московского государства"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.obscherusskiy-sudebnik", "type": "mentions", "role": "part", "evidence": "Принятие общерусского Судебника"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.zakreposchenie-krestyan", "type": "mentions", "role": "part", "evidence": "Начало закрепощения крестьян"}
+{"source": "OOO.history.oge.el.1.10", "target": "C.history.apparat-upravleniya-edinogo-gosudarstva", "type": "mentions", "role": "part", "evidence": "Формирование единого аппарата управления"}
+{"source": "OOO.history.oge.el.1.11", "target": "C.history.regionalnye-tsentry-kultury", "type": "mentions", "role": "main", "evidence": "Формирование региональных центров культуры"}
+{"source": "OOO.history.oge.el.1.11", "target": "C.history.kultura-russkih-zemel-v-xiii-xiv-vekah", "type": "mentions", "role": "part", "evidence": "Культурное пространство русских земель в середине XIII – XIV в."}
+{"source": "OOO.history.oge.el.1.11", "target": "C.history.kultura-edinogo-russkogo-gosudarstva", "type": "mentions", "role": "part", "evidence": "Культурное пространство единого государства"}
+{"source": "OOO.history.oge.el.5.5", "target": "C.history.srednie-veka", "type": "mentions", "role": "main", "evidence": "История Средних веков"}
+{"source": "OOO.history.oge.el.5.5", "target": "C.history.rannee-novoe-vremya", "type": "mentions", "role": "part", "evidence": "раннего Нового времени"}
+{"source": "OOO.history.oge.el.5.5", "target": "C.history.periodizatsiya-srednevekovya", "type": "mentions", "role": "part", "evidence": "Периодизация и характеристика основных этапов"}
+{"source": "OOO.history.oge.el.5.6", "target": "C.history.srednevekovoe-evropeyskoe-obschestvo", "type": "mentions", "role": "main", "evidence": "Социально-экономическое и политическое развитие стран Европы в Средние века"}
+{"source": "OOO.history.oge.el.5.7", "target": "C.history.srednevekovyy-vostok", "type": "mentions", "role": "main", "evidence": "Страны и народы Азии"}
+{"source": "OOO.history.oge.el.5.7", "target": "C.history.dokolumbova-amerika", "type": "mentions", "role": "part", "evidence": "Америки"}
+{"source": "OOO.history.oge.el.5.7", "target": "C.history.srednevekovaya-afrika", "type": "mentions", "role": "part", "evidence": "Африки в Средние века"}
+{"source": "OOO.history.oge.el.5.8", "target": "C.history.mezhdunarodnye-otnosheniya-v-srednie-veka", "type": "mentions", "role": "main", "evidence": "Международные отношения в Средние века"}
+{"source": "OOO.history.oge.el.5.9", "target": "C.history.kultura-srednevekovya", "type": "mentions", "role": "main", "evidence": "Культура Средневековья"}
+{"source": "OOO.history.oge.el.5.9", "target": "C.history.islam", "type": "mentions", "role": "part", "evidence": "Возникновение и развитие ислама"}
+{"source": "OOO.history.cls.g7.el.1.1", "target": "C.history.novoe-vremya", "type": "mentions", "role": "main", "evidence": "Понятие «Новое время»"}
+{"source": "OOO.history.cls.g7.el.1.1", "target": "C.history.periodizatsiya-istorii-novogo-vremeni", "type": "mentions", "role": "part", "evidence": "периодизация истории Нового времени"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.velikie-geograficheskie-otkrytiya", "type": "mentions", "role": "main", "evidence": "Великие географические открытия"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.poiski-evropeytsami-morskih-putey-v-strany-vostoka", "type": "mentions", "role": "part", "evidence": "Поиски европейцами морских путей в страны Востока"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.ekspeditsii-kolumba", "type": "mentions", "role": "part", "evidence": "Экспедиции Колумба"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.hristofor-kolumb", "type": "mentions", "role": "part", "evidence": "Колумба"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.tordesilyasskiy-dogovor", "type": "mentions", "role": "part", "evidence": "Тордесильясский договор 1494 г."}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.otkrytie-morskogo-puti-v-indiyu", "type": "mentions", "role": "part", "evidence": "Открытие Васко да Гамой морского пути в Индию"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.vasko-da-gama", "type": "mentions", "role": "part", "evidence": "Васко да Гамой"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.krugosvetnoe-plavanie-magellana", "type": "mentions", "role": "part", "evidence": "Кругосветное плавание Магеллана"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.fernan-magellan", "type": "mentions", "role": "part", "evidence": "Магеллана"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.otkrytie-avstralii", "type": "mentions", "role": "part", "evidence": "Плавания Тасмана и открытие Австралии"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.abel-tasman", "type": "mentions", "role": "part", "evidence": "Тасмана"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.zavoevaniya-konkistadorov-v-amerike", "type": "mentions", "role": "part", "evidence": "Завоевания конкистадоров в Центральной и Южной Америке"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.konkistadory", "type": "mentions", "role": "part", "evidence": "конкистадоров"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.f-kortes", "type": "mentions", "role": "part", "evidence": "Ф. Кортес"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.f-pisarro", "type": "mentions", "role": "part", "evidence": "Ф. Писарро"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.evropeytsy-v-severnoy-amerike", "type": "mentions", "role": "part", "evidence": "Европейцы в Северной Америке"}
+{"source": "OOO.history.cls.g7.el.1.2", "target": "C.history.poiski-severo-vostochnogo-morskogo-puti-v-kitay-i-indiyu", "type": "mentions", "role": "part", "evidence": "Поиски северо-восточного морского пути в Китай и Индию"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.izmeneniya-v-evropeyskom-obschestve-v-xvi-xvii-vekah", "type": "mentions", "role": "main", "evidence": "Изменения в европейском обществе в XVI‒XVII вв."}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.razvitie-tehniki", "type": "mentions", "role": "part", "evidence": "Развитие техники"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.gornoe-delo", "type": "mentions", "role": "part", "evidence": "горного дела"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.proizvodstvo-metallov", "type": "mentions", "role": "part", "evidence": "производства металлов"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.manufaktura", "type": "mentions", "role": "part", "evidence": "Появление мануфактур"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.kapitalisticheskie-otnosheniya", "type": "mentions", "role": "part", "evidence": "Возникновение капиталистических отношений"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.naemnyy-trud", "type": "mentions", "role": "part", "evidence": "Распространение наёмного труда в деревне"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.vnutrenniy-rynok", "type": "mentions", "role": "part", "evidence": "Расширение внутреннего"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.mirovoy-rynok", "type": "mentions", "role": "part", "evidence": "мирового рынков"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.soslovie", "type": "mentions", "role": "part", "evidence": "сословной структуре общества"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.novye-sotsialnye-gruppy", "type": "mentions", "role": "part", "evidence": "появление новых социальных групп"}
+{"source": "OOO.history.cls.g7.el.1.3", "target": "C.history.povsednevnaya-zhizn-evropeytsev-v-xvi-xvii-vekah", "type": "mentions", "role": "part", "evidence": "Повседневная жизнь обитателей городов и деревень"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.reformatsiya", "type": "mentions", "role": "main", "evidence": "Реформация"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.kontrreformatsiya", "type": "mentions", "role": "part", "evidence": "контрреформация"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.nachalo-reformatsii-v-germanii", "type": "mentions", "role": "part", "evidence": "Начало Реформации в Германии"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.m-lyuter", "type": "mentions", "role": "part", "evidence": "М. Лютер"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.krestyanskaya-voyna-v-germanii", "type": "mentions", "role": "part", "evidence": "Крестьянская война в Германии"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.protestantizm", "type": "mentions", "role": "part", "evidence": "Распространение протестантизма в Европе"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.kalvinizm", "type": "mentions", "role": "part", "evidence": "Кальвинизм"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.religioznye-voyny-v-evrope", "type": "mentions", "role": "part", "evidence": "Религиозные войны"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.katolicheskaya-tserkov", "type": "mentions", "role": "part", "evidence": "Борьба католической церкви против реформационного движения"}
+{"source": "OOO.history.cls.g7.el.1.4", "target": "C.history.inkvizitsiya", "type": "mentions", "role": "part", "evidence": "Инквизиция"}
+{"source": "OOO.history.cls.g7.el.1.5", "target": "C.history.gosudarstva-evropy-v-xvi-xvii-vekah", "type": "mentions", "role": "main", "evidence": "Государства Европы в XVI‒XVII вв."}
+{"source": "OOO.history.cls.g7.el.1.5", "target": "C.history.absolyutizm", "type": "mentions", "role": "part", "evidence": "Абсолютизм"}
+{"source": "OOO.history.cls.g7.el.1.5", "target": "C.history.soslovno-predstavitelnaya-monarhiya", "type": "mentions", "role": "part", "evidence": "сословное представительство"}
+{"source": "OOO.history.cls.g7.el.1.5", "target": "C.history.preodolenie-razdroblennosti", "type": "mentions", "role": "part", "evidence": "Преодоление раздробленности"}
+{"source": "OOO.history.cls.g7.el.1.5", "target": "C.history.borba-za-kolonialnye-vladeniya", "type": "mentions", "role": "part", "evidence": "Борьба за колониальные владения"}
+{"source": "OOO.history.cls.g7.el.1.5", "target": "C.history.kolonialnaya-imperiya", "type": "mentions", "role": "part", "evidence": "Начало формирования колониальных империй"}
+{"source": "OOO.history.cls.g7.el.1.6", "target": "C.history.ispaniya", "type": "mentions", "role": "main", "evidence": "Испания под властью потомков католических королей"}
+{"source": "OOO.history.cls.g7.el.1.6", "target": "C.history.katolicheskie-koroli", "type": "mentions", "role": "part", "evidence": "католических королей"}
+{"source": "OOO.history.cls.g7.el.1.6", "target": "C.history.ispanskie-gabsburgi", "type": "mentions", "role": "part", "evidence": "Внутренняя и внешняя политика испанских Габсбургов"}
+{"source": "OOO.history.cls.g7.el.1.6", "target": "C.history.niderlandskaya-revolyutsiya", "type": "mentions", "role": "part", "evidence": "Нидерландской революции"}
+{"source": "OOO.history.cls.g7.el.1.6", "target": "C.history.niderlandy", "type": "mentions", "role": "part", "evidence": "Национально- освободительное движение в Нидерландах"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.frantsiya", "type": "mentions", "role": "main", "evidence": "Франция: путь к абсолютизму"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.tsentralizatsiya-upravleniya-vo-frantsii", "type": "mentions", "role": "part", "evidence": "Королевская власть и централизация управления страной"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.gugenoty", "type": "mentions", "role": "part", "evidence": "Католики и гугеноты"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.religioznye-voyny-vo-frantsii", "type": "mentions", "role": "part", "evidence": "Религиозные войны"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.genrih-iv", "type": "mentions", "role": "part", "evidence": "Генрих IV"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.nantskiy-edikt", "type": "mentions", "role": "part", "evidence": "Нантский эдикт 1598 г."}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.lyudovik-xiii", "type": "mentions", "role": "part", "evidence": "Людовик XIII"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.kardinal-rishele", "type": "mentions", "role": "part", "evidence": "кардинал Ришелье"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.fronda", "type": "mentions", "role": "part", "evidence": "Фронда"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.frantsuzskiy-absolyutizm", "type": "mentions", "role": "part", "evidence": "Французский абсолютизм при Людовике XIV"}
+{"source": "OOO.history.cls.g7.el.1.7", "target": "C.history.lyudovik-xiv", "type": "mentions", "role": "part", "evidence": "Людовике XIV"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.angliya", "type": "mentions", "role": "main", "evidence": "Англия"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.kapitalisticheskoe-predprinimatelstvo", "type": "mentions", "role": "part", "evidence": "Развитие капиталистического предпринимательства в городах и деревнях"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.ogorazhivaniya", "type": "mentions", "role": "part", "evidence": "Огораживания"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.tyudory", "type": "mentions", "role": "part", "evidence": "Укрепление королевской власти при Тюдорах"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.genrih-viii", "type": "mentions", "role": "part", "evidence": "Генрих VIII"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.korolevskaya-reformatsiya-v-anglii", "type": "mentions", "role": "part", "evidence": "королевская реформация"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.zolotoy-vek-elizavety-i", "type": "mentions", "role": "part", "evidence": "«Золотой век» Елизаветы I"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.elizaveta-i", "type": "mentions", "role": "part", "evidence": "Елизаветы I"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.angliyskaya-revolyutsiya", "type": "mentions", "role": "part", "evidence": "Английская революция середины XVII в."}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.razmezhevanie-v-revolyutsionnom-lagere", "type": "mentions", "role": "part", "evidence": "Размежевание в революционном лагере"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.o-kromvel", "type": "mentions", "role": "part", "evidence": "О. Кромвель"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.restavratsiya-styuartov", "type": "mentions", "role": "part", "evidence": "Реставрация Стюартов"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.styuarty", "type": "mentions", "role": "part", "evidence": "Стюартов"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.slavnaya-revolyutsiya", "type": "mentions", "role": "part", "evidence": "Славная революция"}
+{"source": "OOO.history.cls.g7.el.1.8", "target": "C.history.parlamentskaya-monarhiya", "type": "mentions", "role": "part", "evidence": "Становление английской парламентской монархии"}
+{"source": "OOO.history.cls.g7.el.1.9", "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy", "type": "mentions", "role": "main", "evidence": "Страны Центральной, Южной и Юго-Восточной Европы"}
+{"source": "OOO.history.cls.g7.el.1.9", "target": "C.history.germanskie-gosudarstva", "type": "mentions", "role": "part", "evidence": "Германские государства"}
+{"source": "OOO.history.cls.g7.el.1.9", "target": "C.history.italyanskie-gosudarstva", "type": "mentions", "role": "part", "evidence": "Итальянские земли"}
+{"source": "OOO.history.cls.g7.el.1.9", "target": "C.history.slavyane", "type": "mentions", "role": "part", "evidence": "Положение славянских народов"}
+{"source": "OOO.history.cls.g7.el.1.9", "target": "C.history.obrazovanie-rechi-pospolitoy", "type": "mentions", "role": "part", "evidence": "Образование Речи Посполитой"}
+{"source": "OOO.history.cls.g7.el.1.9", "target": "C.history.rech-pospolitaya", "type": "mentions", "role": "part", "evidence": "Речи Посполитой"}
+{"source": "OOO.history.cls.g7.el.1.10", "target": "C.history.mezhdunarodnye-otnosheniya-v-xvi-xvii-vekah", "type": "mentions", "role": "main", "evidence": "Международные отношения в XVI‒XVII вв."}
+{"source": "OOO.history.cls.g7.el.1.10", "target": "C.history.voennye-konflikty-mezhdu-evropeyskimi-derzhavami", "type": "mentions", "role": "part", "evidence": "военные конфликты между европейскими державами"}
+{"source": "OOO.history.cls.g7.el.1.10", "target": "C.history.borba-za-kolonialnye-vladeniya", "type": "mentions", "role": "part", "evidence": "Столкновение интересов в приобретении колониальных владений"}
+{"source": "OOO.history.cls.g7.el.1.10", "target": "C.history.protivostoyanie-osmanskoy-ekspansii-v-evrope", "type": "mentions", "role": "part", "evidence": "Противостояние османской экспансии в Европе"}
+{"source": "OOO.history.cls.g7.el.1.10", "target": "C.history.derzhava-avstriyskih-gabsburgov", "type": "mentions", "role": "part", "evidence": "Образование державы австрийских Габсбургов"}
+{"source": "OOO.history.cls.g7.el.1.10", "target": "C.history.tridtsatiletnyaya-voyna", "type": "mentions", "role": "part", "evidence": "Тридцатилетняя война"}
+{"source": "OOO.history.cls.g7.el.1.10", "target": "C.history.vestfalskiy-mir", "type": "mentions", "role": "part", "evidence": "Вестфальский мир"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni", "type": "mentions", "role": "main", "evidence": "Европейская культура в раннее Новое время"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.rannee-novoe-vremya", "type": "mentions", "role": "part", "evidence": "раннее Новое время"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.vysokoe-vozrozhdenie", "type": "mentions", "role": "part", "evidence": "Высокое Возрождение в Италии"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.severnoe-vozrozhdenie", "type": "mentions", "role": "part", "evidence": "Северное Возрождение"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.literatura-rannego-novogo-vremeni", "type": "mentions", "role": "part", "evidence": "Мир человека в литературе раннего Нового времени"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.m-servantes", "type": "mentions", "role": "part", "evidence": "М. Сервантес"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.u-shekspir", "type": "mentions", "role": "part", "evidence": "У. Шекспир"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.barokko", "type": "mentions", "role": "part", "evidence": "барокко"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.klassitsizm", "type": "mentions", "role": "part", "evidence": "классицизм"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.frantsuzskiy-teatr-epohi-klassitsizma", "type": "mentions", "role": "part", "evidence": "Французский театр эпохи классицизма"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.nauka-rannego-novogo-vremeni", "type": "mentions", "role": "part", "evidence": "Развитие науки"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.perevorot-v-estestvoznanii", "type": "mentions", "role": "part", "evidence": "переворот в естествознании"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.novaya-kartina-mira", "type": "mentions", "role": "part", "evidence": "возникновение новой картины мира"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.n-kopernik", "type": "mentions", "role": "part", "evidence": "Н. Коперник"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.i-nyuton", "type": "mentions", "role": "part", "evidence": "И. Ньютон"}
+{"source": "OOO.history.cls.g7.el.1.11", "target": "C.history.ratsionalizm", "type": "mentions", "role": "part", "evidence": "Утверждение рационализма"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.strany-vostoka-v-xvi-xvii-vekah", "type": "mentions", "role": "main", "evidence": "Страны Востока в XVI‒XVII вв."}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.osmanskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Османская империя: на вершине могущества"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.suleyman-i-velikolepnyy", "type": "mentions", "role": "part", "evidence": "Сулейман I Великолепный"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.upravlenie-osmanskoy-imperiey", "type": "mentions", "role": "part", "evidence": "Управление многонациональной империей"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.osmanskaya-armiya", "type": "mentions", "role": "part", "evidence": "Османская армия"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.imperiya-velikih-mogolov", "type": "mentions", "role": "part", "evidence": "Индия при Великих Моголах"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.proniknovenie-evropeytsev-v-strany-vostoka", "type": "mentions", "role": "part", "evidence": "Начало проникновения европейцев"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.ost-indskie-kompanii", "type": "mentions", "role": "part", "evidence": "Ост-Индские компании"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.dinastiya-min", "type": "mentions", "role": "part", "evidence": "Китай в эпоху Мин"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.dinastiya-tsin", "type": "mentions", "role": "part", "evidence": "Утверждение маньчжурской династии Цин"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.borba-znatnyh-klanov-za-vlast-v-yaponii", "type": "mentions", "role": "part", "evidence": "Япония: борьба знатных кланов за власть"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.segunat-tokugava", "type": "mentions", "role": "part", "evidence": "установление сёгуната Токугава"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.tsentralizovannoe-gosudarstvo", "type": "mentions", "role": "part", "evidence": "укрепление централизованного государства"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.zakrytie-yaponii-dlya-inozemtsev", "type": "mentions", "role": "part", "evidence": "«Закрытие» страны для иноземцев"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.kultura-narodov-vostoka", "type": "mentions", "role": "part", "evidence": "Культура и искусство стран Востока"}
+{"source": "OOO.history.cls.g7.el.1.12", "target": "C.history.nasledie-rannego-novogo-vremeni", "type": "mentions", "role": "part", "evidence": "Историческое и культурное наследие Раннего Нового времени"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.zavershenie-obedineniya-russkih-zemel", "type": "mentions", "role": "main", "evidence": "Завершение объединения русских земель"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.vasiliy-iii", "type": "mentions", "role": "part", "evidence": "Княжение Василия III"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.moskva", "type": "mentions", "role": "part", "evidence": "вокруг Москвы"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.prisoedinenie-pskova-k-moskve", "type": "mentions", "role": "part", "evidence": "присоединение Псковской"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.prisoedinenie-smolenska-k-moskve", "type": "mentions", "role": "part", "evidence": "Смоленской"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.prisoedinenie-ryazani-k-moskve", "type": "mentions", "role": "part", "evidence": "Рязанской земель"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.udelnaya-sistema", "type": "mentions", "role": "part", "evidence": "Отмирание удельной системы"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.ukreplenie-velikoknyazheskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Укрепление великокняжеской власти"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.organy-gosudarstvennoy-vlasti", "type": "mentions", "role": "part", "evidence": "Органы государственной власти"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.prikaznaya-sistema", "type": "mentions", "role": "part", "evidence": "Приказная система: формирование первых приказных учреждений"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.boyarstvo", "type": "mentions", "role": "part", "evidence": "Боярская дума"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.boyarskaya-duma", "type": "mentions", "role": "part", "evidence": "Боярская дума, её роль в управлении государством"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.malaya-duma", "type": "mentions", "role": "part", "evidence": "Малая дума"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.mestnichestvo", "type": "mentions", "role": "part", "evidence": "Местничество"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.mestnoe-upravlenie", "type": "mentions", "role": "part", "evidence": "Местное управление"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.namestnik", "type": "mentions", "role": "part", "evidence": "наместники"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.volostel", "type": "mentions", "role": "part", "evidence": "волостели"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.kormlenie", "type": "mentions", "role": "part", "evidence": "система кормлений"}
+{"source": "OOO.history.cls.g7.el.2.1", "target": "C.history.gosudarstvo-i-tserkov", "type": "mentions", "role": "part", "evidence": "Государство и церковь"}
+{"source": "OOO.history.cls.g7.el.2.2", "target": "C.history.vneshnyaya-politika-rossii", "type": "mentions", "role": "main", "evidence": "Внешняя политика Московского княжества в первой трети XVI в."}
+{"source": "OOO.history.cls.g7.el.2.2", "target": "C.history.moskovskoe-knyazhestvo", "type": "mentions", "role": "part", "evidence": "Московского княжества"}
+{"source": "OOO.history.cls.g7.el.2.2", "target": "C.history.russko-litovskaya-voyna", "type": "mentions", "role": "part", "evidence": "война с Великим княжеством Литовским"}
+{"source": "OOO.history.cls.g7.el.2.2", "target": "C.history.velikoe-knyazhestvo-litovskoe", "type": "mentions", "role": "part", "evidence": "Великим княжеством Литовским"}
+{"source": "OOO.history.cls.g7.el.2.2", "target": "C.history.krymskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "отношения с Крымским"}
+{"source": "OOO.history.cls.g7.el.2.2", "target": "C.history.kazanskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Казанским ханствами"}
+{"source": "OOO.history.cls.g7.el.2.2", "target": "C.history.mezhdunarodnye-svyazi-moskovskogo-gosudarstva", "type": "mentions", "role": "part", "evidence": "посольства в европейские государства"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.ivan-iv", "type": "mentions", "role": "main", "evidence": "Царствование Ивана IV"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.regentstvo-eleny-glinskoy", "type": "mentions", "role": "part", "evidence": "Регентство Елены Глинской"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.elena-glinskaya", "type": "mentions", "role": "part", "evidence": "Елены Глинской"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.soprotivlenie-udelnyh-knyazey-velikoknyazheskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Сопротивление удельных князей великокняжеской власти"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.unifikatsiya-denezhnoy-sistemy", "type": "mentions", "role": "part", "evidence": "Унификация денежной системы"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.boyarskoe-pravlenie", "type": "mentions", "role": "part", "evidence": "Период боярского правления"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.borba-za-vlast-mezhdu-boyarskimi-klanami", "type": "mentions", "role": "part", "evidence": "Борьба за власть между боярскими кланами"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.gubnaya-reforma", "type": "mentions", "role": "part", "evidence": "Губная реформа"}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.moskovskoe-vosstanie-1547-goda", "type": "mentions", "role": "part", "evidence": "Московское восстание 1547 г."}
+{"source": "OOO.history.cls.g7.el.2.3", "target": "C.history.eres", "type": "mentions", "role": "part", "evidence": "Ереси"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.prinyatie-ivanom-iv-tsarskogo-titula", "type": "mentions", "role": "main", "evidence": "Принятие Иваном IV царского титула"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.ivan-iv", "type": "mentions", "role": "part", "evidence": "Иваном IV"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.tsarskiy-titul", "type": "mentions", "role": "part", "evidence": "царского титула"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.reformy-serediny-xvi-veka", "type": "mentions", "role": "part", "evidence": "Реформы середины XVI в."}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.izbrannaya-rada", "type": "mentions", "role": "part", "evidence": "Избранная рада"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.zemskiy-sobor", "type": "mentions", "role": "part", "evidence": "Появление земских соборов"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.otmena-kormleniy", "type": "mentions", "role": "part", "evidence": "Отмена кормлений"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.sistema-nalogooblozheniya", "type": "mentions", "role": "part", "evidence": "Система налогообложения"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.sudebnik-1550-goda", "type": "mentions", "role": "part", "evidence": "Судебник 1550 г."}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.stoglavyy-sobor", "type": "mentions", "role": "part", "evidence": "Стоглавый собор"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.zemskaya-reforma", "type": "mentions", "role": "part", "evidence": "Земская реформа"}
+{"source": "OOO.history.cls.g7.el.2.4", "target": "C.history.mestnoe-samoupravlenie", "type": "mentions", "role": "part", "evidence": "формирование органов местного самоуправления"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.vneshnyaya-politika-rossii", "type": "mentions", "role": "main", "evidence": "Внешняя политика России в XVI в."}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.streletskoe-voysko", "type": "mentions", "role": "part", "evidence": "Создание стрелецких полков"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.ulozhenie-o-sluzhbe", "type": "mentions", "role": "part", "evidence": "Уложение о службе"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.prisoedinenie-kazanskogo-hanstva", "type": "mentions", "role": "part", "evidence": "Присоединение Казанского"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.prisoedinenie-astrahanskogo-hanstva", "type": "mentions", "role": "part", "evidence": "Астраханского ханств"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.povolzhe", "type": "mentions", "role": "part", "evidence": "Среднего и Нижнего Поволжья"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.voyny-s-krymskim-hanstvom", "type": "mentions", "role": "part", "evidence": "Войны с Крымским ханством"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.krymskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Крымским ханством"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.bitva-pri-molodyah", "type": "mentions", "role": "part", "evidence": "Битва при Молодях"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.ukreplenie-yuzhnyh-granits", "type": "mentions", "role": "part", "evidence": "Укрепление южных границ"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.livonskaya-voyna", "type": "mentions", "role": "part", "evidence": "Ливонская война"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.likvidatsiya-livonskogo-ordena", "type": "mentions", "role": "part", "evidence": "Ликвидация Ливонского ордена"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.livonskiy-orden", "type": "mentions", "role": "part", "evidence": "Ливонского ордена"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.pohod-ermaka", "type": "mentions", "role": "part", "evidence": "Поход Ермака Тимофеевича на Сибирское ханство"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.ermak-timofeevich", "type": "mentions", "role": "part", "evidence": "Ермака Тимофеевича"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.sibirskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Сибирское ханство"}
+{"source": "OOO.history.cls.g7.el.2.5", "target": "C.history.prisoedinenie-zapadnoy-sibiri", "type": "mentions", "role": "part", "evidence": "Начало присоединения к России Западной Сибири"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva", "type": "mentions", "role": "main", "evidence": "Социальная структура российского общества"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.dvoryanstvo", "type": "mentions", "role": "part", "evidence": "Дворянство"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.sluzhilye-lyudi", "type": "mentions", "role": "part", "evidence": "Служилые люди"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.gosudarev-dvor", "type": "mentions", "role": "part", "evidence": "Формирование Государева двора"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.sluzhilyy-gorod", "type": "mentions", "role": "part", "evidence": "служилых городов"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.posadskoe-naselenie", "type": "mentions", "role": "part", "evidence": "Торгово-ремесленное население городов"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.duhovenstvo", "type": "mentions", "role": "part", "evidence": "Духовенство"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.zakreposchenie-krestyan", "type": "mentions", "role": "part", "evidence": "Начало закрепощения крестьян"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.ukaz-o-zapovednyh-letah", "type": "mentions", "role": "part", "evidence": "Указ о «заповедных летах»"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.kazachestvo", "type": "mentions", "role": "part", "evidence": "Формирование вольного казачества"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii", "type": "mentions", "role": "part", "evidence": "Многонациональный состав населения Русского государства"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.finno-ugry", "type": "mentions", "role": "part", "evidence": "Финно- угорские народы"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.narody-povolzhya", "type": "mentions", "role": "part", "evidence": "Народы Поволжья после присоединения к России"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.sluzhilye-tatary", "type": "mentions", "role": "part", "evidence": "Служилые татары"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.sosuschestvovanie-religiy-v-rossii", "type": "mentions", "role": "part", "evidence": "Сосуществование религий в Российском государстве"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.russkaya-tserkov", "type": "mentions", "role": "part", "evidence": "Русская православная церковь"}
+{"source": "OOO.history.cls.g7.el.2.6", "target": "C.history.musulmanskoe-duhovenstvo", "type": "mentions", "role": "part", "evidence": "Мусульманское духовенство"}
+{"source": "OOO.history.cls.g7.el.2.7", "target": "C.history.oprichnina", "type": "mentions", "role": "main", "evidence": "Опричнина"}
+{"source": "OOO.history.cls.g7.el.2.7", "target": "C.history.oprichnyy-terror", "type": "mentions", "role": "part", "evidence": "Опричный террор"}
+{"source": "OOO.history.cls.g7.el.2.7", "target": "C.history.razgrom-novgoroda-i-pskova", "type": "mentions", "role": "part", "evidence": "Разгром Новгорода и Пскова"}
+{"source": "OOO.history.cls.g7.el.2.7", "target": "C.history.moskovskie-kazni-1570-goda", "type": "mentions", "role": "part", "evidence": "Московские казни 1570 г."}
+{"source": "OOO.history.cls.g7.el.2.7", "target": "C.history.ivan-iv", "type": "mentions", "role": "part", "evidence": "Противоречивость личности Ивана Грозного"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.rossiya-v-kontse-xvi-veka", "type": "mentions", "role": "main", "evidence": "Россия в конце XVI в."}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.fedor-ivanovich", "type": "mentions", "role": "part", "evidence": "Царь Федор Иванович"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.borba-za-vlast-v-boyarskom-okruzhenii", "type": "mentions", "role": "part", "evidence": "Борьба за власть в боярском окружении"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.boris-godunov", "type": "mentions", "role": "part", "evidence": "Правление Бориса Годунова"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.uchrezhdenie-patriarshestva", "type": "mentions", "role": "part", "evidence": "Учреждение патриаршества"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.patriarshestvo", "type": "mentions", "role": "part", "evidence": "патриаршества"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.tyavzinskiy-mirnyy-dogovor", "type": "mentions", "role": "part", "evidence": "Тявзинский мирный договор со Швецией"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.shvetsiya", "type": "mentions", "role": "part", "evidence": "Швецией"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.pribaltika", "type": "mentions", "role": "part", "evidence": "восстановление позиций России в Прибалтике"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.krymskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Противостояние с Крымским ханством"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.zasechnaya-cherta", "type": "mentions", "role": "part", "evidence": "Строительство российских крепостей и засечных черт"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.zakreposchenie-krestyan", "type": "mentions", "role": "part", "evidence": "Продолжение закрепощения крестьянства"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.ukaz-ob-urochnyh-letah", "type": "mentions", "role": "part", "evidence": "Указ об «урочных летах»"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.presechenie-dinastii-ryurikovichey", "type": "mentions", "role": "part", "evidence": "Пресечение царской династии Рюриковичей"}
+{"source": "OOO.history.cls.g7.el.2.8", "target": "C.history.dinastiya-ryurikovichey", "type": "mentions", "role": "part", "evidence": "династии Рюриковичей"}
+{"source": "OOO.history.cls.g7.el.3.1", "target": "C.history.dinasticheskiy-krizis", "type": "mentions", "role": "main", "evidence": "Династический кризис"}
+{"source": "OOO.history.cls.g7.el.3.1", "target": "C.history.smuta", "type": "mentions", "role": "part", "evidence": "Накануне Смуты"}
+{"source": "OOO.history.cls.g7.el.3.1", "target": "C.history.zemskiy-sobor-1598-goda", "type": "mentions", "role": "part", "evidence": "Земский собор 1598 г. и избрание на царство Бориса Годунова"}
+{"source": "OOO.history.cls.g7.el.3.1", "target": "C.history.boris-godunov", "type": "mentions", "role": "part", "evidence": "Политика Бориса Годунова"}
+{"source": "OOO.history.cls.g7.el.3.1", "target": "C.history.boyarstvo", "type": "mentions", "role": "part", "evidence": "в отношении боярства"}
+{"source": "OOO.history.cls.g7.el.3.1", "target": "C.history.golod-1601-1603-godov", "type": "mentions", "role": "part", "evidence": "Голод 1601–1603 гг."}
+{"source": "OOO.history.cls.g7.el.3.1", "target": "C.history.sotsialno-ekonomicheskiy-krizis-nachala-xvii-veka", "type": "mentions", "role": "part", "evidence": "обострение социально- экономического кризиса"}
+{"source": "OOO.history.cls.g7.el.3.2", "target": "C.history.smuta", "type": "mentions", "role": "main", "evidence": "Смутное время начала XVII в."}
+{"source": "OOO.history.cls.g7.el.3.2", "target": "C.history.samozvanstvo", "type": "mentions", "role": "part", "evidence": "Самозванцы и самозванство"}
+{"source": "OOO.history.cls.g7.el.3.2", "target": "C.history.lzhedmitriy-i", "type": "mentions", "role": "part", "evidence": "Личность Лжедмитрия I и его политика"}
+{"source": "OOO.history.cls.g7.el.3.2", "target": "C.history.vosstanie-1606-goda", "type": "mentions", "role": "part", "evidence": "Восстание 1606 г. и убийство самозванца"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.vasiliy-shuyskiy", "type": "mentions", "role": "main", "evidence": "Царь Василий Шуйский"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.vosstanie-ivana-bolotnikova", "type": "mentions", "role": "part", "evidence": "Восстание Ивана Болотникова"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.ivan-bolotnikov", "type": "mentions", "role": "part", "evidence": "Ивана Болотникова"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.grazhdanskaya-voyna-v-gody-smuty", "type": "mentions", "role": "part", "evidence": "Перерастание внутреннего кризиса в гражданскую войну"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.lzhedmitriy-ii", "type": "mentions", "role": "part", "evidence": "Лжедмитрий II"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.polsko-litovskaya-interventsiya", "type": "mentions", "role": "part", "evidence": "Вторжение на территорию России польско-литовских отрядов"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.tushinskiy-lager", "type": "mentions", "role": "part", "evidence": "Тушинский лагерь самозванца под Москвой"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.oborona-troitse-sergieva-monastyrya", "type": "mentions", "role": "part", "evidence": "Оборона Троице-Сергиева монастыря"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.vyborgskiy-dogovor", "type": "mentions", "role": "part", "evidence": "Выборгский договор между Россией и Швецией"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.shvetsiya", "type": "mentions", "role": "part", "evidence": "между Россией и Швецией"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.pohod-skopina-shuyskogo-i-delagardi", "type": "mentions", "role": "part", "evidence": "Поход войска М.В. Скопина-Шуйского и Я.-П. Делагарди"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.m-v-skopin-shuyskiy", "type": "mentions", "role": "part", "evidence": "М.В. Скопина-Шуйского"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.ya-p-delagardi", "type": "mentions", "role": "part", "evidence": "Я.-П. Делагарди"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.voyna-rechi-pospolitoy-protiv-rossii", "type": "mentions", "role": "part", "evidence": "Открытое вступление Речи Посполитой в войну против России"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.rech-pospolitaya", "type": "mentions", "role": "part", "evidence": "Речи Посполитой"}
+{"source": "OOO.history.cls.g7.el.3.3", "target": "C.history.oborona-smolenska", "type": "mentions", "role": "part", "evidence": "Оборона Смоленска"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.sverzhenie-vasiliya-shuyskogo", "type": "mentions", "role": "main", "evidence": "Свержение Василия Шуйского"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.semiboyarschina", "type": "mentions", "role": "part", "evidence": "семибоярщине"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.dogovor-ob-izbranii-na-prestol-printsa-vladislava", "type": "mentions", "role": "part", "evidence": "Договор об избрании на престол польского принца Владислава"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.prints-vladislav", "type": "mentions", "role": "part", "evidence": "польского принца Владислава"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.polsko-litovskaya-interventsiya", "type": "mentions", "role": "part", "evidence": "вступление польско-литовского гарнизона в Москву"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.natsionalno-osvoboditelnoe-dvizhenie-v-smutnoe-vremya", "type": "mentions", "role": "part", "evidence": "Подъём национально-освободительного движения"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.patriarh-germogen", "type": "mentions", "role": "part", "evidence": "Патриарх Гермоген"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.moskovskoe-vosstanie-1611-goda", "type": "mentions", "role": "part", "evidence": "Московское восстание 1611 г. и сожжение города оккупантами"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.pervoe-zemskoe-opolchenie", "type": "mentions", "role": "part", "evidence": "Первое и второе земские ополчения"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.vtoroe-zemskoe-opolchenie", "type": "mentions", "role": "part", "evidence": "Первое и второе земские ополчения"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.zahvat-novgoroda-shvedskimi-voyskami", "type": "mentions", "role": "part", "evidence": "Захват Новгорода шведскими войсками"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.sovet-vseya-zemli", "type": "mentions", "role": "part", "evidence": "Совет всея земли"}
+{"source": "OOO.history.cls.g7.el.3.4", "target": "C.history.osvobozhdenie-moskvy-v-1612-godu", "type": "mentions", "role": "part", "evidence": "Освобождение Москвы в 1612 г."}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.okonchanie-smuty", "type": "mentions", "role": "main", "evidence": "Окончание Смуты"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.smuta", "type": "mentions", "role": "part", "evidence": "Итоги и последствия Смутного времени"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.zemskiy-sobor-1613-goda", "type": "mentions", "role": "part", "evidence": "Земский собор 1613 г. и его роль в укреплении государственности"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.mihail-fedorovich", "type": "mentions", "role": "part", "evidence": "Избрание на царство Михаила Федоровича Романова"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.borba-s-kazachimi-vystupleniyami", "type": "mentions", "role": "part", "evidence": "Борьба с казачьими выступлениями против центральной власти"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.stolbovskiy-mir", "type": "mentions", "role": "part", "evidence": "Столбовский мир со Швецией"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.shvetsiya", "type": "mentions", "role": "part", "evidence": "Швецией"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.baltiyskoe-more", "type": "mentions", "role": "part", "evidence": "утрата выхода к Балтийскому морю"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.voyna-rechi-pospolitoy-protiv-rossii", "type": "mentions", "role": "part", "evidence": "Продолжение войны с Речью Посполитой"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.pohod-vladislava-na-moskvu", "type": "mentions", "role": "part", "evidence": "Поход принца Владислава на Москву"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.prints-vladislav", "type": "mentions", "role": "part", "evidence": "принца Владислава"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.deulinskoe-peremirie", "type": "mentions", "role": "part", "evidence": "Заключение Деулинского перемирия с Речью Посполитой"}
+{"source": "OOO.history.cls.g7.el.3.5", "target": "C.history.rech-pospolitaya", "type": "mentions", "role": "part", "evidence": "Речью Посполитой"}
+{"source": "OOO.history.cls.g7.el.4.1", "target": "C.history.dinastiya-romanovyh", "type": "mentions", "role": "main", "evidence": "Россия при первых Романовых"}
+{"source": "OOO.history.cls.g7.el.4.1", "target": "C.history.mihail-fedorovich", "type": "mentions", "role": "part", "evidence": "Царствование Михаила Федоровича"}
+{"source": "OOO.history.cls.g7.el.4.1", "target": "C.history.vosstanovlenie-ekonomiki-posle-smuty", "type": "mentions", "role": "part", "evidence": "Восстановление экономического потенциала страны"}
+{"source": "OOO.history.cls.g7.el.4.1", "target": "C.history.zakreposchenie-krestyan", "type": "mentions", "role": "part", "evidence": "Продолжение закрепощения крестьян"}
+{"source": "OOO.history.cls.g7.el.4.1", "target": "C.history.zemskiy-sobor", "type": "mentions", "role": "part", "evidence": "Земские соборы"}
+{"source": "OOO.history.cls.g7.el.4.1", "target": "C.history.patriarh-filaret", "type": "mentions", "role": "part", "evidence": "Роль патриарха Филарета в управлении государством"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.aleksey-mihaylovich", "type": "mentions", "role": "main", "evidence": "Царь Алексей Михайлович"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.samoderzhavie", "type": "mentions", "role": "part", "evidence": "Укрепление самодержавия"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.boyarskaya-duma", "type": "mentions", "role": "part", "evidence": "Ослабление роли Боярской думы в управлении государством"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.prikaznaya-sistema", "type": "mentions", "role": "part", "evidence": "Развитие приказного строя"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.prikaz-taynyh-del", "type": "mentions", "role": "part", "evidence": "Приказ Тайных дел"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.voevoda", "type": "mentions", "role": "part", "evidence": "Усиление воеводской власти в уездах"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.mestnoe-samoupravlenie", "type": "mentions", "role": "part", "evidence": "постепенная ликвидация земского самоуправления"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.sobornoe-ulozhenie", "type": "mentions", "role": "part", "evidence": "Соборное уложение 1649 г."}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.krepostnoe-pravo", "type": "mentions", "role": "part", "evidence": "Завершение оформления крепостного права"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.denezhnaya-reforma-1654-goda", "type": "mentions", "role": "part", "evidence": "Денежная реформа 1654 г."}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.zemskiy-sobor", "type": "mentions", "role": "part", "evidence": "Затухание деятельности земских соборов"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.b-i-morozov", "type": "mentions", "role": "part", "evidence": "Б.И. Морозова"}
+{"source": "OOO.history.cls.g7.el.4.2", "target": "C.history.i-d-miloslavskiy", "type": "mentions", "role": "part", "evidence": "И.Д. Милославского"}
+{"source": "OOO.history.cls.g7.el.4.3", "target": "C.history.patriarh-nikon", "type": "mentions", "role": "main", "evidence": "Патриарх Никон"}
+{"source": "OOO.history.cls.g7.el.4.3", "target": "C.history.konflikt-patriarha-nikona-s-tsarskoy-vlastyu", "type": "mentions", "role": "part", "evidence": "его конфликт с царской властью"}
+{"source": "OOO.history.cls.g7.el.4.3", "target": "C.history.tserkovnyy-raskol", "type": "mentions", "role": "part", "evidence": "Раскол в Церкви"}
+{"source": "OOO.history.cls.g7.el.4.3", "target": "C.history.protopop-avvakum", "type": "mentions", "role": "part", "evidence": "Протопоп Аввакум"}
+{"source": "OOO.history.cls.g7.el.4.3", "target": "C.history.staroobryadchestvo", "type": "mentions", "role": "part", "evidence": "формирование религиозной традиции старообрядчества"}
+{"source": "OOO.history.cls.g7.el.4.4", "target": "C.history.fedor-alekseevich", "type": "mentions", "role": "main", "evidence": "Царь Фёдор Алексеевич"}
+{"source": "OOO.history.cls.g7.el.4.4", "target": "C.history.otmena-mestnichestva", "type": "mentions", "role": "part", "evidence": "Отмена местничества"}
+{"source": "OOO.history.cls.g7.el.4.4", "target": "C.history.mestnichestvo", "type": "mentions", "role": "part", "evidence": "местничества"}
+{"source": "OOO.history.cls.g7.el.4.4", "target": "C.history.podatnaya-reforma", "type": "mentions", "role": "part", "evidence": "Налоговая (податная) реформа"}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke", "type": "mentions", "role": "main", "evidence": "Экономическое развитие России в XVII в."}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.manufaktura", "type": "mentions", "role": "part", "evidence": "Первые мануфактуры"}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.yarmarka", "type": "mentions", "role": "part", "evidence": "Ярмарки"}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.vnutrenniy-rynok", "type": "mentions", "role": "part", "evidence": "Укрепление внутренних торговых связей"}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.hozyaystvennaya-spetsializatsiya-regionov", "type": "mentions", "role": "part", "evidence": "развитие хозяйственной специализации регионов Российского государства"}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.torgovyy-ustav", "type": "mentions", "role": "part", "evidence": "Торговый"}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.novotorgovyy-ustav", "type": "mentions", "role": "part", "evidence": "Новоторговый уставы"}
+{"source": "OOO.history.cls.g7.el.4.5", "target": "C.history.vneshnyaya-torgovlya-rossii", "type": "mentions", "role": "part", "evidence": "Торговля с европейскими странами и Востоком"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva", "type": "mentions", "role": "main", "evidence": "Социальная структура российского общества"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.gosudarev-dvor", "type": "mentions", "role": "part", "evidence": "Государев двор"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.sluzhilyy-gorod", "type": "mentions", "role": "part", "evidence": "служилый город"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.duhovenstvo", "type": "mentions", "role": "part", "evidence": "духовенство"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.torgovye-lyudi", "type": "mentions", "role": "part", "evidence": "торговые люди"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.posadskoe-naselenie", "type": "mentions", "role": "part", "evidence": "посадское население"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.streletskoe-voysko", "type": "mentions", "role": "part", "evidence": "стрельцы"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.sluzhilye-inozemtsy", "type": "mentions", "role": "part", "evidence": "служилые иноземцы"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.kazachestvo", "type": "mentions", "role": "part", "evidence": "казаки"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.krestyanstvo", "type": "mentions", "role": "part", "evidence": "крестьяне"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.holop", "type": "mentions", "role": "part", "evidence": "холопы"}
+{"source": "OOO.history.cls.g7.el.4.6", "target": "C.history.russkaya-derevnya-v-xvii-veke", "type": "mentions", "role": "part", "evidence": "Русская деревня в XVII в."}
+{"source": "OOO.history.cls.g7.el.4.7", "target": "C.history.gorodskie-vosstaniya-serediny-xvii-veka", "type": "mentions", "role": "main", "evidence": "Городские восстания середины XVII в."}
+{"source": "OOO.history.cls.g7.el.4.7", "target": "C.history.solyanoy-bunt", "type": "mentions", "role": "part", "evidence": "Соляной бунт в Москве"}
+{"source": "OOO.history.cls.g7.el.4.7", "target": "C.history.pskovsko-novgorodskoe-vosstanie", "type": "mentions", "role": "part", "evidence": "Псковско-Новгородское восстание"}
+{"source": "OOO.history.cls.g7.el.4.7", "target": "C.history.mednyy-bunt", "type": "mentions", "role": "part", "evidence": "Медный бунт"}
+{"source": "OOO.history.cls.g7.el.4.7", "target": "C.history.pobegi-krestyan-na-don-i-v-sibir", "type": "mentions", "role": "part", "evidence": "Побеги крестьян на Дон и в Сибирь"}
+{"source": "OOO.history.cls.g7.el.4.7", "target": "C.history.vosstanie-stepana-razina", "type": "mentions", "role": "part", "evidence": "Восстание Степана Разина"}
+{"source": "OOO.history.cls.g7.el.4.7", "target": "C.history.stepan-razin", "type": "mentions", "role": "part", "evidence": "Степана Разина"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.vneshnyaya-politika-rossii", "type": "mentions", "role": "main", "evidence": "Внешняя политика России в XVII в."}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.mezhdunarodnye-svyazi-moskovskogo-gosudarstva", "type": "mentions", "role": "part", "evidence": "Возобновление дипломатических контактов со странами Европы и Азии после Смуты"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.smolenskaya-voyna", "type": "mentions", "role": "part", "evidence": "Смоленская война"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.polyanovskiy-mir", "type": "mentions", "role": "part", "evidence": "Поляновский мир"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.pravoslavnoe-naselenie-rechi-pospolitoy", "type": "mentions", "role": "part", "evidence": "Контакты с православным населением Речи Посполитой"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.polonizatsiya", "type": "mentions", "role": "part", "evidence": "противодействие полонизации"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.katolitsizm", "type": "mentions", "role": "part", "evidence": "распространению католичества"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.zaporozhskaya-sech", "type": "mentions", "role": "part", "evidence": "Контакты с Запорожской Сечью"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.vosstanie-bogdana-hmelnitskogo", "type": "mentions", "role": "part", "evidence": "Восстание Богдана Хмельницкого"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.bogdan-hmelnitskiy", "type": "mentions", "role": "part", "evidence": "Богдана Хмельницкого"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.pereyaslavskaya-rada", "type": "mentions", "role": "part", "evidence": "Переяславская рада"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.vhozhdenie-zemel-voyska-zaporozhskogo-v-sostav-rossii", "type": "mentions", "role": "part", "evidence": "Вхождение земель Войска Запорожского в состав России"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.russko-polskaya-voyna-1654-1667-godov", "type": "mentions", "role": "part", "evidence": "Война между Россией и Речью Посполитой 1654–1667 гг."}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.andrusovskoe-peremirie", "type": "mentions", "role": "part", "evidence": "Андрусовское перемирие"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.russko-shvedskaya-voyna-1656-1658-godov", "type": "mentions", "role": "part", "evidence": "Русско- шведская война 1656–1658 гг."}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.ukreplenie-yuzhnyh-granits", "type": "mentions", "role": "part", "evidence": "Укрепление южных рубежей"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.belgorodskaya-zasechnaya-cherta", "type": "mentions", "role": "part", "evidence": "Белгородская засечная черта"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.osmanskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Конфликты с Османской империей"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.azovskoe-osadnoe-sidenie", "type": "mentions", "role": "part", "evidence": "Азовское осадное сидение"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.chigirinskaya-voyna", "type": "mentions", "role": "part", "evidence": "Чигиринская война"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.bahchisarayskiy-mirnyy-dogovor", "type": "mentions", "role": "part", "evidence": "Бахчисарайский мирный договор"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.voennye-stolknoveniya-s-imperiey-tsin", "type": "mentions", "role": "part", "evidence": "Военные столкновения с маньчжурами и империей Цин (Китаем)"}
+{"source": "OOO.history.cls.g7.el.4.8", "target": "C.history.dinastiya-tsin", "type": "mentions", "role": "part", "evidence": "империей Цин"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.osvoenie-novyh-territoriy", "type": "mentions", "role": "main", "evidence": "Освоение новых территорий"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii", "type": "mentions", "role": "part", "evidence": "Народы России в XVII в."}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.velikie-geograficheskie-otkrytiya", "type": "mentions", "role": "part", "evidence": "Эпоха Великих географических открытий"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.russkie-geograficheskie-otkrytiya", "type": "mentions", "role": "part", "evidence": "русские географические открытия"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.plavanie-semena-dezhneva", "type": "mentions", "role": "part", "evidence": "Плавание Семёна Дежнёва"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.semen-dezhnev", "type": "mentions", "role": "part", "evidence": "Семёна Дежнёва"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.vyhod-k-tihomu-okeanu", "type": "mentions", "role": "part", "evidence": "Выход к Тихому океану"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.pohody-habarova-i-poyarkova", "type": "mentions", "role": "part", "evidence": "Походы Ерофея Хабарова и Василия Пояркова"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.erofey-habarov", "type": "mentions", "role": "part", "evidence": "Ерофея Хабарова"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.vasiliy-poyarkov", "type": "mentions", "role": "part", "evidence": "Василия Пояркова"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.amur", "type": "mentions", "role": "part", "evidence": "исследование бассейна реки Амур"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.povolzhe", "type": "mentions", "role": "part", "evidence": "Освоение Поволжья"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.osvoenie-sibiri", "type": "mentions", "role": "part", "evidence": "Освоение Поволжья и Сибири"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.sibir", "type": "mentions", "role": "part", "evidence": "Сибири"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.kalmytskoe-hanstvo", "type": "mentions", "role": "part", "evidence": "Калмыцкое ханство"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.yasak", "type": "mentions", "role": "part", "evidence": "Ясачное налогообложение"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.pereselenie-russkih-na-novye-zemli", "type": "mentions", "role": "part", "evidence": "Переселение русских на новые земли"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.missionerstvo", "type": "mentions", "role": "part", "evidence": "Миссионерство и христианизация"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.mezhetnicheskie-otnosheniya", "type": "mentions", "role": "part", "evidence": "Межэтнические отношения"}
+{"source": "OOO.history.cls.g7.el.4.9", "target": "C.history.mnogonatsionalnaya-elita", "type": "mentions", "role": "part", "evidence": "Формирование многонациональной элиты"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.kultura-rossii-xvi-xvii-vekov", "type": "mentions", "role": "main", "evidence": "Культурное пространство XVI–XVII вв."}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.kartina-mira-cheloveka-v-xvi-xvii-vekah", "type": "mentions", "role": "part", "evidence": "Изменения в картине мира человека в XVI‒XVII вв."}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.povsednevnaya-zhizn-na-rusi", "type": "mentions", "role": "part", "evidence": "повседневная жизнь"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.zhilische-i-predmety-byta", "type": "mentions", "role": "part", "evidence": "Жилище и предметы быта"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.semya-i-semeynye-otnosheniya", "type": "mentions", "role": "part", "evidence": "Семья и семейные отношения"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.sueveriya", "type": "mentions", "role": "part", "evidence": "Религия и суеверия"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.proniknovenie-evropeyskoy-kultury-v-rossiyu", "type": "mentions", "role": "part", "evidence": "Проникновение элементов европейской культуры в быт высших слоёв населения страны"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.drevnerusskaya-arhitektura", "type": "mentions", "role": "part", "evidence": "Архитектура"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.ansambl-sobornoy-ploschadi-v-moskve", "type": "mentions", "role": "part", "evidence": "Дворцово-храмовый ансамбль Соборной площади в Москве"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.shatrovyy-stil", "type": "mentions", "role": "part", "evidence": "Шатровый стиль в архитектуре"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.antonio-solari", "type": "mentions", "role": "part", "evidence": "Антонио Солари"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.aleviz-fryazin", "type": "mentions", "role": "part", "evidence": "Алевиз Фрязин"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.petrok-maloy", "type": "mentions", "role": "part", "evidence": "Петрок Малой"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.sobor-pokrova-na-rvu", "type": "mentions", "role": "part", "evidence": "Собор Покрова на Рву"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.monastyrskie-ansambli", "type": "mentions", "role": "part", "evidence": "Монастырские ансамбли"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.kirillo-belozerskiy-monastyr", "type": "mentions", "role": "part", "evidence": "Кирилло-Белозерский"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.solovetskiy-monastyr", "type": "mentions", "role": "part", "evidence": "Соловецкий"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.novo-ierusalimskiy-monastyr", "type": "mentions", "role": "part", "evidence": "Ново- Иерусалимский"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.krepostnoe-zodchestvo", "type": "mentions", "role": "part", "evidence": "Крепости"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.kitay-gorod", "type": "mentions", "role": "part", "evidence": "Китай-город"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.smolenskiy-kreml", "type": "mentions", "role": "part", "evidence": "Смоленский"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.astrahanskiy-kreml", "type": "mentions", "role": "part", "evidence": "Астраханский"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.rostovskiy-kreml", "type": "mentions", "role": "part", "evidence": "Ростовский кремли"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.fedor-kon", "type": "mentions", "role": "part", "evidence": "Фёдор Конь"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.prikaz-kamennyh-del", "type": "mentions", "role": "part", "evidence": "Приказ каменных дел"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.derevyannoe-zodchestvo", "type": "mentions", "role": "part", "evidence": "Деревянное зодчество"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.izobrazitelnoe-iskusstvo-rusi", "type": "mentions", "role": "part", "evidence": "Изобразительное искусство"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.simon-ushakov", "type": "mentions", "role": "part", "evidence": "Симон Ушаков"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.yaroslavskaya-shkola-ikonopisi", "type": "mentions", "role": "part", "evidence": "Ярославская школа иконописи"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.parsunnaya-zhivopis", "type": "mentions", "role": "part", "evidence": "Парсунная живопись"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.letopis", "type": "mentions", "role": "part", "evidence": "Летописание"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.nachalo-knigopechataniya-v-rossii", "type": "mentions", "role": "part", "evidence": "начало книгопечатания"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.litsevoy-svod", "type": "mentions", "role": "part", "evidence": "Лицевой свод"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.domostroy", "type": "mentions", "role": "part", "evidence": "Домострой"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.perepiska-ivana-groznogo-s-andreem-kurbskim", "type": "mentions", "role": "part", "evidence": "Переписка Ивана Грозного с князем Андреем Курбским"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.ivan-iv", "type": "mentions", "role": "part", "evidence": "Ивана Грозного"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.andrey-kurbskiy", "type": "mentions", "role": "part", "evidence": "князем Андреем Курбским"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.publitsistika-smutnogo-vremeni", "type": "mentions", "role": "part", "evidence": "Публицистика Смутного времени"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.usilenie-svetskogo-nachala-v-kulture", "type": "mentions", "role": "part", "evidence": "Усиление светского начала в российской культуре"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.simeon-polotskiy", "type": "mentions", "role": "part", "evidence": "Симеон Полоцкий"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.nemetskaya-sloboda", "type": "mentions", "role": "part", "evidence": "Немецкая слобода как проводник европейского культурного влияния"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.posadskaya-satira", "type": "mentions", "role": "part", "evidence": "Посадская сатира XVII в."}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.obrazovanie-i-nauchnye-znaniya-v-rossii", "type": "mentions", "role": "part", "evidence": "Развитие образования и научных знаний"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.shkoly-pri-prikazah", "type": "mentions", "role": "part", "evidence": "Школы при Аптекарском и Посольском приказах"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.sinopsis", "type": "mentions", "role": "part", "evidence": "«Синопсис» Иннокентия Гизеля"}
+{"source": "OOO.history.cls.g7.el.4.10", "target": "C.history.innokentiy-gizel", "type": "mentions", "role": "part", "evidence": "Иннокентия Гизеля"}
+{"source": "OOO.history.cls.g7.el.5", "target": "C.history.nash-kray", "type": "mentions", "role": "main", "evidence": "Наш край в XVI‒XVII вв."}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.rossiya-v-xvi-veke", "type": "mentions", "role": "main", "evidence": "Россия в XVI веке"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.zavershenie-obedineniya-russkih-zemel", "type": "mentions", "role": "part", "evidence": "завершение объединения русских земель вокруг Москвы"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.udelnaya-sistema", "type": "mentions", "role": "part", "evidence": "Отмирание удельной системы"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.ukreplenie-velikoknyazheskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Укрепление великокняжеской власти"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.soprotivlenie-udelnyh-knyazey-velikoknyazheskoy-vlasti", "type": "mentions", "role": "part", "evidence": "Сопротивление удельных князей"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.organy-gosudarstvennoy-vlasti", "type": "mentions", "role": "part", "evidence": "Органы государственной власти"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.unifikatsiya-denezhnoy-sistemy", "type": "mentions", "role": "part", "evidence": "Унификация денежной системы"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.mestnichestvo", "type": "mentions", "role": "part", "evidence": "Местничество"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.gosudarstvo-i-tserkov", "type": "mentions", "role": "part", "evidence": "Государство и церковь"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.reformy-serediny-xvi-veka", "type": "mentions", "role": "part", "evidence": "Реформы середины XVI в."}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.zemskiy-sobor", "type": "mentions", "role": "part", "evidence": "Земские соборы"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.mestnoe-samoupravlenie", "type": "mentions", "role": "part", "evidence": "Формирование органов местного самоуправления"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva", "type": "mentions", "role": "part", "evidence": "Социальная структура российского общества"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.zakreposchenie-krestyan", "type": "mentions", "role": "part", "evidence": "Закрепощение крестьян"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.kazachestvo", "type": "mentions", "role": "part", "evidence": "Формирование вольного казачества"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii", "type": "mentions", "role": "part", "evidence": "Многонациональный состав населения"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.oprichnina", "type": "mentions", "role": "part", "evidence": "Опричнина: сущность, результаты и последствия"}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.rossiya-v-kontse-xvi-veka", "type": "mentions", "role": "part", "evidence": "Россия в конце XVI в."}
+{"source": "OOO.history.oge.el.2.1", "target": "C.history.presechenie-dinastii-ryurikovichey", "type": "mentions", "role": "part", "evidence": "Пресечение династии Рюриковичей"}
+{"source": "OOO.history.oge.el.2.2", "target": "C.history.vneshnyaya-politika-rossii", "type": "mentions", "role": "main", "evidence": "Внешняя политика России в XVI в."}
+{"source": "OOO.history.oge.el.2.3", "target": "C.history.smuta", "type": "mentions", "role": "main", "evidence": "Смута в России"}
+{"source": "OOO.history.oge.el.2.3", "target": "C.history.samozvanstvo", "type": "mentions", "role": "part", "evidence": "Самозванцы и самозванство"}
+{"source": "OOO.history.oge.el.2.3", "target": "C.history.grazhdanskaya-voyna-v-gody-smuty", "type": "mentions", "role": "part", "evidence": "Перерастание внутреннего кризиса в гражданскую войну"}
+{"source": "OOO.history.oge.el.2.3", "target": "C.history.voyna-rechi-pospolitoy-protiv-rossii", "type": "mentions", "role": "part", "evidence": "Вступление в войну против России Речи Посполитой"}
+{"source": "OOO.history.oge.el.2.3", "target": "C.history.natsionalno-osvoboditelnoe-dvizhenie-v-smutnoe-vremya", "type": "mentions", "role": "part", "evidence": "Подъём нацио- нально-освободительного движения"}
+{"source": "OOO.history.oge.el.2.3", "target": "C.history.osvobozhdenie-moskvy-v-1612-godu", "type": "mentions", "role": "part", "evidence": "Освобождение Москвы в 1612 г."}
+{"source": "OOO.history.oge.el.2.3", "target": "C.history.zemskiy-sobor-1613-goda", "type": "mentions", "role": "part", "evidence": "Земский собор 1613 г. и его роль в укреплении государственности"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.rossiya-v-xvii-veke", "type": "mentions", "role": "main", "evidence": "Россия в XVII в."}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.dinastiya-romanovyh", "type": "mentions", "role": "part", "evidence": "Россия при первых Романовых"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.samoderzhavie", "type": "mentions", "role": "part", "evidence": "Укрепление самодержавия"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.tserkovnyy-raskol", "type": "mentions", "role": "part", "evidence": "Церковный раскол"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.ekonomicheskoe-razvitie-rossii-v-xvii-veke", "type": "mentions", "role": "part", "evidence": "Экономическое развитие России в XVII в."}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva", "type": "mentions", "role": "part", "evidence": "Социальная структура российского общества"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.russkaya-derevnya-v-xvii-veke", "type": "mentions", "role": "part", "evidence": "Русская деревня в XVII в."}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.krepostnoe-pravo", "type": "mentions", "role": "part", "evidence": "Юридическое оформление крепостного права"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.sotsialnye-dvizheniya-v-rossii-xvii-veka", "type": "mentions", "role": "part", "evidence": "Социальные движения"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.velikie-geograficheskie-otkrytiya", "type": "mentions", "role": "part", "evidence": "Эпоха Великих географических открытий"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.russkie-geograficheskie-otkrytiya", "type": "mentions", "role": "part", "evidence": "русские географические открытия"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.osvoenie-sibiri", "type": "mentions", "role": "part", "evidence": "Начало освоения Сибири и Дальнего Востока"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.dalniy-vostok", "type": "mentions", "role": "part", "evidence": "Дальнего Востока"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.mezhetnicheskie-otnosheniya", "type": "mentions", "role": "part", "evidence": "Межэтнические отношения"}
+{"source": "OOO.history.oge.el.2.4", "target": "C.history.mnogonatsionalnaya-elita", "type": "mentions", "role": "part", "evidence": "Формирование многонациональной элиты"}
+{"source": "OOO.history.oge.el.2.5", "target": "C.history.vneshnyaya-politika-rossii", "type": "mentions", "role": "main", "evidence": "Внешняя политика России в XVII в."}
+{"source": "OOO.history.oge.el.2.6", "target": "C.history.kultura-rossii-xvi-xvii-vekov", "type": "mentions", "role": "main", "evidence": "Культурное пространство России в XVI в."}
+{"source": "OOO.history.oge.el.2.6", "target": "C.history.obrazovanie-i-nauchnye-znaniya-v-rossii", "type": "mentions", "role": "part", "evidence": "Развитие образования и научных знаний"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.velikie-geograficheskie-otkrytiya", "type": "mentions", "role": "main", "evidence": "Великие географические открытия"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.kapitalisticheskie-otnosheniya", "type": "mentions", "role": "part", "evidence": "Возникновение капиталистических отношений в Западной Европе"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.absolyutizm", "type": "mentions", "role": "part", "evidence": "Становление абсолютизма в европейских странах"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.reformatsiya", "type": "mentions", "role": "part", "evidence": "Реформация"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.kontrreformatsiya", "type": "mentions", "role": "part", "evidence": "контрреформация в Европе"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.ispaniya", "type": "mentions", "role": "part", "evidence": "Испании"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.frantsiya", "type": "mentions", "role": "part", "evidence": "Франции"}
+{"source": "OOO.history.oge.el.5.10", "target": "C.history.angliya", "type": "mentions", "role": "part", "evidence": "Англии в конце XV – XVII вв."}
+{"source": "OOO.history.oge.el.5.11", "target": "C.history.strany-vostoka-v-xvi-xvii-vekah", "type": "mentions", "role": "main", "evidence": "Внутриполитическое развитие Османской империи, Индии, Китая, Японии в конце XV – XVII вв."}
+{"source": "OOO.history.oge.el.5.11", "target": "C.history.osmanskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Османской империи"}
+{"source": "OOO.history.oge.el.5.11", "target": "C.history.imperiya-velikih-mogolov", "type": "mentions", "role": "part", "evidence": "Индии"}
+{"source": "OOO.history.oge.el.5.11", "target": "C.history.dinastiya-min", "type": "mentions", "role": "part", "evidence": "Китая"}
+{"source": "OOO.history.oge.el.5.11", "target": "C.history.dinastiya-tsin", "type": "mentions", "role": "part", "evidence": "Китая"}
+{"source": "OOO.history.oge.el.5.11", "target": "C.history.segunat-tokugava", "type": "mentions", "role": "part", "evidence": "Японии"}
+{"source": "OOO.history.oge.el.5.12", "target": "C.history.protivostoyanie-osmanskoy-ekspansii-v-evrope", "type": "mentions", "role": "main", "evidence": "Борьба христианской Европы с расширением господства Османской империи"}
+{"source": "OOO.history.oge.el.5.12", "target": "C.history.osmanskaya-imperiya", "type": "mentions", "role": "part", "evidence": "Османской империи"}
+{"source": "OOO.history.oge.el.5.12", "target": "C.history.tridtsatiletnyaya-voyna", "type": "mentions", "role": "part", "evidence": "Политические и религиозные противоречия начала XVII в. Тридцатилетняя война"}
+{"source": "OOO.history.oge.el.5.12", "target": "C.history.mezhdunarodnye-otnosheniya-v-xvi-xvii-vekah", "type": "mentions", "role": "part", "evidence": "Международные отношения в конце XV – XVII вв."}
+{"source": "OOO.history.oge.el.5.20", "target": "C.history.evropeyskaya-kultura-rannego-novogo-vremeni", "type": "mentions", "role": "main", "evidence": "Культура и картина мира человека раннего Нового времени"}
+{"source": "OOO.history.oge.el.5.20", "target": "C.history.novaya-kartina-mira", "type": "mentions", "role": "part", "evidence": "картина мира человека раннего Нового времени"}
+{"source": "OOO.history.oge.el.5.20", "target": "C.history.rannee-novoe-vremya", "type": "mentions", "role": "part", "evidence": "раннего Нового времени"}
+{"source": "OOO.history.oge.el.5.20", "target": "C.history.nauka-rannego-novogo-vremeni", "type": "mentions", "role": "part", "evidence": "Развитие науки"}
+{"source": "OOO.history.oge.el.5.20", "target": "C.history.novoe-vremya", "type": "mentions", "role": "part", "evidence": "в Новое время"}
 {"source": "OOO.history.cls.g5.el.1.1", "target": "C.history.istoriya", "type": "mentions", "role": "main", "evidence": "Что изучает история"}
 {"source": "OOO.history.cls.g5.el.1.1", "target": "C.history.istoricheskiy-istochnik", "type": "mentions", "role": "part", "evidence": "Источники исторических знаний"}
 {"source": "OOO.history.cls.g5.el.1.1", "target": "C.history.spetsialnye-istoricheskie-distsipliny", "type": "mentions", "role": "part", "evidence": "Специальные (вспомогательные) исторические дисциплины"}

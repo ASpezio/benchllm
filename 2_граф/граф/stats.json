@@ -1,9 +1,9 @@
 {
- "nodes": 3140,
- "edges": 7259,
+ "nodes": 3884,
+ "edges": 9396,
  "node_types": {
+  "concept": 1422,
   "lesson": 867,
-  "concept": 678,
   "element": 627,
   "requirement": 410,
   "exam_element": 301,
@@ -17,21 +17,23 @@
  },
  "edge_types": {
   "is_part_of": 2460,
+  "mentions": 1928,
+  "prerequisites_for": 1014,
   "appears_in": 923,
-  "mentions": 903,
   "next": 855,
   "tested_by": 727,
-  "prerequisites_for": 457,
+  "part_of": 571,
   "assessed_by": 418,
-  "part_of": 193,
-  "is_a": 115,
+  "is_a": 176,
+  "participant_of": 155,
   "reviewed_in": 108,
-  "verifies": 61,
-  "participant_of": 39
+  "verifies": 61
  },
  "relation_files": [
+  "связи/история_6/out_история_6.json",
+  "связи/история_7/out_история_7.json",
   "связи/пилот/out_история_5.json",
   "связи/пилот/out_физика_7-8.json"
  ],
- "order_issues": 18
+ "order_issues": 32
 }

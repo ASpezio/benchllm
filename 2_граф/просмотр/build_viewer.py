@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SyllaBench · Граф · страница просмотра: граф/ → просмотр/index.html (данные встраиваются в шаблон).
+"""ИС ОЗЯМ-ФОП · Граф · страница просмотра: граф/ → просмотр/index.html (данные встраиваются в шаблон).
 Наборы — по файлам связей (связи/*/in_*.json): каждый набор показывает свои понятия, элементы и связи."""
 import glob, json, os, re
 
@@ -11,7 +11,8 @@ REL = {"prerequisites_for", "is_a", "part_of", "participant_of", "verifies"}
 parent = {e["source"]: e["target"] for e in edges if e["type"] == "is_part_of"}
 mentions = [e for e in edges if e["type"] == "mentions"]
 
-NAMES = {"физика_7-8": ("phys78", "Физика · 7–8 класс"), "история_5": ("hist5", "История · 5 класс")}
+NAMES = {"физика_7-8": ("phys78", "Физика · 7–8 класс"), "история_5": ("hist5", "История · 5 класс"),
+         "история_6": ("hist6", "История · 5–6 класс"), "история_7": ("hist7", "История · 5–7 класс")}
 sets = []
 for f in sorted(glob.glob(os.path.join(HERE, "..", "связи", "*", "in_*.json"))):
     name = re.sub(r"^in_|\.json$", "", os.path.basename(f))
@@ -53,7 +54,7 @@ for f in sorted(glob.glob(os.path.join(HERE, "..", "связи", "*", "in_*.json
     start = max(cids, key=lambda c: sum(1 for r in rels if c in r[:2]))
     sets.append({"key": key, "name": title, "concepts": concepts, "elements": elements, "rels": rels, "start": start})
 
-order = {"phys78": 0, "hist5": 1}
+order = {"phys78": 0, "hist5": 1, "hist6": 2}
 sets.sort(key=lambda s: order.get(s["key"], 9))
 data = json.dumps({"sets": sets}, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 t = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()
