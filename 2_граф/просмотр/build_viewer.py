@@ -13,9 +13,12 @@ mentions = [e for e in edges if e["type"] == "mentions"]
 
 NAMES = {"физика_7-8": ("phys78", "Физика · 7–8 класс"), "история_5": ("hist5", "История · 5 класс"),
          "история_6": ("hist6", "История · 5–6 класс"), "история_7": ("hist7", "История · 5–7 класс")}
+HIDDEN = {"история_5", "история_6"}
 sets = []
 for f in sorted(glob.glob(os.path.join(HERE, "..", "связи", "*", "in_*.json"))):
     name = re.sub(r"^in_|\.json$", "", os.path.basename(f))
+    if name in HIDDEN:  # старые вкладки: их понятия целиком входят в более поздний набор
+        continue
     key, title = NAMES.get(name, (re.sub(r"\W+", "", name), name))
     cids = [c["id"] for c in json.load(open(f, encoding="utf-8"))["concepts"]]
     cs = set(cids)
