@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бенчмарк ФОП</title>
+<style>
+:root{--bg:#f7f6f2;--card:#fff;--ink:#1d1d1b;--mute:#6b6a65;--line:#e3e1da;--acc:#2f5bd3;--ok:#1f7a4d;--warn:#a5620c;--chip:#efeee8}
+@media (prefers-color-scheme:dark){:root{--bg:#151513;--card:#1e1e1b;--ink:#ecebe6;--mute:#9b9a93;--line:#33322e;--acc:#7f9cf5;--ok:#58c08a;--warn:#e0a24a;--chip:#2a2a26}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{padding:20px 16px 8px;max-width:1100px;margin:0 auto}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mute);font-size:13px}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:110px}
+.stat b{display:block;font-size:20px}
+.stat span{color:var(--mute);font-size:12px}
+.bar{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+.filters{max-width:1100px;margin:0 auto;padding:10px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+select,input{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:13px;max-width:100%}
+input[type=search]{flex:1;min-width:180px}
+label.tg{font-size:13px;color:var(--mute);display:flex;gap:6px;align-items:center}
+main{max-width:1100px;margin:0 auto;padding:12px 16px 60px}
+.count{color:var(--mute);font-size:13px;margin:4px 0 10px}
+.task{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 10px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.chip{background:var(--chip);border-radius:999px;padding:1px 9px;font-size:12px;color:var(--mute)}
+.chip.fam{color:var(--acc)}
+.chip.llm{color:var(--warn)}
+.q{font-size:15px;margin:2px 0 8px}
+ol.opts{margin:0;padding-left:0;list-style:none}
+ol.opts li{padding:3px 0 3px 28px;position:relative}
+ol.opts li::before{content:attr(data-k)")";position:absolute;left:4px;color:var(--mute)}
+.show-ans ol.opts li.ok{color:var(--ok);font-weight:600}
+.ans{display:none;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);font-size:14px}
+.show-ans .ans{display:block}
+.ans .k{color:var(--ok);font-weight:600}
+.ans .ex{color:var(--mute)}
+.id{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--mute)}
+.concepts{font-size:12px;color:var(--mute);margin-top:6px}
+.more{display:block;margin:10px auto;background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px 16px;font:inherit;cursor:pointer}
+@media (max-width:600px){.stat{min-width:calc(50% - 4px)}}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="h1">Бенчмарк</h1>
+  <div class="sub">ИС ОЗЯМ-ФОП · задания собраны из графа ФОП, знаний (ЦОК) и шаблонов · файл открывается локально, без сети</div>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="bar"><div class="filters">
+  <input type="search" id="q" placeholder="Поиск по тексту, понятию, id…">
+  <select id="fam"><option value="">Все семейства</option></select>
+  <select id="req"><option value="">Все умения ФОП</option></select>
+  <select id="sec"><option value="">Все разделы</option></select>
+  <select id="fmt"><option value="">Все форматы</option></select>
+  <select id="st"><option value="">Любой статус</option></select>
+  <label class="tg"><input type="checkbox" id="ans"> ответы</label>
+</div></div>
+<main>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+  <button class="more" id="more" hidden>Показать ещё</button>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const T = DATA.tasks, S = DATA.summary;
+document.title = `Бенчмарк · ${DATA.title}`; document.getElementById("h1").textContent = `Бенчмарк · ${DATA.title}`;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const stat = (v, t) => `<div class="stat"><b>${v}</b><span>${t}</span></div>`;
+$("stats").innerHTML = stat(S["всего"], "заданий") + stat(S["по_дорожкам"]["содержание"] || 0, "по содержанию") +
+  stat(S["по_дорожкам"]["структура"] || 0, "по структуре программы") + stat(`${S["понятий_покрыто"]}/${S["понятий_всего"]}`, "понятий покрыто") +
+  stat(Object.keys(S["по_умениям"]).length, "умений ФОП проверяется") + stat(Object.keys(S["по_семействам"]).length, "семейств заданий");
+function fill(sel, entries){ for (const [v,t] of entries){ const o=document.createElement("option"); o.value=v; o.textContent=t; sel.appendChild(o);} }
+const cnt = k => T.reduce((m,t)=>(m[t[k]]=(m[t[k]]||0)+1,m),{});
+const cf = cnt("family"), cr = cnt("requirement"), cs = cnt("section"), cfm = cnt("format"), cst = cnt("status");
+fill($("fam"), Object.keys(DATA.families).filter(k=>cf[k]).map(k=>[k, `${k} · ${DATA.families[k]} (${cf[k]})`]));
+fill($("req"), Object.keys(cr).sort((a,b)=>a.split(".")[1]-b.split(".")[1]).map(k=>[k, `${k} · ${(DATA.requirements[k]||"").slice(0,60)}… (${cr[k]})`]));
+fill($("sec"), Object.keys(cs).sort().map(k=>[k, `${k}. ${(DATA.sections[k]||"").toLowerCase()} (${cs[k]})`]));
+fill($("fmt"), Object.keys(cfm).map(k=>[k, `${k} (${cfm[k]})`]));
+fill($("st"), Object.keys(cst).map(k=>[k, `${k} (${cst[k]})`]));
+let shown = 0, cur = [];
+function render(reset){
+  const q = $("q").value.trim().toLowerCase();
+  const f = {family:$("fam").value, requirement:$("req").value, section:$("sec").value, format:$("fmt").value, status:$("st").value};
+  if (reset){
+    cur = T.filter(t => Object.entries(f).every(([k,v]) => !v || t[k]===v) &&
+      (!q || (t.id+" "+t.question+" "+t.concept_labels.join(" ")+" "+(t.options||[]).map(o=>o.text).join(" ")).toLowerCase().includes(q)));
+    shown = 0; $("list").innerHTML = "";
+  }
+  const part = cur.slice(shown, shown + 150); shown += part.length;
+  const ans = new Set();
+  $("list").insertAdjacentHTML("beforeend", part.map(t => {
+    const right = new Set(String(t.answer).split(""));
+    const opts = t.options ? `<ol class="opts">${t.options.map(o=>`<li data-k="${o.key}" class="${t.format!=="порядок"&&right.has(o.key)?"ok":""}">${esc(o.text)}</li>`).join("")}</ol>` : "";
+    let a = t.answer;
+    if (t.check && t.check.type==="number") a = `${a} ${t.check.unit||""} (допуск ${Math.round(t.check.rel_tol*1000)/10} %)`;
+    if (t.check && t.check.type==="rubric") a = `эталон: ${esc(t.check.reference)}` + (t.check.key_points? `<br>ключевые пункты: ${t.check.key_points.map(esc).join("; ")}`:"");
+    return `<div class="task"><div class="meta"><span class="chip fam">${t.family} · ${esc(t.family_name)}</span><span class="chip">ФОП ${t.requirement}</span><span class="chip">эл. ${t.element}</span><span class="chip">${t.format}</span><span class="chip">шагов: ${t.steps}</span><span class="chip ${t.status.includes("LLM")||t.status.includes("под вопросом")?"llm":""}">${esc(t.status)}</span>${t.exam_items.length?'<span class="chip">ОГЭ</span>':""}</div>
+      <div class="q">${esc(t.question)}</div>${opts}
+      <div class="ans"><span class="k">Ответ: ${t.check&&t.check.type==="rubric"?"":esc(t.answer_text||"")}</span>${t.check&&t.check.type==="rubric"?a:(t.options?esc(t.answer):a)}${t.explanation && !(t.check&&t.check.type==="rubric"&&t.check.reference===t.explanation)?`<div class="ex">${esc(t.explanation)}</div>`:""}${t.distractor_check?`<div class="ex">Проверка вариантов моделью: спорные ${esc((t.distractor_check.спорные||[]).join(", ")||"—")}${t.distractor_check.ключ_неверен?"; ключ, возможно, неверен":""}. ${esc(t.distractor_check.комментарий||"")}</div>`:""}</div>
+      <div class="concepts"><span class="id">${t.id}</span> · ${t.concept_labels.map(esc).join(" · ")} · вес ${(t.weight*100).toFixed(3)} %</div></div>`;
+  }).join(""));
+  $("count").textContent = `Показано ${shown} из ${cur.length}`;
+  $("more").hidden = shown >= cur.length;
+}
+for (const id of ["q","fam","req","sec","fmt","st"]) $(id).addEventListener("input", () => render(true));
+$("ans").addEventListener("change", e => document.body.classList.toggle("show-ans", e.target.checked));
+$("more").addEventListener("click", () => render(false));
+render(true);
+</script>
+</body>
+</html>

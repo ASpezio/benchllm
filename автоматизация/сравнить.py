@@ -3,6 +3,7 @@
 на разных редакциях документа (что изменилось в программе).
 
   python3 сравнить.py прогоны/проект_2024 ..             файлы прогона против текущих файлов проекта
+  python3 сравнить.py прогоны/физика_7 ..                 то же для бенчмарка (знания и задания среза)
   python3 сравнить.py прогоны/старая прогоны/новая --записи   какие элементы, умения, уроки добавлены, убраны, изменены
 """
 import csv
@@ -25,6 +26,17 @@ FILES = [
 ]
 
 
+def bench_files(run):
+    """Если прогон — бенчмарк (конфиг с «вид»: «бенчмарк»), сравниваются файлы частей 3–4 его среза."""
+    p = os.path.join(run, "конфиг.json")
+    cfg = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    if cfg.get("вид") != "бенчмарк":
+        return None
+    s = cfg["срез"]["имя"]
+    return [f"3_знания/{s}/срез.json", f"3_знания/{s}/источники/цок_корпус.jsonl", f"3_знания/{s}/знания.jsonl",
+            f"3_знания/{s}/формулы.json", f"4_бенчмарк/{s}/задания.jsonl", f"4_бенчмарк/{s}/сводка.json"]
+
+
 def canon(x):
     return json.dumps(x, ensure_ascii=False, sort_keys=True)
 
@@ -39,7 +51,8 @@ def load(path):
 
 def files(a, b):
     same = 0
-    for f in FILES:
+    lst = bench_files(a) or bench_files(b) or FILES
+    for f in lst:
         pa, pb = os.path.join(a, f), os.path.join(b, f)
         if not (os.path.exists(pa) and os.path.exists(pb)):
             print(f"  ?  {f}: нет в {'первом' if not os.path.exists(pa) else 'втором'}")
@@ -60,7 +73,7 @@ def files(a, b):
             ka, kb = set(x) if isinstance(x, dict) else set(), set(y) if isinstance(y, dict) else set()
             diff = [k for k in ka & kb if x[k] != y[k]]
             print(f"  ≠  {f}: ключей {len(ka)} / {len(kb)}, различаются {len(diff)}", diff[:5])
-    print(f"совпало файлов: {same} из {len(FILES)}")
+    print(f"совпало файлов: {same} из {len(lst)}")
 
 
 def records_diff(a, b):

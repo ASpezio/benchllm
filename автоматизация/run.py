@@ -28,7 +28,30 @@ def A(*p):
     return os.path.join(*p)
 
 
+def stages_bench(cfg):
+    """Части 3–4: знания и задания для одного среза графа (конфиг с «вид»: «бенчмарк», например конфиги/физика_7.json)."""
+    B = "бенчмарк/"
+    has_calc = bool(cfg.get("ручные_данные")) and os.path.exists(A(cfg["ручные_данные"], "шаблоны_расчёт.py"))
+    return [
+        ("срез", B + "bench_slice.py", [], True, "граф → понятия, элементы, умения класса, веса по часам"),
+        ("цок_корпус", B + "bench_corpus.py", [], True, "выгрузка ЦОК (цок_выгрузка.js) → текстовые единицы с уроком и ссылкой"),
+        ("знания_кандидаты", B + "bench_candidates.py", [], True, "кандидаты-цитаты из корпуса для каждого понятия"),
+        ("знания_llm", B + "llm_knowledge.py", [], True, "LLM наполняет понятия знаниями с дословными цитатами"),
+        ("знания", B + "bench_knowledge.py", [], True, "проверка цитат → знания.jsonl"),
+        ("формулы_llm", B + "llm_formulas.py", [], True, "LLM: формулы, обозначения, единицы класса"),
+        ("задания_llm", B + "llm_items.py", [], True, "LLM по разделам: ошибки, ситуации, «почему», формулировки законов"),
+        ("цепочки_роли_llm", B + "llm_chain_roles.py", [], True, "LLM: к какому объекту относится каждая величина формулы, условия, правдоподобные значения"),
+        ("цепочки", B + "bench_chains.py", [], True, "кандидаты многошаговых задач из формул, глубина — по норме ФОП класса"),
+        ("цепочки_llm", B + "llm_chains.py", [], True, "LLM-проверяющий: какие наборы формул дают осмысленную задачу (ок/нет)"),
+        ("задания", B + "bench_tasks.py", [], True, "задания из графа, знаний, формул" + (", шаблонов расчёта" if has_calc else "")),
+        ("дистракторы_llm", B + "llm_distractors.py", [], True, "LLM-проверяющий ищет спорные неверные варианты"),
+        ("итог", B + "bench_tasks.py", ["--итог"], True, "пометки проверки, просмотр, автоматическая проверка набора"),
+    ]
+
+
 def stages(cfg, run):
+    if cfg.get("вид") == "бенчмарк":
+        return stages_bench(cfg)
     M, TMP, PH, G = A(run, "1_разметка"), A(run, "1_разметка", "промежуточное"), A(run, "1_разметка", "физика_поурочное"), A(run, "2_граф")
     none = A(TMP, "_без_правок.json")                       # несуществующий файл: алгоритм без правок
     phys = bool(cfg.get("физика_конструктор"))
@@ -71,7 +94,11 @@ def resolve(cfg):
     def r(p):
         return p if (not p or os.path.isabs(p)) else os.path.normpath(A(AUTO, p))
     c = json.loads(json.dumps(cfg))
-    c["источник"]["pdf"] = r(c["источник"]["pdf"])
+    if c.get("источник"):
+        c["источник"]["pdf"] = r(c["источник"]["pdf"])
+    for k in ("граф", "цок"):
+        if c.get(k):
+            c[k] = r(c[k])
     for k in ("физика_конструктор", "mineru"):
         if c.get(k):
             c[k] = {lvl: r(p) for lvl, p in c[k].items()}
@@ -154,9 +181,14 @@ def main():
 
     man_path = A(run, "manifest.json")
     man = json.load(open(man_path, encoding="utf-8")) if os.path.exists(man_path) else {"этапы": {}}
-    src = cfg["источник"]["pdf"]
-    man.update({"конфиг": os.path.relpath(cfg_path, AUTO), "источник": {"файл": src, "редакция": cfg["источник"].get("редакция"),
-                "sha256": sha256(src) if os.path.exists(src) else None},
+    if cfg.get("вид") == "бенчмарк":
+        src = A(cfg["граф"], "nodes.jsonl")
+        src_info = {"граф": cfg["граф"], "sha256_nodes": sha256(src) if os.path.exists(src) else None,
+                    "цок": cfg.get("цок"), "sha256_цок": sha256(cfg["цок"]) if cfg.get("цок") and os.path.exists(cfg["цок"]) else None}
+    else:
+        src = cfg["источник"]["pdf"]
+        src_info = {"файл": src, "редакция": cfg["источник"].get("редакция"), "sha256": sha256(src) if os.path.exists(src) else None}
+    man.update({"конфиг": os.path.relpath(cfg_path, AUTO), "источник": src_info,
                 "llm": {k: (cfg.get("llm") or {}).get(k) for k in ("режим", "модель", "адрес")}})
     llm_mode = (cfg.get("llm") or {}).get("режим", "api")
     print(f"прогон: {run}\nисточник: {src}\nLLM: {llm_mode} {(cfg.get('llm') or {}).get('модель', '')}")
