@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бюджет ИС ОЗЯМ-ФОП</title>
+<style>
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --ink:#1b1f24; --muted:#5d6670; --line:#dde1e6; --soft:#eef1f4;
+  --accent:#2f5d8a; --accent-ink:#ffffff; --or:#2f5d8a; --ru:#b4541a; --gpu:#7a4fa3;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#121417; --panel:#1b1e23; --ink:#e7e9ec; --muted:#9aa3ad; --line:#2d3239; --soft:#23272d;
+         --accent:#7fb0e0; --accent-ink:#0f1215; --or:#7fb0e0; --ru:#f0a36b; --gpu:#b993e0; }
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+main{max-width:1280px;margin:0 auto;padding:16px}
+h1{font-size:20px;margin:4px 0 2px}
+h2{font-size:16px;margin:22px 0 8px}
+.sub{color:var(--muted);margin:0 0 12px}
+.summary{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0 10px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.card .k{color:var(--muted);font-size:12px}
+.card .v{font-size:18px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.card .s{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.card.total .v{font-size:22px}
+.bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0 0}
+button{font:inherit;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;padding:5px 10px;cursor:pointer}
+button.active{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+button:hover{border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}
+fieldset{background:var(--panel);border:1px solid var(--line);border-radius:8px;margin:0;padding:8px 10px 10px;min-width:0}
+legend{font-weight:600;padding:0 4px}
+.row{display:grid;grid-template-columns:1fr 128px;gap:6px;align-items:center;margin:4px 0}
+.row.wide{grid-template-columns:1fr 200px}
+.row small{display:block;color:var(--muted);font-size:11.5px;line-height:1.3}
+input[type=number],select{width:100%;font:inherit;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:5px;padding:3px 6px}
+input[type=number]{text-align:right;font-variant-numeric:tabular-nums}
+input[type=checkbox]{transform:scale(1.1)}
+.chk{display:flex;gap:8px;align-items:center;margin:5px 0}
+.wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:600;background:var(--soft)}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr.stage td{background:var(--soft);font-weight:600}
+tr.tot td{font-weight:700;border-top:2px solid var(--ink)}
+tr.grp td{color:var(--muted);font-weight:600;background:var(--panel)}
+.tag{display:inline-block;font-size:11px;border-radius:4px;padding:0 5px;margin-right:6px;border:1px solid currentColor}
+.tag.or{color:var(--or)} .tag.ru{color:var(--ru)} .tag.gpu{color:var(--gpu)}
+.note{color:var(--muted);font-size:12.5px}
+.prices input,.locals input{width:76px}
+.locals select{width:auto}
+#units td:first-child,#locals td:first-child,#prices td:first-child{white-space:nowrap}
+.prices td,.locals td{white-space:nowrap}
+.ft input[type=number]{width:70px}
+a{color:var(--accent)}
+ol.src{padding-left:22px} ol.src li{margin:3px 0}
+@media (max-width:640px){ .row,.row.wide{grid-template-columns:1fr 110px} main{padding:10px 16px} .summary{position:static} }
+</style>
+</head>
+<body>
+<main>
+<h1>Бюджет ИС ОЗЯМ-ФОП</h1>
+<p class="sub">Цены моделей и GPU на 15.10.2026, курс ЦБ на 15.10.2026. Объёмы токенов замерены на запросах конвейера <code>автоматизация/</code> и заданиях физики 7 класса. Эксперты в расчёт не входят. Любое поле можно менять — итог пересчитывается сразу и сохраняется в этом браузере. Описание и графики — в <a href="https://docs.google.com/document/d/1hRI8TdTNcFP2t7VqKHVijnskb3j6c550vvKAbpMsgM4/edit" target="_blank" rel="noopener">Google-документе</a>.</p>
+
+<div class="summary">
+  <div class="cards" id="cards"></div>
+  <div class="bar">
+    <span class="note">Сценарий:</span>
+    <span id="presets"></span>
+    <button id="csv" title="Строки бюджета в CSV (Excel)">Скачать CSV</button>
+    <button id="reset" title="Вернуть значения сценария «Рекомендуемый»">Сбросить</button>
+  </div>
+</div>
+
+<div class="grid" id="controls"></div>
+
+<h2>Бюджет по статьям</h2>
+<div class="wrap"><table id="lines"></table></div>
+<p class="note">OpenRouter — цена в долларах × резерв, в рублях с комиссиями оплаты. Российские API — рубли с НДС × резерв. GPU — часы аренды × ₽/ч × резерв. Бесплатная квота GigaChat вычитается отдельной строкой.</p>
+
+<h2>Один прогон на разных моделях</h2>
+<div class="wrap"><table id="units"></table></div>
+<p class="note">Граф — разметка ФОП → понятия → синонимы → связи на полном объёме (история 5–11, физика 7–11). Вся автоматизация — граф плюс знания и задания по 12 срезам. Бенчмарк — выборка заданий × повторы. Рубли — с комиссиями оплаты, без резерва. Для GigaChat — цена пакетов, без бесплатной квоты.</p>
+
+<h2>Открытые модели на арендованной GPU</h2>
+<div class="wrap locals"><table id="locals"></table></div>
+<p class="note">Полный банк заданий, повторы плюс часы на установку. Скорость — токены в секунду под vLLM при 32–64 параллельных запросах; рассуждения считаются только у моделей с таким режимом.</p>
+
+<h2>Дообучение проверяющей модели: часы на один прогон QLoRA</h2>
+<div class="wrap"><table id="ftsizes"></table></div>
+
+<h2>Цены моделей</h2>
+<div class="wrap prices"><table id="prices"></table></div>
+<p class="note">За 1 млн токенов: OpenRouter — в долларах, российские модели — в рублях с НДС. Batch — у OpenAI, Anthropic, Google; у Яндекса — асинхронный режим. k — сколько токенов модели приходится на один токен o200k на русском тексте (Qwen замерен: 1,14–1,25; остальные — допущения).</p>
+
+<h2>Источники</h2>
+<ol class="src" id="sources"></ol>
+</main>
+
+<script>
+const DATA = {"P": {"rate": 83.9497, "fee_openrouter": 0.055, "fee_intermediary": 0.1, "retry": 1.1, "n_concepts": 4000, "tasks_per_concept": 5.5, "bench_tasks": 4000, "repeats": 3, "rubric_share": 0.125, "task_in": 128, "task_out": 80, "judge_in": 420, "judge_out": 130, "kappa_items": 1200, "kappa_in": 400, "kappa_out": 35, "errors_share": 0.04, "err_in": 2500, "err_out": 300, "rel_in": 16000, "pipe_reason_tokens": 1000, "n_train": 15000, "tok_per_ex": 650, "epochs": 3, "mfu": 0.22, "local_out": 100, "setup_hours": 1.0}, "MODELS": {"gpt6_astra": {"name": "GPT-6 Astra", "slug": "openai/gpt-6-astra", "cur": "USD", "inp": 10, "out": 50, "b_in": 5, "b_out": 25, "k": 1.0, "url": "https://openrouter.ai/openai/gpt-6-astra", "note": "флагман OpenAI"}, "gpt6_sol": {"name": "GPT-6 Sol", "slug": "openai/gpt-6-sol", "cur": "USD", "inp": 2, "out": 10, "b_in": 1, "b_out": 5, "k": 1.0, "url": "https://openrouter.ai/openai", "note": ""}, "gpt6_luna": {"name": "GPT-6 Luna", "slug": "openai/gpt-6-luna", "cur": "USD", "inp": 0.1, "out": 0.5, "b_in": 0.05, "b_out": 0.25, "k": 1.0, "url": "https://openrouter.ai/models/openai/gpt-6-luna", "note": ""}, "claude_fable51": {"name": "Claude Fable 5.1", "slug": "anthropic/claude-fable-5.1", "cur": "USD", "inp": 10, "out": 50, "b_in": 5, "b_out": 25, "k": 1.6, "url": "https://platform.claude.com/docs/en/about-claude/pricing", "note": "самая мощная Claude"}, "claude_opus55": {"name": "Claude Opus 5.5", "slug": "anthropic/claude-opus-5.5", "cur": "USD", "inp": 4, "out": 20, "b_in": 2, "b_out": 10, "k": 1.6, "url": "https://platform.claude.com/docs/en/about-claude/pricing", "note": "флагман Anthropic"}, "claude_sonnet55": {"name": "Claude Sonnet 5.5", "slug": "anthropic/claude-sonnet-5.5", "cur": "USD", "inp": 2, "out": 10, "b_in": 1, "b_out": 5, "k": 1.6, "url": "https://platform.claude.com/docs/en/about-claude/pricing", "note": ""}, "claude_haiku55": {"name": "Claude Haiku 5.5", "slug": "anthropic/claude-haiku-5.5", "cur": "USD", "inp": 0.1, "out": 0.5, "b_in": 0.05, "b_out": 0.25, "k": 1.6, "url": "https://platform.claude.com/docs/en/about-claude/pricing", "note": ""}, "gemini4_argon": {"name": "Gemini 4 Argon", "slug": "google/gemini-4-argon", "cur": "USD", "inp": 4, "out": 20, "b_in": 2, "b_out": 10, "k": 1.0, "url": "https://openrouter.ai/google/gemini-4-argon", "note": "самая мощная Gemini; акция $2/$10 до конца ноября"}, "gemini38_flash": {"name": "Gemini 3.8 Flash", "slug": "google/gemini-3.8-flash", "cur": "USD", "inp": 0.75, "out": 3.75, "b_in": 0.375, "b_out": 1.875, "k": 1.0, "url": "https://openrouter.ai/google", "note": ""}, "deepseek_v4pro": {"name": "DeepSeek V4 Pro", "slug": "deepseek/deepseek-v4-pro-0813", "cur": "USD", "inp": 1.32, "out": 3.96, "b_in": null, "b_out": null, "k": 1.2, "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813", "note": "типовая цена провайдеров"}, "deepseek_v41flash": {"name": "DeepSeek V4.1 Flash", "slug": "deepseek/deepseek-v4.1-flash", "cur": "USD", "inp": 0.3, "out": 1.2, "b_in": 0.112, "b_out": 0.336, "k": 1.2, "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash", "note": ""}, "qwen38_max": {"name": "Qwen3.8 Max", "slug": "qwen/qwen3.8-max-0902", "cur": "USD", "inp": 2, "out": 6, "b_in": null, "b_out": null, "k": 1.2, "url": "https://openrouter.ai/qwen/qwen3.8-max-0902", "note": "флагман Qwen"}, "qwen36_27b": {"name": "Qwen3.6 27B", "slug": "qwen/qwen3.6-27b", "cur": "USD", "inp": 0.25, "out": 2, "b_in": null, "b_out": null, "k": 1.2, "url": "https://openrouter.ai/qwen/qwen3.6-27b", "note": "открытые веса, Apache 2.0"}, "muse_wonder": {"name": "Meta Muse Wonder", "slug": "meta/muse-wonder", "cur": "USD", "inp": 4, "out": 20, "b_in": null, "b_out": null, "k": 1.1, "url": "https://openrouter.ai/meta/muse-wonder", "note": "новейшая модель Meta"}, "muse_spark13": {"name": "Meta Muse Spark 1.3", "slug": "meta/muse-spark-1.3", "cur": "USD", "inp": 1.25, "out": 4.25, "b_in": null, "b_out": null, "k": 1.1, "url": "https://openrouter.ai/meta", "note": ""}, "gigachat2max": {"name": "GigaChat 2 Max", "slug": "GigaChat-2-Max", "cur": "RUB", "inp": 650, "out": 650, "b_in": null, "b_out": null, "k": 1.0, "url": "https://developers.sber.ru/docs/ru/gigachat/tariffs/individual-tariffs", "note": "пакет 3 млн ток. = 1 950 ₽; бесплатно 25 млн ток. в год"}, "gigachat2pro": {"name": "GigaChat 2 Pro", "slug": "GigaChat-2-Pro", "cur": "RUB", "inp": 500, "out": 500, "b_in": null, "b_out": null, "k": 1.0, "url": "https://developers.sber.ru/docs/ru/gigachat/tariffs/individual-tariffs", "note": "пакет 3 млн ток. = 1 500 ₽; бесплатно 40 млн ток. в год"}, "gigachat2lite": {"name": "GigaChat 2 Lite", "slug": "GigaChat-2", "cur": "RUB", "inp": 65, "out": 65, "b_in": null, "b_out": null, "k": 1.0, "url": "https://developers.sber.ru/docs/ru/gigachat/tariffs/individual-tariffs", "note": "пакет 20 млн ток. = 1 300 ₽; бесплатно 250 млн ток. в год"}, "gigachat3ultra": {"name": "GigaChat 3 Ultra", "slug": "GigaChat-3-Ultra", "cur": "RUB", "inp": 650, "out": 650, "b_in": null, "b_out": null, "k": 1.0, "url": "https://developers.sber.ru/docs/ru/gigachat/tariffs/individual-tariffs", "note": "физлицам — только 50 млн бесплатных ток. в год; цена взята как у Max"}, "alice_llm": {"name": "Alice AI LLM", "slug": "Yandex AI Studio", "cur": "RUB", "inp": 500, "out": 1200, "b_in": 250, "b_out": 1020, "k": 1.0, "url": "https://aistudio.yandex.ru/ru/docs/ai-studio/pricing", "note": "флагман Яндекса; асинхронный режим дешевле"}, "alice_flash": {"name": "Alice AI LLM Flash", "slug": "Yandex AI Studio", "cur": "RUB", "inp": 100, "out": 200, "b_in": null, "b_out": null, "k": 1.0, "url": "https://aistudio.yandex.ru/ru/docs/ai-studio/pricing", "note": ""}, "yagpt51pro": {"name": "YandexGPT Pro 5.1", "slug": "Yandex AI Studio", "cur": "RUB", "inp": 800, "out": 800, "b_in": 410, "b_out": 410, "k": 1.0, "url": "https://aistudio.yandex.ru/ru/docs/ai-studio/pricing", "note": ""}, "yagptlite": {"name": "YandexGPT Lite", "slug": "Yandex AI Studio", "cur": "RUB", "inp": 200, "out": 200, "b_in": 100, "b_out": 100, "k": 1.0, "url": "https://aistudio.yandex.ru/ru/docs/ai-studio/pricing", "note": ""}}, "QUOTA": {"gigachat2max": 25000000.0, "gigachat2pro": 40000000.0, "gigachat2lite": 250000000.0, "gigachat3ultra": 50000000.0}, "GPU": {"RTX4090": {"rub": 82.76, "usd": 0.89, "tflops": 165}, "RTX5090": {"rub": 130.76, "usd": 1.19, "tflops": 209}, "A100": {"rub": 211.77, "usd": 1.79, "tflops": 312, "prefill": 2500, "decode": 550}, "H100": {"rub": 341.77, "usd": 3.99, "tflops": 989, "prefill": 7500, "decode": 950}}, "LOCAL": {"gigachat31_lightning": {"think": false, "name": "GigaChat 3.1 Lightning", "size": "10B MoE, 1,8B акт.", "lic": "MIT", "ru": true, "gpu": "RTX5090", "prefill": 12000, "decode": 2500, "url": "https://habr.com/ru/articles/1014478"}, "yagpt5lite8b": {"think": false, "name": "YandexGPT 5 Lite 8B", "size": "8B", "lic": "Яндекс, до 10 млн ток./мес. в коммерции", "ru": true, "gpu": "RTX4090", "prefill": 10000, "decode": 2300, "url": "https://3dnews.ru/1120554/yandeks-vipustilaiimodel-yandexgpt-5-lite-ona-pomoget-uskorit-itrazrabotku-i-issledovaniya"}, "tpro2": {"think": true, "name": "T-Pro 2 (Т-Банк)", "size": "32B", "lic": "Apache 2.0", "ru": true, "gpu": "A100", "prefill": 2500, "decode": 550, "url": "https://en.immers.cloud/ai/t-tech/"}, "qwen35_9b": {"think": true, "name": "Qwen3.5-9B", "size": "9B", "lic": "открытые веса", "ru": false, "gpu": "RTX4090", "prefill": 10000, "decode": 2300, "url": "https://openrouter.ai/qwen/qwen3.5-9b"}, "llama31_8b": {"think": false, "name": "Llama 3.1 8B", "size": "8B", "lic": "Llama 3.1", "ru": false, "gpu": "RTX4090", "prefill": 10000, "decode": 2300, "url": "https://openrouter.ai/meta"}, "qwen36_35b_a3b": {"think": true, "name": "Qwen3.6-35B-A3B", "size": "35B MoE, 3B акт.", "lic": "Apache 2.0", "ru": false, "gpu": "A100", "prefill": 8000, "decode": 1500, "url": "https://openrouter.ai/qwen"}, "gemma4_26b_a4b": {"think": false, "name": "Gemma 4 26B-A4B", "size": "25B MoE, 3,8B акт.", "lic": "Apache 2.0", "ru": false, "gpu": "A100", "prefill": 8000, "decode": 1500, "url": "https://openrouter.ai/google"}, "qwen36_27b_local": {"think": true, "name": "Qwen3.6-27B", "size": "27B", "lic": "Apache 2.0", "ru": false, "gpu": "A100", "prefill": 2500, "decode": 550, "url": "https://openrouter.ai/qwen/qwen3.6-27b"}, "gemma4_31b": {"think": false, "name": "Gemma 4 31B", "size": "31B", "lic": "Apache 2.0", "ru": false, "gpu": "A100", "prefill": 2500, "decode": 550, "url": "https://openrouter.ai/google/gemma-4-31b-it"}}, "PRESETS": {"Минимальный": {"giga_free": true, "judge_models": ["gpt6_sol", "claude_sonnet55"], "ref_model": "claude_opus55", "local_graph_runs": 3, "local_bench_runs": 2, "ft_gpu": "H100", "arbiter_reason": false, "ru_reason": 0, "intl_models": ["gpt6_astra", "claude_opus55", "gemini4_argon", "deepseek_v4pro", "qwen38_max", "muse_wonder"], "ru_models": ["gigachat2max", "gigachat3ultra", "alice_llm", "yagpt51pro"], "local_models": ["gigachat31_lightning", "yagpt5lite8b", "qwen35_9b", "llama31_8b", "qwen36_27b_local"], "intl_reason": 0, "local_reason": 0, "bench_batch": true, "bench_tasks": 4000, "judge_reason": false, "api_graph_runs": 1, "api_bench_runs": 0, "api_pipe_model": "deepseek_v41flash", "api_pipe_reason": false, "ref_runs": 0, "kappa_models": ["gpt6_sol", "claude_sonnet55", "gemini38_flash", "gigachat2max"], "kappa_reason": false, "remark_models": [], "teachers": ["gpt6_sol", "claude_sonnet55"], "teacher_reason": false, "teacher_batch": true, "arbiter": "claude_sonnet55", "ft_plan": [["27B", 27, 3]], "err_runs": 1, "api_reserve": 1.2, "gpu_reserve": 1.5}, "Рекомендуемый": {"giga_free": true, "judge_models": ["gpt6_sol", "claude_sonnet55"], "ref_model": "claude_opus55", "local_graph_runs": 3, "local_bench_runs": 2, "ft_gpu": "H100", "arbiter_reason": true, "ru_reason": 0, "intl_models": ["gpt6_astra", "claude_opus55", "gemini4_argon", "deepseek_v4pro", "qwen38_max", "muse_wonder"], "ru_models": ["gigachat2max", "gigachat3ultra", "alice_llm", "yagpt51pro"], "local_models": ["gigachat31_lightning", "yagpt5lite8b", "tpro2", "qwen35_9b", "llama31_8b", "qwen36_35b_a3b", "gemma4_26b_a4b", "qwen36_27b_local", "gemma4_31b"], "intl_reason": 400, "local_reason": 0, "bench_batch": true, "bench_tasks": 4000, "judge_reason": true, "api_graph_runs": 3, "api_bench_runs": 2, "api_pipe_model": "deepseek_v4pro", "api_pipe_reason": true, "ref_runs": 1, "kappa_models": ["gpt6_astra", "claude_opus55", "gemini4_argon", "alice_llm"], "kappa_reason": true, "remark_models": ["gpt6_sol"], "teachers": ["gpt6_sol", "claude_sonnet55"], "teacher_reason": true, "teacher_batch": true, "arbiter": "claude_opus55", "ft_plan": [["9B", 9, 2], ["27B", 27, 4], ["70B", 70, 1]], "err_runs": 3, "api_reserve": 1.3, "gpu_reserve": 2.0}, "Расширенный": {"giga_free": true, "judge_models": ["gpt6_sol", "claude_sonnet55"], "ref_model": "claude_opus55", "local_graph_runs": 3, "local_bench_runs": 2, "ft_gpu": "H100", "arbiter_reason": true, "ru_reason": 0, "intl_models": ["gpt6_astra", "claude_fable51", "gemini4_argon", "deepseek_v4pro", "qwen38_max", "muse_wonder"], "ru_models": ["gigachat2max", "gigachat3ultra", "alice_llm", "yagpt51pro"], "local_models": ["gigachat31_lightning", "yagpt5lite8b", "tpro2", "qwen35_9b", "llama31_8b", "qwen36_35b_a3b", "gemma4_26b_a4b", "qwen36_27b_local", "gemma4_31b"], "intl_reason": 1000, "local_reason": 1000, "bench_batch": false, "bench_tasks": 4000, "judge_reason": true, "api_graph_runs": 3, "api_bench_runs": 2, "api_pipe_model": "claude_sonnet55", "api_pipe_reason": true, "ref_runs": 2, "kappa_models": ["gpt6_astra", "claude_opus55", "gemini4_argon", "alice_llm"], "kappa_reason": true, "remark_models": ["gpt6_astra", "claude_opus55"], "teachers": ["gpt6_sol", "claude_sonnet55"], "teacher_reason": true, "teacher_batch": false, "arbiter": "claude_opus55", "ft_plan": [["9B", 9, 2], ["27B", 27, 6], ["70B", 70, 2]], "err_runs": 3, "api_reserve": 1.5, "gpu_reserve": 2.0}}, "STAGES": [["graph", "Граф и его проверка"], ["bench", "Знания и задания"], ["run", "Прогон моделей (бенчмарк)"], ["judge", "Проверяющая модель"], ["test", "Испытания"]], "SOURCES": [["OpenRouter: GPT-6 Astra", "https://openrouter.ai/openai/gpt-6-astra"], ["OpenRouter: модели OpenAI (GPT-6 Sol, Luna)", "https://openrouter.ai/openai"], ["Anthropic: цены Claude API, Batch, токенизатор", "https://platform.claude.com/docs/en/about-claude/pricing"], ["OpenRouter: Gemini 4 Argon", "https://openrouter.ai/google/gemini-4-argon"], ["eesel.ai: цены Gemini 4 Argon после акции", "https://www.eesel.ai/blog/gemini-4-argon-pricing"], ["OpenRouter: модели Google (Gemini 3.8 Flash, Gemma 4)", "https://openrouter.ai/google"], ["OpenRouter: DeepSeek V4 Pro 0813, цены провайдеров", "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"], ["OpenRouter: DeepSeek V4.1 Flash", "https://openrouter.ai/deepseek/deepseek-v4.1-flash"], ["OpenRouter: Qwen3.8 Max (0902)", "https://openrouter.ai/qwen/qwen3.8-max-0902"], ["OpenRouter: модели Qwen (Qwen3.6-35B-A3B и др.)", "https://openrouter.ai/qwen"], ["OpenRouter: Qwen3.6 27B, Apache 2.0", "https://openrouter.ai/qwen/qwen3.6-27b"], ["OpenRouter: Gemma 4 31B, Apache 2.0", "https://openrouter.ai/google/gemma-4-31b-it"], ["OpenRouter: Meta Muse Wonder", "https://openrouter.ai/meta/muse-wonder"], ["OpenRouter: тарифы, комиссия 5,5 %", "https://openrouter.ai/pricing"], ["Сбер: тарифы GigaChat API для физлиц", "https://developers.sber.ru/docs/ru/gigachat/tariffs/individual-tariffs"], ["vc.ru: бесплатная квота GigaChat и ограничение в один поток", "https://vc.ru/ai/3053056-gigachat-besplatnyy-limity-tokenov-ot-sbera"], ["Yandex AI Studio: тарифы (Alice AI LLM, YandexGPT), с НДС", "https://aistudio.yandex.ru/ru/docs/ai-studio/pricing"], ["Хабр: GigaChat 3.1 Ultra и Lightning, MIT", "https://habr.com/ru/articles/1014478"], ["3DNews: открытая YandexGPT 5 Lite 8B", "https://3dnews.ru/1120554/yandeks-vipustilaiimodel-yandexgpt-5-lite-ona-pomoget-uskorit-itrazrabotku-i-issledovaniya"], ["immers.cloud: модели Т-Банка (T-Pro 2.0, Apache 2.0)", "https://en.immers.cloud/ai/t-tech/"], ["vc.ru: оплата OpenRouter из России", "https://vc.ru/services/3008513-kak-popolnit-openrouter-iz-rossii"], ["EADaily: курс ЦБ на 15.10.2026", "https://eadaily.com/ru/news/2026/10/15/bank-rossii-i-novyy-kurs-rossii-k-troyke-valyut-na-15-oktyabrya"], ["immers.cloud: аренда GPU в рублях", "https://immers.cloud/gpu/"], ["RunPod: аренда GPU", "https://www.runpod.io/gpu-cloud/pricing"], ["Database Mart: vLLM на RTX 4090", "https://www.databasemart.com/blog/vllm-gpu-benchmark-rtx4090"], ["Database Mart: vLLM на A100 80 ГБ", "https://www.databasemart.com/blog/vllm-gpu-benchmark-a100-80gb"], ["Chen et al., Do NOT Think That Much for 2+3=? (ICML 2025)", "https://arxiv.org/html/2412.21187v2"], ["JudgeLM (ICLR 2025)", "https://arxiv.org/html/2310.17631v2"], ["POLLUX: русскоязычные судьи 7B и 32B", "https://arxiv.org/html/2505.24616v4"], ["M-Prometheus: многоязычные судьи 3B/7B/14B", "https://www.arxiv.org/pdf/2504.04953"], ["Prometheus 2", "https://arxiv.org/pdf/2405.01535"], ["Расчёт дообучения LLM для ВКР (Google-документ)", "https://docs.google.com/document/d/1Fp6koMDOFpr9VrXnW4fPm7I3cXH1s95n83FNPWgmgic/edit"]]};
+const KEY = "ozyam_budget_v2";
+const nf0 = new Intl.NumberFormat("ru-RU",{maximumFractionDigits:0});
+const nf1 = new Intl.NumberFormat("ru-RU",{minimumFractionDigits:1,maximumFractionDigits:1});
+const nf2 = new Intl.NumberFormat("ru-RU",{minimumFractionDigits:2,maximumFractionDigits:2});
+const usd = x => "$" + (Math.abs(x)>=100 ? nf0.format(x) : Math.abs(x)>=10 ? nf1.format(x) : nf2.format(x));
+const rubf = x => nf0.format(x) + " ₽";
+const fmt = x => nf0.format(x);
+function plural(n, one, few, many){ n=Math.abs(Math.round(n)); if(n%10===1&&n%100!==11) return one; if(n%10>=2&&n%10<=4&&!(n%100>=12&&n%100<=14)) return few; return many; }
+const runsTxt = n => n + " " + plural(n,"прогон","прогона","прогонов");
+const clone = o => JSON.parse(JSON.stringify(o));
+
+function defaults(presetName){
+  return { preset: presetName, p: clone(DATA.P), models: clone(DATA.MODELS), gpu: clone(DATA.GPU), local: clone(DATA.LOCAL), c: clone(DATA.PRESETS[presetName]) };
+}
+let S;
+try { const raw = localStorage.getItem(KEY); S = raw ? JSON.parse(raw) : null; } catch(e){ S = null; }
+if(!S || !S.p || !S.models || !S.c || !S.local) S = defaults("Рекомендуемый");
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
+
+// ------------------------------------------------------------------ модель (та же, что в budget2.py)
+function graphStages(p){
+  const nc = p.n_concepts;
+  return [["уроки_история",36,267995,493*24],["уроки_физика",27,280589,374*24],["экзамен",63,527549,627*31],
+          ["умения",21,86969,410*27],["понятия",158,331709,277781],["синонимы",54,90700,29500],
+          ["связи",nc/8,nc/8*p.rel_in,nc*94.8]];
+}
+function benchStages(p){
+  const nc=p.n_concepts, nt=nc*p.tasks_per_concept;
+  return [["знания",nc/4,nc*2080,nc*221.5],["формулы",5,6103*5*1.5,2692*5*1.5],["задания",60,32884*12,14679*12],
+          ["цепочки_роли",5,3788*5,3346*5],["цепочки",25,13831*5,1788*5],["дистракторы",nt*33/917,nt*120.7,nt*21.6]];
+}
+function sumSt(st, retry){ let r=0,i=0,o=0; for(const x of st){ r+=x[1]; i+=x[2]; o+=x[3]; } return [r*retry,i*retry,o*retry]; }
+const isUSD = m => S.models[m] && S.models[m].cur === "USD";
+function native(m, tin, tout, batch, reason){
+  const X=S.models[m]; if(!X) return 0;
+  const useB = batch && X.b_in!=null && X.b_in!=="";
+  const pi = useB ? +X.b_in : +X.inp, po = useB ? +X.b_out : +X.out;
+  return (tin*X.k*pi + (tout*X.k + (reason||0))*po)/1e6;
+}
+function toRub(amount, cur){ return cur==="USD" ? amount*S.p.rate*(1+S.p.fee_openrouter)*(1+S.p.fee_intermediary) : amount; }
+function rubM(m, tin, tout, batch, reason){ return toRub(native(m,tin,tout,batch,reason), S.models[m].cur); }
+function hoursPipeline(g, tin, tout, reason){ const G=S.gpu[g]; return (tin*1.2/G.prefill + (tout*1.2 + (reason||0))/G.decode)/3600*1.2; }
+function hoursLocalPass(lm, reasonPerTask){
+  const X=S.local[lm], p=S.p, nb=p.n_concepts*p.tasks_per_concept;
+  return (nb*p.task_in*1.2/X.prefill + nb*(p.local_out + reasonPerTask)/X.decode)/3600*1.2;
+}
+function qloraHours(g, nB, tokens){ return 4.8*nB*1e9*tokens/(S.gpu[g].tflops*1e12*S.p.mfu)/3600; }
+const NM = m => (S.models[m]||{name:m}).name;
+
+function plan(){
+  const p=S.p, c=S.c, g=c.ft_gpu, RT=p.pipe_reason_tokens;
+  const [gr,gi,go]=sumSt(graphStages(p),p.retry), [br,bi,bo]=sumSt(benchStages(p),p.retry);
+  const L=[], giga={};
+  const api=(stage,item,costs)=>{ let u=0, r=0; for(const [m,v] of costs){ if(isUSD(m)) u+=v; else r+=v; if(m in DATA.QUOTA) giga[m]=(giga[m]||0)+v; } L.push({stage,item,kind:"api",usd:u,rub_native:r}); };
+  const gpul=(stage,item,hours,gname)=>L.push({stage,item,kind:"gpu",hours,gpu:gname,rub_direct:hours*S.gpu[gname].rub});
+  const R = c.api_pipe_reason ? RT : 0;
+  // граф
+  if(c.api_graph_runs>0){ const m=c.api_pipe_model; api("graph",`Разметка графа через API: ${runsTxt(c.api_graph_runs)}, ${NM(m)}`,[[m,c.api_graph_runs*native(m,gi,go,false,gr*R)]]); }
+  if(c.ref_runs>0){ const m=c.ref_model; api("graph",`Эталонная разметка графа сильной моделью: ${runsTxt(c.ref_runs)}, ${NM(m)}`,[[m,c.ref_runs*native(m,gi,go,false,gr*RT)]]); }
+  if(c.local_graph_runs>0) gpul("graph",`Вспомогательная локальная модель: ${runsTxt(c.local_graph_runs)} графа`, c.local_graph_runs*hoursPipeline(g,gi,go,gr*RT), g);
+  const km=c.kappa_models.filter(Boolean);
+  if(km.length) api("graph",`Проверка графа: LLM-разметчики для каппы Коэна — ${km.map(NM).join(", ")} (${fmt(p.kappa_items)} элементов каждому)`,
+      km.map(m=>[m,native(m,p.kappa_items*p.kappa_in,p.kappa_items*p.kappa_out,false,p.kappa_items*(c.kappa_reason&&isUSD(m)?150:0))]));
+  const rst=graphStages(p).filter(s=>["понятия","синонимы","связи"].includes(s[0])); const [rr,ri,ro]=sumSt(rst,p.retry);
+  for(const m of c.remark_models.filter(Boolean)) api("graph",`Полная независимая переразметка понятий и связей: ${NM(m)}`,[[m,native(m,ri,ro,false,isUSD(m)?rr*RT:0)]]);
+  // знания
+  if(c.api_bench_runs>0){ const m=c.api_pipe_model; api("bench",`Знания и задания через API: ${runsTxt(c.api_bench_runs)}, ${NM(m)}`,[[m,c.api_bench_runs*native(m,bi,bo,false,br*R)]]); }
+  if(c.local_bench_runs>0) gpul("bench",`Вспомогательная локальная модель: ${runsTxt(c.local_bench_runs)} знаний и заданий`, c.local_bench_runs*hoursPipeline(g,bi,bo,br*RT), g);
+  // бенчмарк
+  const n=c.bench_tasks, intl=c.intl_models.filter(Boolean), ru=c.ru_models.filter(Boolean);
+  api("run",`Калибровочный прогон: 50 заданий × ${intl.length+ru.length} моделей × 2 режима`, intl.concat(ru).map(m=>[m,native(m,100*p.task_in,100*p.task_out,false,100*(intl.includes(m)?700:0))]));
+  if(intl.length) api("run",`Зарубежные флагманы: ${intl.length} моделей × ${p.repeats} повтора × ${fmt(n)} заданий (рассуждения ~${fmt(c.intl_reason)} ток./задание${c.bench_batch?", batch":""})`,
+      intl.map(m=>[m,p.repeats*native(m,n*p.task_in,n*p.task_out,c.bench_batch,n*c.intl_reason)]));
+  if(ru.length) api("run",`Российские модели: ${ru.map(NM).join(", ")} × ${p.repeats} повтора × ${fmt(n)} заданий${c.bench_batch?" (Яндекс — асинхронный режим)":""}`,
+      ru.map(m=>[m,p.repeats*native(m,n*p.task_in,n*p.task_out,c.bench_batch,n*c.ru_reason)]));
+  const nb=p.n_concepts*p.tasks_per_concept, loc=c.local_models.filter(m=>m && S.local[m]);
+  for(const lm of loc){ const X=S.local[lm], rsn=X.think?c.local_reason:0, h=hoursLocalPass(lm,rsn)*p.repeats+p.setup_hours;
+    gpul("run",`Открытая модель ${X.name} (${X.size}) на полном банке ~${fmt(nb)} заданий × ${p.repeats} повтора${rsn?", с рассуждениями":""}`, h, X.gpu); }
+  const nj=n*(intl.length+ru.length)*p.rubric_share*p.repeats, njLoc=nb*loc.length*p.rubric_share*p.repeats;
+  const jm=c.judge_models.filter(Boolean);
+  if(jm.length) api("run",`Внешний судья для развёрнутых ответов API-моделей: ${fmt(nj)} оценок — ${jm.map(NM).join(", ")}`,
+      jm.map(m=>[m,native(m,nj/jm.length*p.judge_in,nj/jm.length*p.judge_out,c.bench_batch,nj/jm.length*(c.judge_reason?500:0))]));
+  if(c.err_runs>0) api("run",`Разбор ошибок: вердикты проверяющей модели (Claude Opus 5.5), ${c.err_runs} ${plural(c.err_runs,"итерация","итерации","итераций")}`,
+      [["claude_opus55",c.err_runs*native("claude_opus55",n*p.errors_share*p.err_in,n*p.errors_share*p.err_out,false,n*p.errors_share*1000)]]);
+  // проверяющая модель
+  const ntr=p.n_train, tch=c.teachers.filter(Boolean);
+  const costs=tch.map(m=>[m,native(m,ntr*p.judge_in,ntr*p.judge_out,c.teacher_batch,ntr*(c.teacher_reason?500:0))]);
+  if(c.arbiter) costs.push([c.arbiter,native(c.arbiter,0.15*ntr*p.judge_in,0.15*ntr*p.judge_out,false,0.15*ntr*(c.arbiter_reason?1000:0))]);
+  costs.push(["gpt6_luna",native("gpt6_luna",3000*300,3000*150,false,0)]);
+  api("judge",`Разметка обучающего набора судьи: ${tch.map(NM).join(" + ")}${c.arbiter?`, арбитр ${NM(c.arbiter)} на 15 % расхождений`:""}; 3 000 синтетических ответов`, costs);
+  const T=ntr*p.tok_per_ex*p.epochs; let hft=0, runsTot=0; for(const r of c.ft_plan){ hft+=r[2]*qloraHours(g,r[1],T); runsTot+=r[2]; }
+  gpul("judge",`Дообучение QLoRA: ${c.ft_plan.filter(r=>r[2]).map(r=>r[0]+" × "+r[2]).join(", ")} (${fmt(ntr)} примеров × ${p.epochs} эпохи)`, hft, g);
+  const nEval=runsTot*2600+nj+njLoc;
+  gpul("judge",`Оценка судьи и проверка им всех развёрнутых ответов: ${fmt(nEval)}`, hoursPipeline(g,nEval*490/1.2,nEval*160/1.2,0), g);
+  // бесплатная квота GigaChat для физлиц
+  if(c.giga_free){ const free=[]; for(const [m,v] of Object.entries(giga)){ const f=-Math.min(v, DATA.QUOTA[m]*S.models[m].out/1e6); if(f) free.push([m,f]); }
+    if(free.length) api("run","Бесплатная квота GigaChat для физлиц: "+free.map(([m])=>`${NM(m)} — ${fmt(DATA.QUOTA[m]/1e6)} млн ток.`).join(", "), free); }
+  // испытания
+  const hCtl=(nb*p.task_in*1.2/S.gpu.A100.prefill + nb*p.local_out/S.gpu.A100.decode)/3600*1.2 + 2;
+  gpul("test","Испытания: установка сборки и полный прогон банка контрольной моделью 25–35B", hCtl, "A100");
+  // итоги
+  const tot={or_usd:0,or_rub:0,ru_rub:0,gpu_rub:0};
+  for(const x of L){
+    if(x.kind==="api"){ x.usd_res=x.usd*c.api_reserve; x.rub_or=toRub(x.usd_res,"USD"); x.rub_ru=x.rub_native*c.api_reserve; x.rub=x.rub_or+x.rub_ru; tot.or_usd+=x.usd_res; tot.or_rub+=x.rub_or; tot.ru_rub+=x.rub_ru; }
+    else { x.rub=x.rub_direct*c.gpu_reserve; tot.gpu_rub+=x.rub; }
+  }
+  tot.total_rub=tot.or_rub+tot.ru_rub+tot.gpu_rub; tot.total_usd=tot.total_rub/p.rate;
+  return {L,tot};
+}
+
+function unitRows(){
+  const p=S.p, c=S.c, RT=p.pipe_reason_tokens, n=c.bench_tasks;
+  const [gr,gi,go]=sumSt(graphStages(p),p.retry), [br,bi,bo]=sumSt(benchStages(p),p.retry);
+  const rst=graphStages(p).filter(s=>["понятия","синонимы","связи"].includes(s[0])); const [rr,ri,ro]=sumSt(rst,p.retry);
+  const out={};
+  for(const m of Object.keys(S.models)){
+    const f=(a,b,bt,r)=>rubM(m,a,b,bt,r), U=isUSD(m);
+    out[m]={graph:f(gi,go,false,0), graph_r:U?f(gi,go,false,gr*RT):null, full:f(gi+bi,go+bo,false,0), full_r:U?f(gi+bi,go+bo,false,(gr+br)*RT):null,
+      b0:p.repeats*f(n*p.task_in,n*p.task_out,false,0), b400:U?p.repeats*f(n*p.task_in,n*p.task_out,false,n*400):null,
+      b1000:U?p.repeats*f(n*p.task_in,n*p.task_out,false,n*1000):null,
+      bb:(S.models[m].b_in!=null&&S.models[m].b_in!=="") ? p.repeats*f(n*p.task_in,n*p.task_out,true,U?n*400:0) : null,
+      kappa:f(p.kappa_items*p.kappa_in,p.kappa_items*p.kappa_out,false,0), kappa_r:U?f(p.kappa_items*p.kappa_in,p.kappa_items*p.kappa_out,false,p.kappa_items*150):null,
+      remark:f(ri,ro,false,U?rr*RT:0)};
+  }
+  return {rows:out, vol:{gr,gi,go,br,bi,bo}};
+}
+
+// ------------------------------------------------------------------ интерфейс
+const $ = id => document.getElementById(id);
+function get(path){ return path.split(".").reduce((o,k)=>o==null?o:o[k], S); }
+function set(path, v){ const ks=path.split("."); let o=S; for(let i=0;i<ks.length-1;i++) o=o[ks[i]]; o[ks[ks.length-1]]=v; }
+function modelOptions(sel, allowNone, cur){
+  let h = allowNone ? `<option value="">—</option>` : "";
+  for(const [k,M] of Object.entries(S.models)) if(!cur || M.cur===cur) h += `<option value="${k}"${k===sel?" selected":""}>${M.name}</option>`;
+  return h;
+}
+function num(path, label, hint, step){ return `<div class="row"><label>${label}${hint?`<small>${hint}</small>`:""}</label><input type="number" step="${step||"any"}" data-path="${path}" value="${get(path)}"></div>`; }
+function chk(path, label){ return `<div class="chk"><input type="checkbox" id="c_${path}" data-path="${path}"${get(path)?" checked":""}><label for="c_${path}">${label}</label></div>`; }
+function sel(path, label, allowNone, cur){ return `<div class="row wide"><label>${label}</label><select data-path="${path}">${modelOptions(get(path), allowNone, cur)}</select></div>`; }
+function ensureLen(arr, n){ while(arr.length<n) arr.push(""); return arr; }
+
+function renderControls(){
+  const c=S.c; ensureLen(c.intl_models,6); ensureLen(c.ru_models,4); ensureLen(c.kappa_models,4); ensureLen(c.remark_models,2); ensureLen(c.judge_models,2); ensureLen(c.teachers,2);
+  let h="";
+  h+=`<fieldset><legend>Курс и оплата</legend>
+    ${num("p.rate","Курс, ₽ за $","ЦБ РФ на 15.10.2026: 83,9497")}
+    ${num("p.fee_openrouter","Комиссия OpenRouter","доля: 0,055 = 5,5 %")}
+    ${num("p.fee_intermediary","Комиссия посредника","доля; ориентир 0,05–0,20")}
+    ${num("c.api_reserve","Резерв на API, ×","перезапуски и отладка")}
+    ${num("c.gpu_reserve","Резерв на GPU, ×","простои, неидеальная загрузка")}
+  </fieldset>`;
+  h+=`<fieldset><legend>Объём</legend>
+    ${num("p.n_concepts","Понятий в полном графе","оценка по пилоту: 4 000")}
+    ${num("p.tasks_per_concept","Заданий на понятие","банк = понятия × задания")}
+    ${num("c.bench_tasks","Заданий для API-моделей","выборка из банка")}
+    ${num("p.repeats","Повторов прогона")}
+    ${num("p.rubric_share","Доля развёрнутых ответов","физика 7: 105/839 = 0,125")}
+    ${num("p.retry","Повторы в конвейере, ×","ответы с ошибками формата")}
+    ${num("p.rel_in","Вход на запрос «связи», ток.","пилот: 12,7–24,3 тыс.")}
+    ${num("p.task_in","Вход на задание, ток.","замер: 121")}${num("p.task_out","Ответ без рассуждений, ток.","замер GigaChat: 49")}
+  </fieldset>`;
+  h+=`<fieldset><legend>Бенчмарк: зарубежные модели (OpenRouter)</legend>`;
+  for(let i=0;i<6;i++) h+=sel(`c.intl_models.${i}`,`Модель ${i+1}`,true,"USD");
+  h+=num("c.intl_reason","Рассуждения, ток. на задание","0 — выкл.; ~400 — низкие; ~1 000 — по умолчанию");
+  h+=chk("c.bench_batch","Batch и асинхронный режим, где есть");
+  h+=sel("c.judge_models.0","Судья развёрнутых ответов 1",true)+sel("c.judge_models.1","Судья 2",true);
+  h+=chk("c.judge_reason","Судья с рассуждениями (~500 ток.)");
+  h+=num("c.err_runs","Итераций разбора ошибок");
+  h+=`</fieldset>`;
+  h+=`<fieldset><legend>Бенчмарк: российские модели (₽)</legend>`;
+  for(let i=0;i<4;i++) h+=sel(`c.ru_models.${i}`,`Модель ${i+1}`,true,"RUB");
+  h+=num("c.ru_reason","Рассуждения, ток. на задание","у текущих тарифов — 0");
+  h+=chk("c.giga_free","Учесть бесплатную квоту GigaChat для физлиц (на год)");
+  h+=`<p class="note">Квота: Lite — 250 млн, Pro — 40 млн, Max — 25 млн, Ultra — 50 млн токенов. Один поток генерации на физлицо.</p>`;
+  h+=`</fieldset>`;
+  h+=`<fieldset><legend>Бенчмарк: открытые модели на GPU</legend>
+    ${Object.entries(S.local).map(([k,X])=>`<div class="chk"><input type="checkbox" id="lm_${k}" data-local="${k}"${c.local_models.includes(k)?" checked":""}><label for="lm_${k}">${X.name} <span class="note">${X.size}, ${X.gpu}</span></label></div>`).join("")}
+    ${num("c.local_reason","Рассуждения, ток. на задание","только у моделей с таким режимом")}
+    ${num("p.local_out","Ответ, ток.")}
+    ${num("p.setup_hours","Установка, ч на модель")}
+  </fieldset>`;
+  h+=`<fieldset><legend>Граф и знания (конвейер)</legend>
+    ${sel("c.api_pipe_model","Модель конвейера через API")}
+    ${num("c.api_graph_runs","Прогонов графа через API")}
+    ${num("c.api_bench_runs","Прогонов знаний и заданий через API")}
+    ${chk("c.api_pipe_reason","Рассуждения в конвейере")}
+    ${num("p.pipe_reason_tokens","Рассуждения, ток. на запрос")}
+    ${sel("c.ref_model","Эталонная разметка графа")}
+    ${num("c.ref_runs","Эталонных прогонов")}
+    ${num("c.local_graph_runs","Локальных прогонов графа")}
+    ${num("c.local_bench_runs","Локальных прогонов знаний и заданий")}
+  </fieldset>`;
+  h+=`<fieldset><legend>Проверка графа (каппа Коэна)</legend>
+    ${[0,1,2,3].map(i=>sel(`c.kappa_models.${i}`,`Разметчик ${i+1}`,true)).join("")}
+    ${num("p.kappa_items","Элементов выборки на разметчика")}
+    ${chk("c.kappa_reason","Разметчики с рассуждениями (зарубежные)")}
+    ${sel("c.remark_models.0","Полная переразметка 1",true)}${sel("c.remark_models.1","Полная переразметка 2",true)}
+  </fieldset>`;
+  h+=`<fieldset class="ft"><legend>Проверяющая модель</legend>
+    ${sel("c.teachers.0","Учитель 1",true)}${sel("c.teachers.1","Учитель 2",true)}
+    ${chk("c.teacher_reason","Учителя с рассуждениями")}${chk("c.teacher_batch","Учителя через batch")}
+    ${sel("c.arbiter","Арбитр расхождений",true)}${chk("c.arbiter_reason","Арбитр с рассуждениями")}
+    ${num("p.n_train","Обучающих примеров")}${num("p.tok_per_ex","Токенов на пример")}${num("p.epochs","Эпох")}
+    ${num("p.mfu","MFU QLoRA","доля пиковой производительности; 0,22")}
+    <div class="row wide"><label>GPU для локальных работ</label><select data-path="c.ft_gpu">${Object.keys(S.gpu).filter(k=>S.gpu[k].prefill).map(k=>`<option${k===c.ft_gpu?" selected":""}>${k}</option>`).join("")}</select></div>
+    ${c.ft_plan.map((r,i)=>`<div class="row"><label>Прогоны: ${r[0]}<small><input type="number" step="1" data-path="c.ft_plan.${i}.1" value="${r[1]}"> млрд параметров</small></label><input type="number" step="1" data-path="c.ft_plan.${i}.2" value="${r[2]}"></div>`).join("")}
+  </fieldset>`;
+  h+=`<fieldset><legend>Аренда GPU (immers.cloud)</legend>
+    ${Object.keys(S.gpu).map(k=>num(`gpu.${k}.rub`,`${k}: ₽/ч`)).join("")}
+    ${["A100","H100"].map(k=>num(`gpu.${k}.prefill`,`${k}: чтение промпта, ток./с`,"конвейер 27–32B")+num(`gpu.${k}.decode`,`${k}: генерация, ток./с`)).join("")}
+  </fieldset>`;
+  $("controls").innerHTML=h;
+}
+
+function renderPresets(){ $("presets").innerHTML = Object.keys(DATA.PRESETS).map(n=>`<button data-preset="${n}" class="${S.preset===n?"active":""}">${n}</button>`).join(" "); }
+
+function renderResults(){
+  const {L,tot}=plan();
+  $("cards").innerHTML = `
+    <div class="card total"><div class="k">Итого</div><div class="v">${rubf(tot.total_rub)}</div><div class="s">≈ ${usd(tot.total_usd)}</div></div>
+    <div class="card"><div class="k">OpenRouter (зарубежные)</div><div class="v">${rubf(tot.or_rub)}</div><div class="s">${usd(tot.or_usd)} с резервом, до комиссий</div></div>
+    <div class="card"><div class="k">Российские API</div><div class="v">${rubf(tot.ru_rub)}</div><div class="s">с НДС и резервом</div></div>
+    <div class="card"><div class="k">Аренда GPU</div><div class="v">${rubf(tot.gpu_rub)}</div><div class="s">с резервом</div></div>`;
+  let h=`<tr><th>Статья</th><th class="n">Объём до резерва</th><th class="n">₽ с резервом</th></tr>`;
+  for(const [s,name] of DATA.STAGES){
+    const rows=L.filter(x=>x.stage===s); if(!rows.length) continue;
+    h+=`<tr class="stage"><td colspan="2">${name}</td><td class="n">${nf0.format(rows.reduce((a,x)=>a+x.rub,0))}</td></tr>`;
+    for(const x of rows){
+      let vol, tag;
+      if(x.kind==="api"){ const parts=[]; if(x.usd) parts.push(usd(x.usd)); if(x.rub_native) parts.push(rubf(x.rub_native)); vol=parts.join(" + ")||"—"; tag = x.usd&&!x.rub_native ? `<span class="tag or">OpenRouter</span>` : !x.usd&&x.rub_native ? `<span class="tag ru">РФ API</span>` : `<span class="tag or">API</span>`; }
+      else { vol=nf1.format(x.hours)+" ч "+x.gpu; tag=`<span class="tag gpu">GPU</span>`; }
+      h+=`<tr><td>${tag}${x.item}</td><td class="n">${vol}</td><td class="n">${nf0.format(x.rub)}</td></tr>`;
+    }
+  }
+  h+=`<tr class="tot"><td>Итого</td><td class="n">≈ ${usd(tot.total_usd)}</td><td class="n">${nf0.format(tot.total_rub)}</td></tr>`;
+  $("lines").innerHTML=h;
+  window.__LAST={L,tot};
+  // один прогон
+  const p=S.p, c=S.c, {rows,vol}=unitRows(), n=c.bench_tasks, d=v=>v==null?"—":nf0.format(v);
+  let u=`<tr><th>Модель</th><th class="n">Граф</th><th class="n">Граф с рассужд.</th><th class="n">Вся автоматизация</th><th class="n">С рассужд.</th><th class="n">Бенчмарк ${fmt(n)} × ${p.repeats}</th><th class="n">~400 ток.</th><th class="n">~1 000 ток.</th><th class="n">Batch / асинхр.${""}</th><th class="n">Каппа, ${fmt(p.kappa_items)} эл.</th><th class="n">Каппа с рассужд.</th><th class="n">Переразметка</th></tr>`;
+  for(const cur of ["USD","RUB"]){
+    u+=`<tr class="grp"><td colspan="12">${cur==="USD"?"Зарубежные модели (OpenRouter), ₽ с комиссиями":"Российские модели, ₽ с НДС"}</td></tr>`;
+    for(const [m,r] of Object.entries(rows)) if(S.models[m].cur===cur)
+      u+=`<tr><td>${S.models[m].name}</td><td class="n">${d(r.graph)}</td><td class="n">${d(r.graph_r)}</td><td class="n">${d(r.full)}</td><td class="n">${d(r.full_r)}</td><td class="n">${d(r.b0)}</td><td class="n">${d(r.b400)}</td><td class="n">${d(r.b1000)}</td><td class="n">${d(r.bb)}</td><td class="n">${d(r.kappa)}</td><td class="n">${d(r.kappa_r)}</td><td class="n">${d(r.remark)}</td></tr>`;
+  }
+  u+=`<tr class="grp"><td colspan="12">Своя модель ~27–32B на арендованной GPU, ₽ (часы)</td></tr>`;
+  for(const g of Object.keys(S.gpu).filter(k=>S.gpu[k].prefill)){
+    const RT=p.pipe_reason_tokens, H=(a,b,r)=>hoursPipeline(g,a,b,r), R=S.gpu[g].rub, cell=h=>`${nf0.format(h*R)} (${nf1.format(h)} ч)`;
+    u+=`<tr><td>Аренда ${g}</td><td class="n">${cell(H(vol.gi,vol.go,0))}</td><td class="n">${cell(H(vol.gi,vol.go,vol.gr*RT))}</td><td class="n">${cell(H(vol.gi+vol.bi,vol.go+vol.bo,0))}</td><td class="n">${cell(H(vol.gi+vol.bi,vol.go+vol.bo,(vol.gr+vol.br)*RT))}</td><td class="n" colspan="7"></td></tr>`;
+  }
+  $("units").innerHTML=u;
+  // открытые модели
+  let lh=`<tr><th>Модель</th><th>Размер</th><th>Лицензия</th><th>GPU</th><th class="n">Чтение, ток./с</th><th class="n">Генерация, ток./с</th><th class="n">Ч на проход</th><th class="n">× ${p.repeats} + установка, ₽</th><th class="n">С рассужд. (${fmt(c.local_reason||1000)} ток.), ₽</th></tr>`;
+  for(const [k,X] of Object.entries(S.local)){
+    const h0=hoursLocalPass(k,0), R=S.gpu[X.gpu].rub, rr_=c.local_reason||1000;
+    lh+=`<tr><td><a href="${X.url}" target="_blank" rel="noopener">${X.name}</a></td><td>${X.size}</td><td>${X.lic}</td>
+      <td><select data-path="local.${k}.gpu">${Object.keys(S.gpu).map(g=>`<option${g===X.gpu?" selected":""}>${g}</option>`).join("")}</select></td>
+      <td class="n"><input type="number" step="any" data-path="local.${k}.prefill" value="${X.prefill}"></td><td class="n"><input type="number" step="any" data-path="local.${k}.decode" value="${X.decode}"></td>
+      <td class="n">${nf1.format(h0)}</td><td class="n">${nf0.format((h0*p.repeats+p.setup_hours)*R)}</td><td class="n">${X.think?nf0.format((hoursLocalPass(k,rr_)*p.repeats+p.setup_hours)*R):"—"}</td></tr>`;
+  }
+  $("locals").innerHTML=lh;
+  // QLoRA
+  const T=p.n_train*p.tok_per_ex*p.epochs, G=Object.keys(S.gpu);
+  let fh=`<tr><th>Размер модели</th>${G.map(g=>`<th class="n">${g}: ч</th><th class="n">${g}: ₽</th>`).join("")}<th class="n">H100 RunPod, $</th></tr>`;
+  for(const nB of [9,14,27,32,70]) fh+=`<tr><td>${nB} млрд</td>${G.map(g=>{const hh=qloraHours(g,nB,T);return `<td class="n">${nf1.format(hh)}</td><td class="n">${nf0.format(hh*S.gpu[g].rub)}</td>`;}).join("")}<td class="n">${usd(qloraHours("H100",nB,T)*S.gpu.H100.usd)}</td></tr>`;
+  $("ftsizes").innerHTML=fh+`<tr><td colspan="${2+2*G.length}" class="note">Обучение: ${fmt(p.n_train)} примеров × ${fmt(p.tok_per_ex)} ток. × ${p.epochs} эпохи = ${nf2.format(T/1e6)} млн токенов; FLOPs = 4,8 × N × токены; MFU ${nf2.format(p.mfu)}. Реальное время обычно в 1,5–3 раза больше.</td></tr>`;
+}
+
+function renderPrices(){
+  let h=`<tr><th>Модель</th><th>Валюта</th><th>Вход</th><th>Выход</th><th>Batch / асинхр. вход</th><th>Batch / асинхр. выход</th><th>k</th><th>Примечание</th></tr>`;
+  for(const [k,M] of Object.entries(S.models)){
+    const f=fld=>`<input type="number" step="any" data-path="models.${k}.${fld}" value="${M[fld]==null||M[fld]===""?"":(+M[fld]).toFixed(4).replace(/\.?0+$/,"")}">`;
+    h+=`<tr><td><a href="${M.url}" target="_blank" rel="noopener">${M.name}</a></td><td>${M.cur==="USD"?"$":"₽"}</td><td>${f("inp")}</td><td>${f("out")}</td><td>${f("b_in")}</td><td>${f("b_out")}</td><td>${f("k")}</td><td class="note">${M.note||""}</td></tr>`;
+  }
+  $("prices").innerHTML=h;
+}
+function renderSources(){ $("sources").innerHTML = DATA.SOURCES.map(s=>`<li><a href="${s[1]}" target="_blank" rel="noopener">${s[0]}</a></li>`).join(""); }
+function renderAll(){ renderPresets(); renderControls(); renderPrices(); renderResults(); }
+
+document.addEventListener("input", e=>{
+  const t=e.target;
+  if(t.dataset && t.dataset.local){ const k=t.dataset.local, L=S.c.local_models.filter(x=>x!==k); if(t.checked) L.push(k); S.c.local_models=Object.keys(S.local).filter(x=>L.includes(x)); S.preset=null; save(); renderPresets(); renderResults(); return; }
+  const path=t.dataset && t.dataset.path; if(!path) return;
+  let v;
+  if(t.type==="checkbox") v=t.checked;
+  else if(t.tagName==="SELECT") v=t.value;
+  else { if(t.value===""){ v = path.startsWith("models.") && /b_(in|out)$/.test(path) ? null : 0; } else v=parseFloat(t.value); if(Number.isNaN(v)) return; }
+  set(path, v); S.preset=null; save(); renderPresets(); renderResults();
+});
+document.addEventListener("click", e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.preset){ S=defaults(b.dataset.preset); save(); renderAll(); }
+  if(b.id==="reset"){ S=defaults("Рекомендуемый"); save(); renderAll(); }
+  if(b.id==="csv"){
+    const {L,tot}=plan(), names=Object.fromEntries(DATA.STAGES);
+    const rows=[["Этап","Статья","Тип","$ (с резервом)","₽ российских API (с резервом)","Часы GPU (с резервом)","₽"]].concat(L.map(x=>[names[x.stage],x.item,x.kind==="api"?"API":"GPU",
+      x.usd_res?x.usd_res.toFixed(2).replace(".",","):"", x.rub_ru?Math.round(x.rub_ru):"", x.hours!=null?(x.hours*S.c.gpu_reserve).toFixed(1).replace(".",","):"", Math.round(x.rub)]));
+    rows.push(["","Итого","","","","",Math.round(tot.total_rub)]);
+    const csv="﻿"+rows.map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(";")).join("\r\n");
+    const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"})); a.download="budget_OZYAM-FOP.csv"; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href); a.remove();},500);
+  }
+});
+renderAll(); renderSources();
+</script>
+</body>
+</html>
