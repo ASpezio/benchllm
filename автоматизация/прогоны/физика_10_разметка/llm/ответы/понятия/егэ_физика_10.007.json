@@ -1,0 +1,21 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.2.1.2", "concepts": [
+  {"name": "Тепловое движение", "type": "явление", "evidence": "Тепловое движение атомов и молекул вещества", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.3", "concepts": [
+  {"name": "Взаимодействие частиц вещества", "type": "явление", "evidence": "Взаимодействие частиц вещества", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.4", "concepts": [
+  {"name": "Диффузия", "type": "явление", "evidence": "Диффузия", "role": "main"},
+  {"name": "Броуновское движение", "type": "явление", "evidence": "Броуновское движение", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.5", "concepts": [
+  {"name": "Идеальный газ", "type": "модель", "evidence": "Модель идеального газа", "role": "main"},
+  {"name": "Молекулярно-кинетическая теория", "type": "понятие", "evidence": "в МКТ", "aliases": ["МКТ"], "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.6", "concepts": [
+  {"name": "Основное уравнение молекулярно-кинетической теории", "type": "закон", "evidence": "основное уравнение МКТ", "formula": "p = \\frac{1}{3} m_{0} n \\overline{\\upsilon^{2}} = \\frac{2}{3} n \\cdot \\overline{\\left( \\frac{m_{0} \\upsilon^{2}}{2} \\right)} = \\frac{2}{3} n \\cdot \\overline{\\varepsilon_{\\text{пост}}}", "aliases": ["Основное уравнение МКТ"], "role": "main"},
+  {"name": "Давление газа", "type": "величина", "evidence": "Связь между давлением", "role": "part"},
+  {"name": "Средняя кинетическая энергия теплового движения частиц", "type": "величина", "evidence": "средней кинетической энергией поступательного теплового движения молекул", "role": "part"},
+  {"name": "Идеальный газ", "type": "модель", "evidence": "молекул идеального газа", "role": "part"},
+  {"name": "Масса молекулы", "type": "величина", "evidence": "масса одной молекулы", "role": "part"},
+  {"name": "Количество молекул в единице объёма", "type": "величина", "evidence": "концентрация молекул", "formula": "n = \\frac{N}{V}", "aliases": ["Концентрация молекул"], "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.7", "concepts": [
+  {"name": "Абсолютная температура", "type": "величина", "evidence": "Абсолютная температура", "formula": "T = t^{\\circ} + 273 \\text{K}", "role": "main"}]}
+]}

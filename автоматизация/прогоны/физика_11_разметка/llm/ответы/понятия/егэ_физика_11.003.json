@@ -1,0 +1,22 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.3.4.4", "concepts": [
+  {"name": "ЭДС индукции в движущемся проводнике", "type": "величина", "evidence": "ЭДС индукции в прямом проводнике длиной l", "formula": "\\vert \\mathcal{E}_{i}\\vert = Bl\\upsilon \\cos \\alpha; \\vert \\mathcal{E}_{i}\\vert = Bl\\upsilon", "role": "main"},
+  {"name": "Однородное магнитное поле", "type": "понятие", "evidence": "в однородном магнитном поле", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.4.5", "concepts": [
+  {"name": "Правило Ленца", "type": "закон", "evidence": "Правило Ленца", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.3.4.6", "concepts": [
+  {"name": "Индуктивность", "type": "величина", "evidence": "Индуктивность", "formula": "L = \\frac{\\Phi}{I}; \\Phi = LI", "role": "main"},
+  {"name": "Самоиндукция", "type": "явление", "evidence": "Самоиндукция", "role": "part"},
+  {"name": "ЭДС самоиндукции", "type": "величина", "evidence": "ЭДС самоиндукции", "formula": "\\mathcal{E}_{si} = -L \\frac{\\Delta I}{\\Delta t} \\bigg\\vert_{\\Delta t \\to 0} = -LI'_t", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.4.7", "concepts": [
+  {"name": "Энергия магнитного поля катушки с током", "type": "величина", "evidence": "Энергия магнитного поля катушки с током", "formula": "W_L = \\frac{LI^2}{2}", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.3.5.1", "concepts": [
+  {"name": "Колебательный контур", "type": "понятие", "evidence": "Колебательный контур", "role": "main"},
+  {"name": "Свободные электромагнитные колебания", "type": "явление", "evidence": "Свободные электромагнитные колебания", "formula": "q(t) = q_{\\max} \\sin(\\omega t + \\varphi_0); I(t) = q'_t = \\omega q_{\\max} \\cos(\\omega t + \\varphi_0) = I_{\\max} \\cos(\\omega t + \\varphi_0)", "role": "part"},
+  {"name": "Идеальный колебательный контур", "type": "модель", "evidence": "в идеальном колебательном контуре", "role": "part"},
+  {"name": "Формула Томсона", "type": "закон", "evidence": "Формула Томсона", "formula": "T = 2\\pi \\sqrt{LC}; \\omega = \\frac{2\\pi}{T} = \\frac{1}{\\sqrt{LC}}", "role": "part"},
+  {"name": "Связь амплитуд заряда и силы тока в колебательном контуре", "type": "закон", "evidence": "Связь амплитуды заряда конденсатора с амплитудой силы тока", "formula": "q_{\\max} = \\frac{I_{\\max}}{\\omega}", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.5.2", "concepts": [
+  {"name": "Закон сохранения энергии в колебательном контуре", "type": "закон", "evidence": "Закон сохранения энергии в идеальном колебательном контуре", "formula": "\\frac{CU^2}{2} + \\frac{LI^2}{2} = \\frac{CU^2_{\\max}}{2} = \\frac{LI^2_{\\max}}{2} = const", "role": "main"},
+  {"name": "Идеальный колебательный контур", "type": "модель", "evidence": "идеальном колебательном контуре", "role": "part"}]}
+]}

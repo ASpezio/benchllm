@@ -1,0 +1,21 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.3.3.2", "concepts": [
+  {"name": "Опыт Эрстеда", "type": "опыт", "evidence": "Опыт Эрстеда", "role": "main"},
+  {"name": "Магнитное поле электрического тока", "type": "явление", "evidence": "Магнитное поле проводника с током", "role": "part"},
+  {"name": "Магнитное поле прямого проводника с током", "type": "понятие", "evidence": "длинного прямого проводника", "role": "part"},
+  {"name": "Магнитное поле кругового тока", "type": "понятие", "evidence": "замкнутого кольцевого проводника", "role": "part"},
+  {"name": "Магнитное поле катушки с током", "type": "понятие", "evidence": "катушки с током", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.3.3", "concepts": [
+  {"name": "Сила Ампера", "type": "величина", "evidence": "Сила Ампера, её направление и величина", "formula": "F_{\\text{А}} = IBl \\sin \\alpha", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.3.3.4", "concepts": [
+  {"name": "Сила Лоренца", "type": "величина", "evidence": "Сила Лоренца, её направление и величина", "formula": "F_{\\text{Лор}} = \\vert q\\vert \\upsilon B \\sin \\alpha", "role": "main"},
+  {"name": "Движение заряженной частицы в однородном магнитном поле", "type": "явление", "evidence": "Движение заряженной частицы в однородном магнитном поле", "role": "part"},
+  {"name": "Однородное магнитное поле", "type": "понятие", "evidence": "однородном магнитном поле", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.4.1", "concepts": [
+  {"name": "Магнитный поток", "type": "величина", "evidence": "Поток вектора магнитной индукции", "formula": "\\Phi = B_{n}S = BS \\cos \\alpha", "aliases": ["Поток вектора магнитной индукции"], "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.3.4.2", "concepts": [
+  {"name": "Электромагнитная индукция", "type": "явление", "evidence": "Явление электромагнитной индукции", "role": "main"},
+  {"name": "ЭДС индукции", "type": "величина", "evidence": "ЭДС индукции", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.4.3", "concepts": [
+  {"name": "Закон электромагнитной индукции", "type": "закон", "evidence": "Закон электромагнитной индукции Фарадея", "formula": "\\left. \\mathcal{E}_{i} = -\\frac{\\Delta \\Phi}{\\Delta t} \\right\\vert_{\\Delta t \\to 0} = -\\Phi'_{t}", "aliases": ["Закон электромагнитной индукции Фарадея"], "role": "main"}]}
+]}

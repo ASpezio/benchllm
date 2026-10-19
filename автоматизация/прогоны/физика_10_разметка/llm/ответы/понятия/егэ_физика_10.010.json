@@ -1,0 +1,25 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.2.2.9", "concepts": [
+  {"name": "Принцип действия тепловой машины", "type": "понятие", "evidence": "Принципы действия тепловых машин", "role": "main"},
+  {"name": "Тепловая машина", "type": "прибор", "evidence": "тепловых машин", "role": "part"},
+  {"name": "КПД тепловой машины", "type": "величина", "evidence": "КПД", "formula": "\\eta = \\frac{A_{\\text{за цикл}}}{Q_{\\text{нагр}}} = \\frac{Q_{\\text{нагр}} - \\vert Q_{\\text{хол}}\\vert}{Q_{\\text{нагр}}} = 1 - \\frac{\\vert Q_{\\text{хол}}\\vert}{Q_{\\text{нагр}}}", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.1.1", "concepts": [
+  {"name": "Электризация тел", "type": "явление", "evidence": "Электризация тел и её проявления", "role": "main"},
+  {"name": "Электрический заряд", "type": "величина", "evidence": "Электрический заряд", "role": "part"},
+  {"name": "Виды электрических зарядов", "type": "понятие", "evidence": "Два вида заряда", "role": "part"},
+  {"name": "Элементарный электрический заряд", "type": "величина", "evidence": "Элементарный электрический заряд", "role": "part"},
+  {"name": "Закон сохранения электрического заряда", "type": "закон", "evidence": "Закон сохранения электрического заряда", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.1.10", "concepts": [
+  {"name": "Параллельное соединение конденсаторов", "type": "понятие", "evidence": "Параллельное соединение конденсаторов", "formula": "q = q_1 + q_2 + \\ldots; U_1 = U_2 = \\ldots; C_{\\text{паралл}} = C_1 + C_2 + \\ldots", "role": "main"},
+  {"name": "Последовательное соединение конденсаторов", "type": "понятие", "evidence": "Последовательное соединение конденсаторов", "formula": "U = U_1 + U_2 + \\dots; q_1 = q_2 = \\dots; \\frac{1}{C_{\\text{посл}}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\dots", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.1.11", "concepts": [
+  {"name": "Энергия заряженного конденсатора", "type": "величина", "evidence": "Энергия заряженного конденсатора", "formula": "W_C = \\frac{qU}{2} = \\frac{CU^2}{2} = \\frac{q^2}{2C}", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.3.1.2", "concepts": [
+  {"name": "Взаимодействие заряженных тел", "type": "явление", "evidence": "Взаимодействие зарядов", "role": "main"},
+  {"name": "Точечный заряд", "type": "модель", "evidence": "Точечные заряды", "role": "part"},
+  {"name": "Закон Кулона", "type": "закон", "evidence": "Закон Кулона", "formula": "F = k \\frac{\\vert q_1\\vert \\cdot \\vert q_2\\vert}{\\varepsilon r^2} = \\frac{1}{4\\pi\\varepsilon\\varepsilon_0} \\cdot \\frac{\\vert q_1\\vert \\cdot \\vert q_2\\vert}{r^2}", "role": "part"},
+  {"name": "Диэлектрическая проницаемость", "type": "величина", "evidence": "с диэлектрической проницаемостью", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.1.3", "concepts": [
+  {"name": "Электрическое поле", "type": "понятие", "evidence": "Электрическое поле", "role": "main"},
+  {"name": "Действие электрического поля на электрические заряды", "type": "явление", "evidence": "Его действие на электрические заряды", "role": "part"}]}
+]}

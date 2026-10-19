@@ -1,0 +1,3188 @@
+[
+ {
+  "source": "C.history.gosudarstva-evropy-v-xviii-veke",
+  "target": "C.history.evropa-v-nachale-xix-veka",
+  "type": "prerequisites_for",
+  "why": "строй европейских государств сложился в XVIII в."
+ },
+ {
+  "source": "C.history.evropa-v-nachale-xix-veka",
+  "target": "C.history.razvitie-evropeyskih-stran-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "начало XIX в. — первый этап развития европейских стран"
+ },
+ {
+  "source": "C.history.konsulstvo",
+  "target": "C.history.imperiya-napoleona-i",
+  "type": "prerequisites_for",
+  "why": "консул Наполеон в 1804 г. провозгласил себя императором"
+ },
+ {
+  "source": "C.history.napoleon-bonapart",
+  "target": "C.history.imperiya-napoleona-i",
+  "type": "participant_of",
+  "why": "Наполеон — основатель и император Французской империи"
+ },
+ {
+  "source": "C.history.imperiya-napoleona-i",
+  "target": "C.history.evropa-v-nachale-xix-veka",
+  "type": "part_of",
+  "why": "империя Наполеона господствовала в Европе начала XIX в."
+ },
+ {
+  "source": "C.history.frantsuzskaya-revolyutsiya",
+  "target": "C.history.reformy-napoleona-i",
+  "type": "prerequisites_for",
+  "why": "реформы Наполеона закрепили завоевания революции"
+ },
+ {
+  "source": "C.history.napoleon-bonapart",
+  "target": "C.history.reformy-napoleona-i",
+  "type": "participant_of",
+  "why": "реформы проведены Наполеоном"
+ },
+ {
+  "source": "C.history.zakonodatelstvo-napoleona-i",
+  "target": "C.history.reformy-napoleona-i",
+  "type": "part_of",
+  "why": "Гражданский кодекс — главный итог реформ Наполеона"
+ },
+ {
+  "source": "C.history.voyny-antifrantsuzskih-koalitsiy",
+  "target": "C.history.napoleonovskie-voyny",
+  "type": "prerequisites_for",
+  "why": "наполеоновские войны продолжили войны с революционной Францией"
+ },
+ {
+  "source": "C.history.imperiya-napoleona-i",
+  "target": "C.history.napoleonovskie-voyny",
+  "type": "prerequisites_for",
+  "why": "войны вела империя Наполеона за господство в Европе"
+ },
+ {
+  "source": "C.history.napoleon-bonapart",
+  "target": "C.history.napoleonovskie-voyny",
+  "type": "participant_of",
+  "why": "Наполеон — полководец, развязавший войны"
+ },
+ {
+  "source": "C.history.napoleonovskie-voyny",
+  "target": "C.history.evropa-v-nachale-xix-veka",
+  "type": "part_of",
+  "why": "наполеоновские войны — главное событие Европы начала XIX в."
+ },
+ {
+  "source": "C.history.voyny-antifrantsuzskih-koalitsiy",
+  "target": "C.history.antinapoleonovskie-koalitsii",
+  "type": "prerequisites_for",
+  "why": "антинаполеоновские коалиции продолжили антифранцузские союзы"
+ },
+ {
+  "source": "C.history.antinapoleonovskie-koalitsii",
+  "target": "C.history.napoleonovskie-voyny",
+  "type": "part_of",
+  "why": "коалиции держав воевали против Наполеона"
+ },
+ {
+  "source": "C.history.napoleonovskie-voyny",
+  "target": "C.history.politika-napoleona-v-zavoevannyh-stranah",
+  "type": "prerequisites_for",
+  "why": "политика в странах, завоёванных в ходе войн"
+ },
+ {
+  "source": "C.history.otechestvennaya-voyna-1812-goda",
+  "target": "C.history.napoleonovskie-voyny",
+  "type": "part_of",
+  "why": "поход Наполеона в Россию — часть наполеоновских войн"
+ },
+ {
+  "source": "C.history.otechestvennaya-voyna-1812-goda",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "война 1812 г. — важнейшее событие внешней политики России"
+ },
+ {
+  "source": "C.history.napoleon-bonapart",
+  "target": "C.history.otechestvennaya-voyna-1812-goda",
+  "type": "participant_of",
+  "why": "Наполеон возглавил поход Великой армии в Россию"
+ },
+ {
+  "source": "C.history.otechestvennaya-voyna-1812-goda",
+  "target": "C.history.krushenie-imperii-napoleona-i",
+  "type": "prerequisites_for",
+  "why": "гибель Великой армии в России начала крушение империи"
+ },
+ {
+  "source": "C.history.imperiya-napoleona-i",
+  "target": "C.history.krushenie-imperii-napoleona-i",
+  "type": "prerequisites_for",
+  "why": "крушение империи Наполеона"
+ },
+ {
+  "source": "C.history.antinapoleonovskie-koalitsii",
+  "target": "C.history.krushenie-imperii-napoleona-i",
+  "type": "prerequisites_for",
+  "why": "армии коалиции в 1814–1815 гг. разгромили Наполеона"
+ },
+ {
+  "source": "C.history.krushenie-imperii-napoleona-i",
+  "target": "C.history.venskiy-kongress",
+  "type": "prerequisites_for",
+  "why": "конгресс решал судьбу Европы после разгрома Наполеона"
+ },
+ {
+  "source": "C.history.venskiy-kongress",
+  "target": "C.history.evropa-v-nachale-xix-veka",
+  "type": "part_of",
+  "why": "Венский конгресс завершил эпоху наполеоновских войн"
+ },
+ {
+  "source": "C.history.venskiy-kongress",
+  "target": "C.history.svyaschennyy-soyuz",
+  "type": "prerequisites_for",
+  "why": "Священный союз создан после конгресса для охраны его решений"
+ },
+ {
+  "source": "C.history.venskiy-kongress",
+  "target": "C.history.venskaya-sistema-mezhdunarodnyh-otnosheniy",
+  "type": "prerequisites_for",
+  "why": "Венский конгресс заложил основы новой системы отношений"
+ },
+ {
+  "source": "C.history.svyaschennyy-soyuz",
+  "target": "C.history.venskaya-sistema-mezhdunarodnyh-otnosheniy",
+  "type": "part_of",
+  "why": "Священный союз — опора Венской системы"
+ },
+ {
+  "source": "C.history.absolyutizm",
+  "target": "C.history.konstitutsionnaya-monarhiya",
+  "type": "prerequisites_for",
+  "why": "конституционная монархия ограничила власть абсолютного монарха"
+ },
+ {
+  "source": "C.history.parlamentskaya-monarhiya",
+  "target": "C.history.konstitutsionnaya-monarhiya",
+  "type": "is_a",
+  "why": "парламентская монархия — вид конституционной монархии"
+ },
+ {
+  "source": "C.history.konstitutsionnaya-monarhiya",
+  "target": "C.history.razvitie-evropeyskih-stran-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "утверждение конституционных монархий — черта развития Европы XIX в."
+ },
+ {
+  "source": "C.history.promyshlennyy-perevorot",
+  "target": "C.history.industrialnoe-obschestvo",
+  "type": "prerequisites_for",
+  "why": "промышленный переворот создал индустриальное общество"
+ },
+ {
+  "source": "C.history.industrialnoe-obschestvo",
+  "target": "C.history.sotsializm",
+  "type": "prerequisites_for",
+  "why": "социалисты критиковали несправедливость индустриального общества"
+ },
+ {
+  "source": "C.history.sotsialisty-utopisty",
+  "target": "C.history.sotsializm",
+  "type": "part_of",
+  "why": "утописты — ранние социалисты"
+ },
+ {
+  "source": "C.history.fabrichnye-rabochie",
+  "target": "C.history.rabochee-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "рабочее движение — борьба рабочих за свои права"
+ },
+ {
+  "source": "C.history.luddizm",
+  "target": "C.history.rabochee-dvizhenie",
+  "type": "part_of",
+  "why": "луддизм — ранняя форма рабочего движения"
+ },
+ {
+  "source": "C.history.politika-napoleona-v-zavoevannyh-stranah",
+  "target": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "type": "prerequisites_for",
+  "why": "сопротивление Наполеону пробудило национальное самосознание народов"
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "target": "C.history.razvitie-evropeyskih-stran-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "национальные движения — черта развития Европы XIX в."
+ },
+ {
+  "source": "C.history.frantsuzskaya-revolyutsiya",
+  "target": "C.history.konservatizm",
+  "type": "prerequisites_for",
+  "why": "консерватизм возник как реакция на революцию"
+ },
+ {
+  "source": "C.history.prosveschenie",
+  "target": "C.history.liberalizm",
+  "type": "prerequisites_for",
+  "why": "либерализм вырос из идей Просвещения"
+ },
+ {
+  "source": "C.history.liberalizm",
+  "target": "C.history.radikalizm",
+  "type": "prerequisites_for",
+  "why": "радикалы требовали более решительных перемен, чем либералы"
+ },
+ {
+  "source": "C.history.konservatizm",
+  "target": "C.history.politicheskie-partii",
+  "type": "prerequisites_for",
+  "why": "консервативные партии выражали идеи консерватизма"
+ },
+ {
+  "source": "C.history.liberalizm",
+  "target": "C.history.politicheskie-partii",
+  "type": "prerequisites_for",
+  "why": "либеральные партии выражали идеи либерализма"
+ },
+ {
+  "source": "C.history.tori",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "тори — одна из первых политических партий"
+ },
+ {
+  "source": "C.history.vigi",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "виги — одна из первых политических партий"
+ },
+ {
+  "source": "C.history.evropa-v-nachale-xix-veka",
+  "target": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "type": "prerequisites_for",
+  "why": "после 1815 г. Европа жила по решениям Венского конгресса"
+ },
+ {
+  "source": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "target": "C.history.razvitie-evropeyskih-stran-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "1815–1840-е гг. — этап развития европейских стран"
+ },
+ {
+  "source": "C.history.krushenie-imperii-napoleona-i",
+  "target": "C.history.restavratsiya-vo-frantsii",
+  "type": "prerequisites_for",
+  "why": "после падения Наполеона во Франции восстановлены Бурбоны"
+ },
+ {
+  "source": "C.history.restavratsiya-vo-frantsii",
+  "target": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "type": "part_of",
+  "why": "Реставрация — период истории Франции 1815–1830 гг."
+ },
+ {
+  "source": "C.history.restavratsiya-vo-frantsii",
+  "target": "C.history.evropeyskie-revolyutsii-1830-goda",
+  "type": "prerequisites_for",
+  "why": "Июльская революция 1830 г. свергла Бурбонов"
+ },
+ {
+  "source": "C.history.evropeyskie-revolyutsii-1830-goda",
+  "target": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "type": "part_of",
+  "why": "революции 1830 г. — события 1815–1840-х гг."
+ },
+ {
+  "source": "C.history.evropeyskie-revolyutsii-1830-goda",
+  "target": "C.history.iyulskaya-monarhiya",
+  "type": "prerequisites_for",
+  "why": "Июльская монархия установлена революцией 1830 г."
+ },
+ {
+  "source": "C.history.iyulskaya-monarhiya",
+  "target": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "type": "part_of",
+  "why": "Июльская монархия — период истории Франции 1830–1848 гг."
+ },
+ {
+  "source": "C.history.iyulskaya-monarhiya",
+  "target": "C.history.evropeyskie-revolyutsii-1848-1849-godov",
+  "type": "prerequisites_for",
+  "why": "Февральская революция 1848 г. свергла Июльскую монархию"
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "target": "C.history.evropeyskie-revolyutsii-1848-1849-godov",
+  "type": "prerequisites_for",
+  "why": "национальные требования — одна из причин «весны народов»"
+ },
+ {
+  "source": "C.history.evropeyskie-revolyutsii-1848-1849-godov",
+  "target": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "type": "part_of",
+  "why": "революции 1848–1849 гг. завершили период"
+ },
+ {
+  "source": "C.history.evropeyskie-revolyutsii-1848-1849-godov",
+  "target": "C.history.vtoraya-respublika-vo-frantsii",
+  "type": "prerequisites_for",
+  "why": "Вторая республика провозглашена революцией 1848 г."
+ },
+ {
+  "source": "C.history.vtoraya-respublika-vo-frantsii",
+  "target": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "type": "part_of",
+  "why": "Вторая республика — Франция 1848–1852 гг."
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "target": "C.history.osvobozhdenie-gretsii",
+  "type": "prerequisites_for",
+  "why": "греки восстали за национальную независимость"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.osvobozhdenie-gretsii",
+  "type": "prerequisites_for",
+  "why": "Греция освободилась от османского господства"
+ },
+ {
+  "source": "C.history.osvobozhdenie-gretsii",
+  "target": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "type": "part_of",
+  "why": "независимость Греции — итог освободительного движения 1820-х гг."
+ },
+ {
+  "source": "C.history.parlament",
+  "target": "C.history.parlamentskaya-reforma-v-velikobritanii",
+  "type": "prerequisites_for",
+  "why": "реформа изменила порядок выборов в парламент"
+ },
+ {
+  "source": "C.history.parlamentskaya-reforma-v-velikobritanii",
+  "target": "C.history.reformy-v-velikobritanii",
+  "type": "part_of",
+  "why": "реформа 1832 г. — первая из парламентских реформ"
+ },
+ {
+  "source": "C.history.parlamentskaya-reforma-v-velikobritanii",
+  "target": "C.history.chartizm",
+  "type": "prerequisites_for",
+  "why": "рабочие, не получившие права голоса, выдвинули Хартию"
+ },
+ {
+  "source": "C.history.chartizm",
+  "target": "C.history.rabochee-dvizhenie",
+  "type": "part_of",
+  "why": "чартизм — массовое рабочее движение в Англии"
+ },
+ {
+  "source": "C.history.marksizm",
+  "target": "C.history.sotsializm",
+  "type": "is_a",
+  "why": "марксизм — течение социализма"
+ },
+ {
+  "source": "C.history.sotsialisty-utopisty",
+  "target": "C.history.marksizm",
+  "type": "prerequisites_for",
+  "why": "Маркс опирался на критику капитализма утопистами"
+ },
+ {
+  "source": "C.history.velikobritaniya",
+  "target": "C.history.viktorianskaya-epoha",
+  "type": "prerequisites_for",
+  "why": "викторианская эпоха — период истории Великобритании"
+ },
+ {
+  "source": "C.history.promyshlennyy-perevorot",
+  "target": "C.history.masterskaya-mira",
+  "type": "prerequisites_for",
+  "why": "после промышленного переворота Англия стала «мастерской мира»"
+ },
+ {
+  "source": "C.history.masterskaya-mira",
+  "target": "C.history.viktorianskaya-epoha",
+  "type": "part_of",
+  "why": "промышленное первенство — черта викторианской Англии"
+ },
+ {
+  "source": "C.history.reformy-v-velikobritanii",
+  "target": "C.history.viktorianskaya-epoha",
+  "type": "part_of",
+  "why": "политические и социальные реформы проведены в викторианскую эпоху"
+ },
+ {
+  "source": "C.history.britanskaya-kolonialnaya-imperiya",
+  "target": "C.history.kolonialnaya-imperiya",
+  "type": "is_a",
+  "why": "Британская империя — крупнейшая колониальная империя"
+ },
+ {
+  "source": "C.history.velikobritaniya",
+  "target": "C.history.britanskaya-kolonialnaya-imperiya",
+  "type": "prerequisites_for",
+  "why": "империю создала Великобритания"
+ },
+ {
+  "source": "C.history.britanskoe-vladychestvo-v-indii",
+  "target": "C.history.britanskaya-kolonialnaya-imperiya",
+  "type": "part_of",
+  "why": "Индия — главное владение Британской империи"
+ },
+ {
+  "source": "C.history.dominion",
+  "target": "C.history.britanskaya-kolonialnaya-imperiya",
+  "type": "part_of",
+  "why": "доминионы — самоуправляемые части Британской империи"
+ },
+ {
+  "source": "C.history.vtoraya-respublika-vo-frantsii",
+  "target": "C.history.imperiya-napoleona-iii",
+  "type": "prerequisites_for",
+  "why": "президент республики в 1852 г. стал императором"
+ },
+ {
+  "source": "C.history.napoleon-iii",
+  "target": "C.history.imperiya-napoleona-iii",
+  "type": "participant_of",
+  "why": "Наполеон III — император Второй империи"
+ },
+ {
+  "source": "C.history.napoleon-iii",
+  "target": "C.history.vtoraya-respublika-vo-frantsii",
+  "type": "participant_of",
+  "why": "Луи Наполеон был президентом Второй республики"
+ },
+ {
+  "source": "C.history.imperiya-napoleona-iii",
+  "target": "C.history.franko-germanskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война Второй империи с Пруссией"
+ },
+ {
+  "source": "C.history.franko-germanskaya-voyna",
+  "target": "C.history.obedinenie-germanii",
+  "type": "part_of",
+  "why": "победа над Францией завершила объединение Германии"
+ },
+ {
+  "source": "C.history.franko-germanskaya-voyna",
+  "target": "C.history.parizhskaya-kommuna",
+  "type": "prerequisites_for",
+  "why": "коммуна возникла после поражения Франции в войне"
+ },
+ {
+  "source": "C.history.usilenie-vlasti-gabsburgov-v-italii",
+  "target": "C.history.obedinenie-italii",
+  "type": "prerequisites_for",
+  "why": "итальянцы боролись за освобождение от власти Австрии и единство"
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "target": "C.history.obedinenie-italii",
+  "type": "prerequisites_for",
+  "why": "объединение Италии — итог национального движения итальянцев"
+ },
+ {
+  "source": "C.history.obedinenie-italii",
+  "target": "C.history.razvitie-evropeyskih-stran-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "образование единого государства в Италии"
+ },
+ {
+  "source": "C.history.k-kavur",
+  "target": "C.history.obedinenie-italii",
+  "type": "participant_of",
+  "why": "Кавур — руководитель объединения Италии вокруг Пьемонта"
+ },
+ {
+  "source": "C.history.dzh-garibaldi",
+  "target": "C.history.obedinenie-italii",
+  "type": "participant_of",
+  "why": "Гарибальди — герой борьбы за объединение Италии"
+ },
+ {
+  "source": "C.history.viktor-emmanuil-ii",
+  "target": "C.history.obedinenie-italii",
+  "type": "participant_of",
+  "why": "Виктор Эммануил II — первый король единой Италии"
+ },
+ {
+  "source": "C.history.vozvyshenie-prussii",
+  "target": "C.history.obedinenie-germanii",
+  "type": "prerequisites_for",
+  "why": "объединение Германии произошло вокруг Пруссии"
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "target": "C.history.obedinenie-germanii",
+  "type": "prerequisites_for",
+  "why": "движение за объединение германских государств"
+ },
+ {
+  "source": "C.history.o-bismark",
+  "target": "C.history.obedinenie-germanii",
+  "type": "participant_of",
+  "why": "Бисмарк объединил Германию «железом и кровью»"
+ },
+ {
+  "source": "C.history.severogermanskiy-soyuz",
+  "target": "C.history.obedinenie-germanii",
+  "type": "part_of",
+  "why": "Северогерманский союз — этап объединения Германии"
+ },
+ {
+  "source": "C.history.obedinenie-germanii",
+  "target": "C.history.germanskaya-imperiya",
+  "type": "prerequisites_for",
+  "why": "итог объединения — провозглашение Германской империи"
+ },
+ {
+  "source": "C.history.germanskaya-imperiya",
+  "target": "C.history.razvitie-evropeyskih-stran-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "создание Германской империи изменило карту Европы"
+ },
+ {
+  "source": "C.history.o-bismark",
+  "target": "C.history.germanskaya-imperiya",
+  "type": "participant_of",
+  "why": "Бисмарк — первый канцлер Германской империи"
+ },
+ {
+  "source": "C.history.germanskaya-imperiya",
+  "target": "C.history.sotsialnaya-politika-v-germanii",
+  "type": "prerequisites_for",
+  "why": "социальная политика Германской империи"
+ },
+ {
+  "source": "C.history.rabochee-dvizhenie",
+  "target": "C.history.sotsialnaya-politika-v-germanii",
+  "type": "prerequisites_for",
+  "why": "социальные законы — ответ на рост рабочего движения"
+ },
+ {
+  "source": "C.history.derzhava-avstriyskih-gabsburgov",
+  "target": "C.history.avstro-vengriya",
+  "type": "prerequisites_for",
+  "why": "в 1867 г. империя Габсбургов стала Австро-Венгрией"
+ },
+ {
+  "source": "C.history.avstro-vengriya",
+  "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "Австро-Венгрия — крупнейшее государство Центральной Европы"
+ },
+ {
+  "source": "C.history.yuzhnye-slavyane",
+  "target": "C.history.osvoboditelnaya-borba-yuzhnyh-slavyan",
+  "type": "prerequisites_for",
+  "why": "борьба южнославянских народов за освобождение"
+ },
+ {
+  "source": "C.history.polozhenie-pokorennyh-narodov-v-osmanskoy-imperii",
+  "target": "C.history.osvoboditelnaya-borba-yuzhnyh-slavyan",
+  "type": "prerequisites_for",
+  "why": "славяне восставали против османского гнёта"
+ },
+ {
+  "source": "C.history.osvoboditelnaya-borba-yuzhnyh-slavyan",
+  "target": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "type": "part_of",
+  "why": "борьба южных славян — часть национальных движений"
+ },
+ {
+  "source": "C.history.osvoboditelnaya-borba-yuzhnyh-slavyan",
+  "target": "C.history.russko-turetskaya-voyna-1877-1878-godov",
+  "type": "prerequisites_for",
+  "why": "Россия вступила в войну в защиту балканских славян"
+ },
+ {
+  "source": "C.history.russko-turetskaya-voyna-1877-1878-godov",
+  "target": "C.history.russko-turetskie-voyny",
+  "type": "part_of",
+  "why": "одна из русско-турецких войн"
+ },
+ {
+  "source": "C.history.sever-ssha",
+  "target": "C.history.ssha",
+  "type": "part_of",
+  "why": "Север — промышленная часть США"
+ },
+ {
+  "source": "C.history.yug-ssha",
+  "target": "C.history.ssha",
+  "type": "part_of",
+  "why": "Юг — рабовладельческая часть США"
+ },
+ {
+  "source": "C.history.rabstvo",
+  "target": "C.history.yug-ssha",
+  "type": "prerequisites_for",
+  "why": "хозяйство Юга держалось на рабском труде на плантациях"
+ },
+ {
+  "source": "C.history.rabstvo",
+  "target": "C.history.abolitsionizm",
+  "type": "prerequisites_for",
+  "why": "аболиционисты добивались отмены рабства"
+ },
+ {
+  "source": "C.history.abolitsionizm",
+  "target": "C.history.grazhdanskaya-voyna-v-ssha",
+  "type": "prerequisites_for",
+  "why": "спор о рабстве привёл к войне"
+ },
+ {
+  "source": "C.history.sever-ssha",
+  "target": "C.history.grazhdanskaya-voyna-v-ssha",
+  "type": "prerequisites_for",
+  "why": "война Севера против Юга"
+ },
+ {
+  "source": "C.history.yug-ssha",
+  "target": "C.history.grazhdanskaya-voyna-v-ssha",
+  "type": "prerequisites_for",
+  "why": "южные штаты отделились и начали войну"
+ },
+ {
+  "source": "C.history.a-linkoln",
+  "target": "C.history.grazhdanskaya-voyna-v-ssha",
+  "type": "participant_of",
+  "why": "Линкольн — президент США во время войны"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-ssha",
+  "target": "C.history.vosstanovlenie-yuga",
+  "type": "prerequisites_for",
+  "why": "реконструкция Юга после войны"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-ssha",
+  "target": "C.history.promyshlennyy-rost-ssha",
+  "type": "prerequisites_for",
+  "why": "победа Севера открыла путь быстрому промышленному росту"
+ },
+ {
+  "source": "C.history.promyshlennyy-rost-ssha",
+  "target": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "США вышли в лидеры промышленного мира"
+ },
+ {
+  "source": "C.history.politicheskoe-razvitie-evropy-v-1815-1840-e-gody",
+  "target": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития европейских стран"
+ },
+ {
+  "source": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "target": "C.history.razvitie-evropeyskih-stran-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "конец XIX — начало XX в. — этап развития Европы"
+ },
+ {
+  "source": "C.history.promyshlennyy-perevorot",
+  "target": "C.history.vtoraya-promyshlennaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "вторая промышленная революция последовала за промышленным переворотом"
+ },
+ {
+  "source": "C.history.vtoraya-promyshlennaya-revolyutsiya",
+  "target": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "черта экономического развития конца XIX в."
+ },
+ {
+  "source": "C.history.industrialnoe-obschestvo",
+  "target": "C.history.industrializatsiya",
+  "type": "prerequisites_for",
+  "why": "индустриализация — переход к индустриальному обществу"
+ },
+ {
+  "source": "C.history.vtoraya-promyshlennaya-revolyutsiya",
+  "target": "C.history.monopolisticheskiy-kapitalizm",
+  "type": "prerequisites_for",
+  "why": "крупное производство привело к образованию монополий"
+ },
+ {
+  "source": "C.history.monopolisticheskiy-kapitalizm",
+  "target": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "монополии — черта экономики конца XIX — начала XX в."
+ },
+ {
+  "source": "C.history.tehnicheskie-izobreteniya",
+  "target": "C.history.transport-i-sredstva-svyazi",
+  "type": "prerequisites_for",
+  "why": "изобретения дали паровоз, пароход, телеграф и телефон"
+ },
+ {
+  "source": "C.history.migratsiya-iz-starogo-v-novyy-svet",
+  "target": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "массовое переселение европейцев в Америку"
+ },
+ {
+  "source": "C.history.profsoyuzy",
+  "target": "C.history.rabochee-dvizhenie",
+  "type": "part_of",
+  "why": "профсоюзы — организации рабочего движения"
+ },
+ {
+  "source": "C.history.sotsializm",
+  "target": "C.history.sotsialisticheskie-partii",
+  "type": "prerequisites_for",
+  "why": "социалистические партии руководствовались идеями социализма"
+ },
+ {
+  "source": "C.history.rabochee-dvizhenie",
+  "target": "C.history.sotsialisticheskie-partii",
+  "type": "prerequisites_for",
+  "why": "социалистические партии выросли из рабочего движения"
+ },
+ {
+  "source": "C.history.sotsialisticheskie-partii",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "вид политических партий"
+ },
+ {
+  "source": "C.history.ispanskie-i-portugalskie-kolonii-v-yuzhnoy-amerike",
+  "target": "C.history.strany-latinskoy-ameriki-v-xix-nachale-xx-veka",
+  "type": "prerequisites_for",
+  "why": "латиноамериканские государства возникли на месте колоний"
+ },
+ {
+  "source": "C.history.kolonialnoe-obschestvo",
+  "target": "C.history.ispanskie-i-portugalskie-kolonii-v-yuzhnoy-amerike",
+  "type": "part_of",
+  "why": "общество колоний"
+ },
+ {
+  "source": "C.history.kolonialnoe-obschestvo",
+  "target": "C.history.osvoboditelnaya-borba-v-latinskoy-amerike",
+  "type": "prerequisites_for",
+  "why": "противоречия колониального общества вызвали борьбу за независимость"
+ },
+ {
+  "source": "C.history.osvoboditelnaya-borba-v-latinskoy-amerike",
+  "target": "C.history.strany-latinskoy-ameriki-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "борьба за освобождение от метрополий"
+ },
+ {
+  "source": "C.history.f-d-tussen-luvertyur",
+  "target": "C.history.osvoboditelnaya-borba-v-latinskoy-amerike",
+  "type": "participant_of",
+  "why": "Туссен-Лувертюр возглавил восстание на Гаити"
+ },
+ {
+  "source": "C.history.s-bolivar",
+  "target": "C.history.osvoboditelnaya-borba-v-latinskoy-amerike",
+  "type": "participant_of",
+  "why": "Боливар — вождь борьбы за независимость Южной Америки"
+ },
+ {
+  "source": "C.history.osvoboditelnaya-borba-v-latinskoy-amerike",
+  "target": "C.history.provozglashenie-nezavisimyh-gosudarstv-v-latinskoy-amerike",
+  "type": "prerequisites_for",
+  "why": "итог освободительной борьбы — независимые государства"
+ },
+ {
+  "source": "C.history.provozglashenie-nezavisimyh-gosudarstv-v-latinskoy-amerike",
+  "target": "C.history.strany-latinskoy-ameriki-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "образование независимых государств"
+ },
+ {
+  "source": "C.history.latifundiya",
+  "target": "C.history.latifundizm",
+  "type": "prerequisites_for",
+  "why": "латифундизм — господство крупных поместий-латифундий"
+ },
+ {
+  "source": "C.history.latifundizm",
+  "target": "C.history.strany-latinskoy-ameriki-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "латифундизм — черта традиционных отношений"
+ },
+ {
+  "source": "C.history.latifundizm",
+  "target": "C.history.meksikanskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "крестьяне боролись против власти латифундистов"
+ },
+ {
+  "source": "C.history.meksikanskaya-revolyutsiya",
+  "target": "C.history.strany-latinskoy-ameriki-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "крупнейшая революция в Латинской Америке"
+ },
+ {
+  "source": "C.history.yaponiya",
+  "target": "C.history.strany-vostoka-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "одна из стран Востока"
+ },
+ {
+  "source": "C.history.zakrytie-yaponii-dlya-inozemtsev",
+  "target": "C.history.otkrytie-yaponii",
+  "type": "prerequisites_for",
+  "why": "«открытие» положило конец самоизоляции Японии"
+ },
+ {
+  "source": "C.history.otkrytie-yaponii",
+  "target": "C.history.restavratsiya-meydzi",
+  "type": "prerequisites_for",
+  "why": "кризис после «открытия» привёл к падению сёгуната"
+ },
+ {
+  "source": "C.history.restavratsiya-meydzi",
+  "target": "C.history.modernizatsiya",
+  "type": "is_a",
+  "why": "реформы Мэйдзи — пример модернизации"
+ },
+ {
+  "source": "C.history.restavratsiya-meydzi",
+  "target": "C.history.konstitutsiya-yaponii",
+  "type": "prerequisites_for",
+  "why": "конституция — итог реформ Мэйдзи"
+ },
+ {
+  "source": "C.history.restavratsiya-meydzi",
+  "target": "C.history.zavoevatelnaya-politika-yaponii",
+  "type": "prerequisites_for",
+  "why": "модернизированная Япония перешла к завоеваниям"
+ },
+ {
+  "source": "C.history.zavoevatelnaya-politika-yaponii",
+  "target": "C.history.russko-yaponskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "японская экспансия в Корее и Маньчжурии привела к войне с Россией"
+ },
+ {
+  "source": "C.history.strany-vostoka-v-xviii-veke",
+  "target": "C.history.strany-vostoka-v-xix-nachale-xx-veka",
+  "type": "prerequisites_for",
+  "why": "положение стран Востока сложилось в XVIII в."
+ },
+ {
+  "source": "C.history.kitay",
+  "target": "C.history.strany-vostoka-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "одна из стран Востока"
+ },
+ {
+  "source": "C.history.indiya",
+  "target": "C.history.strany-vostoka-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "одна из стран Востока"
+ },
+ {
+  "source": "C.history.iran",
+  "target": "C.history.strany-vostoka-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "одна из стран Востока"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.strany-vostoka-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "одна из стран Востока"
+ },
+ {
+  "source": "C.history.zakrytie-kitaya-dlya-inozemtsev",
+  "target": "C.history.opiumnye-voyny",
+  "type": "prerequisites_for",
+  "why": "Англия силой добивалась доступа на закрытый китайский рынок"
+ },
+ {
+  "source": "C.history.opiumnye-voyny",
+  "target": "C.history.otkrytie-kitaya",
+  "type": "prerequisites_for",
+  "why": "после поражения Китай открыл порты для иностранцев"
+ },
+ {
+  "source": "C.history.dinastiya-tsin",
+  "target": "C.history.vosstanie-taypinov",
+  "type": "prerequisites_for",
+  "why": "тайпины восстали против маньчжурской династии Цин"
+ },
+ {
+  "source": "C.history.otkrytie-kitaya",
+  "target": "C.history.politika-samousileniya",
+  "type": "prerequisites_for",
+  "why": "реформы самоусиления — ответ на давление западных держав"
+ },
+ {
+  "source": "C.history.otkrytie-kitaya",
+  "target": "C.history.vosstanie-ihetuaney",
+  "type": "prerequisites_for",
+  "why": "ихэтуани выступили против иностранного засилья"
+ },
+ {
+  "source": "C.history.dinastiya-tsin",
+  "target": "C.history.revolyutsiya-1911-1913-godov-v-kitae",
+  "type": "prerequisites_for",
+  "why": "революция свергла династию Цин"
+ },
+ {
+  "source": "C.history.sun-yatsen",
+  "target": "C.history.revolyutsiya-1911-1913-godov-v-kitae",
+  "type": "participant_of",
+  "why": "Сунь Ятсен — вождь революции, первый президент Китая"
+ },
+ {
+  "source": "C.history.reformy-selima-iii",
+  "target": "C.history.tanzimat",
+  "type": "prerequisites_for",
+  "why": "Танзимат продолжил попытки реформ в Османской империи"
+ },
+ {
+  "source": "C.history.tanzimat",
+  "target": "C.history.konstitutsiya-osmanskoy-imperii",
+  "type": "prerequisites_for",
+  "why": "конституция 1876 г. увенчала реформы Танзимата"
+ },
+ {
+  "source": "C.history.konstitutsiya-osmanskoy-imperii",
+  "target": "C.history.mladoturetskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "младотурки добились восстановления конституции"
+ },
+ {
+  "source": "C.history.iran",
+  "target": "C.history.iranskaya-revolyutsiya-1905-1911-godov",
+  "type": "prerequisites_for",
+  "why": "революция в Иране"
+ },
+ {
+  "source": "C.history.britanskoe-vladychestvo-v-indii",
+  "target": "C.history.vosstanie-sipaev",
+  "type": "prerequisites_for",
+  "why": "восстание против британского владычества"
+ },
+ {
+  "source": "C.history.vosstanie-sipaev",
+  "target": "C.history.obyavlenie-indii-vladeniem-britanskoy-korony",
+  "type": "prerequisites_for",
+  "why": "после восстания Индия перешла под власть короны"
+ },
+ {
+  "source": "C.history.britanskoe-vladychestvo-v-indii",
+  "target": "C.history.indiyskoe-natsionalnoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "индийцы боролись против колониального режима"
+ },
+ {
+  "source": "C.history.indiyskiy-natsionalnyy-kongress",
+  "target": "C.history.indiyskoe-natsionalnoe-dvizhenie",
+  "type": "part_of",
+  "why": "ИНК возглавил национальное движение Индии"
+ },
+ {
+  "source": "C.history.b-tilak",
+  "target": "C.history.indiyskoe-natsionalnoe-dvizhenie",
+  "type": "participant_of",
+  "why": "Тилак — лидер радикального крыла национального движения"
+ },
+ {
+  "source": "C.history.m-k-gandi",
+  "target": "C.history.indiyskoe-natsionalnoe-dvizhenie",
+  "type": "participant_of",
+  "why": "Ганди — лидер национального движения Индии"
+ },
+ {
+  "source": "C.history.borba-za-kolonialnye-vladeniya",
+  "target": "C.history.kolonialnyy-razdel-mira",
+  "type": "prerequisites_for",
+  "why": "колониальные захваты завершились разделом мира"
+ },
+ {
+  "source": "C.history.kolonialnyy-razdel-mira",
+  "target": "C.history.kolonialnye-poryadki-v-afrike",
+  "type": "prerequisites_for",
+  "why": "после раздела Африки установлены колониальные порядки"
+ },
+ {
+  "source": "C.history.kolonialnye-poryadki-v-afrike",
+  "target": "C.history.antikolonialnaya-borba-v-afrike",
+  "type": "prerequisites_for",
+  "why": "африканцы выступали против колониальных порядков"
+ },
+ {
+  "source": "C.history.narody-afriki",
+  "target": "C.history.antikolonialnaya-borba-v-afrike",
+  "type": "prerequisites_for",
+  "why": "народы Африки поднимались против колонизаторов"
+ },
+ {
+  "source": "C.history.britanskaya-kolonialnaya-imperiya",
+  "target": "C.history.anglo-burskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "Британия стремилась присоединить бурские республики"
+ },
+ {
+  "source": "C.history.anglo-burskaya-voyna",
+  "target": "C.history.borba-za-peredel-mira",
+  "type": "part_of",
+  "why": "англо-бурская война — одна из войн за передел мира"
+ },
+ {
+  "source": "C.history.evropeyskaya-kultura-xviii-veka",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "prerequisites_for",
+  "why": "культура XIX в. продолжила культуру эпохи Просвещения"
+ },
+ {
+  "source": "C.history.evropeyskaya-nauka-xviii-veka",
+  "target": "C.history.nauchnye-otkrytiya-xix-nachala-xx-veka",
+  "type": "prerequisites_for",
+  "why": "открытия XIX в. опирались на науку XVIII в."
+ },
+ {
+  "source": "C.history.nauchnye-otkrytiya-xix-nachala-xx-veka",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "наука — часть культуры эпохи"
+ },
+ {
+  "source": "C.history.revolyutsiya-v-fizike",
+  "target": "C.history.nauchnye-otkrytiya-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "открытия рубежа веков перевернули физику"
+ },
+ {
+  "source": "C.history.obrazovanie-v-evrope-xviii-veka",
+  "target": "C.history.obrazovanie-v-evrope-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития образования"
+ },
+ {
+  "source": "C.history.obrazovanie-v-evrope-xix-veka",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "распространение образования — черта эпохи"
+ },
+ {
+  "source": "C.history.grecheskaya-filosofiya",
+  "target": "C.history.filosofiya",
+  "type": "is_a",
+  "why": "философия древних греков"
+ },
+ {
+  "source": "C.history.filosofiya",
+  "target": "C.history.psihologiya",
+  "type": "prerequisites_for",
+  "why": "психология выделилась из философии в самостоятельную науку"
+ },
+ {
+  "source": "C.history.filosofiya",
+  "target": "C.history.sotsiologiya",
+  "type": "prerequisites_for",
+  "why": "социология выросла из философии общества"
+ },
+ {
+  "source": "C.history.klassitsizm",
+  "target": "C.history.romantizm",
+  "type": "prerequisites_for",
+  "why": "романтизм возник как отказ от правил классицизма"
+ },
+ {
+  "source": "C.history.romantizm",
+  "target": "C.history.realizm",
+  "type": "prerequisites_for",
+  "why": "реализм сменил романтизм"
+ },
+ {
+  "source": "C.history.realizm",
+  "target": "C.history.impressionizm",
+  "type": "prerequisites_for",
+  "why": "импрессионисты отошли от академического реализма"
+ },
+ {
+  "source": "C.history.impressionizm",
+  "target": "C.history.modernizm",
+  "type": "prerequisites_for",
+  "why": "импрессионизм открыл путь новым течениям искусства"
+ },
+ {
+  "source": "C.history.romantizm",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "стиль в искусстве XIX в."
+ },
+ {
+  "source": "C.history.realizm",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "стиль в искусстве XIX в."
+ },
+ {
+  "source": "C.history.impressionizm",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "течение в живописи конца XIX в."
+ },
+ {
+  "source": "C.history.modernizm",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "течения в искусстве рубежа веков"
+ },
+ {
+  "source": "C.history.tehnicheskie-izobreteniya",
+  "target": "C.history.kinematograf",
+  "type": "prerequisites_for",
+  "why": "кинематограф родился из изобретения киноаппарата"
+ },
+ {
+  "source": "C.history.kinematograf",
+  "target": "C.history.kultura-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "новый вид искусства рубежа веков"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-otnosheniya-v-xviii-veke",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап международных отношений"
+ },
+ {
+  "source": "C.history.venskaya-sistema-mezhdunarodnyh-otnosheniy",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "система отношений, сложившаяся в 1815 г."
+ },
+ {
+  "source": "C.history.evropeyskiy-balans-sil",
+  "target": "C.history.velikie-derzhavy",
+  "type": "prerequisites_for",
+  "why": "судьбы Европы решало равновесие великих держав"
+ },
+ {
+  "source": "C.history.velikie-derzhavy",
+  "target": "C.history.borba-za-peredel-mira",
+  "type": "prerequisites_for",
+  "why": "великие державы боролись за перераспределение колоний"
+ },
+ {
+  "source": "C.history.kolonialnyy-razdel-mira",
+  "target": "C.history.borba-za-peredel-mira",
+  "type": "prerequisites_for",
+  "why": "когда мир был поделён, началась борьба за его передел"
+ },
+ {
+  "source": "C.history.borba-za-peredel-mira",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "черта международных отношений начала XX в."
+ },
+ {
+  "source": "C.history.borba-za-peredel-mira",
+  "target": "C.history.voenno-politicheskie-bloki",
+  "type": "prerequisites_for",
+  "why": "соперничество держав привело к созданию блоков"
+ },
+ {
+  "source": "C.history.voenno-politicheskie-bloki",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "блоки великих держав накануне мировой войны"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.vostochnyy-vopros",
+  "type": "prerequisites_for",
+  "why": "Восточный вопрос — судьба слабеющей Османской империи"
+ },
+ {
+  "source": "C.history.vostochnyy-vopros",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "одна из главных проблем международных отношений XIX в."
+ },
+ {
+  "source": "C.history.ispano-amerikanskaya-voyna",
+  "target": "C.history.borba-za-peredel-mira",
+  "type": "part_of",
+  "why": "одна из первых войн за передел мира"
+ },
+ {
+  "source": "C.history.russko-yaponskaya-voyna",
+  "target": "C.history.borba-za-peredel-mira",
+  "type": "part_of",
+  "why": "война за влияние в Маньчжурии и Корее"
+ },
+ {
+  "source": "C.history.pervaya-gaagskaya-mirnaya-konferentsiya",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "первая конференция о мирном решении споров"
+ },
+ {
+  "source": "C.history.avstro-vengriya",
+  "target": "C.history.bosniyskiy-krizis",
+  "type": "prerequisites_for",
+  "why": "кризис вызван аннексией Боснии Австро-Венгрией"
+ },
+ {
+  "source": "C.history.bosniyskiy-krizis",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "международный конфликт 1908–1909 гг."
+ },
+ {
+  "source": "C.history.osvoboditelnaya-borba-yuzhnyh-slavyan",
+  "target": "C.history.balkanskie-voyny",
+  "type": "prerequisites_for",
+  "why": "балканские народы воевали за освобождение земель от турок"
+ },
+ {
+  "source": "C.history.balkanskie-voyny",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "войны на Балканах накануне мировой войны"
+ },
+ {
+  "source": "C.history.kultura-xix-nachala-xx-veka",
+  "target": "C.history.nasledie-xix-veka",
+  "type": "prerequisites_for",
+  "why": "культура XIX в. — основа его наследия"
+ },
+ {
+  "source": "C.history.aleksandr-i",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "Александр I — император из династии Романовых"
+ },
+ {
+  "source": "C.history.aleksandr-i",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-i",
+  "type": "participant_of",
+  "why": "внутренняя политика императора Александра I"
+ },
+ {
+  "source": "C.history.vnutrennyaya-politika-pavla-i",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-i",
+  "type": "prerequisites_for",
+  "why": "Александр I отменил многие распоряжения Павла I"
+ },
+ {
+  "source": "C.history.liberalnye-reformy-aleksandra-i",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-i",
+  "type": "part_of",
+  "why": "реформы — либеральная линия политики Александра I"
+ },
+ {
+  "source": "C.history.liberalizm",
+  "target": "C.history.liberalnye-reformy-aleksandra-i",
+  "type": "prerequisites_for",
+  "why": "проекты реформ опирались на либеральные идеи"
+ },
+ {
+  "source": "C.history.neglasnyy-komitet",
+  "target": "C.history.liberalnye-reformy-aleksandra-i",
+  "type": "prerequisites_for",
+  "why": "Негласный комитет готовил проекты реформ"
+ },
+ {
+  "source": "C.history.m-m-speranskiy",
+  "target": "C.history.liberalnye-reformy-aleksandra-i",
+  "type": "participant_of",
+  "why": "Сперанский — автор плана государственных преобразований"
+ },
+ {
+  "source": "C.history.russko-frantsuzskaya-voyna-1805-1807-godov",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "война с Францией — часть внешней политики России"
+ },
+ {
+  "source": "C.history.russko-frantsuzskaya-voyna-1805-1807-godov",
+  "target": "C.history.napoleonovskie-voyny",
+  "type": "part_of",
+  "why": "Россия воевала с Наполеоном в составе коалиций"
+ },
+ {
+  "source": "C.history.russko-frantsuzskaya-voyna-1805-1807-godov",
+  "target": "C.history.tilzitskiy-mir",
+  "type": "prerequisites_for",
+  "why": "Тильзитский мир завершил войну с Францией"
+ },
+ {
+  "source": "C.history.tilzitskiy-mir",
+  "target": "C.history.otechestvennaya-voyna-1812-goda",
+  "type": "prerequisites_for",
+  "why": "разрыв тильзитского союза привёл к войне 1812 г."
+ },
+ {
+  "source": "C.history.russko-shvedskaya-voyna-1808-1809-godov",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "война со Швецией — часть внешней политики России"
+ },
+ {
+  "source": "C.history.russko-shvedskaya-voyna-1808-1809-godov",
+  "target": "C.history.prisoedinenie-finlyandii",
+  "type": "prerequisites_for",
+  "why": "по итогам войны Финляндия вошла в состав России"
+ },
+ {
+  "source": "C.history.prisoedinenie-finlyandii",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "расширение территории империи"
+ },
+ {
+  "source": "C.history.russko-turetskie-voyny",
+  "target": "C.history.buharestskiy-mir",
+  "type": "prerequisites_for",
+  "why": "Бухарестский мир завершил русско-турецкую войну 1806–1812 гг."
+ },
+ {
+  "source": "C.history.aleksandr-i",
+  "target": "C.history.otechestvennaya-voyna-1812-goda",
+  "type": "participant_of",
+  "why": "Александр I возглавлял Россию в войне с Наполеоном"
+ },
+ {
+  "source": "C.history.aleksandr-i",
+  "target": "C.history.venskiy-kongress",
+  "type": "participant_of",
+  "why": "Александр I лично участвовал в Венском конгрессе"
+ },
+ {
+  "source": "C.history.aleksandr-i",
+  "target": "C.history.svyaschennyy-soyuz",
+  "type": "participant_of",
+  "why": "Александр I — инициатор Священного союза"
+ },
+ {
+  "source": "C.history.polskaya-konstitutsiya-1815-goda",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-i",
+  "type": "part_of",
+  "why": "конституция Царства Польского — либеральный шаг Александра I"
+ },
+ {
+  "source": "C.history.voennye-poseleniya",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-i",
+  "type": "part_of",
+  "why": "военные поселения — охранительная линия политики"
+ },
+ {
+  "source": "C.history.dvoryanstvo",
+  "target": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "type": "prerequisites_for",
+  "why": "оппозиция возникла среди дворян"
+ },
+ {
+  "source": "C.history.samoderzhavie",
+  "target": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "type": "prerequisites_for",
+  "why": "дворяне-оппозиционеры выступали против самодержавия"
+ },
+ {
+  "source": "C.history.otechestvennaya-voyna-1812-goda",
+  "target": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "type": "prerequisites_for",
+  "why": "будущие декабристы — участники войны 1812 г. и заграничных походов"
+ },
+ {
+  "source": "C.history.dekabristy",
+  "target": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "type": "part_of",
+  "why": "декабристы — дворянские революционеры"
+ },
+ {
+  "source": "C.history.soyuz-spaseniya",
+  "target": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "type": "part_of",
+  "why": "Союз спасения — первое тайное общество"
+ },
+ {
+  "source": "C.history.soyuz-spaseniya",
+  "target": "C.history.soyuz-blagodenstviya",
+  "type": "prerequisites_for",
+  "why": "Союз благоденствия пришёл на смену Союзу спасения"
+ },
+ {
+  "source": "C.history.soyuz-blagodenstviya",
+  "target": "C.history.severnoe-obschestvo",
+  "type": "prerequisites_for",
+  "why": "после роспуска Союза благоденствия возникли Северное и Южное общества"
+ },
+ {
+  "source": "C.history.soyuz-blagodenstviya",
+  "target": "C.history.yuzhnoe-obschestvo",
+  "type": "prerequisites_for",
+  "why": "после роспуска Союза благоденствия возникли Северное и Южное общества"
+ },
+ {
+  "source": "C.history.severnoe-obschestvo",
+  "target": "C.history.vosstanie-dekabristov",
+  "type": "prerequisites_for",
+  "why": "Северное общество подняло восстание 14 декабря 1825 г."
+ },
+ {
+  "source": "C.history.yuzhnoe-obschestvo",
+  "target": "C.history.vosstanie-dekabristov",
+  "type": "prerequisites_for",
+  "why": "члены Южного общества подняли восстание Черниговского полка"
+ },
+ {
+  "source": "C.history.dekabristy",
+  "target": "C.history.vosstanie-dekabristov",
+  "type": "prerequisites_for",
+  "why": "восстание подняли декабристы"
+ },
+ {
+  "source": "C.history.vosstanie-dekabristov",
+  "target": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "type": "part_of",
+  "why": "восстание — вершина дворянской оппозиции"
+ },
+ {
+  "source": "C.history.nikolay-i",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "Николай I — император из династии Романовых"
+ },
+ {
+  "source": "C.history.nikolay-i",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "participant_of",
+  "why": "внутренняя политика императора Николая I"
+ },
+ {
+  "source": "C.history.vnutrennyaya-politika-aleksandra-i",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "prerequisites_for",
+  "why": "Николай I свернул реформаторские планы предшественника"
+ },
+ {
+  "source": "C.history.vosstanie-dekabristov",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "prerequisites_for",
+  "why": "после восстания декабристов политика стала охранительной"
+ },
+ {
+  "source": "C.history.konservatizm",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "prerequisites_for",
+  "why": "политика Николая I строилась на консерватизме"
+ },
+ {
+  "source": "C.history.ekonomicheskaya-politika-nikolaya-i",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "part_of",
+  "why": "экономическая политика царствования"
+ },
+ {
+  "source": "C.history.tehnicheskie-izobreteniya",
+  "target": "C.history.zheleznodorozhnoe-stroitelstvo",
+  "type": "prerequisites_for",
+  "why": "железные дороги появились после изобретения паровоза"
+ },
+ {
+  "source": "C.history.ekonomicheskaya-politika-nikolaya-i",
+  "target": "C.history.zheleznodorozhnoe-stroitelstvo",
+  "type": "prerequisites_for",
+  "why": "при Николае I началось строительство железных дорог"
+ },
+ {
+  "source": "C.history.tsentralizatsiya-upravleniya",
+  "target": "C.history.gosudarstvennaya-reglamentatsiya-obschestvennoy-zhizni",
+  "type": "prerequisites_for",
+  "why": "регламентация опиралась на централизованное управление"
+ },
+ {
+  "source": "C.history.gosudarstvennaya-reglamentatsiya-obschestvennoy-zhizni",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "part_of",
+  "why": "регламентация — основа политики Николая I"
+ },
+ {
+  "source": "C.history.politicheskaya-politsiya",
+  "target": "C.history.gosudarstvennaya-reglamentatsiya-obschestvennoy-zhizni",
+  "type": "part_of",
+  "why": "Третье отделение надзирало за обществом"
+ },
+ {
+  "source": "C.history.kodifikatsiya-zakonov",
+  "target": "C.history.gosudarstvennaya-reglamentatsiya-obschestvennoy-zhizni",
+  "type": "part_of",
+  "why": "свод законов упорядочил управление"
+ },
+ {
+  "source": "C.history.m-m-speranskiy",
+  "target": "C.history.kodifikatsiya-zakonov",
+  "type": "participant_of",
+  "why": "Сперанский руководил кодификацией законов"
+ },
+ {
+  "source": "C.history.tsenzura",
+  "target": "C.history.gosudarstvennaya-reglamentatsiya-obschestvennoy-zhizni",
+  "type": "part_of",
+  "why": "цензура ограничивала печать"
+ },
+ {
+  "source": "C.history.byurokratizatsiya-upravleniya",
+  "target": "C.history.byurokratiya",
+  "type": "prerequisites_for",
+  "why": "бюрократизация управления создала слой чиновников"
+ },
+ {
+  "source": "C.history.byurokratiya",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "part_of",
+  "why": "формирование профессиональной бюрократии при Николае I"
+ },
+ {
+  "source": "C.history.krepostnoe-pravo",
+  "target": "C.history.krestyanskiy-vopros",
+  "type": "prerequisites_for",
+  "why": "крестьянский вопрос — вопрос об отмене крепостного права"
+ },
+ {
+  "source": "C.history.krestyanskiy-vopros",
+  "target": "C.history.reforma-gosudarstvennyh-krestyan",
+  "type": "prerequisites_for",
+  "why": "реформа — попытка решить крестьянский вопрос"
+ },
+ {
+  "source": "C.history.gosudarstvennye-krestyane",
+  "target": "C.history.reforma-gosudarstvennyh-krestyan",
+  "type": "prerequisites_for",
+  "why": "реформа изменила управление государственными крестьянами"
+ },
+ {
+  "source": "C.history.p-d-kiselev",
+  "target": "C.history.reforma-gosudarstvennyh-krestyan",
+  "type": "participant_of",
+  "why": "Киселёв — автор и исполнитель реформы"
+ },
+ {
+  "source": "C.history.reforma-gosudarstvennyh-krestyan",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "part_of",
+  "why": "реформа Киселёва 1837–1841 гг."
+ },
+ {
+  "source": "C.history.pravoslavie",
+  "target": "C.history.teoriya-ofitsialnoy-narodnosti",
+  "type": "prerequisites_for",
+  "why": "первая часть формулы «православие, самодержавие, народность»"
+ },
+ {
+  "source": "C.history.samoderzhavie",
+  "target": "C.history.teoriya-ofitsialnoy-narodnosti",
+  "type": "prerequisites_for",
+  "why": "самодержавие — основа официальной идеологии"
+ },
+ {
+  "source": "C.history.teoriya-ofitsialnoy-narodnosti",
+  "target": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "type": "part_of",
+  "why": "официальная идеология николаевского царствования"
+ },
+ {
+  "source": "C.history.ekonomicheskoe-razvitie-rossii-vo-vtoroy-polovine-xviii-veka",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-pervoy-polovine-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап экономического развития России"
+ },
+ {
+  "source": "C.history.iran",
+  "target": "C.history.russko-iranskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "войны с Ираном за Закавказье"
+ },
+ {
+  "source": "C.history.russko-iranskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "расширение империи на Кавказе"
+ },
+ {
+  "source": "C.history.vostochnyy-vopros",
+  "target": "C.history.krymskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "Крымская война выросла из Восточного вопроса"
+ },
+ {
+  "source": "C.history.krymskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "важнейшая война царствования Николая I"
+ },
+ {
+  "source": "C.history.nikolay-i",
+  "target": "C.history.krymskaya-voyna",
+  "type": "participant_of",
+  "why": "Николай I начал войну и не дожил до её конца"
+ },
+ {
+  "source": "C.history.sevastopol",
+  "target": "C.history.oborona-sevastopolya",
+  "type": "prerequisites_for",
+  "why": "героическая оборона главной базы Черноморского флота"
+ },
+ {
+  "source": "C.history.oborona-sevastopolya",
+  "target": "C.history.krymskaya-voyna",
+  "type": "part_of",
+  "why": "главное событие Крымской войны"
+ },
+ {
+  "source": "C.history.krymskaya-voyna",
+  "target": "C.history.parizhskiy-mir",
+  "type": "prerequisites_for",
+  "why": "Парижский мир 1856 г. завершил Крымскую войну"
+ },
+ {
+  "source": "C.history.promyshlennyy-perevorot-v-rossii",
+  "target": "C.history.promyshlennyy-perevorot",
+  "type": "is_a",
+  "why": "промышленный переворот в России и его особенности"
+ },
+ {
+  "source": "C.history.promyshlennyy-perevorot-v-rossii",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-pervoy-polovine-xix-veka",
+  "type": "part_of",
+  "why": "начало промышленного переворота в России"
+ },
+ {
+  "source": "C.history.gorodskoe-samoupravlenie",
+  "target": "C.history.mestnoe-samoupravlenie",
+  "type": "is_a",
+  "why": "городское самоуправление — вид местного самоуправления"
+ },
+ {
+  "source": "C.history.zhalovannaya-gramota-gorodam",
+  "target": "C.history.gorodskoe-samoupravlenie",
+  "type": "prerequisites_for",
+  "why": "Жалованная грамота городам учредила городские думы"
+ },
+ {
+  "source": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "target": "C.history.obschestvennaya-zhizn-v-1830-1850-e-gody",
+  "type": "prerequisites_for",
+  "why": "после разгрома декабристов общественная жизнь ушла в кружки и споры"
+ },
+ {
+  "source": "C.history.a-i-gertsen",
+  "target": "C.history.obschestvennaya-zhizn-v-1830-1850-e-gody",
+  "type": "participant_of",
+  "why": "Герцен — центральная фигура общественной жизни эпохи"
+ },
+ {
+  "source": "C.history.pervye-zhurnaly-v-rossii",
+  "target": "C.history.obschestvennoe-mnenie",
+  "type": "prerequisites_for",
+  "why": "журналы начали формировать независимое общественное мнение"
+ },
+ {
+  "source": "C.history.rossiyskaya-obschestvennaya-mysl-xviii-veka",
+  "target": "C.history.rossiyskaya-obschestvennaya-mysl-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития общественной мысли"
+ },
+ {
+  "source": "C.history.slavyanofily",
+  "target": "C.history.rossiyskaya-obschestvennaya-mysl-xix-veka",
+  "type": "part_of",
+  "why": "славянофильство — течение общественной мысли"
+ },
+ {
+  "source": "C.history.zapadniki",
+  "target": "C.history.rossiyskaya-obschestvennaya-mysl-xix-veka",
+  "type": "part_of",
+  "why": "западничество — течение общественной мысли"
+ },
+ {
+  "source": "C.history.preobrazovaniya-petra-i",
+  "target": "C.history.slavyanofily",
+  "type": "prerequisites_for",
+  "why": "славянофилы осуждали петровские преобразования"
+ },
+ {
+  "source": "C.history.preobrazovaniya-petra-i",
+  "target": "C.history.zapadniki",
+  "type": "prerequisites_for",
+  "why": "западники видели в Петре I образец европеизации"
+ },
+ {
+  "source": "C.history.a-i-gertsen",
+  "target": "C.history.zapadniki",
+  "type": "participant_of",
+  "why": "Герцен начинал как западник"
+ },
+ {
+  "source": "C.history.sotsializm",
+  "target": "C.history.teoriya-russkogo-sotsializma",
+  "type": "prerequisites_for",
+  "why": "русский социализм — приложение социалистических идей к России"
+ },
+ {
+  "source": "C.history.krestyanskaya-obschina",
+  "target": "C.history.teoriya-russkogo-sotsializma",
+  "type": "prerequisites_for",
+  "why": "Герцен видел основу социализма в крестьянской общине"
+ },
+ {
+  "source": "C.history.a-i-gertsen",
+  "target": "C.history.teoriya-russkogo-sotsializma",
+  "type": "prerequisites_for",
+  "why": "Герцен — создатель теории русского социализма"
+ },
+ {
+  "source": "C.history.teoriya-russkogo-sotsializma",
+  "target": "C.history.rossiyskaya-obschestvennaya-mysl-xix-veka",
+  "type": "part_of",
+  "why": "течение русской общественной мысли"
+ },
+ {
+  "source": "C.history.venskiy-kongress",
+  "target": "C.history.tsarstvo-polskoe",
+  "type": "prerequisites_for",
+  "why": "Царство Польское создано решением Венского конгресса"
+ },
+ {
+  "source": "C.history.tsarstvo-polskoe",
+  "target": "C.history.rossiyskaya-imperiya",
+  "type": "part_of",
+  "why": "Царство Польское вошло в состав Российской империи"
+ },
+ {
+  "source": "C.history.polskaya-konstitutsiya-1815-goda",
+  "target": "C.history.tsarstvo-polskoe",
+  "type": "part_of",
+  "why": "Царство Польское получило конституцию"
+ },
+ {
+  "source": "C.history.tsarstvo-polskoe",
+  "target": "C.history.polskoe-vosstanie-1830-1831-godov",
+  "type": "prerequisites_for",
+  "why": "восстание в Царстве Польском"
+ },
+ {
+  "source": "C.history.evropeyskie-revolyutsii-1830-goda",
+  "target": "C.history.polskoe-vosstanie-1830-1831-godov",
+  "type": "prerequisites_for",
+  "why": "восстание началось под влиянием революций 1830 г."
+ },
+ {
+  "source": "C.history.polskoe-vosstanie-1830-1831-godov",
+  "target": "C.history.borba-polyakov-za-nezavisimost",
+  "type": "part_of",
+  "why": "восстание за восстановление независимости Польши"
+ },
+ {
+  "source": "C.history.zakavkaze",
+  "target": "C.history.prisoedinenie-gruzii-i-zakavkazya",
+  "type": "prerequisites_for",
+  "why": "присоединение земель Закавказья"
+ },
+ {
+  "source": "C.history.russko-iranskaya-voyna",
+  "target": "C.history.prisoedinenie-gruzii-i-zakavkazya",
+  "type": "prerequisites_for",
+  "why": "по итогам войн с Ираном к России отошли ханства Закавказья"
+ },
+ {
+  "source": "C.history.prisoedinenie-gruzii-i-zakavkazya",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "расширение империи на Кавказе"
+ },
+ {
+  "source": "C.history.prisoedinenie-gruzii-i-zakavkazya",
+  "target": "C.history.kavkazskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "путь в Закавказье требовал покорения Северного Кавказа"
+ },
+ {
+  "source": "C.history.narody-severnogo-kavkaza",
+  "target": "C.history.kavkazskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "горцы Северного Кавказа сопротивлялись власти России"
+ },
+ {
+  "source": "C.history.kavkazskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "многолетняя война на Кавказе"
+ },
+ {
+  "source": "C.history.dvizhenie-shamilya",
+  "target": "C.history.kavkazskaya-voyna",
+  "type": "part_of",
+  "why": "имамат Шамиля — главный этап Кавказской войны"
+ },
+ {
+  "source": "C.history.shamil",
+  "target": "C.history.dvizhenie-shamilya",
+  "type": "participant_of",
+  "why": "Шамиль — имам, вождь горцев"
+ },
+ {
+  "source": "C.history.islam",
+  "target": "C.history.dvizhenie-shamilya",
+  "type": "prerequisites_for",
+  "why": "движение шло под знаменем газавата"
+ },
+ {
+  "source": "C.history.kultura-rossii-xviii-veka",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития русской культуры"
+ },
+ {
+  "source": "C.history.zolotoy-vek-russkoy-literatury",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "расцвет литературы — вершина культуры эпохи"
+ },
+ {
+  "source": "C.history.kult-grazhdanstvennosti",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "гражданский пафос — черта культуры эпохи"
+ },
+ {
+  "source": "C.history.ampir",
+  "target": "C.history.klassitsizm",
+  "type": "is_a",
+  "why": "ампир — поздний классицизм"
+ },
+ {
+  "source": "C.history.ampir",
+  "target": "C.history.russkaya-arhitektura-xix-veka",
+  "type": "part_of",
+  "why": "ампир — стиль архитектуры начала XIX в."
+ },
+ {
+  "source": "C.history.russkaya-arhitektura-xviii-veka",
+  "target": "C.history.russkaya-arhitektura-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития русской архитектуры"
+ },
+ {
+  "source": "C.history.russkaya-arhitektura-xix-veka",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "архитектура эпохи ампира"
+ },
+ {
+  "source": "C.history.russkaya-muzykalnaya-shkola",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "формирование русской музыкальной школы"
+ },
+ {
+  "source": "C.history.russkiy-teatr",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "театр — часть культуры эпохи"
+ },
+ {
+  "source": "C.history.rossiyskaya-nauka-xviii-veka",
+  "target": "C.history.rossiyskaya-nauka-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития отечественной науки"
+ },
+ {
+  "source": "C.history.rossiyskaya-nauka-xix-veka",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "наука — часть культуры эпохи"
+ },
+ {
+  "source": "C.history.otkrytie-antarktidy",
+  "target": "C.history.russkie-geograficheskie-otkrytiya",
+  "type": "part_of",
+  "why": "экспедиция Беллинсгаузена и Лазарева открыла Антарктиду"
+ },
+ {
+  "source": "C.history.russkoe-geograficheskoe-obschestvo",
+  "target": "C.history.rossiyskaya-nauka-xix-veka",
+  "type": "part_of",
+  "why": "Русское географическое общество организовывало экспедиции"
+ },
+ {
+  "source": "C.history.narodnaya-kultura",
+  "target": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "культура крестьянства и городских низов"
+ },
+ {
+  "source": "C.history.religiya-drevney-palestiny",
+  "target": "C.history.iudaizm",
+  "type": "prerequisites_for",
+  "why": "иудаизм вырос из религии древних евреев"
+ },
+ {
+  "source": "C.history.iudaizm",
+  "target": "C.history.evreyskiy-vopros",
+  "type": "prerequisites_for",
+  "why": "еврейский вопрос — положение иудеев в империи"
+ },
+ {
+  "source": "C.history.aleksandr-ii",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "Александр II — император из династии Романовых"
+ },
+ {
+  "source": "C.history.aleksandr-ii",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "participant_of",
+  "why": "Александр II — царь-освободитель, проводник Великих реформ"
+ },
+ {
+  "source": "C.history.aleksandr-ii",
+  "target": "C.history.russko-turetskaya-voyna-1877-1878-godov",
+  "type": "participant_of",
+  "why": "Александр II объявил войну и находился при армии"
+ },
+ {
+  "source": "C.history.krymskaya-voyna",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "prerequisites_for",
+  "why": "поражение в Крымской войне показало необходимость реформ"
+ },
+ {
+  "source": "C.history.vnutrennyaya-politika-nikolaya-i",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "prerequisites_for",
+  "why": "реформы сломали николаевскую систему управления"
+ },
+ {
+  "source": "C.history.reformy-1860-1870-h-godov",
+  "target": "C.history.modernizatsiya",
+  "type": "is_a",
+  "why": "Великие реформы — социальная и правовая модернизация страны"
+ },
+ {
+  "source": "C.history.grazhdanskoe-obschestvo",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "prerequisites_for",
+  "why": "реформы — движение к гражданскому обществу"
+ },
+ {
+  "source": "C.history.krestyanskiy-vopros",
+  "target": "C.history.krestyanskaya-reforma-1861-goda",
+  "type": "prerequisites_for",
+  "why": "реформа 1861 г. решила крестьянский вопрос отменой крепостного права"
+ },
+ {
+  "source": "C.history.krestyanskaya-reforma-1861-goda",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "part_of",
+  "why": "отмена крепостного права — главная из Великих реформ"
+ },
+ {
+  "source": "C.history.mestnoe-samoupravlenie",
+  "target": "C.history.zemskaya-reforma-aleksandra-ii",
+  "type": "prerequisites_for",
+  "why": "земская реформа создала органы местного самоуправления"
+ },
+ {
+  "source": "C.history.zemskaya-reforma-aleksandra-ii",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "part_of",
+  "why": "одна из Великих реформ"
+ },
+ {
+  "source": "C.history.gorodskoe-samoupravlenie",
+  "target": "C.history.gorodskaya-reforma-aleksandra-ii",
+  "type": "prerequisites_for",
+  "why": "городская реформа преобразовала городское самоуправление"
+ },
+ {
+  "source": "C.history.gorodskaya-reforma-aleksandra-ii",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "part_of",
+  "why": "одна из Великих реформ"
+ },
+ {
+  "source": "C.history.pravovoe-gosudarstvo",
+  "target": "C.history.sudebnaya-reforma-aleksandra-ii",
+  "type": "prerequisites_for",
+  "why": "суд стал независимым и гласным, равным для всех"
+ },
+ {
+  "source": "C.history.sudebnaya-reforma-aleksandra-ii",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "part_of",
+  "why": "одна из Великих реформ"
+ },
+ {
+  "source": "C.history.rekrutskie-nabory",
+  "target": "C.history.voennye-reformy-aleksandra-ii",
+  "type": "prerequisites_for",
+  "why": "всеобщая воинская повинность заменила рекрутские наборы"
+ },
+ {
+  "source": "C.history.voennye-reformy-aleksandra-ii",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "part_of",
+  "why": "одна из Великих реформ"
+ },
+ {
+  "source": "C.history.soslovie",
+  "target": "C.history.vsesoslovnost",
+  "type": "prerequisites_for",
+  "why": "всесословность отменяла сословные различия перед законом"
+ },
+ {
+  "source": "C.history.vsesoslovnost",
+  "target": "C.history.reformy-1860-1870-h-godov",
+  "type": "part_of",
+  "why": "начала всесословности — принцип Великих реформ"
+ },
+ {
+  "source": "C.history.konstitutsionnaya-monarhiya",
+  "target": "C.history.konstitutsionnyy-vopros",
+  "type": "prerequisites_for",
+  "why": "вопрос об ограничении самодержавия конституцией"
+ },
+ {
+  "source": "C.history.prisoedinenie-sredney-azii",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "расширение империи в Средней Азии"
+ },
+ {
+  "source": "C.history.prisoedinenie-sredney-azii",
+  "target": "C.history.srednyaya-aziya",
+  "type": "prerequisites_for",
+  "why": "Средняя Азия вошла в состав империи после присоединения"
+ },
+ {
+  "source": "C.history.tsarstvo-polskoe",
+  "target": "C.history.polskoe-vosstanie-1863-goda",
+  "type": "prerequisites_for",
+  "why": "восстание в Царстве Польском"
+ },
+ {
+  "source": "C.history.polskoe-vosstanie-1863-goda",
+  "target": "C.history.borba-polyakov-za-nezavisimost",
+  "type": "part_of",
+  "why": "восстание за восстановление независимости Польши"
+ },
+ {
+  "source": "C.history.prisoedinenie-finlyandii",
+  "target": "C.history.finlyandiya",
+  "type": "prerequisites_for",
+  "why": "Великое княжество Финляндское появилось после присоединения"
+ },
+ {
+  "source": "C.history.finlyandiya",
+  "target": "C.history.rossiyskaya-imperiya",
+  "type": "part_of",
+  "why": "автономное Великое княжество в составе империи"
+ },
+ {
+  "source": "C.history.aleksandr-iii",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "Александр III — император из династии Романовых"
+ },
+ {
+  "source": "C.history.aleksandr-iii",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-iii",
+  "type": "participant_of",
+  "why": "внутренняя политика императора Александра III"
+ },
+ {
+  "source": "C.history.reformy-1860-1870-h-godov",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-iii",
+  "type": "prerequisites_for",
+  "why": "Александр III пересмотрел многие итоги реформ"
+ },
+ {
+  "source": "C.history.reformy-1860-1870-h-godov",
+  "target": "C.history.kontrreformy",
+  "type": "prerequisites_for",
+  "why": "контрреформы пересматривали реформы 1860–1870-х гг."
+ },
+ {
+  "source": "C.history.kontrreformy",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-iii",
+  "type": "part_of",
+  "why": "контрреформы — курс консервативной стабилизации"
+ },
+ {
+  "source": "C.history.samoderzhavie",
+  "target": "C.history.narodnoe-samoderzhavie",
+  "type": "prerequisites_for",
+  "why": "«народное самодержавие» — идеология неограниченной власти царя"
+ },
+ {
+  "source": "C.history.narodnoe-samoderzhavie",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-iii",
+  "type": "part_of",
+  "why": "официальная идеология царствования"
+ },
+ {
+  "source": "C.history.slavyanofily",
+  "target": "C.history.ideya-samobytnogo-razvitiya-rossii",
+  "type": "prerequisites_for",
+  "why": "идею особого пути России развивали славянофилы"
+ },
+ {
+  "source": "C.history.ideya-samobytnogo-razvitiya-rossii",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-iii",
+  "type": "part_of",
+  "why": "идеология царствования"
+ },
+ {
+  "source": "C.history.gosudarstvennyy-natsionalizm",
+  "target": "C.history.natsionalizm",
+  "type": "is_a",
+  "why": "государственный национализм — национализм как политика власти"
+ },
+ {
+  "source": "C.history.gosudarstvennyy-natsionalizm",
+  "target": "C.history.vnutrennyaya-politika-aleksandra-iii",
+  "type": "part_of",
+  "why": "русификация окраин при Александре III"
+ },
+ {
+  "source": "C.history.ekonomicheskoe-razvitie-rossii-v-pervoy-polovine-xix-veka",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-vo-vtoroy-polovine-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап экономического развития России"
+ },
+ {
+  "source": "C.history.krestyanskaya-reforma-1861-goda",
+  "target": "C.history.poreformennaya-derevnya",
+  "type": "prerequisites_for",
+  "why": "деревня после отмены крепостного права"
+ },
+ {
+  "source": "C.history.poreformennaya-derevnya",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-vo-vtoroy-polovine-xix-veka",
+  "type": "part_of",
+  "why": "сельское хозяйство пореформенной России"
+ },
+ {
+  "source": "C.history.krestyanskaya-obschina",
+  "target": "C.history.obschinnoe-zemlevladenie",
+  "type": "prerequisites_for",
+  "why": "земля принадлежала общине и переделялась"
+ },
+ {
+  "source": "C.history.obschinnoe-zemlevladenie",
+  "target": "C.history.poreformennaya-derevnya",
+  "type": "part_of",
+  "why": "община сохранилась в пореформенной деревне"
+ },
+ {
+  "source": "C.history.krestyanskoe-hozyaystvo",
+  "target": "C.history.poreformennaya-derevnya",
+  "type": "part_of",
+  "why": "хозяйство крестьян пореформенной деревни"
+ },
+ {
+  "source": "C.history.pomeschik",
+  "target": "C.history.pomeschiche-hozyaystvo",
+  "type": "prerequisites_for",
+  "why": "хозяйство помещиков"
+ },
+ {
+  "source": "C.history.pomeschiche-hozyaystvo",
+  "target": "C.history.poreformennaya-derevnya",
+  "type": "part_of",
+  "why": "помещичье и крестьянское хозяйства зависели друг от друга"
+ },
+ {
+  "source": "C.history.pomeschiche-hozyaystvo",
+  "target": "C.history.pomeschiche-oskudenie",
+  "type": "prerequisites_for",
+  "why": "упадок помещичьих хозяйств"
+ },
+ {
+  "source": "C.history.krestyanskaya-reforma-1861-goda",
+  "target": "C.history.pomeschiche-oskudenie",
+  "type": "prerequisites_for",
+  "why": "без крепостного труда многие имения разорились"
+ },
+ {
+  "source": "C.history.dvoryane-predprinimateli",
+  "target": "C.history.dvoryanstvo",
+  "type": "is_a",
+  "why": "дворяне, занявшиеся предпринимательством"
+ },
+ {
+  "source": "C.history.industrializatsiya",
+  "target": "C.history.urbanizatsiya",
+  "type": "prerequisites_for",
+  "why": "рост промышленности привлёк в города сельское население"
+ },
+ {
+  "source": "C.history.zheleznodorozhnoe-stroitelstvo",
+  "target": "C.history.industrializatsiya",
+  "type": "prerequisites_for",
+  "why": "железные дороги ускорили развитие промышленности"
+ },
+ {
+  "source": "C.history.fabrichnye-rabochie",
+  "target": "C.history.rabochiy-vopros",
+  "type": "prerequisites_for",
+  "why": "рабочий вопрос — положение и права рабочих"
+ },
+ {
+  "source": "C.history.osvoenie-novyh-territoriy",
+  "target": "C.history.osvoenie-gosudarstvennoy-territorii",
+  "type": "prerequisites_for",
+  "why": "освоение земель империи продолжилось в XIX в."
+ },
+ {
+  "source": "C.history.zheleznodorozhnoe-stroitelstvo",
+  "target": "C.history.osvoenie-gosudarstvennoy-territorii",
+  "type": "prerequisites_for",
+  "why": "железные дороги помогли заселению Сибири и Дальнего Востока"
+ },
+ {
+  "source": "C.history.reformy-1860-1870-h-godov",
+  "target": "C.history.obschestvennaya-samodeyatelnost",
+  "type": "prerequisites_for",
+  "why": "реформы открыли простор для общественной инициативы"
+ },
+ {
+  "source": "C.history.obschestvennaya-samodeyatelnost",
+  "target": "C.history.grazhdanskoe-obschestvo",
+  "type": "part_of",
+  "why": "самоорганизация общества — основа гражданского общества"
+ },
+ {
+  "source": "C.history.reformy-1860-1870-h-godov",
+  "target": "C.history.publichnaya-sfera",
+  "type": "prerequisites_for",
+  "why": "самоуправление, гласный суд и печать расширили публичную сферу"
+ },
+ {
+  "source": "C.history.publichnaya-sfera",
+  "target": "C.history.grazhdanskoe-obschestvo",
+  "type": "part_of",
+  "why": "публичная сфера — часть гражданского общества"
+ },
+ {
+  "source": "C.history.obrazovanie-i-nauchnye-znaniya-v-rossii",
+  "target": "C.history.intelligentsiya",
+  "type": "prerequisites_for",
+  "why": "интеллигенция — образованный слой общества"
+ },
+ {
+  "source": "C.history.obschestvennye-organizatsii",
+  "target": "C.history.obschestvennaya-samodeyatelnost",
+  "type": "part_of",
+  "why": "общества и союзы — форма самодеятельности"
+ },
+ {
+  "source": "C.history.blagotvoritelnost",
+  "target": "C.history.obschestvennaya-samodeyatelnost",
+  "type": "part_of",
+  "why": "частная благотворительность — форма общественной активности"
+ },
+ {
+  "source": "C.history.universitet",
+  "target": "C.history.studencheskoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "студенты университетов боролись за свои права"
+ },
+ {
+  "source": "C.history.studencheskoe-dvizhenie",
+  "target": "C.history.obschestvennaya-samodeyatelnost",
+  "type": "part_of",
+  "why": "студенческое движение — форма общественной активности"
+ },
+ {
+  "source": "C.history.polozhenie-zhenschiny-na-rusi",
+  "target": "C.history.zhenskoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "женщины добивались права на образование и труд"
+ },
+ {
+  "source": "C.history.zhenskoe-dvizhenie",
+  "target": "C.history.obschestvennaya-samodeyatelnost",
+  "type": "part_of",
+  "why": "женское движение — форма общественной активности"
+ },
+ {
+  "source": "C.history.rossiyskaya-obschestvennaya-mysl-xix-veka",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "prerequisites_for",
+  "why": "общественное движение опиралось на идейные течения"
+ },
+ {
+  "source": "C.history.dvoryanskaya-oppozitsiya-samoderzhaviyu",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "первый этап общественного движения XIX в."
+ },
+ {
+  "source": "C.history.obschestvennaya-zhizn-v-1830-1850-e-gody",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "общественное движение при Николае I"
+ },
+ {
+  "source": "C.history.pozitivizm",
+  "target": "C.history.filosofiya",
+  "type": "is_a",
+  "why": "позитивизм — философское течение"
+ },
+ {
+  "source": "C.history.darvinizm",
+  "target": "C.history.nauchnye-otkrytiya-xix-nachala-xx-veka",
+  "type": "part_of",
+  "why": "теория Дарвина — крупнейшее открытие XIX в."
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-evrope",
+  "target": "C.history.natsionalizm",
+  "type": "prerequisites_for",
+  "why": "идеология национализма оформилась в ходе национальных движений"
+ },
+ {
+  "source": "C.history.russkiy-anarhizm",
+  "target": "C.history.rossiyskaya-obschestvennaya-mysl-xix-veka",
+  "type": "part_of",
+  "why": "анархизм Бакунина — течение русской мысли"
+ },
+ {
+  "source": "C.history.russkiy-anarhizm",
+  "target": "C.history.narodnichestvo",
+  "type": "prerequisites_for",
+  "why": "бунтарское направление народничества шло от Бакунина"
+ },
+ {
+  "source": "C.history.teoriya-russkogo-sotsializma",
+  "target": "C.history.narodnichestvo",
+  "type": "prerequisites_for",
+  "why": "народники развивали идеи русского общинного социализма"
+ },
+ {
+  "source": "C.history.intelligentsiya",
+  "target": "C.history.narodnichestvo",
+  "type": "prerequisites_for",
+  "why": "народничество — движение радикальной интеллигенции"
+ },
+ {
+  "source": "C.history.narodnichestvo",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "главное течение революционного движения 1860–1870-х гг."
+ },
+ {
+  "source": "C.history.narodnicheskie-kruzhki",
+  "target": "C.history.narodnichestvo",
+  "type": "part_of",
+  "why": "кружки — первые организации народников"
+ },
+ {
+  "source": "C.history.bolshoe-obschestvo-propagandy",
+  "target": "C.history.narodnicheskie-kruzhki",
+  "type": "is_a",
+  "why": "один из крупнейших народнических кружков"
+ },
+ {
+  "source": "C.history.narodnicheskie-kruzhki",
+  "target": "C.history.hozhdenie-v-narod",
+  "type": "prerequisites_for",
+  "why": "кружки организовали «хождение в народ»"
+ },
+ {
+  "source": "C.history.hozhdenie-v-narod",
+  "target": "C.history.narodnichestvo",
+  "type": "part_of",
+  "why": "массовая попытка народников поднять крестьян"
+ },
+ {
+  "source": "C.history.hozhdenie-v-narod",
+  "target": "C.history.zemlya-i-volya",
+  "type": "prerequisites_for",
+  "why": "после неудачи «хождения» создана организация «Земля и воля»"
+ },
+ {
+  "source": "C.history.zemlya-i-volya",
+  "target": "C.history.narodnichestvo",
+  "type": "part_of",
+  "why": "крупнейшая организация народников"
+ },
+ {
+  "source": "C.history.zemlya-i-volya",
+  "target": "C.history.chernyy-peredel",
+  "type": "prerequisites_for",
+  "why": "«Чёрный передел» возник при расколе «Земли и воли»"
+ },
+ {
+  "source": "C.history.zemlya-i-volya",
+  "target": "C.history.narodnaya-volya",
+  "type": "prerequisites_for",
+  "why": "«Народная воля» возникла при расколе «Земли и воли»"
+ },
+ {
+  "source": "C.history.narodnaya-volya",
+  "target": "C.history.politicheskiy-terrorizm",
+  "type": "prerequisites_for",
+  "why": "народовольцы перешли к политическому террору"
+ },
+ {
+  "source": "C.history.revolyutsionnoe-podpole",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "подполье — форма политической оппозиции"
+ },
+ {
+  "source": "C.history.politicheskaya-emigratsiya",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "эмиграция — форма политической оппозиции"
+ },
+ {
+  "source": "C.history.a-i-gertsen",
+  "target": "C.history.politicheskaya-emigratsiya",
+  "type": "participant_of",
+  "why": "Герцен издавал в эмиграции «Колокол»"
+ },
+ {
+  "source": "C.history.zemskaya-reforma-aleksandra-ii",
+  "target": "C.history.zemskoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "земское движение выросло из земских учреждений"
+ },
+ {
+  "source": "C.history.liberalizm",
+  "target": "C.history.zemskoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "земцы отстаивали либеральные идеи"
+ },
+ {
+  "source": "C.history.zemskoe-dvizhenie",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "либеральное направление общественного движения"
+ },
+ {
+  "source": "C.history.marksizm",
+  "target": "C.history.sotsial-demokratiya",
+  "type": "prerequisites_for",
+  "why": "социал-демократы опирались на марксизм"
+ },
+ {
+  "source": "C.history.sotsial-demokratiya",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "марксистское направление общественного движения"
+ },
+ {
+  "source": "C.history.marksizm",
+  "target": "C.history.gruppa-osvobozhdenie-truda",
+  "type": "prerequisites_for",
+  "why": "первая русская марксистская группа"
+ },
+ {
+  "source": "C.history.gruppa-osvobozhdenie-truda",
+  "target": "C.history.sotsial-demokratiya",
+  "type": "part_of",
+  "why": "первая организация русской социал-демократии"
+ },
+ {
+  "source": "C.history.rabochee-dvizhenie",
+  "target": "C.history.soyuz-borby-za-osvobozhdenie-rabochego-klassa",
+  "type": "prerequisites_for",
+  "why": "«Союз борьбы» соединял марксизм с рабочим движением"
+ },
+ {
+  "source": "C.history.soyuz-borby-za-osvobozhdenie-rabochego-klassa",
+  "target": "C.history.sotsial-demokratiya",
+  "type": "part_of",
+  "why": "организация русских социал-демократов"
+ },
+ {
+  "source": "C.history.soyuz-borby-za-osvobozhdenie-rabochego-klassa",
+  "target": "C.history.i-sezd-rsdrp",
+  "type": "prerequisites_for",
+  "why": "съезд созвали «Союзы борьбы» и марксистские группы"
+ },
+ {
+  "source": "C.history.i-sezd-rsdrp",
+  "target": "C.history.rsdrp",
+  "type": "prerequisites_for",
+  "why": "съезд провозгласил создание партии"
+ },
+ {
+  "source": "C.history.rsdrp",
+  "target": "C.history.sotsial-demokratiya",
+  "type": "part_of",
+  "why": "партия российской социал-демократии"
+ },
+ {
+  "source": "C.history.rsdrp",
+  "target": "C.history.sotsialisticheskie-partii",
+  "type": "is_a",
+  "why": "социалистическая партия России"
+ },
+ {
+  "source": "C.history.kultura-rossii-pervoy-poloviny-xix-veka",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития русской культуры"
+ },
+ {
+  "source": "C.history.urbanizatsiya",
+  "target": "C.history.gorodskaya-kultura",
+  "type": "prerequisites_for",
+  "why": "рост городов породил городскую культуру"
+ },
+ {
+  "source": "C.history.gorodskaya-kultura",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "развитие городской культуры"
+ },
+ {
+  "source": "C.history.narodnaya-kultura",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "народная культура второй половины XIX в."
+ },
+ {
+  "source": "C.history.elitarnaya-kultura",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "культура образованных слоёв"
+ },
+ {
+  "source": "C.history.massovaya-kultura",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "массовая культура появилась в конце XIX в."
+ },
+ {
+  "source": "C.history.rasprostranenie-gramotnosti",
+  "target": "C.history.massovaya-pechat",
+  "type": "prerequisites_for",
+  "why": "грамотность создала массового читателя"
+ },
+ {
+  "source": "C.history.massovaya-pechat",
+  "target": "C.history.obschestvennoe-mnenie",
+  "type": "prerequisites_for",
+  "why": "печать формировала общественное мнение"
+ },
+ {
+  "source": "C.history.massovaya-pechat",
+  "target": "C.history.massovaya-kultura",
+  "type": "part_of",
+  "why": "дешёвые газеты и журналы — часть массовой культуры"
+ },
+ {
+  "source": "C.history.literatura-narodov-rossii-v-xviii-veke",
+  "target": "C.history.russkaya-literatura-xix-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития русской литературы"
+ },
+ {
+  "source": "C.history.zolotoy-vek-russkoy-literatury",
+  "target": "C.history.russkaya-literatura-xix-veka",
+  "type": "part_of",
+  "why": "расцвет русской литературы первой половины XIX в."
+ },
+ {
+  "source": "C.history.russkaya-literatura-xix-veka",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "литература — вершина культуры эпохи"
+ },
+ {
+  "source": "C.history.russkaya-muzykalnaya-shkola",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "расцвет русской музыки"
+ },
+ {
+  "source": "C.history.russkiy-teatr",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "театр — часть культуры эпохи"
+ },
+ {
+  "source": "C.history.russkaya-arhitektura-xix-veka",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "архитектура и градостроительство"
+ },
+ {
+  "source": "C.history.rossiyskaya-nauka-xix-veka",
+  "target": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "type": "part_of",
+  "why": "достижения российской науки"
+ },
+ {
+  "source": "C.history.mnogonatsionalnyy-sostav-naseleniya-rossii",
+  "target": "C.history.natsionalnoe-vozrozhdenie-narodov-rossii",
+  "type": "prerequisites_for",
+  "why": "возрождение языков, культур и религий народов империи"
+ },
+ {
+  "source": "C.history.natsionalnoe-vozrozhdenie-narodov-rossii",
+  "target": "C.history.natsionalnye-dvizheniya-narodov-rossii",
+  "type": "prerequisites_for",
+  "why": "культурное возрождение подготовило национальные движения"
+ },
+ {
+  "source": "C.history.gosudarstvennyy-natsionalizm",
+  "target": "C.history.natsionalnye-dvizheniya-narodov-rossii",
+  "type": "prerequisites_for",
+  "why": "русификация вызвала протест народов империи"
+ },
+ {
+  "source": "C.history.cherta-osedlosti",
+  "target": "C.history.evreyskiy-vopros",
+  "type": "prerequisites_for",
+  "why": "ограничения прав евреев, черта оседлости"
+ },
+ {
+  "source": "C.history.kavkazskaya-voyna",
+  "target": "C.history.severnyy-kavkaz",
+  "type": "prerequisites_for",
+  "why": "Северный Кавказ вошёл в состав империи после Кавказской войны"
+ },
+ {
+  "source": "C.history.vnutrennyaya-politika-aleksandra-iii",
+  "target": "C.history.rossiya-na-poroge-xx-veka",
+  "type": "prerequisites_for",
+  "why": "Россия вступила в новый век с итогами политики Александра III"
+ },
+ {
+  "source": "C.history.ekonomicheskoe-razvitie-rossii-vo-vtoroy-polovine-xix-veka",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-kontse-xix-nachale-xx-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап экономического развития России"
+ },
+ {
+  "source": "C.history.ekonomicheskoe-razvitie-rossii-v-kontse-xix-nachale-xx-veka",
+  "target": "C.history.rossiya-na-poroge-xx-veka",
+  "type": "part_of",
+  "why": "экономический рост рубежа веков"
+ },
+ {
+  "source": "C.history.inostrannyy-kapital",
+  "target": "C.history.ekonomicheskoe-razvitie-rossii-v-kontse-xix-nachale-xx-veka",
+  "type": "part_of",
+  "why": "иностранный капитал участвовал в индустриализации"
+ },
+ {
+  "source": "C.history.hlebnyy-eksport",
+  "target": "C.history.vneshnyaya-torgovlya-rossii",
+  "type": "part_of",
+  "why": "хлеб — главный товар российского экспорта"
+ },
+ {
+  "source": "C.history.krestyanskaya-reforma-1861-goda",
+  "target": "C.history.agrarnyy-vopros",
+  "type": "prerequisites_for",
+  "why": "малоземелье после реформы 1861 г. обострило аграрный вопрос"
+ },
+ {
+  "source": "C.history.agrarnyy-vopros",
+  "target": "C.history.rossiya-na-poroge-xx-veka",
+  "type": "part_of",
+  "why": "главная нерешённая проблема рубежа веков"
+ },
+ {
+  "source": "C.history.kupechestvo",
+  "target": "C.history.burzhuaziya",
+  "type": "prerequisites_for",
+  "why": "буржуазия выросла из купечества и предпринимателей"
+ },
+ {
+  "source": "C.history.burzhuaziya",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "новая социальная группа рубежа веков"
+ },
+ {
+  "source": "C.history.urbanizatsiya",
+  "target": "C.history.srednie-gorodskie-sloi",
+  "type": "prerequisites_for",
+  "why": "рост городов создал средние городские слои"
+ },
+ {
+  "source": "C.history.srednie-gorodskie-sloi",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "новая социальная группа рубежа веков"
+ },
+ {
+  "source": "C.history.mnogonatsionalnaya-elita",
+  "target": "C.history.etnicheskie-elity",
+  "type": "prerequisites_for",
+  "why": "элиты народов империи вошли в её правящий слой"
+ },
+ {
+  "source": "C.history.etnicheskie-elity",
+  "target": "C.history.natsionalnye-dvizheniya-narodov-rossii",
+  "type": "prerequisites_for",
+  "why": "национально-культурные движения возглавили этнические элиты"
+ },
+ {
+  "source": "C.history.russko-yaponskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-rossii",
+  "type": "part_of",
+  "why": "главная война царствования Николая II"
+ },
+ {
+  "source": "C.history.oborona-port-artura",
+  "target": "C.history.russko-yaponskaya-voyna",
+  "type": "part_of",
+  "why": "героическая оборона крепости"
+ },
+ {
+  "source": "C.history.tsusimskoe-srazhenie",
+  "target": "C.history.russko-yaponskaya-voyna",
+  "type": "part_of",
+  "why": "разгром русского флота при Цусиме"
+ },
+ {
+  "source": "C.history.voenno-politicheskie-bloki",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "prerequisites_for",
+  "why": "противостояние блоков привело к мировой войне"
+ },
+ {
+  "source": "C.history.balkanskie-voyny",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "prerequisites_for",
+  "why": "Балканы стали «пороховым погребом» Европы"
+ },
+ {
+  "source": "C.history.nikolay-ii",
+  "target": "C.history.dinastiya-romanovyh",
+  "type": "participant_of",
+  "why": "Николай II — последний император из династии Романовых"
+ },
+ {
+  "source": "C.history.nikolay-ii",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "participant_of",
+  "why": "революция поставила Николая II перед выбором реформ"
+ },
+ {
+  "source": "C.history.nikolay-ii",
+  "target": "C.history.pervaya-gaagskaya-mirnaya-konferentsiya",
+  "type": "participant_of",
+  "why": "конференция созвана по инициативе Николая II"
+ },
+ {
+  "source": "C.history.v-k-pleve",
+  "target": "C.history.politicheskaya-politsiya",
+  "type": "participant_of",
+  "why": "Плеве руководил полицией, затем стал министром внутренних дел"
+ },
+ {
+  "source": "C.history.agrarnyy-vopros",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "крестьяне требовали земли"
+ },
+ {
+  "source": "C.history.rabochiy-vopros",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "рабочие боролись за свои права"
+ },
+ {
+  "source": "C.history.russko-yaponskaya-voyna",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "поражение в войне обострило недовольство"
+ },
+ {
+  "source": "C.history.krovavoe-voskresene",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "расстрел мирного шествия 9 января 1905 г. начал революцию"
+ },
+ {
+  "source": "C.history.vserossiyskaya-oktyabrskaya-politicheskaya-stachka",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "вершина революции осенью 1905 г."
+ },
+ {
+  "source": "C.history.vserossiyskaya-oktyabrskaya-politicheskaya-stachka",
+  "target": "C.history.manifest-17-oktyabrya-1905-goda",
+  "type": "prerequisites_for",
+  "why": "стачка вынудила царя издать манифест"
+ },
+ {
+  "source": "C.history.sovety",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "советы рабочих депутатов возникли в ходе революции"
+ },
+ {
+  "source": "C.history.sovety",
+  "target": "C.history.dekabrskoe-vooruzhennoe-vosstanie-v-moskve",
+  "type": "prerequisites_for",
+  "why": "восстание поднял Московский совет"
+ },
+ {
+  "source": "C.history.dekabrskoe-vooruzhennoe-vosstanie-v-moskve",
+  "target": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "высшая точка революции"
+ },
+ {
+  "source": "C.history.zemskoe-dvizhenie",
+  "target": "C.history.liberalnoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "освободительное движение выросло из земского либерализма"
+ },
+ {
+  "source": "C.history.liberalnoe-dvizhenie",
+  "target": "C.history.obschestvennoe-dvizhenie-v-rossii",
+  "type": "part_of",
+  "why": "либеральное направление общественного движения"
+ },
+ {
+  "source": "C.history.soyuz-osvobozhdeniya",
+  "target": "C.history.liberalnoe-dvizhenie",
+  "type": "part_of",
+  "why": "главная организация либералов накануне революции"
+ },
+ {
+  "source": "C.history.soyuz-osvobozhdeniya",
+  "target": "C.history.banketnaya-kampaniya",
+  "type": "prerequisites_for",
+  "why": "банкетную кампанию 1904 г. провёл «Союз освобождения»"
+ },
+ {
+  "source": "C.history.banketnaya-kampaniya",
+  "target": "C.history.liberalnoe-dvizhenie",
+  "type": "part_of",
+  "why": "форма выступлений либералов"
+ },
+ {
+  "source": "C.history.professionalnye-revolyutsionery",
+  "target": "C.history.revolyutsionnoe-podpole",
+  "type": "part_of",
+  "why": "профессиональные революционеры — кадры подполья"
+ },
+ {
+  "source": "C.history.parlament",
+  "target": "C.history.parlamentarizm",
+  "type": "prerequisites_for",
+  "why": "парламентаризм — система с выборным парламентом"
+ },
+ {
+  "source": "C.history.parlamentarizm",
+  "target": "C.history.gosudarstvennaya-duma",
+  "type": "prerequisites_for",
+  "why": "Дума — начало парламентаризма в России"
+ },
+ {
+  "source": "C.history.manifest-17-oktyabrya-1905-goda",
+  "target": "C.history.gosudarstvennaya-duma",
+  "type": "prerequisites_for",
+  "why": "манифест обещал законодательную Думу"
+ },
+ {
+  "source": "C.history.konstitutsionnyy-vopros",
+  "target": "C.history.osnovnye-gosudarstvennye-zakony-1906-goda",
+  "type": "prerequisites_for",
+  "why": "законы 1906 г. ограничили самодержавие"
+ },
+ {
+  "source": "C.history.osnovnye-gosudarstvennye-zakony-1906-goda",
+  "target": "C.history.gosudarstvennaya-duma",
+  "type": "prerequisites_for",
+  "why": "законы определили права Думы"
+ },
+ {
+  "source": "C.history.izbiratelnyy-zakon-11-dekabrya-1905-goda",
+  "target": "C.history.i-gosudarstvennaya-duma",
+  "type": "prerequisites_for",
+  "why": "по этому закону избрана I Дума"
+ },
+ {
+  "source": "C.history.i-gosudarstvennaya-duma",
+  "target": "C.history.gosudarstvennaya-duma",
+  "type": "part_of",
+  "why": "первый созыв Думы"
+ },
+ {
+  "source": "C.history.i-gosudarstvennaya-duma",
+  "target": "C.history.ii-gosudarstvennaya-duma",
+  "type": "prerequisites_for",
+  "why": "после роспуска I Думы избрана II Дума"
+ },
+ {
+  "source": "C.history.ii-gosudarstvennaya-duma",
+  "target": "C.history.gosudarstvennaya-duma",
+  "type": "part_of",
+  "why": "второй созыв Думы"
+ },
+ {
+  "source": "C.history.manifest-17-oktyabrya-1905-goda",
+  "target": "C.history.mnogopartiynaya-sistema",
+  "type": "prerequisites_for",
+  "why": "манифест даровал свободы, и возникли партии"
+ },
+ {
+  "source": "C.history.politicheskie-partii",
+  "target": "C.history.mnogopartiynaya-sistema",
+  "type": "prerequisites_for",
+  "why": "многопартийность — соперничество многих партий"
+ },
+ {
+  "source": "C.history.narodnichestvo",
+  "target": "C.history.sotsialisty-revolyutsionery",
+  "type": "prerequisites_for",
+  "why": "эсеры — наследники народников"
+ },
+ {
+  "source": "C.history.sotsialisty-revolyutsionery",
+  "target": "C.history.sotsialisticheskie-partii",
+  "type": "is_a",
+  "why": "неонародническая социалистическая партия"
+ },
+ {
+  "source": "C.history.bolsheviki",
+  "target": "C.history.rsdrp",
+  "type": "part_of",
+  "why": "фракция РСДРП"
+ },
+ {
+  "source": "C.history.mensheviki",
+  "target": "C.history.rsdrp",
+  "type": "part_of",
+  "why": "фракция РСДРП"
+ },
+ {
+  "source": "C.history.liberalnoe-dvizhenie",
+  "target": "C.history.liberalnye-partii",
+  "type": "prerequisites_for",
+  "why": "либеральные партии выросли из освободительного движения"
+ },
+ {
+  "source": "C.history.liberalnye-partii",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "вид политических партий"
+ },
+ {
+  "source": "C.history.kadety",
+  "target": "C.history.liberalnye-partii",
+  "type": "is_a",
+  "why": "конституционно-демократическая партия"
+ },
+ {
+  "source": "C.history.soyuz-osvobozhdeniya",
+  "target": "C.history.kadety",
+  "type": "prerequisites_for",
+  "why": "партия кадетов создана на основе «Союза освобождения»"
+ },
+ {
+  "source": "C.history.oktyabristy",
+  "target": "C.history.liberalnye-partii",
+  "type": "is_a",
+  "why": "умеренно-либеральная партия"
+ },
+ {
+  "source": "C.history.manifest-17-oktyabrya-1905-goda",
+  "target": "C.history.oktyabristy",
+  "type": "prerequisites_for",
+  "why": "«Союз 17 октября» назван по манифесту"
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-narodov-rossii",
+  "target": "C.history.natsionalnye-partii",
+  "type": "prerequisites_for",
+  "why": "национальные партии выросли из национальных движений"
+ },
+ {
+  "source": "C.history.natsionalnye-partii",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "партии народов империи"
+ },
+ {
+  "source": "C.history.samoderzhavie",
+  "target": "C.history.pravomonarhicheskie-partii",
+  "type": "prerequisites_for",
+  "why": "правые партии защищали неограниченное самодержавие"
+ },
+ {
+  "source": "C.history.pravomonarhicheskie-partii",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "вид политических партий"
+ },
+ {
+  "source": "C.history.pervaya-rossiyskaya-revolyutsiya",
+  "target": "C.history.obschestvo-i-vlast-posle-revolyutsii",
+  "type": "prerequisites_for",
+  "why": "политическая стабилизация после революции"
+ },
+ {
+  "source": "C.history.agrarnyy-vopros",
+  "target": "C.history.stolypinskie-reformy",
+  "type": "prerequisites_for",
+  "why": "аграрная реформа — попытка решить аграрный вопрос"
+ },
+ {
+  "source": "C.history.obschinnoe-zemlevladenie",
+  "target": "C.history.stolypinskie-reformy",
+  "type": "prerequisites_for",
+  "why": "реформа разрешила выход из общины с землёй"
+ },
+ {
+  "source": "C.history.p-a-stolypin",
+  "target": "C.history.stolypinskie-reformy",
+  "type": "participant_of",
+  "why": "Столыпин — автор и проводник реформ"
+ },
+ {
+  "source": "C.history.stolypinskie-reformy",
+  "target": "C.history.obschestvo-i-vlast-posle-revolyutsii",
+  "type": "part_of",
+  "why": "реформы — главный курс власти после революции"
+ },
+ {
+  "source": "C.history.ii-gosudarstvennaya-duma",
+  "target": "C.history.iii-gosudarstvennaya-duma",
+  "type": "prerequisites_for",
+  "why": "после роспуска II Думы избрана III Дума"
+ },
+ {
+  "source": "C.history.iii-gosudarstvennaya-duma",
+  "target": "C.history.gosudarstvennaya-duma",
+  "type": "part_of",
+  "why": "третий созыв Думы"
+ },
+ {
+  "source": "C.history.iii-gosudarstvennaya-duma",
+  "target": "C.history.obschestvo-i-vlast-posle-revolyutsii",
+  "type": "part_of",
+  "why": "III Дума — опора власти после революции"
+ },
+ {
+  "source": "C.history.iii-gosudarstvennaya-duma",
+  "target": "C.history.iv-gosudarstvennaya-duma",
+  "type": "prerequisites_for",
+  "why": "IV Дума избрана после III Думы"
+ },
+ {
+  "source": "C.history.iv-gosudarstvennaya-duma",
+  "target": "C.history.gosudarstvennaya-duma",
+  "type": "part_of",
+  "why": "четвёртый созыв Думы"
+ },
+ {
+  "source": "C.history.kultura-rossii-vtoroy-poloviny-xix-veka",
+  "target": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития русской культуры"
+ },
+ {
+  "source": "C.history.russkaya-literatura-xix-veka",
+  "target": "C.history.russkaya-literatura-nachala-xx-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап русской литературы"
+ },
+ {
+  "source": "C.history.russkaya-literatura-nachala-xx-veka",
+  "target": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "type": "part_of",
+  "why": "литература Серебряного века"
+ },
+ {
+  "source": "C.history.modernizm",
+  "target": "C.history.mir-iskusstva",
+  "type": "prerequisites_for",
+  "why": "«Мир искусства» — объединение художников-модернистов"
+ },
+ {
+  "source": "C.history.mir-iskusstva",
+  "target": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "type": "part_of",
+  "why": "художественное объединение Серебряного века"
+ },
+ {
+  "source": "C.history.russkaya-arhitektura-xix-veka",
+  "target": "C.history.russkaya-arhitektura-nachala-xx-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап русской архитектуры"
+ },
+ {
+  "source": "C.history.russkaya-arhitektura-nachala-xx-veka",
+  "target": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "type": "part_of",
+  "why": "архитектура модерна"
+ },
+ {
+  "source": "C.history.russkaya-skulptura-xviii-veka",
+  "target": "C.history.russkaya-skulptura-nachala-xx-veka",
+  "type": "prerequisites_for",
+  "why": "развитие русской скульптуры"
+ },
+ {
+  "source": "C.history.russkaya-skulptura-nachala-xx-veka",
+  "target": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "type": "part_of",
+  "why": "скульптура Серебряного века"
+ },
+ {
+  "source": "C.history.mir-iskusstva",
+  "target": "C.history.russkie-sezony",
+  "type": "prerequisites_for",
+  "why": "сезоны в Париже организовал Дягилев с художниками «Мира искусства»"
+ },
+ {
+  "source": "C.history.russkie-sezony",
+  "target": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "type": "part_of",
+  "why": "русский балет и опера покорили Париж"
+ },
+ {
+  "source": "C.history.rossiyskaya-nauka-xix-veka",
+  "target": "C.history.rossiyskaya-nauka-nachala-xx-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития российской науки"
+ },
+ {
+  "source": "C.history.rossiyskaya-nauka-nachala-xx-veka",
+  "target": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "type": "part_of",
+  "why": "наука и образование эпохи Серебряного века"
+ },
+ {
+  "source": "C.history.gumanitarnye-nauki",
+  "target": "C.history.rossiyskaya-nauka-nachala-xx-veka",
+  "type": "part_of",
+  "why": "достижения гуманитарных наук"
+ },
+ {
+  "source": "C.history.russkaya-filosofskaya-shkola",
+  "target": "C.history.filosofiya",
+  "type": "is_a",
+  "why": "русская религиозная философия"
+ },
+ {
+  "source": "C.history.slavyanofily",
+  "target": "C.history.russkaya-filosofskaya-shkola",
+  "type": "prerequisites_for",
+  "why": "русские философы развивали идеи славянофилов"
+ }
+]

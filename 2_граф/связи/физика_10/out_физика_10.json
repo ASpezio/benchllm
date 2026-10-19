@@ -1,0 +1,1775 @@
+[
+ {
+  "source": "C.physics.fizicheskaya-velichina",
+  "target": "C.physics.fizicheskiy-zakon",
+  "type": "prerequisites_for",
+  "why": "закон выражает связь между физическими величинами"
+ },
+ {
+  "source": "C.physics.eksperiment",
+  "target": "C.physics.fizicheskiy-zakon",
+  "type": "prerequisites_for",
+  "why": "физические законы устанавливаются и проверяются экспериментом"
+ },
+ {
+  "source": "C.physics.fizicheskiy-zakon",
+  "target": "C.physics.fizicheskaya-teoriya",
+  "type": "part_of",
+  "why": "законы входят в состав физической теории"
+ },
+ {
+  "source": "C.physics.fizicheskaya-model",
+  "target": "C.physics.fizicheskaya-teoriya",
+  "type": "prerequisites_for",
+  "why": "теория описывает явления с помощью моделей"
+ },
+ {
+  "source": "C.physics.gipoteza",
+  "target": "C.physics.fizicheskaya-teoriya",
+  "type": "prerequisites_for",
+  "why": "теория вырастает из проверенных опытом гипотез"
+ },
+ {
+  "source": "C.physics.fizicheskiy-zakon",
+  "target": "C.physics.granitsy-primenimosti-fizicheskih-zakonov",
+  "type": "prerequisites_for",
+  "why": "границы применимости определяются для конкретного закона"
+ },
+ {
+  "source": "C.physics.fizicheskaya-model",
+  "target": "C.physics.granitsy-primenimosti-fizicheskih-zakonov",
+  "type": "prerequisites_for",
+  "why": "границы применимости задаются допущениями модели"
+ },
+ {
+  "source": "C.physics.fizicheskaya-teoriya",
+  "target": "C.physics.printsip-sootvetstviya",
+  "type": "prerequisites_for",
+  "why": "принцип соответствия связывает старую и новую теории"
+ },
+ {
+  "source": "C.physics.granitsy-primenimosti-fizicheskih-zakonov",
+  "target": "C.physics.printsip-sootvetstviya",
+  "type": "prerequisites_for",
+  "why": "новая теория переходит в старую в границах её применимости"
+ },
+ {
+  "source": "C.physics.koordinata",
+  "target": "C.physics.radius-vektor",
+  "type": "prerequisites_for",
+  "why": "компоненты радиус-вектора — координаты точки",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.materialnaya-tochka",
+  "target": "C.physics.radius-vektor",
+  "type": "prerequisites_for",
+  "why": "радиус-вектор задаёт положение материальной точки"
+ },
+ {
+  "source": "C.physics.radius-vektor",
+  "target": "C.physics.vektornaya-fizicheskaya-velichina",
+  "type": "is_a",
+  "why": "радиус-вектор — векторная величина"
+ },
+ {
+  "source": "C.physics.mehanicheskoe-dvizhenie",
+  "target": "C.physics.traektoriya",
+  "type": "prerequisites_for",
+  "why": "траектория — линия, вдоль которой движется тело"
+ },
+ {
+  "source": "C.physics.traektoriya",
+  "target": "C.physics.put",
+  "type": "prerequisites_for",
+  "why": "путь — длина траектории",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.traektoriya",
+  "target": "C.physics.krivolineynoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "криволинейное движение определяется формой траектории"
+ },
+ {
+  "source": "C.physics.proektsiya-skorosti",
+  "target": "C.physics.grafik-zavisimosti-proektsii-skorosti-ot-vremeni",
+  "type": "prerequisites_for",
+  "why": "на графике отложена проекция скорости",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.peremeschenie",
+  "target": "C.physics.vektornaya-fizicheskaya-velichina",
+  "type": "is_a",
+  "why": "перемещение — вектор из начального положения в конечное"
+ },
+ {
+  "source": "C.physics.radius-vektor",
+  "target": "C.physics.peremeschenie",
+  "type": "prerequisites_for",
+  "why": "перемещение — изменение радиус-вектора"
+ },
+ {
+  "source": "C.physics.peremeschenie",
+  "target": "C.physics.proektsiya-peremescheniya",
+  "type": "prerequisites_for",
+  "why": "проекция перемещения — проекция вектора перемещения на ось"
+ },
+ {
+  "source": "C.physics.peremeschenie",
+  "target": "C.physics.skorost",
+  "type": "prerequisites_for",
+  "why": "скорость как вектор определяется через перемещение"
+ },
+ {
+  "source": "C.physics.peremeschenie",
+  "target": "C.physics.slozhenie-peremescheniy",
+  "type": "prerequisites_for",
+  "why": "складываются векторы перемещений"
+ },
+ {
+  "source": "C.physics.otnositelnost-mehanicheskogo-dvizheniya",
+  "target": "C.physics.slozhenie-peremescheniy",
+  "type": "prerequisites_for",
+  "why": "сложение перемещений описывает переход в другую систему отсчёта"
+ },
+ {
+  "source": "C.physics.slozhenie-peremescheniy",
+  "target": "C.physics.slozhenie-skorostey",
+  "type": "prerequisites_for",
+  "why": "закон сложения скоростей следует из сложения перемещений"
+ },
+ {
+  "source": "C.physics.skorost",
+  "target": "C.physics.slozhenie-skorostey",
+  "type": "prerequisites_for",
+  "why": "складываются векторы скоростей"
+ },
+ {
+  "source": "C.physics.dvizhenie-tela-broshennogo-pod-uglom-k-gorizontu",
+  "target": "C.physics.krivolineynoe-dvizhenie",
+  "type": "is_a",
+  "why": "тело движется по параболе"
+ },
+ {
+  "source": "C.physics.uskorenie-svobodnogo-padeniya",
+  "target": "C.physics.dvizhenie-tela-broshennogo-pod-uglom-k-gorizontu",
+  "type": "prerequisites_for",
+  "why": "брошенное тело движется с ускорением свободного падения"
+ },
+ {
+  "source": "C.physics.uravnenie-ravnomernogo-pryamolineynogo-dvizheniya",
+  "target": "C.physics.dvizhenie-tela-broshennogo-pod-uglom-k-gorizontu",
+  "type": "prerequisites_for",
+  "why": "по горизонтали тело движется равномерно"
+ },
+ {
+  "source": "C.physics.uravnenie-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "target": "C.physics.dvizhenie-tela-broshennogo-pod-uglom-k-gorizontu",
+  "type": "prerequisites_for",
+  "why": "по вертикали тело движется равноускоренно"
+ },
+ {
+  "source": "C.physics.dvizhenie-po-okruzhnosti",
+  "target": "C.physics.krivolineynoe-dvizhenie",
+  "type": "is_a",
+  "why": "окружность — частный случай криволинейной траектории"
+ },
+ {
+  "source": "C.physics.ravnomernoe-dvizhenie-po-okruzhnosti",
+  "target": "C.physics.dvizhenie-po-okruzhnosti",
+  "type": "is_a",
+  "why": "движение по окружности с постоянной по модулю скоростью"
+ },
+ {
+  "source": "C.physics.krivolineynoe-dvizhenie",
+  "target": "C.physics.mehanicheskoe-dvizhenie",
+  "type": "is_a",
+  "why": "криволинейное движение — вид механического движения"
+ },
+ {
+  "source": "C.physics.tsentrostremitelnoe-uskorenie",
+  "target": "C.physics.polnoe-uskorenie",
+  "type": "prerequisites_for",
+  "why": "полное ускорение включает центростремительную составляющую"
+ },
+ {
+  "source": "C.physics.polnoe-uskorenie",
+  "target": "C.physics.uskorenie",
+  "type": "is_a",
+  "why": "полное ускорение — ускорение точки при криволинейном движении"
+ },
+ {
+  "source": "C.physics.dvizhenie-po-okruzhnosti",
+  "target": "C.physics.polnoe-uskorenie",
+  "type": "prerequisites_for",
+  "why": "полное ускорение рассматривают для точки на окружности"
+ },
+ {
+  "source": "C.physics.dvizhenie-snaryadov",
+  "target": "C.physics.dvizhenie-tela-broshennogo-pod-uglom-k-gorizontu",
+  "type": "is_a",
+  "why": "снаряд летит как тело, брошенное под углом к горизонту"
+ },
+ {
+  "source": "C.physics.lineynaya-skorost",
+  "target": "C.physics.remennaya-peredacha",
+  "type": "prerequisites_for",
+  "why": "линейные скорости ремня и ободов шкивов равны"
+ },
+ {
+  "source": "C.physics.uglovaya-skorost",
+  "target": "C.physics.remennaya-peredacha",
+  "type": "prerequisites_for",
+  "why": "передача меняет угловую скорость вращения валов"
+ },
+ {
+  "source": "C.physics.lineynaya-skorost",
+  "target": "C.physics.tsepnaya-peredacha",
+  "type": "prerequisites_for",
+  "why": "линейные скорости цепи и зубьев звёздочек равны"
+ },
+ {
+  "source": "C.physics.uglovaya-skorost",
+  "target": "C.physics.tsepnaya-peredacha",
+  "type": "prerequisites_for",
+  "why": "передача меняет угловую скорость вращения звёздочек"
+ },
+ {
+  "source": "C.physics.izmerenie-mgnovennoy-skorosti",
+  "target": "C.physics.mgnovennaya-skorost",
+  "type": "verifies",
+  "why": "в работе измеряют мгновенную скорость"
+ },
+ {
+  "source": "C.physics.inertsialnaya-sistema-otscheta",
+  "target": "C.physics.sistema-otscheta",
+  "type": "is_a",
+  "why": "ИСО — система отсчёта, где выполняется закон инерции"
+ },
+ {
+  "source": "C.physics.pervyy-zakon-nyutona",
+  "target": "C.physics.inertsialnaya-sistema-otscheta",
+  "type": "prerequisites_for",
+  "why": "ИСО определяются через первый закон Ньютона"
+ },
+ {
+  "source": "C.physics.inertsialnaya-sistema-otscheta",
+  "target": "C.physics.vtoroy-zakon-nyutona",
+  "type": "prerequisites_for",
+  "why": "второй закон Ньютона справедлив в ИСО"
+ },
+ {
+  "source": "C.physics.inertsialnaya-sistema-otscheta",
+  "target": "C.physics.printsip-otnositelnosti-galileya",
+  "type": "prerequisites_for",
+  "why": "принцип утверждает равноправие всех ИСО"
+ },
+ {
+  "source": "C.physics.sila-treniya-skolzheniya",
+  "target": "C.physics.koeffitsient-treniya",
+  "type": "prerequisites_for",
+  "why": "коэффициент трения — отношение силы трения скольжения к силе реакции опоры"
+ },
+ {
+  "source": "C.physics.izmerenie-koeffitsienta-treniya-skolzheniya",
+  "target": "C.physics.koeffitsient-treniya",
+  "type": "verifies",
+  "why": "в работе измеряют коэффициент трения скольжения"
+ },
+ {
+  "source": "C.physics.sila-soprotivleniya-sredy",
+  "target": "C.physics.sila-treniya",
+  "type": "is_a",
+  "why": "сопротивление среды — жидкое (вязкое) трение"
+ },
+ {
+  "source": "C.physics.suhoe-trenie",
+  "target": "C.physics.trenie",
+  "type": "is_a",
+  "why": "трение между поверхностями твёрдых тел"
+ },
+ {
+  "source": "C.physics.trenie-skolzheniya",
+  "target": "C.physics.suhoe-trenie",
+  "type": "is_a",
+  "why": "трение скольжения — вид сухого трения"
+ },
+ {
+  "source": "C.physics.trenie-pokoya",
+  "target": "C.physics.suhoe-trenie",
+  "type": "is_a",
+  "why": "трение покоя — вид сухого трения"
+ },
+ {
+  "source": "C.physics.vraschatelnoe-dvizhenie",
+  "target": "C.physics.mehanicheskoe-dvizhenie",
+  "type": "is_a",
+  "why": "вращение — вид механического движения"
+ },
+ {
+  "source": "C.physics.absolyutno-tverdoe-telo",
+  "target": "C.physics.vraschatelnoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "вращательное движение рассматривают для твёрдого тела"
+ },
+ {
+  "source": "C.physics.dvizhenie-po-okruzhnosti",
+  "target": "C.physics.vraschatelnoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "при вращении точки тела движутся по окружностям"
+ },
+ {
+  "source": "C.physics.postupatelnoe-dvizhenie",
+  "target": "C.physics.mehanicheskoe-dvizhenie",
+  "type": "is_a",
+  "why": "поступательное движение — вид механического движения"
+ },
+ {
+  "source": "C.physics.absolyutno-tverdoe-telo",
+  "target": "C.physics.postupatelnoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "поступательное движение рассматривают для твёрдого тела"
+ },
+ {
+  "source": "C.physics.plecho-sily",
+  "target": "C.physics.moment-sily",
+  "type": "prerequisites_for",
+  "why": "момент силы — произведение силы на её плечо"
+ },
+ {
+  "source": "C.physics.plecho-sily",
+  "target": "C.physics.pravilo-ravnovesiya-rychaga",
+  "type": "prerequisites_for",
+  "why": "правило рычага связывает силы с их плечами",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.moment-sily",
+  "target": "C.physics.usloviya-ravnovesiya-tverdogo-tela",
+  "type": "prerequisites_for",
+  "why": "сумма моментов сил должна быть равна нулю"
+ },
+ {
+  "source": "C.physics.ravnodeystvuyuschaya-sil",
+  "target": "C.physics.usloviya-ravnovesiya-tverdogo-tela",
+  "type": "prerequisites_for",
+  "why": "векторная сумма сил должна быть равна нулю"
+ },
+ {
+  "source": "C.physics.absolyutno-tverdoe-telo",
+  "target": "C.physics.usloviya-ravnovesiya-tverdogo-tela",
+  "type": "prerequisites_for",
+  "why": "условия записывают для абсолютно твёрдого тела"
+ },
+ {
+  "source": "C.physics.pervaya-kosmicheskaya-skorost",
+  "target": "C.physics.dvizhenie-iskusstvennyh-sputnikov",
+  "type": "prerequisites_for",
+  "why": "спутник на круговой орбите движется с первой космической скоростью"
+ },
+ {
+  "source": "C.physics.izuchenie-dvizheniya-bruska-po-naklonnoy-ploskosti-pod-deystviem-neskolkih-sil",
+  "target": "C.physics.vtoroy-zakon-nyutona",
+  "type": "verifies",
+  "why": "брусок движется с ускорением под действием равнодействующей сил"
+ },
+ {
+  "source": "C.physics.naklonnaya-ploskost",
+  "target": "C.physics.izuchenie-dvizheniya-bruska-po-naklonnoy-ploskosti-pod-deystviem-neskolkih-sil",
+  "type": "prerequisites_for",
+  "why": "опыт проводят на наклонной плоскости"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-sily-uprugosti-ot-deformatsii-pruzhiny-i-rezinovogo-obr",
+  "target": "C.physics.zakon-guka",
+  "type": "verifies",
+  "why": "для пружины сила упругости пропорциональна деформации"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-sily-uprugosti-ot-deformatsii-pruzhiny-i-rezinovogo-obr",
+  "target": "C.physics.sila-uprugosti",
+  "type": "verifies",
+  "why": "исследуют зависимость силы упругости от деформации"
+ },
+ {
+  "source": "C.physics.issledovanie-usloviy-ravnovesiya-tverdogo-tela-imeyuschego-os-vrascheniya",
+  "target": "C.physics.ravnovesie-tverdogo-tela-s-zakreplennoy-osyu-vrascheniya",
+  "type": "verifies",
+  "why": "проверяют равновесие тела с закреплённой осью"
+ },
+ {
+  "source": "C.physics.issledovanie-usloviy-ravnovesiya-tverdogo-tela-imeyuschego-os-vrascheniya",
+  "target": "C.physics.usloviya-ravnovesiya-tverdogo-tela",
+  "type": "verifies",
+  "why": "проверяют равенство нулю суммы моментов сил"
+ },
+ {
+  "source": "C.physics.impuls-sistemy-tel",
+  "target": "C.physics.zakon-izmeneniya-impulsa",
+  "type": "prerequisites_for",
+  "why": "закон описывает изменение импульса системы тел"
+ },
+ {
+  "source": "C.physics.impuls-sily",
+  "target": "C.physics.zakon-izmeneniya-impulsa",
+  "type": "prerequisites_for",
+  "why": "изменение импульса системы равно импульсу внешних сил"
+ },
+ {
+  "source": "C.physics.vtoroy-zakon-nyutona",
+  "target": "C.physics.zakon-izmeneniya-impulsa",
+  "type": "prerequisites_for",
+  "why": "закон изменения импульса — запись второго закона Ньютона через импульс"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-impulsa",
+  "target": "C.physics.zakon-izmeneniya-impulsa",
+  "type": "is_a",
+  "why": "сохранение импульса — частный случай при нулевой сумме внешних сил"
+ },
+ {
+  "source": "C.physics.mehanicheskaya-rabota",
+  "target": "C.physics.potentsialnye-sily",
+  "type": "prerequisites_for",
+  "why": "работа потенциальной силы не зависит от формы траектории"
+ },
+ {
+  "source": "C.physics.potentsialnye-sily",
+  "target": "C.physics.potentsialnaya-energiya",
+  "type": "prerequisites_for",
+  "why": "потенциальная энергия вводится для потенциальных сил",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.sila-tyazhesti",
+  "target": "C.physics.potentsialnye-sily",
+  "type": "is_a",
+  "why": "сила тяжести — потенциальная сила"
+ },
+ {
+  "source": "C.physics.sila-uprugosti",
+  "target": "C.physics.potentsialnye-sily",
+  "type": "is_a",
+  "why": "сила упругости — потенциальная сила"
+ },
+ {
+  "source": "C.physics.potentsialnye-sily",
+  "target": "C.physics.nepotentsialnye-sily",
+  "type": "prerequisites_for",
+  "why": "непотенциальные силы определяются в противопоставлении потенциальным"
+ },
+ {
+  "source": "C.physics.nepotentsialnye-sily",
+  "target": "C.physics.zakon-izmeneniya-mehanicheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "механическая энергия меняется на работу непотенциальных сил"
+ },
+ {
+  "source": "C.physics.sila-treniya",
+  "target": "C.physics.nepotentsialnye-sily",
+  "type": "is_a",
+  "why": "сила трения — непотенциальная сила"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-impulsa",
+  "target": "C.physics.neuprugoe-stolknovenie",
+  "type": "prerequisites_for",
+  "why": "при неупругом ударе сохраняется импульс системы"
+ },
+ {
+  "source": "C.physics.neuprugaya-deformatsiya",
+  "target": "C.physics.neuprugoe-stolknovenie",
+  "type": "prerequisites_for",
+  "why": "при неупругом ударе тела деформируются неупруго"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-impulsa",
+  "target": "C.physics.uprugoe-stolknovenie",
+  "type": "prerequisites_for",
+  "why": "при упругом ударе сохраняется импульс системы"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-mehanicheskoy-energii",
+  "target": "C.physics.uprugoe-stolknovenie",
+  "type": "prerequisites_for",
+  "why": "при упругом ударе сохраняется механическая энергия"
+ },
+ {
+  "source": "C.physics.uprugaya-deformatsiya",
+  "target": "C.physics.uprugoe-stolknovenie",
+  "type": "prerequisites_for",
+  "why": "при упругом ударе деформации тел упругие"
+ },
+ {
+  "source": "C.physics.reaktivnoe-dvizhenie",
+  "target": "C.physics.vodomet",
+  "type": "prerequisites_for",
+  "why": "водомёт движется за счёт выбрасываемой струи воды"
+ },
+ {
+  "source": "C.physics.potentsialnaya-energiya",
+  "target": "C.physics.koper",
+  "type": "prerequisites_for",
+  "why": "копёр использует энергию поднятого груза"
+ },
+ {
+  "source": "C.physics.potentsialnaya-energiya-szhatoy-pruzhiny",
+  "target": "C.physics.pruzhinnyy-pistolet",
+  "type": "prerequisites_for",
+  "why": "энергия сжатой пружины переходит в кинетическую энергию снаряда"
+ },
+ {
+  "source": "C.physics.izuchenie-svyazi-skorostey-tel-pri-neuprugom-udare",
+  "target": "C.physics.zakon-sohraneniya-impulsa",
+  "type": "verifies",
+  "why": "скорости после удара согласуются с сохранением импульса"
+ },
+ {
+  "source": "C.physics.izuchenie-svyazi-skorostey-tel-pri-neuprugom-udare",
+  "target": "C.physics.neuprugoe-stolknovenie",
+  "type": "verifies",
+  "why": "в опыте изучают неупругий удар тел"
+ },
+ {
+  "source": "C.physics.issledovanie-svyazi-raboty-sily-s-izmeneniem-mehanicheskoy-energii-tela",
+  "target": "C.physics.zakon-izmeneniya-mehanicheskoy-energii",
+  "type": "verifies",
+  "why": "изменение механической энергии сравнивают с работой силы"
+ },
+ {
+  "source": "C.physics.molekula",
+  "target": "C.physics.postoyannaya-avogadro",
+  "type": "prerequisites_for",
+  "why": "постоянная Авогадро — число молекул в одном моле вещества"
+ },
+ {
+  "source": "C.physics.postoyannaya-avogadro",
+  "target": "C.physics.kolichestvo-veschestva",
+  "type": "prerequisites_for",
+  "why": "количество вещества — число молекул, делённое на постоянную Авогадро"
+ },
+ {
+  "source": "C.physics.kolichestvo-veschestva",
+  "target": "C.physics.molyarnaya-massa",
+  "type": "prerequisites_for",
+  "why": "молярная масса — масса одного моля вещества",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.massa-molekuly",
+  "target": "C.physics.molyarnaya-massa",
+  "type": "prerequisites_for",
+  "why": "молярная масса равна массе молекулы, умноженной на число Авогадро"
+ },
+ {
+  "source": "C.physics.temperatura",
+  "target": "C.physics.shkala-temperatur-tselsiya",
+  "type": "prerequisites_for",
+  "why": "шкала Цельсия — способ измерения температуры"
+ },
+ {
+  "source": "C.physics.shkala-temperatur-tselsiya",
+  "target": "C.physics.absolyutnaya-temperatura",
+  "type": "prerequisites_for",
+  "why": "абсолютная температура — шкала Цельсия, сдвинутая на 273 градуса"
+ },
+ {
+  "source": "C.physics.absolyutnaya-temperatura",
+  "target": "C.physics.temperatura",
+  "type": "is_a",
+  "why": "абсолютная температура — температура по абсолютной шкале"
+ },
+ {
+  "source": "C.physics.srednyaya-kineticheskaya-energiya-teplovogo-dvizheniya-chastits",
+  "target": "C.physics.absolyutnaya-temperatura",
+  "type": "prerequisites_for",
+  "why": "абсолютная температура — мера средней кинетической энергии частиц"
+ },
+ {
+  "source": "C.physics.kineticheskaya-energiya",
+  "target": "C.physics.srednyaya-kineticheskaya-energiya-teplovogo-dvizheniya-chastits",
+  "type": "prerequisites_for",
+  "why": "усредняется кинетическая энергия отдельных молекул"
+ },
+ {
+  "source": "C.physics.teplovoe-dvizhenie",
+  "target": "C.physics.srednyaya-kineticheskaya-energiya-teplovogo-dvizheniya-chastits",
+  "type": "prerequisites_for",
+  "why": "это энергия хаотического теплового движения частиц"
+ },
+ {
+  "source": "C.physics.idealnyy-gaz",
+  "target": "C.physics.model-gazoobraznogo-sostoyaniya-veschestva",
+  "type": "is_a",
+  "why": "идеальный газ — простейшая модель газа"
+ },
+ {
+  "source": "C.physics.idealnyy-gaz",
+  "target": "C.physics.osnovnoe-uravnenie-molekulyarno-kineticheskoy-teorii",
+  "type": "prerequisites_for",
+  "why": "уравнение выведено для модели идеального газа"
+ },
+ {
+  "source": "C.physics.davlenie-gaza",
+  "target": "C.physics.osnovnoe-uravnenie-molekulyarno-kineticheskoy-teorii",
+  "type": "prerequisites_for",
+  "why": "уравнение объясняет давление газа ударами молекул"
+ },
+ {
+  "source": "C.physics.kolichestvo-molekul-v-edinitse-obema",
+  "target": "C.physics.osnovnoe-uravnenie-molekulyarno-kineticheskoy-teorii",
+  "type": "prerequisites_for",
+  "why": "в уравнение входит концентрация молекул"
+ },
+ {
+  "source": "C.physics.srednyaya-kineticheskaya-energiya-teplovogo-dvizheniya-chastits",
+  "target": "C.physics.osnovnoe-uravnenie-molekulyarno-kineticheskoy-teorii",
+  "type": "prerequisites_for",
+  "why": "давление пропорционально средней кинетической энергии молекул",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.osnovnoe-uravnenie-molekulyarno-kineticheskoy-teorii",
+  "target": "C.physics.zavisimost-davleniya-gaza-ot-kontsentratsii-molekul-i-temperatury",
+  "type": "prerequisites_for",
+  "why": "p = nkT следует из основного уравнения МКТ",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.absolyutnaya-temperatura",
+  "target": "C.physics.zavisimost-davleniya-gaza-ot-kontsentratsii-molekul-i-temperatury",
+  "type": "prerequisites_for",
+  "why": "давление пропорционально абсолютной температуре",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.zavisimost-davleniya-gaza-ot-kontsentratsii-molekul-i-temperatury",
+  "target": "C.physics.uravnenie-klapeyrona-mendeleeva",
+  "type": "prerequisites_for",
+  "why": "уравнение состояния получают из p = nkT"
+ },
+ {
+  "source": "C.physics.kolichestvo-veschestva",
+  "target": "C.physics.uravnenie-klapeyrona-mendeleeva",
+  "type": "prerequisites_for",
+  "why": "уравнение записывают через количество вещества: pV = νRT"
+ },
+ {
+  "source": "C.physics.davlenie-gaza",
+  "target": "C.physics.zakon-daltona",
+  "type": "prerequisites_for",
+  "why": "давление смеси равно сумме парциальных давлений газов"
+ },
+ {
+  "source": "C.physics.idealnyy-gaz",
+  "target": "C.physics.zakon-daltona",
+  "type": "prerequisites_for",
+  "why": "закон выполняется для смеси разреженных газов"
+ },
+ {
+  "source": "C.physics.idealnyy-gaz",
+  "target": "C.physics.izoprotsessy",
+  "type": "prerequisites_for",
+  "why": "изопроцессы рассматривают в идеальном газе данной массы"
+ },
+ {
+  "source": "C.physics.izoprotsessy",
+  "target": "C.physics.gazovye-zakony",
+  "type": "prerequisites_for",
+  "why": "газовые законы описывают изопроцессы"
+ },
+ {
+  "source": "C.physics.uravnenie-klapeyrona-mendeleeva",
+  "target": "C.physics.gazovye-zakony",
+  "type": "prerequisites_for",
+  "why": "газовые законы — частные случаи уравнения состояния"
+ },
+ {
+  "source": "C.physics.izotermicheskiy-protsess",
+  "target": "C.physics.izoprotsessy",
+  "type": "is_a",
+  "why": "процесс при постоянной температуре"
+ },
+ {
+  "source": "C.physics.izohornyy-protsess",
+  "target": "C.physics.izoprotsessy",
+  "type": "is_a",
+  "why": "процесс при постоянном объёме"
+ },
+ {
+  "source": "C.physics.izobarnyy-protsess",
+  "target": "C.physics.izoprotsessy",
+  "type": "is_a",
+  "why": "процесс при постоянном давлении"
+ },
+ {
+  "source": "C.physics.gazovye-zakony",
+  "target": "C.physics.grafiki-izoprotsessov",
+  "type": "prerequisites_for",
+  "why": "форма графиков следует из газовых законов"
+ },
+ {
+  "source": "C.physics.uravnenie-klapeyrona-mendeleeva",
+  "target": "C.physics.obedinennyy-gazovyy-zakon",
+  "type": "prerequisites_for",
+  "why": "закон следует из уравнения состояния при постоянном количестве вещества"
+ },
+ {
+  "source": "C.physics.obedinennyy-gazovyy-zakon",
+  "target": "C.physics.gazovye-zakony",
+  "type": "is_a",
+  "why": "объединённый закон — один из газовых законов"
+ },
+ {
+  "source": "C.physics.termometr",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "термометр — прибор для измерения температуры"
+ },
+ {
+  "source": "C.physics.temperatura",
+  "target": "C.physics.termometr",
+  "type": "prerequisites_for",
+  "why": "термометр измеряет температуру"
+ },
+ {
+  "source": "C.physics.zhidkostnyy-termometr",
+  "target": "C.physics.termometr",
+  "type": "is_a",
+  "why": "жидкостный термометр — вид термометра"
+ },
+ {
+  "source": "C.physics.uravnenie-klapeyrona-mendeleeva",
+  "target": "C.physics.izmerenie-massy-vozduha-v-klassnoy-komnate",
+  "type": "prerequisites_for",
+  "why": "массу воздуха рассчитывают по уравнению состояния"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-mezhdu-parametrami-sostoyaniya-razrezhennogo-gaza",
+  "target": "C.physics.gazovye-zakony",
+  "type": "verifies",
+  "why": "исследуют связь давления, объёма и температуры газа"
+ },
+ {
+  "source": "C.physics.teplovoe-ravnovesie",
+  "target": "C.physics.termodinamicheskaya-sistema",
+  "type": "prerequisites_for",
+  "why": "состояние системы задают параметрами в тепловом равновесии"
+ },
+ {
+  "source": "C.physics.termodinamicheskaya-sistema",
+  "target": "C.physics.pervyy-zakon-termodinamiki",
+  "type": "prerequisites_for",
+  "why": "закон записывают для термодинамической системы"
+ },
+ {
+  "source": "C.physics.kolichestvo-teploty",
+  "target": "C.physics.pervyy-zakon-termodinamiki",
+  "type": "prerequisites_for",
+  "why": "в законе — количество теплоты, переданное системе"
+ },
+ {
+  "source": "C.physics.rabota-gaza",
+  "target": "C.physics.pervyy-zakon-termodinamiki",
+  "type": "prerequisites_for",
+  "why": "в законе — работа газа над внешними телами"
+ },
+ {
+  "source": "C.physics.pervyy-zakon-termodinamiki",
+  "target": "C.physics.zakon-sohraneniya-i-prevrascheniya-energii",
+  "type": "is_a",
+  "why": "первый закон — закон сохранения энергии для тепловых процессов"
+ },
+ {
+  "source": "C.physics.rabota-gaza",
+  "target": "C.physics.mehanicheskaya-rabota",
+  "type": "is_a",
+  "why": "работа силы давления газа при изменении объёма"
+ },
+ {
+  "source": "C.physics.davlenie-gaza",
+  "target": "C.physics.rabota-gaza",
+  "type": "prerequisites_for",
+  "why": "работа газа A = pΔV"
+ },
+ {
+  "source": "C.physics.obem",
+  "target": "C.physics.rabota-gaza",
+  "type": "prerequisites_for",
+  "why": "работу совершает газ при изменении объёма"
+ },
+ {
+  "source": "C.physics.rabota-gaza",
+  "target": "C.physics.pv-diagramma",
+  "type": "prerequisites_for",
+  "why": "работа газа равна площади под графиком на pV-диаграмме",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.vnutrennyaya-energiya-odnoatomnogo-idealnogo-gaza",
+  "target": "C.physics.vnutrennyaya-energiya",
+  "type": "is_a",
+  "why": "частный случай внутренней энергии"
+ },
+ {
+  "source": "C.physics.idealnyy-gaz",
+  "target": "C.physics.vnutrennyaya-energiya-odnoatomnogo-idealnogo-gaza",
+  "type": "prerequisites_for",
+  "why": "энергия идеального газа — только кинетическая энергия молекул"
+ },
+ {
+  "source": "C.physics.srednyaya-kineticheskaya-energiya-teplovogo-dvizheniya-chastits",
+  "target": "C.physics.vnutrennyaya-energiya-odnoatomnogo-idealnogo-gaza",
+  "type": "prerequisites_for",
+  "why": "U равна числу молекул, умноженному на их среднюю энергию"
+ },
+ {
+  "source": "C.physics.udelnaya-teploemkost",
+  "target": "C.physics.teploemkost-tela",
+  "type": "prerequisites_for",
+  "why": "теплоёмкость тела равна удельной теплоёмкости, умноженной на массу"
+ },
+ {
+  "source": "C.physics.pervyy-zakon-termodinamiki",
+  "target": "C.physics.adiabatnyy-protsess",
+  "type": "prerequisites_for",
+  "why": "при Q = 0 работа идёт за счёт внутренней энергии",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.pervyy-zakon-termodinamiki",
+  "target": "C.physics.printsip-deystviya-teplovoy-mashiny",
+  "type": "prerequisites_for",
+  "why": "работа машины — часть теплоты, полученной от нагревателя"
+ },
+ {
+  "source": "C.physics.printsip-deystviya-teplovoy-mashiny",
+  "target": "C.physics.teplovaya-mashina",
+  "type": "prerequisites_for",
+  "why": "машина работает по циклу нагреватель — рабочее тело — холодильник"
+ },
+ {
+  "source": "C.physics.teplovaya-mashina",
+  "target": "C.physics.preobrazovanie-energii-v-teplovyh-mashinah",
+  "type": "prerequisites_for",
+  "why": "в машине теплота частично превращается в работу"
+ },
+ {
+  "source": "C.physics.preobrazovanie-energii-v-teplovyh-mashinah",
+  "target": "C.physics.kpd-teplovogo-dvigatelya",
+  "type": "prerequisites_for",
+  "why": "КПД — доля полученной теплоты, превращённая в работу"
+ },
+ {
+  "source": "C.physics.teplovoy-dvigatel",
+  "target": "C.physics.teplovaya-mashina",
+  "type": "is_a",
+  "why": "тепловой двигатель — тепловая машина, совершающая работу"
+ },
+ {
+  "source": "C.physics.bytovoy-holodilnik",
+  "target": "C.physics.teplovaya-mashina",
+  "type": "is_a",
+  "why": "холодильник — тепловая машина, работающая в обратном цикле"
+ },
+ {
+  "source": "C.physics.konditsioner",
+  "target": "C.physics.teplovaya-mashina",
+  "type": "is_a",
+  "why": "кондиционер — холодильная тепловая машина"
+ },
+ {
+  "source": "C.physics.vtoroy-zakon-termodinamiki",
+  "target": "C.physics.bytovoy-holodilnik",
+  "type": "prerequisites_for",
+  "why": "перенос теплоты от холодного тела к горячему требует работы"
+ },
+ {
+  "source": "C.physics.teplovaya-mashina",
+  "target": "C.physics.tsikl-karno",
+  "type": "prerequisites_for",
+  "why": "цикл Карно — идеальный цикл тепловой машины"
+ },
+ {
+  "source": "C.physics.izotermicheskiy-protsess",
+  "target": "C.physics.tsikl-karno",
+  "type": "prerequisites_for",
+  "why": "цикл Карно включает две изотермы"
+ },
+ {
+  "source": "C.physics.adiabatnyy-protsess",
+  "target": "C.physics.tsikl-karno",
+  "type": "prerequisites_for",
+  "why": "цикл Карно включает две адиабаты"
+ },
+ {
+  "source": "C.physics.tsikl-karno",
+  "target": "C.physics.kpd-tsikla-karno",
+  "type": "prerequisites_for",
+  "why": "КПД считают для цикла Карно"
+ },
+ {
+  "source": "C.physics.absolyutnaya-temperatura",
+  "target": "C.physics.kpd-tsikla-karno",
+  "type": "prerequisites_for",
+  "why": "КПД Карно выражается через температуры нагревателя и холодильника"
+ },
+ {
+  "source": "C.physics.kpd-tsikla-karno",
+  "target": "C.physics.kpd-teplovogo-dvigatelya",
+  "type": "is_a",
+  "why": "КПД Карно — предельный КПД тепловой машины"
+ },
+ {
+  "source": "C.physics.teploobmen",
+  "target": "C.physics.neobratimost-protsessov-v-prirode",
+  "type": "prerequisites_for",
+  "why": "теплообмен самопроизвольно идёт только от горячего тела к холодному"
+ },
+ {
+  "source": "C.physics.neobratimost-protsessov-v-prirode",
+  "target": "C.physics.vtoroy-zakon-termodinamiki",
+  "type": "prerequisites_for",
+  "why": "второй закон обобщает необратимость тепловых процессов"
+ },
+ {
+  "source": "C.physics.teplovoy-dvigatel",
+  "target": "C.physics.ekologicheskie-problemy-teploenergetiki",
+  "type": "prerequisites_for",
+  "why": "работа тепловых двигателей загрязняет окружающую среду"
+ },
+ {
+  "source": "C.physics.agregatnye-sostoyaniya-veschestva",
+  "target": "C.physics.izmenenie-agregatnyh-sostoyaniy-veschestva",
+  "type": "prerequisites_for",
+  "why": "переход вещества из одного агрегатного состояния в другое"
+ },
+ {
+  "source": "C.physics.plavlenie",
+  "target": "C.physics.izmenenie-agregatnyh-sostoyaniy-veschestva",
+  "type": "is_a",
+  "why": "плавление — переход из твёрдого состояния в жидкое"
+ },
+ {
+  "source": "C.physics.otverdevanie",
+  "target": "C.physics.izmenenie-agregatnyh-sostoyaniy-veschestva",
+  "type": "is_a",
+  "why": "отвердевание — переход из жидкого состояния в твёрдое"
+ },
+ {
+  "source": "C.physics.paroobrazovanie",
+  "target": "C.physics.izmenenie-agregatnyh-sostoyaniy-veschestva",
+  "type": "is_a",
+  "why": "парообразование — переход из жидкого состояния в газообразное"
+ },
+ {
+  "source": "C.physics.kondensatsiya",
+  "target": "C.physics.izmenenie-agregatnyh-sostoyaniy-veschestva",
+  "type": "is_a",
+  "why": "конденсация — переход из газообразного состояния в жидкое"
+ },
+ {
+  "source": "C.physics.kristallizatsiya",
+  "target": "C.physics.otverdevanie",
+  "type": "is_a",
+  "why": "кристаллизация — отвердевание с образованием кристаллов"
+ },
+ {
+  "source": "C.physics.kristallicheskie-tela",
+  "target": "C.physics.kristallizatsiya",
+  "type": "prerequisites_for",
+  "why": "при кристаллизации образуется кристаллическая решётка"
+ },
+ {
+  "source": "C.physics.izmenenie-agregatnyh-sostoyaniy-veschestva",
+  "target": "C.physics.preobrazovanie-energii-v-fazovyh-perehodah",
+  "type": "prerequisites_for",
+  "why": "энергия поглощается или выделяется при смене агрегатного состояния"
+ },
+ {
+  "source": "C.physics.vnutrennyaya-energiya",
+  "target": "C.physics.preobrazovanie-energii-v-fazovyh-perehodah",
+  "type": "prerequisites_for",
+  "why": "при фазовом переходе меняется внутренняя энергия вещества"
+ },
+ {
+  "source": "C.physics.isparenie",
+  "target": "C.physics.nasyschennyy-par",
+  "type": "prerequisites_for",
+  "why": "насыщенный пар находится в равновесии с испаряющейся жидкостью"
+ },
+ {
+  "source": "C.physics.kondensatsiya",
+  "target": "C.physics.nasyschennyy-par",
+  "type": "prerequisites_for",
+  "why": "у насыщенного пара испарение уравновешено конденсацией"
+ },
+ {
+  "source": "C.physics.nasyschennyy-par",
+  "target": "C.physics.nenasyschennyy-par",
+  "type": "prerequisites_for",
+  "why": "ненасыщенный пар — пар с давлением ниже давления насыщенного",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.nasyschennyy-par",
+  "target": "C.physics.zavisimost-plotnosti-i-davleniya-nasyschennogo-para-ot-temperatury",
+  "type": "prerequisites_for",
+  "why": "свойство насыщенного пара",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.absolyutnaya-vlazhnost-vozduha",
+  "target": "C.physics.vlazhnost-vozduha",
+  "type": "is_a",
+  "why": "абсолютная влажность — одна из характеристик влажности"
+ },
+ {
+  "source": "C.physics.plotnost-veschestva",
+  "target": "C.physics.absolyutnaya-vlazhnost-vozduha",
+  "type": "prerequisites_for",
+  "why": "абсолютная влажность — плотность водяного пара в воздухе"
+ },
+ {
+  "source": "C.physics.otnositelnaya-vlazhnost-vozduha",
+  "target": "C.physics.vlazhnost-vozduha",
+  "type": "is_a",
+  "why": "относительная влажность — одна из характеристик влажности"
+ },
+ {
+  "source": "C.physics.absolyutnaya-vlazhnost-vozduha",
+  "target": "C.physics.otnositelnaya-vlazhnost-vozduha",
+  "type": "prerequisites_for",
+  "why": "относительная влажность — отношение абсолютной влажности к плотности насыщенного пара"
+ },
+ {
+  "source": "C.physics.nasyschennyy-par",
+  "target": "C.physics.otnositelnaya-vlazhnost-vozduha",
+  "type": "prerequisites_for",
+  "why": "влажность сравнивают с плотностью насыщенного пара"
+ },
+ {
+  "source": "C.physics.izmerenie-otnositelnoy-vlazhnosti-vozduha",
+  "target": "C.physics.otnositelnaya-vlazhnost-vozduha",
+  "type": "verifies",
+  "why": "в работе измеряют относительную влажность воздуха"
+ },
+ {
+  "source": "C.physics.kristallicheskie-tela",
+  "target": "C.physics.anizotropiya-kristallov",
+  "type": "prerequisites_for",
+  "why": "свойства кристаллов зависят от направления в решётке"
+ },
+ {
+  "source": "C.physics.anizotropiya-kristallov",
+  "target": "C.physics.zhidkie-kristally",
+  "type": "prerequisites_for",
+  "why": "жидкие кристаллы анизотропны, как кристаллы"
+ },
+ {
+  "source": "C.physics.zhidkost",
+  "target": "C.physics.zhidkie-kristally",
+  "type": "prerequisites_for",
+  "why": "жидкие кристаллы текучи, как жидкость"
+ },
+ {
+  "source": "C.physics.svoystva-tverdyh-tel",
+  "target": "C.physics.sovremennye-materialy",
+  "type": "prerequisites_for",
+  "why": "современные материалы создают с заданными свойствами"
+ },
+ {
+  "source": "C.physics.sovremennye-materialy",
+  "target": "C.physics.tehnologii-polucheniya-sovremennyh-materialov",
+  "type": "prerequisites_for",
+  "why": "технологии нужны для получения таких материалов"
+ },
+ {
+  "source": "C.physics.nanomaterialy",
+  "target": "C.physics.sovremennye-materialy",
+  "type": "is_a",
+  "why": "наноматериалы — вид современных материалов"
+ },
+ {
+  "source": "C.physics.razmery-atomov-i-molekul",
+  "target": "C.physics.nanomaterialy",
+  "type": "prerequisites_for",
+  "why": "наноматериалы состоят из структур размером в несколько нанометров"
+ },
+ {
+  "source": "C.physics.nanotehnologii",
+  "target": "C.physics.tehnologii-polucheniya-sovremennyh-materialov",
+  "type": "is_a",
+  "why": "нанотехнологии — технологии работы с наноструктурами"
+ },
+ {
+  "source": "C.physics.nanomaterialy",
+  "target": "C.physics.nanotehnologii",
+  "type": "prerequisites_for",
+  "why": "нанотехнологии создают и используют наноматериалы"
+ },
+ {
+  "source": "C.physics.kalorimetr",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "калориметр — прибор для измерения количества теплоты"
+ },
+ {
+  "source": "C.physics.uravnenie-teplovogo-balansa",
+  "target": "C.physics.kalorimetr",
+  "type": "prerequisites_for",
+  "why": "измерения в калориметре основаны на уравнении теплового баланса"
+ },
+ {
+  "source": "C.physics.elektricheskoe-pole",
+  "target": "C.physics.deystvie-elektricheskogo-polya-na-elektricheskie-zaryady",
+  "type": "prerequisites_for",
+  "why": "поле действует на помещённые в него заряды"
+ },
+ {
+  "source": "C.physics.elektricheskiy-zaryad",
+  "target": "C.physics.vidy-elektricheskih-zaryadov",
+  "type": "prerequisites_for",
+  "why": "заряды бывают положительными и отрицательными"
+ },
+ {
+  "source": "C.physics.vidy-elektricheskih-zaryadov",
+  "target": "C.physics.vzaimodeystvie-zaryazhennyh-tel",
+  "type": "prerequisites_for",
+  "why": "одноимённые заряды отталкиваются, разноимённые притягиваются",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.nositeli-elektricheskogo-zaryada",
+  "target": "C.physics.poluprovodniki",
+  "type": "prerequisites_for",
+  "why": "полупроводники различаются числом свободных носителей заряда"
+ },
+ {
+  "source": "C.physics.elektricheskiy-zaryad",
+  "target": "C.physics.tochechnyy-zaryad",
+  "type": "prerequisites_for",
+  "why": "точечный заряд — заряженное тело пренебрежимо малых размеров"
+ },
+ {
+  "source": "C.physics.tochechnyy-zaryad",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "точечный заряд — идеализация, как материальная точка"
+ },
+ {
+  "source": "C.physics.tochechnyy-zaryad",
+  "target": "C.physics.zakon-kulona",
+  "type": "prerequisites_for",
+  "why": "закон Кулона сформулирован для точечных зарядов",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.napryazhennost-elektricheskogo-polya",
+  "target": "C.physics.linii-napryazhennosti-elektricheskogo-polya",
+  "type": "prerequisites_for",
+  "why": "касательные к линиям направлены по вектору напряжённости"
+ },
+ {
+  "source": "C.physics.napryazhennost-elektricheskogo-polya",
+  "target": "C.physics.odnorodnoe-elektricheskoe-pole",
+  "type": "prerequisites_for",
+  "why": "в однородном поле напряжённость одинакова во всех точках"
+ },
+ {
+  "source": "C.physics.odnorodnoe-elektricheskoe-pole",
+  "target": "C.physics.elektricheskoe-pole",
+  "type": "is_a",
+  "why": "однородное поле — частный случай электрического поля"
+ },
+ {
+  "source": "C.physics.zakon-kulona",
+  "target": "C.physics.pole-tochechnogo-zaryada",
+  "type": "prerequisites_for",
+  "why": "напряжённость поля точечного заряда следует из закона Кулона"
+ },
+ {
+  "source": "C.physics.napryazhennost-elektricheskogo-polya",
+  "target": "C.physics.pole-tochechnogo-zaryada",
+  "type": "prerequisites_for",
+  "why": "поле описывают формулой для напряжённости"
+ },
+ {
+  "source": "C.physics.pole-tochechnogo-zaryada",
+  "target": "C.physics.elektricheskoe-pole",
+  "type": "is_a",
+  "why": "поле точечного заряда — частный случай электрического поля"
+ },
+ {
+  "source": "C.physics.rabota-sil-elektrostaticheskogo-polya",
+  "target": "C.physics.mehanicheskaya-rabota",
+  "type": "is_a",
+  "why": "работа силы, с которой поле действует на заряд"
+ },
+ {
+  "source": "C.physics.deystvie-elektricheskogo-polya-na-elektricheskie-zaryady",
+  "target": "C.physics.rabota-sil-elektrostaticheskogo-polya",
+  "type": "prerequisites_for",
+  "why": "работу совершает сила, действующая на заряд со стороны поля"
+ },
+ {
+  "source": "C.physics.rabota-sil-elektrostaticheskogo-polya",
+  "target": "C.physics.potentsialnost-elektrostaticheskogo-polya",
+  "type": "prerequisites_for",
+  "why": "работа поля не зависит от формы траектории",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.potentsialnye-sily",
+  "target": "C.physics.potentsialnost-elektrostaticheskogo-polya",
+  "type": "prerequisites_for",
+  "why": "электростатические силы — потенциальные"
+ },
+ {
+  "source": "C.physics.potentsialnost-elektrostaticheskogo-polya",
+  "target": "C.physics.potentsialnaya-energiya-zaryada-v-elektrostaticheskom-pole",
+  "type": "prerequisites_for",
+  "why": "потенциальную энергию вводят для потенциального поля"
+ },
+ {
+  "source": "C.physics.potentsialnaya-energiya-zaryada-v-elektrostaticheskom-pole",
+  "target": "C.physics.potentsialnaya-energiya",
+  "type": "is_a",
+  "why": "частный случай потенциальной энергии"
+ },
+ {
+  "source": "C.physics.potentsialnaya-energiya-zaryada-v-elektrostaticheskom-pole",
+  "target": "C.physics.potentsial-elektrostaticheskogo-polya",
+  "type": "prerequisites_for",
+  "why": "потенциал — потенциальная энергия единичного заряда"
+ },
+ {
+  "source": "C.physics.potentsial-elektrostaticheskogo-polya",
+  "target": "C.physics.raznost-potentsialov",
+  "type": "prerequisites_for",
+  "why": "разность потенциалов двух точек поля"
+ },
+ {
+  "source": "C.physics.elektricheskoe-napryazhenie",
+  "target": "C.physics.raznost-potentsialov",
+  "type": "prerequisites_for",
+  "why": "разность потенциалов совпадает с напряжением между точками поля"
+ },
+ {
+  "source": "C.physics.raznost-potentsialov",
+  "target": "C.physics.svyaz-napryazhennosti-polya-i-raznosti-potentsialov",
+  "type": "prerequisites_for",
+  "why": "U = Ed связывает разность потенциалов с напряжённостью"
+ },
+ {
+  "source": "C.physics.odnorodnoe-elektricheskoe-pole",
+  "target": "C.physics.svyaz-napryazhennosti-polya-i-raznosti-potentsialov",
+  "type": "prerequisites_for",
+  "why": "формула U = Ed верна для однородного поля"
+ },
+ {
+  "source": "C.physics.provodniki",
+  "target": "C.physics.provodniki-v-elektricheskom-pole",
+  "type": "prerequisites_for",
+  "why": "свободные заряды проводника смещаются в поле"
+ },
+ {
+  "source": "C.physics.deystvie-elektricheskogo-polya-na-elektricheskie-zaryady",
+  "target": "C.physics.provodniki-v-elektricheskom-pole",
+  "type": "prerequisites_for",
+  "why": "поле перераспределяет заряды в проводнике"
+ },
+ {
+  "source": "C.physics.provodniki-v-elektricheskom-pole",
+  "target": "C.physics.uslovie-ravnovesiya-zaryadov-v-provodnike",
+  "type": "prerequisites_for",
+  "why": "заряды в проводнике перераспределяются до равновесия",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.napryazhennost-elektricheskogo-polya",
+  "target": "C.physics.uslovie-ravnovesiya-zaryadov-v-provodnike",
+  "type": "prerequisites_for",
+  "why": "внутри проводника напряжённость равна нулю"
+ },
+ {
+  "source": "C.physics.potentsial-elektrostaticheskogo-polya",
+  "target": "C.physics.uslovie-ravnovesiya-zaryadov-v-provodnike",
+  "type": "prerequisites_for",
+  "why": "потенциал во всех точках проводника одинаков",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.dielektriki",
+  "target": "C.physics.dielektriki-v-elektricheskom-pole",
+  "type": "prerequisites_for",
+  "why": "поведение диэлектрика в поле"
+ },
+ {
+  "source": "C.physics.deystvie-elektricheskogo-polya-na-elektricheskie-zaryady",
+  "target": "C.physics.dielektriki-v-elektricheskom-pole",
+  "type": "prerequisites_for",
+  "why": "поле поляризует диэлектрик"
+ },
+ {
+  "source": "C.physics.dielektriki-v-elektricheskom-pole",
+  "target": "C.physics.dielektricheskaya-pronitsaemost",
+  "type": "prerequisites_for",
+  "why": "показывает, во сколько раз диэлектрик ослабляет поле"
+ },
+ {
+  "source": "C.physics.provodniki",
+  "target": "C.physics.kondensator",
+  "type": "prerequisites_for",
+  "why": "конденсатор — два проводника-обкладки"
+ },
+ {
+  "source": "C.physics.dielektriki",
+  "target": "C.physics.kondensator",
+  "type": "prerequisites_for",
+  "why": "обкладки конденсатора разделены диэлектриком"
+ },
+ {
+  "source": "C.physics.kondensator",
+  "target": "C.physics.elektroemkost",
+  "type": "prerequisites_for",
+  "why": "ёмкость конденсатора — отношение заряда к напряжению"
+ },
+ {
+  "source": "C.physics.elektricheskoe-napryazhenie",
+  "target": "C.physics.elektroemkost",
+  "type": "prerequisites_for",
+  "why": "C = q/U"
+ },
+ {
+  "source": "C.physics.elektroemkost-ploskogo-kondensatora",
+  "target": "C.physics.elektroemkost",
+  "type": "is_a",
+  "why": "частный случай электроёмкости"
+ },
+ {
+  "source": "C.physics.dielektricheskaya-pronitsaemost",
+  "target": "C.physics.elektroemkost-ploskogo-kondensatora",
+  "type": "prerequisites_for",
+  "why": "ёмкость пропорциональна диэлектрической проницаемости"
+ },
+ {
+  "source": "C.physics.elektroemkost",
+  "target": "C.physics.energiya-zaryazhennogo-kondensatora",
+  "type": "prerequisites_for",
+  "why": "W = CU²/2"
+ },
+ {
+  "source": "C.physics.elektroemkost",
+  "target": "C.physics.parallelnoe-soedinenie-kondensatorov",
+  "type": "prerequisites_for",
+  "why": "при параллельном соединении ёмкости складываются",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.parallelnoe-soedinenie-provodnikov",
+  "target": "C.physics.parallelnoe-soedinenie-kondensatorov",
+  "type": "prerequisites_for",
+  "why": "та же схема соединения: напряжения одинаковы"
+ },
+ {
+  "source": "C.physics.elektroemkost",
+  "target": "C.physics.posledovatelnoe-soedinenie-kondensatorov",
+  "type": "prerequisites_for",
+  "why": "складываются величины, обратные ёмкостям",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.posledovatelnoe-soedinenie-provodnikov",
+  "target": "C.physics.posledovatelnoe-soedinenie-kondensatorov",
+  "type": "prerequisites_for",
+  "why": "та же схема соединения: заряды одинаковы"
+ },
+ {
+  "source": "C.physics.provodniki",
+  "target": "C.physics.zazemlenie-elektropriborov",
+  "type": "prerequisites_for",
+  "why": "заряд стекает в землю по проводнику"
+ },
+ {
+  "source": "C.physics.elektrizatsiya-tel",
+  "target": "C.physics.kseroks",
+  "type": "prerequisites_for",
+  "why": "тонер прилипает к наэлектризованным участкам барабана"
+ },
+ {
+  "source": "C.physics.deystvie-elektricheskogo-polya-na-elektricheskie-zaryady",
+  "target": "C.physics.struynyy-printer",
+  "type": "prerequisites_for",
+  "why": "поле отклоняет заряженные капли чернил"
+ },
+ {
+  "source": "C.physics.elektrometr",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "электрометр — прибор для измерения разности потенциалов"
+ },
+ {
+  "source": "C.physics.elektroskop",
+  "target": "C.physics.elektrometr",
+  "type": "prerequisites_for",
+  "why": "электрометр устроен как электроскоп со шкалой"
+ },
+ {
+  "source": "C.physics.raznost-potentsialov",
+  "target": "C.physics.elektrometr",
+  "type": "prerequisites_for",
+  "why": "электрометр измеряет разность потенциалов"
+ },
+ {
+  "source": "C.physics.uslovie-ravnovesiya-zaryadov-v-provodnike",
+  "target": "C.physics.elektrostaticheskaya-zaschita",
+  "type": "prerequisites_for",
+  "why": "внутри проводника электрическое поле отсутствует"
+ },
+ {
+  "source": "C.physics.izmerenie-elektroemkosti-kondensatora",
+  "target": "C.physics.elektroemkost",
+  "type": "verifies",
+  "why": "в работе измеряют электроёмкость конденсатора"
+ },
+ {
+  "source": "C.physics.postoyannyy-elektricheskiy-tok",
+  "target": "C.physics.elektricheskiy-tok",
+  "type": "is_a",
+  "why": "ток, сила и направление которого не меняются"
+ },
+ {
+  "source": "C.physics.sila-toka",
+  "target": "C.physics.postoyannyy-elektricheskiy-tok",
+  "type": "prerequisites_for",
+  "why": "постоянный ток — ток постоянной силы"
+ },
+ {
+  "source": "C.physics.elektricheskiy-tok",
+  "target": "C.physics.usloviya-suschestvovaniya-elektricheskogo-toka",
+  "type": "prerequisites_for",
+  "why": "условия, при которых возникает и существует ток"
+ },
+ {
+  "source": "C.physics.usloviya-suschestvovaniya-elektricheskogo-toka",
+  "target": "C.physics.postoyannyy-elektricheskiy-tok",
+  "type": "prerequisites_for",
+  "why": "для постоянного тока нужен источник, поддерживающий поле"
+ },
+ {
+  "source": "C.physics.udelnoe-soprotivlenie-veschestva",
+  "target": "C.physics.zavisimost-soprotivleniya-provodnika-ot-ego-dliny-i-secheniya",
+  "type": "prerequisites_for",
+  "why": "R = ρl/S"
+ },
+ {
+  "source": "C.physics.zavisimost-elektricheskogo-soprotivleniya-provodnika-ot-ego-dliny-ploschadi-pope",
+  "target": "C.physics.zavisimost-soprotivleniya-provodnika-ot-ego-dliny-i-secheniya",
+  "type": "verifies",
+  "why": "опыт показывает зависимость сопротивления от длины и сечения"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-soprotivleniya-ot-dliny-provodnika-ploschadi-ego-popere",
+  "target": "C.physics.zavisimost-soprotivleniya-provodnika-ot-ego-dliny-i-secheniya",
+  "type": "verifies",
+  "why": "опыт показывает зависимость сопротивления от длины и сечения"
+ },
+ {
+  "source": "C.physics.parallelnoe-soedinenie-provodnikov",
+  "target": "C.physics.smeshannoe-soedinenie-provodnikov",
+  "type": "prerequisites_for",
+  "why": "смешанное соединение включает параллельные участки"
+ },
+ {
+  "source": "C.physics.posledovatelnoe-soedinenie-provodnikov",
+  "target": "C.physics.smeshannoe-soedinenie-provodnikov",
+  "type": "prerequisites_for",
+  "why": "смешанное соединение включает последовательные участки"
+ },
+ {
+  "source": "C.physics.elektrodvizhuschaya-sila",
+  "target": "C.physics.moschnost-istochnika-toka",
+  "type": "prerequisites_for",
+  "why": "мощность источника равна произведению ЭДС на силу тока",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.sila-toka",
+  "target": "C.physics.moschnost-istochnika-toka",
+  "type": "prerequisites_for",
+  "why": "мощность источника пропорциональна силе тока"
+ },
+ {
+  "source": "C.physics.zakon-dzhoulya-lentsa",
+  "target": "C.physics.teplovaya-moschnost",
+  "type": "prerequisites_for",
+  "why": "тепловая мощность — теплота, выделяемая за единицу времени"
+ },
+ {
+  "source": "C.physics.moschnost-elektricheskogo-toka",
+  "target": "C.physics.teplovaya-moschnost",
+  "type": "prerequisites_for",
+  "why": "на резисторе мощность тока выделяется в виде теплоты"
+ },
+ {
+  "source": "C.physics.elektricheskoe-soprotivlenie",
+  "target": "C.physics.vnutrennee-soprotivlenie-istochnika-toka",
+  "type": "prerequisites_for",
+  "why": "внутреннее сопротивление — сопротивление самого источника"
+ },
+ {
+  "source": "C.physics.istochniki-postoyannogo-toka",
+  "target": "C.physics.vnutrennee-soprotivlenie-istochnika-toka",
+  "type": "prerequisites_for",
+  "why": "характеристика источника тока"
+ },
+ {
+  "source": "C.physics.istochniki-postoyannogo-toka",
+  "target": "C.physics.elektrodvizhuschaya-sila",
+  "type": "prerequisites_for",
+  "why": "ЭДС характеризует источник тока"
+ },
+ {
+  "source": "C.physics.mehanicheskaya-rabota",
+  "target": "C.physics.elektrodvizhuschaya-sila",
+  "type": "prerequisites_for",
+  "why": "ЭДС — работа сторонних сил при перемещении единичного заряда"
+ },
+ {
+  "source": "C.physics.elektrodvizhuschaya-sila",
+  "target": "C.physics.zakon-oma-dlya-polnoy-tsepi",
+  "type": "prerequisites_for",
+  "why": "сила тока пропорциональна ЭДС источника"
+ },
+ {
+  "source": "C.physics.vnutrennee-soprotivlenie-istochnika-toka",
+  "target": "C.physics.zakon-oma-dlya-polnoy-tsepi",
+  "type": "prerequisites_for",
+  "why": "в законе учитывают внутреннее сопротивление источника"
+ },
+ {
+  "source": "C.physics.zakon-oma-dlya-uchastka-tsepi",
+  "target": "C.physics.zakon-oma-dlya-polnoy-tsepi",
+  "type": "prerequisites_for",
+  "why": "закон для полной цепи обобщает закон для участка"
+ },
+ {
+  "source": "C.physics.elektronnaya-provodimost-metallov",
+  "target": "C.physics.elektricheskiy-tok",
+  "type": "is_a",
+  "why": "ток в металлах — направленное движение свободных электронов"
+ },
+ {
+  "source": "C.physics.nositeli-elektricheskogo-zaryada",
+  "target": "C.physics.elektronnaya-provodimost-metallov",
+  "type": "prerequisites_for",
+  "why": "носители заряда в металлах — свободные электроны"
+ },
+ {
+  "source": "C.physics.elektronnaya-provodimost-metallov",
+  "target": "C.physics.zavisimost-soprotivleniya-metallov-ot-temperatury",
+  "type": "prerequisites_for",
+  "why": "с ростом температуры электроны чаще рассеиваются"
+ },
+ {
+  "source": "C.physics.elektricheskoe-soprotivlenie",
+  "target": "C.physics.zavisimost-soprotivleniya-metallov-ot-temperatury",
+  "type": "prerequisites_for",
+  "why": "от температуры меняется сопротивление"
+ },
+ {
+  "source": "C.physics.zavisimost-soprotivleniya-metallov-ot-temperatury",
+  "target": "C.physics.sverhprovodimost",
+  "type": "prerequisites_for",
+  "why": "при очень низкой температуре сопротивление исчезает"
+ },
+ {
+  "source": "C.physics.elektricheskiy-tok-v-vakuume",
+  "target": "C.physics.elektricheskiy-tok",
+  "type": "is_a",
+  "why": "ток, создаваемый электронами в вакууме"
+ },
+ {
+  "source": "C.physics.elektricheskiy-tok-v-vakuume",
+  "target": "C.physics.svoystva-elektronnyh-puchkov",
+  "type": "prerequisites_for",
+  "why": "электронные пучки получают в вакууме"
+ },
+ {
+  "source": "C.physics.deystvie-elektricheskogo-polya-na-elektricheskie-zaryady",
+  "target": "C.physics.svoystva-elektronnyh-puchkov",
+  "type": "prerequisites_for",
+  "why": "электрическое поле отклоняет электронный пучок"
+ },
+ {
+  "source": "C.physics.elektricheskiy-tok-v-vakuume",
+  "target": "C.physics.vakuumnyy-diod",
+  "type": "prerequisites_for",
+  "why": "диод пропускает ток в вакууме в одном направлении"
+ },
+ {
+  "source": "C.physics.poluprovodniki",
+  "target": "C.physics.sobstvennaya-provodimost-poluprovodnikov",
+  "type": "prerequisites_for",
+  "why": "проводимость чистого полупроводника"
+ },
+ {
+  "source": "C.physics.sobstvennaya-provodimost-poluprovodnikov",
+  "target": "C.physics.primesnaya-provodimost-poluprovodnikov",
+  "type": "prerequisites_for",
+  "why": "примеси меняют собственную проводимость полупроводника"
+ },
+ {
+  "source": "C.physics.primesnaya-provodimost-poluprovodnikov",
+  "target": "C.physics.p-n-perehod",
+  "type": "prerequisites_for",
+  "why": "контакт полупроводников p- и n-типа"
+ },
+ {
+  "source": "C.physics.poluprovodniki",
+  "target": "C.physics.poluprovodnikovyy-pribor",
+  "type": "prerequisites_for",
+  "why": "приборы изготавливают из полупроводников"
+ },
+ {
+  "source": "C.physics.poluprovodnikovyy-diod",
+  "target": "C.physics.poluprovodnikovyy-pribor",
+  "type": "is_a",
+  "why": "диод — полупроводниковый прибор"
+ },
+ {
+  "source": "C.physics.p-n-perehod",
+  "target": "C.physics.poluprovodnikovyy-diod",
+  "type": "prerequisites_for",
+  "why": "диод — полупроводник с одним p-n переходом"
+ },
+ {
+  "source": "C.physics.termistor",
+  "target": "C.physics.poluprovodnikovyy-pribor",
+  "type": "is_a",
+  "why": "термистор — полупроводниковый прибор"
+ },
+ {
+  "source": "C.physics.sobstvennaya-provodimost-poluprovodnikov",
+  "target": "C.physics.termistor",
+  "type": "prerequisites_for",
+  "why": "при нагревании проводимость полупроводника растёт"
+ },
+ {
+  "source": "C.physics.fotorezistor",
+  "target": "C.physics.poluprovodnikovyy-pribor",
+  "type": "is_a",
+  "why": "фоторезистор — полупроводниковый прибор"
+ },
+ {
+  "source": "C.physics.sobstvennaya-provodimost-poluprovodnikov",
+  "target": "C.physics.fotorezistor",
+  "type": "prerequisites_for",
+  "why": "свет увеличивает число носителей заряда в полупроводнике"
+ },
+ {
+  "source": "C.physics.zavisimost-soprotivleniya-metallov-ot-temperatury",
+  "target": "C.physics.termometr-soprotivleniya",
+  "type": "prerequisites_for",
+  "why": "температуру определяют по сопротивлению металла"
+ },
+ {
+  "source": "C.physics.termometr-soprotivleniya",
+  "target": "C.physics.termometr",
+  "type": "is_a",
+  "why": "термометр сопротивления — вид термометра"
+ },
+ {
+  "source": "C.physics.molekula",
+  "target": "C.physics.elektroliticheskaya-dissotsiatsiya",
+  "type": "prerequisites_for",
+  "why": "молекулы электролита распадаются на ионы"
+ },
+ {
+  "source": "C.physics.elektroliticheskaya-dissotsiatsiya",
+  "target": "C.physics.elektricheskiy-tok-v-zhidkostyah",
+  "type": "prerequisites_for",
+  "why": "носители тока в электролите — ионы, возникающие при диссоциации"
+ },
+ {
+  "source": "C.physics.elektroliz",
+  "target": "C.physics.himicheskoe-deystvie-elektricheskogo-toka",
+  "type": "is_a",
+  "why": "электролиз — проявление химического действия тока"
+ },
+ {
+  "source": "C.physics.elektricheskiy-tok-v-zhidkostyah",
+  "target": "C.physics.elektroliz",
+  "type": "prerequisites_for",
+  "why": "вещество выделяется на электродах при токе в электролите"
+ },
+ {
+  "source": "C.physics.elektroliz",
+  "target": "C.physics.galvanika",
+  "type": "prerequisites_for",
+  "why": "металлические покрытия наносят электролизом"
+ },
+ {
+  "source": "C.physics.nesamostoyatelnyy-razryad",
+  "target": "C.physics.elektricheskiy-tok-v-gazah",
+  "type": "is_a",
+  "why": "разряд — электрический ток в газе"
+ },
+ {
+  "source": "C.physics.samostoyatelnyy-razryad",
+  "target": "C.physics.elektricheskiy-tok-v-gazah",
+  "type": "is_a",
+  "why": "разряд — электрический ток в газе"
+ },
+ {
+  "source": "C.physics.nesamostoyatelnyy-razryad",
+  "target": "C.physics.samostoyatelnyy-razryad",
+  "type": "prerequisites_for",
+  "why": "самостоятельный разряд идёт без внешнего ионизатора"
+ },
+ {
+  "source": "C.physics.molniya",
+  "target": "C.physics.samostoyatelnyy-razryad",
+  "type": "is_a",
+  "why": "молния — искровой разряд в атмосфере"
+ },
+ {
+  "source": "C.physics.molniya",
+  "target": "C.physics.elektricheskie-yavleniya-v-atmosfere",
+  "type": "is_a",
+  "why": "молния — электрическое явление в атмосфере"
+ },
+ {
+  "source": "C.physics.gaz",
+  "target": "C.physics.plazma",
+  "type": "prerequisites_for",
+  "why": "плазма — ионизированный газ"
+ },
+ {
+  "source": "C.physics.izmerenie-eds-i-vnutrennego-soprotivleniya-istochnika-toka",
+  "target": "C.physics.elektrodvizhuschaya-sila",
+  "type": "verifies",
+  "why": "в работе измеряют ЭДС источника"
+ },
+ {
+  "source": "C.physics.izmerenie-eds-i-vnutrennego-soprotivleniya-istochnika-toka",
+  "target": "C.physics.vnutrennee-soprotivlenie-istochnika-toka",
+  "type": "verifies",
+  "why": "в работе измеряют внутреннее сопротивление источника"
+ },
+ {
+  "source": "C.physics.izuchenie-smeshannogo-soedineniya-rezistorov",
+  "target": "C.physics.smeshannoe-soedinenie-provodnikov",
+  "type": "verifies",
+  "why": "в работе изучают смешанное соединение"
+ },
+ {
+  "source": "C.physics.nablyudenie-elektroliza",
+  "target": "C.physics.elektroliz",
+  "type": "verifies",
+  "why": "в работе наблюдают электролиз"
+ }
+]

@@ -1,0 +1,18 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.4.3.1", "concepts": [
+  {"name": "Нуклонная модель атомного ядра", "type": "модель", "evidence": "Нуклонная модель ядра Гейзенберга – Иваненко", "role": "main"},
+  {"name": "Зарядовое число", "type": "величина", "evidence": "Заряд ядра", "aliases": ["Заряд ядра"], "role": "part"},
+  {"name": "Массовое число", "type": "величина", "evidence": "Массовое число ядра", "role": "part"},
+  {"name": "Изотопы", "type": "понятие", "evidence": "Изотопы", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.4.3.2", "concepts": [
+  {"name": "Радиоактивность", "type": "явление", "evidence": "Радиоактивность", "role": "main"},
+  {"name": "Альфа-распад", "type": "явление", "evidence": "Альфа-распад", "formula": "{}^{A}_{Z}\\mathrm{X} \\to {}^{A-4}_{Z-2}\\mathrm{Y} + {}^{4}_{2}\\mathrm{He}", "role": "part"},
+  {"name": "Бета-распад", "type": "явление", "evidence": "Бета-распад", "formula": "{}^{A}_{Z}\\mathrm{X} \\to {}^{A}_{Z+1}\\mathrm{Y} + {}^{0}_{-1}e + \\tilde{\\nu}_e; {}^{A}_{Z}\\mathrm{X} \\to {}^{A}_{Z-1}\\mathrm{Y} + {}^{0}_{+1}\\tilde{e} + \\nu_e", "role": "part"},
+  {"name": "Гамма-излучение", "type": "явление", "evidence": "Гамма-излучение", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.4.3.3", "concepts": [
+  {"name": "Закон радиоактивного распада", "type": "закон", "evidence": "Закон радиоактивного распада", "formula": "N(t) = N_0 \\cdot 2^{-\\frac{t}{T}}; m(t) = m_0 \\cdot 2^{-\\frac{t}{T}}", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.4.3.4", "concepts": [
+  {"name": "Ядерная реакция", "type": "явление", "evidence": "Ядерные реакции", "role": "main"},
+  {"name": "Реакция деления ядер", "type": "явление", "evidence": "Деление", "role": "part"},
+  {"name": "Реакция синтеза ядер", "type": "явление", "evidence": "синтез ядер", "role": "part"}]}
+]}

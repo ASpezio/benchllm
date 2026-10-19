@@ -11,9 +11,13 @@ REL = {"prerequisites_for", "is_a", "part_of", "participant_of", "verifies"}
 parent = {e["source"]: e["target"] for e in edges if e["type"] == "is_part_of"}
 mentions = [e for e in edges if e["type"] == "mentions"]
 
-NAMES = {"физика_7-8": ("phys78", "Физика · 7–8 класс"), "история_5": ("hist5", "История · 5 класс"),
-         "история_6": ("hist6", "История · 5–6 класс"), "история_7": ("hist7", "История · 5–7 класс")}
-HIDDEN = {"история_5", "история_6"}
+NAMES = {"физика_7-8": ("phys78", "Физика · 7–8 класс"), "физика_9": ("phys9", "Физика · 7–9 класс"),
+         "физика_10": ("phys10", "Физика · 7–10 класс"), "физика_11": ("phys11", "Физика · 7–11 класс"),
+         "история_5": ("hist5", "История · 5 класс"),
+         "история_6": ("hist6", "История · 5–6 класс"), "история_7": ("hist7", "История · 5–7 класс"),
+         "история_8": ("hist8", "История · 5–8 класс"), "история_9": ("hist9", "История · 5–9 класс"),
+         "история_10": ("hist10", "История · 5–10 класс"), "история_11": ("hist11", "История · 5–11 класс")}
+HIDDEN = {"история_5", "история_6", "история_7", "история_8", "история_9", "история_10", "физика_7-8", "физика_9", "физика_10"}
 sets = []
 for f in sorted(glob.glob(os.path.join(HERE, "..", "связи", "*", "in_*.json"))):
     name = re.sub(r"^in_|\.json$", "", os.path.basename(f))
@@ -57,7 +61,7 @@ for f in sorted(glob.glob(os.path.join(HERE, "..", "связи", "*", "in_*.json
     start = max(cids, key=lambda c: sum(1 for r in rels if c in r[:2]))
     sets.append({"key": key, "name": title, "concepts": concepts, "elements": elements, "rels": rels, "start": start})
 
-order = {"phys78": 0, "hist5": 1, "hist6": 2}
+order = {"phys11": 0, "phys10": 0, "phys9": 0, "phys78": 0, "hist11": 1, "hist10": 1, "hist9": 1, "hist8": 1, "hist7": 1, "hist5": 1, "hist6": 2}
 sets.sort(key=lambda s: order.get(s["key"], 9))
 data = json.dumps({"sets": sets}, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 t = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()

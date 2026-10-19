@@ -1,0 +1,24 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.2.2.3", "concepts": [
+  {"name": "Теплопередача", "type": "понятие", "evidence": "Теплопередача", "role": "main"},
+  {"name": "Внутренняя энергия", "type": "величина", "evidence": "способ изменения внутренней энергии", "role": "part"},
+  {"name": "Конвекция", "type": "явление", "evidence": "Конвекция", "role": "part"},
+  {"name": "Теплопроводность", "type": "явление", "evidence": "теплопроводность", "role": "part"},
+  {"name": "Излучение", "type": "явление", "evidence": "излучение", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.4", "concepts": [
+  {"name": "Количество теплоты", "type": "величина", "evidence": "Количество теплоты", "role": "main"},
+  {"name": "Удельная теплоёмкость", "type": "величина", "evidence": "Удельная теплоёмкость вещества", "formula": "Q = cm\\Delta T", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.5", "concepts": [
+  {"name": "Удельная теплота парообразования", "type": "величина", "evidence": "Удельная теплота парообразования", "formula": "Q = Lm", "role": "main"},
+  {"name": "Удельная теплота плавления", "type": "величина", "evidence": "Удельная теплота плавления", "formula": "Q = \\lambda m", "role": "part"},
+  {"name": "Удельная теплота сгорания топлива", "type": "величина", "evidence": "Удельная теплота сгорания топлива", "formula": "Q = qm", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.6", "concepts": [
+  {"name": "Работа газа", "type": "величина", "evidence": "Элементарная работа в термодинамике", "formula": "A = p\\Delta V", "role": "main"},
+  {"name": "pV-диаграмма", "type": "понятие", "evidence": "Вычисление работы по графику процесса на pV-диаграмме", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.7", "concepts": [
+  {"name": "Первый закон термодинамики", "type": "закон", "evidence": "Первый закон термодинамики", "formula": "Q_{12} = \\Delta U_{12} + A_{12} = (U_2 - U_1) + A_{12}", "role": "main"},
+  {"name": "Адиабатный процесс", "type": "явление", "evidence": "Адиабата", "formula": "Q_{12} = 0 \\Rightarrow A_{12} = U_1 - U_2 = -\\Delta U_{12}", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.8", "concepts": [
+  {"name": "Второй закон термодинамики", "type": "закон", "evidence": "Второй закон термодинамики", "role": "main"},
+  {"name": "Необратимость процессов в природе", "type": "понятие", "evidence": "Необратимые процессы", "role": "part"}]}
+]}

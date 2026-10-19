@@ -1,0 +1,22 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.4.1.3", "concepts": [
+  {"name": "Фотоэффект", "type": "явление", "evidence": "Фотоэффект", "role": "main"},
+  {"name": "Опыты Столетова", "type": "опыт", "evidence": "Опыты А.Г. Столетова", "role": "part"},
+  {"name": "Законы фотоэффекта", "type": "закон", "evidence": "Законы фотоэффекта", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.4.1.4", "concepts": [
+  {"name": "Уравнение Эйнштейна для фотоэффекта", "type": "закон", "evidence": "Уравнение Эйнштейна для фотоэффекта", "formula": "E_{\\text{фотона}} = A_{\\text{выхода}} + E_{\\text{кин max}}", "role": "main"},
+  {"name": "Работа выхода", "type": "величина", "evidence": "A_{\\text{выхода}} = h\\nu_{\\text{кр}} = \\frac{hc}{\\lambda_{\\text{кр}}}", "formula": "A_{\\text{выхода}} = h\\nu_{\\text{кр}} = \\frac{hc}{\\lambda_{\\text{кр}}}", "role": "part"},
+  {"name": "Запирающее напряжение", "type": "величина", "evidence": "E_{\\text{кин max}} = \\frac{m\\upsilon_{\\text{max}}^2}{2} = eU_{\\text{зап}}", "formula": "E_{\\text{кин max}} = \\frac{m\\upsilon_{\\text{max}}^2}{2} = eU_{\\text{зап}}", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.4.1.5", "concepts": [
+  {"name": "Давление света", "type": "явление", "evidence": "Давление света", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.4.2.1", "concepts": [
+  {"name": "Планетарная модель атома", "type": "модель", "evidence": "Планетарная модель атома", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.4.2.2", "concepts": [
+  {"name": "Постулаты Бора", "type": "закон", "evidence": "Постулаты Бора", "formula": "h\\nu_{mn} = \\frac{hc}{\\lambda_{mn}} = \\vert E_n - E_m\\vert", "role": "main"},
+  {"name": "Испускание света атомом", "type": "явление", "evidence": "Излучение и поглощение фотонов", "role": "part"},
+  {"name": "Поглощение света атомом", "type": "явление", "evidence": "поглощение фотонов при переходе атома", "role": "part"},
+  {"name": "Уровни энергии атома", "type": "понятие", "evidence": "с одного уровня энергии на другой", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.4.2.3", "concepts": [
+  {"name": "Линейчатый спектр", "type": "понятие", "evidence": "Линейчатые спектры", "role": "main"},
+  {"name": "Спектр уровней энергии атома водорода", "type": "понятие", "evidence": "Спектр уровней энергии атома водорода", "formula": "E_n = \\frac{-13,6 \\text{ эВ}}{n^2}", "role": "part"}]}
+]}

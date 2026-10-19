@@ -1,0 +1,2356 @@
+[
+ {
+  "source": "C.physics.izmerenie-momenta-sily-deystvuyuschego-na-rychag",
+  "target": "C.physics.moment-sily",
+  "type": "verifies",
+  "why": "в работе измеряется момент силы"
+ },
+ {
+  "source": "C.physics.izmerenie-raboty-sily-uprugosti",
+  "target": "C.physics.rabota-sily-uprugosti",
+  "type": "verifies",
+  "why": "в работе измеряется работа силы упругости"
+ },
+ {
+  "source": "C.physics.izmerenie-sredney-plotnosti-veschestva",
+  "target": "C.physics.plotnost-veschestva",
+  "type": "verifies",
+  "why": "в работе определяется плотность вещества"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-uskoreniya-bruska-ot-ugla-naklona-napravlyayuschey",
+  "target": "C.physics.uskorenie",
+  "type": "verifies",
+  "why": "исследуется, как ускорение бруска зависит от угла наклона"
+ },
+ {
+  "source": "C.physics.uravnenie-ravnomernogo-pryamolineynogo-dvizheniya",
+  "target": "C.physics.grafiki-ravnomernogo-pryamolineynogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "графики строятся по уравнению x(t) = x₀ + υₓt"
+ },
+ {
+  "source": "C.physics.sistema-otscheta",
+  "target": "C.physics.koordinata",
+  "type": "prerequisites_for",
+  "why": "координата тела задаётся в системе отсчёта",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.koordinata",
+  "target": "C.physics.proektsiya-peremescheniya",
+  "type": "prerequisites_for",
+  "why": "проекция перемещения — изменение координаты тела"
+ },
+ {
+  "source": "C.physics.skorost",
+  "target": "C.physics.proektsiya-skorosti",
+  "type": "prerequisites_for",
+  "why": "проекция скорости — проекция вектора скорости на ось",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.proektsiya-peremescheniya",
+  "target": "C.physics.proektsiya-skorosti",
+  "type": "prerequisites_for",
+  "why": "υₓ = sₓ / t при равномерном движении"
+ },
+ {
+  "source": "C.physics.proektsiya-skorosti",
+  "target": "C.physics.uravnenie-ravnomernogo-pryamolineynogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "x = x₀ + υₓt содержит проекцию скорости"
+ },
+ {
+  "source": "C.physics.ravnomernoe-pryamolineynoe-dvizhenie",
+  "target": "C.physics.uravnenie-ravnomernogo-pryamolineynogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "уравнение описывает равномерное прямолинейное движение",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.vektornaya-fizicheskaya-velichina",
+  "target": "C.physics.fizicheskaya-velichina",
+  "type": "is_a",
+  "why": "векторная величина — вид физической величины"
+ },
+ {
+  "source": "C.physics.sila",
+  "target": "C.physics.vektornaya-fizicheskaya-velichina",
+  "type": "is_a",
+  "why": "сила — векторная физическая величина"
+ },
+ {
+  "source": "C.physics.impuls-tela",
+  "target": "C.physics.vektornaya-fizicheskaya-velichina",
+  "type": "is_a",
+  "why": "импульс тела — векторная физическая величина"
+ },
+ {
+  "source": "C.physics.sila",
+  "target": "C.physics.deformatsiya",
+  "type": "prerequisites_for",
+  "why": "деформация — изменение формы и размеров тела под действием силы"
+ },
+ {
+  "source": "C.physics.deformatsiya",
+  "target": "C.physics.sila-uprugosti",
+  "type": "prerequisites_for",
+  "why": "сила упругости возникает при деформации тела"
+ },
+ {
+  "source": "C.physics.neuprugaya-deformatsiya",
+  "target": "C.physics.deformatsiya",
+  "type": "is_a",
+  "why": "вид деформации"
+ },
+ {
+  "source": "C.physics.uprugaya-deformatsiya",
+  "target": "C.physics.deformatsiya",
+  "type": "is_a",
+  "why": "вид деформации"
+ },
+ {
+  "source": "C.physics.uprugaya-deformatsiya",
+  "target": "C.physics.zakon-guka",
+  "type": "prerequisites_for",
+  "why": "закон Гука — закон упругой деформации",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.kpd-prostyh-mehanizmov",
+  "target": "C.physics.koeffitsient-poleznogo-deystviya",
+  "type": "is_a",
+  "why": "частный случай коэффициента полезного действия"
+ },
+ {
+  "source": "C.physics.moment-sily",
+  "target": "C.physics.uslovie-ravnovesiya-rychaga",
+  "type": "prerequisites_for",
+  "why": "M₁ + M₂ + … = 0: условие записано через моменты сил",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.pravilo-ravnovesiya-rychaga",
+  "target": "C.physics.uslovie-ravnovesiya-rychaga",
+  "type": "prerequisites_for",
+  "why": "условие через моменты обобщает правило рычага"
+ },
+ {
+  "source": "C.physics.mehanicheskaya-energiya",
+  "target": "C.physics.prevraschenie-mehanicheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "превращается механическая энергия тела"
+ },
+ {
+  "source": "C.physics.sila-treniya",
+  "target": "C.physics.prevraschenie-mehanicheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "при наличии трения механическая энергия убывает"
+ },
+ {
+  "source": "C.physics.vnutrennyaya-energiya",
+  "target": "C.physics.prevraschenie-mehanicheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "работа сил трения переводит механическую энергию во внутреннюю",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.materialnaya-tochka",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "материальная точка — физическая модель тела"
+ },
+ {
+  "source": "C.physics.mehanicheskoe-dvizhenie",
+  "target": "C.physics.sistema-otscheta",
+  "type": "prerequisites_for",
+  "why": "движение описывается относительно системы отсчёта"
+ },
+ {
+  "source": "C.physics.sistema-otscheta",
+  "target": "C.physics.otnositelnost-mehanicheskogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "траектория и скорость зависят от выбора системы отсчёта"
+ },
+ {
+  "source": "C.physics.ravnomernoe-pryamolineynoe-dvizhenie",
+  "target": "C.physics.ravnomernoe-dvizhenie",
+  "type": "is_a",
+  "why": "частный случай равномерного движения"
+ },
+ {
+  "source": "C.physics.mgnovennaya-skorost",
+  "target": "C.physics.skorost",
+  "type": "is_a",
+  "why": "мгновенная скорость — вид скорости"
+ },
+ {
+  "source": "C.physics.neravnomernoe-pryamolineynoe-dvizhenie",
+  "target": "C.physics.mgnovennaya-skorost",
+  "type": "prerequisites_for",
+  "why": "при неравномерном движении скорость меняется от точки к точке"
+ },
+ {
+  "source": "C.physics.neravnomernoe-pryamolineynoe-dvizhenie",
+  "target": "C.physics.neravnomernoe-dvizhenie",
+  "type": "is_a",
+  "why": "частный случай неравномерного движения"
+ },
+ {
+  "source": "C.physics.uravnenie-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "target": "C.physics.grafiki-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "графики строятся по формулам равноускоренного движения"
+ },
+ {
+  "source": "C.physics.uskorenie",
+  "target": "C.physics.proektsiya-uskoreniya",
+  "type": "prerequisites_for",
+  "why": "проекция ускорения — проекция вектора ускорения на ось",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.uskorenie",
+  "target": "C.physics.ravnouskorennoe-pryamolineynoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "равноускоренное движение — движение с постоянным ускорением"
+ },
+ {
+  "source": "C.physics.ravnouskorennoe-pryamolineynoe-dvizhenie",
+  "target": "C.physics.neravnomernoe-pryamolineynoe-dvizhenie",
+  "type": "is_a",
+  "why": "при равноускоренном движении скорость меняется"
+ },
+ {
+  "source": "C.physics.ravnouskorennoe-pryamolineynoe-dvizhenie",
+  "target": "C.physics.uravnenie-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "уравнение описывает равноускоренное движение"
+ },
+ {
+  "source": "C.physics.proektsiya-skorosti",
+  "target": "C.physics.uravnenie-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "в уравнение входит проекция начальной скорости"
+ },
+ {
+  "source": "C.physics.proektsiya-uskoreniya",
+  "target": "C.physics.uravnenie-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "type": "prerequisites_for",
+  "why": "в уравнение входит проекция ускорения"
+ },
+ {
+  "source": "C.physics.mgnovennaya-skorost",
+  "target": "C.physics.uskorenie",
+  "type": "prerequisites_for",
+  "why": "ускорение — быстрота изменения мгновенной скорости"
+ },
+ {
+  "source": "C.physics.uravneniya-svobodnogo-padeniya",
+  "target": "C.physics.grafiki-svobodnogo-padeniya",
+  "type": "prerequisites_for",
+  "why": "графики строятся по формулам свободного падения"
+ },
+ {
+  "source": "C.physics.grafiki-svobodnogo-padeniya",
+  "target": "C.physics.grafiki-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "type": "is_a",
+  "why": "свободное падение — равноускоренное движение"
+ },
+ {
+  "source": "C.physics.dvizhenie-tela-po-vertikali",
+  "target": "C.physics.svobodnoe-padenie",
+  "type": "is_a",
+  "why": "движение вверх и вниз под действием только силы тяжести"
+ },
+ {
+  "source": "C.physics.opyty-galileya",
+  "target": "C.physics.svobodnoe-padenie",
+  "type": "verifies",
+  "why": "опыты показали одинаковое ускорение падающих тел"
+ },
+ {
+  "source": "C.physics.svobodnoe-padenie",
+  "target": "C.physics.ravnouskorennoe-pryamolineynoe-dvizhenie",
+  "type": "is_a",
+  "why": "свободное падение — равноускоренное движение"
+ },
+ {
+  "source": "C.physics.sila-tyazhesti",
+  "target": "C.physics.svobodnoe-padenie",
+  "type": "prerequisites_for",
+  "why": "свободное падение — движение под действием только силы тяжести"
+ },
+ {
+  "source": "C.physics.uravneniya-svobodnogo-padeniya",
+  "target": "C.physics.uravnenie-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "type": "is_a",
+  "why": "частный случай при ускорении g"
+ },
+ {
+  "source": "C.physics.uskorenie-svobodnogo-padeniya",
+  "target": "C.physics.uravneniya-svobodnogo-padeniya",
+  "type": "prerequisites_for",
+  "why": "в формулы входит ускорение g",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.lineynaya-skorost",
+  "target": "C.physics.skorost",
+  "type": "is_a",
+  "why": "линейная скорость — вид скорости"
+ },
+ {
+  "source": "C.physics.period-obrascheniya",
+  "target": "C.physics.lineynaya-skorost",
+  "type": "prerequisites_for",
+  "why": "υ = 2πR / T"
+ },
+ {
+  "source": "C.physics.ravnomernoe-dvizhenie-po-okruzhnosti",
+  "target": "C.physics.period-obrascheniya",
+  "type": "prerequisites_for",
+  "why": "период — время одного оборота по окружности"
+ },
+ {
+  "source": "C.physics.ravnomernoe-dvizhenie-po-okruzhnosti",
+  "target": "C.physics.mehanicheskoe-dvizhenie",
+  "type": "is_a",
+  "why": "вид механического движения"
+ },
+ {
+  "source": "C.physics.period-obrascheniya",
+  "target": "C.physics.uglovaya-skorost",
+  "type": "prerequisites_for",
+  "why": "ω = 2π / T"
+ },
+ {
+  "source": "C.physics.tsentrostremitelnoe-uskorenie",
+  "target": "C.physics.uskorenie",
+  "type": "is_a",
+  "why": "вид ускорения"
+ },
+ {
+  "source": "C.physics.lineynaya-skorost",
+  "target": "C.physics.tsentrostremitelnoe-uskorenie",
+  "type": "prerequisites_for",
+  "why": "a = υ² / R"
+ },
+ {
+  "source": "C.physics.period-obrascheniya",
+  "target": "C.physics.chastota-obrascheniya",
+  "type": "prerequisites_for",
+  "why": "ν = 1 / T"
+ },
+ {
+  "source": "C.physics.uskorenie",
+  "target": "C.physics.vektornaya-fizicheskaya-velichina",
+  "type": "is_a",
+  "why": "ускорение — векторная физическая величина"
+ },
+ {
+  "source": "C.physics.rychag",
+  "target": "C.physics.izmerenie-momenta-sily-deystvuyuschego-na-rychag",
+  "type": "prerequisites_for",
+  "why": "момент силы измеряют на рычаге",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.naklonnaya-ploskost",
+  "target": "C.physics.issledovanie-zavisimosti-uskoreniya-bruska-ot-ugla-naklona-napravlyayuschey",
+  "type": "prerequisites_for",
+  "why": "брусок движется по наклонной направляющей",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.issledovanie-usloviy-ravnovesiya-rychaga",
+  "target": "C.physics.uslovie-ravnovesiya-rychaga",
+  "type": "verifies",
+  "why": "проверяется равенство моментов сил, действующих на рычаг"
+ },
+ {
+  "source": "C.physics.zakon-inertsii",
+  "target": "C.physics.pervyy-zakon-nyutona",
+  "type": "prerequisites_for",
+  "why": "первый закон Ньютона уточняет закон инерции"
+ },
+ {
+  "source": "C.physics.sistema-otscheta",
+  "target": "C.physics.pervyy-zakon-nyutona",
+  "type": "prerequisites_for",
+  "why": "закон выполняется в инерциальных системах отсчёта"
+ },
+ {
+  "source": "C.physics.ravnodeystvuyuschaya-sil",
+  "target": "C.physics.vtoroy-zakon-nyutona",
+  "type": "prerequisites_for",
+  "why": "ускорение сообщает равнодействующая всех сил"
+ },
+ {
+  "source": "C.physics.massa",
+  "target": "C.physics.vtoroy-zakon-nyutona",
+  "type": "prerequisites_for",
+  "why": "F = ma: ускорение обратно пропорционально массе"
+ },
+ {
+  "source": "C.physics.uskorenie",
+  "target": "C.physics.vtoroy-zakon-nyutona",
+  "type": "prerequisites_for",
+  "why": "закон связывает силу с ускорением тела"
+ },
+ {
+  "source": "C.physics.sila",
+  "target": "C.physics.tretiy-zakon-nyutona",
+  "type": "prerequisites_for",
+  "why": "силы взаимодействия двух тел равны по модулю и противоположны"
+ },
+ {
+  "source": "C.physics.ravnodeystvuyuschaya-sil",
+  "target": "C.physics.printsip-superpozitsii-sil",
+  "type": "prerequisites_for",
+  "why": "равнодействующая равна векторной сумме всех сил"
+ },
+ {
+  "source": "C.physics.sila-treniya-pokoya",
+  "target": "C.physics.sila-treniya",
+  "type": "is_a",
+  "why": "вид силы трения"
+ },
+ {
+  "source": "C.physics.trenie-pokoya",
+  "target": "C.physics.sila-treniya-pokoya",
+  "type": "prerequisites_for",
+  "why": "сила характеризует трение покоя"
+ },
+ {
+  "source": "C.physics.sila-treniya-skolzheniya",
+  "target": "C.physics.sila-treniya",
+  "type": "is_a",
+  "why": "вид силы трения"
+ },
+ {
+  "source": "C.physics.trenie-skolzheniya",
+  "target": "C.physics.sila-treniya-skolzheniya",
+  "type": "prerequisites_for",
+  "why": "сила характеризует трение скольжения"
+ },
+ {
+  "source": "C.physics.vsemirnoe-tyagotenie",
+  "target": "C.physics.zakon-vsemirnogo-tyagoteniya",
+  "type": "prerequisites_for",
+  "why": "закон количественно описывает всемирное тяготение"
+ },
+ {
+  "source": "C.physics.massa",
+  "target": "C.physics.zakon-vsemirnogo-tyagoteniya",
+  "type": "prerequisites_for",
+  "why": "сила тяготения пропорциональна массам тел"
+ },
+ {
+  "source": "C.physics.svobodnoe-padenie",
+  "target": "C.physics.uskorenie-svobodnogo-padeniya",
+  "type": "prerequisites_for",
+  "why": "g — ускорение тела при свободном падении"
+ },
+ {
+  "source": "C.physics.zakon-vsemirnogo-tyagoteniya",
+  "target": "C.physics.uskorenie-svobodnogo-padeniya",
+  "type": "prerequisites_for",
+  "why": "g вычисляется из закона всемирного тяготения"
+ },
+ {
+  "source": "C.physics.uskorenie-svobodnogo-padeniya",
+  "target": "C.physics.uskorenie",
+  "type": "is_a",
+  "why": "вид ускорения"
+ },
+ {
+  "source": "C.physics.zakon-vsemirnogo-tyagoteniya",
+  "target": "C.physics.dvizhenie-planet-vokrug-solntsa",
+  "type": "prerequisites_for",
+  "why": "планеты удерживаются на орбитах силой тяготения"
+ },
+ {
+  "source": "C.physics.ravnomernoe-dvizhenie-po-okruzhnosti",
+  "target": "C.physics.dvizhenie-planet-vokrug-solntsa",
+  "type": "prerequisites_for",
+  "why": "орбиты планет близки к окружностям"
+ },
+ {
+  "source": "C.physics.pervaya-kosmicheskaya-skorost",
+  "target": "C.physics.skorost",
+  "type": "is_a",
+  "why": "частный случай скорости"
+ },
+ {
+  "source": "C.physics.zakon-vsemirnogo-tyagoteniya",
+  "target": "C.physics.pervaya-kosmicheskaya-skorost",
+  "type": "prerequisites_for",
+  "why": "скорость кругового движения спутника задаёт тяготение"
+ },
+ {
+  "source": "C.physics.tsentrostremitelnoe-uskorenie",
+  "target": "C.physics.pervaya-kosmicheskaya-skorost",
+  "type": "prerequisites_for",
+  "why": "υ = √(gR): центростремительное ускорение спутника равно g"
+ },
+ {
+  "source": "C.physics.ves-tela",
+  "target": "C.physics.peregruzka",
+  "type": "prerequisites_for",
+  "why": "перегрузка — увеличение веса тела"
+ },
+ {
+  "source": "C.physics.uskorenie",
+  "target": "C.physics.peregruzka",
+  "type": "prerequisites_for",
+  "why": "перегрузки возникают при ускоренном движении"
+ },
+ {
+  "source": "C.physics.absolyutno-tverdoe-telo",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "абсолютно твёрдое тело — физическая модель"
+ },
+ {
+  "source": "C.physics.tverdoe-telo",
+  "target": "C.physics.absolyutno-tverdoe-telo",
+  "type": "prerequisites_for",
+  "why": "модель реального твёрдого тела"
+ },
+ {
+  "source": "C.physics.deformatsiya",
+  "target": "C.physics.absolyutno-tverdoe-telo",
+  "type": "prerequisites_for",
+  "why": "деформациями такого тела пренебрегают"
+ },
+ {
+  "source": "C.physics.materialnaya-tochka",
+  "target": "C.physics.ravnovesie-materialnoy-tochki",
+  "type": "prerequisites_for",
+  "why": "рассматривается равновесие материальной точки"
+ },
+ {
+  "source": "C.physics.ravnodeystvuyuschaya-sil",
+  "target": "C.physics.ravnovesie-materialnoy-tochki",
+  "type": "prerequisites_for",
+  "why": "точка в равновесии, если равнодействующая сил равна нулю"
+ },
+ {
+  "source": "C.physics.materialnaya-tochka",
+  "target": "C.physics.tsentr-mass",
+  "type": "prerequisites_for",
+  "why": "центр масс определяется для системы материальных точек"
+ },
+ {
+  "source": "C.physics.tsentr-tyazhesti",
+  "target": "C.physics.tsentr-mass",
+  "type": "prerequisites_for",
+  "why": "в однородном поле тяжести центр масс совпадает с центром тяжести",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.sila",
+  "target": "C.physics.moment-sily",
+  "type": "prerequisites_for",
+  "why": "M = Fl: момент силы — произведение силы на плечо"
+ },
+ {
+  "source": "C.physics.moment-sily",
+  "target": "C.physics.ravnovesie-tverdogo-tela-s-zakreplennoy-osyu-vrascheniya",
+  "type": "prerequisites_for",
+  "why": "условие равновесия: сумма моментов сил равна нулю"
+ },
+ {
+  "source": "C.physics.absolyutno-tverdoe-telo",
+  "target": "C.physics.ravnovesie-tverdogo-tela-s-zakreplennoy-osyu-vrascheniya",
+  "type": "prerequisites_for",
+  "why": "рассматривается равновесие модели твёрдого тела"
+ },
+ {
+  "source": "C.physics.sila-tyazhesti",
+  "target": "C.physics.tsentr-tyazhesti",
+  "type": "prerequisites_for",
+  "why": "центр тяжести — точка приложения силы тяжести"
+ },
+ {
+  "source": "C.physics.impuls-tela",
+  "target": "C.physics.izmenenie-impulsa",
+  "type": "prerequisites_for",
+  "why": "изменение импульса — разность конечного и начального импульсов"
+ },
+ {
+  "source": "C.physics.sila",
+  "target": "C.physics.impuls-sily",
+  "type": "prerequisites_for",
+  "why": "импульс силы — произведение силы на время её действия"
+ },
+ {
+  "source": "C.physics.izmenenie-impulsa",
+  "target": "C.physics.impuls-sily",
+  "type": "prerequisites_for",
+  "why": "импульс силы равен изменению импульса тела"
+ },
+ {
+  "source": "C.physics.impuls-tela",
+  "target": "C.physics.impuls-sistemy-tel",
+  "type": "prerequisites_for",
+  "why": "импульс системы — векторная сумма импульсов тел",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.massa",
+  "target": "C.physics.impuls-tela",
+  "type": "prerequisites_for",
+  "why": "p = mυ"
+ },
+ {
+  "source": "C.physics.impuls-sistemy-tel",
+  "target": "C.physics.zakon-sohraneniya-impulsa",
+  "type": "prerequisites_for",
+  "why": "сохраняется импульс системы тел"
+ },
+ {
+  "source": "C.physics.zamknutaya-sistema-tel",
+  "target": "C.physics.zakon-sohraneniya-impulsa",
+  "type": "prerequisites_for",
+  "why": "закон выполняется для замкнутой системы",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.tretiy-zakon-nyutona",
+  "target": "C.physics.zakon-sohraneniya-impulsa",
+  "type": "prerequisites_for",
+  "why": "внутренние силы попарно равны и противоположны"
+ },
+ {
+  "source": "C.physics.vzaimodeystvie-tel",
+  "target": "C.physics.zamknutaya-sistema-tel",
+  "type": "prerequisites_for",
+  "why": "тела системы взаимодействуют только друг с другом"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-impulsa",
+  "target": "C.physics.reaktivnoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "реактивное движение объясняется сохранением импульса"
+ },
+ {
+  "source": "C.physics.rabota-sily-treniya",
+  "target": "C.physics.mehanicheskaya-rabota",
+  "type": "is_a",
+  "why": "частный случай механической работы"
+ },
+ {
+  "source": "C.physics.sila-treniya",
+  "target": "C.physics.rabota-sily-treniya",
+  "type": "prerequisites_for",
+  "why": "работу совершает сила трения"
+ },
+ {
+  "source": "C.physics.rabota-sily-tyazhesti",
+  "target": "C.physics.mehanicheskaya-rabota",
+  "type": "is_a",
+  "why": "частный случай механической работы"
+ },
+ {
+  "source": "C.physics.sila-tyazhesti",
+  "target": "C.physics.rabota-sily-tyazhesti",
+  "type": "prerequisites_for",
+  "why": "работу совершает сила тяжести"
+ },
+ {
+  "source": "C.physics.rabota-sily-uprugosti",
+  "target": "C.physics.mehanicheskaya-rabota",
+  "type": "is_a",
+  "why": "частный случай механической работы"
+ },
+ {
+  "source": "C.physics.sila-uprugosti",
+  "target": "C.physics.rabota-sily-uprugosti",
+  "type": "prerequisites_for",
+  "why": "работу совершает сила упругости"
+ },
+ {
+  "source": "C.physics.mehanicheskaya-rabota",
+  "target": "C.physics.svyaz-energii-i-raboty",
+  "type": "prerequisites_for",
+  "why": "работа — мера изменения энергии"
+ },
+ {
+  "source": "C.physics.mehanicheskaya-energiya",
+  "target": "C.physics.svyaz-energii-i-raboty",
+  "type": "prerequisites_for",
+  "why": "работа равна изменению энергии тела"
+ },
+ {
+  "source": "C.physics.potentsialnaya-energiya-szhatoy-pruzhiny",
+  "target": "C.physics.potentsialnaya-energiya",
+  "type": "is_a",
+  "why": "вид потенциальной энергии"
+ },
+ {
+  "source": "C.physics.uprugaya-deformatsiya",
+  "target": "C.physics.potentsialnaya-energiya-szhatoy-pruzhiny",
+  "type": "prerequisites_for",
+  "why": "энергией обладает упруго деформированная пружина"
+ },
+ {
+  "source": "C.physics.rabota-sily-uprugosti",
+  "target": "C.physics.potentsialnaya-energiya-szhatoy-pruzhiny",
+  "type": "prerequisites_for",
+  "why": "энергия пружины равна работе силы упругости"
+ },
+ {
+  "source": "C.physics.teorema-o-kineticheskoy-energii",
+  "target": "C.physics.svyaz-energii-i-raboty",
+  "type": "is_a",
+  "why": "частный случай: работа равна изменению кинетической энергии"
+ },
+ {
+  "source": "C.physics.kineticheskaya-energiya",
+  "target": "C.physics.teorema-o-kineticheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "A = ΔEₖ"
+ },
+ {
+  "source": "C.physics.izmerenie-zhestkosti-pruzhiny",
+  "target": "C.physics.zakon-guka",
+  "type": "verifies",
+  "why": "жёсткость находят из F = kΔl"
+ },
+ {
+  "source": "C.physics.dinamometr",
+  "target": "C.physics.izmerenie-zhestkosti-pruzhiny",
+  "type": "prerequisites_for",
+  "why": "силу упругости измеряют динамометром"
+ },
+ {
+  "source": "C.physics.izmerenie-koeffitsienta-treniya-skolzheniya",
+  "target": "C.physics.sila-treniya-skolzheniya",
+  "type": "verifies",
+  "why": "μ находят из F = μN"
+ },
+ {
+  "source": "C.physics.dinamometr",
+  "target": "C.physics.izmerenie-koeffitsienta-treniya-skolzheniya",
+  "type": "prerequisites_for",
+  "why": "силу трения измеряют динамометром"
+ },
+ {
+  "source": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-nepodvizhnogo-bloka",
+  "target": "C.physics.rabota-sily-uprugosti",
+  "type": "verifies",
+  "why": "определяется работа силы упругости"
+ },
+ {
+  "source": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-nepodvizhnogo-bloka",
+  "target": "C.physics.izmerenie-raboty-sily-uprugosti",
+  "type": "is_a",
+  "why": "частный случай измерения работы силы упругости"
+ },
+ {
+  "source": "C.physics.nepodvizhnyy-blok",
+  "target": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-nepodvizhnogo-bloka",
+  "type": "prerequisites_for",
+  "why": "груз поднимают с помощью неподвижного блока"
+ },
+ {
+  "source": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-podvizhnogo-bloka",
+  "target": "C.physics.rabota-sily-uprugosti",
+  "type": "verifies",
+  "why": "определяется работа силы упругости"
+ },
+ {
+  "source": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-podvizhnogo-bloka",
+  "target": "C.physics.izmerenie-raboty-sily-uprugosti",
+  "type": "is_a",
+  "why": "частный случай измерения работы силы упругости"
+ },
+ {
+  "source": "C.physics.podvizhnyy-blok",
+  "target": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-podvizhnogo-bloka",
+  "type": "prerequisites_for",
+  "why": "груз поднимают с помощью подвижного блока"
+ },
+ {
+  "source": "C.physics.izmerenie-uskoreniya-bruska-pri-dvizhenii-po-naklonnoy-ploskosti",
+  "target": "C.physics.uskorenie",
+  "type": "verifies",
+  "why": "в работе определяется ускорение"
+ },
+ {
+  "source": "C.physics.naklonnaya-ploskost",
+  "target": "C.physics.izmerenie-uskoreniya-bruska-pri-dvizhenii-po-naklonnoy-ploskosti",
+  "type": "prerequisites_for",
+  "why": "брусок движется по наклонной плоскости"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-puti-ot-vremeni-pri-ravnouskorennom-dvizhenii-bez-nacha",
+  "target": "C.physics.ravnouskorennoe-pryamolineynoe-dvizhenie",
+  "type": "verifies",
+  "why": "проверяется, что путь пропорционален квадрату времени"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-sily-treniya-skolzheniya-ot-sily-normalnogo-davleniya-i",
+  "target": "C.physics.sila-treniya-skolzheniya",
+  "type": "verifies",
+  "why": "исследуется зависимость F = μN"
+ },
+ {
+  "source": "C.physics.dinamometr",
+  "target": "C.physics.issledovanie-zavisimosti-sily-treniya-skolzheniya-ot-sily-normalnogo-davleniya-i",
+  "type": "prerequisites_for",
+  "why": "силу трения измеряют динамометром"
+ },
+ {
+  "source": "C.physics.proverka-gipotezy-ob-otnoshenii-putey-pri-ravnouskorennom-dvizhenii-bez-nachalno",
+  "target": "C.physics.ravnouskorennoe-pryamolineynoe-dvizhenie",
+  "type": "verifies",
+  "why": "проверяется закономерность путей за равные промежутки времени"
+ },
+ {
+  "source": "C.physics.gipoteza",
+  "target": "C.physics.proverka-gipotezy-ob-otnoshenii-putey-pri-ravnouskorennom-dvizhenii-bez-nachalno",
+  "type": "prerequisites_for",
+  "why": "работа построена как проверка гипотезы"
+ },
+ {
+  "source": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-nepodvizhnogo-bloka",
+  "target": "C.physics.zolotoe-pravilo-mehaniki",
+  "type": "verifies",
+  "why": "показывается, что блок не даёт выигрыша в работе"
+ },
+ {
+  "source": "C.physics.izmerenie-raboty-sily-uprugosti-pri-podeme-gruza-s-pomoschyu-podvizhnogo-bloka",
+  "target": "C.physics.zolotoe-pravilo-mehaniki",
+  "type": "verifies",
+  "why": "выигрыш в силе сопровождается проигрышем в пути"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-puti-ot-vremeni-pri-ravnouskorennom-dvizhenii-bez-nacha",
+  "target": "C.physics.uravnenie-ravnouskorennogo-pryamolineynogo-dvizheniya",
+  "type": "verifies",
+  "why": "проверяется зависимость s = at²/2"
+ },
+ {
+  "source": "C.physics.dvizhenie-planet-solnechnoy-sistemy",
+  "target": "C.physics.dvizhenie-planet-vokrug-solntsa",
+  "type": "is_a",
+  "why": "пример движения планет вокруг Солнца в природе"
+ },
+ {
+  "source": "C.physics.zakon-vsemirnogo-tyagoteniya",
+  "target": "C.physics.prilivy-i-otlivy",
+  "type": "prerequisites_for",
+  "why": "приливы вызваны притяжением Луны и Солнца"
+ },
+ {
+  "source": "C.physics.reaktivnoe-dvizhenie-zhivyh-organizmov",
+  "target": "C.physics.reaktivnoe-dvizhenie",
+  "type": "is_a",
+  "why": "реактивное движение в живой природе"
+ },
+ {
+  "source": "C.physics.datchik-polozheniya",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "датчик — измерительный прибор"
+ },
+ {
+  "source": "C.physics.koordinata",
+  "target": "C.physics.datchik-polozheniya",
+  "type": "prerequisites_for",
+  "why": "датчик определяет положение (координату) тела"
+ },
+ {
+  "source": "C.physics.datchik-rasstoyaniya",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "датчик — измерительный прибор"
+ },
+ {
+  "source": "C.physics.datchik-uskoreniya",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "датчик — измерительный прибор"
+ },
+ {
+  "source": "C.physics.uskorenie",
+  "target": "C.physics.datchik-uskoreniya",
+  "type": "prerequisites_for",
+  "why": "датчик измеряет ускорение"
+ },
+ {
+  "source": "C.physics.reaktivnoe-dvizhenie",
+  "target": "C.physics.raketa",
+  "type": "prerequisites_for",
+  "why": "ракета движется за счёт реактивной тяги"
+ },
+ {
+  "source": "C.physics.spidometr",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "спидометр — измерительный прибор"
+ },
+ {
+  "source": "C.physics.mgnovennaya-skorost",
+  "target": "C.physics.spidometr",
+  "type": "prerequisites_for",
+  "why": "спидометр показывает мгновенную скорость"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.amplituda-kolebaniy",
+  "type": "prerequisites_for",
+  "why": "амплитуда — наибольшее отклонение при колебаниях"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.mehanicheskoe-dvizhenie",
+  "type": "is_a",
+  "why": "колебания — вид механического движения"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.period-kolebaniy",
+  "type": "prerequisites_for",
+  "why": "период — время одного полного колебания"
+ },
+ {
+  "source": "C.physics.period-kolebaniy",
+  "target": "C.physics.chastota-kolebaniy",
+  "type": "prerequisites_for",
+  "why": "ν = 1 / T"
+ },
+ {
+  "source": "C.physics.matematicheskiy-mayatnik",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "математический маятник — физическая модель"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.matematicheskiy-mayatnik",
+  "type": "prerequisites_for",
+  "why": "маятник — колебательная система"
+ },
+ {
+  "source": "C.physics.materialnaya-tochka",
+  "target": "C.physics.matematicheskiy-mayatnik",
+  "type": "prerequisites_for",
+  "why": "груз маятника — материальная точка на нерастяжимой нити"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.prevraschenie-energii-pri-kolebatelnom-dvizhenii",
+  "type": "prerequisites_for",
+  "why": "энергия превращается при колебаниях"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-mehanicheskoy-energii",
+  "target": "C.physics.prevraschenie-energii-pri-kolebatelnom-dvizhenii",
+  "type": "prerequisites_for",
+  "why": "кинетическая энергия переходит в потенциальную и обратно"
+ },
+ {
+  "source": "C.physics.pruzhinnyy-mayatnik",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "пружинный маятник — физическая модель"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.pruzhinnyy-mayatnik",
+  "type": "prerequisites_for",
+  "why": "маятник — колебательная система"
+ },
+ {
+  "source": "C.physics.sila-uprugosti",
+  "target": "C.physics.pruzhinnyy-mayatnik",
+  "type": "prerequisites_for",
+  "why": "колебания происходят под действием силы упругости пружины"
+ },
+ {
+  "source": "C.physics.vynuzhdennye-kolebaniya",
+  "target": "C.physics.mehanicheskie-kolebaniya",
+  "type": "is_a",
+  "why": "вид механических колебаний"
+ },
+ {
+  "source": "C.physics.zatuhayuschie-kolebaniya",
+  "target": "C.physics.mehanicheskie-kolebaniya",
+  "type": "is_a",
+  "why": "вид механических колебаний"
+ },
+ {
+  "source": "C.physics.sila-treniya",
+  "target": "C.physics.zatuhayuschie-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "колебания затухают из-за трения и сопротивления"
+ },
+ {
+  "source": "C.physics.vynuzhdennye-kolebaniya",
+  "target": "C.physics.rezonans",
+  "type": "prerequisites_for",
+  "why": "резонанс — резкий рост амплитуды вынужденных колебаний"
+ },
+ {
+  "source": "C.physics.chastota-kolebaniy",
+  "target": "C.physics.rezonans",
+  "type": "prerequisites_for",
+  "why": "резонанс наступает при совпадении частот"
+ },
+ {
+  "source": "C.physics.skorost-rasprostraneniya-volny",
+  "target": "C.physics.dlina-volny",
+  "type": "prerequisites_for",
+  "why": "λ = υT"
+ },
+ {
+  "source": "C.physics.period-kolebaniy",
+  "target": "C.physics.dlina-volny",
+  "type": "prerequisites_for",
+  "why": "длина волны — путь волны за один период"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "prerequisites_for",
+  "why": "волна — распространение колебаний в среде"
+ },
+ {
+  "source": "C.physics.vzaimodeystvie-chastits-veschestva",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "prerequisites_for",
+  "why": "колебания передаются благодаря взаимодействию частиц среды"
+ },
+ {
+  "source": "C.physics.mehanicheskie-volny-v-tverdom-tele",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "is_a",
+  "why": "частный случай механических волн"
+ },
+ {
+  "source": "C.physics.tverdoe-telo",
+  "target": "C.physics.mehanicheskie-volny-v-tverdom-tele",
+  "type": "prerequisites_for",
+  "why": "волна распространяется в твёрдом теле"
+ },
+ {
+  "source": "C.physics.poperechnye-volny",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "is_a",
+  "why": "вид механических волн"
+ },
+ {
+  "source": "C.physics.prodolnye-volny",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "is_a",
+  "why": "вид механических волн"
+ },
+ {
+  "source": "C.physics.mehanicheskie-volny",
+  "target": "C.physics.svoystva-mehanicheskih-voln",
+  "type": "prerequisites_for",
+  "why": "рассматриваются свойства механических волн"
+ },
+ {
+  "source": "C.physics.seysmicheskie-volny",
+  "target": "C.physics.mehanicheskie-volny-v-tverdom-tele",
+  "type": "is_a",
+  "why": "сейсмические волны распространяются в земной коре"
+ },
+ {
+  "source": "C.physics.zemletryasenie",
+  "target": "C.physics.seysmicheskie-volny",
+  "type": "prerequisites_for",
+  "why": "землетрясение порождает сейсмические волны"
+ },
+ {
+  "source": "C.physics.mehanicheskie-volny",
+  "target": "C.physics.skorost-rasprostraneniya-volny",
+  "type": "prerequisites_for",
+  "why": "скорость характеризует распространение волны"
+ },
+ {
+  "source": "C.physics.skorost-rasprostraneniya-volny",
+  "target": "C.physics.skorost",
+  "type": "is_a",
+  "why": "частный случай скорости"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.vysota-zvuka",
+  "type": "prerequisites_for",
+  "why": "высота — характеристика звука"
+ },
+ {
+  "source": "C.physics.chastota-kolebaniy",
+  "target": "C.physics.vysota-zvuka",
+  "type": "prerequisites_for",
+  "why": "высота звука определяется частотой колебаний"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.gromkost-zvuka",
+  "type": "prerequisites_for",
+  "why": "громкость — характеристика звука"
+ },
+ {
+  "source": "C.physics.amplituda-kolebaniy",
+  "target": "C.physics.gromkost-zvuka",
+  "type": "prerequisites_for",
+  "why": "громкость определяется амплитудой колебаний"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "is_a",
+  "why": "звук — механическая волна"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.zvukovye-yavleniya",
+  "type": "is_a",
+  "why": "звук — звуковое явление"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.otrazhenie-zvuka",
+  "type": "prerequisites_for",
+  "why": "отражается звуковая волна"
+ },
+ {
+  "source": "C.physics.infrazvuk",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "is_a",
+  "why": "инфразвук — механическая волна"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.infrazvuk",
+  "type": "prerequisites_for",
+  "why": "инфразвук — колебания ниже порога слышимости"
+ },
+ {
+  "source": "C.physics.chastota-kolebaniy",
+  "target": "C.physics.infrazvuk",
+  "type": "prerequisites_for",
+  "why": "инфразвук выделяется по частоте ниже 16 Гц"
+ },
+ {
+  "source": "C.physics.ultrazvuk",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "is_a",
+  "why": "ультразвук — механическая волна"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.ultrazvuk",
+  "type": "prerequisites_for",
+  "why": "ультразвук — колебания выше порога слышимости"
+ },
+ {
+  "source": "C.physics.chastota-kolebaniy",
+  "target": "C.physics.ultrazvuk",
+  "type": "prerequisites_for",
+  "why": "ультразвук выделяется по частоте выше 20 кГц"
+ },
+ {
+  "source": "C.physics.izmerenie-uskoreniya-svobodnogo-padeniya",
+  "target": "C.physics.uskorenie-svobodnogo-padeniya",
+  "type": "verifies",
+  "why": "в работе измеряется g"
+ },
+ {
+  "source": "C.physics.matematicheskiy-mayatnik",
+  "target": "C.physics.izmerenie-uskoreniya-svobodnogo-padeniya",
+  "type": "prerequisites_for",
+  "why": "g находят по периоду колебаний маятника"
+ },
+ {
+  "source": "C.physics.izmerenie-chastoty-i-perioda-kolebaniy-matematicheskogo-mayatnika",
+  "target": "C.physics.period-kolebaniy",
+  "type": "verifies",
+  "why": "измеряется период колебаний"
+ },
+ {
+  "source": "C.physics.izmerenie-chastoty-i-perioda-kolebaniy-matematicheskogo-mayatnika",
+  "target": "C.physics.chastota-kolebaniy",
+  "type": "verifies",
+  "why": "измеряется частота колебаний"
+ },
+ {
+  "source": "C.physics.matematicheskiy-mayatnik",
+  "target": "C.physics.izmerenie-chastoty-i-perioda-kolebaniy-matematicheskogo-mayatnika",
+  "type": "prerequisites_for",
+  "why": "исследуется математический маятник"
+ },
+ {
+  "source": "C.physics.izmerenie-chastoty-i-perioda-kolebaniy-pruzhinnogo-mayatnika",
+  "target": "C.physics.period-kolebaniy",
+  "type": "verifies",
+  "why": "измеряется период колебаний"
+ },
+ {
+  "source": "C.physics.izmerenie-chastoty-i-perioda-kolebaniy-pruzhinnogo-mayatnika",
+  "target": "C.physics.chastota-kolebaniy",
+  "type": "verifies",
+  "why": "измеряется частота колебаний"
+ },
+ {
+  "source": "C.physics.pruzhinnyy-mayatnik",
+  "target": "C.physics.izmerenie-chastoty-i-perioda-kolebaniy-pruzhinnogo-mayatnika",
+  "type": "prerequisites_for",
+  "why": "исследуется пружинный маятник"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-perioda-kolebaniy-nityanogo-mayatnika-ot-dliny-niti",
+  "target": "C.physics.period-kolebaniy",
+  "type": "verifies",
+  "why": "исследуется зависимость периода от длины нити"
+ },
+ {
+  "source": "C.physics.matematicheskiy-mayatnik",
+  "target": "C.physics.issledovanie-zavisimosti-perioda-kolebaniy-nityanogo-mayatnika-ot-dliny-niti",
+  "type": "prerequisites_for",
+  "why": "нитяной маятник — модель математического"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-perioda-kolebaniy-pruzhinnogo-mayatnika-ot-massy-gruza-",
+  "target": "C.physics.period-kolebaniy",
+  "type": "verifies",
+  "why": "исследуется зависимость периода от массы и жёсткости"
+ },
+ {
+  "source": "C.physics.pruzhinnyy-mayatnik",
+  "target": "C.physics.issledovanie-zavisimosti-perioda-kolebaniy-pruzhinnogo-mayatnika-ot-massy-gruza-",
+  "type": "prerequisites_for",
+  "why": "исследуется пружинный маятник"
+ },
+ {
+  "source": "C.physics.issledovanie-nezavisimosti-perioda-kolebaniy-nityanogo-mayatnika-ot-massy-gruza",
+  "target": "C.physics.period-kolebaniy",
+  "type": "verifies",
+  "why": "проверяется, что период не зависит от массы груза"
+ },
+ {
+  "source": "C.physics.matematicheskiy-mayatnik",
+  "target": "C.physics.issledovanie-nezavisimosti-perioda-kolebaniy-nityanogo-mayatnika-ot-massy-gruza",
+  "type": "prerequisites_for",
+  "why": "нитяной маятник — модель математического"
+ },
+ {
+  "source": "C.physics.infrazvuk",
+  "target": "C.physics.vospriyatie-zvukov-zhivotnymi",
+  "type": "prerequisites_for",
+  "why": "некоторые животные слышат инфразвук"
+ },
+ {
+  "source": "C.physics.ultrazvuk",
+  "target": "C.physics.vospriyatie-zvukov-zhivotnymi",
+  "type": "prerequisites_for",
+  "why": "летучие мыши и дельфины воспринимают ультразвук"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.zemletryasenie",
+  "type": "prerequisites_for",
+  "why": "землетрясение — колебания земной коры"
+ },
+ {
+  "source": "C.physics.zemletryasenie",
+  "target": "C.physics.tsunami",
+  "type": "prerequisites_for",
+  "why": "цунами вызываются подводными землетрясениями"
+ },
+ {
+  "source": "C.physics.tsunami",
+  "target": "C.physics.mehanicheskie-volny",
+  "type": "is_a",
+  "why": "цунами — гигантская механическая волна на воде"
+ },
+ {
+  "source": "C.physics.eho",
+  "target": "C.physics.otrazhenie-zvuka",
+  "type": "is_a",
+  "why": "эхо — отражённый от препятствия звук"
+ },
+ {
+  "source": "C.physics.ultrazvuk",
+  "target": "C.physics.ispolzovanie-ultrazvuka-v-bytu-i-tehnike",
+  "type": "prerequisites_for",
+  "why": "используются свойства ультразвука"
+ },
+ {
+  "source": "C.physics.otrazhenie-zvuka",
+  "target": "C.physics.eholot",
+  "type": "prerequisites_for",
+  "why": "глубину находят по времени возврата отражённого сигнала"
+ },
+ {
+  "source": "C.physics.ultrazvuk",
+  "target": "C.physics.eholot",
+  "type": "prerequisites_for",
+  "why": "эхолот посылает ультразвуковые импульсы"
+ },
+ {
+  "source": "C.physics.eholot",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "эхолот — измерительный прибор"
+ },
+ {
+  "source": "C.physics.prevraschenie-energii-pri-kolebatelnom-dvizhenii",
+  "target": "C.physics.prevraschenie-mehanicheskoy-energii",
+  "type": "is_a",
+  "why": "частный случай превращения механической энергии"
+ },
+ {
+  "source": "C.physics.amplituda-kolebaniy",
+  "target": "C.physics.zatuhayuschie-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "у затухающих колебаний уменьшается амплитуда"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.svoystva-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "рассматриваются свойства электромагнитных волн"
+ },
+ {
+  "source": "C.physics.elektricheskoe-pole",
+  "target": "C.physics.elektromagnitnoe-pole",
+  "type": "part_of",
+  "why": "электрическое поле — составляющая электромагнитного поля"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole",
+  "target": "C.physics.elektromagnitnoe-pole",
+  "type": "part_of",
+  "why": "магнитное поле — составляющая электромагнитного поля"
+ },
+ {
+  "source": "C.physics.elektromagnitnaya-induktsiya",
+  "target": "C.physics.elektromagnitnoe-pole",
+  "type": "prerequisites_for",
+  "why": "переменное магнитное поле порождает электрическое"
+ },
+ {
+  "source": "C.physics.elektromagnitnoe-pole",
+  "target": "C.physics.elektromagnitnye-volny",
+  "type": "prerequisites_for",
+  "why": "волна — распространение электромагнитного поля"
+ },
+ {
+  "source": "C.physics.mehanicheskie-volny",
+  "target": "C.physics.elektromagnitnye-volny",
+  "type": "prerequisites_for",
+  "why": "понятия волны, её длины и скорости вводятся на механических волнах"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.shkala-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "шкала упорядочивает виды электромагнитных волн"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.shkala-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "диапазоны шкалы различаются длиной волны"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.volnovye-svoystva-sveta",
+  "type": "prerequisites_for",
+  "why": "рассматриваются волновые свойства света"
+ },
+ {
+  "source": "C.physics.svoystva-elektromagnitnyh-voln",
+  "target": "C.physics.volnovye-svoystva-sveta",
+  "type": "prerequisites_for",
+  "why": "свет проявляет свойства электромагнитных волн"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.elektromagnitnye-volny",
+  "type": "is_a",
+  "why": "свет — электромагнитные волны видимого диапазона"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.shkala-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "видимый свет — участок шкалы электромагнитных волн"
+ },
+ {
+  "source": "C.physics.skorost-sveta",
+  "target": "C.physics.skorost-rasprostraneniya-volny",
+  "type": "is_a",
+  "why": "скорость распространения электромагнитной волны"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.skorost-sveta",
+  "type": "prerequisites_for",
+  "why": "скорость света характеризует распространение света"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.elektromagnitnaya-priroda-sveta",
+  "type": "prerequisites_for",
+  "why": "свет — электромагнитная волна"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.elektromagnitnaya-priroda-sveta",
+  "type": "prerequisites_for",
+  "why": "рассматривается природа света"
+ },
+ {
+  "source": "C.physics.izmerenie-pokazatelya-prelomleniya-stekla",
+  "target": "C.physics.zakon-prelomleniya-sveta",
+  "type": "verifies",
+  "why": "показатель преломления находят по закону преломления"
+ },
+ {
+  "source": "C.physics.izuchenie-svoystv-elektromagnitnyh-voln-s-pomoschyu-mobilnogo-telefona",
+  "target": "C.physics.svoystva-elektromagnitnyh-voln",
+  "type": "verifies",
+  "why": "изучаются свойства электромагнитных волн"
+ },
+ {
+  "source": "C.physics.sotovaya-svyaz",
+  "target": "C.physics.izuchenie-svoystv-elektromagnitnyh-voln-s-pomoschyu-mobilnogo-telefona",
+  "type": "prerequisites_for",
+  "why": "в работе используется мобильная связь",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.issledovanie-izmeneniya-fokusnogo-rasstoyaniya-dvuh-slozhennyh-linz",
+  "target": "C.physics.fokusnoe-rasstoyanie-linzy",
+  "type": "verifies",
+  "why": "исследуется фокусное расстояние системы линз"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.biologicheskoe-deystvie-vidimogo-izlucheniya",
+  "type": "prerequisites_for",
+  "why": "видимое излучение — свет"
+ },
+ {
+  "source": "C.physics.rentgenovskoe-izluchenie",
+  "target": "C.physics.biologicheskoe-deystvie-rentgenovskogo-izlucheniya",
+  "type": "prerequisites_for",
+  "why": "рассматривается действие рентгеновского излучения"
+ },
+ {
+  "source": "C.physics.ultrafioletovoe-izluchenie",
+  "target": "C.physics.biologicheskoe-deystvie-ultrafioletovogo-izlucheniya",
+  "type": "prerequisites_for",
+  "why": "рассматривается действие ультрафиолетового излучения"
+ },
+ {
+  "source": "C.physics.rentgenovskoe-izluchenie",
+  "target": "C.physics.elektromagnitnye-volny",
+  "type": "is_a",
+  "why": "вид электромагнитных волн"
+ },
+ {
+  "source": "C.physics.rentgenovskoe-izluchenie",
+  "target": "C.physics.shkala-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "диапазон шкалы электромагнитных волн"
+ },
+ {
+  "source": "C.physics.ultrafioletovoe-izluchenie",
+  "target": "C.physics.elektromagnitnye-volny",
+  "type": "is_a",
+  "why": "вид электромагнитных волн"
+ },
+ {
+  "source": "C.physics.ultrafioletovoe-izluchenie",
+  "target": "C.physics.shkala-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "диапазон шкалы электромагнитных волн"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.sotovaya-svyaz",
+  "type": "prerequisites_for",
+  "why": "сотовая связь передаёт сигнал электромагнитными волнами"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.istochniki-sveta",
+  "type": "prerequisites_for",
+  "why": "источники испускают свет"
+ },
+ {
+  "source": "C.physics.luchevaya-model-sveta",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "лучевая модель — физическая модель"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.luchevaya-model-sveta",
+  "type": "prerequisites_for",
+  "why": "модель описывает распространение света лучами"
+ },
+ {
+  "source": "C.physics.luchevaya-model-sveta",
+  "target": "C.physics.pryamolineynoe-rasprostranenie-sveta",
+  "type": "prerequisites_for",
+  "why": "закон формулируется через световые лучи"
+ },
+ {
+  "source": "C.physics.otrazhenie-sveta",
+  "target": "C.physics.zakon-otrazheniya-sveta",
+  "type": "prerequisites_for",
+  "why": "закон описывает отражение света"
+ },
+ {
+  "source": "C.physics.luchevaya-model-sveta",
+  "target": "C.physics.zakon-otrazheniya-sveta",
+  "type": "prerequisites_for",
+  "why": "углы падения и отражения отсчитываются для лучей"
+ },
+ {
+  "source": "C.physics.otrazhenie-sveta",
+  "target": "C.physics.svetovye-yavleniya",
+  "type": "is_a",
+  "why": "отражение — световое явление"
+ },
+ {
+  "source": "C.physics.zakon-otrazheniya-sveta",
+  "target": "C.physics.ploskoe-zerkalo",
+  "type": "prerequisites_for",
+  "why": "изображение в зеркале строится по закону отражения"
+ },
+ {
+  "source": "C.physics.prelomlenie-sveta",
+  "target": "C.physics.zakon-prelomleniya-sveta",
+  "type": "prerequisites_for",
+  "why": "закон описывает преломление света"
+ },
+ {
+  "source": "C.physics.luchevaya-model-sveta",
+  "target": "C.physics.zakon-prelomleniya-sveta",
+  "type": "prerequisites_for",
+  "why": "углы падения и преломления отсчитываются для лучей"
+ },
+ {
+  "source": "C.physics.polnoe-vnutrennee-otrazhenie-sveta",
+  "target": "C.physics.otrazhenie-sveta",
+  "type": "is_a",
+  "why": "частный случай отражения света"
+ },
+ {
+  "source": "C.physics.zakon-prelomleniya-sveta",
+  "target": "C.physics.polnoe-vnutrennee-otrazhenie-sveta",
+  "type": "prerequisites_for",
+  "why": "предельный угол находят из закона преломления"
+ },
+ {
+  "source": "C.physics.prelomlenie-sveta",
+  "target": "C.physics.svetovye-yavleniya",
+  "type": "is_a",
+  "why": "преломление — световое явление"
+ },
+ {
+  "source": "C.physics.prelomlenie-sveta",
+  "target": "C.physics.linza",
+  "type": "prerequisites_for",
+  "why": "линза собирает или рассеивает лучи за счёт преломления"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.opticheskaya-sistema",
+  "type": "part_of",
+  "why": "линзы — элементы оптических систем"
+ },
+ {
+  "source": "C.physics.fokusnoe-rasstoyanie-linzy",
+  "target": "C.physics.opticheskaya-sila-linzy",
+  "type": "prerequisites_for",
+  "why": "D = 1 / F"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.fokusnoe-rasstoyanie-linzy",
+  "type": "prerequisites_for",
+  "why": "фокусное расстояние — характеристика линзы"
+ },
+ {
+  "source": "C.physics.fokusnoe-rasstoyanie-linzy",
+  "target": "C.physics.hod-luchey-v-linze",
+  "type": "prerequisites_for",
+  "why": "ход лучей строят с помощью фокусов линзы"
+ },
+ {
+  "source": "C.physics.skorost-sveta",
+  "target": "C.physics.prelomlenie-sveta",
+  "type": "prerequisites_for",
+  "why": "преломление вызвано разной скоростью света в средах"
+ },
+ {
+  "source": "C.physics.mikroskop",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "микроскоп — оптический прибор"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.mikroskop",
+  "type": "prerequisites_for",
+  "why": "объектив и окуляр микроскопа — линзы"
+ },
+ {
+  "source": "C.physics.opticheskiy-pribor",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "оптический прибор — физический прибор"
+ },
+ {
+  "source": "C.physics.opticheskaya-sistema",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "prerequisites_for",
+  "why": "основа оптического прибора — оптическая система"
+ },
+ {
+  "source": "C.physics.teleskop",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "телескоп — оптический прибор"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.teleskop",
+  "type": "prerequisites_for",
+  "why": "объектив телескопа-рефрактора — линза"
+ },
+ {
+  "source": "C.physics.fotoapparat",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "фотоаппарат — оптический прибор"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.fotoapparat",
+  "type": "prerequisites_for",
+  "why": "объектив фотоаппарата — собирающая линза"
+ },
+ {
+  "source": "C.physics.glaz",
+  "target": "C.physics.blizorukost",
+  "type": "prerequisites_for",
+  "why": "близорукость — недостаток зрения глаза"
+ },
+ {
+  "source": "C.physics.glaz",
+  "target": "C.physics.opticheskaya-sistema",
+  "type": "is_a",
+  "why": "глаз — оптическая система"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.glaz",
+  "type": "prerequisites_for",
+  "why": "хрусталик — собирающая линза"
+ },
+ {
+  "source": "C.physics.glaz",
+  "target": "C.physics.dalnozorkost",
+  "type": "prerequisites_for",
+  "why": "дальнозоркость — недостаток зрения глаза"
+ },
+ {
+  "source": "C.physics.belyy-svet",
+  "target": "C.physics.svet",
+  "type": "is_a",
+  "why": "белый свет — свет сложного состава"
+ },
+ {
+  "source": "C.physics.prelomlenie-sveta",
+  "target": "C.physics.dispersiya-sveta",
+  "type": "prerequisites_for",
+  "why": "дисперсия — зависимость преломления от цвета"
+ },
+ {
+  "source": "C.physics.dispersiya-sveta",
+  "target": "C.physics.svetovye-yavleniya",
+  "type": "is_a",
+  "why": "дисперсия — световое явление"
+ },
+ {
+  "source": "C.physics.opyty-nyutona",
+  "target": "C.physics.razlozhenie-belogo-sveta-v-spektr",
+  "type": "verifies",
+  "why": "опыты Ньютона с призмой разложили белый свет"
+ },
+ {
+  "source": "C.physics.opyty-nyutona",
+  "target": "C.physics.slozhenie-spektralnyh-tsvetov",
+  "type": "verifies",
+  "why": "Ньютон снова собрал цвета спектра в белый свет"
+ },
+ {
+  "source": "C.physics.belyy-svet",
+  "target": "C.physics.razlozhenie-belogo-sveta-v-spektr",
+  "type": "prerequisites_for",
+  "why": "разлагается белый свет"
+ },
+ {
+  "source": "C.physics.dispersiya-sveta",
+  "target": "C.physics.razlozhenie-belogo-sveta-v-spektr",
+  "type": "prerequisites_for",
+  "why": "разложение объясняется дисперсией"
+ },
+ {
+  "source": "C.physics.razlozhenie-belogo-sveta-v-spektr",
+  "target": "C.physics.spektr",
+  "type": "prerequisites_for",
+  "why": "спектр получается при разложении белого света"
+ },
+ {
+  "source": "C.physics.spektr",
+  "target": "C.physics.slozhenie-spektralnyh-tsvetov",
+  "type": "prerequisites_for",
+  "why": "складываются цвета спектра"
+ },
+ {
+  "source": "C.physics.izmerenie-opticheskoy-sily-sobirayuschey-linzy",
+  "target": "C.physics.opticheskaya-sila-linzy",
+  "type": "verifies",
+  "why": "в работе измеряется оптическая сила"
+ },
+ {
+  "source": "C.physics.izmerenie-fokusnogo-rasstoyaniya-sobirayuschey-linzy",
+  "target": "C.physics.fokusnoe-rasstoyanie-linzy",
+  "type": "verifies",
+  "why": "в работе измеряется фокусное расстояние"
+ },
+ {
+  "source": "C.physics.izuchenie-harakteristik-izobrazheniya-predmeta-v-ploskom-zerkale",
+  "target": "C.physics.zakon-otrazheniya-sveta",
+  "type": "verifies",
+  "why": "свойства изображения следуют из закона отражения"
+ },
+ {
+  "source": "C.physics.ploskoe-zerkalo",
+  "target": "C.physics.izuchenie-harakteristik-izobrazheniya-predmeta-v-ploskom-zerkale",
+  "type": "prerequisites_for",
+  "why": "изучается изображение в плоском зеркале"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-ugla-otrazheniya-svetovogo-lucha-ot-ugla-padeniya",
+  "target": "C.physics.zakon-otrazheniya-sveta",
+  "type": "verifies",
+  "why": "проверяется равенство углов падения и отражения"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-ugla-prelomleniya-svetovogo-lucha-ot-ugla-padeniya",
+  "target": "C.physics.zakon-prelomleniya-sveta",
+  "type": "verifies",
+  "why": "проверяется закон преломления"
+ },
+ {
+  "source": "C.physics.nablyudenie-tsveta-predmetov-cherez-tsvetovye-filtry",
+  "target": "C.physics.tsvet-tel",
+  "type": "verifies",
+  "why": "показывается, что цвет предмета зависит от падающего света"
+ },
+ {
+  "source": "C.physics.opyty-po-razlozheniyu-belogo-sveta-v-spektr",
+  "target": "C.physics.razlozhenie-belogo-sveta-v-spektr",
+  "type": "verifies",
+  "why": "наблюдается разложение белого света"
+ },
+ {
+  "source": "C.physics.poluchenie-izobrazheniy-s-pomoschyu-sobirayuschey-linzy",
+  "target": "C.physics.hod-luchey-v-linze",
+  "type": "verifies",
+  "why": "изображения получаются по законам хода лучей"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.poluchenie-izobrazheniy-s-pomoschyu-sobirayuschey-linzy",
+  "type": "prerequisites_for",
+  "why": "изображения получают собирающей линзой"
+ },
+ {
+  "source": "C.physics.atmosfernaya-refraktsiya",
+  "target": "C.physics.prelomlenie-sveta",
+  "type": "is_a",
+  "why": "преломление света в атмосфере"
+ },
+ {
+  "source": "C.physics.atmosfernaya-refraktsiya",
+  "target": "C.physics.opticheskie-yavleniya-v-atmosfere",
+  "type": "is_a",
+  "why": "одно из оптических явлений в атмосфере"
+ },
+ {
+  "source": "C.physics.pryamolineynoe-rasprostranenie-sveta",
+  "target": "C.physics.lunnoe-zatmenie",
+  "type": "prerequisites_for",
+  "why": "Луна попадает в тень Земли"
+ },
+ {
+  "source": "C.physics.mirazh",
+  "target": "C.physics.opticheskie-yavleniya-v-atmosfere",
+  "type": "is_a",
+  "why": "одно из оптических явлений в атмосфере"
+ },
+ {
+  "source": "C.physics.prelomlenie-sveta",
+  "target": "C.physics.mirazh",
+  "type": "prerequisites_for",
+  "why": "мираж — преломление света в слоях воздуха разной плотности"
+ },
+ {
+  "source": "C.physics.opticheskie-yavleniya-v-atmosfere",
+  "target": "C.physics.svetovye-yavleniya",
+  "type": "is_a",
+  "why": "световые явления в атмосфере"
+ },
+ {
+  "source": "C.physics.raduga",
+  "target": "C.physics.opticheskie-yavleniya-v-atmosfere",
+  "type": "is_a",
+  "why": "одно из оптических явлений в атмосфере"
+ },
+ {
+  "source": "C.physics.dispersiya-sveta",
+  "target": "C.physics.raduga",
+  "type": "prerequisites_for",
+  "why": "радуга — разложение света в каплях воды"
+ },
+ {
+  "source": "C.physics.pryamolineynoe-rasprostranenie-sveta",
+  "target": "C.physics.solnechnoe-zatmenie",
+  "type": "prerequisites_for",
+  "why": "Луна заслоняет Солнце, на Землю падает тень"
+ },
+ {
+  "source": "C.physics.tsvet-neba",
+  "target": "C.physics.opticheskie-yavleniya-v-atmosfere",
+  "type": "is_a",
+  "why": "одно из оптических явлений в атмосфере"
+ },
+ {
+  "source": "C.physics.belyy-svet",
+  "target": "C.physics.tsvet-neba",
+  "type": "prerequisites_for",
+  "why": "цвет неба создают составляющие белого солнечного света"
+ },
+ {
+  "source": "C.physics.belyy-svet",
+  "target": "C.physics.tsvet-tel",
+  "type": "prerequisites_for",
+  "why": "цвет тела определяется отражаемыми цветами белого света"
+ },
+ {
+  "source": "C.physics.polnoe-vnutrennee-otrazhenie-sveta",
+  "target": "C.physics.opticheskiy-svetovod",
+  "type": "prerequisites_for",
+  "why": "свет идёт по световоду за счёт полного отражения"
+ },
+ {
+  "source": "C.physics.blizorukost",
+  "target": "C.physics.ochki",
+  "type": "prerequisites_for",
+  "why": "очки с рассеивающими линзами исправляют близорукость"
+ },
+ {
+  "source": "C.physics.dalnozorkost",
+  "target": "C.physics.ochki",
+  "type": "prerequisites_for",
+  "why": "очки с собирающими линзами исправляют дальнозоркость"
+ },
+ {
+  "source": "C.physics.ochki",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "очки — простой оптический прибор"
+ },
+ {
+  "source": "C.physics.ploskoe-zerkalo",
+  "target": "C.physics.periskop",
+  "type": "prerequisites_for",
+  "why": "в перископе свет отражается зеркалами"
+ },
+ {
+  "source": "C.physics.periskop",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "перископ — оптический прибор"
+ },
+ {
+  "source": "C.physics.ploskoe-zerkalo",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "плоское зеркало — простейший оптический прибор"
+ },
+ {
+  "source": "C.physics.issledovanie-izmeneniya-fokusnogo-rasstoyaniya-dvuh-slozhennyh-linz",
+  "target": "C.physics.opticheskaya-sila-linzy",
+  "type": "verifies",
+  "why": "оптические силы сложенных линз складываются"
+ },
+ {
+  "source": "C.physics.otrazhenie-sveta",
+  "target": "C.physics.tsvet-tel",
+  "type": "prerequisites_for",
+  "why": "цвет тела определяется отражённым светом"
+ },
+ {
+  "source": "C.physics.alfa-chastitsa",
+  "target": "C.physics.alfa-izluchenie",
+  "type": "part_of",
+  "why": "альфа-излучение — поток альфа-частиц"
+ },
+ {
+  "source": "C.physics.alfa-izluchenie",
+  "target": "C.physics.opyty-rezerforda",
+  "type": "prerequisites_for",
+  "why": "атомы облучали альфа-частицами радиоактивного источника",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.opyty-rezerforda",
+  "target": "C.physics.planetarnaya-model-atoma",
+  "type": "verifies",
+  "why": "рассеяние альфа-частиц доказало существование ядра"
+ },
+ {
+  "source": "C.physics.stroenie-atoma",
+  "target": "C.physics.planetarnaya-model-atoma",
+  "type": "prerequisites_for",
+  "why": "модель описывает строение атома: ядро и электроны"
+ },
+ {
+  "source": "C.physics.planetarnaya-model-atoma",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "планетарная модель — физическая модель атома"
+ },
+ {
+  "source": "C.physics.planetarnaya-model-atoma",
+  "target": "C.physics.model-atoma-bora",
+  "type": "prerequisites_for",
+  "why": "модель Бора дополняет планетарную модель постулатами"
+ },
+ {
+  "source": "C.physics.model-atoma-bora",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "модель Бора — физическая модель атома"
+ },
+ {
+  "source": "C.physics.model-atoma-bora",
+  "target": "C.physics.ispuskanie-sveta-atomom",
+  "type": "prerequisites_for",
+  "why": "атом излучает при переходе между стационарными состояниями"
+ },
+ {
+  "source": "C.physics.kvant",
+  "target": "C.physics.ispuskanie-sveta-atomom",
+  "type": "prerequisites_for",
+  "why": "свет испускается порциями — квантами"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.kvant",
+  "type": "prerequisites_for",
+  "why": "квант — порция энергии света"
+ },
+ {
+  "source": "C.physics.lineychatyy-spektr",
+  "target": "C.physics.spektr",
+  "type": "is_a",
+  "why": "вид спектра"
+ },
+ {
+  "source": "C.physics.ispuskanie-sveta-atomom",
+  "target": "C.physics.lineychatyy-spektr",
+  "type": "prerequisites_for",
+  "why": "линейчатый спектр создают атомы, испускающие свет"
+ },
+ {
+  "source": "C.physics.model-atoma-bora",
+  "target": "C.physics.pogloschenie-sveta-atomom",
+  "type": "prerequisites_for",
+  "why": "атом поглощает свет при переходе на более высокий уровень"
+ },
+ {
+  "source": "C.physics.kvant",
+  "target": "C.physics.pogloschenie-sveta-atomom",
+  "type": "prerequisites_for",
+  "why": "свет поглощается порциями — квантами"
+ },
+ {
+  "source": "C.physics.alfa-izluchenie",
+  "target": "C.physics.radioaktivnost",
+  "type": "is_a",
+  "why": "вид радиоактивного излучения"
+ },
+ {
+  "source": "C.physics.alfa-raspad",
+  "target": "C.physics.radioaktivnye-prevrascheniya",
+  "type": "is_a",
+  "why": "вид радиоактивного превращения ядер"
+ },
+ {
+  "source": "C.physics.alfa-chastitsa",
+  "target": "C.physics.alfa-raspad",
+  "type": "prerequisites_for",
+  "why": "при альфа-распаде ядро испускает альфа-частицу"
+ },
+ {
+  "source": "C.physics.beta-izluchenie",
+  "target": "C.physics.radioaktivnost",
+  "type": "is_a",
+  "why": "вид радиоактивного излучения"
+ },
+ {
+  "source": "C.physics.beta-raspad",
+  "target": "C.physics.radioaktivnye-prevrascheniya",
+  "type": "is_a",
+  "why": "вид радиоактивного превращения ядер"
+ },
+ {
+  "source": "C.physics.beta-izluchenie",
+  "target": "C.physics.beta-raspad",
+  "type": "prerequisites_for",
+  "why": "при бета-распаде ядро испускает бета-частицу"
+ },
+ {
+  "source": "C.physics.gamma-izluchenie",
+  "target": "C.physics.radioaktivnost",
+  "type": "is_a",
+  "why": "вид радиоактивного излучения"
+ },
+ {
+  "source": "C.physics.gamma-izluchenie",
+  "target": "C.physics.elektromagnitnye-volny",
+  "type": "is_a",
+  "why": "гамма-излучение — электромагнитные волны"
+ },
+ {
+  "source": "C.physics.gamma-izluchenie",
+  "target": "C.physics.shkala-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "самый коротковолновый диапазон шкалы"
+ },
+ {
+  "source": "C.physics.stroenie-atoma",
+  "target": "C.physics.radioaktivnost",
+  "type": "prerequisites_for",
+  "why": "радиоактивность говорит о сложном строении атома"
+ },
+ {
+  "source": "C.physics.atomnoe-yadro",
+  "target": "C.physics.atom",
+  "type": "part_of",
+  "why": "ядро — часть атома"
+ },
+ {
+  "source": "C.physics.planetarnaya-model-atoma",
+  "target": "C.physics.atomnoe-yadro",
+  "type": "prerequisites_for",
+  "why": "ядро — центр атома в планетарной модели"
+ },
+ {
+  "source": "C.physics.atomnoe-yadro",
+  "target": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "type": "prerequisites_for",
+  "why": "модель описывает состав ядра из нуклонов"
+ },
+ {
+  "source": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "нуклонная модель — физическая модель ядра"
+ },
+ {
+  "source": "C.physics.zaryadovoe-chislo",
+  "target": "C.physics.izotopy",
+  "type": "prerequisites_for",
+  "why": "у изотопов одинаковое зарядовое число",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.massovoe-chislo",
+  "target": "C.physics.izotopy",
+  "type": "prerequisites_for",
+  "why": "у изотопов разные массовые числа",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.radioaktivnye-prevrascheniya",
+  "target": "C.physics.period-poluraspada",
+  "type": "prerequisites_for",
+  "why": "время, за которое распадается половина ядер"
+ },
+ {
+  "source": "C.physics.radioaktivnost",
+  "target": "C.physics.radioaktivnye-prevrascheniya",
+  "type": "prerequisites_for",
+  "why": "радиоактивность — самопроизвольное превращение ядер"
+ },
+ {
+  "source": "C.physics.atomnoe-yadro",
+  "target": "C.physics.radioaktivnye-prevrascheniya",
+  "type": "prerequisites_for",
+  "why": "превращаются атомные ядра"
+ },
+ {
+  "source": "C.physics.zaryadovoe-chislo",
+  "target": "C.physics.zakon-sohraneniya-zaryadovogo-chisla",
+  "type": "prerequisites_for",
+  "why": "сохраняется сумма зарядовых чисел"
+ },
+ {
+  "source": "C.physics.yadernaya-reaktsiya",
+  "target": "C.physics.zakon-sohraneniya-zaryadovogo-chisla",
+  "type": "prerequisites_for",
+  "why": "закон выполняется в ядерных реакциях"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-elektricheskogo-zaryada",
+  "target": "C.physics.zakon-sohraneniya-zaryadovogo-chisla",
+  "type": "prerequisites_for",
+  "why": "сохранение заряда в ядерных реакциях"
+ },
+ {
+  "source": "C.physics.massovoe-chislo",
+  "target": "C.physics.zakon-sohraneniya-massovogo-chisla",
+  "type": "prerequisites_for",
+  "why": "сохраняется сумма массовых чисел"
+ },
+ {
+  "source": "C.physics.yadernaya-reaktsiya",
+  "target": "C.physics.zakon-sohraneniya-massovogo-chisla",
+  "type": "prerequisites_for",
+  "why": "закон выполняется в ядерных реакциях"
+ },
+ {
+  "source": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "target": "C.physics.zaryadovoe-chislo",
+  "type": "prerequisites_for",
+  "why": "зарядовое число — число протонов в ядре"
+ },
+ {
+  "source": "C.physics.elementarnyy-elektricheskiy-zaryad",
+  "target": "C.physics.zaryadovoe-chislo",
+  "type": "prerequisites_for",
+  "why": "заряд ядра измеряется в элементарных зарядах"
+ },
+ {
+  "source": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "target": "C.physics.massovoe-chislo",
+  "type": "prerequisites_for",
+  "why": "массовое число — число нуклонов в ядре"
+ },
+ {
+  "source": "C.physics.atomnoe-yadro",
+  "target": "C.physics.yadernaya-reaktsiya",
+  "type": "prerequisites_for",
+  "why": "ядерная реакция — превращение атомных ядер"
+ },
+ {
+  "source": "C.physics.massa",
+  "target": "C.physics.svyaz-massy-i-energii",
+  "type": "prerequisites_for",
+  "why": "E = mc²"
+ },
+ {
+  "source": "C.physics.skorost-sveta",
+  "target": "C.physics.svyaz-massy-i-energii",
+  "type": "prerequisites_for",
+  "why": "E = mc²"
+ },
+ {
+  "source": "C.physics.svyaz-massy-i-energii",
+  "target": "C.physics.energiya-svyazi-atomnogo-yadra",
+  "type": "prerequisites_for",
+  "why": "энергию связи находят по дефекту масс"
+ },
+ {
+  "source": "C.physics.atomnoe-yadro",
+  "target": "C.physics.energiya-svyazi-atomnogo-yadra",
+  "type": "prerequisites_for",
+  "why": "энергия нужна, чтобы разделить ядро на нуклоны"
+ },
+ {
+  "source": "C.physics.reaktsiya-sinteza-yader",
+  "target": "C.physics.istochniki-energii-solntsa-i-zvezd",
+  "type": "prerequisites_for",
+  "why": "звёзды светят за счёт термоядерного синтеза"
+ },
+ {
+  "source": "C.physics.reaktsiya-deleniya-yader",
+  "target": "C.physics.yadernaya-reaktsiya",
+  "type": "is_a",
+  "why": "вид ядерной реакции"
+ },
+ {
+  "source": "C.physics.energiya-svyazi-atomnogo-yadra",
+  "target": "C.physics.reaktsiya-deleniya-yader",
+  "type": "prerequisites_for",
+  "why": "энергия выделяется из-за разницы энергий связи"
+ },
+ {
+  "source": "C.physics.reaktsiya-sinteza-yader",
+  "target": "C.physics.yadernaya-reaktsiya",
+  "type": "is_a",
+  "why": "вид ядерной реакции"
+ },
+ {
+  "source": "C.physics.energiya-svyazi-atomnogo-yadra",
+  "target": "C.physics.reaktsiya-sinteza-yader",
+  "type": "prerequisites_for",
+  "why": "энергия выделяется из-за разницы энергий связи"
+ },
+ {
+  "source": "C.physics.reaktsiya-deleniya-yader",
+  "target": "C.physics.yadernaya-energetika",
+  "type": "prerequisites_for",
+  "why": "АЭС используют энергию деления ядер урана"
+ },
+ {
+  "source": "C.physics.elektrostantsiya",
+  "target": "C.physics.yadernaya-energetika",
+  "type": "prerequisites_for",
+  "why": "атомная электростанция — вид электростанции"
+ },
+ {
+  "source": "C.physics.izmerenie-radioaktivnogo-fona",
+  "target": "C.physics.estestvennyy-radioaktivnyy-fon",
+  "type": "verifies",
+  "why": "в работе измеряется радиоактивный фон"
+ },
+ {
+  "source": "C.physics.dozimetr",
+  "target": "C.physics.izmerenie-radioaktivnogo-fona",
+  "type": "prerequisites_for",
+  "why": "фон измеряют дозиметром",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.kamera-vilsona",
+  "target": "C.physics.issledovanie-trekov-chastits-po-fotografiyam",
+  "type": "prerequisites_for",
+  "why": "треки частиц получены в камере Вильсона",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.issledovanie-trekov-chastits-po-fotografiyam",
+  "target": "C.physics.kineticheskaya-energiya",
+  "type": "verifies",
+  "why": "по тормозному пути оценивают энергию частицы"
+ },
+ {
+  "source": "C.physics.nablyudenie-sploshnyh-i-lineychatyh-spektrov-izlucheniya",
+  "target": "C.physics.lineychatyy-spektr",
+  "type": "verifies",
+  "why": "наблюдаются линейчатые спектры"
+ },
+ {
+  "source": "C.physics.spektroskop",
+  "target": "C.physics.nablyudenie-sploshnyh-i-lineychatyh-spektrov-izlucheniya",
+  "type": "prerequisites_for",
+  "why": "спектры наблюдают спектроскопом",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.radioaktivnost",
+  "target": "C.physics.deystvie-radioaktivnyh-izlucheniy-na-organizm-cheloveka",
+  "type": "prerequisites_for",
+  "why": "рассматривается действие радиоактивных излучений"
+ },
+ {
+  "source": "C.physics.radioaktivnost",
+  "target": "C.physics.estestvennyy-radioaktivnyy-fon",
+  "type": "prerequisites_for",
+  "why": "фон создают радиоактивные излучения природных источников"
+ },
+ {
+  "source": "C.physics.kosmicheskie-luchi",
+  "target": "C.physics.estestvennyy-radioaktivnyy-fon",
+  "type": "part_of",
+  "why": "космические лучи — составляющая естественного фона"
+ },
+ {
+  "source": "C.physics.radioaktivnoe-izluchenie-prirodnyh-mineralov",
+  "target": "C.physics.estestvennyy-radioaktivnyy-fon",
+  "type": "part_of",
+  "why": "излучение минералов — составляющая естественного фона"
+ },
+ {
+  "source": "C.physics.radioaktivnost",
+  "target": "C.physics.radioaktivnoe-izluchenie-prirodnyh-mineralov",
+  "type": "prerequisites_for",
+  "why": "минералы содержат радиоактивные элементы"
+ },
+ {
+  "source": "C.physics.dozimetr",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "дозиметр — измерительный прибор"
+ },
+ {
+  "source": "C.physics.radioaktivnost",
+  "target": "C.physics.dozimetr",
+  "type": "prerequisites_for",
+  "why": "дозиметр измеряет радиоактивное излучение"
+ },
+ {
+  "source": "C.physics.kamera-vilsona",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "камера Вильсона — прибор для регистрации частиц"
+ },
+ {
+  "source": "C.physics.kondensatsiya",
+  "target": "C.physics.kamera-vilsona",
+  "type": "prerequisites_for",
+  "why": "трек — капли пара, сконденсировавшиеся на ионах"
+ },
+ {
+  "source": "C.physics.spektroskop",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "спектроскоп — оптический прибор"
+ },
+ {
+  "source": "C.physics.spektr",
+  "target": "C.physics.spektroskop",
+  "type": "prerequisites_for",
+  "why": "спектроскоп служит для наблюдения спектров"
+ },
+ {
+  "source": "C.physics.alfa-chastitsa",
+  "target": "C.physics.atomnoe-yadro",
+  "type": "is_a",
+  "why": "альфа-частица — ядро атома гелия"
+ },
+ {
+  "source": "C.physics.alfa-chastitsa",
+  "target": "C.physics.opyty-rezerforda",
+  "type": "prerequisites_for",
+  "why": "атомы обстреливали альфа-частицами"
+ },
+ {
+  "source": "C.physics.yadernaya-energetika",
+  "target": "C.physics.poluchenie-elektricheskoy-energii",
+  "type": "is_a",
+  "why": "один из способов получения электроэнергии"
+ }
+]

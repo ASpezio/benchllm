@@ -1,0 +1,2284 @@
+[
+ {
+  "source": "C.physics.deystvie-magnitnogo-polya-na-provodnik-s-tokom",
+  "target": "C.physics.magnitnaya-induktsiya",
+  "type": "prerequisites_for",
+  "why": "индукцию определяют по силе, действующей на проводник с током"
+ },
+ {
+  "source": "C.physics.magnitnaya-induktsiya",
+  "target": "C.physics.vektornaya-fizicheskaya-velichina",
+  "type": "is_a",
+  "why": "магнитная индукция — векторная величина"
+ },
+ {
+  "source": "C.physics.magnitnaya-induktsiya",
+  "target": "C.physics.linii-magnitnoy-induktsii",
+  "type": "prerequisites_for",
+  "why": "касательные к линиям направлены по вектору индукции"
+ },
+ {
+  "source": "C.physics.linii-magnitnoy-induktsii",
+  "target": "C.physics.magnitnoe-pole-postoyannogo-magnita",
+  "type": "prerequisites_for",
+  "why": "поле магнита изображают картиной линий индукции"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-postoyannogo-magnita",
+  "target": "C.physics.magnitnoe-pole",
+  "type": "is_a",
+  "why": "частный случай магнитного поля"
+ },
+ {
+  "source": "C.physics.magnitnaya-induktsiya",
+  "target": "C.physics.printsip-superpozitsii-magnitnyh-poley",
+  "type": "prerequisites_for",
+  "why": "векторы индукции полей складываются"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-pryamogo-provodnika-s-tokom",
+  "target": "C.physics.magnitnoe-pole-elektricheskogo-toka",
+  "type": "is_a",
+  "why": "поле тока в прямом проводнике"
+ },
+ {
+  "source": "C.physics.linii-magnitnoy-induktsii",
+  "target": "C.physics.magnitnoe-pole-pryamogo-provodnika-s-tokom",
+  "type": "prerequisites_for",
+  "why": "поле изображают картиной линий индукции"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-krugovogo-toka",
+  "target": "C.physics.magnitnoe-pole-elektricheskogo-toka",
+  "type": "is_a",
+  "why": "поле тока в кольцевом проводнике"
+ },
+ {
+  "source": "C.physics.linii-magnitnoy-induktsii",
+  "target": "C.physics.magnitnoe-pole-krugovogo-toka",
+  "type": "prerequisites_for",
+  "why": "поле изображают картиной линий индукции"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-katushki-s-tokom",
+  "target": "C.physics.magnitnoe-pole-elektricheskogo-toka",
+  "type": "is_a",
+  "why": "поле тока в катушке"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-krugovogo-toka",
+  "target": "C.physics.magnitnoe-pole-katushki-s-tokom",
+  "type": "prerequisites_for",
+  "why": "поле катушки складывается из полей её витков"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-pryamogo-provodnika-s-tokom",
+  "target": "C.physics.vzaimodeystvie-provodnikov-s-tokom",
+  "type": "prerequisites_for",
+  "why": "каждый проводник находится в поле другого"
+ },
+ {
+  "source": "C.physics.sila-ampera",
+  "target": "C.physics.vzaimodeystvie-provodnikov-s-tokom",
+  "type": "prerequisites_for",
+  "why": "проводники действуют друг на друга силами Ампера",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.sila-ampera",
+  "target": "C.physics.sila",
+  "type": "is_a",
+  "why": "сила, действующая на проводник с током в магнитном поле"
+ },
+ {
+  "source": "C.physics.magnitnaya-induktsiya",
+  "target": "C.physics.sila-ampera",
+  "type": "prerequisites_for",
+  "why": "сила Ампера пропорциональна индукции поля"
+ },
+ {
+  "source": "C.physics.sila-toka",
+  "target": "C.physics.sila-ampera",
+  "type": "prerequisites_for",
+  "why": "сила Ампера пропорциональна силе тока"
+ },
+ {
+  "source": "C.physics.sila-lorentsa",
+  "target": "C.physics.sila",
+  "type": "is_a",
+  "why": "сила, действующая на движущийся заряд в магнитном поле"
+ },
+ {
+  "source": "C.physics.sila-ampera",
+  "target": "C.physics.sila-lorentsa",
+  "type": "prerequisites_for",
+  "why": "сила Лоренца — сила Ампера, приходящаяся на одну частицу"
+ },
+ {
+  "source": "C.physics.magnitnaya-induktsiya",
+  "target": "C.physics.odnorodnoe-magnitnoe-pole",
+  "type": "prerequisites_for",
+  "why": "в однородном поле индукция одинакова во всех точках"
+ },
+ {
+  "source": "C.physics.odnorodnoe-magnitnoe-pole",
+  "target": "C.physics.magnitnoe-pole",
+  "type": "is_a",
+  "why": "частный случай магнитного поля"
+ },
+ {
+  "source": "C.physics.sila-lorentsa",
+  "target": "C.physics.dvizhenie-zaryazhennoy-chastitsy-v-odnorodnom-magnitnom-pole",
+  "type": "prerequisites_for",
+  "why": "сила Лоренца искривляет траекторию частицы"
+ },
+ {
+  "source": "C.physics.odnorodnoe-magnitnoe-pole",
+  "target": "C.physics.dvizhenie-zaryazhennoy-chastitsy-v-odnorodnom-magnitnom-pole",
+  "type": "prerequisites_for",
+  "why": "движение рассматривают в однородном поле"
+ },
+ {
+  "source": "C.physics.ravnomernoe-dvizhenie-po-okruzhnosti",
+  "target": "C.physics.dvizhenie-zaryazhennoy-chastitsy-v-odnorodnom-magnitnom-pole",
+  "type": "prerequisites_for",
+  "why": "частица движется по окружности"
+ },
+ {
+  "source": "C.physics.sila-lorentsa",
+  "target": "C.physics.rabota-sily-lorentsa",
+  "type": "prerequisites_for",
+  "why": "работа силы Лоренца"
+ },
+ {
+  "source": "C.physics.rabota-sily-lorentsa",
+  "target": "C.physics.mehanicheskaya-rabota",
+  "type": "is_a",
+  "why": "работа силы; она равна нулю"
+ },
+ {
+  "source": "C.physics.magnitnaya-induktsiya",
+  "target": "C.physics.magnitnyy-potok",
+  "type": "prerequisites_for",
+  "why": "поток — произведение индукции на площадь контура"
+ },
+ {
+  "source": "C.physics.elektromagnitnaya-induktsiya",
+  "target": "C.physics.eds-induktsii",
+  "type": "prerequisites_for",
+  "why": "ЭДС, возникающая при электромагнитной индукции"
+ },
+ {
+  "source": "C.physics.eds-induktsii",
+  "target": "C.physics.elektrodvizhuschaya-sila",
+  "type": "is_a",
+  "why": "ЭДС индукции — вид ЭДС"
+ },
+ {
+  "source": "C.physics.magnitnyy-potok",
+  "target": "C.physics.zakon-elektromagnitnoy-induktsii",
+  "type": "prerequisites_for",
+  "why": "ЭДС индукции равна скорости изменения магнитного потока"
+ },
+ {
+  "source": "C.physics.eds-induktsii",
+  "target": "C.physics.zakon-elektromagnitnoy-induktsii",
+  "type": "prerequisites_for",
+  "why": "закон выражает ЭДС индукции"
+ },
+ {
+  "source": "C.physics.pravilo-lentsa",
+  "target": "C.physics.zakon-elektromagnitnoy-induktsii",
+  "type": "prerequisites_for",
+  "why": "знак минус в законе выражает правило Ленца"
+ },
+ {
+  "source": "C.physics.vihrevoe-elektricheskoe-pole",
+  "target": "C.physics.elektricheskoe-pole",
+  "type": "is_a",
+  "why": "электрическое поле с замкнутыми линиями"
+ },
+ {
+  "source": "C.physics.elektromagnitnaya-induktsiya",
+  "target": "C.physics.vihrevoe-elektricheskoe-pole",
+  "type": "prerequisites_for",
+  "why": "изменяющееся магнитное поле порождает вихревое электрическое поле"
+ },
+ {
+  "source": "C.physics.eds-induktsii-v-dvizhuschemsya-provodnike",
+  "target": "C.physics.eds-induktsii",
+  "type": "is_a",
+  "why": "частный случай ЭДС индукции"
+ },
+ {
+  "source": "C.physics.sila-lorentsa",
+  "target": "C.physics.eds-induktsii-v-dvizhuschemsya-provodnike",
+  "type": "prerequisites_for",
+  "why": "на заряды в движущемся проводнике действует сила Лоренца"
+ },
+ {
+  "source": "C.physics.magnitnyy-potok",
+  "target": "C.physics.induktivnost",
+  "type": "prerequisites_for",
+  "why": "индуктивность — отношение потока к силе тока"
+ },
+ {
+  "source": "C.physics.sila-toka",
+  "target": "C.physics.induktivnost",
+  "type": "prerequisites_for",
+  "why": "L = Φ/I"
+ },
+ {
+  "source": "C.physics.samoinduktsiya",
+  "target": "C.physics.elektromagnitnaya-induktsiya",
+  "type": "is_a",
+  "why": "индукция в контуре при изменении его собственного тока"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-elektricheskogo-toka",
+  "target": "C.physics.samoinduktsiya",
+  "type": "prerequisites_for",
+  "why": "ток создаёт магнитное поле, пронизывающее сам контур"
+ },
+ {
+  "source": "C.physics.eds-samoinduktsii",
+  "target": "C.physics.eds-induktsii",
+  "type": "is_a",
+  "why": "ЭДС индукции при самоиндукции"
+ },
+ {
+  "source": "C.physics.induktivnost",
+  "target": "C.physics.eds-samoinduktsii",
+  "type": "prerequisites_for",
+  "why": "ЭДС самоиндукции пропорциональна индуктивности"
+ },
+ {
+  "source": "C.physics.samoinduktsiya",
+  "target": "C.physics.eds-samoinduktsii",
+  "type": "prerequisites_for",
+  "why": "ЭДС возникает при самоиндукции"
+ },
+ {
+  "source": "C.physics.induktivnost",
+  "target": "C.physics.energiya-magnitnogo-polya-katushki-s-tokom",
+  "type": "prerequisites_for",
+  "why": "W = LI²/2"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-katushki-s-tokom",
+  "target": "C.physics.energiya-magnitnogo-polya-katushki-s-tokom",
+  "type": "prerequisites_for",
+  "why": "энергия запасена в магнитном поле катушки"
+ },
+ {
+  "source": "C.physics.elektromagnitnaya-induktsiya",
+  "target": "C.physics.induktsionnaya-pech",
+  "type": "prerequisites_for",
+  "why": "индукционные токи нагревают металл"
+ },
+ {
+  "source": "C.physics.sila-lorentsa",
+  "target": "C.physics.uskoritel-elementarnyh-chastits",
+  "type": "prerequisites_for",
+  "why": "магнитное поле удерживает частицы на орбите"
+ },
+ {
+  "source": "C.physics.deystvie-elektricheskogo-polya-na-elektricheskie-zaryady",
+  "target": "C.physics.uskoritel-elementarnyh-chastits",
+  "type": "prerequisites_for",
+  "why": "электрическое поле разгоняет частицы"
+ },
+ {
+  "source": "C.physics.sila-ampera",
+  "target": "C.physics.elektrodvigatel",
+  "type": "prerequisites_for",
+  "why": "ротор вращают силы Ампера"
+ },
+ {
+  "source": "C.physics.elektrodvigatel-postoyannogo-toka",
+  "target": "C.physics.elektrodvigatel",
+  "type": "is_a",
+  "why": "вид электродвигателя"
+ },
+ {
+  "source": "C.physics.izuchenie-magnitnogo-polya-katushki-s-tokom",
+  "target": "C.physics.magnitnoe-pole-katushki-s-tokom",
+  "type": "verifies",
+  "why": "в работе изучают поле катушки"
+ },
+ {
+  "source": "C.physics.issledovanie-deystviya-postoyannogo-magnita-na-ramku-s-tokom",
+  "target": "C.physics.deystvie-magnitnogo-polya-na-provodnik-s-tokom",
+  "type": "verifies",
+  "why": "магнит поворачивает рамку с током"
+ },
+ {
+  "source": "C.physics.issledovanie-deystviya-postoyannogo-magnita-na-ramku-s-tokom",
+  "target": "C.physics.sila-ampera",
+  "type": "verifies",
+  "why": "на стороны рамки действуют силы Ампера"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.kolebatelnaya-sistema",
+  "type": "prerequisites_for",
+  "why": "колебательная система — система, в которой возможны колебания"
+ },
+ {
+  "source": "C.physics.matematicheskiy-mayatnik",
+  "target": "C.physics.kolebatelnaya-sistema",
+  "type": "is_a",
+  "why": "маятник — колебательная система"
+ },
+ {
+  "source": "C.physics.pruzhinnyy-mayatnik",
+  "target": "C.physics.kolebatelnaya-sistema",
+  "type": "is_a",
+  "why": "маятник — колебательная система"
+ },
+ {
+  "source": "C.physics.kolebatelnyy-kontur",
+  "target": "C.physics.kolebatelnaya-sistema",
+  "type": "is_a",
+  "why": "контур — электрическая колебательная система"
+ },
+ {
+  "source": "C.physics.kolebatelnaya-sistema",
+  "target": "C.physics.svobodnye-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "свободные колебания совершает выведенная из равновесия система"
+ },
+ {
+  "source": "C.physics.svobodnye-kolebaniya",
+  "target": "C.physics.mehanicheskie-kolebaniya",
+  "type": "is_a",
+  "why": "колебания без внешнего воздействия"
+ },
+ {
+  "source": "C.physics.garmonicheskie-kolebaniya",
+  "target": "C.physics.mehanicheskie-kolebaniya",
+  "type": "is_a",
+  "why": "колебания по закону синуса или косинуса"
+ },
+ {
+  "source": "C.physics.amplituda-kolebaniy",
+  "target": "C.physics.garmonicheskie-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "гармоническое колебание задаётся амплитудой"
+ },
+ {
+  "source": "C.physics.faza-kolebaniy",
+  "target": "C.physics.garmonicheskie-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "гармоническое колебание задаётся фазой"
+ },
+ {
+  "source": "C.physics.chastota-kolebaniy",
+  "target": "C.physics.garmonicheskie-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "гармоническое колебание задаётся частотой"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.faza-kolebaniy",
+  "type": "prerequisites_for",
+  "why": "фаза определяет состояние колеблющейся системы"
+ },
+ {
+  "source": "C.physics.koordinata",
+  "target": "C.physics.smeschenie-iz-polozheniya-ravnovesiya",
+  "type": "prerequisites_for",
+  "why": "смещение — координата тела относительно положения равновесия"
+ },
+ {
+  "source": "C.physics.garmonicheskie-kolebaniya",
+  "target": "C.physics.uravnenie-garmonicheskih-kolebaniy",
+  "type": "prerequisites_for",
+  "why": "уравнение описывает гармонические колебания"
+ },
+ {
+  "source": "C.physics.smeschenie-iz-polozheniya-ravnovesiya",
+  "target": "C.physics.uravnenie-garmonicheskih-kolebaniy",
+  "type": "prerequisites_for",
+  "why": "уравнение задаёт смещение как функцию времени"
+ },
+ {
+  "source": "C.physics.uravnenie-garmonicheskih-kolebaniy",
+  "target": "C.physics.svyaz-amplitud-kolebaniy-velichiny-ee-skorosti-i-uskoreniya",
+  "type": "prerequisites_for",
+  "why": "амплитуды скорости и ускорения получают из уравнения колебаний"
+ },
+ {
+  "source": "C.physics.avtokolebaniya",
+  "target": "C.physics.mehanicheskie-kolebaniya",
+  "type": "is_a",
+  "why": "незатухающие колебания за счёт внутреннего источника энергии"
+ },
+ {
+  "source": "C.physics.zatuhayuschie-kolebaniya",
+  "target": "C.physics.avtokolebaniya",
+  "type": "prerequisites_for",
+  "why": "автоколебательная система восполняет потери энергии"
+ },
+ {
+  "source": "C.physics.rezonans",
+  "target": "C.physics.rezonansnaya-krivaya",
+  "type": "prerequisites_for",
+  "why": "кривая показывает резонанс амплитуды"
+ },
+ {
+  "source": "C.physics.amplituda-kolebaniy",
+  "target": "C.physics.rezonansnaya-krivaya",
+  "type": "prerequisites_for",
+  "why": "кривая — зависимость амплитуды от частоты"
+ },
+ {
+  "source": "C.physics.idealnyy-kolebatelnyy-kontur",
+  "target": "C.physics.kolebatelnyy-kontur",
+  "type": "is_a",
+  "why": "контур без сопротивления"
+ },
+ {
+  "source": "C.physics.idealnyy-kolebatelnyy-kontur",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "идеализация реального контура"
+ },
+ {
+  "source": "C.physics.kondensator",
+  "target": "C.physics.kolebatelnyy-kontur",
+  "type": "prerequisites_for",
+  "why": "контур состоит из конденсатора и катушки"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole-katushki-s-tokom",
+  "target": "C.physics.kolebatelnyy-kontur",
+  "type": "prerequisites_for",
+  "why": "в контуре энергия запасается в поле катушки"
+ },
+ {
+  "source": "C.physics.kolebatelnyy-kontur",
+  "target": "C.physics.svobodnye-elektromagnitnye-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "свободные колебания заряда и тока в контуре"
+ },
+ {
+  "source": "C.physics.mehanicheskie-kolebaniya",
+  "target": "C.physics.analogiya-mezhdu-mehanicheskimi-i-elektromagnitnymi-kolebaniyami",
+  "type": "prerequisites_for",
+  "why": "сравниваются механические колебания"
+ },
+ {
+  "source": "C.physics.svobodnye-elektromagnitnye-kolebaniya",
+  "target": "C.physics.analogiya-mezhdu-mehanicheskimi-i-elektromagnitnymi-kolebaniyami",
+  "type": "prerequisites_for",
+  "why": "сравниваются электромагнитные колебания"
+ },
+ {
+  "source": "C.physics.svobodnye-elektromagnitnye-kolebaniya",
+  "target": "C.physics.formula-tomsona",
+  "type": "prerequisites_for",
+  "why": "формула даёт период свободных колебаний в контуре"
+ },
+ {
+  "source": "C.physics.elektroemkost",
+  "target": "C.physics.formula-tomsona",
+  "type": "prerequisites_for",
+  "why": "период зависит от ёмкости конденсатора"
+ },
+ {
+  "source": "C.physics.induktivnost",
+  "target": "C.physics.formula-tomsona",
+  "type": "prerequisites_for",
+  "why": "период зависит от индуктивности катушки"
+ },
+ {
+  "source": "C.physics.svobodnye-elektromagnitnye-kolebaniya",
+  "target": "C.physics.svyaz-amplitud-zaryada-i-sily-toka-v-kolebatelnom-konture",
+  "type": "prerequisites_for",
+  "why": "связь амплитуд при свободных колебаниях"
+ },
+ {
+  "source": "C.physics.svyaz-amplitud-kolebaniy-velichiny-ee-skorosti-i-uskoreniya",
+  "target": "C.physics.svyaz-amplitud-zaryada-i-sily-toka-v-kolebatelnom-konture",
+  "type": "prerequisites_for",
+  "why": "сила тока — скорость изменения заряда"
+ },
+ {
+  "source": "C.physics.energiya-zaryazhennogo-kondensatora",
+  "target": "C.physics.zakon-sohraneniya-energii-v-kolebatelnom-konture",
+  "type": "prerequisites_for",
+  "why": "энергия конденсатора переходит в энергию катушки"
+ },
+ {
+  "source": "C.physics.energiya-magnitnogo-polya-katushki-s-tokom",
+  "target": "C.physics.zakon-sohraneniya-energii-v-kolebatelnom-konture",
+  "type": "prerequisites_for",
+  "why": "энергия катушки переходит в энергию конденсатора"
+ },
+ {
+  "source": "C.physics.idealnyy-kolebatelnyy-kontur",
+  "target": "C.physics.zakon-sohraneniya-energii-v-kolebatelnom-konture",
+  "type": "prerequisites_for",
+  "why": "в идеальном контуре нет потерь энергии"
+ },
+ {
+  "source": "C.physics.zakon-sohraneniya-energii-v-kolebatelnom-konture",
+  "target": "C.physics.zakon-sohraneniya-i-prevrascheniya-energii",
+  "type": "is_a",
+  "why": "частный случай закона сохранения энергии"
+ },
+ {
+  "source": "C.physics.kolebatelnyy-kontur",
+  "target": "C.physics.vynuzhdennye-elektromagnitnye-kolebaniya",
+  "type": "prerequisites_for",
+  "why": "вынужденные колебания в контуре под действием переменной ЭДС"
+ },
+ {
+  "source": "C.physics.vynuzhdennye-elektromagnitnye-kolebaniya",
+  "target": "C.physics.rezonans",
+  "type": "prerequisites_for",
+  "why": "резонанс в контуре при совпадении частот"
+ },
+ {
+  "source": "C.physics.peremennyy-tok",
+  "target": "C.physics.vynuzhdennye-elektromagnitnye-kolebaniya",
+  "type": "is_a",
+  "why": "переменный ток — вынужденные электромагнитные колебания"
+ },
+ {
+  "source": "C.physics.peremennyy-tok",
+  "target": "C.physics.elektricheskiy-tok",
+  "type": "is_a",
+  "why": "ток, периодически меняющийся во времени"
+ },
+ {
+  "source": "C.physics.elektromagnitnaya-induktsiya",
+  "target": "C.physics.peremennyy-tok",
+  "type": "prerequisites_for",
+  "why": "переменный ток получают за счёт электромагнитной индукции"
+ },
+ {
+  "source": "C.physics.sinusoidalnyy-peremennyy-tok",
+  "target": "C.physics.peremennyy-tok",
+  "type": "is_a",
+  "why": "переменный ток, меняющийся по синусоиде"
+ },
+ {
+  "source": "C.physics.garmonicheskie-kolebaniya",
+  "target": "C.physics.sinusoidalnyy-peremennyy-tok",
+  "type": "prerequisites_for",
+  "why": "сила тока меняется по гармоническому закону"
+ },
+ {
+  "source": "C.physics.sinusoidalnyy-peremennyy-tok",
+  "target": "C.physics.amplitudnoe-znachenie-sily-toka-i-napryazheniya",
+  "type": "prerequisites_for",
+  "why": "амплитуда синусоидального тока и напряжения"
+ },
+ {
+  "source": "C.physics.amplitudnoe-znachenie-sily-toka-i-napryazheniya",
+  "target": "C.physics.deystvuyuschee-znachenie-sily-toka-i-napryazheniya",
+  "type": "prerequisites_for",
+  "why": "действующее значение в √2 раз меньше амплитудного"
+ },
+ {
+  "source": "C.physics.zakon-dzhoulya-lentsa",
+  "target": "C.physics.deystvuyuschee-znachenie-sily-toka-i-napryazheniya",
+  "type": "prerequisites_for",
+  "why": "действующее значение определяют по тепловому действию тока"
+ },
+ {
+  "source": "C.physics.deystvuyuschee-znachenie-sily-toka-i-napryazheniya",
+  "target": "C.physics.moschnost-peremennogo-toka",
+  "type": "prerequisites_for",
+  "why": "мощность выражается через действующие значения"
+ },
+ {
+  "source": "C.physics.moschnost-peremennogo-toka",
+  "target": "C.physics.moschnost-elektricheskogo-toka",
+  "type": "is_a",
+  "why": "мощность в цепи переменного тока"
+ },
+ {
+  "source": "C.physics.peremennyy-tok",
+  "target": "C.physics.transformator",
+  "type": "prerequisites_for",
+  "why": "трансформатор преобразует переменное напряжение"
+ },
+ {
+  "source": "C.physics.poluchenie-elektricheskoy-energii",
+  "target": "C.physics.peredacha-elektricheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "энергию передают от электростанций к потребителям"
+ },
+ {
+  "source": "C.physics.transformator",
+  "target": "C.physics.peredacha-elektricheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "для передачи напряжение повышают трансформатором"
+ },
+ {
+  "source": "C.physics.zakon-dzhoulya-lentsa",
+  "target": "C.physics.peredacha-elektricheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "потери в проводах идут на нагревание"
+ },
+ {
+  "source": "C.physics.peredacha-elektricheskoy-energii",
+  "target": "C.physics.potreblenie-elektricheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "энергия доходит до потребителей"
+ },
+ {
+  "source": "C.physics.potrebiteli-elektricheskoy-energii",
+  "target": "C.physics.potreblenie-elektricheskoy-energii",
+  "type": "prerequisites_for",
+  "why": "энергию потребляют электроприборы"
+ },
+ {
+  "source": "C.physics.peredacha-elektricheskoy-energii",
+  "target": "C.physics.liniya-elektroperedachi",
+  "type": "prerequisites_for",
+  "why": "ЛЭП передают энергию на расстояние"
+ },
+ {
+  "source": "C.physics.seysmicheskie-volny",
+  "target": "C.physics.seysmograf",
+  "type": "prerequisites_for",
+  "why": "сейсмограф регистрирует сейсмические волны"
+ },
+ {
+  "source": "C.physics.elektromagnit",
+  "target": "C.physics.elektricheskiy-zvonok",
+  "type": "prerequisites_for",
+  "why": "молоточек притягивается электромагнитом"
+ },
+ {
+  "source": "C.physics.avtokolebaniya",
+  "target": "C.physics.elektricheskiy-zvonok",
+  "type": "prerequisites_for",
+  "why": "звонок — автоколебательная система"
+ },
+ {
+  "source": "C.physics.issledovanie-zavisimosti-perioda-malyh-kolebaniy-gruza-na-niti-ot-dliny-niti-i-m",
+  "target": "C.physics.period-kolebaniy",
+  "type": "verifies",
+  "why": "измеряют период при разной длине нити и массе груза"
+ },
+ {
+  "source": "C.physics.matematicheskiy-mayatnik",
+  "target": "C.physics.issledovanie-zavisimosti-perioda-malyh-kolebaniy-gruza-na-niti-ot-dliny-niti-i-m",
+  "type": "prerequisites_for",
+  "why": "груз на нити — математический маятник"
+ },
+ {
+  "source": "C.physics.issledovanie-peremennogo-toka-v-tsepi-iz-posledovatelno-soedinennyh-kondensatora",
+  "target": "C.physics.peremennyy-tok",
+  "type": "verifies",
+  "why": "в работе исследуют переменный ток в цепи"
+ },
+ {
+  "source": "C.physics.mehanicheskie-volny",
+  "target": "C.physics.usloviya-rasprostraneniya-mehanicheskih-voln",
+  "type": "prerequisites_for",
+  "why": "механическая волна распространяется только в упругой среде"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.interferentsiya-voln",
+  "type": "prerequisites_for",
+  "why": "результат сложения волн зависит от разности хода в длинах волн"
+ },
+ {
+  "source": "C.physics.interferentsiya-voln",
+  "target": "C.physics.svoystva-mehanicheskih-voln",
+  "type": "part_of",
+  "why": "интерференция — свойство волн"
+ },
+ {
+  "source": "C.physics.interferentsiya-voln",
+  "target": "C.physics.svoystva-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "интерференция — свойство электромагнитных волн"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.difraktsiya-voln",
+  "type": "prerequisites_for",
+  "why": "дифракция заметна, когда препятствие сравнимо с длиной волны"
+ },
+ {
+  "source": "C.physics.difraktsiya-voln",
+  "target": "C.physics.svoystva-mehanicheskih-voln",
+  "type": "part_of",
+  "why": "дифракция — свойство волн"
+ },
+ {
+  "source": "C.physics.difraktsiya-voln",
+  "target": "C.physics.svoystva-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "дифракция — свойство электромагнитных волн"
+ },
+ {
+  "source": "C.physics.otrazhenie-voln",
+  "target": "C.physics.svoystva-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "отражение — свойство электромагнитных волн"
+ },
+ {
+  "source": "C.physics.otrazhenie-zvuka",
+  "target": "C.physics.otrazhenie-voln",
+  "type": "is_a",
+  "why": "отражение звуковых волн"
+ },
+ {
+  "source": "C.physics.otrazhenie-sveta",
+  "target": "C.physics.otrazhenie-voln",
+  "type": "is_a",
+  "why": "отражение световых волн"
+ },
+ {
+  "source": "C.physics.skorost-rasprostraneniya-volny",
+  "target": "C.physics.prelomlenie-voln",
+  "type": "prerequisites_for",
+  "why": "в другой среде меняется скорость волны"
+ },
+ {
+  "source": "C.physics.prelomlenie-voln",
+  "target": "C.physics.svoystva-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "преломление — свойство электромагнитных волн"
+ },
+ {
+  "source": "C.physics.prelomlenie-sveta",
+  "target": "C.physics.prelomlenie-voln",
+  "type": "is_a",
+  "why": "преломление световых волн"
+ },
+ {
+  "source": "C.physics.poperechnye-volny",
+  "target": "C.physics.polyarizatsiya-voln",
+  "type": "prerequisites_for",
+  "why": "поляризация возможна только у поперечных волн"
+ },
+ {
+  "source": "C.physics.polyarizatsiya-voln",
+  "target": "C.physics.svoystva-elektromagnitnyh-voln",
+  "type": "part_of",
+  "why": "поляризация — свойство электромагнитных волн"
+ },
+ {
+  "source": "C.physics.skorost-zvuka",
+  "target": "C.physics.skorost-rasprostraneniya-volny",
+  "type": "is_a",
+  "why": "скорость распространения звуковой волны"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.skorost-zvuka",
+  "type": "prerequisites_for",
+  "why": "скорость распространения звука"
+ },
+ {
+  "source": "C.physics.zvuk",
+  "target": "C.physics.tembr-zvuka",
+  "type": "prerequisites_for",
+  "why": "тембр — окраска звука"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.usloviya-izlucheniya-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "условия возникновения электромагнитных волн"
+ },
+ {
+  "source": "C.physics.uskorenie",
+  "target": "C.physics.usloviya-izlucheniya-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "излучают заряды, движущиеся с ускорением"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.vzaimnaya-orientatsiya-vektorov-e-b-i-v-v-elektromagnitnoy-volne",
+  "type": "prerequisites_for",
+  "why": "ориентация векторов в электромагнитной волне"
+ },
+ {
+  "source": "C.physics.napryazhennost-elektricheskogo-polya",
+  "target": "C.physics.vzaimnaya-orientatsiya-vektorov-e-b-i-v-v-elektromagnitnoy-volne",
+  "type": "prerequisites_for",
+  "why": "вектор E — напряжённость поля волны"
+ },
+ {
+  "source": "C.physics.magnitnaya-induktsiya",
+  "target": "C.physics.vzaimnaya-orientatsiya-vektorov-e-b-i-v-v-elektromagnitnoy-volne",
+  "type": "prerequisites_for",
+  "why": "вектор B — индукция поля волны"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.skorost-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "скорость распространения электромагнитных волн"
+ },
+ {
+  "source": "C.physics.skorost-elektromagnitnyh-voln",
+  "target": "C.physics.skorost-rasprostraneniya-volny",
+  "type": "is_a",
+  "why": "скорость распространения электромагнитной волны"
+ },
+ {
+  "source": "C.physics.skorost-sveta",
+  "target": "C.physics.skorost-elektromagnitnyh-voln",
+  "type": "is_a",
+  "why": "свет — электромагнитная волна, его скорость — скорость таких волн"
+ },
+ {
+  "source": "C.physics.shkala-elektromagnitnyh-voln",
+  "target": "C.physics.primenenie-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "применение зависит от диапазона длин волн"
+ },
+ {
+  "source": "C.physics.svoystva-elektromagnitnyh-voln",
+  "target": "C.physics.primenenie-elektromagnitnyh-voln",
+  "type": "prerequisites_for",
+  "why": "применения опираются на свойства волн"
+ },
+ {
+  "source": "C.physics.radiosvyaz",
+  "target": "C.physics.primenenie-elektromagnitnyh-voln",
+  "type": "is_a",
+  "why": "радиосвязь — применение электромагнитных волн"
+ },
+ {
+  "source": "C.physics.televidenie",
+  "target": "C.physics.primenenie-elektromagnitnyh-voln",
+  "type": "is_a",
+  "why": "телевидение — применение электромагнитных волн"
+ },
+ {
+  "source": "C.physics.radiolokatsiya",
+  "target": "C.physics.primenenie-elektromagnitnyh-voln",
+  "type": "is_a",
+  "why": "радиолокация — применение электромагнитных волн"
+ },
+ {
+  "source": "C.physics.elektromagnitnye-volny",
+  "target": "C.physics.radiosvyaz",
+  "type": "prerequisites_for",
+  "why": "сигнал передаётся электромагнитными волнами"
+ },
+ {
+  "source": "C.physics.kolebatelnyy-kontur",
+  "target": "C.physics.radiosvyaz",
+  "type": "prerequisites_for",
+  "why": "контур настраивает приёмник на частоту станции"
+ },
+ {
+  "source": "C.physics.radiosvyaz",
+  "target": "C.physics.televidenie",
+  "type": "prerequisites_for",
+  "why": "изображение передаётся по принципам радиосвязи"
+ },
+ {
+  "source": "C.physics.otrazhenie-voln",
+  "target": "C.physics.radiolokatsiya",
+  "type": "prerequisites_for",
+  "why": "радиолокация основана на отражении радиоволн"
+ },
+ {
+  "source": "C.physics.skorost-elektromagnitnyh-voln",
+  "target": "C.physics.radiolokatsiya",
+  "type": "prerequisites_for",
+  "why": "расстояние находят по времени возврата сигнала"
+ },
+ {
+  "source": "C.physics.primenenie-elektromagnitnyh-voln",
+  "target": "C.physics.elektromagnitnoe-zagryaznenie-okruzhayuschey-sredy",
+  "type": "prerequisites_for",
+  "why": "излучение технических устройств загрязняет среду"
+ },
+ {
+  "source": "C.physics.tembr-zvuka",
+  "target": "C.physics.muzykalnyy-instrument",
+  "type": "prerequisites_for",
+  "why": "у каждого инструмента свой тембр"
+ },
+ {
+  "source": "C.physics.rezonans",
+  "target": "C.physics.muzykalnyy-instrument",
+  "type": "prerequisites_for",
+  "why": "корпус инструмента усиливает звук резонансом"
+ },
+ {
+  "source": "C.physics.ultrazvuk",
+  "target": "C.physics.ultrazvukovaya-diagnostika",
+  "type": "prerequisites_for",
+  "why": "диагностика использует ультразвук"
+ },
+ {
+  "source": "C.physics.otrazhenie-zvuka",
+  "target": "C.physics.ultrazvukovaya-diagnostika",
+  "type": "prerequisites_for",
+  "why": "изображение строится по отражённому ультразвуку"
+ },
+ {
+  "source": "C.physics.ultrazvukovaya-diagnostika",
+  "target": "C.physics.ispolzovanie-ultrazvuka-v-bytu-i-tehnike",
+  "type": "is_a",
+  "why": "одно из применений ультразвука"
+ },
+ {
+  "source": "C.physics.radiolokatsiya",
+  "target": "C.physics.radar",
+  "type": "prerequisites_for",
+  "why": "радар — радиолокационная станция"
+ },
+ {
+  "source": "C.physics.usloviya-izlucheniya-elektromagnitnyh-voln",
+  "target": "C.physics.antenna",
+  "type": "prerequisites_for",
+  "why": "в антенне колеблются заряды и излучают волны"
+ },
+ {
+  "source": "C.physics.radiosvyaz",
+  "target": "C.physics.radiopriemnik",
+  "type": "prerequisites_for",
+  "why": "приёмник принимает радиосигнал"
+ },
+ {
+  "source": "C.physics.antenna",
+  "target": "C.physics.radiopriemnik",
+  "type": "prerequisites_for",
+  "why": "приёмник получает сигнал через антенну"
+ },
+ {
+  "source": "C.physics.televidenie",
+  "target": "C.physics.televizor",
+  "type": "prerequisites_for",
+  "why": "телевизор принимает телевизионный сигнал"
+ },
+ {
+  "source": "C.physics.radiosvyaz",
+  "target": "C.physics.telefon",
+  "type": "prerequisites_for",
+  "why": "мобильный телефон передаёт сигнал радиоволнами"
+ },
+ {
+  "source": "C.physics.shkala-elektromagnitnyh-voln",
+  "target": "C.physics.svch-pech",
+  "type": "prerequisites_for",
+  "why": "печь использует волны сверхвысокочастотного диапазона"
+ },
+ {
+  "source": "C.physics.luch-sveta",
+  "target": "C.physics.luchevaya-model-sveta",
+  "type": "part_of",
+  "why": "луч — основное понятие лучевой модели"
+ },
+ {
+  "source": "C.physics.tochechnyy-istochnik-sveta",
+  "target": "C.physics.istochniki-sveta",
+  "type": "is_a",
+  "why": "источник, размерами которого можно пренебречь"
+ },
+ {
+  "source": "C.physics.tochechnyy-istochnik-sveta",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "идеализация реального источника света"
+ },
+ {
+  "source": "C.physics.skorost-sveta",
+  "target": "C.physics.absolyutnyy-pokazatel-prelomleniya",
+  "type": "prerequisites_for",
+  "why": "n = c/v"
+ },
+ {
+  "source": "C.physics.absolyutnyy-pokazatel-prelomleniya",
+  "target": "C.physics.otnositelnyy-pokazatel-prelomleniya",
+  "type": "prerequisites_for",
+  "why": "относительный показатель — отношение абсолютных"
+ },
+ {
+  "source": "C.physics.izmerenie-pokazatelya-prelomleniya-stekla",
+  "target": "C.physics.absolyutnyy-pokazatel-prelomleniya",
+  "type": "verifies",
+  "why": "в работе измеряют показатель преломления стекла"
+ },
+ {
+  "source": "C.physics.polnoe-vnutrennee-otrazhenie-sveta",
+  "target": "C.physics.predelnyy-ugol-polnogo-vnutrennego-otrazheniya",
+  "type": "prerequisites_for",
+  "why": "угол, начиная с которого отражение становится полным"
+ },
+ {
+  "source": "C.physics.otnositelnyy-pokazatel-prelomleniya",
+  "target": "C.physics.predelnyy-ugol-polnogo-vnutrennego-otrazheniya",
+  "type": "prerequisites_for",
+  "why": "sin α_пр = 1/n_отн"
+ },
+ {
+  "source": "C.physics.prelomlenie-sveta",
+  "target": "C.physics.hod-luchey-v-prizme",
+  "type": "prerequisites_for",
+  "why": "луч преломляется на гранях призмы"
+ },
+ {
+  "source": "C.physics.absolyutnyy-pokazatel-prelomleniya",
+  "target": "C.physics.chastota-i-dlina-volny-sveta-pri-perehode-cherez-granitsu-sred",
+  "type": "prerequisites_for",
+  "why": "n₁λ₁ = n₂λ₂"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.chastota-i-dlina-volny-sveta-pri-perehode-cherez-granitsu-sred",
+  "type": "prerequisites_for",
+  "why": "при переходе меняется длина волны, а частота нет"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.tsvet",
+  "type": "prerequisites_for",
+  "why": "цвет света определяется длиной волны"
+ },
+ {
+  "source": "C.physics.dispersiya-sveta",
+  "target": "C.physics.tsvet",
+  "type": "prerequisites_for",
+  "why": "при дисперсии белый свет разлагается на цвета"
+ },
+ {
+  "source": "C.physics.tonkaya-linza",
+  "target": "C.physics.linza",
+  "type": "is_a",
+  "why": "линза, толщиной которой можно пренебречь"
+ },
+ {
+  "source": "C.physics.tonkaya-linza",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "идеализация реальной линзы"
+ },
+ {
+  "source": "C.physics.sobirayuschaya-linza",
+  "target": "C.physics.linza",
+  "type": "is_a",
+  "why": "вид линзы"
+ },
+ {
+  "source": "C.physics.rasseivayuschaya-linza",
+  "target": "C.physics.linza",
+  "type": "is_a",
+  "why": "вид линзы"
+ },
+ {
+  "source": "C.physics.linza",
+  "target": "C.physics.glavnaya-opticheskaya-os-linzy",
+  "type": "prerequisites_for",
+  "why": "ось проходит через центры сферических поверхностей линзы"
+ },
+ {
+  "source": "C.physics.glavnaya-opticheskaya-os-linzy",
+  "target": "C.physics.hod-luchey-v-linze",
+  "type": "prerequisites_for",
+  "why": "построение хода лучей опирается на главную оптическую ось",
+  "order_issue": true
+ },
+ {
+  "source": "C.physics.tonkaya-linza",
+  "target": "C.physics.formula-tonkoy-linzy",
+  "type": "prerequisites_for",
+  "why": "формула верна для тонкой линзы"
+ },
+ {
+  "source": "C.physics.hod-luchey-v-linze",
+  "target": "C.physics.formula-tonkoy-linzy",
+  "type": "prerequisites_for",
+  "why": "формулу выводят из построения хода лучей"
+ },
+ {
+  "source": "C.physics.formula-tonkoy-linzy",
+  "target": "C.physics.uvelichenie-linzy",
+  "type": "prerequisites_for",
+  "why": "Γ = |f|/d"
+ },
+ {
+  "source": "C.physics.luchevaya-model-sveta",
+  "target": "C.physics.geometricheskaya-optika",
+  "type": "prerequisites_for",
+  "why": "геометрическая оптика основана на лучевой модели"
+ },
+ {
+  "source": "C.physics.volnovye-svoystva-sveta",
+  "target": "C.physics.geometricheskaya-optika",
+  "type": "prerequisites_for",
+  "why": "пределы применимости задают волновые свойства света"
+ },
+ {
+  "source": "C.physics.interferentsiya-sveta",
+  "target": "C.physics.interferentsiya-voln",
+  "type": "is_a",
+  "why": "интерференция световых волн"
+ },
+ {
+  "source": "C.physics.istochniki-sveta",
+  "target": "C.physics.kogerentnye-istochniki",
+  "type": "prerequisites_for",
+  "why": "когерентные источники — источники света с постоянной разностью фаз"
+ },
+ {
+  "source": "C.physics.faza-kolebaniy",
+  "target": "C.physics.kogerentnye-istochniki",
+  "type": "prerequisites_for",
+  "why": "у когерентных источников разность фаз постоянна"
+ },
+ {
+  "source": "C.physics.kogerentnye-istochniki",
+  "target": "C.physics.interferentsiya-sveta",
+  "type": "prerequisites_for",
+  "why": "устойчивая интерференция возможна только от когерентных источников"
+ },
+ {
+  "source": "C.physics.volnovye-svoystva-sveta",
+  "target": "C.physics.interferentsiya-sveta",
+  "type": "prerequisites_for",
+  "why": "интерференция — проявление волновых свойств света"
+ },
+ {
+  "source": "C.physics.interferentsiya-sveta",
+  "target": "C.physics.usloviya-interferentsionnyh-maksimumov-i-minimumov",
+  "type": "prerequisites_for",
+  "why": "условия наблюдения интерференционной картины"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.usloviya-interferentsionnyh-maksimumov-i-minimumov",
+  "type": "prerequisites_for",
+  "why": "разность хода сравнивают с длиной волны"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.monohromaticheskiy-svet",
+  "type": "prerequisites_for",
+  "why": "монохроматический свет — свет одной длины волны"
+ },
+ {
+  "source": "C.physics.monohromaticheskiy-svet",
+  "target": "C.physics.svet",
+  "type": "is_a",
+  "why": "свет одной частоты"
+ },
+ {
+  "source": "C.physics.difraktsiya-sveta",
+  "target": "C.physics.difraktsiya-voln",
+  "type": "is_a",
+  "why": "дифракция световых волн"
+ },
+ {
+  "source": "C.physics.volnovye-svoystva-sveta",
+  "target": "C.physics.difraktsiya-sveta",
+  "type": "prerequisites_for",
+  "why": "дифракция — проявление волновых свойств света"
+ },
+ {
+  "source": "C.physics.difraktsiya-sveta",
+  "target": "C.physics.difraktsionnaya-reshetka",
+  "type": "prerequisites_for",
+  "why": "решётка работает за счёт дифракции на щелях"
+ },
+ {
+  "source": "C.physics.difraktsionnaya-reshetka",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "спектральный оптический прибор"
+ },
+ {
+  "source": "C.physics.difraktsionnaya-reshetka",
+  "target": "C.physics.period-difraktsionnoy-reshetki",
+  "type": "prerequisites_for",
+  "why": "период — расстояние между соседними щелями решётки"
+ },
+ {
+  "source": "C.physics.period-difraktsionnoy-reshetki",
+  "target": "C.physics.uslovie-glavnyh-maksimumov-difraktsionnoy-reshetki",
+  "type": "prerequisites_for",
+  "why": "d sin φ = mλ"
+ },
+ {
+  "source": "C.physics.monohromaticheskiy-svet",
+  "target": "C.physics.uslovie-glavnyh-maksimumov-difraktsionnoy-reshetki",
+  "type": "prerequisites_for",
+  "why": "условие записано для света одной длины волны"
+ },
+ {
+  "source": "C.physics.interferentsiya-sveta",
+  "target": "C.physics.uslovie-glavnyh-maksimumov-difraktsionnoy-reshetki",
+  "type": "prerequisites_for",
+  "why": "максимумы — результат интерференции волн от щелей"
+ },
+ {
+  "source": "C.physics.polyarizatsiya-sveta",
+  "target": "C.physics.polyarizatsiya-voln",
+  "type": "is_a",
+  "why": "поляризация световых волн"
+ },
+ {
+  "source": "C.physics.volnovye-svoystva-sveta",
+  "target": "C.physics.polyarizatsiya-sveta",
+  "type": "prerequisites_for",
+  "why": "поляризация доказывает поперечность световых волн"
+ },
+ {
+  "source": "C.physics.polyarizatsiya-sveta",
+  "target": "C.physics.polyaroid",
+  "type": "prerequisites_for",
+  "why": "поляроид пропускает поляризованный свет"
+ },
+ {
+  "source": "C.physics.lupa",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "простейший оптический прибор"
+ },
+ {
+  "source": "C.physics.sobirayuschaya-linza",
+  "target": "C.physics.lupa",
+  "type": "prerequisites_for",
+  "why": "лупа — собирающая линза"
+ },
+ {
+  "source": "C.physics.proektsionnyy-apparat",
+  "target": "C.physics.opticheskiy-pribor",
+  "type": "is_a",
+  "why": "оптический прибор"
+ },
+ {
+  "source": "C.physics.sobirayuschaya-linza",
+  "target": "C.physics.proektsionnyy-apparat",
+  "type": "prerequisites_for",
+  "why": "объектив даёт увеличенное действительное изображение"
+ },
+ {
+  "source": "C.physics.issledovanie-svoystv-izobrazheniy-v-linzah",
+  "target": "C.physics.hod-luchey-v-linze",
+  "type": "verifies",
+  "why": "проверяют построение изображений в линзах"
+ },
+ {
+  "source": "C.physics.issledovanie-svoystv-izobrazheniy-v-linzah",
+  "target": "C.physics.formula-tonkoy-linzy",
+  "type": "verifies",
+  "why": "измеренные расстояния согласуются с формулой линзы"
+ },
+ {
+  "source": "C.physics.printsip-otnositelnosti-galileya",
+  "target": "C.physics.printsip-otnositelnosti-eynshteyna",
+  "type": "prerequisites_for",
+  "why": "принцип Эйнштейна распространяет принцип Галилея на все явления"
+ },
+ {
+  "source": "C.physics.skorost-sveta",
+  "target": "C.physics.invariantnost-skorosti-sveta",
+  "type": "prerequisites_for",
+  "why": "постулат о скорости света в вакууме"
+ },
+ {
+  "source": "C.physics.printsip-otnositelnosti-eynshteyna",
+  "target": "C.physics.postulaty-teorii-otnositelnosti",
+  "type": "part_of",
+  "why": "первый постулат"
+ },
+ {
+  "source": "C.physics.invariantnost-skorosti-sveta",
+  "target": "C.physics.postulaty-teorii-otnositelnosti",
+  "type": "part_of",
+  "why": "второй постулат"
+ },
+ {
+  "source": "C.physics.postulaty-teorii-otnositelnosti",
+  "target": "C.physics.spetsialnaya-teoriya-otnositelnosti",
+  "type": "part_of",
+  "why": "постулаты — основа теории"
+ },
+ {
+  "source": "C.physics.postulaty-teorii-otnositelnosti",
+  "target": "C.physics.otnositelnost-odnovremennosti",
+  "type": "prerequisites_for",
+  "why": "относительность одновременности следует из постулатов"
+ },
+ {
+  "source": "C.physics.postulaty-teorii-otnositelnosti",
+  "target": "C.physics.zamedlenie-vremeni",
+  "type": "prerequisites_for",
+  "why": "замедление времени следует из постулатов"
+ },
+ {
+  "source": "C.physics.postulaty-teorii-otnositelnosti",
+  "target": "C.physics.sokraschenie-dliny",
+  "type": "prerequisites_for",
+  "why": "сокращение длины следует из постулатов"
+ },
+ {
+  "source": "C.physics.spetsialnaya-teoriya-otnositelnosti",
+  "target": "C.physics.energiya-svobodnoy-chastitsy",
+  "type": "prerequisites_for",
+  "why": "релятивистская энергия частицы"
+ },
+ {
+  "source": "C.physics.kineticheskaya-energiya",
+  "target": "C.physics.energiya-svobodnoy-chastitsy",
+  "type": "prerequisites_for",
+  "why": "полная энергия включает кинетическую"
+ },
+ {
+  "source": "C.physics.spetsialnaya-teoriya-otnositelnosti",
+  "target": "C.physics.impuls-svobodnoy-chastitsy",
+  "type": "prerequisites_for",
+  "why": "релятивистский импульс частицы"
+ },
+ {
+  "source": "C.physics.impuls-tela",
+  "target": "C.physics.impuls-svobodnoy-chastitsy",
+  "type": "prerequisites_for",
+  "why": "релятивистское обобщение импульса"
+ },
+ {
+  "source": "C.physics.energiya-svobodnoy-chastitsy",
+  "target": "C.physics.energiya-pokoya",
+  "type": "prerequisites_for",
+  "why": "энергия покоя — энергия частицы при нулевой скорости"
+ },
+ {
+  "source": "C.physics.svyaz-massy-i-energii",
+  "target": "C.physics.energiya-pokoya",
+  "type": "prerequisites_for",
+  "why": "E₀ = mc²"
+ },
+ {
+  "source": "C.physics.energiya-pokoya",
+  "target": "C.physics.svyaz-energii-i-impulsa-chastitsy",
+  "type": "prerequisites_for",
+  "why": "E² = E₀² + (pc)²"
+ },
+ {
+  "source": "C.physics.impuls-svobodnoy-chastitsy",
+  "target": "C.physics.svyaz-energii-i-impulsa-chastitsy",
+  "type": "prerequisites_for",
+  "why": "в связь входит импульс частицы"
+ },
+ {
+  "source": "C.physics.kvant",
+  "target": "C.physics.gipoteza-planka-o-kvantah",
+  "type": "prerequisites_for",
+  "why": "гипотеза: свет излучается и поглощается квантами"
+ },
+ {
+  "source": "C.physics.gipoteza-planka-o-kvantah",
+  "target": "C.physics.formula-planka",
+  "type": "prerequisites_for",
+  "why": "энергия кванта пропорциональна частоте"
+ },
+ {
+  "source": "C.physics.chastota-kolebaniy",
+  "target": "C.physics.formula-planka",
+  "type": "prerequisites_for",
+  "why": "E = hν"
+ },
+ {
+  "source": "C.physics.foton",
+  "target": "C.physics.kvant",
+  "type": "is_a",
+  "why": "фотон — квант электромагнитного излучения"
+ },
+ {
+  "source": "C.physics.foton",
+  "target": "C.physics.energiya-fotona",
+  "type": "prerequisites_for",
+  "why": "энергия фотона"
+ },
+ {
+  "source": "C.physics.formula-planka",
+  "target": "C.physics.energiya-fotona",
+  "type": "prerequisites_for",
+  "why": "энергия фотона E = hν"
+ },
+ {
+  "source": "C.physics.energiya-fotona",
+  "target": "C.physics.impuls-fotona",
+  "type": "prerequisites_for",
+  "why": "p = E/c"
+ },
+ {
+  "source": "C.physics.svyaz-energii-i-impulsa-chastitsy",
+  "target": "C.physics.impuls-fotona",
+  "type": "prerequisites_for",
+  "why": "для частицы без массы покоя p = E/c"
+ },
+ {
+  "source": "C.physics.svet",
+  "target": "C.physics.fotoeffekt",
+  "type": "prerequisites_for",
+  "why": "свет вырывает электроны из вещества"
+ },
+ {
+  "source": "C.physics.fotoeffekt",
+  "target": "C.physics.zakony-fotoeffekta",
+  "type": "prerequisites_for",
+  "why": "законы описывают фотоэффект"
+ },
+ {
+  "source": "C.physics.opyty-stoletova",
+  "target": "C.physics.zakony-fotoeffekta",
+  "type": "verifies",
+  "why": "Столетов экспериментально установил законы фотоэффекта"
+ },
+ {
+  "source": "C.physics.zakony-fotoeffekta",
+  "target": "C.physics.uravnenie-eynshteyna-dlya-fotoeffekta",
+  "type": "prerequisites_for",
+  "why": "уравнение объясняет законы фотоэффекта"
+ },
+ {
+  "source": "C.physics.energiya-fotona",
+  "target": "C.physics.uravnenie-eynshteyna-dlya-fotoeffekta",
+  "type": "prerequisites_for",
+  "why": "энергия фотона идёт на работу выхода и энергию электрона"
+ },
+ {
+  "source": "C.physics.rabota-vyhoda",
+  "target": "C.physics.uravnenie-eynshteyna-dlya-fotoeffekta",
+  "type": "prerequisites_for",
+  "why": "в уравнение входит работа выхода"
+ },
+ {
+  "source": "C.physics.kineticheskaya-energiya",
+  "target": "C.physics.uravnenie-eynshteyna-dlya-fotoeffekta",
+  "type": "prerequisites_for",
+  "why": "в уравнение входит кинетическая энергия электрона"
+ },
+ {
+  "source": "C.physics.fotoeffekt",
+  "target": "C.physics.rabota-vyhoda",
+  "type": "prerequisites_for",
+  "why": "работа выхода — энергия, нужная для вылета электрона"
+ },
+ {
+  "source": "C.physics.mehanicheskaya-rabota",
+  "target": "C.physics.rabota-vyhoda",
+  "type": "prerequisites_for",
+  "why": "работа выхода — работа по удалению электрона из вещества"
+ },
+ {
+  "source": "C.physics.uravnenie-eynshteyna-dlya-fotoeffekta",
+  "target": "C.physics.krasnaya-granitsa-fotoeffekta",
+  "type": "prerequisites_for",
+  "why": "красная граница — частота, при которой энергия электрона равна нулю"
+ },
+ {
+  "source": "C.physics.elektricheskoe-napryazhenie",
+  "target": "C.physics.zapirayuschee-napryazhenie",
+  "type": "prerequisites_for",
+  "why": "напряжение, останавливающее фотоэлектроны"
+ },
+ {
+  "source": "C.physics.kineticheskaya-energiya",
+  "target": "C.physics.zapirayuschee-napryazhenie",
+  "type": "prerequisites_for",
+  "why": "eU_зап равно наибольшей кинетической энергии электрона"
+ },
+ {
+  "source": "C.physics.impuls-fotona",
+  "target": "C.physics.davlenie-sveta",
+  "type": "prerequisites_for",
+  "why": "фотоны передают импульс поверхности"
+ },
+ {
+  "source": "C.physics.davlenie",
+  "target": "C.physics.davlenie-sveta",
+  "type": "prerequisites_for",
+  "why": "давление света — давление, которое свет оказывает на поверхность"
+ },
+ {
+  "source": "C.physics.opyty-lebedeva",
+  "target": "C.physics.davlenie-sveta",
+  "type": "verifies",
+  "why": "Лебедев измерил давление света"
+ },
+ {
+  "source": "C.physics.energiya-fotona",
+  "target": "C.physics.himicheskoe-deystvie-sveta",
+  "type": "prerequisites_for",
+  "why": "энергии фотона хватает для химических превращений"
+ },
+ {
+  "source": "C.physics.fotoeffekt",
+  "target": "C.physics.fotoelement",
+  "type": "prerequisites_for",
+  "why": "фотоэлемент работает на фотоэффекте"
+ },
+ {
+  "source": "C.physics.fotoeffekt",
+  "target": "C.physics.fotodatchik",
+  "type": "prerequisites_for",
+  "why": "фотодатчик реагирует на свет благодаря фотоэффекту"
+ },
+ {
+  "source": "C.physics.fotodatchik",
+  "target": "C.physics.fizicheskiy-pribor",
+  "type": "is_a",
+  "why": "датчик освещённости"
+ },
+ {
+  "source": "C.physics.fotoeffekt",
+  "target": "C.physics.solnechnaya-batareya",
+  "type": "prerequisites_for",
+  "why": "батарея преобразует свет в электрическую энергию"
+ },
+ {
+  "source": "C.physics.p-n-perehod",
+  "target": "C.physics.solnechnaya-batareya",
+  "type": "prerequisites_for",
+  "why": "ток возникает в p-n переходе"
+ },
+ {
+  "source": "C.physics.p-n-perehod",
+  "target": "C.physics.svetodiod",
+  "type": "prerequisites_for",
+  "why": "свет излучается в p-n переходе"
+ },
+ {
+  "source": "C.physics.svetodiod",
+  "target": "C.physics.poluprovodnikovyy-pribor",
+  "type": "is_a",
+  "why": "светодиод — полупроводниковый прибор"
+ },
+ {
+  "source": "C.physics.model-atoma-tomsona",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "модель строения атома"
+ },
+ {
+  "source": "C.physics.stroenie-atoma",
+  "target": "C.physics.model-atoma-tomsona",
+  "type": "prerequisites_for",
+  "why": "первая модель строения атома"
+ },
+ {
+  "source": "C.physics.model-atoma-tomsona",
+  "target": "C.physics.opyty-rezerforda",
+  "type": "prerequisites_for",
+  "why": "опыты Резерфорда опровергли модель Томсона"
+ },
+ {
+  "source": "C.physics.planetarnaya-model-atoma",
+  "target": "C.physics.postulaty-bora",
+  "type": "prerequisites_for",
+  "why": "постулаты устраняют противоречия планетарной модели"
+ },
+ {
+  "source": "C.physics.foton",
+  "target": "C.physics.postulaty-bora",
+  "type": "prerequisites_for",
+  "why": "атом излучает и поглощает фотоны"
+ },
+ {
+  "source": "C.physics.postulaty-bora",
+  "target": "C.physics.model-atoma-bora",
+  "type": "part_of",
+  "why": "постулаты — основа модели атома Бора"
+ },
+ {
+  "source": "C.physics.postulaty-bora",
+  "target": "C.physics.urovni-energii-atoma",
+  "type": "prerequisites_for",
+  "why": "стационарные состояния атома — уровни энергии"
+ },
+ {
+  "source": "C.physics.urovni-energii-atoma",
+  "target": "C.physics.spektr-urovney-energii-atoma-vodoroda",
+  "type": "prerequisites_for",
+  "why": "уровни энергии атома водорода"
+ },
+ {
+  "source": "C.physics.spektr",
+  "target": "C.physics.vidy-spektrov",
+  "type": "prerequisites_for",
+  "why": "спектры бывают сплошные, линейчатые и полосатые"
+ },
+ {
+  "source": "C.physics.lineychatyy-spektr",
+  "target": "C.physics.spektralnyy-analiz",
+  "type": "prerequisites_for",
+  "why": "состав вещества определяют по линейчатым спектрам"
+ },
+ {
+  "source": "C.physics.spektroskop",
+  "target": "C.physics.spektralnyy-analiz",
+  "type": "prerequisites_for",
+  "why": "спектральный анализ проводят спектроскопом"
+ },
+ {
+  "source": "C.physics.impuls-tela",
+  "target": "C.physics.volny-de-broylya",
+  "type": "prerequisites_for",
+  "why": "длина волны де Бройля λ = h/p"
+ },
+ {
+  "source": "C.physics.dlina-volny",
+  "target": "C.physics.volny-de-broylya",
+  "type": "prerequisites_for",
+  "why": "частице сопоставляют длину волны"
+ },
+ {
+  "source": "C.physics.volny-de-broylya",
+  "target": "C.physics.difraktsiya-elektronov",
+  "type": "prerequisites_for",
+  "why": "электроны дифрагируют как волны де Бройля"
+ },
+ {
+  "source": "C.physics.difraktsiya-elektronov",
+  "target": "C.physics.difraktsiya-voln",
+  "type": "is_a",
+  "why": "дифракция волн, связанных с электронами"
+ },
+ {
+  "source": "C.physics.difraktsiya-elektronov",
+  "target": "C.physics.volnovye-svoystva-chastits",
+  "type": "prerequisites_for",
+  "why": "дифракция электронов подтверждает волновые свойства частиц"
+ },
+ {
+  "source": "C.physics.volnovye-svoystva-chastits",
+  "target": "C.physics.korpuskulyarno-volnovoy-dualizm",
+  "type": "prerequisites_for",
+  "why": "частицы проявляют волновые свойства"
+ },
+ {
+  "source": "C.physics.foton",
+  "target": "C.physics.korpuskulyarno-volnovoy-dualizm",
+  "type": "prerequisites_for",
+  "why": "свет проявляет свойства частиц"
+ },
+ {
+  "source": "C.physics.volnovye-svoystva-sveta",
+  "target": "C.physics.korpuskulyarno-volnovoy-dualizm",
+  "type": "prerequisites_for",
+  "why": "свет проявляет волновые свойства"
+ },
+ {
+  "source": "C.physics.spontannoe-izluchenie",
+  "target": "C.physics.ispuskanie-sveta-atomom",
+  "type": "is_a",
+  "why": "самопроизвольное излучение фотона атомом"
+ },
+ {
+  "source": "C.physics.urovni-energii-atoma",
+  "target": "C.physics.spontannoe-izluchenie",
+  "type": "prerequisites_for",
+  "why": "атом переходит на более низкий уровень"
+ },
+ {
+  "source": "C.physics.vynuzhdennoe-izluchenie",
+  "target": "C.physics.ispuskanie-sveta-atomom",
+  "type": "is_a",
+  "why": "излучение под действием внешнего фотона"
+ },
+ {
+  "source": "C.physics.urovni-energii-atoma",
+  "target": "C.physics.vynuzhdennoe-izluchenie",
+  "type": "prerequisites_for",
+  "why": "переход между уровнями вызывает падающий фотон"
+ },
+ {
+  "source": "C.physics.vynuzhdennoe-izluchenie",
+  "target": "C.physics.lazer",
+  "type": "prerequisites_for",
+  "why": "лазер основан на вынужденном излучении"
+ },
+ {
+  "source": "C.physics.korpuskulyarno-volnovoy-dualizm",
+  "target": "C.physics.kvantovyy-kompyuter",
+  "type": "prerequisites_for",
+  "why": "квантовый компьютер использует квантовые свойства частиц"
+ },
+ {
+  "source": "C.physics.stroenie-atoma",
+  "target": "C.physics.elementarnye-chastitsy",
+  "type": "prerequisites_for",
+  "why": "атомы состоят из элементарных частиц"
+ },
+ {
+  "source": "C.physics.elementarnye-chastitsy",
+  "target": "C.physics.metody-registratsii-elementarnyh-chastits",
+  "type": "prerequisites_for",
+  "why": "методы регистрируют элементарные частицы"
+ },
+ {
+  "source": "C.physics.kamera-vilsona",
+  "target": "C.physics.metody-registratsii-elementarnyh-chastits",
+  "type": "is_a",
+  "why": "камера Вильсона — один из методов регистрации частиц"
+ },
+ {
+  "source": "C.physics.opyty-rezerforda-po-opredeleniyu-sostava-radioaktivnogo-izlucheniya",
+  "target": "C.physics.alfa-izluchenie",
+  "type": "verifies",
+  "why": "в магнитном поле выделен пучок альфа-частиц"
+ },
+ {
+  "source": "C.physics.opyty-rezerforda-po-opredeleniyu-sostava-radioaktivnogo-izlucheniya",
+  "target": "C.physics.beta-izluchenie",
+  "type": "verifies",
+  "why": "в магнитном поле выделен пучок бета-частиц"
+ },
+ {
+  "source": "C.physics.opyty-rezerforda-po-opredeleniyu-sostava-radioaktivnogo-izlucheniya",
+  "target": "C.physics.gamma-izluchenie",
+  "type": "verifies",
+  "why": "часть излучения не отклоняется магнитным полем"
+ },
+ {
+  "source": "C.physics.sila-lorentsa",
+  "target": "C.physics.opyty-rezerforda-po-opredeleniyu-sostava-radioaktivnogo-izlucheniya",
+  "type": "prerequisites_for",
+  "why": "излучение разделяют по отклонению в магнитном поле"
+ },
+ {
+  "source": "C.physics.proton",
+  "target": "C.physics.elementarnye-chastitsy",
+  "type": "is_a",
+  "why": "протон — элементарная частица"
+ },
+ {
+  "source": "C.physics.proton",
+  "target": "C.physics.atomnoe-yadro",
+  "type": "part_of",
+  "why": "протоны входят в состав ядра"
+ },
+ {
+  "source": "C.physics.proton",
+  "target": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "type": "prerequisites_for",
+  "why": "ядро состоит из протонов и нейтронов"
+ },
+ {
+  "source": "C.physics.neytron",
+  "target": "C.physics.elementarnye-chastitsy",
+  "type": "is_a",
+  "why": "нейтрон — элементарная частица"
+ },
+ {
+  "source": "C.physics.neytron",
+  "target": "C.physics.atomnoe-yadro",
+  "type": "part_of",
+  "why": "нейтроны входят в состав ядра"
+ },
+ {
+  "source": "C.physics.neytron",
+  "target": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "type": "prerequisites_for",
+  "why": "ядро состоит из протонов и нейтронов"
+ },
+ {
+  "source": "C.physics.period-poluraspada",
+  "target": "C.physics.zakon-radioaktivnogo-raspada",
+  "type": "prerequisites_for",
+  "why": "закон записан через период полураспада"
+ },
+ {
+  "source": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "target": "C.physics.yadernye-sily",
+  "type": "prerequisites_for",
+  "why": "нуклоны в ядре удерживаются ядерными силами"
+ },
+ {
+  "source": "C.physics.yadernye-sily",
+  "target": "C.physics.fundamentalnye-vzaimodeystviya",
+  "type": "is_a",
+  "why": "ядерные силы — проявление сильного взаимодействия"
+ },
+ {
+  "source": "C.physics.yadernye-sily",
+  "target": "C.physics.energiya-svyazi-atomnogo-yadra",
+  "type": "prerequisites_for",
+  "why": "энергия связи — работа против ядерных сил"
+ },
+ {
+  "source": "C.physics.nuklonnaya-model-atomnogo-yadra",
+  "target": "C.physics.defekt-massy-yadra",
+  "type": "prerequisites_for",
+  "why": "масса ядра меньше суммы масс его нуклонов"
+ },
+ {
+  "source": "C.physics.defekt-massy-yadra",
+  "target": "C.physics.energiya-svyazi-atomnogo-yadra",
+  "type": "prerequisites_for",
+  "why": "энергия связи равна дефекту массы, умноженному на c²"
+ },
+ {
+  "source": "C.physics.reaktsiya-deleniya-yader",
+  "target": "C.physics.yadernyy-reaktor",
+  "type": "prerequisites_for",
+  "why": "в реакторе идёт управляемая цепная реакция деления"
+ },
+ {
+  "source": "C.physics.yadernyy-reaktor",
+  "target": "C.physics.yadernaya-energetika",
+  "type": "part_of",
+  "why": "реактор — основа атомной электростанции"
+ },
+ {
+  "source": "C.physics.yadernaya-energetika",
+  "target": "C.physics.ekologicheskie-aspekty-yadernoy-energetiki",
+  "type": "prerequisites_for",
+  "why": "экологические последствия ядерной энергетики"
+ },
+ {
+  "source": "C.physics.deystvie-radioaktivnyh-izlucheniy-na-organizm-cheloveka",
+  "target": "C.physics.ekologicheskie-aspekty-yadernoy-energetiki",
+  "type": "prerequisites_for",
+  "why": "опасность радиоактивного загрязнения"
+ },
+ {
+  "source": "C.physics.pozitron",
+  "target": "C.physics.elementarnye-chastitsy",
+  "type": "is_a",
+  "why": "позитрон — античастица электрона"
+ },
+ {
+  "source": "C.physics.beta-raspad",
+  "target": "C.physics.pozitron",
+  "type": "prerequisites_for",
+  "why": "позитрон вылетает при позитронном бета-распаде"
+ },
+ {
+  "source": "C.physics.elementarnye-chastitsy",
+  "target": "C.physics.fundamentalnye-vzaimodeystviya",
+  "type": "prerequisites_for",
+  "why": "фундаментальные взаимодействия действуют между частицами"
+ },
+ {
+  "source": "C.physics.vsemirnoe-tyagotenie",
+  "target": "C.physics.fundamentalnye-vzaimodeystviya",
+  "type": "is_a",
+  "why": "гравитационное взаимодействие — фундаментальное"
+ },
+ {
+  "source": "C.physics.reaktsiya-deleniya-yader",
+  "target": "C.physics.atomnaya-bomba",
+  "type": "prerequisites_for",
+  "why": "в бомбе идёт неуправляемая цепная реакция деления"
+ },
+ {
+  "source": "C.physics.zvezda",
+  "target": "C.physics.sozvezdie",
+  "type": "prerequisites_for",
+  "why": "созвездие — участок неба с группой звёзд"
+ },
+ {
+  "source": "C.physics.sozvezdie",
+  "target": "C.physics.zvezdnoe-nebo",
+  "type": "part_of",
+  "why": "звёздное небо делят на созвездия"
+ },
+ {
+  "source": "C.physics.zvezdnoe-nebo",
+  "target": "C.physics.vidimoe-dvizhenie-svetil",
+  "type": "prerequisites_for",
+  "why": "светила перемещаются по звёздному небу"
+ },
+ {
+  "source": "C.physics.otnositelnost-mehanicheskogo-dvizheniya",
+  "target": "C.physics.vidimoe-dvizhenie-svetil",
+  "type": "prerequisites_for",
+  "why": "видимое движение наблюдают с вращающейся Земли"
+ },
+ {
+  "source": "C.physics.planeta",
+  "target": "C.physics.solnechnaya-sistema",
+  "type": "part_of",
+  "why": "планеты входят в Солнечную систему"
+ },
+ {
+  "source": "C.physics.solntse",
+  "target": "C.physics.solnechnaya-sistema",
+  "type": "part_of",
+  "why": "Солнце — центральное тело системы"
+ },
+ {
+  "source": "C.physics.dvizhenie-planet-vokrug-solntsa",
+  "target": "C.physics.solnechnaya-sistema",
+  "type": "prerequisites_for",
+  "why": "планеты обращаются вокруг Солнца"
+ },
+ {
+  "source": "C.physics.planety-zemnoy-gruppy",
+  "target": "C.physics.planeta",
+  "type": "is_a",
+  "why": "группа планет"
+ },
+ {
+  "source": "C.physics.planety-giganty",
+  "target": "C.physics.planeta",
+  "type": "is_a",
+  "why": "группа планет"
+ },
+ {
+  "source": "C.physics.karlikovye-planety",
+  "target": "C.physics.solnechnaya-sistema",
+  "type": "part_of",
+  "why": "карликовые планеты входят в Солнечную систему"
+ },
+ {
+  "source": "C.physics.planeta",
+  "target": "C.physics.sputniki-planet",
+  "type": "prerequisites_for",
+  "why": "спутники обращаются вокруг планет"
+ },
+ {
+  "source": "C.physics.sputniki-planet",
+  "target": "C.physics.solnechnaya-sistema",
+  "type": "part_of",
+  "why": "спутники входят в Солнечную систему"
+ },
+ {
+  "source": "C.physics.malye-tela-solnechnoy-sistemy",
+  "target": "C.physics.solnechnaya-sistema",
+  "type": "part_of",
+  "why": "астероиды, кометы и метеорные тела входят в систему"
+ },
+ {
+  "source": "C.physics.solntse",
+  "target": "C.physics.zvezda",
+  "type": "is_a",
+  "why": "Солнце — звезда"
+ },
+ {
+  "source": "C.physics.fotosfera-solntsa",
+  "target": "C.physics.atmosfera-solntsa",
+  "type": "part_of",
+  "why": "фотосфера — нижний слой атмосферы Солнца"
+ },
+ {
+  "source": "C.physics.atmosfera-solntsa",
+  "target": "C.physics.solntse",
+  "type": "part_of",
+  "why": "внешние слои Солнца"
+ },
+ {
+  "source": "C.physics.atmosfera-solntsa",
+  "target": "C.physics.solnechnaya-aktivnost",
+  "type": "prerequisites_for",
+  "why": "активность проявляется в атмосфере Солнца"
+ },
+ {
+  "source": "C.physics.magnitnoe-pole",
+  "target": "C.physics.solnechnaya-aktivnost",
+  "type": "prerequisites_for",
+  "why": "солнечная активность связана с магнитными полями"
+ },
+ {
+  "source": "C.physics.solntse",
+  "target": "C.physics.vnutrennee-stroenie-solntsa",
+  "type": "prerequisites_for",
+  "why": "строение Солнца"
+ },
+ {
+  "source": "C.physics.vsemirnoe-tyagotenie",
+  "target": "C.physics.uslovie-ravnovesiya-solntsa",
+  "type": "prerequisites_for",
+  "why": "тяготение уравновешивается давлением газа"
+ },
+ {
+  "source": "C.physics.davlenie-gaza",
+  "target": "C.physics.uslovie-ravnovesiya-solntsa",
+  "type": "prerequisites_for",
+  "why": "давление горячего газа противостоит тяготению"
+ },
+ {
+  "source": "C.physics.uslovie-ravnovesiya-solntsa",
+  "target": "C.physics.temperatura-v-tsentre-solntsa",
+  "type": "prerequisites_for",
+  "why": "температуру в центре оценивают из условия равновесия"
+ },
+ {
+  "source": "C.physics.temperatura-v-tsentre-solntsa",
+  "target": "C.physics.istochniki-energii-solntsa-i-zvezd",
+  "type": "prerequisites_for",
+  "why": "синтез ядер идёт при высокой температуре в центре"
+ },
+ {
+  "source": "C.physics.istochniki-energii-solntsa-i-zvezd",
+  "target": "C.physics.perenos-energii-iz-tsentra-solntsa",
+  "type": "prerequisites_for",
+  "why": "энергия выделяется в ядре Солнца"
+ },
+ {
+  "source": "C.physics.teploperedacha",
+  "target": "C.physics.perenos-energii-iz-tsentra-solntsa",
+  "type": "prerequisites_for",
+  "why": "энергия переносится излучением и конвекцией"
+ },
+ {
+  "source": "C.physics.reaktsiya-sinteza-yader",
+  "target": "C.physics.solnechnye-neytrino",
+  "type": "prerequisites_for",
+  "why": "нейтрино рождаются в термоядерных реакциях"
+ },
+ {
+  "source": "C.physics.solnechnye-neytrino",
+  "target": "C.physics.elementarnye-chastitsy",
+  "type": "is_a",
+  "why": "нейтрино — элементарная частица"
+ },
+ {
+  "source": "C.physics.vnutrennee-stroenie-solntsa",
+  "target": "C.physics.vnutrennee-stroenie-zvezd",
+  "type": "prerequisites_for",
+  "why": "Солнце — типичная звезда"
+ },
+ {
+  "source": "C.physics.zvezda",
+  "target": "C.physics.harakteristiki-zvezd",
+  "type": "prerequisites_for",
+  "why": "основные характеристики звёзд"
+ },
+ {
+  "source": "C.physics.zvezda",
+  "target": "C.physics.svetimost-zvezdy",
+  "type": "prerequisites_for",
+  "why": "светимость — мощность излучения звезды"
+ },
+ {
+  "source": "C.physics.svetimost-zvezdy",
+  "target": "C.physics.harakteristiki-zvezd",
+  "type": "part_of",
+  "why": "светимость — одна из характеристик звезды"
+ },
+ {
+  "source": "C.physics.svetimost-zvezdy",
+  "target": "C.physics.diagramma-gertsshprunga-rassela",
+  "type": "prerequisites_for",
+  "why": "по одной оси диаграммы — светимость"
+ },
+ {
+  "source": "C.physics.harakteristiki-zvezd",
+  "target": "C.physics.diagramma-gertsshprunga-rassela",
+  "type": "prerequisites_for",
+  "why": "диаграмма связывает характеристики звёзд"
+ },
+ {
+  "source": "C.physics.diagramma-gertsshprunga-rassela",
+  "target": "C.physics.zvezdy-glavnoy-posledovatelnosti",
+  "type": "prerequisites_for",
+  "why": "главная последовательность — полоса на диаграмме"
+ },
+ {
+  "source": "C.physics.zvezdy-glavnoy-posledovatelnosti",
+  "target": "C.physics.zvezda",
+  "type": "is_a",
+  "why": "группа звёзд"
+ },
+ {
+  "source": "C.physics.zvezdy-glavnoy-posledovatelnosti",
+  "target": "C.physics.zavisimost-massa-svetimost",
+  "type": "prerequisites_for",
+  "why": "зависимость выполняется для звёзд главной последовательности"
+ },
+ {
+  "source": "C.physics.massa",
+  "target": "C.physics.zavisimost-massa-svetimost",
+  "type": "prerequisites_for",
+  "why": "светимость растёт с массой звезды"
+ },
+ {
+  "source": "C.physics.zvezda",
+  "target": "C.physics.vnutrennee-stroenie-zvezd",
+  "type": "prerequisites_for",
+  "why": "строение звёзд"
+ },
+ {
+  "source": "C.physics.vsemirnoe-tyagotenie",
+  "target": "C.physics.proishozhdenie-zvezd",
+  "type": "prerequisites_for",
+  "why": "звёзды образуются при сжатии газа под действием тяготения"
+ },
+ {
+  "source": "C.physics.proishozhdenie-zvezd",
+  "target": "C.physics.evolyutsiya-zvezd",
+  "type": "prerequisites_for",
+  "why": "эволюция начинается с образования звезды"
+ },
+ {
+  "source": "C.physics.diagramma-gertsshprunga-rassela",
+  "target": "C.physics.evolyutsiya-zvezd",
+  "type": "prerequisites_for",
+  "why": "эволюцию прослеживают по диаграмме"
+ },
+ {
+  "source": "C.physics.istochniki-energii-solntsa-i-zvezd",
+  "target": "C.physics.evolyutsiya-zvezd",
+  "type": "prerequisites_for",
+  "why": "эволюция определяется выгоранием ядерного топлива"
+ },
+ {
+  "source": "C.physics.evolyutsiya-zvezd",
+  "target": "C.physics.chernaya-dyra",
+  "type": "prerequisites_for",
+  "why": "массивные звёзды заканчивают эволюцию чёрными дырами"
+ },
+ {
+  "source": "C.physics.zvezda",
+  "target": "C.physics.mlechnyy-put",
+  "type": "prerequisites_for",
+  "why": "Галактика — система звёзд"
+ },
+ {
+  "source": "C.physics.mlechnyy-put",
+  "target": "C.physics.galaktika",
+  "type": "is_a",
+  "why": "наша Галактика"
+ },
+ {
+  "source": "C.physics.mlechnyy-put",
+  "target": "C.physics.spiralnaya-struktura-galaktiki",
+  "type": "prerequisites_for",
+  "why": "структура нашей Галактики"
+ },
+ {
+  "source": "C.physics.mlechnyy-put",
+  "target": "C.physics.raspredelenie-zvezd-gaza-i-pyli-v-galaktike",
+  "type": "prerequisites_for",
+  "why": "состав нашей Галактики"
+ },
+ {
+  "source": "C.physics.mlechnyy-put",
+  "target": "C.physics.podsistemy-galaktiki",
+  "type": "prerequisites_for",
+  "why": "подсистемы нашей Галактики"
+ },
+ {
+  "source": "C.physics.mlechnyy-put",
+  "target": "C.physics.polozhenie-i-dvizhenie-solntsa-v-galaktike",
+  "type": "prerequisites_for",
+  "why": "Солнце находится в нашей Галактике"
+ },
+ {
+  "source": "C.physics.solntse",
+  "target": "C.physics.polozhenie-i-dvizhenie-solntsa-v-galaktike",
+  "type": "prerequisites_for",
+  "why": "положение Солнца в Галактике"
+ },
+ {
+  "source": "C.physics.zvezda",
+  "target": "C.physics.galaktika",
+  "type": "prerequisites_for",
+  "why": "галактика — гигантская система звёзд"
+ },
+ {
+  "source": "C.physics.radiogalaktika",
+  "target": "C.physics.galaktika",
+  "type": "is_a",
+  "why": "галактика с мощным радиоизлучением"
+ },
+ {
+  "source": "C.physics.kvazar",
+  "target": "C.physics.galaktika",
+  "type": "part_of",
+  "why": "квазар — активное ядро далёкой галактики"
+ },
+ {
+  "source": "C.physics.chernaya-dyra",
+  "target": "C.physics.kvazar",
+  "type": "prerequisites_for",
+  "why": "квазар светит за счёт вещества, падающего на чёрную дыру"
+ },
+ {
+  "source": "C.physics.galaktika",
+  "target": "C.physics.vselennaya",
+  "type": "prerequisites_for",
+  "why": "Вселенная состоит из галактик"
+ },
+ {
+  "source": "C.physics.vselennaya",
+  "target": "C.physics.rasshirenie-vselennoy",
+  "type": "prerequisites_for",
+  "why": "Вселенная расширяется"
+ },
+ {
+  "source": "C.physics.rasshirenie-vselennoy",
+  "target": "C.physics.razbeganie-galaktik",
+  "type": "prerequisites_for",
+  "why": "из-за расширения галактики удаляются друг от друга"
+ },
+ {
+  "source": "C.physics.razbeganie-galaktik",
+  "target": "C.physics.zakon-habbla",
+  "type": "prerequisites_for",
+  "why": "скорость разбегания пропорциональна расстоянию"
+ },
+ {
+  "source": "C.physics.zakon-habbla",
+  "target": "C.physics.vozrast-vselennoy",
+  "type": "prerequisites_for",
+  "why": "возраст оценивают по постоянной Хаббла"
+ },
+ {
+  "source": "C.physics.zakon-habbla",
+  "target": "C.physics.radius-vselennoy",
+  "type": "prerequisites_for",
+  "why": "радиус оценивают по закону Хаббла"
+ },
+ {
+  "source": "C.physics.skorost-sveta",
+  "target": "C.physics.radius-vselennoy",
+  "type": "prerequisites_for",
+  "why": "радиус наблюдаемой Вселенной ограничен скоростью света"
+ },
+ {
+  "source": "C.physics.rasshirenie-vselennoy",
+  "target": "C.physics.teoriya-bolshogo-vzryva",
+  "type": "prerequisites_for",
+  "why": "теория объясняет расширение Вселенной"
+ },
+ {
+  "source": "C.physics.model-goryachey-vselennoy",
+  "target": "C.physics.teoriya-bolshogo-vzryva",
+  "type": "part_of",
+  "why": "модель горячей Вселенной — часть теории"
+ },
+ {
+  "source": "C.physics.model-goryachey-vselennoy",
+  "target": "C.physics.fizicheskaya-model",
+  "type": "is_a",
+  "why": "космологическая модель"
+ },
+ {
+  "source": "C.physics.model-goryachey-vselennoy",
+  "target": "C.physics.reliktovoe-izluchenie",
+  "type": "prerequisites_for",
+  "why": "реликтовое излучение предсказано моделью горячей Вселенной"
+ },
+ {
+  "source": "C.physics.reliktovoe-izluchenie",
+  "target": "C.physics.elektromagnitnye-volny",
+  "type": "is_a",
+  "why": "микроволновое электромагнитное излучение"
+ },
+ {
+  "source": "C.physics.metagalaktika",
+  "target": "C.physics.vselennaya",
+  "type": "part_of",
+  "why": "наблюдаемая часть Вселенной"
+ },
+ {
+  "source": "C.physics.vselennaya",
+  "target": "C.physics.masshtabnaya-struktura-vselennoy",
+  "type": "prerequisites_for",
+  "why": "крупномасштабное строение Вселенной"
+ }
+]

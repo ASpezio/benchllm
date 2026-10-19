@@ -1,0 +1,1116 @@
+[
+ {
+  "source_id": "SOO.physics.ege.el.1.5.1",
+  "concepts": [
+   {
+    "name": "Гармонические колебания",
+    "type": "явление",
+    "evidence": "Гармонические колебания материальной точки",
+    "formula": "ma_{x} = -kx; F_{x} = -kx",
+    "role": "main"
+   },
+   {
+    "name": "Амплитуда колебаний",
+    "type": "величина",
+    "evidence": "Амплитуда",
+    "role": "part"
+   },
+   {
+    "name": "Фаза колебаний",
+    "type": "величина",
+    "evidence": "фаза колебаний",
+    "role": "part"
+   },
+   {
+    "name": "Уравнение гармонических колебаний",
+    "type": "закон",
+    "evidence": "Кинематическое описание",
+    "formula": "x(t) = A \\sin(\\omega t + \\varphi_{0}); a_{x}(t) = (\\upsilon_{x})_{t}^{\\prime} = -\\omega^{2} x(t) \\Rightarrow a_{x} + \\omega^{2} x = 0",
+    "role": "part"
+   },
+   {
+    "name": "Смещение из положения равновесия",
+    "type": "величина",
+    "evidence": "смещение из положения равновесия",
+    "role": "part"
+   },
+   {
+    "name": "Закон сохранения механической энергии",
+    "type": "закон",
+    "evidence": "закон сохранения механической энергии",
+    "formula": "\\frac{m\\upsilon^{2}}{2} + \\frac{kx^{2}}{2} = \\frac{m\\upsilon_{\\max}^{2}}{2} = \\frac{kA^{2}}{2} = const",
+    "role": "part"
+   },
+   {
+    "name": "Связь амплитуд колебаний величины, её скорости и ускорения",
+    "type": "закон",
+    "evidence": "Связь амплитуды колебаний смещения материальной точки с амплитудами колебаний её скорости и ускорения",
+    "formula": "\\upsilon_{\\text{max}} = \\omega A; a_{\\text{max}} = \\omega^{2} A",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.1.5.2",
+  "concepts": [
+   {
+    "name": "Период колебаний",
+    "type": "величина",
+    "evidence": "Период",
+    "formula": "T = \\frac{2\\pi}{\\omega} = \\frac{1}{\\nu}",
+    "role": "main"
+   },
+   {
+    "name": "Частота колебаний",
+    "type": "величина",
+    "evidence": "частота колебаний",
+    "role": "part"
+   },
+   {
+    "name": "Свободные колебания",
+    "type": "явление",
+    "evidence": "Период малых свободных колебаний",
+    "role": "part"
+   },
+   {
+    "name": "Математический маятник",
+    "type": "модель",
+    "evidence": "математического маятника",
+    "formula": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
+    "role": "part"
+   },
+   {
+    "name": "Пружинный маятник",
+    "type": "модель",
+    "evidence": "Период свободных колебаний пружинного маятника",
+    "formula": "T = 2\\pi \\sqrt{\\frac{m}{k}}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.1.5.3",
+  "concepts": [
+   {
+    "name": "Вынужденные колебания",
+    "type": "явление",
+    "evidence": "Вынужденные колебания",
+    "role": "main"
+   },
+   {
+    "name": "Резонанс",
+    "type": "явление",
+    "evidence": "Резонанс",
+    "role": "part"
+   },
+   {
+    "name": "Резонансная кривая",
+    "type": "понятие",
+    "evidence": "Резонансная кривая",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.1.5.4",
+  "concepts": [
+   {
+    "name": "Поперечные волны",
+    "type": "явление",
+    "evidence": "Поперечные",
+    "role": "main"
+   },
+   {
+    "name": "Продольные волны",
+    "type": "явление",
+    "evidence": "продольные волны",
+    "role": "part"
+   },
+   {
+    "name": "Скорость распространения волны",
+    "type": "величина",
+    "evidence": "Скорость распространения",
+    "role": "part"
+   },
+   {
+    "name": "Длина волны",
+    "type": "величина",
+    "evidence": "длина волны",
+    "formula": "\\lambda = \\upsilon T = \\frac{\\upsilon}{\\nu}",
+    "role": "part"
+   },
+   {
+    "name": "Интерференция волн",
+    "type": "явление",
+    "evidence": "Интерференция",
+    "role": "part"
+   },
+   {
+    "name": "Дифракция волн",
+    "type": "явление",
+    "evidence": "дифракция волн",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.1.5.5",
+  "concepts": [
+   {
+    "name": "Звук",
+    "type": "явление",
+    "evidence": "Звук",
+    "role": "main"
+   },
+   {
+    "name": "Скорость звука",
+    "type": "величина",
+    "evidence": "Скорость звука",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.3.1",
+  "concepts": [
+   {
+    "name": "Взаимодействие магнитов",
+    "type": "явление",
+    "evidence": "Механическое взаимодействие магнитов",
+    "role": "main"
+   },
+   {
+    "name": "Магнитное поле",
+    "type": "понятие",
+    "evidence": "Магнитное поле",
+    "role": "part"
+   },
+   {
+    "name": "Магнитная индукция",
+    "type": "величина",
+    "evidence": "Вектор магнитной индукции",
+    "aliases": [
+     "Вектор магнитной индукции"
+    ],
+    "role": "part"
+   },
+   {
+    "name": "Принцип суперпозиции магнитных полей",
+    "type": "закон",
+    "evidence": "Принцип суперпозиции магнитных полей",
+    "formula": "\\vec{B} = \\vec{B}_{1} + \\vec{B}_{2} + \\ldots",
+    "role": "part"
+   },
+   {
+    "name": "Линии магнитной индукции",
+    "type": "понятие",
+    "evidence": "Линии индукции магнитного поля",
+    "role": "part"
+   },
+   {
+    "name": "Магнитное поле постоянного магнита",
+    "type": "понятие",
+    "evidence": "Картина линий индукции магнитного поля полосового и подковообразного постоянных магнитов",
+    "role": "part"
+   },
+   {
+    "name": "Постоянный магнит",
+    "type": "понятие",
+    "evidence": "постоянных магнитов",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.3.2",
+  "concepts": [
+   {
+    "name": "Опыт Эрстеда",
+    "type": "опыт",
+    "evidence": "Опыт Эрстеда",
+    "role": "main"
+   },
+   {
+    "name": "Магнитное поле электрического тока",
+    "type": "явление",
+    "evidence": "Магнитное поле проводника с током",
+    "role": "part"
+   },
+   {
+    "name": "Магнитное поле прямого проводника с током",
+    "type": "понятие",
+    "evidence": "длинного прямого проводника",
+    "role": "part"
+   },
+   {
+    "name": "Магнитное поле кругового тока",
+    "type": "понятие",
+    "evidence": "замкнутого кольцевого проводника",
+    "role": "part"
+   },
+   {
+    "name": "Магнитное поле катушки с током",
+    "type": "понятие",
+    "evidence": "катушки с током",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.3.3",
+  "concepts": [
+   {
+    "name": "Сила Ампера",
+    "type": "величина",
+    "evidence": "Сила Ампера, её направление и величина",
+    "formula": "F_{\\text{А}} = IBl \\sin \\alpha",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.3.4",
+  "concepts": [
+   {
+    "name": "Сила Лоренца",
+    "type": "величина",
+    "evidence": "Сила Лоренца, её направление и величина",
+    "formula": "F_{\\text{Лор}} = \\vert q\\vert \\upsilon B \\sin \\alpha",
+    "role": "main"
+   },
+   {
+    "name": "Движение заряженной частицы в однородном магнитном поле",
+    "type": "явление",
+    "evidence": "Движение заряженной частицы в однородном магнитном поле",
+    "role": "part"
+   },
+   {
+    "name": "Однородное магнитное поле",
+    "type": "понятие",
+    "evidence": "однородном магнитном поле",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.4.1",
+  "concepts": [
+   {
+    "name": "Магнитный поток",
+    "type": "величина",
+    "evidence": "Поток вектора магнитной индукции",
+    "formula": "\\Phi = B_{n}S = BS \\cos \\alpha",
+    "aliases": [
+     "Поток вектора магнитной индукции"
+    ],
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.4.2",
+  "concepts": [
+   {
+    "name": "Электромагнитная индукция",
+    "type": "явление",
+    "evidence": "Явление электромагнитной индукции",
+    "role": "main"
+   },
+   {
+    "name": "ЭДС индукции",
+    "type": "величина",
+    "evidence": "ЭДС индукции",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.4.3",
+  "concepts": [
+   {
+    "name": "Закон электромагнитной индукции",
+    "type": "закон",
+    "evidence": "Закон электромагнитной индукции Фарадея",
+    "formula": "\\left. \\mathcal{E}_{i} = -\\frac{\\Delta \\Phi}{\\Delta t} \\right\\vert_{\\Delta t \\to 0} = -\\Phi'_{t}",
+    "aliases": [
+     "Закон электромагнитной индукции Фарадея"
+    ],
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.4.4",
+  "concepts": [
+   {
+    "name": "ЭДС индукции в движущемся проводнике",
+    "type": "величина",
+    "evidence": "ЭДС индукции в прямом проводнике длиной l",
+    "formula": "\\vert \\mathcal{E}_{i}\\vert = Bl\\upsilon \\cos \\alpha; \\vert \\mathcal{E}_{i}\\vert = Bl\\upsilon",
+    "role": "main"
+   },
+   {
+    "name": "Однородное магнитное поле",
+    "type": "понятие",
+    "evidence": "в однородном магнитном поле",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.4.5",
+  "concepts": [
+   {
+    "name": "Правило Ленца",
+    "type": "закон",
+    "evidence": "Правило Ленца",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.4.6",
+  "concepts": [
+   {
+    "name": "Индуктивность",
+    "type": "величина",
+    "evidence": "Индуктивность",
+    "formula": "L = \\frac{\\Phi}{I}; \\Phi = LI",
+    "role": "main"
+   },
+   {
+    "name": "Самоиндукция",
+    "type": "явление",
+    "evidence": "Самоиндукция",
+    "role": "part"
+   },
+   {
+    "name": "ЭДС самоиндукции",
+    "type": "величина",
+    "evidence": "ЭДС самоиндукции",
+    "formula": "\\mathcal{E}_{si} = -L \\frac{\\Delta I}{\\Delta t} \\bigg\\vert_{\\Delta t \\to 0} = -LI'_t",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.4.7",
+  "concepts": [
+   {
+    "name": "Энергия магнитного поля катушки с током",
+    "type": "величина",
+    "evidence": "Энергия магнитного поля катушки с током",
+    "formula": "W_L = \\frac{LI^2}{2}",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.5.1",
+  "concepts": [
+   {
+    "name": "Колебательный контур",
+    "type": "понятие",
+    "evidence": "Колебательный контур",
+    "role": "main"
+   },
+   {
+    "name": "Свободные электромагнитные колебания",
+    "type": "явление",
+    "evidence": "Свободные электромагнитные колебания",
+    "formula": "q(t) = q_{\\max} \\sin(\\omega t + \\varphi_0); I(t) = q'_t = \\omega q_{\\max} \\cos(\\omega t + \\varphi_0) = I_{\\max} \\cos(\\omega t + \\varphi_0)",
+    "role": "part"
+   },
+   {
+    "name": "Идеальный колебательный контур",
+    "type": "модель",
+    "evidence": "в идеальном колебательном контуре",
+    "role": "part"
+   },
+   {
+    "name": "Формула Томсона",
+    "type": "закон",
+    "evidence": "Формула Томсона",
+    "formula": "T = 2\\pi \\sqrt{LC}; \\omega = \\frac{2\\pi}{T} = \\frac{1}{\\sqrt{LC}}",
+    "role": "part"
+   },
+   {
+    "name": "Связь амплитуд заряда и силы тока в колебательном контуре",
+    "type": "закон",
+    "evidence": "Связь амплитуды заряда конденсатора с амплитудой силы тока",
+    "formula": "q_{\\max} = \\frac{I_{\\max}}{\\omega}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.5.2",
+  "concepts": [
+   {
+    "name": "Закон сохранения энергии в колебательном контуре",
+    "type": "закон",
+    "evidence": "Закон сохранения энергии в идеальном колебательном контуре",
+    "formula": "\\frac{CU^2}{2} + \\frac{LI^2}{2} = \\frac{CU^2_{\\max}}{2} = \\frac{LI^2_{\\max}}{2} = const",
+    "role": "main"
+   },
+   {
+    "name": "Идеальный колебательный контур",
+    "type": "модель",
+    "evidence": "идеальном колебательном контуре",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.5.3",
+  "concepts": [
+   {
+    "name": "Вынужденные электромагнитные колебания",
+    "type": "явление",
+    "evidence": "Вынужденные электромагнитные колебания",
+    "role": "main"
+   },
+   {
+    "name": "Резонанс",
+    "type": "явление",
+    "evidence": "Резонанс",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.5.4",
+  "concepts": [
+   {
+    "name": "Переменный ток",
+    "type": "явление",
+    "evidence": "Переменный ток",
+    "role": "main"
+   },
+   {
+    "name": "Получение электрической энергии",
+    "type": "понятие",
+    "evidence": "Производство",
+    "role": "part"
+   },
+   {
+    "name": "Передача электрической энергии",
+    "type": "понятие",
+    "evidence": "передача",
+    "role": "part"
+   },
+   {
+    "name": "Потребление электрической энергии",
+    "type": "понятие",
+    "evidence": "потребление электрической энергии",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.5.5",
+  "concepts": [
+   {
+    "name": "Свойства электромагнитных волн",
+    "type": "понятие",
+    "evidence": "Свойства электромагнитных волн",
+    "role": "main"
+   },
+   {
+    "name": "Взаимная ориентация векторов E, B и v в электромагнитной волне",
+    "type": "понятие",
+    "evidence": "Взаимная ориентация векторов в электромагнитной волне в вакууме",
+    "formula": "\\vec{E} \\perp \\vec{B} \\perp \\vec{c}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.5.6",
+  "concepts": [
+   {
+    "name": "Шкала электромагнитных волн",
+    "type": "понятие",
+    "evidence": "Шкала электромагнитных волн",
+    "role": "main"
+   },
+   {
+    "name": "Применение электромагнитных волн",
+    "type": "понятие",
+    "evidence": "Применение электромагнитных волн в технике и быту",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.1",
+  "concepts": [
+   {
+    "name": "Прямолинейное распространение света",
+    "type": "закон",
+    "evidence": "Прямолинейное распространение света в однородной среде",
+    "role": "main"
+   },
+   {
+    "name": "Точечный источник света",
+    "type": "модель",
+    "evidence": "Точечный источник",
+    "role": "part"
+   },
+   {
+    "name": "Луч света",
+    "type": "понятие",
+    "evidence": "Луч света",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.10",
+  "concepts": [
+   {
+    "name": "Интерференция света",
+    "type": "явление",
+    "evidence": "Интерференция света",
+    "role": "main"
+   },
+   {
+    "name": "Когерентные источники",
+    "type": "понятие",
+    "evidence": "Когерентные источники",
+    "role": "part"
+   },
+   {
+    "name": "Условия интерференционных максимумов и минимумов",
+    "type": "закон",
+    "evidence": "Условия наблюдения максимумов и минимумов в интерференционной картине",
+    "formula": "\\Delta = 2m\\frac{\\lambda}{2}; \\Delta = (2m + 1)\\frac{\\lambda}{2}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.11",
+  "concepts": [
+   {
+    "name": "Дифракция света",
+    "type": "явление",
+    "evidence": "Дифракция света",
+    "role": "main"
+   },
+   {
+    "name": "Дифракционная решётка",
+    "type": "прибор",
+    "evidence": "Дифракционная решётка",
+    "role": "part"
+   },
+   {
+    "name": "Условие главных максимумов дифракционной решётки",
+    "type": "закон",
+    "evidence": "Условие наблюдения главных максимумов",
+    "formula": "d \\sin\\varphi_{m} = m\\lambda",
+    "role": "part"
+   },
+   {
+    "name": "Монохроматический свет",
+    "type": "понятие",
+    "evidence": "монохроматического света",
+    "role": "part"
+   },
+   {
+    "name": "Период дифракционной решётки",
+    "type": "величина",
+    "evidence": "на решётку с периодом d",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.12",
+  "concepts": [
+   {
+    "name": "Дисперсия света",
+    "type": "явление",
+    "evidence": "Дисперсия света",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.2",
+  "concepts": [
+   {
+    "name": "Закон отражения света",
+    "type": "закон",
+    "evidence": "Законы отражения света",
+    "formula": "\\alpha = \\beta",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.3",
+  "concepts": [
+   {
+    "name": "Плоское зеркало",
+    "type": "прибор",
+    "evidence": "Построение изображений в плоском зеркале",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.4",
+  "concepts": [
+   {
+    "name": "Закон преломления света",
+    "type": "закон",
+    "evidence": "Законы преломления света",
+    "formula": "n_1 \\sin \\alpha = n_2 \\sin \\beta",
+    "role": "main"
+   },
+   {
+    "name": "Преломление света",
+    "type": "явление",
+    "evidence": "Преломление света",
+    "role": "part"
+   },
+   {
+    "name": "Абсолютный показатель преломления",
+    "type": "величина",
+    "evidence": "Абсолютный показатель преломления",
+    "formula": "n_{\\text{абс}} = \\frac{c}{\\upsilon}",
+    "role": "part"
+   },
+   {
+    "name": "Относительный показатель преломления",
+    "type": "величина",
+    "evidence": "Относительный показатель преломления",
+    "formula": "n_{\\text{отн}} = \\frac{n_2}{n_1} = \\frac{\\upsilon_1}{\\upsilon_2}",
+    "role": "part"
+   },
+   {
+    "name": "Ход лучей в призме",
+    "type": "понятие",
+    "evidence": "Ход лучей в призме",
+    "role": "part"
+   },
+   {
+    "name": "Частота и длина волны света при переходе через границу сред",
+    "type": "закон",
+    "evidence": "Соотношение частот и соотношение длин волн при переходе монохроматического света через границу раздела двух оптических сред",
+    "formula": "\\nu_{1} = \\nu_{2}; n_{1}\\lambda_{1} = n_{2}\\lambda_{2}",
+    "role": "part"
+   },
+   {
+    "name": "Монохроматический свет",
+    "type": "понятие",
+    "evidence": "монохроматического света",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.5",
+  "concepts": [
+   {
+    "name": "Полное внутреннее отражение света",
+    "type": "явление",
+    "evidence": "Полное внутреннее отражение",
+    "role": "main"
+   },
+   {
+    "name": "Предельный угол полного внутреннего отражения",
+    "type": "величина",
+    "evidence": "Предельный угол полного внутреннего отражения",
+    "formula": "\\sin\\alpha_{\\text{пр}} = \\frac{1}{n_{\\text{отн}}} = \\frac{n_{2}}{n_{1}}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.6",
+  "concepts": [
+   {
+    "name": "Линза",
+    "type": "прибор",
+    "evidence": "Собирающие и рассеивающие линзы",
+    "role": "main"
+   },
+   {
+    "name": "Собирающая линза",
+    "type": "прибор",
+    "evidence": "Собирающие",
+    "role": "part"
+   },
+   {
+    "name": "Рассеивающая линза",
+    "type": "прибор",
+    "evidence": "рассеивающие линзы",
+    "role": "part"
+   },
+   {
+    "name": "Тонкая линза",
+    "type": "модель",
+    "evidence": "Тонкая линза",
+    "role": "part"
+   },
+   {
+    "name": "Фокусное расстояние линзы",
+    "type": "величина",
+    "evidence": "Фокусное расстояние",
+    "role": "part"
+   },
+   {
+    "name": "Оптическая сила линзы",
+    "type": "величина",
+    "evidence": "оптическая сила тонкой линзы",
+    "formula": "D = \\frac{1}{F}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.7",
+  "concepts": [
+   {
+    "name": "Формула тонкой линзы",
+    "type": "закон",
+    "evidence": "Формула тонкой линзы",
+    "formula": "\\frac{1}{d} + \\frac{1}{f} = \\frac{1}{F}",
+    "role": "main"
+   },
+   {
+    "name": "Увеличение линзы",
+    "type": "величина",
+    "evidence": "Увеличение, даваемое линзой",
+    "formula": "\\Gamma = \\frac{h}{H} = \\frac{\\vert f\\vert}{d}",
+    "role": "part"
+   },
+   {
+    "name": "Рассеивающая линза",
+    "type": "прибор",
+    "evidence": "В случае рассеивающей линзы",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.8",
+  "concepts": [
+   {
+    "name": "Ход лучей в линзе",
+    "type": "понятие",
+    "evidence": "Ход луча, прошедшего линзу под произвольным углом к её главной оптической оси",
+    "role": "main"
+   },
+   {
+    "name": "Главная оптическая ось линзы",
+    "type": "понятие",
+    "evidence": "главной оптической оси",
+    "role": "part"
+   },
+   {
+    "name": "Оптическая система",
+    "type": "понятие",
+    "evidence": "и их системах",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.3.6.9",
+  "concepts": [
+   {
+    "name": "Фотоаппарат",
+    "type": "прибор",
+    "evidence": "Фотоаппарат как оптический прибор",
+    "role": "main"
+   },
+   {
+    "name": "Оптический прибор",
+    "type": "прибор",
+    "evidence": "оптический прибор",
+    "role": "part"
+   },
+   {
+    "name": "Глаз",
+    "type": "понятие",
+    "evidence": "Глаз как оптическая система",
+    "role": "part"
+   },
+   {
+    "name": "Оптическая система",
+    "type": "понятие",
+    "evidence": "оптическая система",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.1.1",
+  "concepts": [
+   {
+    "name": "Гипотеза Планка о квантах",
+    "type": "понятие",
+    "evidence": "Гипотеза М. Планка о квантах",
+    "role": "main"
+   },
+   {
+    "name": "Квант",
+    "type": "понятие",
+    "evidence": "о квантах",
+    "role": "part"
+   },
+   {
+    "name": "Формула Планка",
+    "type": "закон",
+    "evidence": "Формула Планка",
+    "formula": "E = h\\nu",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.1.2",
+  "concepts": [
+   {
+    "name": "Фотон",
+    "type": "понятие",
+    "evidence": "Фотоны",
+    "role": "main"
+   },
+   {
+    "name": "Энергия фотона",
+    "type": "величина",
+    "evidence": "Энергия фотона",
+    "formula": "E = h\\nu = \\frac{hc}{\\lambda} = pc",
+    "role": "part"
+   },
+   {
+    "name": "Импульс фотона",
+    "type": "величина",
+    "evidence": "Импульс фотона",
+    "formula": "p = \\frac{E}{c} = \\frac{h\\nu}{c} = \\frac{h}{\\lambda}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.1.3",
+  "concepts": [
+   {
+    "name": "Фотоэффект",
+    "type": "явление",
+    "evidence": "Фотоэффект",
+    "role": "main"
+   },
+   {
+    "name": "Опыты Столетова",
+    "type": "опыт",
+    "evidence": "Опыты А.Г. Столетова",
+    "role": "part"
+   },
+   {
+    "name": "Законы фотоэффекта",
+    "type": "закон",
+    "evidence": "Законы фотоэффекта",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.1.4",
+  "concepts": [
+   {
+    "name": "Уравнение Эйнштейна для фотоэффекта",
+    "type": "закон",
+    "evidence": "Уравнение Эйнштейна для фотоэффекта",
+    "formula": "E_{\\text{фотона}} = A_{\\text{выхода}} + E_{\\text{кин max}}",
+    "role": "main"
+   },
+   {
+    "name": "Работа выхода",
+    "type": "величина",
+    "evidence": "A_{\\text{выхода}} = h\\nu_{\\text{кр}} = \\frac{hc}{\\lambda_{\\text{кр}}}",
+    "formula": "A_{\\text{выхода}} = h\\nu_{\\text{кр}} = \\frac{hc}{\\lambda_{\\text{кр}}}",
+    "role": "part"
+   },
+   {
+    "name": "Запирающее напряжение",
+    "type": "величина",
+    "evidence": "E_{\\text{кин max}} = \\frac{m\\upsilon_{\\text{max}}^2}{2} = eU_{\\text{зап}}",
+    "formula": "E_{\\text{кин max}} = \\frac{m\\upsilon_{\\text{max}}^2}{2} = eU_{\\text{зап}}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.1.5",
+  "concepts": [
+   {
+    "name": "Давление света",
+    "type": "явление",
+    "evidence": "Давление света",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.2.1",
+  "concepts": [
+   {
+    "name": "Планетарная модель атома",
+    "type": "модель",
+    "evidence": "Планетарная модель атома",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.2.2",
+  "concepts": [
+   {
+    "name": "Постулаты Бора",
+    "type": "закон",
+    "evidence": "Постулаты Бора",
+    "formula": "h\\nu_{mn} = \\frac{hc}{\\lambda_{mn}} = \\vert E_n - E_m\\vert",
+    "role": "main"
+   },
+   {
+    "name": "Испускание света атомом",
+    "type": "явление",
+    "evidence": "Излучение и поглощение фотонов",
+    "role": "part"
+   },
+   {
+    "name": "Поглощение света атомом",
+    "type": "явление",
+    "evidence": "поглощение фотонов при переходе атома",
+    "role": "part"
+   },
+   {
+    "name": "Уровни энергии атома",
+    "type": "понятие",
+    "evidence": "с одного уровня энергии на другой",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.2.3",
+  "concepts": [
+   {
+    "name": "Линейчатый спектр",
+    "type": "понятие",
+    "evidence": "Линейчатые спектры",
+    "role": "main"
+   },
+   {
+    "name": "Спектр уровней энергии атома водорода",
+    "type": "понятие",
+    "evidence": "Спектр уровней энергии атома водорода",
+    "formula": "E_n = \\frac{-13,6 \\text{ эВ}}{n^2}",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.3.1",
+  "concepts": [
+   {
+    "name": "Нуклонная модель атомного ядра",
+    "type": "модель",
+    "evidence": "Нуклонная модель ядра Гейзенберга – Иваненко",
+    "role": "main"
+   },
+   {
+    "name": "Зарядовое число",
+    "type": "величина",
+    "evidence": "Заряд ядра",
+    "aliases": [
+     "Заряд ядра"
+    ],
+    "role": "part"
+   },
+   {
+    "name": "Массовое число",
+    "type": "величина",
+    "evidence": "Массовое число ядра",
+    "role": "part"
+   },
+   {
+    "name": "Изотопы",
+    "type": "понятие",
+    "evidence": "Изотопы",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.3.2",
+  "concepts": [
+   {
+    "name": "Радиоактивность",
+    "type": "явление",
+    "evidence": "Радиоактивность",
+    "role": "main"
+   },
+   {
+    "name": "Альфа-распад",
+    "type": "явление",
+    "evidence": "Альфа-распад",
+    "formula": "{}^{A}_{Z}\\mathrm{X} \\to {}^{A-4}_{Z-2}\\mathrm{Y} + {}^{4}_{2}\\mathrm{He}",
+    "role": "part"
+   },
+   {
+    "name": "Бета-распад",
+    "type": "явление",
+    "evidence": "Бета-распад",
+    "formula": "{}^{A}_{Z}\\mathrm{X} \\to {}^{A}_{Z+1}\\mathrm{Y} + {}^{0}_{-1}e + \\tilde{\\nu}_e; {}^{A}_{Z}\\mathrm{X} \\to {}^{A}_{Z-1}\\mathrm{Y} + {}^{0}_{+1}\\tilde{e} + \\nu_e",
+    "role": "part"
+   },
+   {
+    "name": "Гамма-излучение",
+    "type": "явление",
+    "evidence": "Гамма-излучение",
+    "role": "part"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.3.3",
+  "concepts": [
+   {
+    "name": "Закон радиоактивного распада",
+    "type": "закон",
+    "evidence": "Закон радиоактивного распада",
+    "formula": "N(t) = N_0 \\cdot 2^{-\\frac{t}{T}}; m(t) = m_0 \\cdot 2^{-\\frac{t}{T}}",
+    "role": "main"
+   }
+  ]
+ },
+ {
+  "source_id": "SOO.physics.ege.el.4.3.4",
+  "concepts": [
+   {
+    "name": "Ядерная реакция",
+    "type": "явление",
+    "evidence": "Ядерные реакции",
+    "role": "main"
+   },
+   {
+    "name": "Реакция деления ядер",
+    "type": "явление",
+    "evidence": "Деление",
+    "role": "part"
+   },
+   {
+    "name": "Реакция синтеза ядер",
+    "type": "явление",
+    "evidence": "синтез ядер",
+    "role": "part"
+   }
+  ]
+ }
+]

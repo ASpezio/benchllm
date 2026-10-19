@@ -1,0 +1,30 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.3.6.6", "concepts": [
+  {"name": "Линза", "type": "прибор", "evidence": "Собирающие и рассеивающие линзы", "role": "main"},
+  {"name": "Собирающая линза", "type": "прибор", "evidence": "Собирающие", "role": "part"},
+  {"name": "Рассеивающая линза", "type": "прибор", "evidence": "рассеивающие линзы", "role": "part"},
+  {"name": "Тонкая линза", "type": "модель", "evidence": "Тонкая линза", "role": "part"},
+  {"name": "Фокусное расстояние линзы", "type": "величина", "evidence": "Фокусное расстояние", "role": "part"},
+  {"name": "Оптическая сила линзы", "type": "величина", "evidence": "оптическая сила тонкой линзы", "formula": "D = \\frac{1}{F}", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.6.7", "concepts": [
+  {"name": "Формула тонкой линзы", "type": "закон", "evidence": "Формула тонкой линзы", "formula": "\\frac{1}{d} + \\frac{1}{f} = \\frac{1}{F}", "role": "main"},
+  {"name": "Увеличение линзы", "type": "величина", "evidence": "Увеличение, даваемое линзой", "formula": "\\Gamma = \\frac{h}{H} = \\frac{\\vert f\\vert}{d}", "role": "part"},
+  {"name": "Рассеивающая линза", "type": "прибор", "evidence": "В случае рассеивающей линзы", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.6.8", "concepts": [
+  {"name": "Ход лучей в линзе", "type": "понятие", "evidence": "Ход луча, прошедшего линзу под произвольным углом к её главной оптической оси", "role": "main"},
+  {"name": "Главная оптическая ось линзы", "type": "понятие", "evidence": "главной оптической оси", "role": "part"},
+  {"name": "Оптическая система", "type": "понятие", "evidence": "и их системах", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.6.9", "concepts": [
+  {"name": "Фотоаппарат", "type": "прибор", "evidence": "Фотоаппарат как оптический прибор", "role": "main"},
+  {"name": "Оптический прибор", "type": "прибор", "evidence": "оптический прибор", "role": "part"},
+  {"name": "Глаз", "type": "понятие", "evidence": "Глаз как оптическая система", "role": "part"},
+  {"name": "Оптическая система", "type": "понятие", "evidence": "оптическая система", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.4.1.1", "concepts": [
+  {"name": "Гипотеза Планка о квантах", "type": "понятие", "evidence": "Гипотеза М. Планка о квантах", "role": "main"},
+  {"name": "Квант", "type": "понятие", "evidence": "о квантах", "role": "part"},
+  {"name": "Формула Планка", "type": "закон", "evidence": "Формула Планка", "formula": "E = h\\nu", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.4.1.2", "concepts": [
+  {"name": "Фотон", "type": "понятие", "evidence": "Фотоны", "role": "main"},
+  {"name": "Энергия фотона", "type": "величина", "evidence": "Энергия фотона", "formula": "E = h\\nu = \\frac{hc}{\\lambda} = pc", "role": "part"},
+  {"name": "Импульс фотона", "type": "величина", "evidence": "Импульс фотона", "formula": "p = \\frac{E}{c} = \\frac{h\\nu}{c} = \\frac{h}{\\lambda}", "role": "part"}]}
+]}

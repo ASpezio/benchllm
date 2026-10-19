@@ -1,0 +1,28 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.1.1.7", "concepts": [
+  {"name": "Свободное падение", "type": "явление", "evidence": "Свободное падение", "role": "main"},
+  {"name": "Ускорение свободного падения", "type": "величина", "evidence": "Ускорение свободного падения", "formula": "g_x = 0; g_y = -g = const", "role": "part"},
+  {"name": "Движение тела, брошенного под углом к горизонту", "type": "явление", "evidence": "Движение тела, брошенного под углом", "formula": "x(t) = x_0 + \\upsilon_{0x} t = x_0 + \\upsilon_0 \\cos \\alpha \\cdot t; y(t) = y_0 + \\upsilon_{0y} t + \\frac{g_y t^2}{2} = y_0 + \\upsilon_0 \\sin \\alpha \\cdot t - \\frac{gt^2}{2}; \\upsilon_x(t) = \\upsilon_{0x} = \\upsilon_0 \\cos \\alpha; \\upsilon_y(t) = \\upsilon_{0y} + g_y t = \\upsilon_0 \\sin \\alpha - gt", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.1.8", "concepts": [
+  {"name": "Криволинейное движение", "type": "явление", "evidence": "Криволинейное движение", "role": "main"},
+  {"name": "Движение по окружности", "type": "явление", "evidence": "Движение материальной точки по окружности", "role": "part"},
+  {"name": "Угловая скорость", "type": "величина", "evidence": "Угловая и линейная скорость точки", "formula": "\\omega = \\frac{2\\pi}{T} = 2\\pi\\nu", "role": "part"},
+  {"name": "Линейная скорость", "type": "величина", "evidence": "линейная скорость точки", "formula": "\\upsilon = \\omega R", "role": "part"},
+  {"name": "Равномерное движение по окружности", "type": "явление", "evidence": "При равномерном движении точки по окружности", "role": "part"},
+  {"name": "Центростремительное ускорение", "type": "величина", "evidence": "Центростремительное ускорение точки", "formula": "a_{\\text{цс}} = \\frac{\\upsilon^2}{R} = \\omega^2 R", "role": "part"},
+  {"name": "Полное ускорение", "type": "величина", "evidence": "Полное ускорение материальной точки", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.1.9", "concepts": [
+  {"name": "Абсолютно твёрдое тело", "type": "модель", "evidence": "Твёрдое тело", "role": "main"},
+  {"name": "Поступательное движение", "type": "явление", "evidence": "Поступательное и вращательное движение твёрдого тела", "role": "part"},
+  {"name": "Вращательное движение", "type": "явление", "evidence": "вращательное движение твёрдого тела", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.2.1", "concepts": [
+  {"name": "Инерциальная система отсчёта", "type": "понятие", "evidence": "Инерциальные системы отсчёта", "role": "main"},
+  {"name": "Первый закон Ньютона", "type": "закон", "evidence": "Первый закон Ньютона", "role": "part"},
+  {"name": "Принцип относительности Галилея", "type": "закон", "evidence": "Принцип относительности Галилея", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.2.2", "concepts": [
+  {"name": "Масса", "type": "величина", "evidence": "Масса тела", "role": "main"},
+  {"name": "Плотность вещества", "type": "величина", "evidence": "Плотность вещества", "formula": "\\rho = \\frac{m}{V}", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.2.3", "concepts": [
+  {"name": "Сила", "type": "величина", "evidence": "Сила", "role": "main"},
+  {"name": "Принцип суперпозиции сил", "type": "закон", "evidence": "Принцип суперпозиции сил", "formula": "\\vec{F}_{\\text{равнодейств}} = \\vec{F}_1 + \\vec{F}_2 +...", "role": "part"}]}
+]}

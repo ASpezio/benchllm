@@ -1,8 +1,8 @@
 {
- "nodes": 3884,
- "edges": 9396,
+ "nodes": 5950,
+ "edges": 16407,
  "node_types": {
-  "concept": 1422,
+  "concept": 3488,
   "lesson": 867,
   "element": 627,
   "requirement": 410,
@@ -16,24 +16,31 @@
   "subject": 2
  },
  "edge_types": {
+  "mentions": 5590,
+  "prerequisites_for": 2792,
   "is_part_of": 2460,
-  "mentions": 1928,
-  "prerequisites_for": 1014,
+  "part_of": 1583,
   "appears_in": 923,
   "next": 855,
   "tested_by": 727,
-  "part_of": 571,
+  "is_a": 512,
   "assessed_by": 418,
-  "is_a": 176,
-  "participant_of": 155,
-  "reviewed_in": 108,
-  "verifies": 61
+  "participant_of": 303,
+  "verifies": 136,
+  "reviewed_in": 108
  },
  "relation_files": [
+  "связи/история_10/out_история_10.json",
+  "связи/история_11/out_история_11.json",
   "связи/история_6/out_история_6.json",
   "связи/история_7/out_история_7.json",
+  "связи/история_8/out_история_8.json",
+  "связи/история_9/out_история_9.json",
   "связи/пилот/out_история_5.json",
-  "связи/пилот/out_физика_7-8.json"
+  "связи/пилот/out_физика_7-8.json",
+  "связи/физика_10/out_физика_10.json",
+  "связи/физика_11/out_физика_11.json",
+  "связи/физика_9/out_физика_9.json"
  ],
- "order_issues": 32
+ "order_issues": 79
 }

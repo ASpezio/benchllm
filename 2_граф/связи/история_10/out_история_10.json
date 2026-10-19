@@ -1,0 +1,3380 @@
+[
+ {
+  "source": "C.history.novoe-vremya",
+  "target": "C.history.noveyshee-vremya",
+  "type": "prerequisites_for",
+  "why": "Новейшее время пришло на смену Новому времени"
+ },
+ {
+  "source": "C.history.noveyshee-vremya",
+  "target": "C.history.periodizatsiya-noveyshey-istorii",
+  "type": "prerequisites_for",
+  "why": "периодизация делит Новейшее время на этапы"
+ },
+ {
+  "source": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "target": "C.history.mir-v-nachale-xx-veka",
+  "type": "prerequisites_for",
+  "why": "мир начала XX в. сложился в ходе развития конца XIX в."
+ },
+ {
+  "source": "C.history.mir-v-nachale-xx-veka",
+  "target": "C.history.noveyshee-vremya",
+  "type": "part_of",
+  "why": "начало XX в. открывает Новейшее время"
+ },
+ {
+  "source": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "target": "C.history.sotsialnaya-struktura-obschestva",
+  "type": "is_a",
+  "why": "социальная структура общества в России"
+ },
+ {
+  "source": "C.history.liberalizm",
+  "target": "C.history.politicheskie-techeniya",
+  "type": "is_a",
+  "why": "одно из политических течений"
+ },
+ {
+  "source": "C.history.konservatizm",
+  "target": "C.history.politicheskie-techeniya",
+  "type": "is_a",
+  "why": "одно из политических течений"
+ },
+ {
+  "source": "C.history.sotsial-demokratiya",
+  "target": "C.history.politicheskie-techeniya",
+  "type": "is_a",
+  "why": "одно из политических течений"
+ },
+ {
+  "source": "C.history.radikalizm",
+  "target": "C.history.politicheskie-techeniya",
+  "type": "is_a",
+  "why": "одно из политических течений"
+ },
+ {
+  "source": "C.history.anarhizm",
+  "target": "C.history.politicheskie-techeniya",
+  "type": "is_a",
+  "why": "одно из политических течений"
+ },
+ {
+  "source": "C.history.russkiy-anarhizm",
+  "target": "C.history.anarhizm",
+  "type": "is_a",
+  "why": "анархизм в России"
+ },
+ {
+  "source": "C.history.sotsializm",
+  "target": "C.history.sotsialisticheskoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "социалистическое движение боролось за идеи социализма"
+ },
+ {
+  "source": "C.history.sotsialisticheskie-partii",
+  "target": "C.history.sotsialisticheskoe-dvizhenie",
+  "type": "part_of",
+  "why": "партии — организации социалистического движения"
+ },
+ {
+  "source": "C.history.kolonialnaya-imperiya",
+  "target": "C.history.imperializm",
+  "type": "prerequisites_for",
+  "why": "империализм — политика создания и расширения империй"
+ },
+ {
+  "source": "C.history.imperializm",
+  "target": "C.history.mir-v-nachale-xx-veka",
+  "type": "part_of",
+  "why": "эпоха империализма в начале XX в."
+ },
+ {
+  "source": "C.history.troystvennyy-soyuz",
+  "target": "C.history.voenno-politicheskie-bloki",
+  "type": "is_a",
+  "why": "блок Германии, Австро-Венгрии и Италии"
+ },
+ {
+  "source": "C.history.antanta",
+  "target": "C.history.voenno-politicheskie-bloki",
+  "type": "is_a",
+  "why": "блок Великобритании, Франции и России"
+ },
+ {
+  "source": "C.history.germanskaya-imperiya",
+  "target": "C.history.troystvennyy-soyuz",
+  "type": "part_of",
+  "why": "Германия — главная сила Тройственного союза"
+ },
+ {
+  "source": "C.history.avstro-vengriya",
+  "target": "C.history.troystvennyy-soyuz",
+  "type": "part_of",
+  "why": "участница Тройственного союза"
+ },
+ {
+  "source": "C.history.italiya",
+  "target": "C.history.troystvennyy-soyuz",
+  "type": "part_of",
+  "why": "участница Тройственного союза до 1915 г."
+ },
+ {
+  "source": "C.history.velikobritaniya",
+  "target": "C.history.antanta",
+  "type": "part_of",
+  "why": "участница Антанты"
+ },
+ {
+  "source": "C.history.frantsiya",
+  "target": "C.history.antanta",
+  "type": "part_of",
+  "why": "участница Антанты"
+ },
+ {
+  "source": "C.history.rossiyskaya-imperiya",
+  "target": "C.history.antanta",
+  "type": "part_of",
+  "why": "Россия — участница Антанты"
+ },
+ {
+  "source": "C.history.ubiystvo-v-saraevo",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "prerequisites_for",
+  "why": "убийство в Сараево стало поводом к войне"
+ },
+ {
+  "source": "C.history.ubiystvo-v-saraevo",
+  "target": "C.history.napadenie-avstro-vengrii-na-serbiyu",
+  "type": "prerequisites_for",
+  "why": "после убийства Австро-Венгрия напала на Сербию"
+ },
+ {
+  "source": "C.history.napadenie-avstro-vengrii-na-serbiyu",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "нападение на Сербию начало войну"
+ },
+ {
+  "source": "C.history.serbiya",
+  "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "балканское государство"
+ },
+ {
+  "source": "C.history.bolgariya",
+  "target": "C.history.strany-tsentralnoy-yuzhnoy-i-yugo-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "балканское государство"
+ },
+ {
+  "source": "C.history.troystvennyy-soyuz",
+  "target": "C.history.chetvernoy-soyuz",
+  "type": "prerequisites_for",
+  "why": "Четверной союз вырос из Тройственного союза"
+ },
+ {
+  "source": "C.history.chetvernoy-soyuz",
+  "target": "C.history.voenno-politicheskie-bloki",
+  "type": "is_a",
+  "why": "блок Германии, Австро-Венгрии, Турции и Болгарии"
+ },
+ {
+  "source": "C.history.germanskaya-imperiya",
+  "target": "C.history.chetvernoy-soyuz",
+  "type": "part_of",
+  "why": "главная сила Четверного союза"
+ },
+ {
+  "source": "C.history.avstro-vengriya",
+  "target": "C.history.chetvernoy-soyuz",
+  "type": "part_of",
+  "why": "участница Четверного союза"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.chetvernoy-soyuz",
+  "type": "part_of",
+  "why": "вступила в войну на стороне Германии"
+ },
+ {
+  "source": "C.history.bolgariya",
+  "target": "C.history.chetvernoy-soyuz",
+  "type": "part_of",
+  "why": "вступила в войну на стороне Германии"
+ },
+ {
+  "source": "C.history.zapadnyy-front",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "главный театр войны во Франции и Бельгии"
+ },
+ {
+  "source": "C.history.vostochnyy-front",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "фронт войны России с Германией и Австро-Венгрией"
+ },
+ {
+  "source": "C.history.srazhenie-na-marne",
+  "target": "C.history.zapadnyy-front",
+  "type": "part_of",
+  "why": "сражение 1914 г. на Западном фронте"
+ },
+ {
+  "source": "C.history.srazhenie-na-marne",
+  "target": "C.history.pozitsionnaya-voyna",
+  "type": "prerequisites_for",
+  "why": "после Марны война стала позиционной"
+ },
+ {
+  "source": "C.history.pozitsionnaya-voyna",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "черта Первой мировой войны"
+ },
+ {
+  "source": "C.history.verdenskaya-bitva",
+  "target": "C.history.zapadnyy-front",
+  "type": "part_of",
+  "why": "битва 1916 г. на Западном фронте"
+ },
+ {
+  "source": "C.history.bitva-na-somme",
+  "target": "C.history.zapadnyy-front",
+  "type": "part_of",
+  "why": "битва 1916 г. на Западном фронте"
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.antivoennye-nastroeniya",
+  "type": "prerequisites_for",
+  "why": "тяготы войны вызвали антивоенные настроения"
+ },
+ {
+  "source": "C.history.vstuplenie-ssha-v-pervuyu-mirovuyu-voynu",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "вступление США изменило соотношение сил"
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "война стала революционизирующим фактором"
+ },
+ {
+  "source": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "target": "C.history.sovetskaya-rossiya",
+  "type": "prerequisites_for",
+  "why": "Советская Россия возникла в ходе революции"
+ },
+ {
+  "source": "C.history.vyhod-sovetskoy-rossii-iz-pervoy-mirovoy-voyny",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "Россия вышла из войны в 1918 г."
+ },
+ {
+  "source": "C.history.brestskiy-mir",
+  "target": "C.history.vyhod-sovetskoy-rossii-iz-pervoy-mirovoy-voyny",
+  "type": "part_of",
+  "why": "выход из войны оформил Брестский мир"
+ },
+ {
+  "source": "C.history.chetvernoy-soyuz",
+  "target": "C.history.kapitulyatsiya-chetvernogo-soyuza",
+  "type": "prerequisites_for",
+  "why": "капитуляция государств Четверного союза"
+ },
+ {
+  "source": "C.history.kapitulyatsiya-chetvernogo-soyuza",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "капитуляция завершила войну"
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.raspad-imperiy",
+  "type": "prerequisites_for",
+  "why": "война привела к распаду империй"
+ },
+ {
+  "source": "C.history.raspad-imperiy",
+  "target": "C.history.obrazovanie-novyh-natsionalnyh-gosudarstv-v-evrope",
+  "type": "prerequisites_for",
+  "why": "на месте империй возникли новые государства"
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.parizhskaya-mirnaya-konferentsiya",
+  "type": "prerequisites_for",
+  "why": "конференция подводила итоги войны"
+ },
+ {
+  "source": "C.history.v-vilson",
+  "target": "C.history.14-punktov-v-vilsona",
+  "type": "prerequisites_for",
+  "why": "Вильсон — автор программы мира"
+ },
+ {
+  "source": "C.history.14-punktov-v-vilsona",
+  "target": "C.history.parizhskaya-mirnaya-konferentsiya",
+  "type": "prerequisites_for",
+  "why": "программа Вильсона легла в основу переговоров"
+ },
+ {
+  "source": "C.history.v-vilson",
+  "target": "C.history.parizhskaya-mirnaya-konferentsiya",
+  "type": "participant_of",
+  "why": "Вильсон возглавлял делегацию США"
+ },
+ {
+  "source": "C.history.parizhskaya-mirnaya-konferentsiya",
+  "target": "C.history.versalskaya-sistema",
+  "type": "prerequisites_for",
+  "why": "конференция создала Версальскую систему"
+ },
+ {
+  "source": "C.history.versalskaya-sistema",
+  "target": "C.history.versalsko-vashingtonskaya-sistema",
+  "type": "part_of",
+  "why": "европейская часть послевоенного устройства"
+ },
+ {
+  "source": "C.history.vashingtonskaya-konferentsiya",
+  "target": "C.history.versalsko-vashingtonskaya-sistema",
+  "type": "prerequisites_for",
+  "why": "конференция завершила создание системы на Дальнем Востоке"
+ },
+ {
+  "source": "C.history.parizhskaya-mirnaya-konferentsiya",
+  "target": "C.history.liga-natsiy",
+  "type": "prerequisites_for",
+  "why": "Лига Наций создана на Парижской конференции"
+ },
+ {
+  "source": "C.history.liga-natsiy",
+  "target": "C.history.versalsko-vashingtonskaya-sistema",
+  "type": "part_of",
+  "why": "Лига Наций должна была охранять послевоенный порядок"
+ },
+ {
+  "source": "C.history.versalsko-vashingtonskaya-sistema",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "основа международных отношений 1920-х гг."
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.mir-v-1918-1939-godah",
+  "type": "prerequisites_for",
+  "why": "межвоенный мир сложился по итогам войны"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "target": "C.history.mir-v-1918-1939-godah",
+  "type": "part_of",
+  "why": "международные отношения межвоенного времени"
+ },
+ {
+  "source": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "target": "C.history.mir-v-1918-1939-godah",
+  "type": "part_of",
+  "why": "Европа и Северная Америка между войнами"
+ },
+ {
+  "source": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "target": "C.history.mir-v-1918-1939-godah",
+  "type": "part_of",
+  "why": "Азия и Латинская Америка между войнами"
+ },
+ {
+  "source": "C.history.kultura-1914-1930-h-godov",
+  "target": "C.history.mir-v-1918-1939-godah",
+  "type": "part_of",
+  "why": "культура межвоенного времени"
+ },
+ {
+  "source": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "target": "C.history.revolyutsii-1918-1919-godov-v-evrope",
+  "type": "prerequisites_for",
+  "why": "революции в Европе шли под влиянием российской революции"
+ },
+ {
+  "source": "C.history.noyabrskaya-revolyutsiya-v-germanii",
+  "target": "C.history.revolyutsii-1918-1919-godov-v-evrope",
+  "type": "part_of",
+  "why": "крупнейшая из европейских революций 1918–1919 гг."
+ },
+ {
+  "source": "C.history.revolyutsii-1918-1919-godov-v-evrope",
+  "target": "C.history.vengerskaya-sovetskaya-respublika",
+  "type": "prerequisites_for",
+  "why": "советская республика возникла в ходе революции в Венгрии"
+ },
+ {
+  "source": "C.history.noyabrskaya-revolyutsiya-v-germanii",
+  "target": "C.history.veymarskaya-respublika",
+  "type": "prerequisites_for",
+  "why": "революция свергла монархию, возникла Веймарская республика"
+ },
+ {
+  "source": "C.history.veymarskaya-respublika",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "Германия 1919–1933 гг."
+ },
+ {
+  "source": "C.history.mirovaya-revolyutsiya",
+  "target": "C.history.komintern",
+  "type": "prerequisites_for",
+  "why": "Коминтерн создан для подготовки мировой революции"
+ },
+ {
+  "source": "C.history.razvitie-stran-evropy-i-ssha-v-kontse-xix-nachale-xx-veka",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития стран Европы и США"
+ },
+ {
+  "source": "C.history.stabilizatsiya-1920-h-godov",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "стабилизация после послевоенного кризиса"
+ },
+ {
+  "source": "C.history.era-protsvetaniya-v-ssha",
+  "target": "C.history.stabilizatsiya-1920-h-godov",
+  "type": "part_of",
+  "why": "подъём экономики США в 1920-е гг."
+ },
+ {
+  "source": "C.history.era-protsvetaniya-v-ssha",
+  "target": "C.history.mirovoy-ekonomicheskiy-krizis-1929-1933-godov",
+  "type": "prerequisites_for",
+  "why": "биржевой бум 1920-х гг. закончился крахом 1929 г."
+ },
+ {
+  "source": "C.history.mirovoy-ekonomicheskiy-krizis-1929-1933-godov",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "кризис охватил все страны Запада"
+ },
+ {
+  "source": "C.history.mirovoy-ekonomicheskiy-krizis-1929-1933-godov",
+  "target": "C.history.velikaya-depressiya",
+  "type": "prerequisites_for",
+  "why": "кризис перешёл в Великую депрессию"
+ },
+ {
+  "source": "C.history.velikaya-depressiya",
+  "target": "C.history.novyy-kurs",
+  "type": "prerequisites_for",
+  "why": "«Новый курс» — путь выхода из депрессии"
+ },
+ {
+  "source": "C.history.f-d-ruzvelt",
+  "target": "C.history.novyy-kurs",
+  "type": "participant_of",
+  "why": "Рузвельт — автор и проводник «Нового курса»"
+ },
+ {
+  "source": "C.history.keynsianstvo",
+  "target": "C.history.gosudarstvennoe-regulirovanie-ekonomiki",
+  "type": "prerequisites_for",
+  "why": "Кейнс обосновал вмешательство государства в экономику"
+ },
+ {
+  "source": "C.history.gosudarstvennoe-regulirovanie-ekonomiki",
+  "target": "C.history.novyy-kurs",
+  "type": "prerequisites_for",
+  "why": "«Новый курс» ввёл государственное регулирование экономики"
+ },
+ {
+  "source": "C.history.leyboristy",
+  "target": "C.history.sotsialisticheskie-partii",
+  "type": "is_a",
+  "why": "лейбористская партия Великобритании"
+ },
+ {
+  "source": "C.history.natsionalizm",
+  "target": "C.history.fashizm",
+  "type": "prerequisites_for",
+  "why": "фашизм — крайний национализм"
+ },
+ {
+  "source": "C.history.fashizm",
+  "target": "C.history.prihod-fashistov-k-vlasti-v-italii",
+  "type": "prerequisites_for",
+  "why": "фашисты захватили власть в Италии"
+ },
+ {
+  "source": "C.history.b-mussolini",
+  "target": "C.history.prihod-fashistov-k-vlasti-v-italii",
+  "type": "participant_of",
+  "why": "Муссолини — вождь итальянских фашистов"
+ },
+ {
+  "source": "C.history.prihod-fashistov-k-vlasti-v-italii",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "первый фашистский режим в Европе"
+ },
+ {
+  "source": "C.history.fashizm",
+  "target": "C.history.totalitarizm",
+  "type": "prerequisites_for",
+  "why": "фашисты установили тоталитарный режим"
+ },
+ {
+  "source": "C.history.natsizm",
+  "target": "C.history.fashizm",
+  "type": "is_a",
+  "why": "нацизм — германская разновидность фашизма"
+ },
+ {
+  "source": "C.history.natsizm",
+  "target": "C.history.nsdap",
+  "type": "prerequisites_for",
+  "why": "НСДАП — партия нацистов"
+ },
+ {
+  "source": "C.history.a-gitler",
+  "target": "C.history.nsdap",
+  "type": "participant_of",
+  "why": "Гитлер — вождь НСДАП"
+ },
+ {
+  "source": "C.history.nsdap",
+  "target": "C.history.prihod-natsistov-k-vlasti",
+  "type": "prerequisites_for",
+  "why": "в 1933 г. к власти пришла НСДАП"
+ },
+ {
+  "source": "C.history.mirovoy-ekonomicheskiy-krizis-1929-1933-godov",
+  "target": "C.history.prihod-natsistov-k-vlasti",
+  "type": "prerequisites_for",
+  "why": "кризис помог нацистам прийти к власти"
+ },
+ {
+  "source": "C.history.veymarskaya-respublika",
+  "target": "C.history.prihod-natsistov-k-vlasti",
+  "type": "prerequisites_for",
+  "why": "нацисты пришли к власти в Веймарской республике"
+ },
+ {
+  "source": "C.history.prihod-natsistov-k-vlasti",
+  "target": "C.history.natsistskiy-rezhim-v-germanii",
+  "type": "prerequisites_for",
+  "why": "после прихода к власти нацисты установили диктатуру"
+ },
+ {
+  "source": "C.history.a-gitler",
+  "target": "C.history.natsistskiy-rezhim-v-germanii",
+  "type": "participant_of",
+  "why": "Гитлер — фюрер нацистской Германии"
+ },
+ {
+  "source": "C.history.natsistskiy-rezhim-v-germanii",
+  "target": "C.history.totalitarizm",
+  "type": "is_a",
+  "why": "нацистская Германия — тоталитарное государство"
+ },
+ {
+  "source": "C.history.nyurnbergskie-zakony",
+  "target": "C.history.natsistskiy-rezhim-v-germanii",
+  "type": "part_of",
+  "why": "расовые законы нацистского режима"
+ },
+ {
+  "source": "C.history.natsistskiy-rezhim-v-germanii",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "Германия 1933–1945 гг."
+ },
+ {
+  "source": "C.history.avtoritarnyy-rezhim",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "авторитарные режимы утвердились во многих странах Европы"
+ },
+ {
+  "source": "C.history.fashizm",
+  "target": "C.history.borba-protiv-fashizma",
+  "type": "prerequisites_for",
+  "why": "борьба против угрозы фашизма"
+ },
+ {
+  "source": "C.history.edinyy-rabochiy-front",
+  "target": "C.history.narodnyy-front",
+  "type": "prerequisites_for",
+  "why": "Народный фронт расширил единый рабочий фронт"
+ },
+ {
+  "source": "C.history.edinyy-rabochiy-front",
+  "target": "C.history.borba-protiv-fashizma",
+  "type": "part_of",
+  "why": "тактика борьбы с фашизмом"
+ },
+ {
+  "source": "C.history.narodnyy-front",
+  "target": "C.history.borba-protiv-fashizma",
+  "type": "part_of",
+  "why": "союз левых сил против фашизма"
+ },
+ {
+  "source": "C.history.ispanskaya-respublika",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "Испания 1931–1939 гг."
+ },
+ {
+  "source": "C.history.narodnyy-front",
+  "target": "C.history.frankistskiy-myatezh",
+  "type": "prerequisites_for",
+  "why": "мятеж поднят против правительства Народного фронта"
+ },
+ {
+  "source": "C.history.frankistskiy-myatezh",
+  "target": "C.history.grazhdanskaya-voyna-v-ispanii",
+  "type": "prerequisites_for",
+  "why": "мятеж перерос в гражданскую войну"
+ },
+ {
+  "source": "C.history.ispanskaya-respublika",
+  "target": "C.history.grazhdanskaya-voyna-v-ispanii",
+  "type": "prerequisites_for",
+  "why": "война мятежников против Испанской Республики"
+ },
+ {
+  "source": "C.history.oborona-madrida",
+  "target": "C.history.grazhdanskaya-voyna-v-ispanii",
+  "type": "part_of",
+  "why": "оборона столицы республики"
+ },
+ {
+  "source": "C.history.sovetskaya-pomosch-ispanii",
+  "target": "C.history.grazhdanskaya-voyna-v-ispanii",
+  "type": "part_of",
+  "why": "СССР помогал республиканцам"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-ispanii",
+  "target": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "война 1936–1939 гг. в Испании"
+ },
+ {
+  "source": "C.history.strany-vostoka-v-xix-nachale-xx-veka",
+  "target": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "type": "prerequisites_for",
+  "why": "следующий этап истории стран Востока"
+ },
+ {
+  "source": "C.history.strany-latinskoy-ameriki-v-xix-nachale-xx-veka",
+  "target": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "type": "prerequisites_for",
+  "why": "следующий этап истории Латинской Америки"
+ },
+ {
+  "source": "C.history.raspad-osmanskoy-imperii",
+  "target": "C.history.raspad-imperiy",
+  "type": "part_of",
+  "why": "Османская империя распалась после войны"
+ },
+ {
+  "source": "C.history.osmanskaya-imperiya",
+  "target": "C.history.raspad-osmanskoy-imperii",
+  "type": "prerequisites_for",
+  "why": "распад Османской империи"
+ },
+ {
+  "source": "C.history.raspad-osmanskoy-imperii",
+  "target": "C.history.provozglashenie-turetskoy-respubliki",
+  "type": "prerequisites_for",
+  "why": "на месте империи провозглашена Турецкая Республика"
+ },
+ {
+  "source": "C.history.provozglashenie-turetskoy-respubliki",
+  "target": "C.history.turetskaya-respublika",
+  "type": "prerequisites_for",
+  "why": "Турецкая Республика провозглашена в 1923 г."
+ },
+ {
+  "source": "C.history.turetskaya-respublika",
+  "target": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "type": "part_of",
+  "why": "Турция между войнами"
+ },
+ {
+  "source": "C.history.turetskaya-respublika",
+  "target": "C.history.preobrazovaniya-kemalya-atatyurka",
+  "type": "prerequisites_for",
+  "why": "реформы превратили Турцию в светское государство"
+ },
+ {
+  "source": "C.history.m-kemal-atatyurk",
+  "target": "C.history.turetskaya-respublika",
+  "type": "participant_of",
+  "why": "Ататюрк — основатель и первый президент Турецкой Республики"
+ },
+ {
+  "source": "C.history.m-kemal-atatyurk",
+  "target": "C.history.preobrazovaniya-kemalya-atatyurka",
+  "type": "participant_of",
+  "why": "Ататюрк — автор преобразований"
+ },
+ {
+  "source": "C.history.revolyutsiya-1911-1913-godov-v-kitae",
+  "target": "C.history.revolyutsiya-1925-1927-godov-v-kitae",
+  "type": "prerequisites_for",
+  "why": "следующая революция в Китае"
+ },
+ {
+  "source": "C.history.revolyutsiya-1925-1927-godov-v-kitae",
+  "target": "C.history.grazhdanskaya-voyna-v-kitae",
+  "type": "prerequisites_for",
+  "why": "после раскола 1927 г. началась гражданская война"
+ },
+ {
+  "source": "C.history.chan-kayshi",
+  "target": "C.history.grazhdanskaya-voyna-v-kitae",
+  "type": "participant_of",
+  "why": "Чан Кайши возглавлял гоминьдановский режим"
+ },
+ {
+  "source": "C.history.velikiy-pohod",
+  "target": "C.history.grazhdanskaya-voyna-v-kitae",
+  "type": "part_of",
+  "why": "поход Красной армии Китая 1934–1936 гг."
+ },
+ {
+  "source": "C.history.kitay",
+  "target": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "type": "part_of",
+  "why": "Китай между войнами"
+ },
+ {
+  "source": "C.history.chili",
+  "target": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "type": "part_of",
+  "why": "страна Латинской Америки"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-otnosheniya-v-xix-nachale-xx-veka",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "prerequisites_for",
+  "why": "следующий этап международных отношений"
+ },
+ {
+  "source": "C.history.versalskaya-sistema",
+  "target": "C.history.plan-dauesa",
+  "type": "prerequisites_for",
+  "why": "план Дауэса решал проблему германских репараций"
+ },
+ {
+  "source": "C.history.plan-dauesa",
+  "target": "C.history.plan-yunga",
+  "type": "prerequisites_for",
+  "why": "план Юнга сменил план Дауэса"
+ },
+ {
+  "source": "C.history.plan-dauesa",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "урегулирование репараций в 1920-е гг."
+ },
+ {
+  "source": "C.history.genuezskaya-konferentsiya",
+  "target": "C.history.rapallskiy-dogovor",
+  "type": "prerequisites_for",
+  "why": "договор подписан во время Генуэзской конференции"
+ },
+ {
+  "source": "C.history.genuezskaya-konferentsiya",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "первая конференция с участием Советской России"
+ },
+ {
+  "source": "C.history.rapallskiy-dogovor",
+  "target": "C.history.vyhod-sssr-iz-diplomaticheskoy-izolyatsii",
+  "type": "prerequisites_for",
+  "why": "договор с Германией прорвал дипломатическую изоляцию"
+ },
+ {
+  "source": "C.history.vyhod-sssr-iz-diplomaticheskoy-izolyatsii",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "признание СССР в 1920-е гг."
+ },
+ {
+  "source": "C.history.sovetskaya-rossiya",
+  "target": "C.history.sssr",
+  "type": "prerequisites_for",
+  "why": "СССР образован на основе Советской России"
+ },
+ {
+  "source": "C.history.pakt-briana-kelloga",
+  "target": "C.history.era-patsifizma",
+  "type": "part_of",
+  "why": "пакт об отказе от войны — символ эпохи пацифизма"
+ },
+ {
+  "source": "C.history.era-patsifizma",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "период ослабления напряжённости в 1920-е гг."
+ },
+ {
+  "source": "C.history.agressiya-yaponii-protiv-kitaya",
+  "target": "C.history.yapono-kitayskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "захват Маньчжурии предшествовал большой войне Японии с Китаем"
+ },
+ {
+  "source": "C.history.agressiya-yaponii-protiv-kitaya",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "начало агрессии 1930-х гг."
+ },
+ {
+  "source": "C.history.yapono-kitayskaya-voyna",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "война Японии против Китая с 1937 г."
+ },
+ {
+  "source": "C.history.italo-efiopskaya-voyna",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "агрессия Италии в Африке"
+ },
+ {
+  "source": "C.history.okkupatsiya-reynskoy-zony",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "нарушение Германией Версальского договора"
+ },
+ {
+  "source": "C.history.anshlyus-avstrii",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "захват Австрии Германией в 1938 г."
+ },
+ {
+  "source": "C.history.sudetskiy-krizis",
+  "target": "C.history.myunhenskoe-soglashenie",
+  "type": "prerequisites_for",
+  "why": "соглашение отдало Германии Судетскую область"
+ },
+ {
+  "source": "C.history.sudetskiy-krizis",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "кризис из-за притязаний Германии на Чехословакию"
+ },
+ {
+  "source": "C.history.politika-umirotvoreniya",
+  "target": "C.history.myunhenskoe-soglashenie",
+  "type": "prerequisites_for",
+  "why": "Мюнхен — вершина политики умиротворения"
+ },
+ {
+  "source": "C.history.politika-umirotvoreniya",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "уступки агрессору со стороны Англии и Франции"
+ },
+ {
+  "source": "C.history.os-berlin-rim-tokio",
+  "target": "C.history.voenno-politicheskie-bloki",
+  "type": "is_a",
+  "why": "блок агрессивных держав"
+ },
+ {
+  "source": "C.history.natsistskiy-rezhim-v-germanii",
+  "target": "C.history.os-berlin-rim-tokio",
+  "type": "part_of",
+  "why": "Германия — главная сила блока"
+ },
+ {
+  "source": "C.history.italiya",
+  "target": "C.history.os-berlin-rim-tokio",
+  "type": "part_of",
+  "why": "участница блока"
+ },
+ {
+  "source": "C.history.yaponiya",
+  "target": "C.history.os-berlin-rim-tokio",
+  "type": "part_of",
+  "why": "участница блока"
+ },
+ {
+  "source": "C.history.liga-natsiy",
+  "target": "C.history.sistema-kollektivnoy-bezopasnosti",
+  "type": "prerequisites_for",
+  "why": "идея коллективной безопасности выросла из устава Лиги Наций"
+ },
+ {
+  "source": "C.history.sistema-kollektivnoy-bezopasnosti",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "попытки остановить агрессию в 1930-е гг."
+ },
+ {
+  "source": "C.history.boi-u-ozera-hasan",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "конфликт с Японией в 1938 г."
+ },
+ {
+  "source": "C.history.boi-na-reke-halhin-gol",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "бои с японскими войсками в 1939 г."
+ },
+ {
+  "source": "C.history.myunhenskoe-soglashenie",
+  "target": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "type": "prerequisites_for",
+  "why": "после Мюнхена СССР опасался изоляции"
+ },
+ {
+  "source": "C.history.britansko-franko-sovetskie-peregovory-v-moskve",
+  "target": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "type": "prerequisites_for",
+  "why": "после провала переговоров СССР заключил договор с Германией"
+ },
+ {
+  "source": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "договор 1939 г. с Германией"
+ },
+ {
+  "source": "C.history.kultura-xix-nachala-xx-veka",
+  "target": "C.history.kultura-1914-1930-h-godov",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития культуры"
+ },
+ {
+  "source": "C.history.nauchnye-otkrytiya-xix-nachala-xx-veka",
+  "target": "C.history.nauchnye-otkrytiya-pervyh-desyatiletiy-xx-veka",
+  "type": "prerequisites_for",
+  "why": "открытия продолжили революцию в естествознании"
+ },
+ {
+  "source": "C.history.nauchnye-otkrytiya-pervyh-desyatiletiy-xx-veka",
+  "target": "C.history.kultura-1914-1930-h-godov",
+  "type": "part_of",
+  "why": "наука — часть культуры эпохи"
+ },
+ {
+  "source": "C.history.fizika",
+  "target": "C.history.estestvennye-nauki",
+  "type": "is_a",
+  "why": "одна из естественных наук"
+ },
+ {
+  "source": "C.history.himiya",
+  "target": "C.history.estestvennye-nauki",
+  "type": "is_a",
+  "why": "одна из естественных наук"
+ },
+ {
+  "source": "C.history.biologiya",
+  "target": "C.history.estestvennye-nauki",
+  "type": "is_a",
+  "why": "одна из естественных наук"
+ },
+ {
+  "source": "C.history.revolyutsiya-v-fizike",
+  "target": "C.history.fizika",
+  "type": "part_of",
+  "why": "переворот в физике на рубеже веков"
+ },
+ {
+  "source": "C.history.avangardizm",
+  "target": "C.history.modernizm",
+  "type": "is_a",
+  "why": "авангард — радикальное течение модернизма"
+ },
+ {
+  "source": "C.history.syurrealizm",
+  "target": "C.history.avangardizm",
+  "type": "is_a",
+  "why": "одно из течений авангарда"
+ },
+ {
+  "source": "C.history.abstraktsionizm",
+  "target": "C.history.avangardizm",
+  "type": "is_a",
+  "why": "одно из течений авангарда"
+ },
+ {
+  "source": "C.history.sovetskiy-avangard",
+  "target": "C.history.avangardizm",
+  "type": "is_a",
+  "why": "авангард в советском искусстве"
+ },
+ {
+  "source": "C.history.avangardizm",
+  "target": "C.history.kultura-1914-1930-h-godov",
+  "type": "part_of",
+  "why": "направление в искусстве первой трети XX в."
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.poteryannoe-pokolenie",
+  "type": "prerequisites_for",
+  "why": "писатели «потерянного поколения» прошли войну"
+ },
+ {
+  "source": "C.history.poteryannoe-pokolenie",
+  "target": "C.history.kultura-1914-1930-h-godov",
+  "type": "part_of",
+  "why": "тема войны в литературе"
+ },
+ {
+  "source": "C.history.olimpiyskoe-dvizhenie",
+  "target": "C.history.kultura-1914-1930-h-godov",
+  "type": "part_of",
+  "why": "развитие спорта и Олимпийских игр"
+ },
+ {
+  "source": "C.history.mir-v-1918-1939-godah",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "prerequisites_for",
+  "why": "противоречия межвоенного мира привели ко Второй мировой войне"
+ },
+ {
+  "source": "C.history.natsistskiy-rezhim-v-germanii",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "prerequisites_for",
+  "why": "войну развязала нацистская Германия"
+ },
+ {
+  "source": "C.history.napadenie-germanii-na-polshu",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "нападение на Польшу начало мировую войну"
+ },
+ {
+  "source": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "target": "C.history.napadenie-germanii-na-polshu",
+  "type": "prerequisites_for",
+  "why": "договор развязал Германии руки в Польше"
+ },
+ {
+  "source": "C.history.napadenie-germanii-na-polshu",
+  "target": "C.history.razgrom-polshi",
+  "type": "prerequisites_for",
+  "why": "Польша была разгромлена за несколько недель"
+ },
+ {
+  "source": "C.history.blitskrig",
+  "target": "C.history.razgrom-polshi",
+  "type": "prerequisites_for",
+  "why": "молниеносная война против Польши"
+ },
+ {
+  "source": "C.history.napadenie-germanii-na-polshu",
+  "target": "C.history.strannaya-voyna",
+  "type": "prerequisites_for",
+  "why": "Англия и Франция объявили войну, но не вели боёв"
+ },
+ {
+  "source": "C.history.strannaya-voyna",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "период бездействия на Западном фронте"
+ },
+ {
+  "source": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "target": "C.history.sovetsko-finlyandskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "секретный протокол отнёс Финляндию к сфере интересов СССР"
+ },
+ {
+  "source": "C.history.sovetsko-finlyandskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "война с Финляндией 1939–1940 гг."
+ },
+ {
+  "source": "C.history.zahvat-germaniey-danii-i-norvegii",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "германская кампания 1940 г. на севере Европы"
+ },
+ {
+  "source": "C.history.blitskrig",
+  "target": "C.history.razgrom-frantsii",
+  "type": "prerequisites_for",
+  "why": "Франция разгромлена молниеносным ударом"
+ },
+ {
+  "source": "C.history.razgrom-frantsii",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "поражение Франции в 1940 г."
+ },
+ {
+  "source": "C.history.razgrom-frantsii",
+  "target": "C.history.bitva-za-britaniyu",
+  "type": "prerequisites_for",
+  "why": "после падения Франции Германия атаковала Британию"
+ },
+ {
+  "source": "C.history.bitva-za-britaniyu",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "воздушная война над Англией"
+ },
+ {
+  "source": "C.history.agressiya-germanii-na-balkanah",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "захват Югославии и Греции в 1941 г."
+ },
+ {
+  "source": "C.history.velikaya-otechestvennaya-voyna",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "война СССР против Германии — главная часть Второй мировой"
+ },
+ {
+  "source": "C.history.blitskrig",
+  "target": "C.history.plan-barbarossa",
+  "type": "prerequisites_for",
+  "why": "план «Барбаросса» — план молниеносной войны против СССР"
+ },
+ {
+  "source": "C.history.plan-barbarossa",
+  "target": "C.history.napadenie-germanii-na-sssr",
+  "type": "prerequisites_for",
+  "why": "нападение по плану «Барбаросса»"
+ },
+ {
+  "source": "C.history.napadenie-germanii-na-sssr",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "22 июня 1941 г. началась Великая Отечественная война"
+ },
+ {
+  "source": "C.history.sovetsko-germanskiy-front",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "главный фронт Второй мировой войны"
+ },
+ {
+  "source": "C.history.voyna-na-tihom-okeane",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "война Японии против США и Великобритании"
+ },
+ {
+  "source": "C.history.napadenie-na-perl-harbor",
+  "target": "C.history.voyna-na-tihom-okeane",
+  "type": "part_of",
+  "why": "удар по Перл-Харбору начал войну на Тихом океане"
+ },
+ {
+  "source": "C.history.napadenie-na-perl-harbor",
+  "target": "C.history.vstuplenie-ssha-vo-vtoruyu-mirovuyu-voynu",
+  "type": "prerequisites_for",
+  "why": "после Перл-Харбора США вступили в войну"
+ },
+ {
+  "source": "C.history.vstuplenie-ssha-vo-vtoruyu-mirovuyu-voynu",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "вступление США изменило ход войны"
+ },
+ {
+  "source": "C.history.napadenie-germanii-na-sssr",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "prerequisites_for",
+  "why": "после нападения Германии СССР стал союзником Англии и США"
+ },
+ {
+  "source": "C.history.vstuplenie-ssha-vo-vtoruyu-mirovuyu-voynu",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "prerequisites_for",
+  "why": "США вошли в антигитлеровскую коалицию"
+ },
+ {
+  "source": "C.history.sssr",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "part_of",
+  "why": "одна из главных держав коалиции"
+ },
+ {
+  "source": "C.history.ssha",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "part_of",
+  "why": "одна из главных держав коалиции"
+ },
+ {
+  "source": "C.history.velikobritaniya",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "part_of",
+  "why": "одна из главных держав коалиции"
+ },
+ {
+  "source": "C.history.lend-liz",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "part_of",
+  "why": "поставки союзникам по ленд-лизу"
+ },
+ {
+  "source": "C.history.natsistskiy-rezhim-v-germanii",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "prerequisites_for",
+  "why": "нацисты установили свой режим в оккупированных странах"
+ },
+ {
+  "source": "C.history.novyy-poryadok",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "prerequisites_for",
+  "why": "оккупационный режим насаждал «новый порядок»"
+ },
+ {
+  "source": "C.history.generalnyy-plan-ost",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "prerequisites_for",
+  "why": "план «Ост» определял политику на оккупированном Востоке"
+ },
+ {
+  "source": "C.history.holokost",
+  "target": "C.history.genotsid",
+  "type": "is_a",
+  "why": "уничтожение евреев — геноцид"
+ },
+ {
+  "source": "C.history.nyurnbergskie-zakony",
+  "target": "C.history.holokost",
+  "type": "prerequisites_for",
+  "why": "расовые законы подготовили уничтожение евреев"
+ },
+ {
+  "source": "C.history.holokost",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "part_of",
+  "why": "политика уничтожения на оккупированных землях"
+ },
+ {
+  "source": "C.history.kontsentratsionnye-lagerya",
+  "target": "C.history.natsistskiy-rezhim-v-germanii",
+  "type": "part_of",
+  "why": "система лагерей нацистского государства"
+ },
+ {
+  "source": "C.history.prinuditelnaya-trudovaya-migratsiya",
+  "target": "C.history.vynuzhdennye-pereseleniya",
+  "type": "is_a",
+  "why": "угон на принудительные работы"
+ },
+ {
+  "source": "C.history.prinuditelnaya-trudovaya-migratsiya",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "part_of",
+  "why": "угон населения на работы в Германию"
+ },
+ {
+  "source": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "target": "C.history.kollaboratsionizm",
+  "type": "prerequisites_for",
+  "why": "часть населения сотрудничала с оккупантами"
+ },
+ {
+  "source": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "target": "C.history.dvizhenie-soprotivleniya",
+  "type": "prerequisites_for",
+  "why": "народы боролись против оккупантов"
+ },
+ {
+  "source": "C.history.partizanskaya-voyna-v-yugoslavii",
+  "target": "C.history.dvizhenie-soprotivleniya",
+  "type": "part_of",
+  "why": "одно из крупнейших движений Сопротивления"
+ },
+ {
+  "source": "C.history.korennoy-perelom-v-hode-voyny",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "перелом 1942–1943 гг."
+ },
+ {
+  "source": "C.history.stalingradskaya-bitva",
+  "target": "C.history.korennoy-perelom-v-hode-voyny",
+  "type": "part_of",
+  "why": "Сталинград начал коренной перелом"
+ },
+ {
+  "source": "C.history.kurskaya-bitva",
+  "target": "C.history.korennoy-perelom-v-hode-voyny",
+  "type": "part_of",
+  "why": "Курская битва завершила коренной перелом"
+ },
+ {
+  "source": "C.history.voyna-v-severnoy-afrike",
+  "target": "C.history.korennoy-perelom-v-hode-voyny",
+  "type": "part_of",
+  "why": "поражение Германии и Италии в Африке"
+ },
+ {
+  "source": "C.history.vysadka-soyuznikov-v-italii",
+  "target": "C.history.korennoy-perelom-v-hode-voyny",
+  "type": "part_of",
+  "why": "союзники высадились в Италии в 1943 г."
+ },
+ {
+  "source": "C.history.vysadka-soyuznikov-v-italii",
+  "target": "C.history.padenie-rezhima-mussolini",
+  "type": "prerequisites_for",
+  "why": "после высадки режим Муссолини пал"
+ },
+ {
+  "source": "C.history.f-d-ruzvelt",
+  "target": "C.history.bolshaya-troyka",
+  "type": "participant_of",
+  "why": "Рузвельт — один из лидеров «Большой тройки»"
+ },
+ {
+  "source": "C.history.i-v-stalin",
+  "target": "C.history.bolshaya-troyka",
+  "type": "participant_of",
+  "why": "Сталин — один из лидеров «Большой тройки»"
+ },
+ {
+  "source": "C.history.bolshaya-troyka",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "part_of",
+  "why": "руководители трёх держав коалиции"
+ },
+ {
+  "source": "C.history.bolshaya-troyka",
+  "target": "C.history.tegeranskaya-konferentsiya",
+  "type": "prerequisites_for",
+  "why": "первая встреча «Большой тройки»"
+ },
+ {
+  "source": "C.history.razgrom-germanii-i-yaponii",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "завершающий этап войны"
+ },
+ {
+  "source": "C.history.tegeranskaya-konferentsiya",
+  "target": "C.history.otkrytie-vtorogo-fronta",
+  "type": "prerequisites_for",
+  "why": "в Тегеране договорились об открытии второго фронта"
+ },
+ {
+  "source": "C.history.vtoroy-front",
+  "target": "C.history.antigitlerovskaya-koalitsiya",
+  "type": "part_of",
+  "why": "вопрос о втором фронте — главный в отношениях союзников"
+ },
+ {
+  "source": "C.history.otkrytie-vtorogo-fronta",
+  "target": "C.history.razgrom-germanii-i-yaponii",
+  "type": "part_of",
+  "why": "наступление союзников на Западе"
+ },
+ {
+  "source": "C.history.krasnaya-armiya",
+  "target": "C.history.osvobozhdenie-stran-evropy",
+  "type": "prerequisites_for",
+  "why": "Красная армия освобождала народы Европы"
+ },
+ {
+  "source": "C.history.osvobozhdenie-stran-evropy",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "освободительная миссия 1944–1945 гг."
+ },
+ {
+  "source": "C.history.tegeranskaya-konferentsiya",
+  "target": "C.history.yaltinskaya-konferentsiya",
+  "type": "prerequisites_for",
+  "why": "Ялта продолжила решения Тегерана"
+ },
+ {
+  "source": "C.history.yaltinskaya-konferentsiya",
+  "target": "C.history.potsdamskaya-konferentsiya",
+  "type": "prerequisites_for",
+  "why": "в Потсдаме уточнили ялтинские решения"
+ },
+ {
+  "source": "C.history.yaltinskaya-konferentsiya",
+  "target": "C.history.oon",
+  "type": "prerequisites_for",
+  "why": "в Ялте решили создать ООН"
+ },
+ {
+  "source": "C.history.liga-natsiy",
+  "target": "C.history.oon",
+  "type": "prerequisites_for",
+  "why": "ООН сменила Лигу Наций"
+ },
+ {
+  "source": "C.history.bitva-za-berlin",
+  "target": "C.history.kapitulyatsiya-germanii",
+  "type": "prerequisites_for",
+  "why": "после взятия Берлина Германия капитулировала"
+ },
+ {
+  "source": "C.history.bitva-za-berlin",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "последняя операция войны в Европе"
+ },
+ {
+  "source": "C.history.kapitulyatsiya-germanii",
+  "target": "C.history.razgrom-germanii-i-yaponii",
+  "type": "part_of",
+  "why": "капитуляция 8–9 мая 1945 г."
+ },
+ {
+  "source": "C.history.yaltinskaya-konferentsiya",
+  "target": "C.history.sovetsko-yaponskaya-voyna-1945-goda",
+  "type": "prerequisites_for",
+  "why": "в Ялте СССР обязался вступить в войну с Японией"
+ },
+ {
+  "source": "C.history.sovetsko-yaponskaya-voyna-1945-goda",
+  "target": "C.history.vtoraya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "завершающая кампания войны"
+ },
+ {
+  "source": "C.history.razgrom-kvantunskoy-armii",
+  "target": "C.history.sovetsko-yaponskaya-voyna-1945-goda",
+  "type": "part_of",
+  "why": "главная операция войны с Японией"
+ },
+ {
+  "source": "C.history.atomnye-bombardirovki-hirosimy-i-nagasaki",
+  "target": "C.history.voyna-na-tihom-okeane",
+  "type": "part_of",
+  "why": "бомбардировки августа 1945 г."
+ },
+ {
+  "source": "C.history.atomnye-bombardirovki-hirosimy-i-nagasaki",
+  "target": "C.history.kapitulyatsiya-yaponii",
+  "type": "prerequisites_for",
+  "why": "бомбардировки ускорили капитуляцию Японии"
+ },
+ {
+  "source": "C.history.sovetsko-yaponskaya-voyna-1945-goda",
+  "target": "C.history.kapitulyatsiya-yaponii",
+  "type": "prerequisites_for",
+  "why": "разгром Квантунской армии вынудил Японию капитулировать"
+ },
+ {
+  "source": "C.history.kapitulyatsiya-yaponii",
+  "target": "C.history.razgrom-germanii-i-yaponii",
+  "type": "part_of",
+  "why": "капитуляция 2 сентября 1945 г."
+ },
+ {
+  "source": "C.history.kapitulyatsiya-germanii",
+  "target": "C.history.nyurnbergskiy-protsess",
+  "type": "prerequisites_for",
+  "why": "суд над главными нацистскими преступниками"
+ },
+ {
+  "source": "C.history.kapitulyatsiya-yaponii",
+  "target": "C.history.tokiyskiy-protsess",
+  "type": "prerequisites_for",
+  "why": "суд над японскими военными преступниками"
+ },
+ {
+  "source": "C.history.rossiya-na-poroge-xx-veka",
+  "target": "C.history.rossiya-v-pervoy-mirovoy-voyne",
+  "type": "prerequisites_for",
+  "why": "Россия вступила в войну с проблемами рубежа веков"
+ },
+ {
+  "source": "C.history.rossiya-v-pervoy-mirovoy-voyne",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "участие России в мировой войне"
+ },
+ {
+  "source": "C.history.antanta",
+  "target": "C.history.vstuplenie-rossii-v-pervuyu-mirovuyu-voynu",
+  "type": "prerequisites_for",
+  "why": "Россия вступила в войну как участница Антанты"
+ },
+ {
+  "source": "C.history.vstuplenie-rossii-v-pervuyu-mirovuyu-voynu",
+  "target": "C.history.rossiya-v-pervoy-mirovoy-voyne",
+  "type": "part_of",
+  "why": "начало войны для России"
+ },
+ {
+  "source": "C.history.brusilovskiy-proryv",
+  "target": "C.history.vostochnyy-front",
+  "type": "part_of",
+  "why": "наступление 1916 г. на Восточном фронте"
+ },
+ {
+  "source": "C.history.kavkazskiy-front",
+  "target": "C.history.pervaya-mirovaya-voyna",
+  "type": "part_of",
+  "why": "фронт войны России с Османской империей"
+ },
+ {
+  "source": "C.history.antivoennye-nastroeniya",
+  "target": "C.history.razlozhenie-armii",
+  "type": "prerequisites_for",
+  "why": "усталость от войны разлагала армию"
+ },
+ {
+  "source": "C.history.razlozhenie-armii",
+  "target": "C.history.rossiya-v-pervoy-mirovoy-voyne",
+  "type": "part_of",
+  "why": "армия к 1917 г. теряла боеспособность"
+ },
+ {
+  "source": "C.history.militarizatsiya-ekonomiki",
+  "target": "C.history.rossiya-v-pervoy-mirovoy-voyne",
+  "type": "part_of",
+  "why": "экономика работала на войну"
+ },
+ {
+  "source": "C.history.voenno-promyshlennye-komitety",
+  "target": "C.history.militarizatsiya-ekonomiki",
+  "type": "part_of",
+  "why": "комитеты помогали перевести промышленность на нужды фронта"
+ },
+ {
+  "source": "C.history.militarizatsiya-ekonomiki",
+  "target": "C.history.kartochnaya-sistema",
+  "type": "prerequisites_for",
+  "why": "нехватка товаров заставила ввести карточки"
+ },
+ {
+  "source": "C.history.militarizatsiya-ekonomiki",
+  "target": "C.history.prodrazverstka",
+  "type": "prerequisites_for",
+  "why": "для снабжения армии ввели развёрстку хлеба"
+ },
+ {
+  "source": "C.history.ekonomicheskiy-krizis-v-gody-pervoy-mirovoy-voyny",
+  "target": "C.history.rossiya-v-pervoy-mirovoy-voyne",
+  "type": "part_of",
+  "why": "кризис 1915–1917 гг."
+ },
+ {
+  "source": "C.history.ministerskaya-cheharda",
+  "target": "C.history.desakralizatsiya-vlasti",
+  "type": "prerequisites_for",
+  "why": "частая смена министров подрывала авторитет власти"
+ },
+ {
+  "source": "C.history.rasputinschina",
+  "target": "C.history.desakralizatsiya-vlasti",
+  "type": "prerequisites_for",
+  "why": "влияние Распутина дискредитировало монархию"
+ },
+ {
+  "source": "C.history.iv-gosudarstvennaya-duma",
+  "target": "C.history.progressivnyy-blok",
+  "type": "prerequisites_for",
+  "why": "Прогрессивный блок — объединение большинства IV Думы"
+ },
+ {
+  "source": "C.history.progressivnyy-blok",
+  "target": "C.history.vremennoe-pravitelstvo",
+  "type": "prerequisites_for",
+  "why": "лидеры Прогрессивного блока вошли во Временное правительство"
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.oborontsy",
+  "type": "prerequisites_for",
+  "why": "оборонцы поддерживали войну до победы"
+ },
+ {
+  "source": "C.history.pervaya-mirovaya-voyna",
+  "target": "C.history.internatsionalisty",
+  "type": "prerequisites_for",
+  "why": "интернационалисты выступали за мир без аннексий"
+ },
+ {
+  "source": "C.history.bolsheviki",
+  "target": "C.history.porazhentsy",
+  "type": "prerequisites_for",
+  "why": "большевики призывали к поражению своего правительства"
+ },
+ {
+  "source": "C.history.ekonomicheskiy-krizis-v-gody-pervoy-mirovoy-voyny",
+  "target": "C.history.fevralskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "кризис вызвал волнения в Петрограде"
+ },
+ {
+  "source": "C.history.desakralizatsiya-vlasti",
+  "target": "C.history.fevralskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "монархия утратила авторитет"
+ },
+ {
+  "source": "C.history.razlozhenie-armii",
+  "target": "C.history.fevralskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "солдаты перешли на сторону восставших"
+ },
+ {
+  "source": "C.history.fevralskaya-revolyutsiya",
+  "target": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "первый этап революции"
+ },
+ {
+  "source": "C.history.oktyabrskaya-revolyutsiya",
+  "target": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "второй этап революции"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-rossii",
+  "target": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "третий этап революции"
+ },
+ {
+  "source": "C.history.obrazovanie-sssr",
+  "target": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "революция завершилась созданием СССР"
+ },
+ {
+  "source": "C.history.sovetskaya-rossiya",
+  "target": "C.history.obrazovanie-sssr",
+  "type": "prerequisites_for",
+  "why": "СССР создан на основе РСФСР"
+ },
+ {
+  "source": "C.history.fevralskaya-revolyutsiya",
+  "target": "C.history.dvoevlastie",
+  "type": "prerequisites_for",
+  "why": "после Февраля возникло двоевластие"
+ },
+ {
+  "source": "C.history.vremennoe-pravitelstvo",
+  "target": "C.history.dvoevlastie",
+  "type": "part_of",
+  "why": "одна из двух властей"
+ },
+ {
+  "source": "C.history.petrogradskiy-sovet",
+  "target": "C.history.dvoevlastie",
+  "type": "part_of",
+  "why": "одна из двух властей"
+ },
+ {
+  "source": "C.history.petrogradskiy-sovet",
+  "target": "C.history.sovety",
+  "type": "is_a",
+  "why": "главный из Советов 1917 г."
+ },
+ {
+  "source": "C.history.dvoevlastie",
+  "target": "C.history.iyulskiy-krizis",
+  "type": "prerequisites_for",
+  "why": "июльский кризис положил конец двоевластию"
+ },
+ {
+  "source": "C.history.iyulskiy-krizis",
+  "target": "C.history.kornilovskoe-vystuplenie",
+  "type": "prerequisites_for",
+  "why": "после июльских событий Корнилов попытался установить твёрдую власть"
+ },
+ {
+  "source": "C.history.l-g-kornilov",
+  "target": "C.history.kornilovskoe-vystuplenie",
+  "type": "participant_of",
+  "why": "Корнилов возглавил выступление"
+ },
+ {
+  "source": "C.history.kornilovskoe-vystuplenie",
+  "target": "C.history.provozglashenie-rossii-respublikoy",
+  "type": "prerequisites_for",
+  "why": "после выступления Корнилова Россию провозгласили республикой"
+ },
+ {
+  "source": "C.history.kornilovskoe-vystuplenie",
+  "target": "C.history.oktyabrskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "после выступления Корнилова усилились большевики"
+ },
+ {
+  "source": "C.history.vremennoe-pravitelstvo",
+  "target": "C.history.oktyabrskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "большевики свергли Временное правительство"
+ },
+ {
+  "source": "C.history.bolsheviki",
+  "target": "C.history.oktyabrskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "власть взяли большевики"
+ },
+ {
+  "source": "C.history.v-i-lenin",
+  "target": "C.history.oktyabrskaya-revolyutsiya",
+  "type": "participant_of",
+  "why": "Ленин руководил взятием власти"
+ },
+ {
+  "source": "C.history.v-i-lenin",
+  "target": "C.history.bolsheviki",
+  "type": "participant_of",
+  "why": "Ленин — вождь большевиков"
+ },
+ {
+  "source": "C.history.oktyabrskaya-revolyutsiya",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "prerequisites_for",
+  "why": "захват власти большевиками привёл к гражданской войне"
+ },
+ {
+  "source": "C.history.uprazdnenie-patriarshestva",
+  "target": "C.history.vosstanovlenie-patriarshestva",
+  "type": "prerequisites_for",
+  "why": "в 1917 г. восстановлено патриаршество, упразднённое Петром I"
+ },
+ {
+  "source": "C.history.oktyabrskaya-revolyutsiya",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "prerequisites_for",
+  "why": "преобразования начались сразу после взятия власти"
+ },
+ {
+  "source": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "target": "C.history.velikaya-rossiyskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "преобразования 1917–1918 гг."
+ },
+ {
+  "source": "C.history.dekret-o-mire",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "part_of",
+  "why": "первый декрет советской власти"
+ },
+ {
+  "source": "C.history.dekret-o-mire",
+  "target": "C.history.brestskiy-mir",
+  "type": "prerequisites_for",
+  "why": "большевики добивались выхода из войны и заключили Брестский мир"
+ },
+ {
+  "source": "C.history.agrarnyy-vopros",
+  "target": "C.history.dekret-o-zemle",
+  "type": "prerequisites_for",
+  "why": "декрет передал землю крестьянам"
+ },
+ {
+  "source": "C.history.dekret-o-zemle",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "part_of",
+  "why": "один из первых декретов"
+ },
+ {
+  "source": "C.history.natsionalizatsiya-promyshlennosti",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "part_of",
+  "why": "переход промышленности в собственность государства"
+ },
+ {
+  "source": "C.history.gosudarstvo-i-tserkov",
+  "target": "C.history.otdelenie-tserkvi-ot-gosudarstva",
+  "type": "prerequisites_for",
+  "why": "декрет изменил отношения государства и Церкви"
+ },
+ {
+  "source": "C.history.otdelenie-tserkvi-ot-gosudarstva",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "part_of",
+  "why": "декрет 1918 г."
+ },
+ {
+  "source": "C.history.deklaratsiya-prav-narodov-rossii",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "part_of",
+  "why": "декларация 1917 г. о правах народов"
+ },
+ {
+  "source": "C.history.deklaratsiya-prav-narodov-rossii",
+  "target": "C.history.natsionalnaya-politika-sssr",
+  "type": "prerequisites_for",
+  "why": "декларация заложила основы советской национальной политики"
+ },
+ {
+  "source": "C.history.vremennoe-pravitelstvo",
+  "target": "C.history.uchreditelnoe-sobranie",
+  "type": "prerequisites_for",
+  "why": "Временное правительство назначило выборы в Учредительное собрание"
+ },
+ {
+  "source": "C.history.uchreditelnoe-sobranie",
+  "target": "C.history.razgon-uchreditelnogo-sobraniya",
+  "type": "prerequisites_for",
+  "why": "большевики разогнали собрание в январе 1918 г."
+ },
+ {
+  "source": "C.history.razgon-uchreditelnogo-sobraniya",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "part_of",
+  "why": "слом старого государственного порядка"
+ },
+ {
+  "source": "C.history.vtsik",
+  "target": "C.history.sovetskaya-rossiya",
+  "type": "part_of",
+  "why": "высший орган Советов между съездами"
+ },
+ {
+  "source": "C.history.sovnarkom",
+  "target": "C.history.sovetskaya-rossiya",
+  "type": "part_of",
+  "why": "советское правительство"
+ },
+ {
+  "source": "C.history.v-i-lenin",
+  "target": "C.history.sovnarkom",
+  "type": "participant_of",
+  "why": "Ленин — председатель Совнаркома"
+ },
+ {
+  "source": "C.history.vchk",
+  "target": "C.history.sovetskaya-rossiya",
+  "type": "part_of",
+  "why": "чрезвычайный орган по борьбе с контрреволюцией"
+ },
+ {
+  "source": "C.history.vchk",
+  "target": "C.history.organy-gosbezopasnosti",
+  "type": "is_a",
+  "why": "первый советский орган госбезопасности"
+ },
+ {
+  "source": "C.history.vysshiy-sovet-narodnogo-hozyaystva",
+  "target": "C.history.sovetskaya-rossiya",
+  "type": "part_of",
+  "why": "орган управления экономикой"
+ },
+ {
+  "source": "C.history.natsionalizatsiya-promyshlennosti",
+  "target": "C.history.vysshiy-sovet-narodnogo-hozyaystva",
+  "type": "prerequisites_for",
+  "why": "ВСНХ управлял национализированной промышленностью"
+ },
+ {
+  "source": "C.history.sovetskaya-rossiya",
+  "target": "C.history.konstitutsiya-rsfsr-1918-goda",
+  "type": "prerequisites_for",
+  "why": "первая конституция советского государства"
+ },
+ {
+  "source": "C.history.ustanovlenie-sovetskoy-vlasti",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "начальный этап борьбы за власть"
+ },
+ {
+  "source": "C.history.oktyabrskaya-revolyutsiya",
+  "target": "C.history.ustanovlenie-sovetskoy-vlasti",
+  "type": "prerequisites_for",
+  "why": "после Октября советская власть утверждалась по всей стране"
+ },
+ {
+  "source": "C.history.oktyabrskaya-revolyutsiya",
+  "target": "C.history.antibolshevistskie-sily",
+  "type": "prerequisites_for",
+  "why": "противники большевиков объединялись против новой власти"
+ },
+ {
+  "source": "C.history.antibolshevistskie-sily",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "одна из сторон Гражданской войны"
+ },
+ {
+  "source": "C.history.beloe-dvizhenie",
+  "target": "C.history.antibolshevistskie-sily",
+  "type": "part_of",
+  "why": "главная антибольшевистская сила"
+ },
+ {
+  "source": "C.history.l-g-kornilov",
+  "target": "C.history.beloe-dvizhenie",
+  "type": "participant_of",
+  "why": "Корнилов — один из основателей Добровольческой армии"
+ },
+ {
+  "source": "C.history.p-n-vrangel",
+  "target": "C.history.beloe-dvizhenie",
+  "type": "participant_of",
+  "why": "Врангель — последний главнокомандующий белых"
+ },
+ {
+  "source": "C.history.don",
+  "target": "C.history.beloe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "на Дону сложился один из очагов белого движения"
+ },
+ {
+  "source": "C.history.ukrainskaya-tsentralnaya-rada",
+  "target": "C.history.antibolshevistskie-sily",
+  "type": "part_of",
+  "why": "национальная власть, противостоявшая большевикам"
+ },
+ {
+  "source": "C.history.levoberezhnaya-ukraina",
+  "target": "C.history.ukraina",
+  "type": "part_of",
+  "why": "часть Украины"
+ },
+ {
+  "source": "C.history.vosstanie-chehoslovatskogo-korpusa",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "восстание 1918 г. расширило войну"
+ },
+ {
+  "source": "C.history.antanta",
+  "target": "C.history.inostrannaya-voennaya-interventsiya",
+  "type": "prerequisites_for",
+  "why": "страны Антанты высадили войска в России"
+ },
+ {
+  "source": "C.history.inostrannaya-voennaya-interventsiya",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "вмешательство иностранных держав"
+ },
+ {
+  "source": "C.history.rekvizitsii",
+  "target": "C.history.beloe-dvizhenie",
+  "type": "part_of",
+  "why": "реквизиции на территориях белых"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-rossii",
+  "target": "C.history.voennyy-kommunizm",
+  "type": "prerequisites_for",
+  "why": "политика военного коммунизма — ответ на условия войны"
+ },
+ {
+  "source": "C.history.prodrazverstka",
+  "target": "C.history.voennyy-kommunizm",
+  "type": "part_of",
+  "why": "главная мера военного коммунизма"
+ },
+ {
+  "source": "C.history.prodotryady",
+  "target": "C.history.voennyy-kommunizm",
+  "type": "part_of",
+  "why": "отряды изымали хлеб у крестьян"
+ },
+ {
+  "source": "C.history.trudovaya-povinnost",
+  "target": "C.history.voennyy-kommunizm",
+  "type": "part_of",
+  "why": "принудительный труд при военном коммунизме"
+ },
+ {
+  "source": "C.history.komitety-bednoty",
+  "target": "C.history.voennyy-kommunizm",
+  "type": "part_of",
+  "why": "комбеды помогали изымать хлеб"
+ },
+ {
+  "source": "C.history.plan-goelro",
+  "target": "C.history.pyatiletnie-plany",
+  "type": "prerequisites_for",
+  "why": "ГОЭЛРО — первый долгосрочный план развития хозяйства"
+ },
+ {
+  "source": "C.history.sovetskaya-rossiya",
+  "target": "C.history.krasnaya-armiya",
+  "type": "prerequisites_for",
+  "why": "советское государство создало Красную армию"
+ },
+ {
+  "source": "C.history.voenspetsy",
+  "target": "C.history.krasnaya-armiya",
+  "type": "part_of",
+  "why": "бывшие офицеры на службе в Красной армии"
+ },
+ {
+  "source": "C.history.sotsialisty-revolyutsionery",
+  "target": "C.history.levye-esery",
+  "type": "prerequisites_for",
+  "why": "левые эсеры откололись от партии эсеров"
+ },
+ {
+  "source": "C.history.levye-esery",
+  "target": "C.history.vystuplenie-levyh-eserov",
+  "type": "prerequisites_for",
+  "why": "мятеж левых эсеров в июле 1918 г."
+ },
+ {
+  "source": "C.history.brestskiy-mir",
+  "target": "C.history.vystuplenie-levyh-eserov",
+  "type": "prerequisites_for",
+  "why": "левые эсеры выступили против Брестского мира"
+ },
+ {
+  "source": "C.history.vchk",
+  "target": "C.history.krasnyy-terror",
+  "type": "prerequisites_for",
+  "why": "красный террор проводила ВЧК"
+ },
+ {
+  "source": "C.history.krasnyy-terror",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "террор большевиков в годы войны"
+ },
+ {
+  "source": "C.history.beloe-dvizhenie",
+  "target": "C.history.belyy-terror",
+  "type": "prerequisites_for",
+  "why": "террор на территориях белых"
+ },
+ {
+  "source": "C.history.belyy-terror",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "террор белых в годы войны"
+ },
+ {
+  "source": "C.history.nikolay-ii",
+  "target": "C.history.ubiystvo-tsarskoy-semi",
+  "type": "prerequisites_for",
+  "why": "расстрел Николая II и его семьи в 1918 г."
+ },
+ {
+  "source": "C.history.revkomy",
+  "target": "C.history.sovetskaya-rossiya",
+  "type": "part_of",
+  "why": "чрезвычайные органы власти"
+ },
+ {
+  "source": "C.history.polsko-sovetskaya-voyna",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "война с Польшей 1920 г."
+ },
+ {
+  "source": "C.history.p-n-vrangel",
+  "target": "C.history.porazhenie-armii-vrangelya-v-krymu",
+  "type": "participant_of",
+  "why": "Врангель командовал армией в Крыму"
+ },
+ {
+  "source": "C.history.porazhenie-armii-vrangelya-v-krymu",
+  "target": "C.history.grazhdanskaya-voyna-v-rossii",
+  "type": "part_of",
+  "why": "разгром последней белой армии"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-rossii",
+  "target": "C.history.russkoe-zarubezhe",
+  "type": "prerequisites_for",
+  "why": "побеждённые эмигрировали и создали русское зарубежье"
+ },
+ {
+  "source": "C.history.politicheskaya-emigratsiya",
+  "target": "C.history.russkoe-zarubezhe",
+  "type": "prerequisites_for",
+  "why": "эмигранты образовали русское зарубежье"
+ },
+ {
+  "source": "C.history.serebryanyy-vek-rossiyskoy-kultury",
+  "target": "C.history.kultura-sovetskoy-rossii-v-gody-grazhdanskoy-voyny",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития культуры"
+ },
+ {
+  "source": "C.history.kultura-sovetskoy-rossii-v-gody-grazhdanskoy-voyny",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "prerequisites_for",
+  "why": "следующий этап советской культуры"
+ },
+ {
+  "source": "C.history.naglyadnaya-agitatsiya",
+  "target": "C.history.propaganda",
+  "type": "is_a",
+  "why": "плакаты и лозунги — средство пропаганды"
+ },
+ {
+  "source": "C.history.antireligioznaya-propaganda",
+  "target": "C.history.propaganda",
+  "type": "is_a",
+  "why": "пропаганда против религии"
+ },
+ {
+  "source": "C.history.naglyadnaya-agitatsiya",
+  "target": "C.history.kultura-sovetskoy-rossii-v-gody-grazhdanskoy-voyny",
+  "type": "part_of",
+  "why": "агитационное искусство Гражданской войны"
+ },
+ {
+  "source": "C.history.antireligioznaya-propaganda",
+  "target": "C.history.kultura-sovetskoy-rossii-v-gody-grazhdanskoy-voyny",
+  "type": "part_of",
+  "why": "борьба с религией в годы войны"
+ },
+ {
+  "source": "C.history.gosudarstvennaya-komissiya-po-prosvescheniyu",
+  "target": "C.history.narkompros",
+  "type": "part_of",
+  "why": "коллегия Наркомпроса"
+ },
+ {
+  "source": "C.history.proletkult",
+  "target": "C.history.kultura-sovetskoy-rossii-v-gody-grazhdanskoy-voyny",
+  "type": "part_of",
+  "why": "организация пролетарской культуры"
+ },
+ {
+  "source": "C.history.natsionalizatsiya-teatrov-i-kinematografa",
+  "target": "C.history.kultura-sovetskoy-rossii-v-gody-grazhdanskoy-voyny",
+  "type": "part_of",
+  "why": "театры и кино перешли к государству"
+ },
+ {
+  "source": "C.history.rabfaki",
+  "target": "C.history.proletarizatsiya-vuzov",
+  "type": "part_of",
+  "why": "рабфаки готовили рабочих к поступлению в вузы"
+ },
+ {
+  "source": "C.history.proletarizatsiya-vuzov",
+  "target": "C.history.kultura-sovetskoy-rossii-v-gody-grazhdanskoy-voyny",
+  "type": "part_of",
+  "why": "изменение социального состава студентов"
+ },
+ {
+  "source": "C.history.soslovie",
+  "target": "C.history.likvidatsiya-soslovnyh-privilegiy",
+  "type": "prerequisites_for",
+  "why": "советская власть упразднила сословия"
+ },
+ {
+  "source": "C.history.likvidatsiya-soslovnyh-privilegiy",
+  "target": "C.history.pervye-revolyutsionnye-preobrazovaniya-bolshevikov",
+  "type": "part_of",
+  "why": "декрет 1917 г. об уничтожении сословий"
+ },
+ {
+  "source": "C.history.otdelenie-tserkvi-ot-gosudarstva",
+  "target": "C.history.sekulyarizatsiya-zhizni-obschestva",
+  "type": "prerequisites_for",
+  "why": "после отделения Церкви жизнь общества стала светской"
+ },
+ {
+  "source": "C.history.zhenskoe-dvizhenie",
+  "target": "C.history.emansipatsiya-zhenschin",
+  "type": "prerequisites_for",
+  "why": "равноправия женщин добивалось женское движение"
+ },
+ {
+  "source": "C.history.emansipatsiya-zhenschin",
+  "target": "C.history.sotsialnaya-politika-bolshevikov",
+  "type": "part_of",
+  "why": "законы о равноправии полов"
+ },
+ {
+  "source": "C.history.subbotniki",
+  "target": "C.history.povsednevnaya-zhizn-na-rusi",
+  "type": "part_of",
+  "why": "быт городов в годы Гражданской войны"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-rossii",
+  "target": "C.history.detskaya-besprizornost",
+  "type": "prerequisites_for",
+  "why": "война оставила миллионы детей без родителей"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-rossii",
+  "target": "C.history.ekonomicheskaya-razruha",
+  "type": "prerequisites_for",
+  "why": "разруха — итог мировой и Гражданской войн"
+ },
+ {
+  "source": "C.history.ekonomicheskaya-razruha",
+  "target": "C.history.golod-1921-1922-godov",
+  "type": "prerequisites_for",
+  "why": "голод разразился в разорённой стране"
+ },
+ {
+  "source": "C.history.golod-1921-1922-godov",
+  "target": "C.history.rekvizitsiya-tserkovnogo-imuschestva",
+  "type": "prerequisites_for",
+  "why": "изъятие ценностей шло под предлогом помощи голодающим"
+ },
+ {
+  "source": "C.history.rekvizitsiya-tserkovnogo-imuschestva",
+  "target": "C.history.presledovanie-svyaschennosluzhiteley",
+  "type": "prerequisites_for",
+  "why": "сопротивление изъятию вызвало репрессии против духовенства"
+ },
+ {
+  "source": "C.history.prodrazverstka",
+  "target": "C.history.krestyanskie-vosstaniya",
+  "type": "prerequisites_for",
+  "why": "крестьяне восставали против продразвёрстки"
+ },
+ {
+  "source": "C.history.prodrazverstka",
+  "target": "C.history.kronshtadtskoe-vosstanie",
+  "type": "prerequisites_for",
+  "why": "матросы требовали отменить продразвёрстку"
+ },
+ {
+  "source": "C.history.voennyy-kommunizm",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "prerequisites_for",
+  "why": "нэп сменил военный коммунизм"
+ },
+ {
+  "source": "C.history.krestyanskie-vosstaniya",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "prerequisites_for",
+  "why": "восстания вынудили большевиков отказаться от продразвёрстки"
+ },
+ {
+  "source": "C.history.kronshtadtskoe-vosstanie",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "prerequisites_for",
+  "why": "восстание ускорило переход к нэпу"
+ },
+ {
+  "source": "C.history.ekonomicheskaya-razruha",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "prerequisites_for",
+  "why": "нэп должен был восстановить разрушенное хозяйство"
+ },
+ {
+  "source": "C.history.prodrazverstka",
+  "target": "C.history.prodnalog",
+  "type": "prerequisites_for",
+  "why": "продналог заменил продразвёрстку"
+ },
+ {
+  "source": "C.history.prodnalog",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "part_of",
+  "why": "первая мера нэпа"
+ },
+ {
+  "source": "C.history.tovarno-denezhnye-otnosheniya",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "part_of",
+  "why": "нэп вернул рынок и торговлю"
+ },
+ {
+  "source": "C.history.kooperatsiya",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "part_of",
+  "why": "нэп поощрял кооперацию"
+ },
+ {
+  "source": "C.history.finansovaya-reforma-1922-1924-godov",
+  "target": "C.history.novaya-ekonomicheskaya-politika",
+  "type": "part_of",
+  "why": "введение твёрдого червонца"
+ },
+ {
+  "source": "C.history.gosplan",
+  "target": "C.history.pyatiletnie-plany",
+  "type": "prerequisites_for",
+  "why": "Госплан разрабатывал пятилетние планы"
+ },
+ {
+  "source": "C.history.zvanie-geroya-truda",
+  "target": "C.history.sotsialisticheskoe-sorevnovanie",
+  "type": "prerequisites_for",
+  "why": "почётное звание поощряло лучших работников"
+ },
+ {
+  "source": "C.history.obrazovanie-sssr",
+  "target": "C.history.konstitutsiya-sssr-1924-goda",
+  "type": "prerequisites_for",
+  "why": "конституция закрепила создание СССР"
+ },
+ {
+  "source": "C.history.natsionalno-gosudarstvennoe-stroitelstvo",
+  "target": "C.history.natsionalnaya-politika-sssr",
+  "type": "part_of",
+  "why": "создание национальных республик и автономий"
+ },
+ {
+  "source": "C.history.korenizatsiya",
+  "target": "C.history.natsionalnaya-politika-sssr",
+  "type": "part_of",
+  "why": "выдвижение национальных кадров в 1920-е гг."
+ },
+ {
+  "source": "C.history.bolsheviki",
+  "target": "C.history.vkp-b",
+  "type": "prerequisites_for",
+  "why": "ВКП(б) — партия большевиков"
+ },
+ {
+  "source": "C.history.bolsheviki",
+  "target": "C.history.likvidatsiya-nebolshevistskih-partiy",
+  "type": "prerequisites_for",
+  "why": "большевики уничтожили другие партии"
+ },
+ {
+  "source": "C.history.likvidatsiya-nebolshevistskih-partiy",
+  "target": "C.history.odnopartiynaya-sistema",
+  "type": "prerequisites_for",
+  "why": "в стране осталась одна партия"
+ },
+ {
+  "source": "C.history.vkp-b",
+  "target": "C.history.odnopartiynaya-sistema",
+  "type": "part_of",
+  "why": "единственная правящая партия"
+ },
+ {
+  "source": "C.history.vkp-b",
+  "target": "C.history.vnutripartiynaya-borba",
+  "type": "prerequisites_for",
+  "why": "борьба за власть в партии после смерти Ленина"
+ },
+ {
+  "source": "C.history.i-v-stalin",
+  "target": "C.history.vnutripartiynaya-borba",
+  "type": "participant_of",
+  "why": "Сталин победил соперников в борьбе за власть"
+ },
+ {
+  "source": "C.history.oppozitsiya-v-vkp-b",
+  "target": "C.history.vnutripartiynaya-borba",
+  "type": "part_of",
+  "why": "оппозиции были разгромлены к концу 1920-х гг."
+ },
+ {
+  "source": "C.history.partiynyy-apparat",
+  "target": "C.history.vkp-b",
+  "type": "part_of",
+  "why": "аппарат партии"
+ },
+ {
+  "source": "C.history.sotsialnye-lifty",
+  "target": "C.history.sotsialnaya-politika-bolshevikov",
+  "type": "part_of",
+  "why": "возможности продвижения для рабочих и крестьян"
+ },
+ {
+  "source": "C.history.zdravoohranenie",
+  "target": "C.history.sotsialnaya-politika-bolshevikov",
+  "type": "part_of",
+  "why": "создание советской системы здравоохранения"
+ },
+ {
+  "source": "C.history.ohrana-materinstva-i-detstva",
+  "target": "C.history.sotsialnaya-politika-bolshevikov",
+  "type": "part_of",
+  "why": "забота о матерях и детях"
+ },
+ {
+  "source": "C.history.bezrabotitsa",
+  "target": "C.history.sotsialnaya-politika-bolshevikov",
+  "type": "prerequisites_for",
+  "why": "власть принимала меры против безработицы"
+ },
+ {
+  "source": "C.history.detskaya-besprizornost",
+  "target": "C.history.sotsialnaya-politika-bolshevikov",
+  "type": "prerequisites_for",
+  "why": "борьба с беспризорностью"
+ },
+ {
+  "source": "C.history.ekspluatatorskie-klassy",
+  "target": "C.history.sotsialnaya-struktura-rossiyskogo-obschestva",
+  "type": "part_of",
+  "why": "бывшие привилегированные слои"
+ },
+ {
+  "source": "C.history.kulaki",
+  "target": "C.history.krestyanstvo",
+  "type": "part_of",
+  "why": "зажиточная часть крестьянства"
+ },
+ {
+  "source": "C.history.serednyaki",
+  "target": "C.history.krestyanstvo",
+  "type": "part_of",
+  "why": "средняя часть крестьянства"
+ },
+ {
+  "source": "C.history.bednyaki",
+  "target": "C.history.krestyanstvo",
+  "type": "part_of",
+  "why": "беднейшая часть крестьянства"
+ },
+ {
+  "source": "C.history.selskohozyaystvennye-kommuny",
+  "target": "C.history.kooperatsiya",
+  "type": "part_of",
+  "why": "форма производственной кооперации"
+ },
+ {
+  "source": "C.history.selskohozyaystvennye-arteli",
+  "target": "C.history.kooperatsiya",
+  "type": "part_of",
+  "why": "форма производственной кооперации"
+ },
+ {
+  "source": "C.history.toz",
+  "target": "C.history.kooperatsiya",
+  "type": "part_of",
+  "why": "товарищества по совместной обработке земли"
+ },
+ {
+  "source": "C.history.selskohozyaystvennye-arteli",
+  "target": "C.history.kolhozy",
+  "type": "prerequisites_for",
+  "why": "колхозы создавались в форме артели"
+ },
+ {
+  "source": "C.history.novaya-ekonomicheskaya-politika",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "prerequisites_for",
+  "why": "после нэпа начался период форсированной модернизации"
+ },
+ {
+  "source": "C.history.novaya-ekonomicheskaya-politika",
+  "target": "C.history.velikiy-perelom",
+  "type": "prerequisites_for",
+  "why": "«великий перелом» означал отказ от нэпа"
+ },
+ {
+  "source": "C.history.velikiy-perelom",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "начало периода 1929–1941 гг."
+ },
+ {
+  "source": "C.history.likvidatsiya-chastnoy-torgovli-i-predprinimatelstva",
+  "target": "C.history.velikiy-perelom",
+  "type": "part_of",
+  "why": "свёртывание нэпа"
+ },
+ {
+  "source": "C.history.velikiy-perelom",
+  "target": "C.history.komandno-administrativnaya-sistema",
+  "type": "prerequisites_for",
+  "why": "экономику перестроили на основе командного администрирования"
+ },
+ {
+  "source": "C.history.industrializatsiya-v-sssr",
+  "target": "C.history.industrializatsiya",
+  "type": "is_a",
+  "why": "советская индустриализация"
+ },
+ {
+  "source": "C.history.velikiy-perelom",
+  "target": "C.history.industrializatsiya-v-sssr",
+  "type": "prerequisites_for",
+  "why": "форсированная индустриализация началась с «великого перелома»"
+ },
+ {
+  "source": "C.history.pyatiletnie-plany",
+  "target": "C.history.industrializatsiya-v-sssr",
+  "type": "prerequisites_for",
+  "why": "индустриализация шла по пятилетним планам"
+ },
+ {
+  "source": "C.history.industrializatsiya-v-sssr",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "главная задача 1930-х гг."
+ },
+ {
+  "source": "C.history.sotsialisticheskoe-sorevnovanie",
+  "target": "C.history.industrializatsiya-v-sssr",
+  "type": "part_of",
+  "why": "соревнование за выполнение планов"
+ },
+ {
+  "source": "C.history.udarniki",
+  "target": "C.history.sotsialisticheskoe-sorevnovanie",
+  "type": "part_of",
+  "why": "передовики соревнования"
+ },
+ {
+  "source": "C.history.stahanovtsy",
+  "target": "C.history.sotsialisticheskoe-sorevnovanie",
+  "type": "part_of",
+  "why": "стахановское движение — форма соревнования"
+ },
+ {
+  "source": "C.history.stroyki-pervyh-pyatiletok",
+  "target": "C.history.industrializatsiya-v-sssr",
+  "type": "part_of",
+  "why": "крупнейшие стройки индустриализации"
+ },
+ {
+  "source": "C.history.moskovskiy-metropoliten",
+  "target": "C.history.stroyki-pervyh-pyatiletok",
+  "type": "part_of",
+  "why": "одна из крупнейших строек 1930-х гг."
+ },
+ {
+  "source": "C.history.uzhestochenie-trudovogo-zakonodatelstva",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "законы о трудовой дисциплине 1938–1940 гг."
+ },
+ {
+  "source": "C.history.velikiy-perelom",
+  "target": "C.history.kollektivizatsiya",
+  "type": "prerequisites_for",
+  "why": "сплошная коллективизация началась в 1929 г."
+ },
+ {
+  "source": "C.history.kollektivizatsiya",
+  "target": "C.history.kolhozy",
+  "type": "prerequisites_for",
+  "why": "крестьян объединили в колхозы"
+ },
+ {
+  "source": "C.history.mts",
+  "target": "C.history.kolhozy",
+  "type": "part_of",
+  "why": "машинно-тракторные станции обслуживали колхозы"
+ },
+ {
+  "source": "C.history.kulaki",
+  "target": "C.history.raskulachivanie",
+  "type": "prerequisites_for",
+  "why": "раскулачивание — ликвидация кулачества"
+ },
+ {
+  "source": "C.history.raskulachivanie",
+  "target": "C.history.kollektivizatsiya",
+  "type": "part_of",
+  "why": "раскулачивание сопровождало коллективизацию"
+ },
+ {
+  "source": "C.history.kollektivizatsiya",
+  "target": "C.history.golod-1932-1933-godov",
+  "type": "prerequisites_for",
+  "why": "голод стал следствием коллективизации"
+ },
+ {
+  "source": "C.history.kollektivizatsiya",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "преобразование деревни в 1930-е гг."
+ },
+ {
+  "source": "C.history.i-v-stalin",
+  "target": "C.history.kult-lichnosti-stalina",
+  "type": "prerequisites_for",
+  "why": "культ личности Сталина"
+ },
+ {
+  "source": "C.history.kult-lichnosti-stalina",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "утверждение культа в 1930-е гг."
+ },
+ {
+  "source": "C.history.organy-gosbezopasnosti",
+  "target": "C.history.massovye-politicheskie-repressii-1937-1938-godov",
+  "type": "prerequisites_for",
+  "why": "репрессии проводили органы НКВД"
+ },
+ {
+  "source": "C.history.massovye-politicheskie-repressii-1937-1938-godov",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "«большой террор» 1937–1938 гг."
+ },
+ {
+  "source": "C.history.gulag",
+  "target": "C.history.organy-gosbezopasnosti",
+  "type": "part_of",
+  "why": "система лагерей в ведении НКВД"
+ },
+ {
+  "source": "C.history.gulag",
+  "target": "C.history.prinuditelnyy-trud",
+  "type": "prerequisites_for",
+  "why": "заключённые ГУЛАГа использовались на тяжёлых работах"
+ },
+ {
+  "source": "C.history.prinuditelnyy-trud",
+  "target": "C.history.industrializatsiya-v-sssr",
+  "type": "part_of",
+  "why": "труд заключённых на стройках индустриализации"
+ },
+ {
+  "source": "C.history.prinuditelnyy-trud",
+  "target": "C.history.osvoenie-gosudarstvennoy-territorii",
+  "type": "prerequisites_for",
+  "why": "заключённые осваивали труднодоступные территории"
+ },
+ {
+  "source": "C.history.tsenzura",
+  "target": "C.history.ideologicheskiy-kontrol",
+  "type": "part_of",
+  "why": "цензура — инструмент идеологического контроля"
+ },
+ {
+  "source": "C.history.kratkiy-kurs-istorii-vkp-b",
+  "target": "C.history.ideologicheskiy-kontrol",
+  "type": "part_of",
+  "why": "обязательная трактовка истории партии"
+ },
+ {
+  "source": "C.history.pasportnaya-sistema",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "паспорта введены в 1932 г."
+ },
+ {
+  "source": "C.history.konstitutsiya-sssr-1924-goda",
+  "target": "C.history.konstitutsiya-sssr-1936-goda",
+  "type": "prerequisites_for",
+  "why": "новая конституция сменила конституцию 1924 г."
+ },
+ {
+  "source": "C.history.konstitutsiya-sssr-1936-goda",
+  "target": "C.history.sssr-v-1929-1941-godah",
+  "type": "part_of",
+  "why": "«сталинская» конституция 1936 г."
+ },
+ {
+  "source": "C.history.novaya-ekonomicheskaya-politika",
+  "target": "C.history.nepmany",
+  "type": "prerequisites_for",
+  "why": "нэпманы — частные предприниматели периода нэпа"
+ },
+ {
+  "source": "C.history.kommunisticheskoe-chvanstvo",
+  "target": "C.history.povsednevnaya-zhizn-na-rusi",
+  "type": "part_of",
+  "why": "настроения в обществе в годы нэпа"
+ },
+ {
+  "source": "C.history.sekulyarizatsiya-zhizni-obschestva",
+  "target": "C.history.sovetskie-obryady-i-prazdniki",
+  "type": "prerequisites_for",
+  "why": "новые обряды и праздники заменили религиозные"
+ },
+ {
+  "source": "C.history.rasprostranenie-gramotnosti",
+  "target": "C.history.borba-s-bezgramotnostyu",
+  "type": "prerequisites_for",
+  "why": "ликвидация безграмотности продолжила распространение грамотности"
+ },
+ {
+  "source": "C.history.borba-s-bezgramotnostyu",
+  "target": "C.history.kulturnaya-revolyutsiya",
+  "type": "part_of",
+  "why": "ликбез — часть культурной революции"
+ },
+ {
+  "source": "C.history.pismennost",
+  "target": "C.history.sozdanie-natsionalnoy-pismennosti",
+  "type": "prerequisites_for",
+  "why": "народы получили письменность на родном языке"
+ },
+ {
+  "source": "C.history.sozdanie-natsionalnoy-pismennosti",
+  "target": "C.history.natsionalnaya-politika-sssr",
+  "type": "part_of",
+  "why": "создание алфавитов для народов СССР"
+ },
+ {
+  "source": "C.history.russkaya-literatura-nachala-xx-veka",
+  "target": "C.history.sovetskaya-literatura",
+  "type": "prerequisites_for",
+  "why": "советская литература выросла из литературы Серебряного века"
+ },
+ {
+  "source": "C.history.sovetskaya-literatura",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "литература 1920–1930-х гг."
+ },
+ {
+  "source": "C.history.russkaya-arhitektura-nachala-xx-veka",
+  "target": "C.history.sovetskaya-arhitektura",
+  "type": "prerequisites_for",
+  "why": "следующий этап русской архитектуры"
+ },
+ {
+  "source": "C.history.sovetskaya-arhitektura",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "архитектура 1920–1930-х гг."
+ },
+ {
+  "source": "C.history.sovetskiy-avangard",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "авангард в советском искусстве 1920-х гг."
+ },
+ {
+  "source": "C.history.narkompros",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "наркомат, руководивший просвещением и культурой"
+ },
+ {
+  "source": "C.history.novyy-chelovek",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "воспитание «нового человека» — цель советской культуры"
+ },
+ {
+  "source": "C.history.internatsionalizm",
+  "target": "C.history.novyy-chelovek",
+  "type": "part_of",
+  "why": "ценность «нового человека»"
+ },
+ {
+  "source": "C.history.sovetskiy-patriotizm",
+  "target": "C.history.novyy-chelovek",
+  "type": "part_of",
+  "why": "ценность «нового человека»"
+ },
+ {
+  "source": "C.history.olimpiyskoe-dvizhenie",
+  "target": "C.history.sport",
+  "type": "part_of",
+  "why": "международное спортивное движение"
+ },
+ {
+  "source": "C.history.voenno-sportivnye-organizatsii",
+  "target": "C.history.sport",
+  "type": "part_of",
+  "why": "военно-спортивная подготовка молодёжи"
+ },
+ {
+  "source": "C.history.epopeya-chelyuskintsev",
+  "target": "C.history.osvoenie-arktiki",
+  "type": "part_of",
+  "why": "спасение экипажа «Челюскина» в 1934 г."
+ },
+ {
+  "source": "C.history.osvoenie-arktiki",
+  "target": "C.history.osvoenie-gosudarstvennoy-territorii",
+  "type": "part_of",
+  "why": "освоение Севера в 1930-е гг."
+ },
+ {
+  "source": "C.history.epopeya-chelyuskintsev",
+  "target": "C.history.zvanie-geroya-sovetskogo-soyuza",
+  "type": "prerequisites_for",
+  "why": "первыми Героями стали лётчики, спасшие челюскинцев"
+ },
+ {
+  "source": "C.history.kulturnaya-revolyutsiya",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "преобразования в культуре и образовании"
+ },
+ {
+  "source": "C.history.tvorcheskie-soyuzy",
+  "target": "C.history.ideologicheskiy-kontrol",
+  "type": "part_of",
+  "why": "союзы писателей и художников под контролем партии"
+ },
+ {
+  "source": "C.history.realizm",
+  "target": "C.history.sotsialisticheskiy-realizm",
+  "type": "prerequisites_for",
+  "why": "социалистический реализм — официальный метод советского искусства"
+ },
+ {
+  "source": "C.history.sotsialisticheskiy-realizm",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "метод советской литературы и искусства 1930-х гг."
+ },
+ {
+  "source": "C.history.rossiyskaya-nauka-nachala-xx-veka",
+  "target": "C.history.sovetskaya-nauka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития отечественной науки"
+ },
+ {
+  "source": "C.history.sovetskaya-nauka",
+  "target": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "type": "part_of",
+  "why": "наука 1930-х гг."
+ },
+ {
+  "source": "C.history.urbanizatsiya",
+  "target": "C.history.zhilischnaya-problema",
+  "type": "prerequisites_for",
+  "why": "приток населения в города обострил жилищную проблему"
+ },
+ {
+  "source": "C.history.vkp-b",
+  "target": "C.history.komsomol",
+  "type": "prerequisites_for",
+  "why": "комсомол — молодёжная организация партии"
+ },
+ {
+  "source": "C.history.komsomol",
+  "target": "C.history.pioneriya",
+  "type": "prerequisites_for",
+  "why": "пионерская организация работала под руководством комсомола"
+ },
+ {
+  "source": "C.history.vneshnyaya-politika-rossii",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "prerequisites_for",
+  "why": "внешняя политика СССР продолжила внешнюю политику России"
+ },
+ {
+  "source": "C.history.mirovaya-revolyutsiya",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "первоначальный курс советской внешней политики"
+ },
+ {
+  "source": "C.history.mirovaya-revolyutsiya",
+  "target": "C.history.postroenie-sotsializma-v-odnoy-strane",
+  "type": "prerequisites_for",
+  "why": "концепция социализма в одной стране сменила курс на мировую революцию"
+ },
+ {
+  "source": "C.history.postroenie-sotsializma-v-odnoy-strane",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "новый курс советской политики"
+ },
+ {
+  "source": "C.history.komintern",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "Коминтерн — инструмент мировой революции"
+ },
+ {
+  "source": "C.history.liga-natsiy",
+  "target": "C.history.vstuplenie-sssr-v-ligu-natsiy",
+  "type": "prerequisites_for",
+  "why": "СССР вступил в Лигу Наций в 1934 г."
+ },
+ {
+  "source": "C.history.vstuplenie-sssr-v-ligu-natsiy",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "курс на коллективную безопасность"
+ },
+ {
+  "source": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "target": "C.history.prisoedinenie-zapadnoy-ukrainy-i-zapadnoy-belorussii",
+  "type": "prerequisites_for",
+  "why": "присоединение по секретному протоколу 1939 г."
+ },
+ {
+  "source": "C.history.prisoedinenie-zapadnoy-ukrainy-i-zapadnoy-belorussii",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "расширение территории СССР в 1939 г."
+ },
+ {
+  "source": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "target": "C.history.vklyuchenie-pribaltiki-v-sostav-sssr",
+  "type": "prerequisites_for",
+  "why": "Прибалтика отнесена к сфере интересов СССР"
+ },
+ {
+  "source": "C.history.pribaltika",
+  "target": "C.history.vklyuchenie-pribaltiki-v-sostav-sssr",
+  "type": "prerequisites_for",
+  "why": "Латвия, Литва и Эстония вошли в СССР в 1940 г."
+ },
+ {
+  "source": "C.history.vklyuchenie-pribaltiki-v-sostav-sssr",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "расширение территории СССР в 1940 г."
+ },
+ {
+  "source": "C.history.sovetsko-germanskiy-dogovor-o-nenapadenii",
+  "target": "C.history.prisoedinenie-bessarabii-i-severnoy-bukoviny",
+  "type": "prerequisites_for",
+  "why": "Бессарабия отнесена к сфере интересов СССР"
+ },
+ {
+  "source": "C.history.prisoedinenie-bessarabii-i-severnoy-bukoviny",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "расширение территории СССР в 1940 г."
+ },
+ {
+  "source": "C.history.prisoedinenie-zapadnoy-ukrainy-i-zapadnoy-belorussii",
+  "target": "C.history.katynskaya-tragediya",
+  "type": "prerequisites_for",
+  "why": "польских военнопленных 1939 г. расстреляли в 1940 г."
+ },
+ {
+  "source": "C.history.organy-gosbezopasnosti",
+  "target": "C.history.katynskaya-tragediya",
+  "type": "prerequisites_for",
+  "why": "расстрел совершили органы НКВД"
+ },
+ {
+  "source": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "июнь 1941 — осень 1942 г."
+ },
+ {
+  "source": "C.history.napadenie-germanii-na-sssr",
+  "target": "C.history.gosudarstvennyy-komitet-oborony",
+  "type": "prerequisites_for",
+  "why": "ГКО создан через неделю после нападения"
+ },
+ {
+  "source": "C.history.i-v-stalin",
+  "target": "C.history.gosudarstvennyy-komitet-oborony",
+  "type": "participant_of",
+  "why": "Сталин — председатель ГКО"
+ },
+ {
+  "source": "C.history.narodnoe-opolchenie",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "добровольческие дивизии 1941 г."
+ },
+ {
+  "source": "C.history.oborona-brestskoy-kreposti",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "первые дни войны"
+ },
+ {
+  "source": "C.history.smolenskoe-srazhenie",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "сражение лета 1941 г."
+ },
+ {
+  "source": "C.history.elninskaya-operatsiya",
+  "target": "C.history.smolenskoe-srazhenie",
+  "type": "part_of",
+  "why": "первое наступление Красной армии в ходе Смоленского сражения"
+ },
+ {
+  "source": "C.history.oborona-odessy",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "оборона 1941 г."
+ },
+ {
+  "source": "C.history.sevastopol",
+  "target": "C.history.oborona-sevastopolya-v-velikoy-otechestvennoy-voyne",
+  "type": "prerequisites_for",
+  "why": "оборона главной базы Черноморского флота"
+ },
+ {
+  "source": "C.history.oborona-sevastopolya-v-velikoy-otechestvennoy-voyne",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "оборона 1941–1942 гг."
+ },
+ {
+  "source": "C.history.blokada-leningrada",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "блокада 1941–1944 гг."
+ },
+ {
+  "source": "C.history.doroga-zhizni",
+  "target": "C.history.blokada-leningrada",
+  "type": "part_of",
+  "why": "ледовая дорога через Ладожское озеро"
+ },
+ {
+  "source": "C.history.blokada-leningrada",
+  "target": "C.history.proryv-blokady-leningrada",
+  "type": "prerequisites_for",
+  "why": "в январе 1943 г. кольцо блокады прорвано"
+ },
+ {
+  "source": "C.history.proryv-blokady-leningrada",
+  "target": "C.history.korennoy-perelom-v-hode-voyny",
+  "type": "part_of",
+  "why": "прорыв блокады в ходе коренного перелома"
+ },
+ {
+  "source": "C.history.bitva-za-moskvu",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "первое крупное поражение вермахта"
+ },
+ {
+  "source": "C.history.kontrnastuplenie-pod-moskvoy",
+  "target": "C.history.bitva-za-moskvu",
+  "type": "part_of",
+  "why": "разгром немцев под Москвой зимой 1941–1942 гг."
+ },
+ {
+  "source": "C.history.parad-7-noyabrya-1941-goda",
+  "target": "C.history.bitva-za-moskvu",
+  "type": "part_of",
+  "why": "парад в осаждённой Москве"
+ },
+ {
+  "source": "C.history.perestroyka-ekonomiki-na-voennyy-lad",
+  "target": "C.history.sovetskiy-tyl-v-gody-voyny",
+  "type": "part_of",
+  "why": "экономика перешла на нужды фронта"
+ },
+ {
+  "source": "C.history.evakuatsiya",
+  "target": "C.history.perestroyka-ekonomiki-na-voennyy-lad",
+  "type": "part_of",
+  "why": "предприятия вывезены на восток"
+ },
+ {
+  "source": "C.history.vvedenie-voennoy-distsipliny-na-proizvodstve",
+  "target": "C.history.perestroyka-ekonomiki-na-voennyy-lad",
+  "type": "part_of",
+  "why": "военные порядки на заводах"
+ },
+ {
+  "source": "C.history.prestupleniya-natsistov-protiv-sovetskih-grazhdan",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "part_of",
+  "why": "массовые убийства мирного населения"
+ },
+ {
+  "source": "C.history.getto",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "part_of",
+  "why": "гетто для еврейского населения"
+ },
+ {
+  "source": "C.history.etnicheskie-chistki",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "part_of",
+  "why": "уничтожение населения по национальному признаку"
+ },
+ {
+  "source": "C.history.natsistskiy-plen",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "part_of",
+  "why": "гибель советских военнопленных"
+ },
+ {
+  "source": "C.history.razgrablenie-kulturnyh-tsennostey",
+  "target": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "type": "part_of",
+  "why": "вывоз и уничтожение ценностей"
+ },
+ {
+  "source": "C.history.kontsentratsionnye-lagerya",
+  "target": "C.history.vosstaniya-v-natsistskih-lageryah",
+  "type": "prerequisites_for",
+  "why": "узники лагерей поднимали восстания"
+ },
+ {
+  "source": "C.history.vosstaniya-v-natsistskih-lageryah",
+  "target": "C.history.dvizhenie-soprotivleniya",
+  "type": "part_of",
+  "why": "восстания узников, например в Собиборе"
+ },
+ {
+  "source": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "target": "C.history.partizanskoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "на оккупированных землях развернулась партизанская борьба"
+ },
+ {
+  "source": "C.history.partizanskoe-dvizhenie",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "война в тылу врага"
+ },
+ {
+  "source": "C.history.germanskoe-nastuplenie-1942-goda",
+  "target": "C.history.stalingradskaya-bitva",
+  "type": "prerequisites_for",
+  "why": "летнее наступление немцев вышло к Волге"
+ },
+ {
+  "source": "C.history.germanskoe-nastuplenie-1942-goda",
+  "target": "C.history.bitva-za-kavkaz",
+  "type": "prerequisites_for",
+  "why": "наступление шло и на Кавказ"
+ },
+ {
+  "source": "C.history.germanskoe-nastuplenie-1942-goda",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "наступление весны — лета 1942 г."
+ },
+ {
+  "source": "C.history.porazhenie-sovetskih-voysk-v-krymu",
+  "target": "C.history.pervyy-period-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "поражение весной 1942 г."
+ },
+ {
+  "source": "C.history.bitva-za-kavkaz",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "бои 1942–1943 гг. на Кавказе"
+ },
+ {
+  "source": "C.history.oborona-stalingrada",
+  "target": "C.history.stalingradskaya-bitva",
+  "type": "part_of",
+  "why": "оборонительный этап битвы"
+ },
+ {
+  "source": "C.history.dom-pavlova",
+  "target": "C.history.oborona-stalingrada",
+  "type": "part_of",
+  "why": "символ обороны Сталинграда"
+ },
+ {
+  "source": "C.history.okruzhenie-nemetskih-voysk-pod-stalingradom",
+  "target": "C.history.stalingradskaya-bitva",
+  "type": "part_of",
+  "why": "наступательный этап битвы"
+ },
+ {
+  "source": "C.history.tankovoe-srazhenie-pod-prohorovkoy",
+  "target": "C.history.kurskaya-bitva",
+  "type": "part_of",
+  "why": "крупнейшее танковое сражение"
+ },
+ {
+  "source": "C.history.kurskaya-bitva",
+  "target": "C.history.bitva-za-dnepr",
+  "type": "prerequisites_for",
+  "why": "после Курской битвы Красная армия вышла к Днепру"
+ },
+ {
+  "source": "C.history.osvobozhdenie-levoberezhnoy-ukrainy",
+  "target": "C.history.bitva-za-dnepr",
+  "type": "part_of",
+  "why": "освобождение Левобережья и форсирование Днепра"
+ },
+ {
+  "source": "C.history.osvobozhdenie-kieva",
+  "target": "C.history.bitva-za-dnepr",
+  "type": "part_of",
+  "why": "Киев освобождён в ноябре 1943 г."
+ },
+ {
+  "source": "C.history.bitva-za-dnepr",
+  "target": "C.history.korennoy-perelom-v-hode-voyny",
+  "type": "part_of",
+  "why": "битва завершила коренной перелом"
+ },
+ {
+  "source": "C.history.natsistskiy-okkupatsionnyy-rezhim",
+  "target": "C.history.antifashistskoe-podpole",
+  "type": "prerequisites_for",
+  "why": "в оккупированных городах действовало подполье"
+ },
+ {
+  "source": "C.history.kollaboratsionistskie-formirovaniya",
+  "target": "C.history.kollaboratsionizm",
+  "type": "part_of",
+  "why": "воинские формирования из пленных и националистов"
+ },
+ {
+  "source": "C.history.vermaht",
+  "target": "C.history.natsistskiy-rezhim-v-germanii",
+  "type": "part_of",
+  "why": "вооружённые силы нацистской Германии"
+ },
+ {
+  "source": "C.history.prestupleniya-natsistov-protiv-sovetskih-grazhdan",
+  "target": "C.history.sudebnye-protsessy-nad-voennymi-prestupnikami-v-sssr",
+  "type": "prerequisites_for",
+  "why": "суды над преступниками 1943–1946 гг."
+ },
+ {
+  "source": "C.history.kollaboratsionizm",
+  "target": "C.history.sudebnye-protsessy-nad-voennymi-prestupnikami-v-sssr",
+  "type": "prerequisites_for",
+  "why": "судили и пособников оккупантов"
+ },
+ {
+  "source": "C.history.sovetskiy-tyl-v-gody-voyny",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "тыл обеспечивал фронт"
+ },
+ {
+  "source": "C.history.trudovoy-podvig-naroda",
+  "target": "C.history.sovetskiy-tyl-v-gody-voyny",
+  "type": "part_of",
+  "why": "труд женщин и подростков на заводах и в колхозах"
+ },
+ {
+  "source": "C.history.vse-dlya-fronta-vse-dlya-pobedy",
+  "target": "C.history.sovetskiy-tyl-v-gody-voyny",
+  "type": "part_of",
+  "why": "главный лозунг военного тыла"
+ },
+ {
+  "source": "C.history.pomosch-naseleniya-frontu",
+  "target": "C.history.sovetskiy-tyl-v-gody-voyny",
+  "type": "part_of",
+  "why": "сбор средств и вещей для армии"
+ },
+ {
+  "source": "C.history.zhenschiny-na-voyne",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "женщины служили в армии и партизанских отрядах"
+ },
+ {
+  "source": "C.history.frontovaya-povsednevnost",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "быт солдат на фронте"
+ },
+ {
+  "source": "C.history.kultura-sssr-v-1920-1930-e-gody",
+  "target": "C.history.kultura-v-gody-velikoy-otechestvennoy-voyny",
+  "type": "prerequisites_for",
+  "why": "следующий этап советской культуры"
+ },
+ {
+  "source": "C.history.svyaschennaya-voyna-pesnya",
+  "target": "C.history.kultura-v-gody-velikoy-otechestvennoy-voyny",
+  "type": "part_of",
+  "why": "песня — призыв к сопротивлению врагу"
+ },
+ {
+  "source": "C.history.bitva-za-dnepr",
+  "target": "C.history.osvobozhdenie-pravoberezhnoy-ukrainy-i-kryma",
+  "type": "prerequisites_for",
+  "why": "после форсирования Днепра началось освобождение Правобережья"
+ },
+ {
+  "source": "C.history.osvobozhdenie-pravoberezhnoy-ukrainy-i-kryma",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "наступление 1944 г."
+ },
+ {
+  "source": "C.history.osvobozhdenie-belorussii-i-pribaltiki",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "наступление 1944 г."
+ },
+ {
+  "source": "C.history.vislo-oderskaya-operatsiya",
+  "target": "C.history.osvobozhdenie-stran-evropy",
+  "type": "part_of",
+  "why": "освобождение Польши в 1945 г."
+ },
+ {
+  "source": "C.history.vstrecha-na-elbe",
+  "target": "C.history.bitva-za-berlin",
+  "type": "part_of",
+  "why": "встреча союзных войск в апреле 1945 г."
+ },
+ {
+  "source": "C.history.prinuditelnaya-trudovaya-migratsiya",
+  "target": "C.history.repatriatsiya-sovetskih-grazhdan",
+  "type": "prerequisites_for",
+  "why": "угнанных в Германию возвращали на родину"
+ },
+ {
+  "source": "C.history.natsistskiy-plen",
+  "target": "C.history.repatriatsiya-sovetskih-grazhdan",
+  "type": "prerequisites_for",
+  "why": "военнопленные возвращались на родину"
+ },
+ {
+  "source": "C.history.vosstanovlenie-hozyaystva-v-osvobozhdennyh-rayonah",
+  "target": "C.history.velikaya-otechestvennaya-voyna",
+  "type": "part_of",
+  "why": "восстановление начиналось сразу после освобождения"
+ },
+ {
+  "source": "C.history.evakuatsiya",
+  "target": "C.history.reevakuatsiya",
+  "type": "prerequisites_for",
+  "why": "вывезенные предприятия и люди возвращались назад"
+ },
+ {
+  "source": "C.history.sovetskaya-nauka",
+  "target": "C.history.sovetskiy-atomnyy-proekt",
+  "type": "prerequisites_for",
+  "why": "атомный проект опирался на советскую науку"
+ },
+ {
+  "source": "C.history.atomnye-bombardirovki-hirosimy-i-nagasaki",
+  "target": "C.history.sovetskiy-atomnyy-proekt",
+  "type": "prerequisites_for",
+  "why": "американская бомба ускорила работы над советской"
+ },
+ {
+  "source": "C.history.deportatsii-narodov",
+  "target": "C.history.vynuzhdennye-pereseleniya",
+  "type": "is_a",
+  "why": "насильственное выселение целых народов"
+ },
+ {
+  "source": "C.history.organy-gosbezopasnosti",
+  "target": "C.history.deportatsii-narodov",
+  "type": "prerequisites_for",
+  "why": "депортации проводили органы НКВД"
+ },
+ {
+  "source": "C.history.potsdamskaya-konferentsiya",
+  "target": "C.history.denatsifikatsiya",
+  "type": "prerequisites_for",
+  "why": "в Потсдаме решили провести денацификацию Германии"
+ },
+ {
+  "source": "C.history.natsizm",
+  "target": "C.history.denatsifikatsiya",
+  "type": "prerequisites_for",
+  "why": "денацификация — искоренение нацизма"
+ },
+ {
+  "source": "C.history.potsdamskaya-konferentsiya",
+  "target": "C.history.demilitarizatsiya",
+  "type": "prerequisites_for",
+  "why": "в Потсдаме решили разоружить Германию"
+ },
+ {
+  "source": "C.history.potsdamskaya-konferentsiya",
+  "target": "C.history.demonopolizatsiya",
+  "type": "prerequisites_for",
+  "why": "в Потсдаме решили разукрупнить германские монополии"
+ },
+ {
+  "source": "C.history.potsdamskaya-konferentsiya",
+  "target": "C.history.demokratizatsiya",
+  "type": "prerequisites_for",
+  "why": "в Потсдаме решили демократизировать Германию"
+ }
+]

@@ -1,0 +1,19 @@
+{"результат": [
+ {"source_id": "SOO.history.ege.el.11.1", "concepts": [
+  {"name": "Первая мировая война", "type": "событие", "evidence": "Первой мировой войны", "role": "main"},
+  {"name": "Мир в начале XX века", "type": "период", "evidence": "Мир накануне", "role": "part"}]},
+ {"source_id": "SOO.history.ege.el.11.2", "concepts": [
+  {"name": "Мир в 1918–1939 годах", "type": "период", "evidence": "Мир в 1918–1939 гг.", "date": "1918–1939 гг.", "role": "main"}]},
+ {"source_id": "SOO.history.ege.el.11.3", "concepts": [
+  {"name": "Вторая мировая война", "type": "событие", "evidence": "Вторая мировая война", "role": "main"}]},
+ {"source_id": "SOO.history.ege.el.7.1", "concepts": [
+  {"name": "Россия в Первой мировой войне", "type": "событие", "evidence": "Россия в Первой мировой войне (1914–1918)", "date": "1914–1918", "role": "main"},
+  {"name": "Первая мировая война", "type": "событие", "evidence": "Первой мировой войне", "role": "part"}]},
+ {"source_id": "SOO.history.ege.el.7.2", "concepts": [
+  {"name": "Великая российская революция", "type": "событие", "evidence": "1917 год: от Февраля к Октябрю", "role": "main"},
+  {"name": "Февральская революция", "type": "событие", "evidence": "Февраля", "role": "part"},
+  {"name": "Октябрьская революция", "type": "событие", "evidence": "Октябрю", "role": "part"}]},
+ {"source_id": "SOO.history.ege.el.7.3", "concepts": [
+  {"name": "Первые революционные преобразования большевиков", "type": "событие", "evidence": "Первые революционные преобразования большевиков", "role": "main"},
+  {"name": "Большевики", "type": "термин", "evidence": "большевиков", "role": "part"}]}
+]}

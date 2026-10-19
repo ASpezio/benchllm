@@ -1,0 +1,4071 @@
+[
+ {
+  "source": "C.history.antigitlerovskaya-koalitsiya",
+  "target": "C.history.holodnaya-voyna",
+  "type": "prerequisites_for",
+  "why": "бывшие союзники по коалиции стали противниками"
+ },
+ {
+  "source": "C.history.holodnaya-voyna",
+  "target": "C.history.mezhdunarodnye-otnosheniya-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "главное противостояние второй половины XX в."
+ },
+ {
+  "source": "C.history.fultonskaya-rech",
+  "target": "C.history.holodnaya-voyna",
+  "type": "part_of",
+  "why": "речь 1946 г. считают началом холодной войны"
+ },
+ {
+  "source": "C.history.u-cherchill",
+  "target": "C.history.fultonskaya-rech",
+  "type": "prerequisites_for",
+  "why": "речь произнёс У. Черчилль"
+ },
+ {
+  "source": "C.history.u-cherchill",
+  "target": "C.history.bolshaya-troyka",
+  "type": "participant_of",
+  "why": "Черчилль — участник «Большой тройки»"
+ },
+ {
+  "source": "C.history.doktrina-trumena",
+  "target": "C.history.vneshnyaya-politika-ssha",
+  "type": "part_of",
+  "why": "курс США на сдерживание коммунизма"
+ },
+ {
+  "source": "C.history.doktrina-trumena",
+  "target": "C.history.plan-marshalla",
+  "type": "prerequisites_for",
+  "why": "план Маршалла — экономическая часть политики сдерживания"
+ },
+ {
+  "source": "C.history.plan-marshalla",
+  "target": "C.history.vneshnyaya-politika-ssha",
+  "type": "part_of",
+  "why": "американская помощь Западной Европе"
+ },
+ {
+  "source": "C.history.plan-marshalla",
+  "target": "C.history.raskol-evropy",
+  "type": "prerequisites_for",
+  "why": "отказ СССР и его союзников от плана закрепил раскол Европы"
+ },
+ {
+  "source": "C.history.raskol-evropy",
+  "target": "C.history.holodnaya-voyna",
+  "type": "part_of",
+  "why": "Европа разделилась на два лагеря"
+ },
+ {
+  "source": "C.history.potsdamskaya-konferentsiya",
+  "target": "C.history.raskol-germanii",
+  "type": "prerequisites_for",
+  "why": "в Потсдаме Германию разделили на зоны оккупации"
+ },
+ {
+  "source": "C.history.germaniya",
+  "target": "C.history.raskol-germanii",
+  "type": "prerequisites_for",
+  "why": "разделение Германии на два государства"
+ },
+ {
+  "source": "C.history.raskol-germanii",
+  "target": "C.history.raskol-evropy",
+  "type": "part_of",
+  "why": "раскол Германии — часть раскола Европы"
+ },
+ {
+  "source": "C.history.obrazovanie-dvuh-germanskih-gosudarstv",
+  "target": "C.history.raskol-germanii",
+  "type": "part_of",
+  "why": "в 1949 г. возникли ФРГ и ГДР"
+ },
+ {
+  "source": "C.history.plan-marshalla",
+  "target": "C.history.sovet-ekonomicheskoy-vzaimopomoschi",
+  "type": "prerequisites_for",
+  "why": "СЭВ создан в ответ на план Маршалла"
+ },
+ {
+  "source": "C.history.sovet-ekonomicheskoy-vzaimopomoschi",
+  "target": "C.history.vostochnyy-blok",
+  "type": "part_of",
+  "why": "экономическое объединение социалистических стран"
+ },
+ {
+  "source": "C.history.nato",
+  "target": "C.history.voenno-politicheskie-bloki",
+  "type": "is_a",
+  "why": "военно-политический блок западных стран"
+ },
+ {
+  "source": "C.history.nato",
+  "target": "C.history.organizatsiya-varshavskogo-dogovora",
+  "type": "prerequisites_for",
+  "why": "ОВД создана в ответ на расширение НАТО"
+ },
+ {
+  "source": "C.history.organizatsiya-varshavskogo-dogovora",
+  "target": "C.history.voenno-politicheskie-bloki",
+  "type": "is_a",
+  "why": "военно-политический блок социалистических стран"
+ },
+ {
+  "source": "C.history.organizatsiya-varshavskogo-dogovora",
+  "target": "C.history.vostochnyy-blok",
+  "type": "part_of",
+  "why": "военная организация Восточного блока"
+ },
+ {
+  "source": "C.history.strany-evropy-i-severnoy-ameriki-v-1920-1930-e-gody",
+  "target": "C.history.strany-severnoy-ameriki-i-evropy-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий период истории стран Запада"
+ },
+ {
+  "source": "C.history.ssha",
+  "target": "C.history.strany-severnoy-ameriki-i-evropy-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "ведущая страна Запада"
+ },
+ {
+  "source": "C.history.ssha",
+  "target": "C.history.vneshnyaya-politika-ssha",
+  "type": "prerequisites_for",
+  "why": "внешняя политика государства США"
+ },
+ {
+  "source": "C.history.poslevoennyy-ekonomicheskiy-podem",
+  "target": "C.history.strany-severnoy-ameriki-i-evropy-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "экономический рост 1950–1960-х гг."
+ },
+ {
+  "source": "C.history.poslevoennyy-ekonomicheskiy-podem",
+  "target": "C.history.obschestvo-potrebleniya",
+  "type": "prerequisites_for",
+  "why": "рост доходов создал общество потребления"
+ },
+ {
+  "source": "C.history.industrialnoe-obschestvo",
+  "target": "C.history.postindustrialnoe-obschestvo",
+  "type": "prerequisites_for",
+  "why": "постиндустриальное общество пришло на смену индустриальному"
+ },
+ {
+  "source": "C.history.demokraticheskaya-partiya-ssha",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "одна из двух главных партий США"
+ },
+ {
+  "source": "C.history.respublikanskaya-partiya-ssha",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "одна из двух главных партий США"
+ },
+ {
+  "source": "C.history.prezident-ssha",
+  "target": "C.history.ssha",
+  "type": "part_of",
+  "why": "глава государства и правительства США"
+ },
+ {
+  "source": "C.history.sotsialnye-dvizheniya-v-ssha",
+  "target": "C.history.strany-severnoy-ameriki-i-evropy-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "массовые движения 1950–1960-х гг."
+ },
+ {
+  "source": "C.history.rasovaya-segregatsiya",
+  "target": "C.history.dvizhenie-za-grazhdanskie-prava",
+  "type": "prerequisites_for",
+  "why": "движение боролось против расовой сегрегации"
+ },
+ {
+  "source": "C.history.dvizhenie-za-grazhdanskie-prava",
+  "target": "C.history.sotsialnye-dvizheniya-v-ssha",
+  "type": "part_of",
+  "why": "борьба афроамериканцев за равноправие"
+ },
+ {
+  "source": "C.history.dvizhenie-protiv-voyny-vo-vetname",
+  "target": "C.history.sotsialnye-dvizheniya-v-ssha",
+  "type": "part_of",
+  "why": "антивоенные выступления 1960-х гг."
+ },
+ {
+  "source": "C.history.voyna-vo-vetname",
+  "target": "C.history.dvizhenie-protiv-voyny-vo-vetname",
+  "type": "prerequisites_for",
+  "why": "выступления против участия США в войне"
+ },
+ {
+  "source": "C.history.voyna-vo-vetname",
+  "target": "C.history.voyny-v-indokitae",
+  "type": "part_of",
+  "why": "война 1960–1970-х гг. в Индокитае"
+ },
+ {
+  "source": "C.history.razdelenie-vetnama",
+  "target": "C.history.voyna-vo-vetname",
+  "type": "prerequisites_for",
+  "why": "война шла между Северным и Южным Вьетнамом",
+  "order_issue": true
+ },
+ {
+  "source": "C.history.sssr",
+  "target": "C.history.rossiyskaya-federatsiya",
+  "type": "prerequisites_for",
+  "why": "Россия — государство-продолжатель СССР"
+ },
+ {
+  "source": "C.history.strany-zapadnoy-evropy",
+  "target": "C.history.strany-severnoy-ameriki-i-evropy-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "Западная Европа — часть мира Запада"
+ },
+ {
+  "source": "C.history.frantsiya",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "одна из ведущих стран Западной Европы"
+ },
+ {
+  "source": "C.history.velikobritaniya",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "одна из ведущих стран Западной Европы"
+ },
+ {
+  "source": "C.history.razvitie-tehniki",
+  "target": "C.history.nauchno-tehnicheskaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "НТР — качественный скачок в развитии техники"
+ },
+ {
+  "source": "C.history.sotsialno-orientirovannaya-rynochnaya-ekonomika",
+  "target": "C.history.germanskoe-ekonomicheskoe-chudo",
+  "type": "prerequisites_for",
+  "why": "«чудо» опиралось на социальное рыночное хозяйство"
+ },
+ {
+  "source": "C.history.germanskoe-ekonomicheskoe-chudo",
+  "target": "C.history.poslevoennyy-ekonomicheskiy-podem",
+  "type": "part_of",
+  "why": "быстрый рост экономики ФРГ в 1950-е гг."
+ },
+ {
+  "source": "C.history.skandinavskaya-model",
+  "target": "C.history.sotsialno-orientirovannaya-rynochnaya-ekonomika",
+  "type": "is_a",
+  "why": "вариант социально ориентированной экономики"
+ },
+ {
+  "source": "C.history.pyataya-respublika-vo-frantsii",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "политический строй Франции с 1958 г."
+ },
+ {
+  "source": "C.history.konservativnaya-partiya-velikobritanii",
+  "target": "C.history.politicheskie-partii",
+  "type": "is_a",
+  "why": "одна из двух главных партий Великобритании"
+ },
+ {
+  "source": "C.history.evropeyskaya-integratsiya",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "объединение стран Западной Европы"
+ },
+ {
+  "source": "C.history.evropeyskoe-ekonomicheskoe-soobschestvo",
+  "target": "C.history.evropeyskaya-integratsiya",
+  "type": "part_of",
+  "why": "ЕЭС — начало европейской интеграции"
+ },
+ {
+  "source": "C.history.evropeyskoe-ekonomicheskoe-soobschestvo",
+  "target": "C.history.evropeyskiy-soyuz",
+  "type": "prerequisites_for",
+  "why": "Евросоюз вырос из ЕЭС"
+ },
+ {
+  "source": "C.history.evropeyskiy-soyuz",
+  "target": "C.history.evropeyskaya-integratsiya",
+  "type": "part_of",
+  "why": "ЕС — высшая форма европейской интеграции"
+ },
+ {
+  "source": "C.history.burnye-shestidesyatye",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "молодёжные и социальные движения 1960-х гг."
+ },
+ {
+  "source": "C.history.padenie-diktatur-v-gretsii-portugalii-i-ispanii",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "демократизация юга Европы в 1970-е гг."
+ },
+ {
+  "source": "C.history.gretsiya",
+  "target": "C.history.padenie-diktatur-v-gretsii-portugalii-i-ispanii",
+  "type": "prerequisites_for",
+  "why": "в Греции пал режим «чёрных полковников»"
+ },
+ {
+  "source": "C.history.portugaliya",
+  "target": "C.history.padenie-diktatur-v-gretsii-portugalii-i-ispanii",
+  "type": "prerequisites_for",
+  "why": "в Португалии пала диктатура"
+ },
+ {
+  "source": "C.history.ispaniya",
+  "target": "C.history.padenie-diktatur-v-gretsii-portugalii-i-ispanii",
+  "type": "prerequisites_for",
+  "why": "в Испании завершился режим Франко"
+ },
+ {
+  "source": "C.history.gretsiya",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "Греция — страна Западной Европы"
+ },
+ {
+  "source": "C.history.ekonomicheskie-krizisy-1970-h-nachala-1980-h-godov",
+  "target": "C.history.strany-severnoy-ameriki-i-evropy-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "кризисы охватили страны Запада"
+ },
+ {
+  "source": "C.history.ekonomicheskie-krizisy-1970-h-nachala-1980-h-godov",
+  "target": "C.history.neokonservatizm",
+  "type": "prerequisites_for",
+  "why": "ответом на кризисы стала политика неоконсерваторов"
+ },
+ {
+  "source": "C.history.neokonservatizm",
+  "target": "C.history.konservatizm",
+  "type": "is_a",
+  "why": "новая форма консерватизма"
+ },
+ {
+  "source": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "target": "C.history.strany-severnoy-ameriki-i-evropy-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "восточная часть Европы"
+ },
+ {
+  "source": "C.history.osvobozhdenie-stran-evropy",
+  "target": "C.history.revolyutsii-vtoroy-poloviny-1940-h-godov-v-vostochnoy-evrope",
+  "type": "prerequisites_for",
+  "why": "после освобождения Красной армией к власти пришли коммунисты"
+ },
+ {
+  "source": "C.history.revolyutsii-vtoroy-poloviny-1940-h-godov-v-vostochnoy-evrope",
+  "target": "C.history.ustanovlenie-kommunisticheskih-rezhimov",
+  "type": "prerequisites_for",
+  "why": "революции привели к власти коммунистов"
+ },
+ {
+  "source": "C.history.ustanovlenie-kommunisticheskih-rezhimov",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "коммунисты правили до 1989 г."
+ },
+ {
+  "source": "C.history.ustanovlenie-kommunisticheskih-rezhimov",
+  "target": "C.history.vostochnyy-blok",
+  "type": "prerequisites_for",
+  "why": "страны с коммунистическими режимами составили Восточный блок"
+ },
+ {
+  "source": "C.history.vostochnyy-blok",
+  "target": "C.history.mirovaya-sotsialisticheskaya-sistema",
+  "type": "part_of",
+  "why": "ядро мировой социалистической системы"
+ },
+ {
+  "source": "C.history.gdr",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "восточногерманское государство"
+ },
+ {
+  "source": "C.history.obrazovanie-dvuh-germanskih-gosudarstv",
+  "target": "C.history.gdr",
+  "type": "prerequisites_for",
+  "why": "ГДР образована в 1949 г."
+ },
+ {
+  "source": "C.history.gdr",
+  "target": "C.history.vosstanie-v-gdr-1953-goda",
+  "type": "prerequisites_for",
+  "why": "выступление рабочих ГДР в 1953 г."
+ },
+ {
+  "source": "C.history.polsha",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "одна из стран Восточного блока"
+ },
+ {
+  "source": "C.history.polsha",
+  "target": "C.history.vystupleniya-v-polshe-1956-goda",
+  "type": "prerequisites_for",
+  "why": "волнения рабочих в Познани"
+ },
+ {
+  "source": "C.history.vengriya",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "одна из стран Восточного блока"
+ },
+ {
+  "source": "C.history.vengriya",
+  "target": "C.history.vengerskoe-vosstanie-1956-goda",
+  "type": "prerequisites_for",
+  "why": "восстание в Будапеште"
+ },
+ {
+  "source": "C.history.yugoslaviya",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "федеративное государство южных славян"
+ },
+ {
+  "source": "C.history.yugoslaviya",
+  "target": "C.history.yugoslavskaya-model-sotsializma",
+  "type": "prerequisites_for",
+  "why": "особый путь социализма в Югославии"
+ },
+ {
+  "source": "C.history.yugoslavskaya-model-sotsializma",
+  "target": "C.history.sotsializm",
+  "type": "is_a",
+  "why": "особый вариант социализма"
+ },
+ {
+  "source": "C.history.chehoslovakiya",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "одна из стран Восточного блока"
+ },
+ {
+  "source": "C.history.chehoslovakiya",
+  "target": "C.history.prazhskaya-vesna",
+  "type": "prerequisites_for",
+  "why": "реформы 1968 г. в Чехословакии"
+ },
+ {
+  "source": "C.history.prazhskaya-vesna",
+  "target": "C.history.podavlenie-prazhskoy-vesny",
+  "type": "prerequisites_for",
+  "why": "реформы прервал ввод войск ОВД"
+ },
+ {
+  "source": "C.history.organizatsiya-varshavskogo-dogovora",
+  "target": "C.history.podavlenie-prazhskoy-vesny",
+  "type": "prerequisites_for",
+  "why": "в Чехословакию вошли войска стран ОВД"
+ },
+ {
+  "source": "C.history.polsha",
+  "target": "C.history.dvizhenie-solidarnost",
+  "type": "prerequisites_for",
+  "why": "независимый профсоюз в Польше"
+ },
+ {
+  "source": "C.history.perestroyka",
+  "target": "C.history.revolyutsii-1989-1990-godov-v-stranah-tsentralnoy-i-vostochnoy-evropy",
+  "type": "prerequisites_for",
+  "why": "перестройка в СССР открыла путь переменам"
+ },
+ {
+  "source": "C.history.revolyutsii-1989-1990-godov-v-stranah-tsentralnoy-i-vostochnoy-evropy",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "падение коммунистических режимов"
+ },
+ {
+  "source": "C.history.revolyutsii-1989-1990-godov-v-stranah-tsentralnoy-i-vostochnoy-evropy",
+  "target": "C.history.rospusk-sev-i-ovd",
+  "type": "prerequisites_for",
+  "why": "новые правительства отказались от союза с СССР"
+ },
+ {
+  "source": "C.history.sovet-ekonomicheskoy-vzaimopomoschi",
+  "target": "C.history.rospusk-sev-i-ovd",
+  "type": "prerequisites_for",
+  "why": "СЭВ распущен в 1991 г."
+ },
+ {
+  "source": "C.history.organizatsiya-varshavskogo-dogovora",
+  "target": "C.history.rospusk-sev-i-ovd",
+  "type": "prerequisites_for",
+  "why": "ОВД распущена в 1991 г."
+ },
+ {
+  "source": "C.history.obrazovanie-novyh-gosudarstv-na-postsovetskom-prostranstve",
+  "target": "C.history.raspad-sssr",
+  "type": "part_of",
+  "why": "на месте СССР возникли 15 государств"
+ },
+ {
+  "source": "C.history.obrazovanie-novyh-gosudarstv-na-postsovetskom-prostranstve",
+  "target": "C.history.postsovetskoe-prostranstvo",
+  "type": "prerequisites_for",
+  "why": "постсоветское пространство — территория новых государств"
+ },
+ {
+  "source": "C.history.chehoslovakiya",
+  "target": "C.history.razdelenie-chehoslovakii",
+  "type": "prerequisites_for",
+  "why": "Чехия и Словакия разделились в 1993 г."
+ },
+ {
+  "source": "C.history.yugoslaviya",
+  "target": "C.history.raspad-yugoslavii",
+  "type": "prerequisites_for",
+  "why": "распад федерации в 1990-е гг."
+ },
+ {
+  "source": "C.history.raspad-yugoslavii",
+  "target": "C.history.voyna-na-balkanah",
+  "type": "prerequisites_for",
+  "why": "распад сопровождался войнами"
+ },
+ {
+  "source": "C.history.agressiya-nato-protiv-yugoslavii",
+  "target": "C.history.voyna-na-balkanah",
+  "type": "part_of",
+  "why": "бомбардировки Югославии в 1999 г."
+ },
+ {
+  "source": "C.history.nato",
+  "target": "C.history.agressiya-nato-protiv-yugoslavii",
+  "type": "prerequisites_for",
+  "why": "военную операцию провёл блок НАТО"
+ },
+ {
+  "source": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "target": "C.history.strany-azii-i-afriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий период истории стран Востока"
+ },
+ {
+  "source": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "target": "C.history.strany-azii-i-afriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "азиатская часть обзора"
+ },
+ {
+  "source": "C.history.osvoboditelnaya-borba-v-azii",
+  "target": "C.history.raspad-kolonialnoy-sistemy",
+  "type": "part_of",
+  "why": "народы Азии добились независимости"
+ },
+ {
+  "source": "C.history.osvoboditelnaya-borba-v-azii",
+  "target": "C.history.obrazovanie-natsionalnyh-gosudarstv-v-azii",
+  "type": "prerequisites_for",
+  "why": "борьба завершилась провозглашением государств"
+ },
+ {
+  "source": "C.history.obrazovanie-natsionalnyh-gosudarstv-v-azii",
+  "target": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "type": "part_of",
+  "why": "новые государства региона"
+ },
+ {
+  "source": "C.history.kitay",
+  "target": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "type": "part_of",
+  "why": "крупнейшая страна региона"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-kitae",
+  "target": "C.history.provozglashenie-knr",
+  "type": "prerequisites_for",
+  "why": "КНР провозглашена после победы коммунистов"
+ },
+ {
+  "source": "C.history.provozglashenie-knr",
+  "target": "C.history.sotsialisticheskiy-eksperiment-v-kitae",
+  "type": "prerequisites_for",
+  "why": "коммунисты начали строить социализм"
+ },
+ {
+  "source": "C.history.mao-tszedun",
+  "target": "C.history.sotsialisticheskiy-eksperiment-v-kitae",
+  "type": "participant_of",
+  "why": "Мао руководил КНР и её экспериментами"
+ },
+ {
+  "source": "C.history.mao-tszedun",
+  "target": "C.history.maoizm",
+  "type": "prerequisites_for",
+  "why": "маоизм — учение Мао Цзэдуна"
+ },
+ {
+  "source": "C.history.maoizm",
+  "target": "C.history.kommunizm",
+  "type": "is_a",
+  "why": "китайский вариант коммунистической идеологии"
+ },
+ {
+  "source": "C.history.sotsialisticheskiy-eksperiment-v-kitae",
+  "target": "C.history.ekonomicheskie-reformy-v-kitae",
+  "type": "prerequisites_for",
+  "why": "реформы исправляли итоги эксперимента"
+ },
+ {
+  "source": "C.history.vetnam",
+  "target": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "type": "part_of",
+  "why": "страна Юго-Восточной Азии"
+ },
+ {
+  "source": "C.history.vetnam",
+  "target": "C.history.razdelenie-vetnama",
+  "type": "prerequisites_for",
+  "why": "разделение страны на Север и Юг"
+ },
+ {
+  "source": "C.history.koreya",
+  "target": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "type": "part_of",
+  "why": "страна Восточной Азии"
+ },
+ {
+  "source": "C.history.koreya",
+  "target": "C.history.razdelenie-korei",
+  "type": "prerequisites_for",
+  "why": "разделение страны на КНДР и Республику Корея"
+ },
+ {
+  "source": "C.history.razdelenie-korei",
+  "target": "C.history.yuzhnaya-koreya",
+  "type": "prerequisites_for",
+  "why": "Республика Корея возникла при разделе страны"
+ },
+ {
+  "source": "C.history.novye-industrialnye-strany",
+  "target": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "type": "part_of",
+  "why": "быстро развившиеся страны региона"
+ },
+ {
+  "source": "C.history.modernizatsiya",
+  "target": "C.history.novye-industrialnye-strany",
+  "type": "prerequisites_for",
+  "why": "НИС — пример успешной модернизации"
+ },
+ {
+  "source": "C.history.yuzhnaya-koreya",
+  "target": "C.history.novye-industrialnye-strany",
+  "type": "part_of",
+  "why": "одна из новых индустриальных стран"
+ },
+ {
+  "source": "C.history.singapur",
+  "target": "C.history.novye-industrialnye-strany",
+  "type": "part_of",
+  "why": "одна из новых индустриальных стран"
+ },
+ {
+  "source": "C.history.indiya",
+  "target": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "type": "part_of",
+  "why": "крупнейшая страна Южной Азии"
+ },
+ {
+  "source": "C.history.indiyskoe-natsionalnoe-dvizhenie",
+  "target": "C.history.provozglashenie-nezavisimosti-indii",
+  "type": "prerequisites_for",
+  "why": "независимости добилось национальное движение"
+ },
+ {
+  "source": "C.history.provozglashenie-nezavisimosti-indii",
+  "target": "C.history.kurs-neru",
+  "type": "prerequisites_for",
+  "why": "курс независимой Индии"
+ },
+ {
+  "source": "C.history.dzhavaharlal-neru",
+  "target": "C.history.kurs-neru",
+  "type": "participant_of",
+  "why": "Неру — первый премьер-министр Индии"
+ },
+ {
+  "source": "C.history.dzhavaharlal-neru",
+  "target": "C.history.indiyskiy-natsionalnyy-kongress",
+  "type": "participant_of",
+  "why": "Неру — лидер ИНК"
+ },
+ {
+  "source": "C.history.yaponiya",
+  "target": "C.history.strany-vostochnoy-yugo-vostochnoy-i-yuzhnoy-azii",
+  "type": "part_of",
+  "why": "ведущая страна Восточной Азии"
+ },
+ {
+  "source": "C.history.kapitulyatsiya-yaponii",
+  "target": "C.history.vosstanovlenie-suvereniteta-yaponii",
+  "type": "prerequisites_for",
+  "why": "после капитуляции Японию оккупировали"
+ },
+ {
+  "source": "C.history.vosstanovlenie-suvereniteta-yaponii",
+  "target": "C.history.yaponskoe-ekonomicheskoe-chudo",
+  "type": "prerequisites_for",
+  "why": "быстрый рост начался после восстановления суверенитета"
+ },
+ {
+  "source": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "target": "C.history.strany-azii-i-afriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "ближневосточная и североафриканская часть обзора"
+ },
+ {
+  "source": "C.history.turetskaya-respublika",
+  "target": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "type": "part_of",
+  "why": "страна региона"
+ },
+ {
+  "source": "C.history.iran",
+  "target": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "type": "part_of",
+  "why": "страна региона"
+ },
+ {
+  "source": "C.history.iran",
+  "target": "C.history.reformy-1960-1970-h-godov-v-irane",
+  "type": "prerequisites_for",
+  "why": "реформы шаха в Иране"
+ },
+ {
+  "source": "C.history.reformy-1960-1970-h-godov-v-irane",
+  "target": "C.history.islamskaya-revolyutsiya-v-irane",
+  "type": "prerequisites_for",
+  "why": "реформы вызвали недовольство и революцию"
+ },
+ {
+  "source": "C.history.islam",
+  "target": "C.history.islamskaya-revolyutsiya-v-irane",
+  "type": "prerequisites_for",
+  "why": "революция под лозунгами ислама"
+ },
+ {
+  "source": "C.history.afganistan",
+  "target": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "type": "part_of",
+  "why": "страна региона"
+ },
+ {
+  "source": "C.history.afganistan",
+  "target": "C.history.smena-politicheskih-rezhimov-v-afganistane",
+  "type": "prerequisites_for",
+  "why": "перевороты и войны в Афганистане"
+ },
+ {
+  "source": "C.history.provozglashenie-nezavisimyh-gosudarstv-na-blizhnem-vostoke-i-v-severnoy-afrike",
+  "target": "C.history.raspad-kolonialnoy-sistemy",
+  "type": "part_of",
+  "why": "освобождение арабских стран"
+ },
+ {
+  "source": "C.history.severnaya-afrika",
+  "target": "C.history.provozglashenie-nezavisimyh-gosudarstv-na-blizhnem-vostoke-i-v-severnoy-afrike",
+  "type": "prerequisites_for",
+  "why": "независимость стран Северной Африки"
+ },
+ {
+  "source": "C.history.palestina",
+  "target": "C.history.palestinskaya-problema",
+  "type": "prerequisites_for",
+  "why": "спор о земле Палестины"
+ },
+ {
+  "source": "C.history.palestinskaya-problema",
+  "target": "C.history.sozdanie-gosudarstva-izrail",
+  "type": "prerequisites_for",
+  "why": "раздел Палестины привёл к созданию Израиля"
+ },
+ {
+  "source": "C.history.oon",
+  "target": "C.history.sozdanie-gosudarstva-izrail",
+  "type": "prerequisites_for",
+  "why": "ООН приняла план раздела Палестины"
+ },
+ {
+  "source": "C.history.sozdanie-gosudarstva-izrail",
+  "target": "C.history.izrail",
+  "type": "prerequisites_for",
+  "why": "Израиль провозглашён в 1948 г."
+ },
+ {
+  "source": "C.history.izrail",
+  "target": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "type": "part_of",
+  "why": "страна региона"
+ },
+ {
+  "source": "C.history.sozdanie-gosudarstva-izrail",
+  "target": "C.history.arabo-izrailskie-voyny",
+  "type": "prerequisites_for",
+  "why": "арабские страны не признали Израиль"
+ },
+ {
+  "source": "C.history.blizhniy-vostok",
+  "target": "C.history.arabo-izrailskie-voyny",
+  "type": "prerequisites_for",
+  "why": "войны шли на Ближнем Востоке"
+ },
+ {
+  "source": "C.history.arabo-izrailskie-voyny",
+  "target": "C.history.blizhnevostochnoe-uregulirovanie",
+  "type": "prerequisites_for",
+  "why": "урегулирование должно было прекратить войны"
+ },
+ {
+  "source": "C.history.egipet",
+  "target": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "type": "part_of",
+  "why": "крупнейшая арабская страна"
+ },
+ {
+  "source": "C.history.egipet",
+  "target": "C.history.suetskiy-krizis",
+  "type": "prerequisites_for",
+  "why": "кризис вызвала национализация Суэцкого канала Египтом"
+ },
+ {
+  "source": "C.history.arabskie-strany",
+  "target": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "type": "part_of",
+  "why": "арабский мир региона"
+ },
+ {
+  "source": "C.history.arabskie-strany",
+  "target": "C.history.arabskaya-vesna",
+  "type": "prerequisites_for",
+  "why": "волна выступлений в арабских странах"
+ },
+ {
+  "source": "C.history.arabskaya-vesna",
+  "target": "C.history.grazhdanskaya-voyna-v-sirii",
+  "type": "prerequisites_for",
+  "why": "война началась с выступлений 2011 г."
+ },
+ {
+  "source": "C.history.siriya",
+  "target": "C.history.strany-blizhnego-vostoka-i-severnoy-afriki",
+  "type": "part_of",
+  "why": "страна региона"
+ },
+ {
+  "source": "C.history.siriya",
+  "target": "C.history.grazhdanskaya-voyna-v-sirii",
+  "type": "prerequisites_for",
+  "why": "война в Сирии"
+ },
+ {
+  "source": "C.history.strany-tropicheskoy-i-yuzhnoy-afriki",
+  "target": "C.history.strany-azii-i-afriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "африканская часть обзора"
+ },
+ {
+  "source": "C.history.antikolonialnaya-borba-v-afrike",
+  "target": "C.history.provozglashenie-nezavisimosti-stranami-afriki",
+  "type": "prerequisites_for",
+  "why": "борьба привела к независимости"
+ },
+ {
+  "source": "C.history.provozglashenie-nezavisimosti-stranami-afriki",
+  "target": "C.history.raspad-kolonialnoy-sistemy",
+  "type": "part_of",
+  "why": "освобождение Африки"
+ },
+ {
+  "source": "C.history.god-afriki",
+  "target": "C.history.provozglashenie-nezavisimosti-stranami-afriki",
+  "type": "part_of",
+  "why": "в 1960 г. независимость получили 17 стран"
+ },
+ {
+  "source": "C.history.diktatura",
+  "target": "C.history.avtoritarnyy-rezhim",
+  "type": "is_a",
+  "why": "диктатура — режим личной власти"
+ },
+ {
+  "source": "C.history.diktatura",
+  "target": "C.history.demokratizatsiya",
+  "type": "prerequisites_for",
+  "why": "демократизация — переход от диктатуры к демократии"
+ },
+ {
+  "source": "C.history.provozglashenie-nezavisimosti-stranami-afriki",
+  "target": "C.history.organizatsiya-afrikanskogo-edinstva",
+  "type": "prerequisites_for",
+  "why": "ОАЕ создали независимые государства"
+ },
+ {
+  "source": "C.history.aparteid",
+  "target": "C.history.rasovaya-segregatsiya",
+  "type": "is_a",
+  "why": "система расовой сегрегации на юге Африки"
+ },
+ {
+  "source": "C.history.aparteid",
+  "target": "C.history.padenie-rezhima-aparteida",
+  "type": "prerequisites_for",
+  "why": "отмена апартеида в 1990-е гг."
+ },
+ {
+  "source": "C.history.padenie-rezhima-aparteida",
+  "target": "C.history.strany-tropicheskoy-i-yuzhnoy-afriki",
+  "type": "part_of",
+  "why": "перемены на юге Африки"
+ },
+ {
+  "source": "C.history.natsionalizm",
+  "target": "C.history.separatizm",
+  "type": "prerequisites_for",
+  "why": "сепаратизм опирается на национализм"
+ },
+ {
+  "source": "C.history.separatizm",
+  "target": "C.history.etnicheskie-konflikty-v-afrike",
+  "type": "prerequisites_for",
+  "why": "стремление к отделению вызывало конфликты"
+ },
+ {
+  "source": "C.history.etnicheskie-konflikty-v-afrike",
+  "target": "C.history.grazhdanskie-voyny-v-afrike",
+  "type": "prerequisites_for",
+  "why": "этнические конфликты перерастали в войны"
+ },
+ {
+  "source": "C.history.etnicheskie-konflikty-v-afrike",
+  "target": "C.history.strany-tropicheskoy-i-yuzhnoy-afriki",
+  "type": "part_of",
+  "why": "конфликты в странах региона"
+ },
+ {
+  "source": "C.history.grazhdanskie-voyny-v-afrike",
+  "target": "C.history.strany-tropicheskoy-i-yuzhnoy-afriki",
+  "type": "part_of",
+  "why": "войны в странах региона"
+ },
+ {
+  "source": "C.history.strany-azii-i-latinskoy-ameriki-v-1918-1930-e-gody",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий период истории Латинской Америки"
+ },
+ {
+  "source": "C.history.natsionalreformizm",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "политика реформ середины XX в."
+ },
+ {
+  "source": "C.history.agrarnye-reformy-v-latinskoy-amerike",
+  "target": "C.history.natsionalreformizm",
+  "type": "part_of",
+  "why": "реформы в пользу крестьян"
+ },
+ {
+  "source": "C.history.importozameschayuschaya-industrializatsiya",
+  "target": "C.history.natsionalreformizm",
+  "type": "part_of",
+  "why": "развитие собственной промышленности"
+ },
+ {
+  "source": "C.history.importozameschayuschaya-industrializatsiya",
+  "target": "C.history.industrializatsiya",
+  "type": "is_a",
+  "why": "индустриализация ради замены импорта"
+ },
+ {
+  "source": "C.history.kuba",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "страна Карибского региона"
+ },
+ {
+  "source": "C.history.kuba",
+  "target": "C.history.revolyutsiya-na-kube",
+  "type": "prerequisites_for",
+  "why": "революция 1959 г. на Кубе"
+ },
+ {
+  "source": "C.history.revolyutsiya-na-kube",
+  "target": "C.history.revolyutsii-kontsa-1960-h-1970-h-godov-v-latinskoy-amerike",
+  "type": "prerequisites_for",
+  "why": "пример Кубы вдохновлял революционеров"
+ },
+ {
+  "source": "C.history.revolyutsii-kontsa-1960-h-1970-h-godov-v-latinskoy-amerike",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "революции в Перу, Чили, Никарагуа"
+ },
+ {
+  "source": "C.history.peru",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "страна Латинской Америки"
+ },
+ {
+  "source": "C.history.peru",
+  "target": "C.history.revolyutsii-kontsa-1960-h-1970-h-godov-v-latinskoy-amerike",
+  "type": "prerequisites_for",
+  "why": "военная революция в Перу"
+ },
+ {
+  "source": "C.history.chili",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "страна Латинской Америки"
+ },
+ {
+  "source": "C.history.chili",
+  "target": "C.history.revolyutsii-kontsa-1960-h-1970-h-godov-v-latinskoy-amerike",
+  "type": "prerequisites_for",
+  "why": "правительство Народного единства в Чили"
+ },
+ {
+  "source": "C.history.nikaragua",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "страна Латинской Америки"
+ },
+ {
+  "source": "C.history.nikaragua",
+  "target": "C.history.revolyutsii-kontsa-1960-h-1970-h-godov-v-latinskoy-amerike",
+  "type": "prerequisites_for",
+  "why": "сандинистская революция в Никарагуа"
+ },
+ {
+  "source": "C.history.levyy-povorot",
+  "target": "C.history.strany-latinskoy-ameriki-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "приход левых к власти на рубеже веков"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-otnosheniya-v-1920-1930-e-gody",
+  "target": "C.history.mezhdunarodnye-otnosheniya-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий период международных отношений"
+ },
+ {
+  "source": "C.history.vtoraya-mirovaya-voyna",
+  "target": "C.history.mezhdunarodnye-otnosheniya-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "послевоенный мир сложился по итогам войны"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-krizisy-i-regionalnye-konflikty-holodnoy-voyny",
+  "target": "C.history.holodnaya-voyna",
+  "type": "part_of",
+  "why": "кризисы — эпизоды противостояния"
+ },
+ {
+  "source": "C.history.raskol-germanii",
+  "target": "C.history.berlinskie-krizisy",
+  "type": "prerequisites_for",
+  "why": "кризисы вокруг разделённого Берлина"
+ },
+ {
+  "source": "C.history.berlinskie-krizisy",
+  "target": "C.history.mezhdunarodnye-krizisy-i-regionalnye-konflikty-holodnoy-voyny",
+  "type": "part_of",
+  "why": "кризисы 1948–1949 и 1958–1961 гг."
+ },
+ {
+  "source": "C.history.razdelenie-korei",
+  "target": "C.history.koreyskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война между Севером и Югом Кореи"
+ },
+ {
+  "source": "C.history.koreyskaya-voyna",
+  "target": "C.history.mezhdunarodnye-krizisy-i-regionalnye-konflikty-holodnoy-voyny",
+  "type": "part_of",
+  "why": "война 1950–1953 гг."
+ },
+ {
+  "source": "C.history.indokitay",
+  "target": "C.history.voyny-v-indokitae",
+  "type": "prerequisites_for",
+  "why": "войны шли в Индокитае"
+ },
+ {
+  "source": "C.history.voyny-v-indokitae",
+  "target": "C.history.mezhdunarodnye-krizisy-i-regionalnye-konflikty-holodnoy-voyny",
+  "type": "part_of",
+  "why": "войны во Вьетнаме, Лаосе, Камбодже"
+ },
+ {
+  "source": "C.history.suetskiy-krizis",
+  "target": "C.history.mezhdunarodnye-krizisy-i-regionalnye-konflikty-holodnoy-voyny",
+  "type": "part_of",
+  "why": "кризис 1956 г."
+ },
+ {
+  "source": "C.history.revolyutsiya-na-kube",
+  "target": "C.history.karibskiy-krizis",
+  "type": "prerequisites_for",
+  "why": "СССР разместил ракеты на революционной Кубе"
+ },
+ {
+  "source": "C.history.karibskiy-krizis",
+  "target": "C.history.mezhdunarodnye-krizisy-i-regionalnye-konflikty-holodnoy-voyny",
+  "type": "part_of",
+  "why": "кризис 1962 г. — пик противостояния"
+ },
+ {
+  "source": "C.history.holodnaya-voyna",
+  "target": "C.history.dvizhenie-neprisoedineniya",
+  "type": "prerequisites_for",
+  "why": "страны движения не вошли в военные блоки"
+ },
+ {
+  "source": "C.history.gonka-vooruzheniy",
+  "target": "C.history.holodnaya-voyna",
+  "type": "part_of",
+  "why": "соперничество в вооружениях"
+ },
+ {
+  "source": "C.history.sovetskiy-atomnyy-proekt",
+  "target": "C.history.gonka-vooruzheniy",
+  "type": "prerequisites_for",
+  "why": "создание советской бомбы положило начало ядерной гонке"
+ },
+ {
+  "source": "C.history.razryadka-mezhdunarodnoy-napryazhennosti",
+  "target": "C.history.mezhdunarodnye-otnosheniya-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "период разрядки 1960–1970-х гг."
+ },
+ {
+  "source": "C.history.karibskiy-krizis",
+  "target": "C.history.razryadka-mezhdunarodnoy-napryazhennosti",
+  "type": "prerequisites_for",
+  "why": "после кризиса стороны пошли на сближение"
+ },
+ {
+  "source": "C.history.dogovor-o-zapreschenii-yadernyh-ispytaniy-v-treh-sredah",
+  "target": "C.history.razryadka-mezhdunarodnoy-napryazhennosti",
+  "type": "part_of",
+  "why": "договор 1963 г."
+ },
+ {
+  "source": "C.history.dogovor-o-nerasprostranenii-yadernogo-oruzhiya",
+  "target": "C.history.razryadka-mezhdunarodnoy-napryazhennosti",
+  "type": "part_of",
+  "why": "договор 1968 г."
+ },
+ {
+  "source": "C.history.raskol-germanii",
+  "target": "C.history.uregulirovanie-germanskogo-voprosa",
+  "type": "prerequisites_for",
+  "why": "урегулировали положение двух германских государств"
+ },
+ {
+  "source": "C.history.uregulirovanie-germanskogo-voprosa",
+  "target": "C.history.razryadka-mezhdunarodnoy-napryazhennosti",
+  "type": "part_of",
+  "why": "договоры начала 1970-х гг."
+ },
+ {
+  "source": "C.history.obrazovanie-dvuh-germanskih-gosudarstv",
+  "target": "C.history.frg",
+  "type": "prerequisites_for",
+  "why": "ФРГ образована в 1949 г."
+ },
+ {
+  "source": "C.history.frg",
+  "target": "C.history.strany-zapadnoy-evropy",
+  "type": "part_of",
+  "why": "западногерманское государство"
+ },
+ {
+  "source": "C.history.frg",
+  "target": "C.history.dogovory-frg-s-sssr-i-polshey",
+  "type": "prerequisites_for",
+  "why": "ФРГ признала послевоенные границы"
+ },
+ {
+  "source": "C.history.dogovory-frg-s-sssr-i-polshey",
+  "target": "C.history.uregulirovanie-germanskogo-voprosa",
+  "type": "part_of",
+  "why": "Московский и Варшавский договоры 1970 г."
+ },
+ {
+  "source": "C.history.raskol-germanii",
+  "target": "C.history.zapadnyy-berlin",
+  "type": "prerequisites_for",
+  "why": "Западный Берлин возник при разделе Германии"
+ },
+ {
+  "source": "C.history.zapadnyy-berlin",
+  "target": "C.history.chetyrehstoronnee-soglashenie-po-zapadnomu-berlinu",
+  "type": "prerequisites_for",
+  "why": "соглашение о статусе Западного Берлина"
+ },
+ {
+  "source": "C.history.chetyrehstoronnee-soglashenie-po-zapadnomu-berlinu",
+  "target": "C.history.uregulirovanie-germanskogo-voprosa",
+  "type": "part_of",
+  "why": "соглашение 1971 г."
+ },
+ {
+  "source": "C.history.gonka-vooruzheniy",
+  "target": "C.history.dogovory-ob-ogranichenii-strategicheskih-vooruzheniy",
+  "type": "prerequisites_for",
+  "why": "договоры ограничивали гонку вооружений"
+ },
+ {
+  "source": "C.history.dogovory-ob-ogranichenii-strategicheskih-vooruzheniy",
+  "target": "C.history.razryadka-mezhdunarodnoy-napryazhennosti",
+  "type": "part_of",
+  "why": "договоры ОСВ-1 и ОСВ-2"
+ },
+ {
+  "source": "C.history.helsinki",
+  "target": "C.history.soveschanie-po-bezopasnosti-i-sotrudnichestvu-v-evrope",
+  "type": "prerequisites_for",
+  "why": "совещание прошло в Хельсинки"
+ },
+ {
+  "source": "C.history.soveschanie-po-bezopasnosti-i-sotrudnichestvu-v-evrope",
+  "target": "C.history.razryadka-mezhdunarodnoy-napryazhennosti",
+  "type": "part_of",
+  "why": "Заключительный акт 1975 г. — вершина разрядки"
+ },
+ {
+  "source": "C.history.smena-politicheskih-rezhimov-v-afganistane",
+  "target": "C.history.vvod-sovetskih-voysk-v-afganistan",
+  "type": "prerequisites_for",
+  "why": "СССР поддержал просоветский режим"
+ },
+ {
+  "source": "C.history.vvod-sovetskih-voysk-v-afganistan",
+  "target": "C.history.afganskaya-voyna",
+  "type": "part_of",
+  "why": "ввод войск в 1979 г. — начало войны"
+ },
+ {
+  "source": "C.history.strategicheskaya-oboronnaya-initsiativa",
+  "target": "C.history.gonka-vooruzheniy",
+  "type": "part_of",
+  "why": "американская программа противоракетной обороны"
+ },
+ {
+  "source": "C.history.novoe-politicheskoe-myshlenie",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "внешнеполитическая концепция Горбачёва"
+ },
+ {
+  "source": "C.history.perestroyka",
+  "target": "C.history.raspad-sssr",
+  "type": "prerequisites_for",
+  "why": "кризис перестройки привёл к распаду СССР"
+ },
+ {
+  "source": "C.history.raspad-sssr",
+  "target": "C.history.obrazovanie-sng",
+  "type": "prerequisites_for",
+  "why": "СНГ создано вместо распавшегося СССР"
+ },
+ {
+  "source": "C.history.raspad-sssr",
+  "target": "C.history.pravopreemnik-sssr",
+  "type": "prerequisites_for",
+  "why": "после распада Россия стала правопреемником СССР"
+ },
+ {
+  "source": "C.history.rossiyskaya-federatsiya",
+  "target": "C.history.pravopreemnik-sssr",
+  "type": "prerequisites_for",
+  "why": "правопреемником СССР стала Российская Федерация"
+ },
+ {
+  "source": "C.history.obrazovanie-sng",
+  "target": "C.history.sodruzhestvo-nezavisimyh-gosudarstv",
+  "type": "prerequisites_for",
+  "why": "СНГ образовано в 1991 г."
+ },
+ {
+  "source": "C.history.sodruzhestvo-nezavisimyh-gosudarstv",
+  "target": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "type": "part_of",
+  "why": "интеграция на постсоветском пространстве"
+ },
+ {
+  "source": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "target": "C.history.mezhdunarodnye-otnosheniya-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "последний период обзора"
+ },
+ {
+  "source": "C.history.holodnaya-voyna",
+  "target": "C.history.bipolyarnyy-mir",
+  "type": "prerequisites_for",
+  "why": "холодная война разделила мир на два полюса"
+ },
+ {
+  "source": "C.history.bipolyarnyy-mir",
+  "target": "C.history.mnogopolyusnyy-mir",
+  "type": "prerequisites_for",
+  "why": "на смену двум полюсам пришло несколько центров силы"
+ },
+ {
+  "source": "C.history.mnogopolyusnyy-mir",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "новая система международных отношений"
+ },
+ {
+  "source": "C.history.kitay",
+  "target": "C.history.mnogopolyusnyy-mir",
+  "type": "part_of",
+  "why": "Китай — один из центров силы"
+ },
+ {
+  "source": "C.history.rossiyskaya-federatsiya",
+  "target": "C.history.mnogopolyusnyy-mir",
+  "type": "part_of",
+  "why": "Россия — один из центров силы"
+ },
+ {
+  "source": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "объединения государств по регионам"
+ },
+ {
+  "source": "C.history.evropeyskaya-integratsiya",
+  "target": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "type": "is_a",
+  "why": "интеграция в Европе"
+ },
+ {
+  "source": "C.history.natsionalnye-interesy",
+  "target": "C.history.vneshnyaya-politika-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "отстаивание национальных интересов России"
+ },
+ {
+  "source": "C.history.mezhdunarodnyy-terrorizm",
+  "target": "C.history.globalnye-problemy-chelovechestva",
+  "type": "part_of",
+  "why": "угроза всему человечеству"
+ },
+ {
+  "source": "C.history.mirovoe-soobschestvo",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "государства и международные организации мира"
+ },
+ {
+  "source": "C.history.nauchnye-otkrytiya-pervyh-desyatiletiy-xx-veka",
+  "target": "C.history.nauka-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития науки"
+ },
+ {
+  "source": "C.history.nauka-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "наука второй половины XX — начала XXI в."
+ },
+ {
+  "source": "C.history.fizika",
+  "target": "C.history.yadernaya-fizika",
+  "type": "prerequisites_for",
+  "why": "ядерная физика — раздел физики"
+ },
+ {
+  "source": "C.history.yadernaya-fizika",
+  "target": "C.history.nauka-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "ведущая область науки второй половины XX в."
+ },
+ {
+  "source": "C.history.yadernaya-fizika",
+  "target": "C.history.ispolzovanie-yadernoy-energii-v-mirnyh-tselyah",
+  "type": "prerequisites_for",
+  "why": "атомная энергетика основана на ядерной физике"
+ },
+ {
+  "source": "C.history.ispolzovanie-yadernoy-energii-v-mirnyh-tselyah",
+  "target": "C.history.nauchno-tehnicheskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "атомная энергетика — достижение НТР"
+ },
+ {
+  "source": "C.history.kosmonavtika",
+  "target": "C.history.nauchno-tehnicheskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "освоение космоса — достижение НТР"
+ },
+ {
+  "source": "C.history.elektrotehnika",
+  "target": "C.history.nauchno-tehnicheskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "развитие электротехники в ходе НТР"
+ },
+ {
+  "source": "C.history.robototehnika",
+  "target": "C.history.nauchno-tehnicheskaya-revolyutsiya",
+  "type": "part_of",
+  "why": "роботы — достижение НТР"
+ },
+ {
+  "source": "C.history.nauchno-tehnicheskaya-revolyutsiya",
+  "target": "C.history.informatsionnaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "информационная революция — этап НТР"
+ },
+ {
+  "source": "C.history.internet",
+  "target": "C.history.informatsionnaya-revolyutsiya",
+  "type": "part_of",
+  "why": "глобальная компьютерная сеть"
+ },
+ {
+  "source": "C.history.kultura-1914-1930-h-godov",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап развития культуры"
+ },
+ {
+  "source": "C.history.modernizm",
+  "target": "C.history.postmodernizm",
+  "type": "prerequisites_for",
+  "why": "постмодернизм пришёл на смену модернизму"
+ },
+ {
+  "source": "C.history.postmodernizm",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "ведущее течение рубежа XX–XXI вв."
+ },
+ {
+  "source": "C.history.literatura",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "литература второй половины XX в."
+ },
+ {
+  "source": "C.history.zhivopis",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "живопись второй половины XX в."
+ },
+ {
+  "source": "C.history.arhitektura",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "архитектура второй половины XX в."
+ },
+ {
+  "source": "C.history.dizayn",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "дизайн второй половины XX в."
+ },
+ {
+  "source": "C.history.muzyka",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "музыка второй половины XX в."
+ },
+ {
+  "source": "C.history.dzhaz",
+  "target": "C.history.muzyka",
+  "type": "is_a",
+  "why": "музыкальное направление"
+ },
+ {
+  "source": "C.history.rok-muzyka",
+  "target": "C.history.muzyka",
+  "type": "is_a",
+  "why": "музыкальное направление"
+ },
+ {
+  "source": "C.history.molodezhnaya-kultura",
+  "target": "C.history.kultura-vtoroy-poloviny-xx-nachala-xxi-veka",
+  "type": "part_of",
+  "why": "культура молодёжи 1960-х гг. и позже"
+ },
+ {
+  "source": "C.history.globalnye-problemy-chelovechestva",
+  "target": "C.history.sovremennyy-mir",
+  "type": "part_of",
+  "why": "проблемы современного мира"
+ },
+ {
+  "source": "C.history.yadernaya-fizika",
+  "target": "C.history.yadernoe-oruzhie",
+  "type": "prerequisites_for",
+  "why": "ядерное оружие создано на основе ядерной физики"
+ },
+ {
+  "source": "C.history.yadernoe-oruzhie",
+  "target": "C.history.rasprostranenie-yadernogo-oruzhiya",
+  "type": "prerequisites_for",
+  "why": "угроза распространения ядерного оружия"
+ },
+ {
+  "source": "C.history.rasprostranenie-yadernogo-oruzhiya",
+  "target": "C.history.globalnye-problemy-chelovechestva",
+  "type": "part_of",
+  "why": "угроза ядерной войны"
+ },
+ {
+  "source": "C.history.problema-prirodnyh-resursov",
+  "target": "C.history.globalnye-problemy-chelovechestva",
+  "type": "part_of",
+  "why": "исчерпание ресурсов"
+ },
+ {
+  "source": "C.history.ekologicheskaya-problema",
+  "target": "C.history.globalnye-problemy-chelovechestva",
+  "type": "part_of",
+  "why": "загрязнение окружающей среды"
+ },
+ {
+  "source": "C.history.problema-bezhentsev",
+  "target": "C.history.globalnye-problemy-chelovechestva",
+  "type": "part_of",
+  "why": "массовые потоки беженцев"
+ },
+ {
+  "source": "C.history.epidemii",
+  "target": "C.history.globalnye-problemy-chelovechestva",
+  "type": "part_of",
+  "why": "распространение болезней"
+ },
+ {
+  "source": "C.history.velikaya-otechestvennaya-voyna",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "prerequisites_for",
+  "why": "послевоенный СССР сложился под влиянием войны"
+ },
+ {
+  "source": "C.history.velikaya-otechestvennaya-voyna",
+  "target": "C.history.posledstviya-voyny-dlya-sovetskogo-obschestva",
+  "type": "prerequisites_for",
+  "why": "последствия Великой Отечественной войны"
+ },
+ {
+  "source": "C.history.posledstviya-voyny-dlya-sovetskogo-obschestva",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "первые послевоенные годы"
+ },
+ {
+  "source": "C.history.poslevoennaya-razruha",
+  "target": "C.history.posledstviya-voyny-dlya-sovetskogo-obschestva",
+  "type": "part_of",
+  "why": "разрушенное хозяйство"
+ },
+ {
+  "source": "C.history.demobilizatsiya-armii",
+  "target": "C.history.posledstviya-voyny-dlya-sovetskogo-obschestva",
+  "type": "part_of",
+  "why": "возвращение фронтовиков домой"
+ },
+ {
+  "source": "C.history.demobilizatsiya-armii",
+  "target": "C.history.sotsialnaya-adaptatsiya-frontovikov",
+  "type": "prerequisites_for",
+  "why": "фронтовикам пришлось вернуться к мирной жизни"
+ },
+ {
+  "source": "C.history.repatriatsiya-sovetskih-grazhdan",
+  "target": "C.history.posledstviya-voyny-dlya-sovetskogo-obschestva",
+  "type": "part_of",
+  "why": "возвращение угнанных и пленных"
+ },
+ {
+  "source": "C.history.posledstviya-voyny-dlya-sovetskogo-obschestva",
+  "target": "C.history.prestupnost",
+  "type": "prerequisites_for",
+  "why": "после войны выросла преступность"
+ },
+ {
+  "source": "C.history.poslevoennaya-razruha",
+  "target": "C.history.poslevoennoe-vosstanovlenie-ekonomiki",
+  "type": "prerequisites_for",
+  "why": "восстанавливали разрушенное хозяйство"
+ },
+ {
+  "source": "C.history.vosstanovlenie-hozyaystva-v-osvobozhdennyh-rayonah",
+  "target": "C.history.poslevoennoe-vosstanovlenie-ekonomiki",
+  "type": "prerequisites_for",
+  "why": "восстановление началось ещё в годы войны"
+ },
+ {
+  "source": "C.history.poslevoennoe-vosstanovlenie-ekonomiki",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "главная задача послевоенных лет"
+ },
+ {
+  "source": "C.history.perestroyka-ekonomiki-na-voennyy-lad",
+  "target": "C.history.demilitarizatsiya-ekonomiki",
+  "type": "prerequisites_for",
+  "why": "экономику переводили с военного на мирный лад"
+ },
+ {
+  "source": "C.history.demilitarizatsiya-ekonomiki",
+  "target": "C.history.poslevoennoe-vosstanovlenie-ekonomiki",
+  "type": "part_of",
+  "why": "переход к выпуску гражданской продукции"
+ },
+ {
+  "source": "C.history.vosstanovlenie-promyshlennosti",
+  "target": "C.history.poslevoennoe-vosstanovlenie-ekonomiki",
+  "type": "part_of",
+  "why": "восстановление индустриального потенциала"
+ },
+ {
+  "source": "C.history.kolhozy",
+  "target": "C.history.poslevoennaya-derevnya",
+  "type": "prerequisites_for",
+  "why": "деревня оставалась колхозной"
+ },
+ {
+  "source": "C.history.poslevoennaya-derevnya",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "положение деревни после войны"
+ },
+ {
+  "source": "C.history.potsdamskaya-konferentsiya",
+  "target": "C.history.reparatsii",
+  "type": "prerequisites_for",
+  "why": "репарации с Германии определили в Потсдаме"
+ },
+ {
+  "source": "C.history.reparatsii",
+  "target": "C.history.poslevoennoe-vosstanovlenie-ekonomiki",
+  "type": "part_of",
+  "why": "репарации помогали восстановлению"
+ },
+ {
+  "source": "C.history.sovetskiy-atomnyy-proekt",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "создание атомной бомбы в 1949 г."
+ },
+ {
+  "source": "C.history.potrebitelskiy-rynok",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "нехватка товаров после войны"
+ },
+ {
+  "source": "C.history.kolhozy",
+  "target": "C.history.kolhoznyy-rynok",
+  "type": "prerequisites_for",
+  "why": "колхозники продавали продукты на рынке"
+ },
+ {
+  "source": "C.history.kolhoznyy-rynok",
+  "target": "C.history.potrebitelskiy-rynok",
+  "type": "part_of",
+  "why": "часть послевоенного рынка"
+ },
+ {
+  "source": "C.history.poslevoennaya-derevnya",
+  "target": "C.history.golod-1946-1947-godov",
+  "type": "prerequisites_for",
+  "why": "неурожай и изъятие хлеба вызвали голод"
+ },
+ {
+  "source": "C.history.golod-1946-1947-godov",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "голод после засухи 1946 г."
+ },
+ {
+  "source": "C.history.denezhnaya-reforma-1947-goda",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "обмен денег в 1947 г."
+ },
+ {
+  "source": "C.history.kartochnaya-sistema",
+  "target": "C.history.otmena-kartochnoy-sistemy",
+  "type": "prerequisites_for",
+  "why": "карточки отменили в 1947 г."
+ },
+ {
+  "source": "C.history.otmena-kartochnoy-sistemy",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "отмена карточек в декабре 1947 г."
+ },
+ {
+  "source": "C.history.i-v-stalin",
+  "target": "C.history.okruzhenie-stalina",
+  "type": "prerequisites_for",
+  "why": "соратники Сталина в руководстве"
+ },
+ {
+  "source": "C.history.okruzhenie-stalina",
+  "target": "C.history.sopernichestvo-v-verhnih-eshelonah-vlasti",
+  "type": "prerequisites_for",
+  "why": "соперничали члены окружения Сталина"
+ },
+ {
+  "source": "C.history.sopernichestvo-v-verhnih-eshelonah-vlasti",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "борьба в руководстве страны"
+ },
+ {
+  "source": "C.history.organy-gosbezopasnosti",
+  "target": "C.history.poslevoennye-repressii",
+  "type": "prerequisites_for",
+  "why": "репрессии проводили органы госбезопасности"
+ },
+ {
+  "source": "C.history.poslevoennye-repressii",
+  "target": "C.history.sssr-v-1945-1953-godah",
+  "type": "part_of",
+  "why": "репрессии 1946–1953 гг."
+ },
+ {
+  "source": "C.history.i-v-stalin",
+  "target": "C.history.poslevoennye-repressii",
+  "type": "participant_of",
+  "why": "репрессии шли по указанию Сталина"
+ },
+ {
+  "source": "C.history.leningradskoe-delo",
+  "target": "C.history.poslevoennye-repressii",
+  "type": "part_of",
+  "why": "расправа с ленинградскими руководителями"
+ },
+ {
+  "source": "C.history.delo-vrachey",
+  "target": "C.history.poslevoennye-repressii",
+  "type": "part_of",
+  "why": "обвинение врачей-евреев в 1953 г."
+ },
+ {
+  "source": "C.history.borba-s-kosmopolitizmom",
+  "target": "C.history.ideologicheskiy-kontrol",
+  "type": "part_of",
+  "why": "кампания против «низкопоклонства перед Западом»"
+ },
+ {
+  "source": "C.history.uzhestochenie-trudovogo-zakonodatelstva",
+  "target": "C.history.trudovoe-zakonodatelstvo-voennogo-vremeni",
+  "type": "prerequisites_for",
+  "why": "законы военного времени продолжили довоенные"
+ },
+ {
+  "source": "C.history.trudovoe-zakonodatelstvo-voennogo-vremeni",
+  "target": "C.history.poslevoennoe-vosstanovlenie-ekonomiki",
+  "type": "part_of",
+  "why": "жёсткие законы сохранили на время восстановления"
+ },
+ {
+  "source": "C.history.sssr-v-1945-1953-godah",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "prerequisites_for",
+  "why": "следующий период истории СССР"
+ },
+ {
+  "source": "C.history.ottepel",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "«оттепель» — суть периода"
+ },
+ {
+  "source": "C.history.i-v-stalin",
+  "target": "C.history.smert-stalina",
+  "type": "prerequisites_for",
+  "why": "смерть Сталина в 1953 г."
+ },
+ {
+  "source": "C.history.smert-stalina",
+  "target": "C.history.ottepel",
+  "type": "prerequisites_for",
+  "why": "оттепель началась после смерти Сталина"
+ },
+ {
+  "source": "C.history.smert-stalina",
+  "target": "C.history.borba-za-vlast-v-sovetskom-rukovodstve",
+  "type": "prerequisites_for",
+  "why": "после смерти Сталина началась борьба за лидерство"
+ },
+ {
+  "source": "C.history.n-s-hruschev",
+  "target": "C.history.borba-za-vlast-v-sovetskom-rukovodstve",
+  "type": "participant_of",
+  "why": "Хрущёв победил соперников"
+ },
+ {
+  "source": "C.history.n-s-hruschev",
+  "target": "C.history.ottepel",
+  "type": "participant_of",
+  "why": "«оттепель» связана с правлением Хрущёва"
+ },
+ {
+  "source": "C.history.borba-za-vlast-v-sovetskom-rukovodstve",
+  "target": "C.history.utverzhdenie-edinolichnoy-vlasti-hruscheva",
+  "type": "prerequisites_for",
+  "why": "в 1957 г. Хрущёв устранил соперников"
+ },
+ {
+  "source": "C.history.xx-sezd-kpss",
+  "target": "C.history.ottepel",
+  "type": "part_of",
+  "why": "съезд 1956 г. — поворотный пункт оттепели"
+ },
+ {
+  "source": "C.history.kult-lichnosti-stalina",
+  "target": "C.history.razoblachenie-kulta-lichnosti-stalina",
+  "type": "prerequisites_for",
+  "why": "разоблачали культ личности Сталина"
+ },
+ {
+  "source": "C.history.razoblachenie-kulta-lichnosti-stalina",
+  "target": "C.history.xx-sezd-kpss",
+  "type": "part_of",
+  "why": "культ личности осуждён на съезде"
+ },
+ {
+  "source": "C.history.n-s-hruschev",
+  "target": "C.history.doklad-hruscheva-na-xx-sezde-kpss",
+  "type": "prerequisites_for",
+  "why": "доклад сделал Хрущёв"
+ },
+ {
+  "source": "C.history.doklad-hruscheva-na-xx-sezde-kpss",
+  "target": "C.history.xx-sezd-kpss",
+  "type": "part_of",
+  "why": "закрытый доклад на съезде"
+ },
+ {
+  "source": "C.history.massovye-politicheskie-repressii-1937-1938-godov",
+  "target": "C.history.reabilitatsiya-zhertv-politicheskih-repressiy",
+  "type": "prerequisites_for",
+  "why": "реабилитировали жертв репрессий"
+ },
+ {
+  "source": "C.history.reabilitatsiya-zhertv-politicheskih-repressiy",
+  "target": "C.history.ottepel",
+  "type": "part_of",
+  "why": "реабилитация — часть оттепели"
+ },
+ {
+  "source": "C.history.deportatsii-narodov",
+  "target": "C.history.vozvraschenie-deportirovannyh-narodov",
+  "type": "prerequisites_for",
+  "why": "народы вернулись из депортации"
+ },
+ {
+  "source": "C.history.vozvraschenie-deportirovannyh-narodov",
+  "target": "C.history.natsionalnaya-politika-sssr",
+  "type": "part_of",
+  "why": "восстановление национальных автономий"
+ },
+ {
+  "source": "C.history.kultura-v-gody-velikoy-otechestvennoy-voyny",
+  "target": "C.history.kultura-sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "prerequisites_for",
+  "why": "следующий этап советской культуры"
+ },
+ {
+  "source": "C.history.ottepel",
+  "target": "C.history.kultura-sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "prerequisites_for",
+  "why": "оттепель изменила культурную жизнь"
+ },
+ {
+  "source": "C.history.shestidesyatniki",
+  "target": "C.history.kultura-sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "поколение интеллигенции периода оттепели"
+ },
+ {
+  "source": "C.history.fultonskaya-rech",
+  "target": "C.history.zheleznyy-zanaves",
+  "type": "prerequisites_for",
+  "why": "выражение «железный занавес» прозвучало в Фултонской речи"
+ },
+ {
+  "source": "C.history.zheleznyy-zanaves",
+  "target": "C.history.vsemirnyy-festival-molodezhi-i-studentov-1957-goda",
+  "type": "prerequisites_for",
+  "why": "фестиваль приоткрыл железный занавес"
+ },
+ {
+  "source": "C.history.vsemirnyy-festival-molodezhi-i-studentov-1957-goda",
+  "target": "C.history.kultura-sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "фестиваль 1957 г. в Москве"
+ },
+ {
+  "source": "C.history.dosug",
+  "target": "C.history.povsednevnaya-zhizn-na-rusi",
+  "type": "part_of",
+  "why": "досуг — часть повседневной жизни"
+ },
+ {
+  "source": "C.history.neofitsialnaya-kultura",
+  "target": "C.history.kultura-sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "культура вне официальных рамок"
+ },
+ {
+  "source": "C.history.antireligioznaya-propaganda",
+  "target": "C.history.antireligioznaya-kampaniya",
+  "type": "prerequisites_for",
+  "why": "новая кампания против религии"
+ },
+ {
+  "source": "C.history.antireligioznaya-kampaniya",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "кампания 1958–1964 гг."
+ },
+ {
+  "source": "C.history.russkaya-tserkov",
+  "target": "C.history.goneniya-na-tserkov",
+  "type": "prerequisites_for",
+  "why": "гонения на Русскую церковь"
+ },
+ {
+  "source": "C.history.goneniya-na-tserkov",
+  "target": "C.history.antireligioznaya-kampaniya",
+  "type": "part_of",
+  "why": "закрытие храмов и монастырей"
+ },
+ {
+  "source": "C.history.ideologicheskiy-kontrol",
+  "target": "C.history.dissidenty",
+  "type": "prerequisites_for",
+  "why": "диссиденты выступали против идеологического контроля"
+ },
+ {
+  "source": "C.history.tsenzura",
+  "target": "C.history.samizdat",
+  "type": "prerequisites_for",
+  "why": "самиздат обходил цензуру"
+ },
+ {
+  "source": "C.history.samizdat",
+  "target": "C.history.neofitsialnaya-kultura",
+  "type": "part_of",
+  "why": "неподцензурные тексты"
+ },
+ {
+  "source": "C.history.tamizdat",
+  "target": "C.history.neofitsialnaya-kultura",
+  "type": "part_of",
+  "why": "публикации за границей"
+ },
+ {
+  "source": "C.history.prodovolstvennaya-problema",
+  "target": "C.history.osvoenie-tselinnyh-zemel",
+  "type": "prerequisites_for",
+  "why": "целину осваивали для решения продовольственной проблемы"
+ },
+ {
+  "source": "C.history.osvoenie-tselinnyh-zemel",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "освоение целины с 1954 г."
+ },
+ {
+  "source": "C.history.ssha",
+  "target": "C.history.dognat-i-peregnat-ameriku",
+  "type": "prerequisites_for",
+  "why": "лозунг соревнования с экономикой США"
+ },
+ {
+  "source": "C.history.dognat-i-peregnat-ameriku",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "лозунг конца 1950-х гг."
+ },
+ {
+  "source": "C.history.sovetskiy-atomnyy-proekt",
+  "target": "C.history.raketno-yadernyy-schit",
+  "type": "prerequisites_for",
+  "why": "ракетно-ядерный щит опирался на атомный проект"
+ },
+ {
+  "source": "C.history.raketno-yadernyy-schit",
+  "target": "C.history.gonka-vooruzheniy",
+  "type": "part_of",
+  "why": "ответ СССР в гонке вооружений"
+ },
+ {
+  "source": "C.history.raketno-yadernyy-schit",
+  "target": "C.history.osvoenie-kosmosa",
+  "type": "prerequisites_for",
+  "why": "ракеты вывели в космос спутник и человека"
+ },
+ {
+  "source": "C.history.osvoenie-kosmosa",
+  "target": "C.history.kosmonavtika",
+  "type": "part_of",
+  "why": "советская космическая программа"
+ },
+ {
+  "source": "C.history.zapusk-pervogo-sputnika-zemli",
+  "target": "C.history.osvoenie-kosmosa",
+  "type": "part_of",
+  "why": "спутник запущен 4 октября 1957 г."
+ },
+ {
+  "source": "C.history.polet-yu-a-gagarina",
+  "target": "C.history.osvoenie-kosmosa",
+  "type": "part_of",
+  "why": "первый полёт человека в космос в 1961 г."
+ },
+ {
+  "source": "C.history.yu-a-gagarin",
+  "target": "C.history.polet-yu-a-gagarina",
+  "type": "participant_of",
+  "why": "первый космонавт"
+ },
+ {
+  "source": "C.history.polet-v-v-tereshkovoy",
+  "target": "C.history.osvoenie-kosmosa",
+  "type": "part_of",
+  "why": "первый полёт женщины в космос в 1963 г."
+ },
+ {
+  "source": "C.history.v-v-tereshkova",
+  "target": "C.history.polet-v-v-tereshkovoy",
+  "type": "participant_of",
+  "why": "первая женщина-космонавт"
+ },
+ {
+  "source": "C.history.otraslevaya-sistema-upravleniya",
+  "target": "C.history.reforma-upravleniya-promyshlennostyu",
+  "type": "prerequisites_for",
+  "why": "реформа заменила министерства совнархозами"
+ },
+ {
+  "source": "C.history.sovnarhozy",
+  "target": "C.history.reforma-upravleniya-promyshlennostyu",
+  "type": "part_of",
+  "why": "территориальные органы управления"
+ },
+ {
+  "source": "C.history.reforma-upravleniya-promyshlennostyu",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "реформа 1957 г."
+ },
+ {
+  "source": "C.history.n-s-hruschev",
+  "target": "C.history.reforma-upravleniya-promyshlennostyu",
+  "type": "participant_of",
+  "why": "реформу провёл Хрущёв"
+ },
+ {
+  "source": "C.history.soyuznye-respubliki",
+  "target": "C.history.sssr",
+  "type": "part_of",
+  "why": "республики в составе СССР"
+ },
+ {
+  "source": "C.history.soyuznye-respubliki",
+  "target": "C.history.rasshirenie-prav-soyuznyh-respublik",
+  "type": "prerequisites_for",
+  "why": "республики получили больше прав"
+ },
+ {
+  "source": "C.history.rasshirenie-prav-soyuznyh-respublik",
+  "target": "C.history.natsionalnaya-politika-sssr",
+  "type": "part_of",
+  "why": "децентрализация при Хрущёве"
+ },
+ {
+  "source": "C.history.xxii-sezd-kpss",
+  "target": "C.history.ottepel",
+  "type": "part_of",
+  "why": "съезд 1961 г."
+ },
+ {
+  "source": "C.history.programma-postroeniya-kommunizma",
+  "target": "C.history.xxii-sezd-kpss",
+  "type": "part_of",
+  "why": "программу приняли на XXII съезде"
+ },
+ {
+  "source": "C.history.sotsializm",
+  "target": "C.history.kommunizm",
+  "type": "prerequisites_for",
+  "why": "коммунизм — следующая за социализмом ступень"
+ },
+ {
+  "source": "C.history.kommunizm",
+  "target": "C.history.programma-postroeniya-kommunizma",
+  "type": "prerequisites_for",
+  "why": "программа обещала построить коммунизм"
+ },
+ {
+  "source": "C.history.sotsialisticheskoe-sorevnovanie",
+  "target": "C.history.brigady-kommunisticheskogo-truda",
+  "type": "prerequisites_for",
+  "why": "бригады — новая форма соревнования"
+ },
+ {
+  "source": "C.history.brigady-kommunisticheskogo-truda",
+  "target": "C.history.programma-postroeniya-kommunizma",
+  "type": "part_of",
+  "why": "воспитание коммунистического отношения к труду"
+ },
+ {
+  "source": "C.history.obschestvennye-formy-upravleniya",
+  "target": "C.history.programma-postroeniya-kommunizma",
+  "type": "part_of",
+  "why": "дружины, товарищеские суды"
+ },
+ {
+  "source": "C.history.reforma-sistemy-obrazovaniya-hruscheva",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "реформа школы 1958 г."
+ },
+ {
+  "source": "C.history.pensionnaya-reforma-hruscheva",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "закон о пенсиях 1956 г."
+ },
+ {
+  "source": "C.history.zhilischnaya-problema",
+  "target": "C.history.massovoe-zhilischnoe-stroitelstvo",
+  "type": "prerequisites_for",
+  "why": "строительство решало жилищную проблему"
+ },
+ {
+  "source": "C.history.massovoe-zhilischnoe-stroitelstvo",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "«хрущёвки»"
+ },
+ {
+  "source": "C.history.komandno-administrativnaya-sistema",
+  "target": "C.history.defitsit",
+  "type": "prerequisites_for",
+  "why": "плановая экономика порождала дефицит"
+ },
+ {
+  "source": "C.history.ssha",
+  "target": "C.history.strany-zapada",
+  "type": "part_of",
+  "why": "лидер стран Запада"
+ },
+ {
+  "source": "C.history.strany-zapadnoy-evropy",
+  "target": "C.history.strany-zapada",
+  "type": "part_of",
+  "why": "западная часть Европы"
+ },
+ {
+  "source": "C.history.yadernoe-oruzhie",
+  "target": "C.history.yadernoe-sderzhivanie",
+  "type": "prerequisites_for",
+  "why": "сдерживание основано на ядерном оружии"
+ },
+ {
+  "source": "C.history.yadernoe-sderzhivanie",
+  "target": "C.history.holodnaya-voyna",
+  "type": "part_of",
+  "why": "стратегия сторон холодной войны"
+ },
+ {
+  "source": "C.history.berlinskiy-krizis-1961-goda",
+  "target": "C.history.berlinskie-krizisy",
+  "type": "part_of",
+  "why": "возведение Берлинской стены"
+ },
+ {
+  "source": "C.history.n-s-hruschev",
+  "target": "C.history.karibskiy-krizis",
+  "type": "participant_of",
+  "why": "Хрущёв разместил ракеты на Кубе"
+ },
+ {
+  "source": "C.history.sssr",
+  "target": "C.history.mirovaya-sotsialisticheskaya-sistema",
+  "type": "part_of",
+  "why": "СССР — центр социалистической системы"
+ },
+ {
+  "source": "C.history.ustanovlenie-kommunisticheskih-rezhimov",
+  "target": "C.history.mirovaya-sotsialisticheskaya-sistema",
+  "type": "prerequisites_for",
+  "why": "система сложилась после установления коммунистических режимов"
+ },
+ {
+  "source": "C.history.kolonialnaya-imperiya",
+  "target": "C.history.raspad-kolonialnoy-sistemy",
+  "type": "prerequisites_for",
+  "why": "распались колониальные империи"
+ },
+ {
+  "source": "C.history.raspad-kolonialnoy-sistemy",
+  "target": "C.history.mezhdunarodnye-otnosheniya-vo-vtoroy-polovine-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "деколонизация 1940–1970-х гг."
+ },
+ {
+  "source": "C.history.raspad-kolonialnoy-sistemy",
+  "target": "C.history.tretiy-mir",
+  "type": "prerequisites_for",
+  "why": "освободившиеся страны составили «третий мир»"
+ },
+ {
+  "source": "C.history.krizis-doveriya-vlasti",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "недовольство политикой Хрущёва"
+ },
+ {
+  "source": "C.history.novocherkasskie-sobytiya",
+  "target": "C.history.krizis-doveriya-vlasti",
+  "type": "part_of",
+  "why": "расстрел рабочих в 1962 г."
+ },
+ {
+  "source": "C.history.krizis-doveriya-vlasti",
+  "target": "C.history.smeschenie-n-s-hruscheva",
+  "type": "prerequisites_for",
+  "why": "недовольство привело к отставке Хрущёва"
+ },
+ {
+  "source": "C.history.smeschenie-n-s-hruscheva",
+  "target": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "type": "part_of",
+  "why": "конец периода в 1964 г."
+ },
+ {
+  "source": "C.history.sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "prerequisites_for",
+  "why": "следующий период истории СССР"
+ },
+ {
+  "source": "C.history.smeschenie-n-s-hruscheva",
+  "target": "C.history.prihod-k-vlasti-l-i-brezhneva",
+  "type": "prerequisites_for",
+  "why": "после смещения Хрущёва партию возглавил Брежнев"
+ },
+ {
+  "source": "C.history.prihod-k-vlasti-l-i-brezhneva",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "начало периода в 1964 г."
+ },
+ {
+  "source": "C.history.l-i-brezhnev",
+  "target": "C.history.prihod-k-vlasti-l-i-brezhneva",
+  "type": "participant_of",
+  "why": "Брежнев стал первым секретарём ЦК"
+ },
+ {
+  "source": "C.history.l-i-brezhnev",
+  "target": "C.history.okruzhenie-brezhneva",
+  "type": "prerequisites_for",
+  "why": "соратники Брежнева в руководстве"
+ },
+ {
+  "source": "C.history.l-i-brezhnev",
+  "target": "C.history.zastoy",
+  "type": "participant_of",
+  "why": "застой связан с правлением Брежнева"
+ },
+ {
+  "source": "C.history.razoblachenie-kulta-lichnosti-stalina",
+  "target": "C.history.destalinizatsiya",
+  "type": "part_of",
+  "why": "разоблачение — главный шаг десталинизации"
+ },
+ {
+  "source": "C.history.destalinizatsiya",
+  "target": "C.history.ottepel",
+  "type": "part_of",
+  "why": "отказ от сталинских порядков"
+ },
+ {
+  "source": "C.history.destalinizatsiya",
+  "target": "C.history.restalinizatsiya",
+  "type": "prerequisites_for",
+  "why": "частичный отказ от десталинизации"
+ },
+ {
+  "source": "C.history.restalinizatsiya",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "поворот второй половины 1960-х гг."
+ },
+ {
+  "source": "C.history.ekonomicheskie-reformy-1960-h-godov",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "реформы 1965 г."
+ },
+ {
+  "source": "C.history.kosyginskaya-reforma",
+  "target": "C.history.ekonomicheskie-reformy-1960-h-godov",
+  "type": "part_of",
+  "why": "реформа промышленности 1965 г."
+ },
+ {
+  "source": "C.history.reforma-upravleniya-promyshlennostyu",
+  "target": "C.history.kosyginskaya-reforma",
+  "type": "prerequisites_for",
+  "why": "реформа 1965 г. вернула министерства вместо совнархозов"
+ },
+ {
+  "source": "C.history.kolhozy",
+  "target": "C.history.agrarnaya-politika-sssr",
+  "type": "prerequisites_for",
+  "why": "аграрная политика касалась колхозов"
+ },
+ {
+  "source": "C.history.agrarnaya-politika-sssr",
+  "target": "C.history.agropromyshlennyy-kompleks",
+  "type": "prerequisites_for",
+  "why": "создание АПК — итог аграрной политики"
+ },
+ {
+  "source": "C.history.konstitutsiya-sssr-1936-goda",
+  "target": "C.history.konstitutsiya-sssr-1977-goda",
+  "type": "prerequisites_for",
+  "why": "новая конституция сменила конституцию 1936 г."
+ },
+ {
+  "source": "C.history.razvitoy-sotsializm",
+  "target": "C.history.konstitutsiya-sssr-1977-goda",
+  "type": "prerequisites_for",
+  "why": "конституция закрепила концепцию развитого социализма"
+ },
+ {
+  "source": "C.history.konstitutsiya-sssr-1977-goda",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "«брежневская» конституция"
+ },
+ {
+  "source": "C.history.razvitoy-sotsializm",
+  "target": "C.history.sotsializm",
+  "type": "is_a",
+  "why": "«зрелая» стадия социализма"
+ },
+ {
+  "source": "C.history.zastoy",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "застой — главная черта периода"
+ },
+ {
+  "source": "C.history.zamedlenie-tempov-ekonomicheskogo-rosta",
+  "target": "C.history.zastoy",
+  "type": "part_of",
+  "why": "экономика росла всё медленнее"
+ },
+ {
+  "source": "C.history.krizis-ideologii",
+  "target": "C.history.zastoy",
+  "type": "part_of",
+  "why": "люди переставали верить официальной идеологии"
+ },
+ {
+  "source": "C.history.vtoraya-mirovaya-voyna",
+  "target": "C.history.sverhderzhava",
+  "type": "prerequisites_for",
+  "why": "после войны США и СССР стали сверхдержавами"
+ },
+ {
+  "source": "C.history.sverhderzhava",
+  "target": "C.history.voenno-promyshlennyy-kompleks",
+  "type": "prerequisites_for",
+  "why": "статус сверхдержавы требовал огромного ВПК"
+ },
+ {
+  "source": "C.history.gonka-vooruzheniy",
+  "target": "C.history.voenno-promyshlennyy-kompleks",
+  "type": "prerequisites_for",
+  "why": "гонка вооружений раздувала ВПК"
+ },
+ {
+  "source": "C.history.voenno-promyshlennyy-kompleks",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "рост роли ВПК в экономике"
+ },
+ {
+  "source": "C.history.agropromyshlennyy-kompleks",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "трудности сельского хозяйства"
+ },
+ {
+  "source": "C.history.toplivno-energeticheskiy-kompleks",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "нефть и газ Западной Сибири"
+ },
+ {
+  "source": "C.history.toplivno-energeticheskiy-kompleks",
+  "target": "C.history.zavisimost-ekonomiki-ot-tsen-na-energonositeli",
+  "type": "prerequisites_for",
+  "why": "экономика стала зависеть от экспорта нефти и газа"
+ },
+ {
+  "source": "C.history.sotsialnye-lifty",
+  "target": "C.history.sotsialnaya-mobilnost",
+  "type": "part_of",
+  "why": "каналы перемещения между слоями общества"
+ },
+ {
+  "source": "C.history.urbanizatsiya",
+  "target": "C.history.neperspektivnye-derevni",
+  "type": "prerequisites_for",
+  "why": "переселение в города опустошало деревни"
+ },
+ {
+  "source": "C.history.uroven-zhizni",
+  "target": "C.history.povsednevnaya-zhizn-na-rusi",
+  "type": "part_of",
+  "why": "материальное положение людей"
+ },
+ {
+  "source": "C.history.obschestvennye-nastroeniya",
+  "target": "C.history.povsednevnaya-zhizn-na-rusi",
+  "type": "part_of",
+  "why": "настроения общества"
+ },
+ {
+  "source": "C.history.potrebitelskie-tendentsii-v-sovetskom-obschestve",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "стремление к вещам и комфорту"
+ },
+ {
+  "source": "C.history.olimpiyskie-igry-1980-goda-v-moskve",
+  "target": "C.history.olimpiyskoe-dvizhenie",
+  "type": "part_of",
+  "why": "Олимпиада-80 в Москве"
+ },
+ {
+  "source": "C.history.moskva",
+  "target": "C.history.olimpiyskie-igry-1980-goda-v-moskve",
+  "type": "prerequisites_for",
+  "why": "игры прошли в Москве"
+ },
+ {
+  "source": "C.history.avtorskoe-kino",
+  "target": "C.history.kinematograf",
+  "type": "is_a",
+  "why": "направление кинематографа"
+ },
+ {
+  "source": "C.history.neformaly",
+  "target": "C.history.neofitsialnaya-kultura",
+  "type": "part_of",
+  "why": "неформальные объединения молодёжи"
+ },
+ {
+  "source": "C.history.kluby-samodeyatelnoy-pesni",
+  "target": "C.history.neformaly",
+  "type": "part_of",
+  "why": "движение авторской песни"
+ },
+ {
+  "source": "C.history.dvizhenie-kvn",
+  "target": "C.history.neformaly",
+  "type": "part_of",
+  "why": "клубы весёлых и находчивых"
+ },
+ {
+  "source": "C.history.dissidenty",
+  "target": "C.history.borba-s-inakomysliem",
+  "type": "prerequisites_for",
+  "why": "власть преследовала диссидентов"
+ },
+ {
+  "source": "C.history.organy-gosbezopasnosti",
+  "target": "C.history.borba-s-inakomysliem",
+  "type": "prerequisites_for",
+  "why": "инакомыслящих преследовал КГБ"
+ },
+ {
+  "source": "C.history.borba-s-inakomysliem",
+  "target": "C.history.sovetskoe-gosudarstvo-i-obschestvo-v-seredine-1960-h-nachale-1980-h-godov",
+  "type": "part_of",
+  "why": "преследования 1960–1980-х гг."
+ },
+ {
+  "source": "C.history.sudebnye-protsessy-nad-dissidentami",
+  "target": "C.history.borba-s-inakomysliem",
+  "type": "part_of",
+  "why": "суды над писателями и правозащитниками"
+ },
+ {
+  "source": "C.history.gonka-vooruzheniy",
+  "target": "C.history.voenno-strategicheskiy-paritet",
+  "type": "prerequisites_for",
+  "why": "паритет — итог гонки вооружений"
+ },
+ {
+  "source": "C.history.voenno-strategicheskiy-paritet",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "равенство сил с США к началу 1970-х гг."
+ },
+ {
+  "source": "C.history.ustanovlenie-kommunisticheskih-rezhimov",
+  "target": "C.history.antikommunisticheskie-nastroeniya-v-vostochnoy-evrope",
+  "type": "prerequisites_for",
+  "why": "недовольство коммунистическими режимами"
+ },
+ {
+  "source": "C.history.antikommunisticheskie-nastroeniya-v-vostochnoy-evrope",
+  "target": "C.history.strany-tsentralnoy-i-vostochnoy-evropy",
+  "type": "part_of",
+  "why": "настроения в странах региона"
+ },
+ {
+  "source": "C.history.antikommunisticheskie-nastroeniya-v-vostochnoy-evrope",
+  "target": "C.history.krizis-prosovetskih-rezhimov",
+  "type": "prerequisites_for",
+  "why": "недовольство подрывало режимы"
+ },
+ {
+  "source": "C.history.krizis-prosovetskih-rezhimov",
+  "target": "C.history.vostochnyy-blok",
+  "type": "part_of",
+  "why": "кризис режимов Восточного блока"
+ },
+ {
+  "source": "C.history.zastoy",
+  "target": "C.history.krizisnye-yavleniya-v-sssr",
+  "type": "prerequisites_for",
+  "why": "застой перерос в кризис"
+ },
+ {
+  "source": "C.history.padenie-mirovyh-tsen-na-neft",
+  "target": "C.history.krizisnye-yavleniya-v-sssr",
+  "type": "prerequisites_for",
+  "why": "падение цен на нефть ударило по экономике СССР"
+ },
+ {
+  "source": "C.history.krizisnye-yavleniya-v-sssr",
+  "target": "C.history.perestroyka",
+  "type": "prerequisites_for",
+  "why": "реформы начали из-за нарастания кризиса"
+ },
+ {
+  "source": "C.history.m-s-gorbachev",
+  "target": "C.history.perestroyka",
+  "type": "participant_of",
+  "why": "Горбачёв — инициатор перестройки"
+ },
+ {
+  "source": "C.history.m-s-gorbachev",
+  "target": "C.history.okruzhenie-gorbacheva",
+  "type": "prerequisites_for",
+  "why": "соратники Горбачёва в руководстве"
+ },
+ {
+  "source": "C.history.m-s-gorbachev",
+  "target": "C.history.novoe-politicheskoe-myshlenie",
+  "type": "participant_of",
+  "why": "концепцию выдвинул Горбачёв"
+ },
+ {
+  "source": "C.history.antialkogolnaya-kampaniya",
+  "target": "C.history.perestroyka",
+  "type": "part_of",
+  "why": "кампания 1985 г."
+ },
+ {
+  "source": "C.history.ispolzovanie-yadernoy-energii-v-mirnyh-tselyah",
+  "target": "C.history.chernobylskaya-tragediya",
+  "type": "prerequisites_for",
+  "why": "авария на атомной электростанции"
+ },
+ {
+  "source": "C.history.chernobylskaya-tragediya",
+  "target": "C.history.glasnost",
+  "type": "prerequisites_for",
+  "why": "после Чернобыля власть пошла на гласность"
+ },
+ {
+  "source": "C.history.ekonomicheskie-reformy-perestroyki",
+  "target": "C.history.perestroyka",
+  "type": "part_of",
+  "why": "реформы в экономике"
+ },
+ {
+  "source": "C.history.zakon-o-gosudarstvennom-predpriyatii",
+  "target": "C.history.ekonomicheskie-reformy-perestroyki",
+  "type": "part_of",
+  "why": "закон 1987 г."
+ },
+ {
+  "source": "C.history.zakon-ob-individualnoy-trudovoy-deyatelnosti",
+  "target": "C.history.ekonomicheskie-reformy-perestroyki",
+  "type": "part_of",
+  "why": "закон 1986 г."
+ },
+ {
+  "source": "C.history.zakon-o-privatizatsii-gosudarstvennyh-predpriyatiy",
+  "target": "C.history.ekonomicheskie-reformy-perestroyki",
+  "type": "part_of",
+  "why": "закон 1991 г."
+ },
+ {
+  "source": "C.history.zakon-o-privatizatsii-gosudarstvennyh-predpriyatiy",
+  "target": "C.history.privatizatsiya",
+  "type": "prerequisites_for",
+  "why": "закон открыл путь приватизации"
+ },
+ {
+  "source": "C.history.demokratizatsiya-politicheskoy-sistemy-sssr",
+  "target": "C.history.perestroyka",
+  "type": "part_of",
+  "why": "политическая реформа перестройки"
+ },
+ {
+  "source": "C.history.demokratizatsiya-politicheskoy-sistemy-sssr",
+  "target": "C.history.demokratizatsiya",
+  "type": "is_a",
+  "why": "демократизация советской системы"
+ },
+ {
+  "source": "C.history.glasnost",
+  "target": "C.history.perestroyka",
+  "type": "part_of",
+  "why": "открытость общества и СМИ"
+ },
+ {
+  "source": "C.history.glasnost",
+  "target": "C.history.plyuralizm",
+  "type": "prerequisites_for",
+  "why": "гласность допустила разные мнения"
+ },
+ {
+  "source": "C.history.glasnost",
+  "target": "C.history.politizatsiya-obschestvennoy-zhizni",
+  "type": "prerequisites_for",
+  "why": "гласность пробудила гражданскую активность"
+ },
+ {
+  "source": "C.history.politizatsiya-obschestvennoy-zhizni",
+  "target": "C.history.neformalnye-politicheskie-obedineniya",
+  "type": "prerequisites_for",
+  "why": "активность вылилась в неформальные объединения"
+ },
+ {
+  "source": "C.history.afganistan",
+  "target": "C.history.afganskaya-voyna",
+  "type": "prerequisites_for",
+  "why": "война в Афганистане"
+ },
+ {
+  "source": "C.history.afganskaya-voyna",
+  "target": "C.history.vneshnyaya-politika-sssr",
+  "type": "part_of",
+  "why": "война 1979–1989 гг."
+ },
+ {
+  "source": "C.history.novoe-politicheskoe-myshlenie",
+  "target": "C.history.zavershenie-holodnoy-voyny",
+  "type": "prerequisites_for",
+  "why": "новое мышление привело к окончанию противостояния"
+ },
+ {
+  "source": "C.history.zavershenie-holodnoy-voyny",
+  "target": "C.history.holodnaya-voyna",
+  "type": "part_of",
+  "why": "последний этап холодной войны"
+ },
+ {
+  "source": "C.history.raskol-germanii",
+  "target": "C.history.obedinenie-germanii-1990-goda",
+  "type": "prerequisites_for",
+  "why": "объединение преодолело раскол Германии"
+ },
+ {
+  "source": "C.history.obedinenie-germanii-1990-goda",
+  "target": "C.history.zavershenie-holodnoy-voyny",
+  "type": "part_of",
+  "why": "объединение Германии в 1990 г."
+ },
+ {
+  "source": "C.history.vyvod-sovetskih-voysk-iz-tsentralnoy-i-vostochnoy-evropy",
+  "target": "C.history.zavershenie-holodnoy-voyny",
+  "type": "part_of",
+  "why": "вывод войск в 1990-е гг."
+ },
+ {
+  "source": "C.history.xix-konferentsiya-kpss",
+  "target": "C.history.demokratizatsiya-politicheskoy-sistemy-sssr",
+  "type": "part_of",
+  "why": "конференция 1988 г. начала политическую реформу"
+ },
+ {
+  "source": "C.history.alternativnye-vybory-narodnyh-deputatov",
+  "target": "C.history.demokratizatsiya-politicheskoy-sistemy-sssr",
+  "type": "part_of",
+  "why": "выборы 1989 г. из нескольких кандидатов"
+ },
+ {
+  "source": "C.history.alternativnye-vybory-narodnyh-deputatov",
+  "target": "C.history.i-sezd-narodnyh-deputatov-sssr",
+  "type": "prerequisites_for",
+  "why": "съезд собрали избранные депутаты"
+ },
+ {
+  "source": "C.history.sezd-narodnyh-deputatov",
+  "target": "C.history.demokratizatsiya-politicheskoy-sistemy-sssr",
+  "type": "part_of",
+  "why": "новый высший орган власти"
+ },
+ {
+  "source": "C.history.sezd-narodnyh-deputatov",
+  "target": "C.history.i-sezd-narodnyh-deputatov-sssr",
+  "type": "prerequisites_for",
+  "why": "первый съезд нового органа власти"
+ },
+ {
+  "source": "C.history.i-sezd-narodnyh-deputatov-sssr",
+  "target": "C.history.demokraty-pervoy-volny",
+  "type": "prerequisites_for",
+  "why": "демократы объединились на I съезде"
+ },
+ {
+  "source": "C.history.glasnost",
+  "target": "C.history.natsionalnye-dvizheniya-v-sssr",
+  "type": "prerequisites_for",
+  "why": "гласность позволила открыто выступать"
+ },
+ {
+  "source": "C.history.natsionalizm",
+  "target": "C.history.natsionalnye-dvizheniya-v-sssr",
+  "type": "prerequisites_for",
+  "why": "национальные движения опирались на национализм"
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-sssr",
+  "target": "C.history.tsentrobezhnye-tendentsii-v-sssr",
+  "type": "part_of",
+  "why": "национальные движения ослабляли Союз"
+ },
+ {
+  "source": "C.history.natsionalnye-dvizheniya-v-sssr",
+  "target": "C.history.mezhnatsionalnye-konflikty-v-sssr",
+  "type": "prerequisites_for",
+  "why": "национальные движения столкнулись друг с другом"
+ },
+ {
+  "source": "C.history.zakavkaze",
+  "target": "C.history.mezhnatsionalnye-konflikty-v-sssr",
+  "type": "prerequisites_for",
+  "why": "конфликты в Закавказье"
+ },
+ {
+  "source": "C.history.pribaltika",
+  "target": "C.history.mezhnatsionalnye-konflikty-v-sssr",
+  "type": "prerequisites_for",
+  "why": "противостояние в Прибалтике"
+ },
+ {
+  "source": "C.history.ukraina",
+  "target": "C.history.mezhnatsionalnye-konflikty-v-sssr",
+  "type": "prerequisites_for",
+  "why": "противостояние на Украине"
+ },
+ {
+  "source": "C.history.moldaviya",
+  "target": "C.history.mezhnatsionalnye-konflikty-v-sssr",
+  "type": "prerequisites_for",
+  "why": "конфликт в Молдавии"
+ },
+ {
+  "source": "C.history.natsionalnye-elity",
+  "target": "C.history.parad-suverenitetov",
+  "type": "prerequisites_for",
+  "why": "республиканские элиты провозгласили суверенитет"
+ },
+ {
+  "source": "C.history.konstitutsiya-sssr-1977-goda",
+  "target": "C.history.otmena-6-y-stati-konstitutsii-sssr",
+  "type": "prerequisites_for",
+  "why": "статья 6 закрепляла руководящую роль КПСС"
+ },
+ {
+  "source": "C.history.vkp-b",
+  "target": "C.history.kpss",
+  "type": "prerequisites_for",
+  "why": "КПСС — новое название ВКП(б)"
+ },
+ {
+  "source": "C.history.kpss",
+  "target": "C.history.otmena-6-y-stati-konstitutsii-sssr",
+  "type": "prerequisites_for",
+  "why": "отменили монополию КПСС на власть"
+ },
+ {
+  "source": "C.history.otmena-6-y-stati-konstitutsii-sssr",
+  "target": "C.history.mnogopartiynaya-sistema",
+  "type": "prerequisites_for",
+  "why": "после отмены статьи возникли новые партии"
+ },
+ {
+  "source": "C.history.kpss",
+  "target": "C.history.krizis-v-kpss",
+  "type": "prerequisites_for",
+  "why": "раскол и кризис в партии"
+ },
+ {
+  "source": "C.history.krizis-v-kpss",
+  "target": "C.history.kommunisticheskaya-partiya-rsfsr",
+  "type": "prerequisites_for",
+  "why": "в КПСС возникла российская компартия"
+ },
+ {
+  "source": "C.history.rsfsr",
+  "target": "C.history.sssr",
+  "type": "part_of",
+  "why": "союзная республика в составе СССР"
+ },
+ {
+  "source": "C.history.sezd-narodnyh-deputatov",
+  "target": "C.history.i-sezd-narodnyh-deputatov-rsfsr",
+  "type": "prerequisites_for",
+  "why": "первый съезд депутатов России"
+ },
+ {
+  "source": "C.history.i-sezd-narodnyh-deputatov-rsfsr",
+  "target": "C.history.protivostoyanie-soyuznoy-i-rossiyskoy-vlasti",
+  "type": "prerequisites_for",
+  "why": "съезд избрал Ельцина и усилил российскую власть"
+ },
+ {
+  "source": "C.history.b-n-eltsin",
+  "target": "C.history.protivostoyanie-soyuznoy-i-rossiyskoy-vlasti",
+  "type": "participant_of",
+  "why": "Ельцин возглавил российскую власть"
+ },
+ {
+  "source": "C.history.izbranie-b-n-eltsina-prezidentom-rsfsr",
+  "target": "C.history.protivostoyanie-soyuznoy-i-rossiyskoy-vlasti",
+  "type": "part_of",
+  "why": "всенародно избранный президент России"
+ },
+ {
+  "source": "C.history.prezident-sssr",
+  "target": "C.history.izbranie-m-s-gorbacheva-prezidentom-sssr",
+  "type": "prerequisites_for",
+  "why": "Горбачёв стал первым и последним президентом СССР"
+ },
+ {
+  "source": "C.history.tsentrobezhnye-tendentsii-v-sssr",
+  "target": "C.history.raspad-sssr",
+  "type": "part_of",
+  "why": "центробежные процессы разрушали Союз"
+ },
+ {
+  "source": "C.history.i-sezd-narodnyh-deputatov-rsfsr",
+  "target": "C.history.deklaratsiya-o-gosudarstvennom-suverenitete-rsfsr",
+  "type": "prerequisites_for",
+  "why": "декларацию принял I съезд народных депутатов РСФСР"
+ },
+ {
+  "source": "C.history.rsfsr",
+  "target": "C.history.deklaratsiya-o-gosudarstvennom-suverenitete-rsfsr",
+  "type": "prerequisites_for",
+  "why": "суверенитет провозгласила РСФСР"
+ },
+ {
+  "source": "C.history.deklaratsiya-o-gosudarstvennom-suverenitete-rsfsr",
+  "target": "C.history.parad-suverenitetov",
+  "type": "part_of",
+  "why": "декларация 12 июня 1990 г."
+ },
+ {
+  "source": "C.history.parad-suverenitetov",
+  "target": "C.history.raspad-sssr",
+  "type": "part_of",
+  "why": "республики провозглашали суверенитет"
+ },
+ {
+  "source": "C.history.novo-ogarevskiy-protsess",
+  "target": "C.history.novyy-soyuznyy-dogovor",
+  "type": "prerequisites_for",
+  "why": "в Ново-Огарёве готовили новый договор"
+ },
+ {
+  "source": "C.history.tsentrobezhnye-tendentsii-v-sssr",
+  "target": "C.history.referendum-o-sohranenii-sssr",
+  "type": "prerequisites_for",
+  "why": "угроза распада вызвала референдум"
+ },
+ {
+  "source": "C.history.krizisnye-yavleniya-v-sssr",
+  "target": "C.history.ekonomicheskiy-krizis-v-sssr",
+  "type": "prerequisites_for",
+  "why": "кризис углубился в 1990–1991 гг."
+ },
+ {
+  "source": "C.history.denezhnaya-reforma-1991-goda",
+  "target": "C.history.ekonomicheskiy-krizis-v-sssr",
+  "type": "part_of",
+  "why": "обмен денег в 1991 г."
+ },
+ {
+  "source": "C.history.povyshenie-gosudarstvennyh-tsen-1991-goda",
+  "target": "C.history.ekonomicheskiy-krizis-v-sssr",
+  "type": "part_of",
+  "why": "рост цен в 1991 г."
+ },
+ {
+  "source": "C.history.ekonomicheskiy-krizis-v-sssr",
+  "target": "C.history.perehod-k-rynochnoy-ekonomike",
+  "type": "prerequisites_for",
+  "why": "кризис заставил готовить переход к рынку"
+ },
+ {
+  "source": "C.history.ekonomicheskiy-krizis-v-sssr",
+  "target": "C.history.zabastovochnoe-dvizhenie",
+  "type": "prerequisites_for",
+  "why": "ухудшение жизни вызвало забастовки"
+ },
+ {
+  "source": "C.history.novyy-soyuznyy-dogovor",
+  "target": "C.history.popytka-gosudarstvennogo-perevorota-v-avguste-1991-goda",
+  "type": "prerequisites_for",
+  "why": "путчисты хотели сорвать подписание договора"
+ },
+ {
+  "source": "C.history.popytka-gosudarstvennogo-perevorota-v-avguste-1991-goda",
+  "target": "C.history.raspad-sssr",
+  "type": "part_of",
+  "why": "после путча распад стал необратимым"
+ },
+ {
+  "source": "C.history.gkchp",
+  "target": "C.history.popytka-gosudarstvennogo-perevorota-v-avguste-1991-goda",
+  "type": "part_of",
+  "why": "комитет, пытавшийся захватить власть"
+ },
+ {
+  "source": "C.history.belyy-dom",
+  "target": "C.history.popytka-gosudarstvennogo-perevorota-v-avguste-1991-goda",
+  "type": "prerequisites_for",
+  "why": "Белый дом — центр сопротивления путчу"
+ },
+ {
+  "source": "C.history.b-n-eltsin",
+  "target": "C.history.popytka-gosudarstvennogo-perevorota-v-avguste-1991-goda",
+  "type": "participant_of",
+  "why": "Ельцин возглавил сопротивление путчу"
+ },
+ {
+  "source": "C.history.belovezhskie-soglasheniya",
+  "target": "C.history.obrazovanie-sng",
+  "type": "part_of",
+  "why": "соглашение 8 декабря 1991 г."
+ },
+ {
+  "source": "C.history.alma-atinskie-soglasheniya",
+  "target": "C.history.obrazovanie-sng",
+  "type": "part_of",
+  "why": "соглашение 21 декабря 1991 г."
+ },
+ {
+  "source": "C.history.raspad-sssr",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "prerequisites_for",
+  "why": "новая Россия возникла после распада СССР"
+ },
+ {
+  "source": "C.history.perehod-k-rynochnoy-ekonomike",
+  "target": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "type": "prerequisites_for",
+  "why": "реформы осуществили переход к рынку"
+ },
+ {
+  "source": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "главное направление политики 1990-х гг."
+ },
+ {
+  "source": "C.history.b-n-eltsin",
+  "target": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "type": "participant_of",
+  "why": "реформы начаты по решению Ельцина"
+ },
+ {
+  "source": "C.history.b-n-eltsin",
+  "target": "C.history.okruzhenie-eltsina",
+  "type": "prerequisites_for",
+  "why": "соратники Ельцина в руководстве"
+ },
+ {
+  "source": "C.history.e-t-gaydar",
+  "target": "C.history.pravitelstvo-reformatorov",
+  "type": "participant_of",
+  "why": "Гайдар возглавил правительство реформаторов"
+ },
+ {
+  "source": "C.history.pravitelstvo-reformatorov",
+  "target": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "type": "prerequisites_for",
+  "why": "реформы проводило правительство реформаторов"
+ },
+ {
+  "source": "C.history.shokovaya-terapiya",
+  "target": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "type": "part_of",
+  "why": "быстрые и жёсткие преобразования"
+ },
+ {
+  "source": "C.history.e-t-gaydar",
+  "target": "C.history.shokovaya-terapiya",
+  "type": "participant_of",
+  "why": "«шоковую терапию» проводил Гайдар"
+ },
+ {
+  "source": "C.history.liberalizatsiya-tsen",
+  "target": "C.history.shokovaya-terapiya",
+  "type": "part_of",
+  "why": "освобождение цен в январе 1992 г."
+ },
+ {
+  "source": "C.history.vauchernaya-privatizatsiya",
+  "target": "C.history.privatizatsiya",
+  "type": "is_a",
+  "why": "приватизация с помощью ваучеров"
+ },
+ {
+  "source": "C.history.vauchernaya-privatizatsiya",
+  "target": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "type": "part_of",
+  "why": "передача предприятий в частные руки"
+ },
+ {
+  "source": "C.history.liberalizatsiya-tsen",
+  "target": "C.history.giperinflyatsiya",
+  "type": "prerequisites_for",
+  "why": "освобождение цен вызвало гиперинфляцию"
+ },
+ {
+  "source": "C.history.defitsit",
+  "target": "C.history.chernyy-rynok",
+  "type": "prerequisites_for",
+  "why": "нехватка товаров порождала чёрный рынок"
+ },
+ {
+  "source": "C.history.prestupnost",
+  "target": "C.history.kriminalizatsiya-obschestva",
+  "type": "prerequisites_for",
+  "why": "рост преступности в 1990-е гг."
+ },
+ {
+  "source": "C.history.kriminalizatsiya-obschestva",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "криминализация жизни 1990-х гг."
+ },
+ {
+  "source": "C.history.inostrannye-zaymy",
+  "target": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "type": "part_of",
+  "why": "реформы опирались на зарубежные кредиты"
+ },
+ {
+  "source": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "target": "C.history.deindustrializatsiya",
+  "type": "prerequisites_for",
+  "why": "спад промышленности в ходе реформ"
+ },
+ {
+  "source": "C.history.deindustrializatsiya",
+  "target": "C.history.zavisimost-ekonomiki-ot-tsen-na-energonositeli",
+  "type": "prerequisites_for",
+  "why": "экономика держалась на экспорте сырья"
+ },
+ {
+  "source": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "target": "C.history.prodovolstvennaya-zavisimost",
+  "type": "prerequisites_for",
+  "why": "упадок сельского хозяйства усилил зависимость от импорта"
+ },
+ {
+  "source": "C.history.finansovye-piramidy",
+  "target": "C.history.defolt-1998-goda",
+  "type": "prerequisites_for",
+  "why": "пирамида государственных облигаций рухнула в 1998 г."
+ },
+ {
+  "source": "C.history.defolt-1998-goda",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "финансовый кризис 1998 г."
+ },
+ {
+  "source": "C.history.sezd-narodnyh-deputatov",
+  "target": "C.history.politiko-konstitutsionnyy-krizis-1993-goda",
+  "type": "prerequisites_for",
+  "why": "кризис — конфликт съезда и президента"
+ },
+ {
+  "source": "C.history.b-n-eltsin",
+  "target": "C.history.politiko-konstitutsionnyy-krizis-1993-goda",
+  "type": "participant_of",
+  "why": "Ельцин — одна из сторон конфликта"
+ },
+ {
+  "source": "C.history.politiko-konstitutsionnyy-krizis-1993-goda",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "кризис 1992–1993 гг."
+ },
+ {
+  "source": "C.history.ukaz-b-n-eltsina-1400",
+  "target": "C.history.politiko-konstitutsionnyy-krizis-1993-goda",
+  "type": "part_of",
+  "why": "указ о роспуске съезда и Верховного Совета"
+ },
+ {
+  "source": "C.history.razdelenie-vlastey",
+  "target": "C.history.konstitutsionnyy-sud",
+  "type": "prerequisites_for",
+  "why": "суд — орган судебной власти"
+ },
+ {
+  "source": "C.history.ukaz-b-n-eltsina-1400",
+  "target": "C.history.sobytiya-oseni-1993-goda-v-moskve",
+  "type": "prerequisites_for",
+  "why": "указ привёл к столкновениям в Москве"
+ },
+ {
+  "source": "C.history.belyy-dom",
+  "target": "C.history.sobytiya-oseni-1993-goda-v-moskve",
+  "type": "prerequisites_for",
+  "why": "события вокруг Белого дома"
+ },
+ {
+  "source": "C.history.sobytiya-oseni-1993-goda-v-moskve",
+  "target": "C.history.politiko-konstitutsionnyy-krizis-1993-goda",
+  "type": "part_of",
+  "why": "развязка кризиса в октябре 1993 г."
+ },
+ {
+  "source": "C.history.sovety",
+  "target": "C.history.likvidatsiya-sovetov",
+  "type": "prerequisites_for",
+  "why": "упразднили систему Советов"
+ },
+ {
+  "source": "C.history.sobytiya-oseni-1993-goda-v-moskve",
+  "target": "C.history.likvidatsiya-sovetov",
+  "type": "prerequisites_for",
+  "why": "после событий Советы распустили"
+ },
+ {
+  "source": "C.history.vsenarodnoe-golosovanie-po-proektu-konstitutsii-1993-goda",
+  "target": "C.history.konstitutsiya-rossii-1993-goda",
+  "type": "prerequisites_for",
+  "why": "конституцию приняли на голосовании 12 декабря 1993 г."
+ },
+ {
+  "source": "C.history.razdelenie-vlastey",
+  "target": "C.history.konstitutsiya-rossii-1993-goda",
+  "type": "prerequisites_for",
+  "why": "конституция закрепила разделение властей"
+ },
+ {
+  "source": "C.history.konstitutsiya-rossii-1993-goda",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "основной закон новой России"
+ },
+ {
+  "source": "C.history.federalizm",
+  "target": "C.history.federativnyy-dogovor",
+  "type": "prerequisites_for",
+  "why": "договор закрепил федеративное устройство"
+ },
+ {
+  "source": "C.history.krizis-tsentralnoy-vlasti",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "ослабление центра в 1990-е гг."
+ },
+ {
+  "source": "C.history.dagestan",
+  "target": "C.history.severnyy-kavkaz",
+  "type": "part_of",
+  "why": "республика Северного Кавказа"
+ },
+ {
+  "source": "C.history.dagestan",
+  "target": "C.history.vtorzhenie-terroristov-v-dagestan",
+  "type": "prerequisites_for",
+  "why": "нападение на Дагестан в 1999 г."
+ },
+ {
+  "source": "C.history.vtorzhenie-terroristov-v-dagestan",
+  "target": "C.history.voenno-politicheskiy-krizis-v-chechenskoy-respublike",
+  "type": "part_of",
+  "why": "вторжение 1999 г. началось из Чечни"
+ },
+ {
+  "source": "C.history.otstavka-b-n-eltsina",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "отставка 31 декабря 1999 г."
+ },
+ {
+  "source": "C.history.mezhnatsionalnye-i-mezhkonfessionalnye-otnosheniya-v-1990-e-gody",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "обострение отношений в 1990-е гг."
+ },
+ {
+  "source": "C.history.federativnyy-dogovor",
+  "target": "C.history.subekty-federatsii",
+  "type": "prerequisites_for",
+  "why": "договор разграничил полномочия центра и субъектов"
+ },
+ {
+  "source": "C.history.subekty-federatsii",
+  "target": "C.history.rossiyskaya-federatsiya",
+  "type": "part_of",
+  "why": "республики, края, области в составе России"
+ },
+ {
+  "source": "C.history.chechenskaya-respublika",
+  "target": "C.history.severnyy-kavkaz",
+  "type": "part_of",
+  "why": "республика Северного Кавказа"
+ },
+ {
+  "source": "C.history.chechenskaya-respublika",
+  "target": "C.history.voenno-politicheskiy-krizis-v-chechenskoy-respublike",
+  "type": "prerequisites_for",
+  "why": "кризис в Чечне"
+ },
+ {
+  "source": "C.history.separatizm",
+  "target": "C.history.voenno-politicheskiy-krizis-v-chechenskoy-respublike",
+  "type": "prerequisites_for",
+  "why": "кризис вызвал чеченский сепаратизм"
+ },
+ {
+  "source": "C.history.voenno-politicheskiy-krizis-v-chechenskoy-respublike",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "чеченские войны"
+ },
+ {
+  "source": "C.history.glasnost",
+  "target": "C.history.svoboda-sredstv-massovoy-informatsii",
+  "type": "prerequisites_for",
+  "why": "свобода СМИ выросла из гласности"
+ },
+ {
+  "source": "C.history.svoboda-sredstv-massovoy-informatsii",
+  "target": "C.history.stanovlenie-novoy-rossii",
+  "type": "part_of",
+  "why": "новые свободы 1990-х гг."
+ },
+ {
+  "source": "C.history.perehod-k-rynochnoy-ekonomike",
+  "target": "C.history.svoboda-predprinimatelskoy-deyatelnosti",
+  "type": "prerequisites_for",
+  "why": "рынок дал свободу предпринимательства"
+ },
+ {
+  "source": "C.history.zheleznyy-zanaves",
+  "target": "C.history.svoboda-vyezda-za-rubezh",
+  "type": "prerequisites_for",
+  "why": "падение железного занавеса открыло выезд"
+ },
+ {
+  "source": "C.history.radikalnye-ekonomicheskie-reformy-1990-h-godov",
+  "target": "C.history.sotsialnaya-polyarizatsiya-obschestva",
+  "type": "prerequisites_for",
+  "why": "реформы разделили богатых и бедных"
+ },
+ {
+  "source": "C.history.raspad-sssr",
+  "target": "C.history.russkoyazychnoe-naselenie-byvshih-respublik-sssr",
+  "type": "prerequisites_for",
+  "why": "русские оказались за пределами России"
+ },
+ {
+  "source": "C.history.vneshnyaya-politika-sssr",
+  "target": "C.history.vneshnyaya-politika-rossiyskoy-federatsii",
+  "type": "prerequisites_for",
+  "why": "Россия унаследовала внешнюю политику СССР"
+ },
+ {
+  "source": "C.history.yadernoe-oruzhie",
+  "target": "C.history.yadernaya-derzhava",
+  "type": "prerequisites_for",
+  "why": "статус ядерной державы — обладание ядерным оружием"
+ },
+ {
+  "source": "C.history.belorussiya",
+  "target": "C.history.soyuznoe-gosudarstvo-rossii-i-belarusi",
+  "type": "prerequisites_for",
+  "why": "союз с Белоруссией"
+ },
+ {
+  "source": "C.history.soyuznoe-gosudarstvo-rossii-i-belarusi",
+  "target": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "type": "part_of",
+  "why": "интеграция России и Белоруссии"
+ },
+ {
+  "source": "C.history.belorussiya",
+  "target": "C.history.postsovetskoe-prostranstvo",
+  "type": "part_of",
+  "why": "государство постсоветского пространства"
+ },
+ {
+  "source": "C.history.voenno-politicheskoe-sotrudnichestvo-v-sng",
+  "target": "C.history.sodruzhestvo-nezavisimyh-gosudarstv",
+  "type": "part_of",
+  "why": "военное сотрудничество стран СНГ"
+ },
+ {
+  "source": "C.history.stanovlenie-novoy-rossii",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "prerequisites_for",
+  "why": "следующий период истории России"
+ },
+ {
+  "source": "C.history.otstavka-b-n-eltsina",
+  "target": "C.history.vstuplenie-v-dolzhnost-prezidenta-v-v-putina",
+  "type": "prerequisites_for",
+  "why": "после отставки Ельцина президентом стал Путин"
+ },
+ {
+  "source": "C.history.vstuplenie-v-dolzhnost-prezidenta-v-v-putina",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "начало периода в 2000 г."
+ },
+ {
+  "source": "C.history.v-v-putin",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "participant_of",
+  "why": "Путин — Президент России в XXI в."
+ },
+ {
+  "source": "C.history.prezident-rossiyskoy-federatsii",
+  "target": "C.history.vstuplenie-v-dolzhnost-prezidenta-v-v-putina",
+  "type": "prerequisites_for",
+  "why": "Путин вступил в должность президента"
+ },
+ {
+  "source": "C.history.konstitutsiya-rossii-1993-goda",
+  "target": "C.history.prezident-rossiyskoy-federatsii",
+  "type": "prerequisites_for",
+  "why": "полномочия президента определила конституция"
+ },
+ {
+  "source": "C.history.krizis-tsentralnoy-vlasti",
+  "target": "C.history.vertikal-vlasti",
+  "type": "prerequisites_for",
+  "why": "вертикаль власти укрепила ослабевший центр"
+ },
+ {
+  "source": "C.history.vertikal-vlasti",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "укрепление государства в 2000-е гг."
+ },
+ {
+  "source": "C.history.federalnye-okruga",
+  "target": "C.history.vertikal-vlasti",
+  "type": "part_of",
+  "why": "округа — звено вертикали власти"
+ },
+ {
+  "source": "C.history.edinoe-pravovoe-prostranstvo",
+  "target": "C.history.vertikal-vlasti",
+  "type": "part_of",
+  "why": "приведение законов регионов в соответствие с федеральными"
+ },
+ {
+  "source": "C.history.razgranichenie-polnomochiy-tsentra-i-regionov",
+  "target": "C.history.federalizm",
+  "type": "part_of",
+  "why": "разграничение полномочий — основа федерализма"
+ },
+ {
+  "source": "C.history.mezhdunarodnyy-terrorizm",
+  "target": "C.history.borba-s-terrorizmom",
+  "type": "prerequisites_for",
+  "why": "борьба с террористической угрозой"
+ },
+ {
+  "source": "C.history.borba-s-terrorizmom",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "борьба с терроризмом в 2000-е гг."
+ },
+ {
+  "source": "C.history.voennaya-reforma-v-rossiyskoy-federatsii",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "реформа вооружённых сил"
+ },
+ {
+  "source": "C.history.defolt-1998-goda",
+  "target": "C.history.ekonomicheskiy-podem-1999-2007-godov",
+  "type": "prerequisites_for",
+  "why": "подъём начался после кризиса 1998 г."
+ },
+ {
+  "source": "C.history.neftegazovyy-sektor",
+  "target": "C.history.ekonomicheskiy-podem-1999-2007-godov",
+  "type": "prerequisites_for",
+  "why": "подъём опирался на доходы от нефти и газа"
+ },
+ {
+  "source": "C.history.ekonomicheskiy-podem-1999-2007-godov",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "рост экономики в 2000-е гг."
+ },
+ {
+  "source": "C.history.ekonomicheskiy-krizis-2008-goda",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "мировой кризис 2008 г. в России"
+ },
+ {
+  "source": "C.history.neftegazovyy-sektor",
+  "target": "C.history.toplivno-energeticheskiy-kompleks",
+  "type": "part_of",
+  "why": "нефтегазовая отрасль — часть ТЭК"
+ },
+ {
+  "source": "C.history.zavisimost-ekonomiki-ot-tsen-na-energonositeli",
+  "target": "C.history.innovatsionnoe-razvitie",
+  "type": "prerequisites_for",
+  "why": "инновации нужны, чтобы уйти от сырьевой зависимости"
+ },
+ {
+  "source": "C.history.infrastrukturnye-proekty",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "крупнейшие стройки XXI в."
+ },
+ {
+  "source": "C.history.selskoe-hozyaystvo",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "сельское хозяйство России в XXI в."
+ },
+ {
+  "source": "C.history.prioritetnye-natsionalnye-proekty",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "национальные проекты 2005 и 2018 гг."
+ },
+ {
+  "source": "C.history.d-a-medvedev",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "participant_of",
+  "why": "Медведев — Президент России в 2008–2012 гг."
+ },
+ {
+  "source": "C.history.konstitutsiya-rossii-1993-goda",
+  "target": "C.history.premer-ministr",
+  "type": "prerequisites_for",
+  "why": "пост председателя правительства определила конституция"
+ },
+ {
+  "source": "C.history.prezident-rossiyskoy-federatsii",
+  "target": "C.history.preemstvennost-vlasti",
+  "type": "prerequisites_for",
+  "why": "преемственность при смене президента"
+ },
+ {
+  "source": "C.history.preemstvennost-vlasti",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "стабильность власти в 2000–2010-е гг."
+ },
+ {
+  "source": "C.history.izbranie-v-v-putina-prezidentom-v-2012-godu",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "выборы 2012 г."
+ },
+ {
+  "source": "C.history.pereizbranie-v-v-putina-v-2018-godu",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "выборы 2018 г."
+ },
+ {
+  "source": "C.history.krym",
+  "target": "C.history.vossoedinenie-kryma-s-rossiey",
+  "type": "prerequisites_for",
+  "why": "Крым вошёл в состав России"
+ },
+ {
+  "source": "C.history.gosudarstvennyy-perevorot-na-ukraine-2014-goda",
+  "target": "C.history.vossoedinenie-kryma-s-rossiey",
+  "type": "prerequisites_for",
+  "why": "после переворота Крым провёл референдум"
+ },
+ {
+  "source": "C.history.vossoedinenie-kryma-s-rossiey",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "воссоединение 2014 г."
+ },
+ {
+  "source": "C.history.vossoedinenie-kryma-s-rossiey",
+  "target": "C.history.krymskiy-most",
+  "type": "prerequisites_for",
+  "why": "мост связал Крым с Россией"
+ },
+ {
+  "source": "C.history.krymskiy-most",
+  "target": "C.history.infrastrukturnye-proekty",
+  "type": "part_of",
+  "why": "мост через Керченский пролив"
+ },
+ {
+  "source": "C.history.trassa-tavrida",
+  "target": "C.history.infrastrukturnye-proekty",
+  "type": "part_of",
+  "why": "автодорога в Крыму"
+ },
+ {
+  "source": "C.history.konstitutsiya-rossii-1993-goda",
+  "target": "C.history.konstitutsionnaya-reforma-2020-goda",
+  "type": "prerequisites_for",
+  "why": "поправки к конституции 1993 г."
+ },
+ {
+  "source": "C.history.konstitutsionnaya-reforma-2020-goda",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "поправки 2020 г."
+ },
+ {
+  "source": "C.history.raspad-sssr",
+  "target": "C.history.rossiyskoe-obschestvo-posle-raspada-sssr",
+  "type": "prerequisites_for",
+  "why": "облик общества изменился после распада СССР"
+ },
+ {
+  "source": "C.history.rossiyskoe-obschestvo-posle-raspada-sssr",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "общество XXI в."
+ },
+ {
+  "source": "C.history.trudovaya-migratsiya",
+  "target": "C.history.rossiyskoe-obschestvo-posle-raspada-sssr",
+  "type": "part_of",
+  "why": "приезд мигрантов на заработки"
+ },
+ {
+  "source": "C.history.trudovaya-migratsiya",
+  "target": "C.history.migratsionnaya-politika",
+  "type": "prerequisites_for",
+  "why": "политика регулирует трудовую миграцию"
+ },
+ {
+  "source": "C.history.sotsialnaya-politika-v-rossiyskoy-federatsii",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "социальная политика государства"
+ },
+ {
+  "source": "C.history.zdravoohranenie",
+  "target": "C.history.reformy-zdravoohraneniya-v-rossiyskoy-federatsii",
+  "type": "prerequisites_for",
+  "why": "реформировали систему здравоохранения"
+ },
+ {
+  "source": "C.history.reformy-zdravoohraneniya-v-rossiyskoy-federatsii",
+  "target": "C.history.sotsialnaya-politika-v-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "реформы медицины"
+ },
+ {
+  "source": "C.history.pensionnye-reformy-v-rossiyskoy-federatsii",
+  "target": "C.history.sotsialnaya-politika-v-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "реформы пенсионной системы"
+ },
+ {
+  "source": "C.history.reforma-obrazovaniya-v-rossiyskoy-federatsii",
+  "target": "C.history.sotsialnaya-politika-v-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "реформы школы и вузов"
+ },
+ {
+  "source": "C.history.srednyaya-prodolzhitelnost-zhizni",
+  "target": "C.history.depopulyatsiya",
+  "type": "prerequisites_for",
+  "why": "снижение продолжительности жизни вело к убыли населения"
+ },
+ {
+  "source": "C.history.depopulyatsiya",
+  "target": "C.history.demograficheskaya-politika",
+  "type": "prerequisites_for",
+  "why": "демографическая политика направлена против убыли населения"
+ },
+ {
+  "source": "C.history.demograficheskaya-politika",
+  "target": "C.history.sotsialnaya-politika-v-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "программы поддержки рождаемости"
+ },
+ {
+  "source": "C.history.semeynaya-politika",
+  "target": "C.history.demograficheskaya-politika",
+  "type": "part_of",
+  "why": "меры по поощрению рождаемости"
+ },
+ {
+  "source": "C.history.zdorovyy-obraz-zhizni",
+  "target": "C.history.sotsialnaya-politika-v-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "пропаганда спорта и здоровья"
+ },
+ {
+  "source": "C.history.sochi",
+  "target": "C.history.zimnie-olimpiyskie-igry-2014-goda-v-sochi",
+  "type": "prerequisites_for",
+  "why": "игры прошли в Сочи"
+ },
+ {
+  "source": "C.history.zimnie-olimpiyskie-igry-2014-goda-v-sochi",
+  "target": "C.history.olimpiyskoe-dvizhenie",
+  "type": "part_of",
+  "why": "XXII зимние Олимпийские игры"
+ },
+ {
+  "source": "C.history.sochi",
+  "target": "C.history.paralimpiyskie-igry-2014-goda-v-sochi",
+  "type": "prerequisites_for",
+  "why": "игры прошли в Сочи"
+ },
+ {
+  "source": "C.history.paralimpiyskie-igry-2014-goda-v-sochi",
+  "target": "C.history.sport",
+  "type": "part_of",
+  "why": "XI зимние Паралимпийские игры"
+ },
+ {
+  "source": "C.history.zimnie-olimpiyskie-igry-2014-goda-v-sochi",
+  "target": "C.history.dopingovye-skandaly",
+  "type": "prerequisites_for",
+  "why": "обвинения в допинге после Олимпиады"
+ },
+ {
+  "source": "C.history.dopingovye-skandaly",
+  "target": "C.history.sport",
+  "type": "part_of",
+  "why": "последствия для российского спорта"
+ },
+ {
+  "source": "C.history.chempionat-mira-po-futbolu-2018-goda",
+  "target": "C.history.sport",
+  "type": "part_of",
+  "why": "чемпионат мира в России"
+ },
+ {
+  "source": "C.history.sotsialnaya-polyarizatsiya-obschestva",
+  "target": "C.history.sotsialnaya-differentsiatsiya",
+  "type": "prerequisites_for",
+  "why": "неравенство 1990-х сохранилось"
+ },
+ {
+  "source": "C.history.sotsialnaya-otvetstvennost-biznesa",
+  "target": "C.history.sotsialnaya-politika-v-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "участие бизнеса в социальных программах"
+ },
+ {
+  "source": "C.history.modernizatsiya-bytovoy-sfery",
+  "target": "C.history.modernizatsiya",
+  "type": "is_a",
+  "why": "модернизация быта"
+ },
+ {
+  "source": "C.history.informatsionnaya-revolyutsiya",
+  "target": "C.history.globalnoe-informatsionnoe-prostranstvo",
+  "type": "prerequisites_for",
+  "why": "информационная революция создала единое пространство"
+ },
+ {
+  "source": "C.history.sredstva-massovoy-informatsii",
+  "target": "C.history.globalnoe-informatsionnoe-prostranstvo",
+  "type": "part_of",
+  "why": "СМИ — часть информационного пространства"
+ },
+ {
+  "source": "C.history.kompyuterizatsiya",
+  "target": "C.history.informatsionnaya-revolyutsiya",
+  "type": "part_of",
+  "why": "массовое распространение компьютеров"
+ },
+ {
+  "source": "C.history.massovaya-avtomobilizatsiya",
+  "target": "C.history.rossiyskoe-obschestvo-posle-raspada-sssr",
+  "type": "part_of",
+  "why": "массовое распространение автомобилей"
+ },
+ {
+  "source": "C.history.voenno-patrioticheskie-dvizheniya",
+  "target": "C.history.rossiyskoe-obschestvo-posle-raspada-sssr",
+  "type": "part_of",
+  "why": "движения патриотического воспитания"
+ },
+ {
+  "source": "C.history.velikaya-otechestvennaya-voyna",
+  "target": "C.history.bessmertnyy-polk",
+  "type": "prerequisites_for",
+  "why": "шествие памяти участников войны"
+ },
+ {
+  "source": "C.history.bessmertnyy-polk",
+  "target": "C.history.voenno-patrioticheskie-dvizheniya",
+  "type": "part_of",
+  "why": "народное движение памяти"
+ },
+ {
+  "source": "C.history.velikaya-otechestvennaya-voyna",
+  "target": "C.history.prazdnovanie-75-letiya-pobedy",
+  "type": "prerequisites_for",
+  "why": "юбилей Победы в 2020 г."
+ },
+ {
+  "source": "C.history.prazdnovanie-75-letiya-pobedy",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "празднование 2020 г."
+ },
+ {
+  "source": "C.history.kontseptsiya-vneshney-politiki-rossiyskoy-federatsii",
+  "target": "C.history.vneshnyaya-politika-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "концепции 2000 г. и последующих лет"
+ },
+ {
+  "source": "C.history.grazhdanskaya-voyna-v-sirii",
+  "target": "C.history.pomosch-rossii-sirii",
+  "type": "prerequisites_for",
+  "why": "Россия помогла Сирии в гражданской войне"
+ },
+ {
+  "source": "C.history.pomosch-rossii-sirii",
+  "target": "C.history.vneshnyaya-politika-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "военная операция в Сирии с 2015 г."
+ },
+ {
+  "source": "C.history.nato",
+  "target": "C.history.priblizhenie-voennoy-infrastruktury-nato-k-granitsam-rossii",
+  "type": "prerequisites_for",
+  "why": "расширение НАТО на восток"
+ },
+ {
+  "source": "C.history.priblizhenie-voennoy-infrastruktury-nato-k-granitsam-rossii",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "угроза безопасности России"
+ },
+ {
+  "source": "C.history.dogovory-ob-ogranichenii-strategicheskih-vooruzheniy",
+  "target": "C.history.vyhod-ssha-iz-soglasheniy-po-kontrolyu-nad-vooruzheniyami",
+  "type": "prerequisites_for",
+  "why": "США вышли из договоров об ограничении вооружений"
+ },
+ {
+  "source": "C.history.vyhod-ssha-iz-soglasheniy-po-kontrolyu-nad-vooruzheniyami",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "разрушение системы контроля над вооружениями"
+ },
+ {
+  "source": "C.history.vyhod-ssha-iz-soglasheniy-po-kontrolyu-nad-vooruzheniyami",
+  "target": "C.history.vysokotochnoe-oruzhie",
+  "type": "prerequisites_for",
+  "why": "ответом России стало новое оружие"
+ },
+ {
+  "source": "C.history.sodruzhestvo-nezavisimyh-gosudarstv",
+  "target": "C.history.evraziyskoe-ekonomicheskoe-soobschestvo",
+  "type": "prerequisites_for",
+  "why": "ЕврАзЭС создали страны СНГ"
+ },
+ {
+  "source": "C.history.evraziyskoe-ekonomicheskoe-soobschestvo",
+  "target": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "type": "part_of",
+  "why": "экономическая интеграция на постсоветском пространстве"
+ },
+ {
+  "source": "C.history.mirotvorcheskie-missii-rossii",
+  "target": "C.history.vneshnyaya-politika-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "российские миротворцы в зонах конфликтов"
+ },
+ {
+  "source": "C.history.pridnestrove",
+  "target": "C.history.mirotvorcheskie-missii-rossii",
+  "type": "prerequisites_for",
+  "why": "миротворцы в Приднестровье"
+ },
+ {
+  "source": "C.history.gruziya",
+  "target": "C.history.postsovetskoe-prostranstvo",
+  "type": "part_of",
+  "why": "государство постсоветского пространства"
+ },
+ {
+  "source": "C.history.gruziya",
+  "target": "C.history.napadenie-gruzii-na-yuzhnuyu-osetiyu",
+  "type": "prerequisites_for",
+  "why": "Грузия напала на Южную Осетию"
+ },
+ {
+  "source": "C.history.yuzhnaya-osetiya",
+  "target": "C.history.napadenie-gruzii-na-yuzhnuyu-osetiyu",
+  "type": "prerequisites_for",
+  "why": "нападение на Южную Осетию в августе 2008 г."
+ },
+ {
+  "source": "C.history.napadenie-gruzii-na-yuzhnuyu-osetiyu",
+  "target": "C.history.operatsiya-po-prinuzhdeniyu-gruzii-k-miru",
+  "type": "prerequisites_for",
+  "why": "Россия защитила Южную Осетию"
+ },
+ {
+  "source": "C.history.operatsiya-po-prinuzhdeniyu-gruzii-k-miru",
+  "target": "C.history.vneshnyaya-politika-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "операция августа 2008 г."
+ },
+ {
+  "source": "C.history.sovet-evropy",
+  "target": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "type": "part_of",
+  "why": "европейская организация, куда Россия вступила в 1996 г."
+ },
+ {
+  "source": "C.history.shanhayskaya-organizatsiya-sotrudnichestva",
+  "target": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "type": "part_of",
+  "why": "объединение стран Евразии"
+ },
+ {
+  "source": "C.history.briks",
+  "target": "C.history.regionalnaya-i-mezhregionalnaya-integratsiya",
+  "type": "part_of",
+  "why": "межрегиональное объединение крупных стран"
+ },
+ {
+  "source": "C.history.bolshaya-dvadtsatka",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "форум крупнейших экономик мира"
+ },
+ {
+  "source": "C.history.ssha",
+  "target": "C.history.slantsevaya-revolyutsiya",
+  "type": "prerequisites_for",
+  "why": "добыча сланцевой нефти и газа в США"
+ },
+ {
+  "source": "C.history.mirovoy-neftegazovyy-rynok",
+  "target": "C.history.mirovoy-rynok",
+  "type": "part_of",
+  "why": "рынок нефти и газа"
+ },
+ {
+  "source": "C.history.ukraina",
+  "target": "C.history.gosudarstvennyy-perevorot-na-ukraine-2014-goda",
+  "type": "prerequisites_for",
+  "why": "переворот на Украине в 2014 г."
+ },
+ {
+  "source": "C.history.donbass",
+  "target": "C.history.minskie-soglasheniya",
+  "type": "prerequisites_for",
+  "why": "соглашения об урегулировании в Донбассе"
+ },
+ {
+  "source": "C.history.donetskaya-narodnaya-respublika",
+  "target": "C.history.donbass",
+  "type": "part_of",
+  "why": "республика в Донбассе"
+ },
+ {
+  "source": "C.history.luganskaya-narodnaya-respublika",
+  "target": "C.history.donbass",
+  "type": "part_of",
+  "why": "республика в Донбассе"
+ },
+ {
+  "source": "C.history.gosudarstvennyy-perevorot-na-ukraine-2014-goda",
+  "target": "C.history.donetskaya-narodnaya-respublika",
+  "type": "prerequisites_for",
+  "why": "республика провозглашена после переворота"
+ },
+ {
+  "source": "C.history.gosudarstvennyy-perevorot-na-ukraine-2014-goda",
+  "target": "C.history.luganskaya-narodnaya-respublika",
+  "type": "prerequisites_for",
+  "why": "республика провозглашена после переворота"
+ },
+ {
+  "source": "C.history.donetskaya-narodnaya-respublika",
+  "target": "C.history.spetsialnaya-voennaya-operatsiya",
+  "type": "prerequisites_for",
+  "why": "операция в защиту Донбасса"
+ },
+ {
+  "source": "C.history.luganskaya-narodnaya-respublika",
+  "target": "C.history.spetsialnaya-voennaya-operatsiya",
+  "type": "prerequisites_for",
+  "why": "операция в защиту Донбасса"
+ },
+ {
+  "source": "C.history.spetsialnaya-voennaya-operatsiya",
+  "target": "C.history.vneshnyaya-politika-rossiyskoy-federatsii",
+  "type": "part_of",
+  "why": "операция 2022 г."
+ },
+ {
+  "source": "C.history.vossoedinenie-kryma-s-rossiey",
+  "target": "C.history.sanktsii-protiv-rossii",
+  "type": "prerequisites_for",
+  "why": "санкции ввели после воссоединения Крыма"
+ },
+ {
+  "source": "C.history.sanktsii-protiv-rossii",
+  "target": "C.history.mezhdunarodnye-otnosheniya-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "давление Запада на Россию"
+ },
+ {
+  "source": "C.history.pandemiya-koronavirusa",
+  "target": "C.history.epidemii",
+  "type": "is_a",
+  "why": "глобальная эпидемия 2020 г."
+ },
+ {
+  "source": "C.history.pandemiya-koronavirusa",
+  "target": "C.history.rossiya-v-xxi-veke",
+  "type": "part_of",
+  "why": "борьба с пандемией в России"
+ },
+ {
+  "source": "C.history.informatsionnaya-revolyutsiya",
+  "target": "C.history.globalizatsiya",
+  "type": "prerequisites_for",
+  "why": "информационные технологии связали мир"
+ },
+ {
+  "source": "C.history.globalizatsiya",
+  "target": "C.history.sovremennyy-mir",
+  "type": "part_of",
+  "why": "главный процесс современного мира"
+ },
+ {
+  "source": "C.history.pandemiya-koronavirusa",
+  "target": "C.history.neftyanoy-krizis-2020-goda",
+  "type": "prerequisites_for",
+  "why": "пандемия обрушила спрос на нефть"
+ },
+ {
+  "source": "C.history.neftyanoy-krizis-2020-goda",
+  "target": "C.history.sovremennyy-mir",
+  "type": "part_of",
+  "why": "кризис 2020 г."
+ },
+ {
+  "source": "C.history.kultura-sssr-v-seredine-1950-h-pervoy-polovine-1960-h-godov",
+  "target": "C.history.kultura-rossii-v-kontse-xx-nachale-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап отечественной культуры"
+ },
+ {
+  "source": "C.history.kommertsializatsiya-kultury",
+  "target": "C.history.kultura-rossii-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "рынок в культуре"
+ },
+ {
+  "source": "C.history.sovetskaya-nauka",
+  "target": "C.history.rossiyskaya-nauka-kontsa-xx-nachala-xxi-veka",
+  "type": "prerequisites_for",
+  "why": "следующий этап отечественной науки"
+ },
+ {
+  "source": "C.history.rossiyskaya-nauka-kontsa-xx-nachala-xxi-veka",
+  "target": "C.history.kultura-rossii-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "наука конца XX — начала XXI в."
+ },
+ {
+  "source": "C.history.religioznye-konfessii",
+  "target": "C.history.kultura-rossii-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "рост роли религии"
+ },
+ {
+  "source": "C.history.russkaya-tserkov",
+  "target": "C.history.religioznye-konfessii",
+  "type": "part_of",
+  "why": "крупнейшая конфессия России"
+ },
+ {
+  "source": "C.history.literatura",
+  "target": "C.history.kultura-rossii-v-kontse-xx-nachale-xxi-veka",
+  "type": "part_of",
+  "why": "современная российская литература"
+ }
+]

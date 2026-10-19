@@ -1,0 +1,17 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.2.1.8", "concepts": [
+  {"name": "Средняя кинетическая энергия теплового движения частиц", "type": "величина", "evidence": "средней кинетической энергией поступательного теплового движения его молекул", "formula": "\\overline{\\varepsilon_{\\text{пост}}} = \\overline{\\left( \\frac{m_{0} \\upsilon^{2}}{2} \\right)} = \\frac{3}{2} kT", "role": "main"},
+  {"name": "Температура", "type": "величина", "evidence": "Связь температуры газа", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.9", "concepts": [
+  {"name": "Зависимость давления газа от концентрации молекул и температуры", "type": "закон", "evidence": "p = nkT", "formula": "p = nkT", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.1", "concepts": [
+  {"name": "Тепловое равновесие", "type": "понятие", "evidence": "Тепловое равновесие", "role": "main"},
+  {"name": "Температура", "type": "величина", "evidence": "температура", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.10", "concepts": [
+  {"name": "КПД цикла Карно", "type": "величина", "evidence": "Максимальное значение КПД", "formula": "max\\eta = \\eta_{\\text{Карно}} = \\frac{T_{\\text{нагр}} - T_{\\text{хол}}}{T_{\\text{нагр}}} = 1 - \\frac{T_{\\text{хол}}}{T_{\\text{нагр}}}", "role": "main"},
+  {"name": "Цикл Карно", "type": "понятие", "evidence": "Цикл Карно", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.11", "concepts": [
+  {"name": "Уравнение теплового баланса", "type": "закон", "evidence": "Уравнение теплового баланса", "formula": "Q_1 + Q_2 + Q_3 + \\ldots = 0", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.2.2.2", "concepts": [
+  {"name": "Внутренняя энергия", "type": "величина", "evidence": "Внутренняя энергия", "role": "main"}]}
+]}

@@ -1,0 +1,28 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.2.1.12", "concepts": [
+  {"name": "Изопроцессы", "type": "явление", "evidence": "Изопроцессы в разреженном газе", "role": "main"},
+  {"name": "Изотермический процесс", "type": "явление", "evidence": "изотерма (T = const)", "formula": "pV = \\text{const}", "role": "part"},
+  {"name": "Изохорный процесс", "type": "явление", "evidence": "изохора (V = const)", "formula": "\\frac{p}{T} = \\text{const}", "role": "part"},
+  {"name": "Изобарный процесс", "type": "явление", "evidence": "изобара (p = const)", "formula": "\\frac{V}{T} = \\text{const}", "role": "part"},
+  {"name": "Графики изопроцессов", "type": "понятие", "evidence": "Графическое представление изопроцессов на pV-, pT- и VT-диаграммах", "role": "part"},
+  {"name": "Объединённый газовый закон", "type": "закон", "evidence": "Объединенный газовый закон", "formula": "\\frac{pV}{T} = const", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.13", "concepts": [
+  {"name": "Насыщенный пар", "type": "понятие", "evidence": "Насыщенные и ненасыщенные пары", "role": "main"},
+  {"name": "Ненасыщенный пар", "type": "понятие", "evidence": "ненасыщенные пары", "role": "part"},
+  {"name": "Зависимость плотности и давления насыщенного пара от температуры", "type": "явление", "evidence": "Качественная зависимость плотности и давления насыщенного пара от температуры", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.14", "concepts": [
+  {"name": "Влажность воздуха", "type": "величина", "evidence": "Влажность воздуха", "role": "main"},
+  {"name": "Относительная влажность воздуха", "type": "величина", "evidence": "Относительная влажность", "formula": "\\varphi = \\frac{p_{\\text{пара}}(T)}{p_{\\text{насыщ, пара}}(T)} = \\frac{\\rho_{\\text{пара}}(T)}{\\rho_{\\text{насыщ, пара}}(T)}", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.15", "concepts": [
+  {"name": "Изменение агрегатных состояний вещества", "type": "явление", "evidence": "Изменение агрегатных состояний вещества", "role": "main"},
+  {"name": "Испарение", "type": "явление", "evidence": "испарение", "role": "part"},
+  {"name": "Конденсация", "type": "явление", "evidence": "конденсация", "role": "part"},
+  {"name": "Кипение", "type": "явление", "evidence": "кипение жидкости", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.16", "concepts": [
+  {"name": "Изменение агрегатных состояний вещества", "type": "явление", "evidence": "Изменение агрегатных состояний вещества", "role": "main"},
+  {"name": "Плавление", "type": "явление", "evidence": "плавление", "role": "part"},
+  {"name": "Кристаллизация", "type": "явление", "evidence": "кристаллизация", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.2.1.17", "concepts": [
+  {"name": "Преобразование энергии в фазовых переходах", "type": "явление", "evidence": "Преобразование энергии в фазовых переходах", "role": "main"},
+  {"name": "Изменение агрегатных состояний вещества", "type": "явление", "evidence": "фазовых переходах", "role": "part"}]}
+]}

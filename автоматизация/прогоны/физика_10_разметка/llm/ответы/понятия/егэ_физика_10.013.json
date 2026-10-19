@@ -1,0 +1,14 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.3.2.6", "concepts": [
+  {"name": "Закон Ома для полной цепи", "type": "закон", "evidence": "Закон Ома для полной (замкнутой) электрической цепи", "formula": "\\mathcal{E} = IR + Ir; I = \\frac{\\mathcal{E}}{R + r}", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.3.2.7", "concepts": [
+  {"name": "Параллельное соединение проводников", "type": "понятие", "evidence": "Параллельное соединение проводников", "formula": "I = I_1 + I_2 +...; U_1 = U_2 =...; \\frac{1}{R_{\\text{паралл}}} = \\frac{1}{R_1} + \\frac{1}{R_2} +...", "role": "main"},
+  {"name": "Последовательное соединение проводников", "type": "понятие", "evidence": "Последовательное соединение проводников", "formula": "U = U_1 + U_2 +...; I_1 = I_2 =...; R_{\\text{посл}} = R_1 + R_2 +...", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.2.8", "concepts": [
+  {"name": "Работа электрического тока", "type": "величина", "evidence": "Работа электрического тока", "formula": "A = IUt", "role": "main"},
+  {"name": "Закон Джоуля — Ленца", "type": "закон", "evidence": "Закон Джоуля – Ленца", "formula": "Q = I^2Rt; Q = A = I^2Rt = IUt = \\frac{U^2}{R}t", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.3.2.9", "concepts": [
+  {"name": "Мощность электрического тока", "type": "величина", "evidence": "Мощность электрического тока", "formula": "P = \\frac{\\Delta A}{\\Delta t} \\bigg\\vert_{\\Delta t \\to 0} = IU", "role": "main"},
+  {"name": "Тепловая мощность", "type": "величина", "evidence": "Тепловая мощность, выделяемая на резисторе", "formula": "P = I^2R = \\frac{U^2}{R} = IU", "role": "part"},
+  {"name": "Мощность источника тока", "type": "величина", "evidence": "Мощность источника тока", "formula": "P_{\\mathcal{E}} = \\frac{\\Delta A_{\\text{ст. сил}}}{\\Delta t} \\bigg\\vert_{\\Delta t \\to 0} = \\mathcal{E}I", "role": "part"}]}
+]}

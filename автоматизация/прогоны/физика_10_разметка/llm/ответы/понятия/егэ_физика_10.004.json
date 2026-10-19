@@ -1,0 +1,18 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.1.3.3", "concepts": [
+  {"name": "Условия равновесия твёрдого тела", "type": "закон", "evidence": "Условия равновесия твёрдого тела", "formula": "M_1 + M_2 +... = 0; \\vec{F}_1 + \\vec{F}_2 +... = 0", "role": "main"},
+  {"name": "Инерциальная система отсчёта", "type": "понятие", "evidence": "в ИСО", "aliases": ["ИСО"], "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.4.1", "concepts": [
+  {"name": "Импульс тела", "type": "величина", "evidence": "Импульс материальной точки", "formula": "\\vec{p} = m\\vec{\\upsilon}", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.1.4.2", "concepts": [
+  {"name": "Импульс системы тел", "type": "величина", "evidence": "Импульс системы тел", "formula": "\\vec{p} = \\vec{p}_1 + \\vec{p}_2 +...", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.1.4.3", "concepts": [
+  {"name": "Закон изменения импульса", "type": "закон", "evidence": "Закон изменения и сохранения импульса", "formula": "\\Delta\\vec{p} \\equiv \\Delta(\\vec{p}_1 + \\vec{p}_2 +...)=\\vec{F}_{1_{\\text{внешн}}} \\Delta t + \\vec{F}_{2_{\\text{внешн}}} \\Delta t +...", "role": "main"},
+  {"name": "Закон сохранения импульса", "type": "закон", "evidence": "сохранения импульса", "formula": "\\Delta\\vec{p} \\equiv \\Delta(\\vec{p}_1 + \\vec{p}_2 +...)=0", "role": "part"},
+  {"name": "Инерциальная система отсчёта", "type": "понятие", "evidence": "в ИСО", "aliases": ["ИСО"], "role": "part"},
+  {"name": "Реактивное движение", "type": "явление", "evidence": "Реактивное движение", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.4.4", "concepts": [
+  {"name": "Механическая работа", "type": "величина", "evidence": "Работа силы на малом перемещении", "formula": "A = \\vert \\vec{F}\\vert \\cdot \\vert \\Delta\\vec{r}\\vert \\cdot \\cos \\alpha = F_x \\cdot \\Delta x", "role": "main"}]},
+ {"source_id": "SOO.physics.ege.el.1.4.5", "concepts": [
+  {"name": "Механическая мощность", "type": "величина", "evidence": "Мощность силы", "formula": "P = \\frac{\\Delta A}{\\Delta t} \\bigg\\vert_{\\Delta t \\to 0} = F \\cdot \\upsilon \\cdot \\cos \\alpha", "role": "main"}]}
+]}

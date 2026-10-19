@@ -1,0 +1,25 @@
+{"результат": [
+ {"source_id": "SOO.physics.ege.el.1.2.4", "concepts": [
+  {"name": "Второй закон Ньютона", "type": "закон", "evidence": "Второй закон Ньютона", "formula": "\\vec{F} = m\\vec{a}; \\Delta\\vec{p} = \\vec{F}\\Delta t", "role": "main"},
+  {"name": "Материальная точка", "type": "модель", "evidence": "для материальной точки", "role": "part"},
+  {"name": "Инерциальная система отсчёта", "type": "понятие", "evidence": "в ИСО", "aliases": ["ИСО"], "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.2.5", "concepts": [
+  {"name": "Третий закон Ньютона", "type": "закон", "evidence": "Третий закон Ньютона", "formula": "\\vec{F}_{12} = -\\vec{F}_{21}", "role": "main"},
+  {"name": "Материальная точка", "type": "модель", "evidence": "для материальных точек", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.2.6", "concepts": [
+  {"name": "Закон всемирного тяготения", "type": "закон", "evidence": "Закон всемирного тяготения", "formula": "F = G \\frac{m_1 m_2}{R^2}", "role": "main"},
+  {"name": "Сила тяжести", "type": "величина", "evidence": "Сила тяжести", "formula": "mg = \\frac{GMm}{(R_0 + h)^2}", "role": "part"},
+  {"name": "Центр тяжести", "type": "понятие", "evidence": "Центр тяжести тела", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.2.7", "concepts": [
+  {"name": "Сила упругости", "type": "величина", "evidence": "Сила упругости", "role": "main"},
+  {"name": "Закон Гука", "type": "закон", "evidence": "Закон Гука", "formula": "F_x = -kx", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.2.8", "concepts": [
+  {"name": "Сила трения", "type": "величина", "evidence": "Сила трения", "role": "main"},
+  {"name": "Сухое трение", "type": "явление", "evidence": "Сухое трение", "role": "part"},
+  {"name": "Сила трения скольжения", "type": "величина", "evidence": "Сила трения скольжения", "formula": "F_{\\text{тр}} = \\mu N", "role": "part"},
+  {"name": "Сила трения покоя", "type": "величина", "evidence": "Сила трения покоя", "formula": "F_{\\text{тр}} \\leq \\mu N", "role": "part"},
+  {"name": "Коэффициент трения", "type": "величина", "evidence": "Коэффициент трения", "role": "part"}]},
+ {"source_id": "SOO.physics.ege.el.1.3.1", "concepts": [
+  {"name": "Момент силы", "type": "величина", "evidence": "Момент силы относительно оси вращения", "formula": "\\vert M\\vert = Fl", "role": "main"},
+  {"name": "Плечо силы", "type": "величина", "evidence": "плечо силы", "role": "part"}]}
+]}
